@@ -11,8 +11,7 @@
 /turf/open/floor/plating,
 /area/varadero/interior/cargo)
 "ad" = (
-/obj/structure/bed/hybrisa/bunkbed1,
-/turf/open/floor/shiva,
+/turf/open/floor/hybrisa/carpet/rug_colorable/grey_blue/south,
 /area/space)
 "ae" = (
 /obj/structure/machinery/door/airlock/almayer/secure/colony{
@@ -1705,6 +1704,12 @@
 "gc" = (
 /turf/closed/wall/new_varadero,
 /area/varadero/exterior/pool)
+"gd" = (
+/obj/structure/barricade/handrail{
+	dir = 8
+	},
+/turf/open/floor/rampbottom,
+/area/space)
 "ge" = (
 /obj/structure/surface/rack,
 /obj/item/frame/rack,
@@ -2014,8 +2019,8 @@
 /turf/open/floor/shiva/yellow/east,
 /area/varadero/interior/cargo)
 "hn" = (
-/obj/structure/window/framed/shiva,
 /obj/structure/tent_curtain,
+/obj/structure/window/framed/shiva/blue,
 /turf/open/floor/plating,
 /area/space)
 "ho" = (
@@ -2590,10 +2595,6 @@
 "jz" = (
 /turf/open/shuttle/elevator,
 /area/space)
-"jA" = (
-/obj/structure/bed/hybrisa/bunkbed2,
-/turf/open/floor/shiva/blue/east,
-/area/space)
 "jB" = (
 /obj/structure/machinery/conveyor{
 	dir = 4;
@@ -2630,7 +2631,7 @@
 /area/space)
 "jI" = (
 /obj/structure/machinery/newscaster{
-	pixel_y = 27
+	pixel_y = 35
 	},
 /turf/open/floor/shiva/blue/north,
 /area/space)
@@ -2816,6 +2817,9 @@
 	},
 /turf/open/hybrisa/street/asphalt,
 /area/space)
+"kr" = (
+/turf/open/floor/rampbottom,
+/area/space)
 "ks" = (
 /obj/item/clothing/head/beret/marine/ro{
 	pixel_x = -7;
@@ -2864,9 +2868,23 @@
 "kz" = (
 /turf/open/floor/engine,
 /area/space)
+"kA" = (
+/obj/structure/barricade/handrail{
+	dir = 4;
+	layer = 3.2
+	},
+/turf/open/floor/rampbottom,
+/area/space)
 "kB" = (
 /turf/open/space/basic,
 /area/corsat/sigma/dorms)
+"kC" = (
+/obj/structure/prop/hybrisa/misc/blood/blood3{
+	pixel_x = -9;
+	pixel_y = 32
+	},
+/turf/closed/wall/shiva/prefabricated/blue,
+/area/space)
 "kD" = (
 /obj/item/stack/tile/plasteel{
 	pixel_x = 8;
@@ -2874,15 +2892,59 @@
 	},
 /turf/open/auto_turf/sand_white/layer1,
 /area/varadero/interior/caves/north_research)
+"kE" = (
+/obj/item/clothing/accessory/tie/gold{
+	pixel_x = 19;
+	pixel_y = -5
+	},
+/turf/open/floor/hybrisa/carpet/carpetblack,
+/area/space)
+"kF" = (
+/obj/structure/bed/hybrisa/bunkbed2,
+/obj/effect/landmark/corpsespawner/hybrisa/kelland_miner,
+/turf/open/floor/hybrisa/carpet/carpetblack,
+/area/space)
 "kG" = (
 /turf/open/auto_turf/sand_white/layer1,
 /area/varadero/interior_protected/caves/central)
+"kH" = (
+/obj/structure/surface/table/woodentable/fancy,
+/obj/item/prop/helmetgarb/prescription_bottle{
+	pixel_x = 9
+	},
+/obj/item/clothing/glasses/meson/prescription{
+	pixel_x = -4;
+	pixel_y = 3
+	},
+/turf/open/floor/hybrisa/carpet/carpetblack,
+/area/space)
+"kI" = (
+/obj/structure/surface/table/woodentable/fancy,
+/obj/item/clock,
+/turf/open/floor/hybrisa/carpet/carpetblack,
+/area/space)
+"kJ" = (
+/obj/structure/bed/hybrisa/bunkbed2,
+/turf/open/floor/hybrisa/carpet/carpetblack,
+/area/space)
+"kK" = (
+/obj/item/clothing/gloves/boxing/green,
+/obj/structure/surface/table/woodentable/fancy,
+/turf/open/floor/hybrisa/carpet/carpetblack,
+/area/space)
 "kL" = (
 /obj/structure/machinery/conveyor{
 	dir = 4;
 	icon_state = "conveyor-1"
 	},
 /turf/open/new_varadero,
+/area/space)
+"kM" = (
+/obj/structure/flora/pottedplant{
+	icon_state = "pottedplant_22";
+	layer = 2.5
+	},
+/turf/open/floor/shiva/blue,
 /area/space)
 "kN" = (
 /turf/open/floor/darkbrown2/southeast,
@@ -2898,10 +2960,65 @@
 	},
 /turf/open/floor/plating/icefloor/asteroidplating,
 /area/varadero/interior/maintenance/research)
+"kP" = (
+/obj/structure/machinery/door/airlock/almayer/generic,
+/turf/open/floor/hybrisa/metal/grated,
+/area/space)
+"kQ" = (
+/turf/open/floor/hybrisa/carpet/carpetblack,
+/area/space)
+"kR" = (
+/obj/structure/sign/safety/bathunisex{
+	pixel_x = -0;
+	pixel_y = -7
+	},
+/obj/structure/mirror{
+	pixel_x = 5;
+	pixel_y = 5
+	},
+/turf/closed/wall/shiva/prefabricated/blue,
+/area/space)
 "kS" = (
 /obj/item/device/camera,
 /turf/open/floor/plating/icefloor/asteroidplating,
 /area/almayer/shipboard/port_point_defense)
+"kT" = (
+/obj/structure/sink{
+	dir = 8;
+	pixel_x = -11
+	},
+/obj/effect/decal/cleanable/dirt/alt_dirt,
+/turf/open/floor/strata/white_cyan2/west,
+/area/space)
+"kU" = (
+/obj/structure/bed/chair/comfy{
+	dir = 1;
+	icon_state = "comfychair_blue"
+	},
+/turf/open/floor/shiva/bluecorners/west,
+/area/space)
+"kV" = (
+/obj/structure/bed/chair/comfy{
+	dir = 1;
+	icon_state = "comfychair_blue"
+	},
+/obj/item/reagent_container/food/drinks/bottle/beer/craft/mono{
+	pixel_x = 8;
+	pixel_y = -3
+	},
+/turf/open/floor/shiva,
+/area/space)
+"kW" = (
+/obj/structure/bed/chair/comfy{
+	dir = 1;
+	icon_state = "comfychair_blue"
+	},
+/obj/item/reagent_container/food/drinks/cans/beer{
+	pixel_x = -4;
+	pixel_y = -4
+	},
+/turf/open/floor/shiva/bluecorners,
+/area/space)
 "kX" = (
 /turf/open/floor/shiva/blue/east,
 /area/space)
@@ -2914,6 +3031,10 @@
 	},
 /obj/structure/pipes/standard/simple/hidden/green,
 /turf/open/floor/darkbrown2/north,
+/area/space)
+"la" = (
+/obj/structure/closet/wardrobe/suit,
+/turf/open/floor/shiva/blue/west,
 /area/space)
 "lb" = (
 /obj/structure/toilet{
@@ -2941,6 +3062,13 @@
 	pixel_y = 1
 	},
 /turf/open/floor/strata/multi_tiles,
+/area/space)
+"ld" = (
+/obj/structure/mirror{
+	pixel_x = 5;
+	pixel_y = 5
+	},
+/turf/closed/wall/shiva/prefabricated/blue,
 /area/space)
 "le" = (
 /obj/structure/machinery/light{
@@ -2970,6 +3098,44 @@
 /obj/effect/decal/hybrisa/dirt,
 /turf/open/floor/almayer/plate,
 /area/space)
+"li" = (
+/obj/structure/sign/safety/bathunisex{
+	pixel_x = -1;
+	pixel_y = 6
+	},
+/obj/structure/mirror{
+	desc = "Do you remember who you are?";
+	icon_state = "mirror_broke";
+	name = "broken mirror";
+	pixel_x = 5;
+	pixel_y = 5
+	},
+/turf/closed/wall/shiva/prefabricated/blue,
+/area/space)
+"lj" = (
+/obj/structure/sink{
+	dir = 8;
+	pixel_x = -11
+	},
+/obj/effect/decal/cleanable/dirt/alt_dirt{
+	color = "#140400";
+	pixel_y = 8;
+	pixel_x = 16
+	},
+/turf/open/floor/strata/white_cyan2/west,
+/area/space)
+"lk" = (
+/obj/structure/surface/table/woodentable/fancy,
+/obj/structure/machinery/computer/cameras/wooden_tv{
+	desc = "An old TV hooked up to a video cassette recorder, you can even use it to time shift WOW.";
+	layer = 3.2;
+	name = "Television set";
+	network = null;
+	pixel_x = -3;
+	pixel_y = 6
+	},
+/turf/open/floor/shiva/blue/north,
+/area/space)
 "ll" = (
 /obj/effect/decal/hybrisa/road/lines1,
 /obj/effect/decal/hybrisa/road/road_edge,
@@ -2996,14 +3162,47 @@
 /turf/open/auto_turf/snow/layer0,
 /area/space)
 "lp" = (
-/obj/structure/surface/table/woodentable/poor,
+/obj/structure/surface/table/woodentable/fancy,
+/obj/item/device/cassette_tape{
+	pixel_x = -9;
+	pixel_y = 9
+	},
+/obj/item/device/cassette_tape/heavymetal{
+	pixel_y = 9
+	},
+/obj/item/storage/pouch/cassette{
+	pixel_x = -8;
+	pixel_y = 4
+	},
+/obj/item/device/cassette_tape/pop3{
+	pixel_x = 7;
+	pixel_y = 9
+	},
+/obj/item/device/cassette_tape/prison{
+	pixel_x = 7;
+	pixel_y = -3
+	},
 /turf/open/floor/shiva/blue/north,
 /area/space)
 "lq" = (
 /turf/open/floor/darkbrown2/north,
 /area/space)
+"lr" = (
+/obj/structure/closet/wardrobe/pjs,
+/turf/open/floor/shiva/blue/north,
+/area/space)
 "ls" = (
 /obj/structure/closet/secure_closet/freezer/meat,
+/turf/open/floor/shiva/bluefull,
+/area/space)
+"lt" = (
+/obj/structure/closet/wardrobe,
+/turf/open/floor/shiva/blue/northeast,
+/area/space)
+"lu" = (
+/obj/structure/machinery/door/airlock/almayer/medical/glass/colony{
+	dir = 2
+	},
 /turf/open/floor/shiva/bluefull,
 /area/space)
 "lv" = (
@@ -3018,6 +3217,10 @@
 "lw" = (
 /turf/open/gm/dirt,
 /area/varadero/exterior/farocean)
+"lx" = (
+/obj/structure/sign/poster/music,
+/turf/closed/wall/shiva/prefabricated/blue,
+/area/space)
 "ly" = (
 /obj/structure/prop/structure_lattice{
 	dir = 1;
@@ -3025,6 +3228,10 @@
 	},
 /turf/open/floor/plating/icefloor/asteroidplating,
 /area/varadero/interior/caves/north_research)
+"lz" = (
+/obj/structure/machinery/space_heater,
+/turf/open/floor/shiva/blue/west,
+/area/space)
 "lA" = (
 /obj/effect/decal/warning_stripes{
 	icon_state = "N";
@@ -3048,6 +3255,16 @@
 	},
 /turf/open/floor/dark2,
 /area/space)
+"lE" = (
+/obj/structure/prop/hybrisa/misc/urinal,
+/turf/closed/wall/shiva/prefabricated/blue,
+/area/space)
+"lF" = (
+/obj/structure/flora/pottedplant{
+	icon_state = "pottedplant_10"
+	},
+/turf/open/floor/shiva/blue,
+/area/space)
 "lG" = (
 /obj/structure/closet/secure_closet/quartermaster,
 /turf/open/floor/wood,
@@ -3063,6 +3280,12 @@
 	},
 /turf/open/gm/river/desert/deep/no_slowdown,
 /area/varadero/interior/maintenance/north)
+"lI" = (
+/obj/structure/machinery/vending/cigarette/wy{
+	pixel_x = 6
+	},
+/turf/open/floor/shiva/blue/southeast,
+/area/space)
 "lJ" = (
 /obj/structure/catwalk,
 /obj/effect/decal/cleanable/blood/oil,
@@ -3083,9 +3306,26 @@
 /obj/item/device/flashlight/lamp/tripod,
 /turf/open/floor/plating/icefloor/asteroidplating,
 /area/varadero/interior_protected/maintenance/south)
+"lN" = (
+/obj/structure/closet/wardrobe/pjs,
+/turf/open/floor/shiva/blue/southwest,
+/area/space)
+"lO" = (
+/obj/structure/closet/wardrobe,
+/turf/open/floor/shiva/blue,
+/area/space)
+"lP" = (
+/obj/structure/surface/table/woodentable/fancy,
+/turf/open/floor/shiva/blue,
+/area/space)
 "lQ" = (
 /obj/structure/bed/chair/comfy/teal,
 /turf/open/floor/wood,
+/area/space)
+"lR" = (
+/obj/structure/surface/table/woodentable/fancy,
+/obj/item/book/manual/barman_recipes,
+/turf/open/floor/shiva/blue,
 /area/space)
 "lS" = (
 /obj/structure/toilet{
@@ -3096,11 +3336,47 @@
 /obj/effect/decal/cleanable/vomit,
 /turf/open/floor/hybrisa/tile/tilewhite,
 /area/space)
+"lT" = (
+/obj/structure/machinery/washing_machine,
+/turf/open/floor/shiva,
+/area/space)
+"lU" = (
+/obj/structure/bed/chair/comfy{
+	dir = 4
+	},
+/turf/open/floor/shiva/blue/west,
+/area/space)
+"lV" = (
+/obj/structure/surface/table/woodentable/fancy,
+/obj/item/toy/dice/d20,
+/obj/item/toy/prize/fireripley{
+	pixel_x = -10;
+	pixel_y = 19
+	},
+/obj/item/toy/prize/marauder{
+	pixel_x = 8;
+	pixel_y = 6;
+	pickupvol = 0
+	},
+/turf/open/floor/hybrisa/carpet/rug_colorable/grey_blue/east,
+/area/space)
+"lW" = (
+/obj/structure/bed/chair/comfy{
+	dir = 8
+	},
+/turf/open/floor/hybrisa/carpet/rug_colorable/grey_blue/west,
+/area/space)
 "lX" = (
 /obj/item/snowball,
 /obj/item/snowball,
 /obj/item/tool/shovel/snow,
 /turf/open/floor/shiva/yellow/east,
+/area/space)
+"lY" = (
+/obj/structure/machinery/vending/walkman{
+	pixel_x = 6
+	},
+/turf/open/floor/shiva/blue/east,
 /area/space)
 "lZ" = (
 /obj/structure/surface/table/reinforced/prison,
@@ -3135,10 +3411,23 @@
 /obj/structure/pipes/standard/simple/hidden/green,
 /turf/open/floor/shiva/yellowcorners/west,
 /area/varadero/interior/cargo)
+"me" = (
+/obj/structure/bed/chair{
+	can_buckle = 0;
+	dir = 4;
+	pixel_y = 11
+	},
+/turf/open/floor/shiva,
+/area/space)
 "mf" = (
 /obj/structure/flora/bush/ausbushes/var3/fullgrass,
 /turf/open/auto_turf/sand_white/layer1,
 /area/varadero/interior_protected/maintenance/south)
+"mg" = (
+/obj/structure/surface/table/woodentable/poor,
+/obj/item/notepad,
+/turf/open/floor/shiva,
+/area/space)
 "mh" = (
 /obj/structure/barricade/handrail/type_b,
 /turf/open/floor/dark2,
@@ -3147,11 +3436,57 @@
 /obj/structure/surface/table,
 /turf/open/floor/shiva/snow_mat/east,
 /area/space)
+"mj" = (
+/obj/structure/surface/table/woodentable/poor,
+/obj/item/toy/handcard/aceofspades,
+/obj/item/toy/handcard/aceofspades{
+	pixel_x = -2;
+	pixel_y = 5
+	},
+/turf/open/floor/shiva,
+/area/space)
+"mk" = (
+/obj/structure/machinery/space_heater/radiator{
+	dir = 8
+	},
+/obj/structure/bedsheetbin{
+	icon_state = "linenbin-empty";
+	layer = 2.9;
+	pixel_y = -8;
+	name = "bag basket";
+	desc = "A basket for shopping bags."
+	},
+/turf/open/floor/shiva/blue/east,
+/area/space)
+"ml" = (
+/obj/structure/surface/table/woodentable/fancy,
+/obj/item/toy/handcard/uno_reverse_blue{
+	pixel_x = 10
+	},
+/obj/item/toy/handcard/uno_reverse_red{
+	pixel_x = -10
+	},
+/obj/item/toy/handcard/uno_reverse_purple{
+	pixel_x = 5;
+	pixel_y = 9
+	},
+/turf/open/floor/hybrisa/carpet/rug_colorable/grey_blue/southeast,
+/area/space)
 "mm" = (
 /obj/structure/barricade/metal{
 	dir = 8
 	},
 /turf/open/floor/strata/multi_tiles,
+/area/space)
+"mn" = (
+/obj/structure/bed/chair/comfy{
+	dir = 8
+	},
+/turf/open/floor/hybrisa/carpet/rug_colorable/grey_blue/southwest,
+/area/space)
+"mo" = (
+/obj/structure/machinery/door/airlock/almayer/medical/glass/colony,
+/turf/open/floor/shiva/bluefull/west,
 /area/space)
 "mp" = (
 /obj/effect/landmark/objective_landmark/close,
@@ -3164,12 +3499,25 @@
 "mq" = (
 /turf/open/floor/darkyellow2/east,
 /area/space)
+"mr" = (
+/turf/open/floor/shiva/bluecorners/east,
+/area/space)
 "ms" = (
 /obj/structure/machinery/storm_siren{
 	pixel_y = 5
 	},
 /turf/open/floor/plating/icefloor/asteroidplating,
 /area/varadero/interior/cargo)
+"mt" = (
+/obj/structure/flora/pottedplant{
+	icon_state = "pottedplant_27";
+	pixel_y = 6
+	},
+/obj/structure/machinery/weather_siren{
+	dir = 8
+	},
+/turf/open/floor/shiva/blue/northeast,
+/area/space)
 "mu" = (
 /obj/structure/pipes/standard/simple/hidden/green{
 	dir = 4
@@ -3186,9 +3534,18 @@
 /obj/item/lightstick/variant/planted,
 /turf/open/gm/river/ocean/deep_ocean,
 /area/varadero/exterior/farocean)
+"mw" = (
+/obj/structure/bed/chair,
+/turf/open/floor/shiva,
+/area/space)
 "mx" = (
 /obj/structure/machinery/colony_floodlight_switch,
 /turf/closed/wall/shiva/prefabricated/orange,
+/area/space)
+"my" = (
+/obj/structure/bed/chair,
+/obj/structure/bed/chair,
+/turf/open/floor/shiva,
 /area/space)
 "mz" = (
 /turf/open/space/basic,
@@ -3209,6 +3566,10 @@
 /obj/structure/machinery/light,
 /turf/open/floor/wood,
 /area/space)
+"mD" = (
+/obj/structure/machinery/vending/snack,
+/turf/open/floor/shiva/blue/east,
+/area/space)
 "mE" = (
 /obj/structure/pipes/standard/simple/hidden/green{
 	dir = 4
@@ -3219,11 +3580,38 @@
 	},
 /turf/open/floor/dark2,
 /area/space)
+"mF" = (
+/turf/open/floor/hybrisa/carpet/rug_colorable/grey_blue/north,
+/area/space)
+"mG" = (
+/obj/structure/bed/hybrisa/bunkbed1,
+/turf/open/floor/hybrisa/carpet/carpetblack,
+/area/space)
+"mH" = (
+/obj/item/clothing/shoes/brown,
+/turf/open/floor/hybrisa/carpet/carpetblack,
+/area/space)
+"mI" = (
+/obj/structure/bed/sofa/south/grey/left,
+/turf/open/floor/shiva/blue/northwest,
+/area/space)
 "mJ" = (
 /obj/structure/reagent_dispensers/tank/fuel{
 	anchored = 1
 	},
 /turf/open/floor/almayer/test_floor5,
+/area/space)
+"mK" = (
+/obj/structure/surface/table/woodentable/fancy,
+/obj/item/prop/magazine/book/spacebeast{
+	pixel_x = 9;
+	pixel_y = 8
+	},
+/obj/item/clothing/mask/cigarette/cigar/havana{
+	pixel_x = -7
+	},
+/obj/item/reagent_container/food/snacks/hotdog,
+/turf/open/floor/shiva/blue/north,
 /area/space)
 "mL" = (
 /obj/effect/decal/warning_stripes{
@@ -3236,6 +3624,10 @@
 	},
 /turf/open/new_varadero,
 /area/space)
+"mM" = (
+/obj/structure/closet/wardrobe/pjs,
+/turf/open/floor/shiva/blue/northwest,
+/area/space)
 "mN" = (
 /obj/structure/reagent_dispensers/beerkeg/alt,
 /obj/structure/machinery/light{
@@ -3243,9 +3635,24 @@
 	},
 /turf/open/floor/freezerfloor,
 /area/varadero/interior/cargo)
+"mO" = (
+/obj/structure/bed/hybrisa/bunkbed1,
+/obj/item/prop/magazine/dirty{
+	pixel_x = -1;
+	pixel_y = 14
+	},
+/turf/open/floor/hybrisa/carpet/carpetblack,
+/area/space)
 "mP" = (
 /obj/effect/decal/hybrisa/dirt_2,
 /turf/open/floor/shiva,
+/area/space)
+"mQ" = (
+/obj/structure/machinery/cell_charger{
+	pixel_y = 6
+	},
+/obj/structure/surface/table/woodentable/fancy,
+/turf/open/floor/hybrisa/carpet/carpetblack,
 /area/space)
 "mR" = (
 /obj/effect/decal/warning_stripes{
@@ -3261,6 +3668,14 @@
 	pixel_y = 2
 	},
 /turf/open/floor/prison/ramptop,
+/area/space)
+"mT" = (
+/obj/item/prop/magazine/boots/n117{
+	pixel_x = -4;
+	pixel_y = 6
+	},
+/obj/structure/surface/table/woodentable/fancy,
+/turf/open/floor/hybrisa/carpet/carpetblack,
 /area/space)
 "mU" = (
 /turf/closed/wall/r_wall/unmeltable,
@@ -3280,6 +3695,30 @@
 /obj/structure/reagent_dispensers/tank/fuel/custom,
 /turf/open/floor/dark2,
 /area/space)
+"mY" = (
+/obj/structure/surface/table/woodentable/fancy,
+/obj/item/book/manual/paperwork{
+	pixel_x = -4
+	},
+/obj/item/reagent_container/food/drinks/cans/waterbottle{
+	pixel_x = 6;
+	pixel_y = 5
+	},
+/turf/open/floor/hybrisa/carpet/carpetblack,
+/area/space)
+"mZ" = (
+/obj/structure/flora/pottedplant{
+	icon_state = "pottedplant_27";
+	layer = 3.1;
+	pixel_x = -2;
+	pixel_y = 10
+	},
+/turf/open/floor/shiva/blue/north,
+/area/space)
+"na" = (
+/obj/structure/sign/calendar/ua,
+/turf/closed/wall/shiva/prefabricated/blue,
+/area/space)
 "nb" = (
 /obj/structure/surface/table/gamblingtable,
 /obj/item/spacecash/c1000/counterfeit,
@@ -3290,9 +3729,29 @@
 	},
 /turf/open/floor/strata/multi_tiles,
 /area/space)
+"nc" = (
+/obj/structure/sign/poster/corporate,
+/turf/closed/wall/shiva/prefabricated/blue,
+/area/space)
+"nd" = (
+/obj/structure/machinery/newscaster,
+/turf/closed/wall/shiva/prefabricated/blue,
+/area/space)
+"ne" = (
+/obj/structure/sign/poster/pinup,
+/turf/closed/wall/shiva/prefabricated/blue,
+/area/space)
 "nf" = (
 /obj/structure/cargo_container/hybrisa/containersextended/medicalright,
 /turf/open/new_varadero,
+/area/space)
+"ng" = (
+/obj/structure/sign/poster/pimp,
+/turf/closed/wall/shiva/prefabricated/blue,
+/area/space)
+"nh" = (
+/obj/structure/machinery/atm,
+/turf/closed/wall/shiva/prefabricated/blue,
 /area/space)
 "ni" = (
 /obj/structure/largecrate/random/mini,
@@ -5355,10 +5814,6 @@
 /obj/effect/landmark/structure_spawner/setup/distress/xeno_weed_node,
 /turf/open/gm/grass/grass1/weedable,
 /area/varadero/interior_protected/caves/central)
-"yz" = (
-/obj/structure/machinery/vending/snack,
-/turf/open/floor/shiva/blue/southeast,
-/area/space)
 "yB" = (
 /obj/structure/pipes/vents/scrubber{
 	dir = 1
@@ -5740,10 +6195,6 @@
 	dir = 1
 	},
 /turf/open/floor/plating/icefloor/warnplate/north,
-/area/space)
-"AF" = (
-/obj/structure/machinery/vending/cola,
-/turf/open/floor/shiva/blue,
 /area/space)
 "AG" = (
 /obj/structure/sign/safety/high_voltage,
@@ -6127,10 +6578,6 @@
 /obj/item/pamphlet/skill/powerloader,
 /obj/structure/surface/table/reinforced/prison,
 /turf/open/floor/shiva/yellow/southeast,
-/area/space)
-"CQ" = (
-/obj/structure/surface/table/woodentable/poor,
-/turf/open/floor/shiva,
 /area/space)
 "CR" = (
 /obj/effect/decal/warning_stripes{
@@ -6569,10 +7016,6 @@
 	icon_state = "exposed01-supply"
 	},
 /turf/open/floor/darkpurple2/west,
-/area/space)
-"Fj" = (
-/obj/structure/bed/hybrisa/bunkbed2,
-/turf/open/floor/shiva,
 /area/space)
 "Fq" = (
 /obj/structure/flora/bush/ausbushes/var3/fullgrass,
@@ -7437,10 +7880,6 @@
 	},
 /turf/open/floor/darkpurple2/southeast,
 /area/space)
-"JZ" = (
-/obj/structure/bed/hybrisa/bunkbed1,
-/turf/open/floor/shiva/blue/east,
-/area/space)
 "Ka" = (
 /obj/structure/sign/safety/airlock{
 	pixel_x = 8
@@ -7627,7 +8066,19 @@
 /area/space)
 "KX" = (
 /obj/structure/bed/hybrisa/bunkbed2,
-/turf/open/floor/shiva/blue,
+/obj/item/clothing/accessory/armband/cargo{
+	pixel_x = 6;
+	pixel_y = -6
+	},
+/obj/item/clothing/under/colonist/workwear/green{
+	pixel_x = -4;
+	pixel_y = -8
+	},
+/obj/item/clothing/under/shorts/grey{
+	pixel_x = 4;
+	pixel_y = 5
+	},
+/turf/open/floor/hybrisa/carpet/carpetblack,
 /area/space)
 "KZ" = (
 /obj/structure/fence/slim/dark/door,
@@ -7979,7 +8430,9 @@
 /turf/open/floor/plating/icefloor/asteroidplating,
 /area/varadero/exterior/comms4)
 "MY" = (
-/obj/structure/toilet,
+/obj/structure/toilet{
+	dir = 8
+	},
 /turf/open/floor/strata/white_cyan2/west,
 /area/space)
 "MZ" = (
@@ -8017,8 +8470,16 @@
 /turf/open/floor/darkbrown2/north,
 /area/space)
 "Nf" = (
-/obj/structure/surface/table/woodentable/poor,
-/turf/open/floor/shiva/blue,
+/obj/item/clothing/head/hardhat{
+	pixel_x = -7;
+	pixel_y = -3
+	},
+/obj/item/clothing/head/hardhat/red/kelland{
+	pixel_x = 7;
+	pixel_y = 3
+	},
+/obj/structure/surface/table/woodentable/fancy,
+/turf/open/floor/hybrisa/carpet/carpetblack,
 /area/space)
 "Nh" = (
 /obj/effect/decal/warning_stripes{
@@ -8150,10 +8611,6 @@
 	},
 /turf/open/floor/shiva/multi_tiles,
 /area/varadero/interior/cargo)
-"NV" = (
-/obj/structure/bed/hybrisa/prisonbed,
-/turf/open/floor/shiva/blue/north,
-/area/space)
 "NX" = (
 /obj/structure/platform/metal/kutjevo_smooth{
 	climb_delay = 1
@@ -8546,8 +9003,14 @@
 /turf/open/floor/shiva/red/north,
 /area/space)
 "PZ" = (
-/obj/structure/machinery/vending/coffee,
-/turf/open/floor/shiva/blue,
+/obj/effect/decal/cleanable/dirt/alt_dirt,
+/obj/item/reagent_container/glass/bucket/mopbucket{
+	pixel_y = 10
+	},
+/obj/item/tool/mop{
+	pixel_y = 23
+	},
+/turf/open/floor/strata/white_cyan2/west,
 /area/space)
 "Qc" = (
 /obj/item/device/mass_spectrometer/adv/objective,
@@ -8687,9 +9150,7 @@
 /turf/open_space,
 /area/varadero/exterior/eastbeach)
 "QP" = (
-/obj/structure/machinery/space_heater/radiator{
-	dir = 8
-	},
+/obj/structure/machinery/vending/coffee,
 /turf/open/floor/shiva/blue/east,
 /area/space)
 "QR" = (
@@ -8923,7 +9384,7 @@
 /obj/structure/machinery/weather_siren{
 	dir = 8
 	},
-/turf/open/floor/shiva/blue/east,
+/turf/open/floor/shiva/blue,
 /area/space)
 "RM" = (
 /obj/structure/machinery/conveyor{
@@ -8936,13 +9397,6 @@
 	layer = 3.33
 	},
 /turf/open/floor/hybrisa/metal/yellow_warning_floor,
-/area/space)
-"RQ" = (
-/obj/structure/sign/safety/bathwomens{
-	pixel_y = -5;
-	pixel_x = -18
-	},
-/turf/open/floor/shiva/blue/west,
 /area/space)
 "RR" = (
 /obj/structure/window/framed/colony,
@@ -9398,7 +9852,12 @@
 /turf/open/floor/dark2,
 /area/space)
 "Uu" = (
-/obj/structure/machinery/space_heater/radiator{
+/obj/effect/decal/cleanable/dirt/alt_dirt{
+	color = "#140400";
+	pixel_y = 14;
+	pixel_x = -4
+	},
+/obj/structure/toilet{
 	dir = 8
 	},
 /turf/open/floor/strata/white_cyan2/west,
@@ -9423,7 +9882,10 @@
 /area/almayer/shipboard/port_point_defense)
 "Uy" = (
 /obj/structure/bed/hybrisa/bunkbed1,
-/turf/open/floor/shiva/blue/northeast,
+/obj/item/toy/plush/bee{
+	step_y = 9
+	},
+/turf/open/floor/hybrisa/carpet/carpetblack,
 /area/space)
 "UB" = (
 /obj/structure/pipes/standard/simple/hidden/green,
@@ -9461,7 +9923,7 @@
 /turf/open/auto_turf/snow/layer0,
 /area/space)
 "UQ" = (
-/obj/structure/bed/hybrisa/bunkbed1,
+/obj/structure/bed/sofa/south/grey/right,
 /turf/open/floor/shiva/blue/north,
 /area/space)
 "UT" = (
@@ -9590,10 +10052,6 @@
 /obj/effect/landmark/structure_spawner/setup/distress/xeno_weed_node,
 /turf/open/floor/plating/icefloor/asteroidplating,
 /area/varadero/interior_protected/caves)
-"Vy" = (
-/obj/structure/bed/hybrisa/bunkbed2,
-/turf/open/floor/shiva/blue/southeast,
-/area/space)
 "Vz" = (
 /obj/structure/machinery/door/airlock/almayer/maint{
 	name = "\improper Underground Maintenance";
@@ -9761,7 +10219,7 @@
 /area/varadero/exterior/lz1_near)
 "Ws" = (
 /obj/structure/bed/hybrisa/prisonbed,
-/turf/open/floor/shiva/blue,
+/turf/open/floor/hybrisa/carpet/carpetblack,
 /area/space)
 "Wt" = (
 /obj/structure/machinery/portable_atmospherics/canister/phoron,
@@ -10057,10 +10515,6 @@
 	},
 /turf/open/floor/plating/icefloor/asteroidplating,
 /area/varadero/interior/cargo)
-"XW" = (
-/obj/structure/bookcase,
-/turf/open/floor/shiva/blue,
-/area/space)
 "XY" = (
 /obj/item/device/mass_spectrometer,
 /obj/effect/landmark/xeno_spawn,
@@ -10363,8 +10817,8 @@
 /turf/open/floor/strata/multi_tiles,
 /area/space)
 "Zx" = (
-/obj/structure/window/framed/shiva,
-/turf/open/floor/shiva/bluefull/west,
+/obj/structure/window/framed/shiva/blue,
+/turf/open/floor/plating,
 /area/space)
 "Zy" = (
 /obj/effect/decal/warning_stripes{
@@ -132526,18 +132980,18 @@ BC
 BC
 BC
 BC
-jW
-XI
+lx
+mI
 ff
-ff
-ff
+lU
+lU
 xY
 jW
 XI
 ff
-ff
-ff
 xY
+kQ
+kE
 jW
 BC
 jq
@@ -132711,14 +133165,14 @@ BC
 jW
 UQ
 ad
-bP
-bP
-NT
+ml
+lV
+lF
 jW
 JN
 bP
-bP
-Fj
+NT
+kJ
 KX
 jW
 BC
@@ -132890,19 +133344,19 @@ jq
 jq
 jq
 BC
-jW
-lp
+nc
+mK
+mF
+mn
+lW
+NT
+lu
+JN
 bP
-bP
-bP
-rs
-jW
-YY
-bP
-bP
-bP
+NT
+kQ
 Nf
-jW
+kC
 BC
 jq
 jq
@@ -133072,18 +133526,18 @@ jq
 jq
 jq
 BC
-jW
-UQ
-Cg
-bP
-bP
-NT
+nd
+kY
+kX
+kX
+lY
+lI
 jW
 JN
 bP
-bP
+NT
 Cg
-KX
+kF
 jW
 BC
 jq
@@ -133255,17 +133709,17 @@ jq
 jq
 BC
 jW
-lp
-bP
-bP
-bP
-XW
 jW
-Zd
+jW
+mo
+jW
+jW
+jW
+JN
 bP
-bP
-bP
-Nf
+NT
+kQ
+kH
 jW
 BC
 jq
@@ -133437,16 +133891,16 @@ jq
 jq
 BC
 jW
-UQ
-ad
-bP
-bP
-NT
+mM
+ff
+ff
+ff
+lN
 jW
 WZ
 bP
-bP
-Cg
+NT
+Ws
 Ws
 jW
 BC
@@ -133619,17 +134073,17 @@ jq
 jq
 BC
 hn
-JN
+lt
+kX
+mr
 bP
-bP
-bP
-NT
+lO
 jW
 lp
 bP
-bP
-bP
-NT
+kU
+ff
+xY
 hn
 BC
 jq
@@ -133801,15 +134255,15 @@ jq
 jq
 BC
 hn
+mO
+mG
 JN
 bP
-bP
-bP
-Nf
+lP
 jW
-lp
+lk
 bP
-bP
+kV
 bP
 NT
 hn
@@ -133983,17 +134437,17 @@ jq
 jq
 BC
 hn
+mQ
+mH
 JN
 bP
-bP
-bP
-Nf
+lR
 jW
-JN
+Zd
 bP
-bP
-bP
-NT
+kW
+kX
+ak
 hn
 BC
 jq
@@ -134164,17 +134618,17 @@ jq
 jq
 jq
 BC
-jW
-UQ
-ad
-bP
+ne
+mG
+mG
+JN
 bP
 aQ
 jW
 JN
 bP
-bP
-Cg
+NT
+Ws
 Ws
 jW
 BC
@@ -134347,17 +134801,17 @@ jq
 jq
 BC
 jW
-lp
-bP
-bP
+mT
+kQ
+JN
 bP
 NT
 jW
 JN
 bP
-bP
-bP
-Nf
+NT
+kQ
+kI
 jW
 BC
 jq
@@ -134529,17 +134983,17 @@ jq
 jq
 BC
 jW
-NV
-Cg
-bP
+Ws
+Ws
+JN
 bP
 rs
 jW
 YY
 bP
-bP
-Cg
-KX
+NT
+Ws
+kJ
 jW
 BC
 jq
@@ -134710,18 +135164,18 @@ jq
 jq
 jq
 BC
-jW
-lp
-bP
-bP
-bP
-NT
-jW
+ng
+mY
+kQ
 JN
 bP
+NT
+lx
+lr
 bP
-bP
-Nf
+NT
+kQ
+kK
 jW
 BC
 jq
@@ -134894,16 +135348,16 @@ jq
 BC
 jW
 Uy
-JZ
-RK
+mG
+mt
 kX
 ak
 jW
-kY
+lt
 kX
 RK
-jA
-Vy
+kJ
+kJ
 jW
 BC
 jq
@@ -135258,18 +135712,18 @@ jq
 jq
 NO
 XI
-ff
-RQ
-ff
-ff
+la
+la
 ff
 ff
+lz
 ff
 ff
+la
 ff
 xY
 NO
-jq
+gd
 jq
 jq
 jq
@@ -135439,19 +135893,19 @@ jq
 jq
 jq
 Zx
-JN
+mZ
+bP
+bP
+me
 bP
 bP
 bP
 bP
 bP
 bP
-bP
-bP
-bP
-NT
+kM
 Zx
-jq
+kr
 jq
 jq
 jq
@@ -135623,8 +136077,8 @@ jq
 NO
 JN
 bP
-bP
-bP
+mw
+mg
 bP
 bP
 gm
@@ -135633,7 +136087,7 @@ kX
 kX
 ak
 NO
-jq
+kA
 jq
 jq
 jq
@@ -135804,16 +136258,16 @@ jq
 BC
 jW
 nu
-CQ
 bP
+my
+mj
 bP
-bP
-bP
-AF
 nS
-jW
-jW
-OI
+kP
+li
+ld
+kR
+kP
 nS
 BC
 jq
@@ -135986,15 +136440,15 @@ jq
 BC
 jW
 jI
-CQ
 bP
 bP
 bP
-bP
-PZ
+lT
 jW
-MY
+PZ
+lj
 WV
+kT
 Ss
 jW
 BC
@@ -136166,17 +136620,17 @@ jq
 jq
 jq
 BC
-jW
+nh
 kY
 QP
-kX
+mD
+mk
 Jz
-Jz
-kX
-yz
+lE
+Ss
 jW
 MY
-Ss
+jW
 Uu
 jW
 BC
@@ -136349,14 +136803,14 @@ jq
 jq
 BC
 nS
-jW
-jW
-jW
+na
 jW
 jW
 jW
 jW
 nS
+jW
+jW
 jW
 jW
 jW
