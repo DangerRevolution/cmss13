@@ -292,6 +292,10 @@
 	pixel_y = 35;
 	pixel_x = 5
 	},
+/obj/structure/sign/poster/corporate{
+	pixel_x = 6;
+	pixel_y = 6
+	},
 /turf/closed/wall/shiva/prefabricated/blue,
 /area/space)
 "aY" = (
@@ -348,7 +352,7 @@
 /obj/structure/surface/table,
 /obj/structure/surface/table,
 /obj/item/trash/syndi_cakes,
-/turf/open/floor/shiva/bluefull,
+/turf/open/floor/hybrisa/tile/tilebeigecheckered,
 /area/space)
 "bf" = (
 /obj/structure/machinery/door/airlock/almayer/engineering/colony{
@@ -363,7 +367,7 @@
 	dir = 4;
 	pixel_y = 11
 	},
-/turf/open/floor/shiva/bluefull,
+/turf/open/floor/hybrisa/tile/tilebeigecheckered,
 /area/space)
 "bh" = (
 /obj/effect/decal/warning_stripes{
@@ -429,7 +433,7 @@
 /obj/structure/bed/chair{
 	dir = 8
 	},
-/turf/open/floor/shiva/bluefull,
+/turf/open/floor/hybrisa/tile/tilebeigecheckered,
 /area/space)
 "bq" = (
 /obj/item/clothing/mask/gas{
@@ -662,7 +666,15 @@
 /area/space)
 "cg" = (
 /obj/structure/surface/table,
-/turf/open/floor/shiva/bluefull,
+/obj/item/reagent_container/food/condiment/peppermill{
+	pixel_x = 3;
+	pixel_y = 9
+	},
+/obj/item/reagent_container/food/condiment/saltshaker{
+	pixel_x = -8;
+	pixel_y = 8
+	},
+/turf/open/floor/hybrisa/tile/tilebeigecheckered,
 /area/space)
 "ch" = (
 /obj/structure/reagent_dispensers/tank/water{
@@ -678,6 +690,7 @@
 /area/almayer/living/basketball)
 "ck" = (
 /obj/item/trash/cigbutt,
+/obj/structure/machinery/disposal,
 /turf/open/floor/shiva/bluefull,
 /area/space)
 "cl" = (
@@ -712,11 +725,6 @@
 	dir = 10
 	},
 /area/almayer/command/cic)
-"cu" = (
-/obj/structure/window/framed/shiva/blue,
-/obj/structure/window/framed/shiva/blue,
-/turf/open/floor/shiva/bluefull,
-/area/space)
 "cv" = (
 /obj/effect/decal/hybrisa/road/road_edge{
 	icon_state = "road_edge_decal3"
@@ -773,10 +781,8 @@
 /area/space)
 "cF" = (
 /obj/structure/surface/table/reinforced/prison,
-/obj/item/tool/kitchen/tray{
-	pixel_y = 9
-	},
 /obj/structure/machinery/door/window/southright,
+/obj/structure/prop/cash_register,
 /turf/open/floor/shiva/bluefull,
 /area/space)
 "cG" = (
@@ -784,8 +790,8 @@
 /area/corsat/sigma/dorms)
 "cH" = (
 /obj/structure/surface/table/reinforced/prison,
-/obj/item/reagent_container/food/snacks/stew,
 /obj/structure/machinery/door/window/southleft,
+/obj/item/reagent_container/food/snacks/cubancarp,
 /turf/open/floor/shiva/bluefull,
 /area/space)
 "cI" = (
@@ -797,14 +803,18 @@
 	pixel_x = 1;
 	pixel_y = 3
 	},
-/turf/open/floor/shiva/bluefull,
+/obj/item/reagent_container/food/condiment/enzyme{
+	pixel_y = 21;
+	pixel_x = 6
+	},
+/turf/open/floor/hybrisa/tile/tilelightbeige,
 /area/space)
 "cK" = (
 /obj/structure/surface/table/reinforced/prison,
 /obj/structure/machinery/processor{
 	pixel_y = 2
 	},
-/turf/open/floor/shiva/bluefull,
+/turf/open/floor/hybrisa/tile/tilelightbeige,
 /area/space)
 "cL" = (
 /turf/closed/wall/huntership/destructible,
@@ -859,6 +869,13 @@
 	},
 /turf/open/floor/shiva,
 /area/varadero/interior/caves/east)
+"cW" = (
+/obj/item/tool/wet_sign{
+	layer = 6;
+	pixel_y = 18
+	},
+/turf/open/floor/shiva/bluefull,
+/area/space)
 "cX" = (
 /obj/structure/pipes/standard/simple/hidden/green{
 	dir = 4
@@ -916,6 +933,13 @@
 "dd" = (
 /turf/closed/wall/new_varadero,
 /area/lv759/indoors/colonial_marshals/prisoners_cells)
+"de" = (
+/obj/structure/flora/pottedplant{
+	pixel_x = -1;
+	pixel_y = 3
+	},
+/turf/open/floor/shiva/bluefull,
+/area/space)
 "df" = (
 /turf/closed/wall/new_varadero,
 /area/space)
@@ -952,6 +976,13 @@
 	id_tag = "oxygen_lower_out"
 	},
 /turf/open/floor/engine,
+/area/space)
+"dn" = (
+/obj/structure/flora/pottedplant{
+	icon_state = "pottedplant_25";
+	pixel_y = 20
+	},
+/turf/open/floor/shiva/bluefull,
 /area/space)
 "do" = (
 /obj/structure/machinery/door/airlock/glass_security/colony,
@@ -1001,6 +1032,15 @@
 /obj/structure/barricade/handrail/hybrisa/road/metal/double/offset,
 /turf/open/asphalt,
 /area/space)
+"dx" = (
+/obj/structure/reagent_dispensers/tank/water,
+/obj/item/reagent_container/spray/cleaner{
+	layer = 3.2;
+	pixel_x = -7;
+	pixel_y = 10
+	},
+/turf/open/floor/shiva/bluefull,
+/area/space)
 "dy" = (
 /obj/structure/machinery/computer/arcade,
 /turf/open/floor/shiva,
@@ -1019,6 +1059,17 @@
 	pixel_x = 2
 	},
 /turf/open/floor/darkpurple2/north,
+/area/space)
+"dC" = (
+/turf/open/floor/hybrisa/tile/tilebeigecheckered,
+/area/space)
+"dD" = (
+/obj/structure/flora/pottedplant{
+	icon_state = "pottedplant_29";
+	pixel_y = 9;
+	pixel_x = 5
+	},
+/turf/open/floor/shiva/bluefull,
 /area/space)
 "dE" = (
 /obj/structure/machinery/door/window/ultra,
@@ -1057,6 +1108,14 @@
 "dM" = (
 /turf/open/floor/shiva,
 /area/corsat/gamma/rnr/bar)
+"dN" = (
+/obj/structure/bed/chair{
+	buckling_y = 5;
+	dir = 1;
+	pixel_y = 5
+	},
+/turf/open/floor/hybrisa/tile/tilebeigecheckered,
+/area/space)
 "dO" = (
 /obj/structure/bed/chair/comfy{
 	dir = 4
@@ -1146,6 +1205,26 @@
 "ef" = (
 /obj/structure/machinery/door/airlock/almayer/maint/colony/autoname,
 /turf/open/floor/shiva/bluefull/west,
+/area/space)
+"eg" = (
+/obj/structure/bed/chair,
+/turf/open/floor/hybrisa/tile/tilebeigecheckered,
+/area/space)
+"eh" = (
+/obj/structure/surface/table,
+/obj/item/reagent_container/food/condiment/peppermill{
+	pixel_x = -10;
+	pixel_y = 11
+	},
+/obj/item/reagent_container/food/condiment/saltshaker{
+	pixel_x = -3;
+	pixel_y = 3
+	},
+/obj/item/reagent_container/food/condiment/coldsauce{
+	pixel_y = 9;
+	pixel_x = 9
+	},
+/turf/open/floor/shiva/bluefull,
 /area/space)
 "ei" = (
 /obj/structure/platform/metal/hybrisa/metalplatform6/north,
@@ -1267,10 +1346,26 @@
 /obj/effect/landmark/objective_landmark/close,
 /turf/open/new_varadero,
 /area/space)
+"eI" = (
+/obj/structure/surface/table,
+/obj/item/ashtray/bronze{
+	icon_state = "ashtray_full_bl";
+	pixel_x = -7;
+	pixel_y = 5
+	},
+/turf/open/floor/hybrisa/tile/tilebeigecheckered,
+/area/space)
 "eJ" = (
 /obj/structure/bed/sofa/south/grey,
 /turf/open/floor/strata/fake_wood,
 /area/ice_colony/exterior/underground/caves)
+"eK" = (
+/obj/structure/barricade/handrail{
+	dir = 1;
+	pixel_y = 6
+	},
+/turf/open/floor/hybrisa/tile/tilebeigecheckered,
+/area/space)
 "eL" = (
 /obj/structure/bed/sofa/south/grey/right,
 /turf/open/floor/strata/fake_wood,
@@ -1282,6 +1377,14 @@
 "eN" = (
 /turf/open/floor/plating,
 /area/bigred/ground/chapel)
+"eO" = (
+/obj/structure/machinery/line_nexter{
+	dir = 1;
+	id = "MTline";
+	pixel_y = 7
+	},
+/turf/open/floor/hybrisa/tile/tilebeigecheckered,
+/area/space)
 "eP" = (
 /turf/open/floor/plating,
 /area/ice_colony/exterior/underground/caves)
@@ -1296,6 +1399,14 @@
 /obj/item/reagent_container/glass/bucket/mopbucket,
 /turf/open/floor/plating,
 /area/ice_colony/exterior/underground/caves)
+"eT" = (
+/obj/structure/barricade/handrail{
+	dir = 4;
+	layer = 3.1;
+	pixel_x = 1
+	},
+/turf/open/floor/shiva/bluefull,
+/area/space)
 "eU" = (
 /turf/open/floor/plating/icefloor,
 /area/space)
@@ -1319,6 +1430,11 @@
 "eZ" = (
 /turf/closed/wall/new_varadero,
 /area/ice_colony/underground/reception)
+"fa" = (
+/obj/structure/surface/table,
+/obj/structure/machinery/hybrisa/coffee_machine,
+/turf/open/floor/shiva/bluefull,
+/area/space)
 "fb" = (
 /obj/structure/barricade/handrail{
 	dir = 1
@@ -1381,6 +1497,29 @@
 /obj/structure/prop/almayer/computers/mapping_computer,
 /turf/open/floor/shiva,
 /area/almayer/command/cic)
+"fo" = (
+/obj/structure/surface/table,
+/obj/item/reagent_container/food/drinks/coffeecup{
+	pixel_x = 10
+	},
+/obj/item/reagent_container/food/drinks/coffeecup{
+	pixel_y = 10;
+	pixel_x = 7
+	},
+/obj/item/reagent_container/food/condiment/chocolate_syrup{
+	pixel_x = -9;
+	pixel_y = 14
+	},
+/obj/item/reagent_container/food/drinks/soymilk,
+/obj/item/reagent_container/food/drinks/milk{
+	pixel_x = -8
+	},
+/turf/open/floor/shiva/bluefull,
+/area/space)
+"fp" = (
+/obj/structure/window/framed/shiva/blue,
+/turf/open/floor/shiva/bluefull/west,
+/area/space)
 "fq" = (
 /obj/structure/surface/table/reinforced,
 /obj/item/desk_bell{
@@ -1405,6 +1544,10 @@
 /area/space)
 "fs" = (
 /turf/open/auto_turf/sand_white,
+/area/space)
+"ft" = (
+/obj/structure/prop/hybrisa/supermart/souto_rack,
+/turf/open/floor/hybrisa/tile/tilelightbeige,
 /area/space)
 "fu" = (
 /obj/structure/filingcabinet/chestdrawer,
@@ -1442,6 +1585,10 @@
 /obj/structure/filingcabinet/chestdrawer,
 /turf/open/floor/shiva,
 /area/space)
+"fC" = (
+/obj/structure/prop/hybrisa/supermart/rack/longrack7,
+/turf/open/floor/hybrisa/tile/tilelightbeige,
+/area/space)
 "fD" = (
 /turf/closed/wall/new_varadero,
 /area/prison/medbay/surgery)
@@ -1467,9 +1614,20 @@
 /obj/structure/machinery/door/airlock/maintenance/colony,
 /turf/open/floor/plating,
 /area/prison/medbay/surgery)
+"fJ" = (
+/turf/open/floor/hybrisa/tile/tilelightbeige,
+/area/space)
 "fK" = (
 /turf/open/floor/shiva/snow_mat/east,
 /area/prison/medbay/surgery)
+"fL" = (
+/obj/structure/surface/table/reinforced/prison,
+/obj/item/trash/snack_bowl,
+/obj/item/reagent_container/food/snacks/soylentviridians{
+	pixel_y = 12
+	},
+/turf/open/floor/hybrisa/tile/tilelightbeige,
+/area/space)
 "fM" = (
 /obj/structure/machinery/optable,
 /turf/open/floor/shiva/snow_mat/east,
@@ -1490,6 +1648,11 @@
 /obj/structure/filingcabinet,
 /turf/open/floor/shiva,
 /area/space)
+"fQ" = (
+/obj/structure/surface/table/reinforced/prison,
+/obj/item/reagent_container/food/snacks/stew,
+/turf/open/floor/hybrisa/tile/tilelightbeige,
+/area/space)
 "fR" = (
 /obj/structure/window/framed/colony,
 /turf/open/floor/plating,
@@ -1497,13 +1660,35 @@
 "fS" = (
 /turf/open/gm/river/desert/shallow/pool,
 /area/space)
+"fT" = (
+/obj/structure/surface/rack{
+	pixel_y = 3
+	},
+/turf/open/floor/hybrisa/tile/tilelightbeige,
+/area/space)
+"fU" = (
+/obj/structure/machinery/gibber,
+/turf/open/floor/hybrisa/tile/tilelightbeige,
+/area/space)
 "fV" = (
 /obj/structure/window/framed/new_varadero/foundation,
 /turf/open/floor/plating,
 /area/space)
 "fW" = (
 /obj/structure/surface/table/reinforced/prison,
-/turf/open/floor/shiva/bluefull,
+/obj/item/tool/kitchen/utensil/fork{
+	pixel_x = -9
+	},
+/obj/item/tool/kitchen/knife/butcher{
+	pixel_x = 9
+	},
+/obj/item/reagent_container/food/snacks/carpmeat/processed{
+	pixel_y = -5
+	},
+/obj/item/reagent_container/food/snacks/carpmeat/processed{
+	pixel_y = 5
+	},
+/turf/open/floor/hybrisa/tile/tilelightbeige,
 /area/space)
 "fX" = (
 /turf/open/gm/river/desert/shallow/pool,
@@ -1534,6 +1719,10 @@
 	},
 /turf/open/hybrisa/street/asphalt,
 /area/space)
+"gb" = (
+/obj/structure/window/framed/shiva/blue,
+/turf/closed/wall/shiva/prefabricated/blue,
+/area/space)
 "gc" = (
 /turf/closed/wall/new_varadero,
 /area/varadero/exterior/pool)
@@ -1550,6 +1739,18 @@
 	id = "cargo_container"
 	},
 /turf/open/floor/shiva,
+/area/space)
+"gf" = (
+/obj/structure/closet/crate/trashcart,
+/obj/item/hybrisa/misc/trash_bag_full_prop{
+	pixel_x = 3;
+	pixel_y = 20
+	},
+/obj/item/hybrisa/misc/trash_bag_full_prop{
+	pixel_x = -3;
+	pixel_y = 6
+	},
+/turf/open/auto_turf/sand_white/layer1,
 /area/space)
 "gg" = (
 /turf/open/floor/darkred2/west,
@@ -2074,13 +2275,6 @@
 /obj/structure/bookcase/manuals/engineering,
 /turf/open/floor/shiva,
 /area/corsat/gamma/rnr/library)
-"iD" = (
-/obj/structure/machinery/vending/snack{
-	density = 0;
-	pixel_y = 16
-	},
-/turf/open/floor/shiva/bluefull,
-/area/space)
 "iE" = (
 /obj/structure/bookcase/manuals/medical,
 /turf/open/floor/shiva,
@@ -2384,7 +2578,9 @@
 /turf/open/floor/plating,
 /area/space)
 "jL" = (
-/obj/structure/machinery/vending/dinnerware,
+/obj/structure/machinery/vending/dinnerware{
+	pixel_y = 16
+	},
 /turf/open/floor/shiva/bluefull,
 /area/space)
 "jM" = (
@@ -2890,7 +3086,7 @@
 /area/space)
 "ls" = (
 /obj/structure/closet/secure_closet/freezer/meat,
-/turf/open/floor/shiva/bluefull,
+/turf/open/floor/hybrisa/tile/tilelightbeige,
 /area/space)
 "lt" = (
 /obj/structure/closet/wardrobe,
@@ -3462,7 +3658,20 @@
 "ny" = (
 /obj/structure/surface/table,
 /obj/structure/surface/table,
-/turf/open/floor/shiva/bluefull,
+/obj/item/reagent_container/food/condiment/peppermill{
+	pixel_x = -9;
+	pixel_y = 5
+	},
+/obj/item/reagent_container/food/condiment/saltshaker{
+	pixel_x = -3;
+	pixel_y = 3
+	},
+/obj/item/newspaper{
+	name = "character sheet";
+	pixel_x = 4;
+	pixel_y = 8
+	},
+/turf/open/floor/hybrisa/tile/tilebeigecheckered,
 /area/space)
 "nz" = (
 /obj/structure/pipes/standard/simple/hidden/green{
@@ -3503,7 +3712,7 @@
 /area/space)
 "nI" = (
 /obj/structure/closet/secure_closet/freezer/fridge/full,
-/turf/open/floor/shiva/bluefull,
+/turf/open/floor/hybrisa/tile/tilelightbeige,
 /area/space)
 "nJ" = (
 /obj/structure/closet/wardrobe/grey,
@@ -4311,7 +4520,11 @@
 	pixel_y = 19
 	},
 /obj/structure/surface/table,
-/turf/open/floor/shiva/bluefull,
+/obj/item/reagent_container/food/condiment/hotsauce/tabasco{
+	pixel_y = 8;
+	pixel_x = 6
+	},
+/turf/open/floor/hybrisa/tile/tilebeigecheckered,
 /area/space)
 "rl" = (
 /obj/structure/machinery/landinglight/ds1/delayone{
@@ -8714,7 +8927,7 @@
 	pixel_y = 9
 	},
 /obj/structure/surface/table,
-/turf/open/floor/shiva/bluefull,
+/turf/open/floor/hybrisa/tile/tilebeigecheckered,
 /area/space)
 "Va" = (
 /obj/structure/machinery/cm_vending/sorted/medical/chemistry{
@@ -132901,8 +133114,8 @@ BC
 BC
 jW
 ls
-is
-is
+fJ
+ft
 jW
 BC
 BC
@@ -133083,8 +133296,8 @@ BC
 BC
 jW
 nI
-is
-is
+fJ
+fC
 jW
 BC
 BC
@@ -133270,9 +133483,9 @@ jW
 nS
 jW
 jW
-jW
-jW
-jW
+Zx
+Zx
+Zx
 jW
 aX
 nS
@@ -133446,17 +133659,17 @@ jq
 BC
 BC
 jW
-is
-is
-is
+fT
+fJ
+fJ
 NO
 is
 is
 bL
-cg
+eh
 aZ
-is
-is
+dx
+cW
 aa
 BC
 jq
@@ -133628,16 +133841,16 @@ jq
 BC
 BC
 jW
-is
-is
-is
+fU
+fJ
+fJ
 cn
 jL
-is
-bL
-cg
-aZ
-is
+dC
+eg
+eI
+dN
+dC
 is
 pi
 BC
@@ -133809,18 +134022,18 @@ jq
 jq
 BC
 BC
-jW
+gb
 cJ
+fJ
+fJ
+cn
 is
-is
-cu
-iD
-is
-is
-is
-is
-is
-is
+dC
+dC
+dC
+dC
+dC
+de
 jW
 BC
 jq
@@ -133991,16 +134204,16 @@ jq
 jq
 BC
 BC
-jW
+gb
 cK
-is
-is
+fJ
+fJ
 cD
 is
-bL
-cg
-aZ
-bL
+eK
+dC
+dN
+eg
 ny
 aZ
 jW
@@ -134173,16 +134386,16 @@ jq
 jq
 BC
 BC
-jW
-is
-is
-is
+gb
+fJ
+fJ
+fJ
 cF
 is
-bL
-cg
-aZ
-bL
+eK
+dC
+dN
+eg
 be
 aZ
 jW
@@ -134356,13 +134569,13 @@ jq
 BC
 BC
 jW
-is
-is
-is
+fJ
+fL
+fJ
 cH
-is
-is
-is
+eT
+eO
+dC
 bg
 bg
 bg
@@ -134536,19 +134749,19 @@ jq
 jq
 jq
 BC
-BC
+gf
 jW
-is
+fJ
 fW
-is
+fJ
 cn
 sc
-is
-is
+dC
+dC
 UT
 cg
 rk
-is
+dn
 nh
 BC
 jq
@@ -134720,13 +134933,13 @@ jq
 jq
 jq
 aa
-is
-fW
-is
+fJ
+fQ
+fJ
 cn
-jL
-is
-is
+fa
+dC
+dC
 bp
 bp
 bp
@@ -134902,16 +135115,16 @@ jq
 jq
 jq
 pi
-is
-is
-is
-NO
-is
+fJ
+fJ
+fJ
+fp
+fo
 is
 ck
 is
 is
-is
+dD
 is
 pi
 BC
@@ -135088,11 +135301,11 @@ jW
 jW
 jW
 nS
-jW
-jW
+Zx
+Zx
 jW
 pi
-pi
+BM
 jW
 jW
 nS
