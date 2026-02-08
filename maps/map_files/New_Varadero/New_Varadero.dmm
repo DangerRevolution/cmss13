@@ -1699,6 +1699,9 @@
 /area/space)
 "gf" = (
 /obj/structure/stairs,
+/obj/structure/stairs/multiz/down{
+	dir = 1
+	},
 /turf/open_space,
 /area/space)
 "gg" = (
@@ -8719,7 +8722,9 @@
 /turf/open/floor/almayer/plate,
 /area/space)
 "Me" = (
-/obj/structure/stairs,
+/obj/structure/stairs/multiz/up{
+	dir = 1
+	},
 /turf/open/floor/dark2,
 /area/space)
 "Mh" = (
@@ -113518,8 +113523,8 @@ qf
 DL
 qf
 Me
-Me
-Me
+DL
+DL
 dn
 dn
 dC
@@ -113700,8 +113705,8 @@ DL
 DL
 qf
 Me
-gf
-Me
+DL
+DL
 DL
 eg
 eg
@@ -113882,8 +113887,8 @@ DL
 DL
 qf
 Me
-Me
-Me
+DL
+DL
 DL
 DL
 DL
