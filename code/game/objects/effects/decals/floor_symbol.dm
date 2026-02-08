@@ -122,7 +122,7 @@
 /// Large alpha tech decal
 
 /obj/effect/decal/floor_symbol/alpha_tech
-	icon = 'icons/effect/alpha_tech_logo.dmi'
+	icon = 'icons/effects/alpha_tech_logo.dmi'
 	icon_state = "full"
 
 /obj/effect/decal/floor_symbol/alpha_tech/sw_1
