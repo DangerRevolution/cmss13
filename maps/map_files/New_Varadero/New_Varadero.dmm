@@ -379,6 +379,9 @@
 	},
 /turf/open/floor/dark2,
 /area/space)
+"bj" = (
+/turf/open/floor/shiva,
+/area/lv759/indoors/colonial_marshals/hallway_reception)
 "bk" = (
 /obj/structure/sink{
 	dir = 4;
@@ -595,6 +598,9 @@
 /obj/effect/decal/hybrisa/dirt,
 /turf/open/floor/shiva/red/west,
 /area/space)
+"bT" = (
+/turf/closed/wall/new_varadero,
+/area/lv759/indoors/colonial_marshals/hallway_reception)
 "bU" = (
 /obj/effect/decal/hybrisa/dirt,
 /turf/open/floor/shiva/red/east,
@@ -775,6 +781,9 @@
 "cD" = (
 /turf/closed/wall/huntership/destructible,
 /area/lv759/indoors/apartment/westshowers)
+"cE" = (
+/turf/closed/wall/r_wall/unmeltable,
+/area/almayer/command/cic)
 "cF" = (
 /turf/closed/wall/huntership/destructible,
 /area/lv759/indoors/recycling_plant_waste_disposal_incinerator)
@@ -906,6 +915,10 @@
 	},
 /turf/open/new_varadero/alt_concrete,
 /area/space)
+"dc" = (
+/obj/structure/machinery/computer/telecomms/monitor,
+/turf/open/floor/shiva,
+/area/almayer/engineering/lower/engine_monitoring)
 "dd" = (
 /turf/closed/wall/new_varadero,
 /area/lv759/indoors/colonial_marshals/prisoners_cells)
@@ -931,6 +944,10 @@
 	},
 /turf/open/floor/dark2,
 /area/space)
+"di" = (
+/obj/structure/machinery/computer/telecomms/server,
+/turf/open/floor/shiva,
+/area/almayer/engineering/lower/engine_monitoring)
 "dj" = (
 /obj/structure/closet/secure_closet/brig/prisoner,
 /turf/open/floor/plating,
@@ -988,6 +1005,10 @@
 /obj/structure/window/framed/hybrisa/marshalls,
 /turf/open/floor/plating,
 /area/lv759/indoors/colonial_marshals/prisoners_cells)
+"dt" = (
+/obj/structure/machinery/computer/telecomms/traffic,
+/turf/open/floor/shiva,
+/area/almayer/engineering/lower/engine_monitoring)
 "du" = (
 /obj/structure/window/framed/hybrisa/marshalls,
 /turf/open/floor/plating,
@@ -1042,6 +1063,10 @@
 /obj/structure/machinery/door/window/ultra,
 /turf/open/floor/plating,
 /area/lv759/indoors/colonial_marshals/prisoners_cells)
+"dF" = (
+/obj/structure/machinery/power/monitor,
+/turf/open/floor/shiva,
+/area/almayer/engineering/lower/engine_monitoring)
 "dG" = (
 /turf/open/auto_turf/sand_white/layer1,
 /area/varadero/exterior/pontoon_beach)
@@ -1112,6 +1137,10 @@
 	},
 /turf/closed/wall/shiva/prefabricated/reinforced,
 /area/space)
+"dV" = (
+/obj/structure/surface/table/reinforced/prison,
+/turf/open/floor/shiva,
+/area/almayer/engineering/lower/engine_monitoring)
 "dW" = (
 /obj/structure/bed/chair/comfy{
 	dir = 8
@@ -1168,6 +1197,10 @@
 /obj/structure/disposalpipe/segment,
 /turf/open/floor/shiva/yellow/north,
 /area/varadero/interior/cargo)
+"ei" = (
+/obj/structure/closet/secure_closet/engineering_electrical,
+/turf/open/floor/shiva,
+/area/almayer/engineering/lower/engine_monitoring)
 "ej" = (
 /turf/closed/wall/rock/brown,
 /area/bigred/ground/chapel)
@@ -1257,6 +1290,10 @@
 /obj/item/tool/shovel/snow,
 /turf/open/auto_turf/sand_white,
 /area/space)
+"eC" = (
+/obj/structure/prop/almayer/computers/mapping_computer,
+/turf/open/floor/shiva,
+/area/desert_dam/building/security/observation)
 "eD" = (
 /turf/open/floor/chapel/north,
 /area/bigred/ground/chapel)
@@ -1398,6 +1435,10 @@
 "fl" = (
 /turf/open/floor/plating,
 /area/almayer/command/cic)
+"fm" = (
+/obj/structure/machinery/computer/rdconsole,
+/turf/open/floor/shiva,
+/area/desert_dam/building/security/observation)
 "fn" = (
 /obj/structure/prop/almayer/computers/mapping_computer,
 /turf/open/floor/shiva,
@@ -2091,6 +2132,10 @@
 /obj/item/ammo_magazine/shotgun/buckshot,
 /turf/open/floor/shiva/floor3,
 /area/varadero/interior/cargo)
+"hQ" = (
+/obj/structure/bed/chair/comfy,
+/turf/open/floor/shiva,
+/area/space)
 "hR" = (
 /obj/structure/stairs/multiz/up{
 	dir = 4
@@ -2361,6 +2406,24 @@
 /obj/structure/machinery/power/apc/no_power/north,
 /turf/open/floor/darkbrown2/northeast,
 /area/space)
+"iV" = (
+/obj/structure/surface/table/woodentable/fancy,
+/obj/item/device/binoculars/civ,
+/turf/open/floor/shiva,
+/area/space)
+"iW" = (
+/obj/structure/surface/table/reinforced/prison,
+/obj/structure/machinery/computer/area_atmos/area,
+/turf/open/floor/shiva,
+/area/almayer/engineering/lower/engine_monitoring)
+"iX" = (
+/obj/structure/bed/chair/comfy/ares{
+	dir = 8;
+	pixel_y = 7;
+	pixel_x = 14
+	},
+/turf/open/floor/shiva,
+/area/space)
 "iY" = (
 /obj/structure/machinery/door/airlock/multi_tile/almayer/secdoor/glass{
 	dir = 2
@@ -2370,8 +2433,21 @@
 "iZ" = (
 /turf/open/auto_turf/sand_white/layer1,
 /area/varadero/interior/maintenance/research)
+"ja" = (
+/obj/item/storage/briefcase/black,
+/turf/open/floor/shiva,
+/area/space)
 "jb" = (
 /turf/open/floor/shiva/multi_tiles/southeast,
+/area/space)
+"jc" = (
+/obj/structure/surface/table/reinforced/prison,
+/obj/item/clothing/under/suit_jacket/director,
+/turf/open/floor/shiva,
+/area/desert_dam/building/security/observation)
+"jd" = (
+/obj/structure/window/framed/new_varadero/foundation/reinforced/hull,
+/turf/open/floor/shiva,
 /area/space)
 "je" = (
 /obj/structure/machinery/door/airlock/multi_tile/almayer/medidoor/colony{
@@ -2470,6 +2546,10 @@
 /obj/structure/cargo_container/horizontal/blue/top,
 /turf/open/hybrisa/street/asphalt,
 /area/space)
+"jz" = (
+/obj/structure/window/framed/new_varadero/foundation/reinforced/hull,
+/turf/open/floor/shiva,
+/area/almayer/engineering/lower/engine_monitoring)
 "jB" = (
 /obj/structure/machinery/conveyor{
 	dir = 4;
@@ -3748,8 +3828,8 @@
 /turf/open/floor/shiva/floor3,
 /area/varadero/interior/cargo)
 "nU" = (
-/obj/item/device/binoculars,
 /obj/structure/surface/table/reinforced/prison,
+/obj/item/device/binoculars/civ,
 /turf/open/floor/shiva,
 /area/desert_dam/building/security/observation)
 "nV" = (
@@ -74803,7 +74883,7 @@ nM
 nM
 nM
 nM
-nM
+eC
 nM
 Mw
 cA
@@ -74985,7 +75065,7 @@ nM
 nM
 nM
 nM
-nM
+eC
 nM
 Mw
 cA
@@ -75167,7 +75247,7 @@ nM
 nM
 nM
 nM
-nM
+eC
 nM
 Mw
 cA
@@ -75349,7 +75429,7 @@ nM
 nM
 nM
 nM
-nM
+eC
 nM
 Mw
 cA
@@ -75527,11 +75607,11 @@ SX
 SX
 nV
 nM
-nR
+jc
 nM
 nM
 nM
-nM
+eC
 nM
 ct
 jH
@@ -75713,7 +75793,7 @@ nU
 nM
 nM
 nM
-nM
+eC
 nM
 nD
 jN
@@ -75895,7 +75975,7 @@ nR
 nM
 nM
 nM
-nM
+fm
 nM
 nE
 nC
@@ -76435,19 +76515,19 @@ SX
 SX
 SX
 SX
-nV
+nK
+nK
+nK
+nK
 nM
 nM
-nM
-nM
-nM
-nM
-nM
+nK
+nK
 nJ
 jH
 nA
-nm
-nm
+cE
+cE
 kf
 jH
 js
@@ -76617,23 +76697,23 @@ SX
 SX
 SX
 SX
-nV
-nM
-nM
-nM
-nM
-nM
-nM
-nM
-ap
-fw
-fw
-fw
-fw
-fw
-fw
-ap
-bP
+nK
+bj
+bj
+bj
+bj
+bj
+bj
+bj
+bj
+bj
+bj
+bj
+bj
+bj
+bj
+bj
+bj
 bP
 bP
 bP
@@ -76800,22 +76880,22 @@ SX
 SX
 SX
 nK
-nK
-nM
-nM
-nM
-nM
-nM
-nM
-ap
-fw
-fw
-fw
-fw
-fw
-fw
-ap
-bP
+bj
+bj
+bj
+bj
+bj
+bj
+bj
+bj
+bj
+bj
+bj
+bj
+bj
+bj
+bj
+bj
 bP
 bP
 bP
@@ -76982,22 +77062,22 @@ SX
 SX
 SX
 nK
-nK
-nM
-nM
-nM
-nM
-nM
-nM
-ap
-fw
-fw
-fw
-fw
-fw
-fw
-ap
-df
+bj
+bj
+bj
+bj
+bj
+bj
+bj
+bj
+bT
+bj
+bj
+bj
+bj
+bT
+bj
+bj
 bP
 bP
 bP
@@ -77165,12 +77245,12 @@ SX
 SX
 SX
 BP
+df
+df
 bP
 bP
 bP
-bP
-bP
-bP
+df
 ap
 ap
 fw
@@ -77346,7 +77426,7 @@ SX
 SX
 SX
 SX
-BP
+jd
 bP
 bP
 bP
@@ -77360,8 +77440,8 @@ fw
 fw
 fw
 fw
-fw
-df
+ap
+bP
 bP
 bP
 bP
@@ -77528,12 +77608,12 @@ SX
 SX
 SX
 SX
-BP
+jd
 bP
 bP
-bP
-bP
-bP
+hQ
+hQ
+hQ
 bP
 ap
 fw
@@ -77542,8 +77622,8 @@ fw
 jl
 fw
 fw
-fw
-df
+ap
+bP
 bP
 bP
 bP
@@ -77710,12 +77790,12 @@ SX
 SX
 SX
 SX
-BP
+jd
 bP
-bP
-bP
-bP
-bP
+iX
+iV
+iV
+iV
 bP
 jg
 ju
@@ -77724,8 +77804,8 @@ ju
 nv
 ju
 ju
-ju
 jg
+ju
 bP
 bP
 bP
@@ -77892,12 +77972,12 @@ SX
 SX
 SX
 SX
-BP
+jd
 bP
-bP
-bP
-bP
-bP
+ja
+iV
+iV
+iV
 bP
 jg
 ju
@@ -77906,7 +77986,7 @@ ju
 nv
 ju
 ju
-ju
+jg
 jg
 df
 bP
@@ -78074,12 +78154,12 @@ SX
 SX
 SX
 SX
-BP
+jd
 bP
 bP
-bP
-bP
-bP
+hQ
+hQ
+hQ
 bP
 jg
 ju
@@ -78088,7 +78168,7 @@ ju
 nv
 ju
 ju
-ju
+jg
 jg
 df
 df
@@ -78256,7 +78336,7 @@ SX
 SX
 SX
 SX
-BP
+jd
 bP
 bP
 bP
@@ -78270,7 +78350,7 @@ ju
 ju
 ju
 ju
-ju
+jg
 jg
 df
 df
@@ -78438,7 +78518,7 @@ SX
 SX
 SX
 SX
-BP
+jd
 bP
 bP
 bP
@@ -78452,7 +78532,7 @@ ju
 ju
 ju
 ju
-ju
+jg
 jg
 df
 Be
@@ -78987,11 +79067,11 @@ nX
 nw
 mA
 mA
-mA
-mA
-mA
-mA
-mA
+iW
+iW
+dV
+dV
+dV
 mA
 mA
 mA
@@ -79166,7 +79246,7 @@ hB
 hB
 nX
 nX
-nw
+jz
 mA
 mA
 mA
@@ -79348,7 +79428,7 @@ hB
 hB
 nX
 nX
-nw
+jz
 mA
 mA
 mA
@@ -79357,7 +79437,7 @@ mA
 mA
 mA
 mA
-mA
+dc
 mA
 bP
 kj
@@ -79530,16 +79610,16 @@ hB
 hB
 nX
 nX
-nw
+jz
 mA
 mA
+ei
+ei
+ei
+ei
+ei
 mA
-mA
-mA
-mA
-mA
-mA
-mA
+di
 mA
 bP
 hl
@@ -79712,7 +79792,7 @@ hB
 hB
 nX
 nX
-nw
+jz
 mA
 mA
 mA
@@ -79721,7 +79801,7 @@ mA
 mA
 mA
 mA
-mA
+dt
 mA
 bP
 hl
@@ -79894,7 +79974,7 @@ hB
 hB
 nX
 nX
-nw
+jz
 mA
 mA
 mA
@@ -79903,7 +79983,7 @@ mA
 mA
 mA
 mA
-mA
+dF
 mA
 bP
 hl
@@ -80076,14 +80156,14 @@ hB
 hB
 nX
 nX
-nw
+jz
 mA
 mA
-mA
-mA
-mA
-mA
-mA
+ei
+ei
+ei
+ei
+ei
 mA
 mA
 mA
@@ -80258,7 +80338,7 @@ hB
 hB
 nX
 nX
-nw
+jz
 mA
 mA
 mA
