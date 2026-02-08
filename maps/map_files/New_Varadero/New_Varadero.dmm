@@ -66,9 +66,6 @@
 /obj/item/ammo_magazine/rifle/ak4047,
 /turf/open/floor/shiva/red,
 /area/space)
-"ap" = (
-/turf/open/floor/bcircuit,
-/area/varadero/interior/maintenance/north)
 "aq" = (
 /obj/structure/extinguisher_cabinet{
 	pixel_x = -7
@@ -599,10 +596,6 @@
 /obj/effect/decal/hybrisa/dirt,
 /turf/open/floor/shiva/red/west,
 /area/space)
-"bT" = (
-/obj/effect/spawner/random/toolbox,
-/turf/open/floor/plating/icefloor/asteroidplating,
-/area/varadero/interior/maintenance/north)
 "bU" = (
 /obj/effect/decal/hybrisa/dirt,
 /turf/open/floor/shiva/red/east,
@@ -916,7 +909,7 @@
 /turf/open/new_varadero/alt_concrete,
 /area/space)
 "dc" = (
-/turf/closed/wall/r_wall/unmeltable,
+/turf/closed/wall/new_varadero,
 /area/almayer/shipboard/weapon_room)
 "dd" = (
 /turf/closed/wall/new_varadero,
@@ -1080,12 +1073,6 @@
 /obj/structure/machinery/door/window/ultra,
 /turf/open/floor/plating,
 /area/lv759/indoors/colonial_marshals/prisoners_cells)
-"dF" = (
-/obj/structure/surface/rack,
-/obj/item/tool/crowbar/red,
-/obj/item/tank/emergency_oxygen,
-/turf/open/floor/asteroidfloor/north,
-/area/varadero/exterior/lz1_near)
 "dG" = (
 /turf/open/auto_turf/sand_white/layer1,
 /area/varadero/exterior/pontoon_beach)
@@ -1312,15 +1299,6 @@
 /obj/item/tool/shovel/snow,
 /turf/open/auto_turf/sand_white,
 /area/space)
-"eC" = (
-/obj/structure/machinery/door_control{
-	id = "undergroundhangarsouth";
-	name = "South Dock Door";
-	pixel_x = -32;
-	pixel_y = -18
-	},
-/turf/open/floor/plating/icefloor/warnplate/north,
-/area/varadero/exterior/lz1_near)
 "eD" = (
 /turf/open/floor/chapel/north,
 /area/bigred/ground/chapel)
@@ -1524,10 +1502,6 @@
 	},
 /turf/open/floor/shiva,
 /area/space)
-"fw" = (
-/obj/structure/machinery/light,
-/turf/open/floor/bcircuit,
-/area/varadero/interior/maintenance/north)
 "fx" = (
 /turf/closed/wall/rock/brown,
 /area/almayer/living/captain_mess)
@@ -2198,10 +2172,6 @@
 /obj/structure/prop/rock/brown,
 /turf/open_space,
 /area/varadero/exterior/comms4)
-"hV" = (
-/obj/structure/window/framed/colony,
-/turf/open/floor/plating/icefloor/asteroidplating,
-/area/varadero/interior/maintenance/north)
 "hW" = (
 /obj/item/reagent_container/food/snacks/eat_bar,
 /turf/open/floor/plating/icefloor/asteroidplating,
@@ -2496,11 +2466,6 @@
 /obj/structure/machinery/door/poddoor/almayer/planet_side_blastdoor,
 /turf/open/floor/dark2,
 /area/space)
-"jg" = (
-/turf/closed/shuttle/elevator{
-	dir = 10
-	},
-/area/space)
 "jh" = (
 /obj/structure/platform/stone/kutjevo/west,
 /obj/structure/platform/stone/kutjevo/east,
@@ -2508,15 +2473,6 @@
 	dir = 2
 	},
 /turf/open_space,
-/area/space)
-"ji" = (
-/obj/structure/prop/structure_lattice{
-	dir = 4;
-	health = 300;
-	icon = 'icons/turf/elevator.dmi';
-	icon_state = "wall_broke"
-	},
-/turf/open/floor/corsat/squares,
 /area/space)
 "jj" = (
 /obj/effect/stairs/down,
@@ -2553,24 +2509,10 @@
 "jr" = (
 /turf/open/floor/shiva,
 /area/almayer/living/grunt_rnr)
-"js" = (
-/obj/structure/prop/structure_lattice{
-	dir = 8;
-	health = 300;
-	icon = 'icons/turf/elevator.dmi';
-	icon_state = "wall_broke"
-	},
-/turf/open/floor/corsat/squares,
-/area/space)
 "jt" = (
 /obj/structure/pipes/standard/simple/hidden/green,
 /turf/open/floor/plating/icefloor/asteroidplating,
 /area/varadero/interior/maintenance/research)
-"ju" = (
-/turf/closed/shuttle/elevator{
-	dir = 6
-	},
-/area/space)
 "jv" = (
 /obj/structure/machinery/light,
 /turf/open/floor/darkpurple2,
@@ -2584,9 +2526,6 @@
 /obj/item/prop/magazine/boots/n054,
 /turf/open/floor/shiva/red,
 /area/space)
-"jx" = (
-/turf/closed/shuttle/elevator,
-/area/space)
 "jy" = (
 /obj/effect/decal/hybrisa/road/lines2,
 /obj/structure/cargo_container/horizontal/blue/top,
@@ -2594,6 +2533,15 @@
 /area/space)
 "jz" = (
 /turf/open/shuttle/elevator,
+/area/space)
+"jA" = (
+/obj/structure/prop/structure_lattice{
+	dir = 1;
+	health = 300;
+	icon = 'icons/turf/elevator.dmi';
+	icon_state = "wall_broke"
+	},
+/turf/open/floor/corsat/squares,
 /area/space)
 "jB" = (
 /obj/structure/machinery/conveyor{
@@ -2625,10 +2573,6 @@
 	},
 /turf/open/new_varadero,
 /area/space)
-"jH" = (
-/obj/effect/decal/cleanable/dirt,
-/turf/open/shuttle/elevator,
-/area/space)
 "jI" = (
 /obj/structure/machinery/newscaster{
 	pixel_y = 35
@@ -2652,11 +2596,6 @@
 /obj/structure/coatrack,
 /obj/item/clothing/suit/storage/hazardvest/medical_red,
 /turf/open/floor/wood,
-/area/space)
-"jN" = (
-/turf/closed/shuttle/elevator{
-	dir = 1
-	},
 /area/space)
 "jO" = (
 /obj/structure/machinery/door/airlock/multi_tile/almayer/generic2/glass/autoname,
@@ -2720,8 +2659,7 @@
 /turf/open/floor/dark2,
 /area/space)
 "jV" = (
-/obj/item/stack/rods,
-/turf/open/shuttle/elevator/grating,
+/turf/closed/shuttle/elevator/freight,
 /area/space)
 "jW" = (
 /turf/closed/wall/shiva/prefabricated/blue,
@@ -2748,10 +2686,6 @@
 	},
 /turf/open/gm/river/desert/deep/no_slowdown,
 /area/varadero/interior/maintenance/north)
-"kb" = (
-/obj/item/stack/rods,
-/turf/open/floor/corsat/squares,
-/area/space)
 "kc" = (
 /turf/closed/shuttle/elevator/gears,
 /area/space)
@@ -2764,10 +2698,6 @@
 	dir = 5
 	},
 /area/space)
-"kf" = (
-/obj/structure/machinery/door/airlock/multi_tile/elevator/arrivals,
-/turf/open/floor/corsat/squares,
-/area/space)
 "kg" = (
 /obj/vehicle/multitile,
 /turf/open/floor/strata/multi_tiles,
@@ -2779,10 +2709,6 @@
 /obj/structure/largecrate/random,
 /turf/open/floor/plating/icefloor/asteroidplating,
 /area/varadero/interior/maintenance/north)
-"kj" = (
-/obj/structure/window/framed/new_varadero/foundation,
-/turf/open/floor/corsat/squares,
-/area/space)
 "kk" = (
 /obj/structure/closet/wardrobe/morgue,
 /turf/open/floor/shiva/north,
@@ -3557,13 +3483,8 @@
 /turf/open/new_varadero/sidewalk/northwest,
 /area/space)
 "mC" = (
-/obj/structure/prop/structure_lattice{
-	density = 0;
-	desc = "On closer inspection, everything on these shelves are made of plastic.";
-	icon_state = "book-5";
-	name = "book case"
-	},
 /obj/structure/machinery/light,
+/obj/structure/bookcase,
 /turf/open/floor/wood,
 /area/space)
 "mD" = (
@@ -3764,17 +3685,18 @@
 	},
 /turf/open/floor/darkpurple2/southwest,
 /area/space)
+"nk" = (
+/obj/structure/machinery/door/poddoor/two_tile/four_tile/vertical/secure{
+	id = "researchoutside";
+	name = "Omicron Research Dome";
+	dir = 2
+	},
+/turf/open/floor/shiva,
+/area/almayer/shipboard/weapon_room)
 "nl" = (
 /obj/structure/bed,
 /turf/open/floor/shiva/green,
 /area/space)
-"nm" = (
-/obj/structure/machinery/landinglight/ds2/spoke{
-	pixel_x = -1;
-	pixel_y = 22
-	},
-/turf/closed/wall/r_wall,
-/area/varadero/interior/maintenance/north)
 "nn" = (
 /obj/structure/platform/metal/kutjevo_smooth{
 	climb_delay = 1
@@ -3796,6 +3718,20 @@
 	pixel_y = -2
 	},
 /turf/open/floor/plating/icefloor/asteroidplating,
+/area/varadero/interior/maintenance/north)
+"nq" = (
+/obj/structure/prop/structure_lattice{
+	health = 300;
+	icon = 'icons/turf/elevator.dmi';
+	icon_state = "wall_broke"
+	},
+/turf/open/floor/corsat/squares,
+/area/space)
+"nr" = (
+/turf/closed/shuttle/elevator/button/freight,
+/area/space)
+"ns" = (
+/turf/closed/wall/new_varadero,
 /area/varadero/interior/maintenance/north)
 "nt" = (
 /turf/open/floor/darkbrown2/west,
@@ -4233,12 +4169,6 @@
 /obj/effect/stairs/up,
 /turf/open/space/basic,
 /area/varadero/interior/comms1)
-"pZ" = (
-/obj/structure/machinery/light{
-	dir = 4
-	},
-/turf/open/floor/plating/icefloor/warnplate,
-/area/varadero/interior/maintenance/north)
 "qa" = (
 /obj/structure/machinery/door/poddoor/shutters/almayer{
 	id = s;
@@ -4265,10 +4195,7 @@
 /turf/open/floor/plating,
 /area/varadero/exterior/farocean)
 "qe" = (
-/obj/structure/machinery/light{
-	dir = 8
-	},
-/turf/open/floor/plating/icefloor/asteroidplating,
+/turf/open/space/basic,
 /area/varadero/interior/maintenance/north)
 "qf" = (
 /turf/closed/wall/new_varadero/reinforced,
@@ -4430,12 +4357,6 @@
 	},
 /turf/open/floor/shiva/floor3,
 /area/varadero/interior/cargo)
-"qZ" = (
-/obj/structure/surface/table/reinforced/prison,
-/obj/item/stack/sheet/mineral/phoron/medium_stack,
-/obj/item/stack/sheet/metal/med_small_stack,
-/turf/open/floor/plating/icefloor/asteroidplating,
-/area/varadero/interior/maintenance/north)
 "rb" = (
 /turf/closed/wall/r_wall,
 /area/varadero/interior/maintenance/research)
@@ -4486,14 +4407,6 @@
 /obj/structure/machinery/vending/coffee,
 /turf/open/floor/shiva/bluefull,
 /area/space)
-"rw" = (
-/obj/structure/machinery/door_control{
-	id = "undergroundhangarsouth";
-	name = "South Dock Door";
-	pixel_x = -24
-	},
-/turf/open/floor/plating/icefloor/warnplate,
-/area/varadero/interior/maintenance/north)
 "rx" = (
 /turf/open/space/basic,
 /area/lv759/indoors/apartment/westshowers)
@@ -4600,10 +4513,6 @@
 /obj/effect/decal/hybrisa/road/lines2,
 /turf/open/hybrisa/street/asphalt,
 /area/space)
-"rZ" = (
-/obj/structure/machinery/power/power_generator/port_gen/pacman,
-/turf/open/floor/plating/icefloor/asteroidplating,
-/area/varadero/interior/maintenance/north)
 "sa" = (
 /obj/structure/largecrate/random/barrel/true_random{
 	pixel_x = 7
@@ -4636,11 +4545,6 @@
 /obj/structure/medical_supply_link,
 /turf/open/floor/shiva/wred/northeast,
 /area/space)
-"sh" = (
-/obj/structure/catwalk,
-/obj/structure/largecrate/random,
-/turf/open/gm/river/desert/deep/no_slowdown,
-/area/varadero/interior/maintenance/north)
 "sj" = (
 /turf/open/floor/shiva/north,
 /area/space)
@@ -4678,11 +4582,6 @@
 /obj/structure/disposalpipe/segment,
 /turf/open/floor/shiva/multi_tiles,
 /area/varadero/interior/cargo)
-"sz" = (
-/obj/structure/surface/rack,
-/obj/effect/spawner/random/toolbox,
-/turf/open/floor/plating/icefloor/asteroidplating,
-/area/varadero/interior/maintenance/north)
 "sA" = (
 /obj/structure/surface/table/reinforced,
 /obj/structure/machinery/computer/shuttle/dropship/flight/lz1,
@@ -4696,11 +4595,6 @@
 /obj/structure/closet/secure_closet/personal,
 /turf/open/floor/shiva/red/north,
 /area/space)
-"sD" = (
-/obj/structure/largecrate/random,
-/obj/structure/barricade/wooden,
-/turf/open/floor/plating/icefloor/asteroidplating,
-/area/varadero/interior/maintenance/north)
 "sE" = (
 /turf/open/gm/dirt/desert_dug,
 /area/varadero/interior/maintenance/north)
@@ -4864,10 +4758,6 @@
 	},
 /turf/open/floor/prison/floor_plate/southwest,
 /area/space)
-"tq" = (
-/obj/effect/decal/cleanable/blood/drip,
-/turf/open/floor/plating/icefloor/asteroidplating,
-/area/varadero/interior/maintenance/north)
 "tr" = (
 /obj/structure/bed/chair{
 	dir = 4;
@@ -4888,13 +4778,6 @@
 	},
 /turf/open/floor/shiva/north,
 /area/space)
-"tw" = (
-/obj/structure/machinery/storm_siren{
-	dir = 8;
-	pixel_x = 3
-	},
-/turf/open/floor/plating/icefloor/asteroidplating,
-/area/varadero/interior/maintenance/north)
 "tx" = (
 /obj/structure/surface/rack,
 /obj/effect/landmark/objective_landmark/medium,
@@ -5032,10 +4915,6 @@
 "uh" = (
 /turf/open/floor/shiva/yellow/west,
 /area/varadero/interior/cargo)
-"ui" = (
-/obj/structure/closet/toolcloset,
-/turf/open/floor/plating/icefloor/asteroidplating,
-/area/varadero/interior/maintenance/north)
 "uj" = (
 /obj/structure/machinery/light{
 	dir = 1
@@ -5143,13 +5022,6 @@
 "uR" = (
 /turf/open/floor/shiva/yellow/northeast,
 /area/varadero/interior/cargo)
-"uS" = (
-/obj/structure/machinery/landinglight/ds2/spoke{
-	pixel_x = -1;
-	pixel_y = 22
-	},
-/turf/open/floor/asteroidfloor/north,
-/area/varadero/exterior/lz1_near)
 "uT" = (
 /obj/structure/cargo_container/hybrisa/containersextended/medicalleft,
 /turf/open/new_varadero,
@@ -5552,9 +5424,6 @@
 	},
 /turf/open/floor/darkpurple2/north,
 /area/space)
-"xa" = (
-/turf/open/floor/plating/icefloor/warnplate,
-/area/varadero/interior/maintenance/north)
 "xb" = (
 /obj/effect/decal/hybrisa/road/lines1,
 /obj/effect/decal/hybrisa/road/road_stop{
@@ -5626,10 +5495,6 @@
 	},
 /turf/open/floor/shiva/floor3,
 /area/varadero/interior/cargo)
-"xu" = (
-/obj/structure/machinery/power/power_generator/port_gen/pacman/mrs,
-/turf/open/floor/plating/icefloor/asteroidplating,
-/area/varadero/interior/maintenance/north)
 "xz" = (
 /turf/open/floor/strata/fake_wood,
 /area/ice_colony/exterior/underground/caves)
@@ -5637,10 +5502,6 @@
 /obj/structure/closet/firecloset/full,
 /turf/open/new_varadero/alt_concrete,
 /area/space)
-"xC" = (
-/obj/structure/sign/safety/bulkhead_door,
-/turf/closed/wall/r_wall,
-/area/varadero/interior/maintenance/north)
 "xD" = (
 /obj/structure/machinery/light/small{
 	dir = 8
@@ -5820,13 +5681,6 @@
 	},
 /turf/open/floor/dark2,
 /area/space)
-"yE" = (
-/obj/structure/barricade/handrail/wire{
-	layer = 3.01
-	},
-/obj/structure/catwalk,
-/turf/open/gm/river/desert/deep/no_slowdown,
-/area/varadero/interior/maintenance/north)
 "yF" = (
 /obj/item/stack/sheet/plasteel/large_stack,
 /turf/open/floor/darkbrown2/southeast,
@@ -6196,13 +6050,6 @@
 	},
 /turf/open/floor/plating/icefloor/warnplate/north,
 /area/space)
-"AG" = (
-/obj/structure/sign/safety/high_voltage,
-/obj/structure/sign/safety/hazard{
-	pixel_x = 15
-	},
-/turf/closed/wall/r_wall,
-/area/varadero/interior/maintenance/north)
 "AH" = (
 /obj/structure/pipes/standard/simple/hidden/green{
 	dir = 4
@@ -6217,8 +6064,7 @@
 /turf/open/floor/shiva,
 /area/space)
 "AO" = (
-/obj/structure/machinery/light,
-/turf/open/floor/asteroidfloor/north,
+/turf/open/space/basic,
 /area/varadero/exterior/lz1_near)
 "AP" = (
 /obj/structure/largecrate/random/barrel/true_random{
@@ -6442,10 +6288,6 @@
 "Ca" = (
 /turf/closed/wall/rock/brown,
 /area/varadero/interior_protected/caves/digsite)
-"Cc" = (
-/obj/structure/barricade/wooden,
-/turf/open/floor/plating/icefloor/asteroidplating,
-/area/varadero/interior/maintenance/north)
 "Cd" = (
 /obj/structure/pipes/standard/simple/hidden/scrubbers{
 	dir = 4
@@ -6524,13 +6366,6 @@
 /obj/structure/bed/sofa/vert/white/bot,
 /turf/open/floor/shiva/multi_tiles/southeast,
 /area/space)
-"CG" = (
-/obj/effect/decal/cleanable/blood/drip,
-/obj/structure/machinery/light/small{
-	dir = 4
-	},
-/turf/open/floor/asteroidfloor/north,
-/area/varadero/exterior/lz1_near)
 "CI" = (
 /obj/effect/decal/hybrisa/road/lines3,
 /obj/effect/decal/hybrisa/road/road_edge{
@@ -6883,16 +6718,6 @@
 /obj/structure/prop/hybrisa/vehicles/Armored_Truck/White,
 /turf/open/floor/dark2,
 /area/space)
-"Ew" = (
-/obj/structure/surface/table,
-/obj/item/storage/wallet/random{
-	pixel_y = 3
-	},
-/obj/structure/machinery/light{
-	dir = 4
-	},
-/turf/open/floor/plating/icefloor/asteroidplating,
-/area/varadero/interior/maintenance/north)
 "Ex" = (
 /obj/structure/pipes/standard/simple/hidden/green{
 	dir = 4
@@ -6949,12 +6774,6 @@
 /obj/item/key/cargo_train,
 /turf/open/floor/shiva/yellowcorners,
 /area/varadero/interior/cargo)
-"ET" = (
-/obj/structure/machinery/power/smes/buildable{
-	name = "colony distribution SMES"
-	},
-/turf/open/floor/plating/icefloor/asteroidplating,
-/area/varadero/interior/maintenance/north)
 "EU" = (
 /turf/open/floor/shiva/yellowfull/west,
 /area/space)
@@ -7506,11 +7325,6 @@
 "Ik" = (
 /turf/open/floor/shiva/redcorners/west,
 /area/space)
-"In" = (
-/obj/structure/surface/rack,
-/obj/effect/spawner/random/tool,
-/turf/open/floor/plating/icefloor/asteroidplating,
-/area/varadero/interior/maintenance/north)
 "Io" = (
 /obj/structure/barricade/handrail/wire{
 	layer = 3.1
@@ -7722,15 +7536,6 @@
 /obj/structure/pipes/standard/simple/hidden/green,
 /turf/open/hybrisa/street/roadlines,
 /area/space)
-"Jo" = (
-/obj/structure/machinery/door/airlock/almayer/maint{
-	dir = 1;
-	name = "\improper Underground Maintenance";
-	req_access_txt = "100";
-	req_one_access = null
-	},
-/turf/open/floor/plating/icefloor/asteroidplating,
-/area/varadero/interior/maintenance/north)
 "Jp" = (
 /obj/effect/decal/hybrisa/road/lines2,
 /obj/effect/decal/hybrisa/road/road_edge{
@@ -7808,10 +7613,6 @@
 /obj/structure/closet/secure_closet/personal/patient,
 /turf/open/floor/shiva/snow_mat/east,
 /area/space)
-"JI" = (
-/obj/effect/spawner/random/tool,
-/turf/open/floor/plating/icefloor/asteroidplating,
-/area/varadero/interior/maintenance/north)
 "JK" = (
 /obj/structure/machinery/landinglight/ds1/delaytwo{
 	dir = 4
@@ -7834,13 +7635,6 @@
 "JP" = (
 /turf/open/floor/darkbrown2/east,
 /area/space)
-"JR" = (
-/obj/structure/machinery/storm_siren{
-	dir = 4;
-	pixel_x = -3
-	},
-/turf/open/floor/asteroidfloor/north,
-/area/varadero/exterior/lz1_near)
 "JT" = (
 /obj/structure/machinery/light{
 	dir = 8
@@ -7890,11 +7684,6 @@
 /obj/structure/machinery/sleep_console,
 /turf/open/floor/shiva/wredfull,
 /area/space)
-"Kc" = (
-/obj/effect/decal/cleanable/blood/oil,
-/obj/structure/machinery/power/apc/power/north,
-/turf/open/floor/plating/icefloor/asteroidplating,
-/area/varadero/interior/maintenance/north)
 "Kd" = (
 /turf/open/auto_turf/sand_white/layer1,
 /area/varadero/interior/caves/east)
@@ -7908,7 +7697,7 @@
 /turf/open/floor/shiva/red,
 /area/space)
 "Kk" = (
-/turf/open/floor/asteroidfloor/north,
+/turf/open/space/basic,
 /area/almayer/shipboard/port_point_defense)
 "Ko" = (
 /turf/open/space/basic,
@@ -7939,14 +7728,6 @@
 	},
 /turf/open/floor/strata/multi_tiles,
 /area/space)
-"Kv" = (
-/obj/structure/catwalk,
-/obj/structure/filtration/flacculation_arm{
-	density = 0;
-	layer = 2.1
-	},
-/turf/open/gm/river/desert/deep/no_slowdown,
-/area/varadero/interior/maintenance/north)
 "Kx" = (
 /obj/structure/surface/table/woodentable{
 	icon_state = "reinf_table"
@@ -7987,10 +7768,6 @@
 	},
 /turf/open/floor/dark2,
 /area/space)
-"KC" = (
-/obj/effect/landmark/hunter_primary,
-/turf/open/floor/asteroidfloor/north,
-/area/varadero/exterior/lz1_near)
 "KD" = (
 /obj/structure/machinery/conveyor{
 	dir = 4;
@@ -8159,10 +7936,6 @@
 	},
 /turf/open/floor/darkyellow2/east,
 /area/space)
-"LA" = (
-/obj/structure/closet/secure_closet/engineering_welding,
-/turf/open/floor/asteroidfloor/north,
-/area/varadero/exterior/lz1_near)
 "LC" = (
 /obj/structure/barricade/sandbags{
 	dir = 1
@@ -8534,12 +8307,7 @@
 /turf/open/floor/dark2,
 /area/space)
 "NB" = (
-/obj/structure/prop/structure_lattice{
-	density = 0;
-	desc = "On closer inspection, everything on these shelves are made of plastic.";
-	icon_state = "book-5";
-	name = "book case"
-	},
+/obj/structure/bookcase,
 /turf/open/floor/wood,
 /area/space)
 "NE" = (
@@ -8632,9 +8400,6 @@
 /obj/effect/landmark/item_pool_spawner/survivor_ammo/buckshot,
 /turf/open/floor/darkbrown2/southwest,
 /area/space)
-"Od" = (
-/turf/open/floor/asteroidfloor/north,
-/area/varadero/exterior/lz1_near)
 "Of" = (
 /obj/structure/pipes/standard/simple/visible{
 	dir = 6
@@ -8739,14 +8504,6 @@
 /obj/structure/blocker/invisible_wall/water,
 /turf/open_space,
 /area/varadero/exterior/comms4)
-"OF" = (
-/obj/structure/machinery/door/airlock/almayer/secure{
-	dir = 2;
-	name = "Underground Hangar Power Substation";
-	req_access = null
-	},
-/turf/open/floor/asteroidfloor/north,
-/area/varadero/interior/maintenance/north)
 "OG" = (
 /turf/closed/wall/r_wall,
 /area/varadero/interior_protected/maintenance/south)
@@ -8947,9 +8704,6 @@
 /obj/structure/machinery/power/power_generator/port_gen/pacman,
 /turf/open/floor/darkyellow2/north,
 /area/space)
-"PJ" = (
-/turf/open/floor/plating/icefloor/warnplate/north,
-/area/varadero/exterior/lz1_near)
 "PK" = (
 /obj/structure/flora/bush/ausbushes/var3/fullgrass,
 /obj/structure/machinery/storm_siren{
@@ -9157,10 +8911,6 @@
 /obj/effect/landmark/xeno_spawn,
 /turf/open/gm/dirt,
 /area/varadero/interior_protected/caves)
-"QT" = (
-/obj/item/circuitboard/apc,
-/turf/open/floor/plating/icefloor/asteroidplating,
-/area/varadero/interior/maintenance/north)
 "QU" = (
 /obj/structure/prop/structure_lattice{
 	dir = 1;
@@ -9193,11 +8943,6 @@
 	},
 /turf/open/floor/plating/icefloor/asteroidplating,
 /area/varadero/interior_protected/maintenance/south)
-"QX" = (
-/obj/structure/closet/toolcloset,
-/obj/effect/landmark/objective_landmark/close,
-/turf/open/floor/plating/icefloor/asteroidplating,
-/area/varadero/interior/maintenance/north)
 "QY" = (
 /obj/effect/decal/warning_stripes{
 	icon_state = "E"
@@ -9299,14 +9044,6 @@
 /obj/structure/machinery/portable_atmospherics/canister/nitrogen,
 /turf/open/floor/darkyellow2/southwest,
 /area/space)
-"Rw" = (
-/obj/structure/machinery/door/airlock/almayer/maint{
-	name = "\improper Underground Maintenance";
-	req_access_txt = "100";
-	req_one_access = null
-	},
-/turf/open/floor/plating/icefloor/asteroidplating,
-/area/varadero/interior/maintenance/north)
 "Rx" = (
 /obj/effect/decal/hybrisa/dirt,
 /obj/effect/decal/hybrisa/dirt,
@@ -10201,22 +9938,11 @@
 /obj/structure/prop/rock/brown,
 /turf/open/gm/river/ocean/deep_ocean,
 /area/varadero/exterior/farocean)
-"Wo" = (
-/obj/structure/catwalk,
-/obj/structure/barricade/handrail/wire{
-	layer = 3.01
-	},
-/turf/open/floor/plating/plating_catwalk,
-/area/varadero/interior/maintenance/north)
 "Wq" = (
 /obj/structure/surface/table/woodentable/poor,
 /obj/item/trash/tray,
 /turf/open/floor/shiva/bluefull,
 /area/space)
-"Wr" = (
-/obj/effect/decal/cleanable/blood/drip,
-/turf/open/floor/asteroidfloor/north,
-/area/varadero/exterior/lz1_near)
 "Ws" = (
 /obj/structure/bed/hybrisa/prisonbed,
 /turf/open/floor/hybrisa/carpet/carpetblack,
@@ -10646,9 +10372,6 @@
 /obj/effect/landmark/structure_spawner/setup/distress/xeno_weed_node,
 /turf/open/auto_turf/sand_white/layer1,
 /area/varadero/interior_protected/maintenance/south)
-"YI" = (
-/turf/closed/shuttle/elevator/button/research,
-/area/space)
 "YK" = (
 /obj/structure/sign/poster/propaganda,
 /turf/closed/wall,
@@ -10671,13 +10394,6 @@
 	},
 /turf/open/hybrisa/street/roadlines,
 /area/space)
-"YO" = (
-/obj/structure/machinery/storm_siren{
-	dir = 4;
-	pixel_x = -3
-	},
-/turf/open/floor/plating/icefloor/asteroidplating,
-/area/varadero/interior/maintenance/north)
 "YS" = (
 /obj/structure/pipes/standard/simple/hidden/green,
 /obj/structure/machinery/door/airlock/almayer/medical/glass{
@@ -10842,9 +10558,6 @@
 /obj/structure/platform/stone/kutjevo/east,
 /turf/open_space,
 /area/space)
-"ZC" = (
-/turf/closed/wall/r_wall,
-/area/varadero/interior/maintenance/north)
 "ZD" = (
 /obj/effect/decal/warning_stripes{
 	icon_state = "N"
@@ -65212,12 +64925,12 @@ YM
 lH
 gM
 qi
-qD
-sz
-Kv
-In
-qD
-sz
+qe
+qe
+qe
+qe
+qe
+qe
 qe
 SX
 SX
@@ -65394,13 +65107,13 @@ qD
 lJ
 qD
 qD
-qD
-uw
-qU
-qD
-qD
-qD
-qD
+qe
+qe
+qe
+qe
+qe
+qe
+qe
 SX
 SX
 bP
@@ -65576,13 +65289,13 @@ qD
 qU
 ki
 bv
-qD
-qD
-qU
-qD
-uw
-qD
-bv
+qe
+qe
+qe
+qe
+qe
+qe
+qe
 SX
 SX
 bP
@@ -65758,13 +65471,13 @@ MZ
 bF
 TS
 bH
-Wo
-MZ
-bF
-TS
-bH
-Wo
-MZ
+qe
+qe
+qe
+qe
+qe
+qe
+qe
 SX
 SX
 bP
@@ -65940,13 +65653,13 @@ DF
 bF
 Tg
 qU
-yE
-DF
-bF
-Tg
-sh
-yE
-DF
+qe
+qe
+qe
+qe
+qe
+qe
+qe
 SX
 SX
 bP
@@ -66122,15 +65835,15 @@ vw
 bF
 qu
 bH
-Wo
-vw
-bF
-qu
-bH
-Wo
-vw
-SX
-SX
+qe
+qe
+qe
+qe
+qe
+qe
+ns
+df
+df
 df
 df
 df
@@ -66304,13 +66017,13 @@ qD
 qU
 qD
 qD
-bv
-qD
-qU
-uw
-qD
-qD
-qD
+qe
+qe
+qe
+qe
+qe
+qe
+ns
 SX
 SX
 SX
@@ -66486,13 +66199,13 @@ bv
 qU
 sf
 uw
-Cc
-QX
-qU
-JI
-qD
-qD
-bv
+qe
+qe
+qe
+qe
+qe
+qe
+ns
 SX
 SX
 SX
@@ -66668,13 +66381,13 @@ CL
 qU
 bg
 ki
-sD
-Ew
-qU
-ui
-tw
-ki
-qD
+qe
+qe
+qe
+qe
+qe
+qe
+ns
 SX
 SX
 SX
@@ -66850,13 +66563,13 @@ mU
 Yg
 Pk
 Pk
-ZC
-ZC
-Rw
-Pk
-ZC
-qD
-gM
+qe
+qe
+qe
+qe
+qe
+qe
+ns
 SX
 SX
 SX
@@ -67032,13 +66745,13 @@ hB
 hB
 Ma
 Ma
-Pk
-YO
-QT
-ET
-Pk
-qD
-qD
+qe
+qe
+qe
+qe
+qe
+qe
+ns
 SX
 SX
 SX
@@ -67214,13 +66927,13 @@ hB
 hB
 Ma
 Ma
-AG
-ap
-ap
-ap
-ZC
-uw
-sz
+qe
+qe
+qe
+qe
+qe
+qe
+ns
 SX
 SX
 SX
@@ -67396,13 +67109,13 @@ FD
 hB
 Ma
 Ma
-OF
-qD
-qD
-qD
-Jo
-CJ
-qU
+qe
+qe
+qe
+qe
+qe
+qe
+ns
 SX
 SX
 SX
@@ -67578,13 +67291,13 @@ FD
 hB
 Ma
 Ma
-Pk
-qD
-bT
-qD
-Pk
-qD
-YM
+qe
+qe
+qe
+qe
+qe
+qe
+ns
 SX
 SX
 SX
@@ -67760,13 +67473,13 @@ FD
 hB
 Ma
 Ma
-ZC
-ap
-ap
-fw
-ZC
-GD
-qD
+qe
+qe
+qe
+qe
+qe
+qe
+ns
 SX
 SX
 SX
@@ -67942,13 +67655,13 @@ FD
 hB
 Ma
 Ma
-Pk
-xu
-rZ
-qZ
-Pk
-ui
-uw
+qe
+qe
+qe
+qe
+qe
+qe
+ns
 SX
 SX
 SX
@@ -68124,13 +67837,13 @@ FD
 hB
 Ma
 Ma
-nm
-Pk
-xC
-Pk
-ZC
-qD
-qD
+qe
+qe
+qe
+qe
+qe
+qe
+ns
 SX
 SX
 SX
@@ -68306,13 +68019,13 @@ FD
 hB
 Ma
 Ma
-JR
-LA
-Od
 AO
-yd
-Kc
-qD
+AO
+AO
+AO
+qe
+qe
+ns
 SX
 SX
 SX
@@ -68488,13 +68201,13 @@ FD
 FD
 FD
 FD
-Od
-Od
-uS
-Od
-yd
-xC
-hV
+AO
+AO
+AO
+AO
+qe
+qe
+ns
 SX
 SX
 SX
@@ -68670,13 +68383,13 @@ FD
 FD
 FD
 FD
-Od
-Od
-Od
-eC
-yd
-rw
-qD
+AO
+AO
+AO
+AO
+qe
+qe
+ns
 SX
 SX
 SX
@@ -68852,14 +68565,14 @@ FD
 FD
 FD
 FD
-Od
-Od
-Od
-PJ
-yd
-xa
-qD
-SX
+AO
+AO
+AO
+AO
+qe
+qe
+ns
+df
 SX
 SX
 SX
@@ -69034,17 +68747,17 @@ FD
 FD
 FD
 FD
-KC
-Od
-Wr
-PJ
-yd
-xa
-qD
-SX
-SX
-SX
-SX
+AO
+AO
+AO
+AO
+qe
+qe
+qe
+df
+df
+df
+df
 df
 Be
 Be
@@ -69216,17 +68929,17 @@ FD
 FD
 FD
 FD
-Od
-Od
-Od
-PJ
-yd
-pZ
-qD
+AO
+AO
+AO
+AO
+qe
+qe
+qe
 SX
 SX
 SX
-SX
+df
 df
 Be
 Be
@@ -69398,13 +69111,13 @@ FD
 FD
 FD
 FD
-Od
-Od
-uS
 AO
-yd
-ZC
-hV
+AO
+AO
+AO
+qe
+qe
+qe
 SX
 SX
 SX
@@ -69580,13 +69293,13 @@ FD
 FD
 FD
 FD
-Od
-Wr
-Od
-Od
-sd
-uD
-tq
+AO
+AO
+AO
+AO
+qe
+qe
+qe
 SX
 SX
 SX
@@ -69762,13 +69475,13 @@ FD
 FD
 FD
 FD
-Wr
-Od
-Wr
-Od
-sd
-uD
-qD
+AO
+AO
+AO
+AO
+qe
+qe
+qe
 SX
 SX
 SX
@@ -69945,16 +69658,16 @@ hB
 FD
 FD
 Kk
-dF
-CG
-Od
-sd
-uD
-qD
+AO
+AO
+AO
+qe
+qe
+qe
 SX
 SX
 SX
-BP
+df
 bP
 bP
 bP
@@ -70136,7 +69849,7 @@ wc
 SX
 SX
 SX
-BP
+df
 bP
 bP
 bP
@@ -70318,7 +70031,7 @@ wc
 SX
 SX
 SX
-BP
+df
 bP
 bP
 bP
@@ -70500,7 +70213,7 @@ wc
 SX
 SX
 SX
-BP
+df
 bP
 bP
 bP
@@ -70682,7 +70395,7 @@ wc
 SX
 SX
 SX
-BP
+df
 bP
 bP
 bP
@@ -70864,7 +70577,7 @@ wc
 SX
 SX
 SX
-BP
+df
 bP
 bP
 bP
@@ -71046,7 +70759,7 @@ SC
 SX
 SX
 SX
-BP
+df
 bP
 bP
 bP
@@ -71228,7 +70941,7 @@ qD
 SX
 SX
 SX
-BP
+df
 bP
 bP
 bP
@@ -71410,7 +71123,7 @@ qD
 SX
 SX
 SX
-BP
+df
 bP
 bP
 bP
@@ -71592,7 +71305,7 @@ GD
 SX
 SX
 SX
-BP
+df
 bP
 bP
 bP
@@ -71774,7 +71487,7 @@ dV
 SX
 SX
 SX
-BP
+df
 bP
 bP
 bP
@@ -71956,7 +71669,7 @@ bj
 SX
 SX
 SX
-BP
+df
 bP
 bP
 bP
@@ -72138,7 +71851,7 @@ sd
 SX
 SX
 SX
-BP
+df
 bP
 bP
 bP
@@ -72320,7 +72033,7 @@ sd
 SX
 SX
 SX
-BP
+df
 bP
 bP
 bP
@@ -72502,7 +72215,7 @@ qD
 SX
 SX
 SX
-BP
+df
 bP
 bP
 bP
@@ -72684,7 +72397,7 @@ Da
 SX
 SX
 SX
-BP
+df
 bP
 bP
 bP
@@ -72866,7 +72579,7 @@ sd
 SX
 SX
 SX
-BP
+df
 bP
 bP
 bP
@@ -73048,7 +72761,7 @@ sd
 SX
 SX
 SX
-BP
+df
 bP
 bP
 bP
@@ -73230,7 +72943,7 @@ sd
 SX
 SX
 SX
-BP
+df
 bP
 bP
 bP
@@ -73412,7 +73125,7 @@ wc
 SX
 SX
 SX
-BP
+df
 bP
 bP
 bP
@@ -73594,7 +73307,7 @@ jE
 SX
 SX
 SX
-BP
+df
 bP
 bP
 bP
@@ -73776,11 +73489,11 @@ sE
 ct
 ct
 ct
-ct
-ct
-ct
-ct
 dc
+km
+km
+km
+km
 km
 km
 km
@@ -73958,11 +73671,11 @@ np
 ct
 ct
 ct
-ct
-ct
-ct
-ct
-ct
+dc
+km
+km
+km
+nk
 dc
 km
 km
@@ -74141,11 +73854,11 @@ ct
 ct
 ct
 ct
-ct
-ct
-ct
-ct
-ct
+km
+km
+km
+km
+dc
 dc
 km
 bP
@@ -74323,12 +74036,12 @@ ct
 ct
 ct
 ct
-ct
-ct
-ct
-ct
-ct
-ct
+km
+km
+km
+km
+km
+dc
 dc
 bP
 bP
@@ -74505,14 +74218,14 @@ ct
 ct
 ct
 ct
-ct
-ct
-ct
-ct
-ct
-ct
-ct
-BP
+km
+km
+km
+km
+km
+km
+dc
+df
 bP
 bP
 bP
@@ -74687,14 +74400,14 @@ ct
 ct
 ct
 ct
-ct
-ct
-ct
-ct
-ct
-ct
-ct
-BP
+km
+km
+km
+km
+km
+km
+km
+df
 bP
 bP
 bP
@@ -74869,14 +74582,14 @@ ct
 ct
 ct
 ct
-ct
-ct
-ct
-ct
-ct
-ct
-ct
-BP
+km
+km
+km
+km
+km
+km
+km
+df
 bP
 bP
 bP
@@ -75051,14 +74764,14 @@ ct
 ct
 ct
 ct
-ct
-ct
-ct
-ct
-ct
-ct
-ct
-BP
+km
+km
+km
+km
+km
+km
+km
+df
 bP
 bP
 bP
@@ -75233,14 +74946,14 @@ ct
 ct
 ct
 ct
-ct
-ct
-ct
-ct
-ct
-ct
-ct
-BP
+km
+km
+km
+km
+km
+km
+km
+df
 bP
 bP
 bP
@@ -75415,14 +75128,14 @@ ct
 ct
 ct
 ct
-ct
-ct
-ct
-ct
-ct
-ct
-ct
-BP
+km
+km
+km
+km
+km
+km
+km
+df
 bP
 bP
 bP
@@ -75597,14 +75310,14 @@ ct
 ct
 ct
 ct
-ct
-ct
-ct
-ct
-ct
-ct
-ct
-BP
+km
+km
+km
+km
+km
+km
+km
+df
 bP
 bP
 bP
@@ -75779,14 +75492,14 @@ ct
 ct
 ct
 ct
-ct
-ct
-ct
-ct
-ct
-ct
-ct
-BP
+km
+km
+km
+km
+km
+km
+km
+df
 bP
 bP
 bP
@@ -75961,14 +75674,14 @@ ct
 ct
 ct
 ct
-ct
-ct
-ct
-ct
-ct
-ct
-ct
-BP
+km
+km
+km
+km
+km
+km
+km
+df
 bP
 bP
 bP
@@ -76139,18 +75852,18 @@ FD
 FD
 FD
 FD
-YI
-YI
 SX
 SX
 SX
 SX
-SX
-SX
-SX
-SX
-SX
-BP
+bP
+bP
+bP
+bP
+bP
+bP
+bP
+df
 bP
 bP
 bP
@@ -76321,18 +76034,18 @@ FD
 FD
 FD
 FD
-YI
-YI
 SX
 SX
 SX
 SX
-SX
-SX
-SX
-SX
-SX
-BP
+bP
+bP
+bP
+bP
+bP
+bP
+bP
+df
 bP
 bP
 bP
@@ -76503,18 +76216,18 @@ FD
 FD
 FD
 FD
-YI
-YI
 SX
 SX
 SX
 SX
-SX
-SX
-SX
-SX
-SX
-BP
+bP
+bP
+bP
+bP
+bP
+bP
+bP
+df
 bP
 bP
 bP
@@ -76685,18 +76398,18 @@ FD
 FD
 FD
 FD
-YI
-YI
 SX
 SX
 SX
 SX
-SX
-SX
-SX
-SX
-SX
-BP
+bP
+bP
+bP
+bP
+bP
+bP
+bP
+df
 bP
 bP
 bP
@@ -76867,18 +76580,18 @@ FD
 FD
 FD
 FD
-YI
-YI
 SX
 SX
 SX
 SX
-SX
-SX
-SX
-SX
-SX
-SX
+bP
+bP
+bP
+bP
+bP
+bP
+bP
+df
 bP
 bP
 bP
@@ -77049,18 +76762,18 @@ FD
 FD
 FD
 FD
-YI
-YI
 SX
 SX
 SX
-SX
-SX
-SX
-SX
-SX
-SX
-SX
+jX
+nq
+jl
+jl
+jl
+jA
+jl
+jl
+df
 bP
 bP
 bP
@@ -77231,18 +76944,18 @@ FD
 FD
 FD
 FD
-YI
-YI
-jX
-jx
-jx
-jx
-jx
-jg
 SX
 SX
 SX
-SX
+kc
+jz
+jD
+jD
+jD
+jD
+jl
+jl
+df
 bP
 bP
 bP
@@ -77413,18 +77126,18 @@ FD
 FD
 FD
 FD
-YI
-YI
-ji
-jz
+SX
+SX
+SX
+nr
 jR
 jR
 jz
-ji
-SX
-SX
-SX
-SX
+jz
+jD
+jl
+jl
+df
 bP
 bP
 bP
@@ -77595,18 +77308,18 @@ FD
 FD
 FD
 FD
-YI
-YI
-jl
+SX
+SX
+SX
 jV
 jD
 jD
+jz
+jz
 jD
 jl
-SX
-SX
-SX
-SX
+jl
+df
 bP
 bP
 bP
@@ -77777,18 +77490,18 @@ FD
 FD
 FD
 FD
-YI
-YI
-jl
-jD
+SX
+SX
+SX
+kc
 jz
-jz
+jD
+jD
+jD
 jD
 jl
-SX
-SX
-SX
-BP
+jl
+df
 bP
 bP
 bP
@@ -77959,18 +77672,18 @@ FD
 FD
 FD
 FD
-YI
-YI
-kb
-jD
-jH
-jz
-jD
+SX
+SX
+SX
+ke
+nq
 jl
-SX
-SX
-SX
-BP
+jl
+jl
+jA
+jl
+jl
+df
 bP
 bP
 bP
@@ -78141,18 +77854,18 @@ FD
 FD
 FD
 FD
-YI
-YI
-js
-jD
-jD
-jD
-jD
-jl
 SX
 SX
 SX
-BP
+SX
+SX
+SX
+SX
+SX
+SX
+SX
+SX
+df
 bP
 bP
 bP
@@ -78323,19 +78036,19 @@ FD
 FD
 FD
 FD
-YI
-YI
-kc
-jH
-jD
-jD
-jH
-js
 SX
 SX
 SX
-BP
-BP
+SX
+SX
+SX
+SX
+SX
+SX
+SX
+SX
+df
+df
 bP
 bP
 bP
@@ -78505,14 +78218,14 @@ FD
 FD
 FD
 FD
-YI
-YI
-ke
-jN
-jN
-jN
-jN
-ju
+SX
+SX
+SX
+SX
+SX
+SX
+SX
+SX
 SX
 SX
 SX
@@ -78687,8 +78400,8 @@ FD
 FD
 FD
 FD
-YI
-YI
+SX
+SX
 SX
 SX
 SX
@@ -79067,7 +78780,7 @@ Be
 ja
 ja
 hl
-BP
+df
 bP
 bP
 bP
@@ -122370,16 +122083,16 @@ lo
 lo
 Uq
 lo
-lo
-lo
-lo
-lo
-lo
-lo
-lo
-Uq
-lo
-lo
+df
+df
+DL
+DL
+DL
+DL
+df
+df
+df
+df
 Uq
 Uq
 lo
@@ -122551,18 +122264,18 @@ lo
 lo
 lo
 Uq
-df
-df
-kj
-kj
-kj
-kj
-df
-df
 lo
-lo
-lo
-Uq
+df
+jl
+DP
+DP
+DP
+DP
+DP
+jl
+jl
+df
+bZ
 Uq
 Uq
 Uq
@@ -122733,17 +122446,17 @@ lo
 lo
 lo
 Uq
-df
-jl
-jl
-jl
-jl
-jl
-jl
-df
 lo
-lo
-lo
+gp
+jl
+DP
+DP
+DP
+DP
+DP
+DP
+jl
+gp
 lo
 lo
 lo
@@ -122915,17 +122628,17 @@ lo
 Uq
 Uq
 lo
-df
-DP
-DP
-DP
-DP
-DP
-DP
-df
 lo
-lo
-lo
+gp
+jl
+DP
+DP
+DP
+DP
+DP
+DP
+jl
+gp
 lo
 lo
 lo
@@ -123097,17 +122810,17 @@ Uq
 Uq
 lo
 lo
-kf
-DP
-DP
-DP
-DP
-DP
-DP
-kf
 lo
-lo
-lo
+gp
+jl
+DP
+DP
+DP
+DP
+DP
+DP
+jl
+gp
 lo
 lo
 lo
@@ -123279,17 +122992,17 @@ lo
 lo
 lo
 lo
-jl
-DP
-DP
-DP
-DP
-DP
-DP
-jl
 lo
-Uq
-Uq
+gp
+jl
+DP
+DP
+DP
+DP
+DP
+DP
+jl
+gp
 Uq
 Uq
 Uq
@@ -123461,17 +123174,17 @@ lo
 lo
 lo
 lo
+lo
+df
 jl
 DP
 DP
 DP
 DP
 DP
-DP
 jl
-lo
-lo
-lo
+jl
+df
 lo
 lo
 lo
@@ -123643,17 +123356,17 @@ lo
 lo
 lo
 lo
-jl
-DP
-DP
-DP
-DP
-DP
-DP
-jl
 lo
-lo
-lo
+df
+df
+DL
+DL
+DL
+DL
+df
+df
+df
+df
 lo
 lo
 lo
@@ -123825,14 +123538,14 @@ lo
 lo
 Uq
 lo
-df
-jl
-DP
-DP
-DP
-DP
-DP
-df
+lo
+lo
+lo
+lo
+lo
+lo
+lo
+lo
 lo
 lo
 lo
@@ -124007,14 +123720,14 @@ lo
 Uq
 Uq
 lo
-df
-jl
-jl
-jl
-jl
-jl
-jl
-df
+lo
+lo
+lo
+lo
+lo
+lo
+lo
+lo
 lo
 lo
 lo
@@ -124189,14 +123902,14 @@ Uq
 Uq
 Uq
 lo
-df
-df
-kj
-fV
-fV
-kj
-df
-df
+lo
+lo
+lo
+lo
+lo
+lo
+lo
+lo
 lo
 lo
 lo
