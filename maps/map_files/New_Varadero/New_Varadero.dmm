@@ -2624,6 +2624,12 @@
 /obj/item/clothing/suit/storage/hazardvest/medical_red,
 /turf/open/floor/wood,
 /area/space)
+"jN" = (
+/obj/structure/stairs/multiz/up{
+	dir = 1
+	},
+/turf/open/auto_turf/sand_white/layer1,
+/area/varadero/interior_protected/caves/central)
 "jO" = (
 /obj/structure/machinery/door/airlock/multi_tile/almayer/generic2/glass/autoname,
 /turf/open/floor/shiva/floor3,
@@ -2645,6 +2651,13 @@
 /obj/structure/plasticflaps,
 /turf/open/floor/hybrisa/metal/yellow_warning_floor,
 /area/space)
+"jR" = (
+/obj/structure/flora/bush/ausbushes/var3/fullgrass,
+/obj/structure/stairs/multiz/up{
+	dir = 1
+	},
+/turf/open/auto_turf/sand_white/layer1,
+/area/varadero/interior_protected/caves/central)
 "jS" = (
 /obj/item/tank/nitrogen{
 	pixel_x = -2
@@ -2681,6 +2694,13 @@
 	},
 /turf/open/floor/dark2,
 /area/space)
+"jV" = (
+/obj/item/device/flashlight/lamp/tripod,
+/obj/structure/stairs/multiz/up{
+	dir = 1
+	},
+/turf/open/auto_turf/sand_white/layer1,
+/area/varadero/interior_protected/caves/central)
 "jW" = (
 /turf/closed/wall/shiva/prefabricated/blue,
 /area/space)
@@ -73201,7 +73221,7 @@ aa
 aa
 aa
 dD
-kG
+jN
 kG
 kG
 kG
@@ -73383,7 +73403,7 @@ Xl
 Xl
 Xl
 dD
-kG
+jN
 kG
 Hl
 EW
@@ -73565,7 +73585,7 @@ Xl
 mf
 Xl
 dD
-kG
+jN
 kG
 kG
 HL
@@ -73747,7 +73767,7 @@ Xl
 Xl
 eO
 dD
-uq
+jR
 kG
 kG
 HL
@@ -73929,7 +73949,7 @@ Xl
 Xl
 Xl
 dD
-kG
+jN
 kG
 kG
 HL
@@ -74111,7 +74131,7 @@ Xl
 Xl
 Xl
 dD
-kG
+jN
 kG
 kG
 kG
@@ -74293,7 +74313,7 @@ eO
 Xl
 Xl
 dD
-TX
+jV
 kG
 kG
 kG
@@ -74475,7 +74495,7 @@ eO
 Xl
 Xl
 dD
-kG
+jN
 kG
 kG
 kG
@@ -74657,7 +74677,7 @@ Xl
 Xl
 jK
 dD
-kG
+jN
 kG
 kG
 kG
