@@ -66,6 +66,11 @@
 /obj/item/ammo_magazine/rifle/ak4047,
 /turf/open/floor/shiva/red,
 /area/space)
+"ap" = (
+/turf/closed/shuttle/elevator{
+	dir = 10
+	},
+/area/space)
 "aq" = (
 /obj/structure/extinguisher_cabinet{
 	pixel_x = -7
@@ -596,6 +601,11 @@
 /obj/effect/decal/hybrisa/dirt,
 /turf/open/floor/shiva/red/west,
 /area/space)
+"bT" = (
+/turf/closed/shuttle/elevator{
+	dir = 4
+	},
+/area/space)
 "bU" = (
 /obj/effect/decal/hybrisa/dirt,
 /turf/open/floor/shiva/red/east,
@@ -1073,6 +1083,11 @@
 /obj/structure/machinery/door/window/ultra,
 /turf/open/floor/plating,
 /area/lv759/indoors/colonial_marshals/prisoners_cells)
+"dF" = (
+/turf/closed/shuttle/elevator{
+	dir = 6
+	},
+/area/space)
 "dG" = (
 /turf/open/auto_turf/sand_white/layer1,
 /area/varadero/exterior/pontoon_beach)
@@ -1299,6 +1314,11 @@
 /obj/item/tool/shovel/snow,
 /turf/open/auto_turf/sand_white,
 /area/space)
+"eC" = (
+/turf/closed/shuttle/elevator{
+	dir = 1
+	},
+/area/space)
 "eD" = (
 /turf/open/floor/chapel/north,
 /area/bigred/ground/chapel)
@@ -1502,6 +1522,9 @@
 	},
 /turf/open/floor/shiva,
 /area/space)
+"fw" = (
+/turf/open/floor/shiva,
+/area/shuttle/elevator1)
 "fx" = (
 /turf/closed/wall/rock/brown,
 /area/almayer/living/captain_mess)
@@ -73675,8 +73698,8 @@ dc
 km
 km
 km
-nk
-dc
+km
+km
 km
 km
 bP
@@ -73853,12 +73876,12 @@ qD
 ct
 ct
 ct
-ct
-km
-km
-km
-km
 dc
+dc
+km
+km
+km
+km
 dc
 km
 bP
@@ -74036,11 +74059,11 @@ ct
 ct
 ct
 ct
+dc
 km
 km
 km
-km
-km
+nk
 dc
 dc
 bP
@@ -76766,13 +76789,13 @@ SX
 SX
 SX
 jX
+eC
 nq
 jl
 jl
-jl
 jA
-jl
-jl
+eC
+ap
 df
 bP
 bP
@@ -76953,8 +76976,8 @@ jD
 jD
 jD
 jD
-jl
-jl
+jz
+bT
 df
 bP
 bP
@@ -77135,8 +77158,8 @@ jR
 jz
 jz
 jD
-jl
-jl
+jD
+bT
 df
 bP
 bP
@@ -77317,8 +77340,8 @@ jD
 jz
 jz
 jD
-jl
-jl
+jD
+bT
 df
 bP
 bP
@@ -77499,8 +77522,8 @@ jD
 jD
 jD
 jD
-jl
-jl
+jz
+bT
 df
 bP
 bP
@@ -77676,13 +77699,13 @@ SX
 SX
 SX
 ke
+eC
 nq
 jl
 jl
-jl
 jA
-jl
-jl
+eC
+dF
 df
 bP
 bP
@@ -77857,14 +77880,14 @@ FD
 SX
 SX
 SX
-SX
-SX
-SX
-SX
-SX
-SX
-SX
-SX
+bP
+bP
+bP
+bP
+bP
+bP
+bP
+bP
 df
 bP
 bP
@@ -78039,14 +78062,14 @@ FD
 SX
 SX
 SX
-SX
-SX
-SX
-SX
-SX
-SX
-SX
-SX
+bP
+bP
+bP
+bP
+bP
+bP
+bP
+bP
 df
 df
 bP
@@ -78221,15 +78244,15 @@ FD
 SX
 SX
 SX
-SX
-SX
-SX
-SX
-SX
-SX
-SX
-SX
-SX
+bP
+bP
+bP
+bP
+bP
+bP
+bP
+bP
+bP
 df
 hl
 Hr
@@ -78403,15 +78426,15 @@ FD
 SX
 SX
 SX
-SX
-SX
-SX
-SX
-SX
-SX
-SX
-SX
-SX
+bP
+bP
+bP
+bP
+bP
+bP
+bP
+bP
+bP
 df
 hl
 hl
@@ -78585,14 +78608,14 @@ hB
 SX
 SX
 mA
-mA
-mA
-mA
-mA
-mA
-SX
-SX
-SX
+fw
+fw
+fw
+fw
+fw
+bP
+bP
+bP
 df
 df
 ja
@@ -122085,11 +122108,11 @@ Uq
 lo
 df
 df
-DL
-DL
-DL
-DL
 df
+DL
+DL
+DL
+DL
 df
 df
 df
@@ -122267,7 +122290,7 @@ Uq
 lo
 df
 jl
-DP
+jl
 DP
 DP
 DP
@@ -123177,7 +123200,7 @@ lo
 lo
 df
 jl
-DP
+jl
 DP
 DP
 DP
@@ -123359,11 +123382,11 @@ lo
 lo
 df
 df
-DL
-DL
-DL
-DL
 df
+DL
+DL
+DL
+DL
 df
 df
 df
