@@ -132,10 +132,10 @@
 	icon_state = "SW_2"
 
 /obj/effect/decal/floor_symbol/alpha_tech/sw_3
-	icon_state = "SW_3"
+	icon_state = "SE_1"
 
 /obj/effect/decal/floor_symbol/alpha_tech/sw_4
-	icon_state = "SW_4"
+	icon_state = "SE_2"
 
 /obj/effect/decal/floor_symbol/alpha_tech/mid_1
 	icon_state = "MID_1"
