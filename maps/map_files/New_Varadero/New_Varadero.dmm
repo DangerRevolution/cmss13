@@ -604,6 +604,10 @@
 /obj/effect/decal/hybrisa/dirt,
 /turf/open/floor/shiva/red/east,
 /area/space)
+"bV" = (
+/obj/structure/ladder/multiz,
+/turf/open/floor/dark2,
+/area/space)
 "bW" = (
 /obj/structure/largecrate/random,
 /obj/structure/machinery/light/small{
@@ -622,6 +626,11 @@
 "bZ" = (
 /turf/open/floor/plating,
 /area/space)
+"ca" = (
+/obj/structure/ladder/multiz,
+/obj/structure/ladder/multiz,
+/turf/open/floor/dark2,
+/area/space)
 "cb" = (
 /obj/structure/filingcabinet/chestdrawer{
 	pixel_x = 23;
@@ -629,6 +638,9 @@
 	},
 /turf/open/floor/shiva/redfull,
 /area/space)
+"cc" = (
+/turf/open/slippery/hull,
+/area)
 "cd" = (
 /obj/effect/decal/warning_stripes{
 	icon_state = "N";
@@ -651,6 +663,10 @@
 	},
 /turf/open/auto_turf/sand_white/layer1,
 /area/space)
+"cg" = (
+/obj/structure/platform/metal/almayer/north,
+/turf/open/slippery/hull,
+/area)
 "ch" = (
 /obj/structure/reagent_dispensers/tank/water{
 	anchored = 1
@@ -663,6 +679,10 @@
 "cj" = (
 /turf/open/floor/shiva,
 /area/almayer/living/basketball)
+"ck" = (
+/obj/structure/roof/hybrisa/lattice_prop,
+/turf/open/floor/plating/plating_catwalk,
+/area)
 "cl" = (
 /turf/open/floor/shiva/wredcorners/east,
 /area/space)
@@ -670,6 +690,10 @@
 /obj/structure/flora/bush/ausbushes/var3/stalkybush,
 /turf/open/gm/river/ocean/deep_ocean,
 /area/varadero/exterior/farocean)
+"cn" = (
+/obj/structure/platform/metal/almayer/east,
+/turf/open/slippery/hull,
+/area)
 "co" = (
 /obj/structure/pipes/unary/outlet_injector,
 /turf/open/floor/engine,
@@ -691,6 +715,13 @@
 	dir = 10
 	},
 /area/almayer/command/cic)
+"cu" = (
+/obj/structure/barricade/handrail/type_b{
+	dir = 8
+	},
+/obj/structure/barricade/handrail/type_b,
+/turf/open/floor/plating/plating_catwalk,
+/area)
 "cv" = (
 /obj/effect/decal/hybrisa/road/road_edge{
 	icon_state = "road_edge_decal3"
@@ -734,6 +765,10 @@
 /obj/structure/machinery/portable_atmospherics/canister/nitrogen,
 /turf/open/floor/almayer/plating,
 /area/space)
+"cD" = (
+/obj/structure/barricade/handrail/type_b,
+/turf/open/floor/plating/plating_catwalk,
+/area)
 "cE" = (
 /obj/structure/barricade/sandbags{
 	dir = 8;
@@ -741,12 +776,33 @@
 	},
 /turf/closed/wall/rock/brown,
 /area/space)
+"cF" = (
+/obj/structure/barricade/handrail/type_b{
+	dir = 4
+	},
+/obj/structure/barricade/handrail/type_b,
+/turf/open/floor/plating/plating_catwalk,
+/area)
 "cG" = (
 /turf/closed/wall/huntership/destructible,
 /area/corsat/sigma/dorms)
+"cH" = (
+/obj/structure/platform/metal/almayer/west,
+/turf/open/slippery/hull,
+/area)
 "cI" = (
 /turf/open/floor/shiva,
 /area/almayer/command/combat_correspondent)
+"cJ" = (
+/obj/structure/ladder/multiz,
+/obj/structure/barricade/handrail/type_b{
+	dir = 8
+	},
+/obj/structure/barricade/handrail/type_b{
+	dir = 3
+	},
+/turf/open/floor/plating/plating_catwalk,
+/area)
 "cK" = (
 /turf/closed/wall/huntership/destructible,
 /area/bigred/uground/misc_lab)
@@ -804,6 +860,16 @@
 	},
 /turf/open/floor/shiva,
 /area/varadero/interior/caves/east)
+"cW" = (
+/obj/structure/ladder/multiz,
+/obj/structure/barricade/handrail/type_b{
+	dir = 3
+	},
+/obj/structure/barricade/handrail/type_b{
+	dir = 4
+	},
+/turf/open/floor/plating/plating_catwalk,
+/area)
 "cX" = (
 /obj/structure/pipes/standard/simple/hidden/green{
 	dir = 4
@@ -861,6 +927,10 @@
 "dd" = (
 /turf/closed/wall/new_varadero,
 /area/lv759/indoors/colonial_marshals/prisoners_cells)
+"de" = (
+/obj/structure/roof/hybrisa/lattice_prop/lattice_3,
+/turf/open/slippery/hull,
+/area)
 "df" = (
 /turf/closed/wall/new_varadero,
 /area/space)
@@ -898,6 +968,12 @@
 	},
 /turf/open/floor/engine,
 /area/space)
+"dn" = (
+/obj/structure/barricade/handrail/type_b{
+	dir = 8
+	},
+/turf/open/floor/plating/plating_catwalk,
+/area)
 "do" = (
 /obj/structure/machinery/door/airlock/glass_security/colony,
 /turf/open/floor/shiva,
@@ -946,6 +1022,9 @@
 /obj/structure/barricade/handrail/hybrisa/road/metal/double/offset,
 /turf/open/asphalt,
 /area/space)
+"dx" = (
+/turf/open/floor/plating/plating_catwalk,
+/area)
 "dy" = (
 /obj/structure/machinery/computer/arcade,
 /turf/open/floor/shiva,
@@ -965,6 +1044,12 @@
 	},
 /turf/open/floor/darkpurple2/north,
 /area/space)
+"dC" = (
+/obj/structure/barricade/handrail/type_b{
+	dir = 4
+	},
+/turf/open/floor/plating/plating_catwalk,
+/area)
 "dD" = (
 /turf/closed/wall/r_wall/unmeltable,
 /area/varadero/interior_protected/maintenance/south)
@@ -1005,6 +1090,11 @@
 "dM" = (
 /turf/open/floor/shiva,
 /area/corsat/gamma/rnr/bar)
+"dN" = (
+/obj/structure/platform/metal/almayer/north,
+/obj/structure/platform/metal/almayer/west,
+/turf/open/slippery/hull,
+/area)
 "dO" = (
 /obj/structure/bed/chair/comfy{
 	dir = 4
@@ -1095,6 +1185,16 @@
 /obj/structure/machinery/door/airlock/almayer/maint/colony/autoname,
 /turf/open/floor/shiva/bluefull/west,
 /area/space)
+"eg" = (
+/obj/structure/roof/hybrisa/lattice_prop/lattice_3,
+/obj/structure/platform/metal/almayer/north,
+/turf/open/slippery/hull,
+/area)
+"eh" = (
+/obj/structure/platform/metal/almayer/north,
+/obj/structure/platform/metal/almayer/east,
+/turf/open/slippery/hull,
+/area)
 "ei" = (
 /obj/structure/platform/metal/hybrisa/metalplatform6/north,
 /turf/open/floor/shiva,
@@ -1215,10 +1315,24 @@
 /obj/effect/landmark/objective_landmark/close,
 /turf/open/new_varadero,
 /area/space)
+"eI" = (
+/obj/structure/barricade/handrail/type_b{
+	dir = 3
+	},
+/turf/open/floor/plating/plating_catwalk,
+/area)
 "eJ" = (
 /obj/structure/bed/sofa/south/grey,
 /turf/open/floor/strata/fake_wood,
 /area/ice_colony/exterior/underground/caves)
+"eK" = (
+/obj/structure/barricade/handrail/type_b{
+	layer = 4
+	},
+/obj/structure/platform/metal/almayer/west,
+/obj/structure/platform/metal/almayer,
+/turf/open/slippery/hull,
+/area)
 "eL" = (
 /obj/structure/bed/sofa/south/grey/right,
 /turf/open/floor/strata/fake_wood,
@@ -1274,6 +1388,13 @@
 "eZ" = (
 /turf/closed/wall/new_varadero,
 /area/ice_colony/underground/reception)
+"fa" = (
+/obj/structure/platform/metal/almayer,
+/obj/structure/barricade/handrail/type_b{
+	layer = 4
+	},
+/turf/open/slippery/hull,
+/area)
 "fb" = (
 /obj/structure/barricade/handrail{
 	dir = 1
@@ -1336,6 +1457,29 @@
 /obj/structure/prop/almayer/computers/mapping_computer,
 /turf/open/floor/shiva,
 /area/almayer/command/cic)
+"fo" = (
+/obj/structure/roof/hybrisa/lattice_prop/lattice_3{
+	layer = 1
+	},
+/obj/structure/platform/metal/almayer,
+/obj/structure/barricade/handrail/type_b{
+	layer = 4
+	},
+/turf/open/slippery/hull,
+/area)
+"fp" = (
+/obj/structure/roof/hybrisa/lattice_prop/lattice_3{
+	layer = 1
+	},
+/obj/structure/roof/hybrisa/lattice_prop/lattice_3{
+	layer = 1
+	},
+/obj/structure/platform/metal/almayer,
+/obj/structure/barricade/handrail/type_b{
+	layer = 4
+	},
+/turf/open/slippery/hull,
+/area)
 "fq" = (
 /obj/structure/surface/table/reinforced,
 /obj/item/desk_bell{
@@ -1361,6 +1505,14 @@
 "fs" = (
 /turf/open/auto_turf/sand_white,
 /area/space)
+"ft" = (
+/obj/structure/platform/metal/almayer,
+/obj/structure/barricade/handrail/type_b{
+	layer = 4
+	},
+/obj/structure/platform/metal/almayer/east,
+/turf/open/slippery/hull,
+/area)
 "fu" = (
 /obj/structure/filingcabinet/chestdrawer,
 /turf/open/floor/shiva,
@@ -1397,6 +1549,14 @@
 /obj/structure/filingcabinet/chestdrawer,
 /turf/open/floor/shiva,
 /area/space)
+"fC" = (
+/obj/structure/platform/metal/almayer,
+/obj/structure/barricade/handrail/type_b{
+	layer = 4
+	},
+/obj/structure/platform/metal/almayer/west,
+/turf/open/slippery/hull,
+/area)
 "fD" = (
 /turf/closed/wall/new_varadero,
 /area/prison/medbay/surgery)
@@ -1422,9 +1582,23 @@
 /obj/structure/machinery/door/airlock/maintenance/colony,
 /turf/open/floor/plating,
 /area/prison/medbay/surgery)
+"fJ" = (
+/obj/structure/ladder/multiz,
+/obj/structure/barricade/handrail/type_b{
+	dir = 8
+	},
+/turf/open/floor/plating/plating_catwalk,
+/area)
 "fK" = (
 /turf/open/floor/shiva/snow_mat/east,
 /area/prison/medbay/surgery)
+"fL" = (
+/obj/structure/ladder/multiz,
+/obj/structure/barricade/handrail/type_b{
+	dir = 4
+	},
+/turf/open/floor/plating/plating_catwalk,
+/area)
 "fM" = (
 /obj/structure/machinery/optable,
 /turf/open/floor/shiva/snow_mat/east,
@@ -1460,6 +1634,13 @@
 /obj/effect/landmark/structure_spawner/setup/distress/xeno_weed_node,
 /turf/open/gm/dirt,
 /area/varadero/interior_protected/caves)
+"fU" = (
+/obj/structure/barricade/handrail/type_b{
+	layer = 6
+	},
+/obj/structure/platform/metal/almayer,
+/turf/open/slippery/hull,
+/area)
 "fV" = (
 /obj/structure/window/framed/new_varadero/foundation,
 /turf/open/floor/plating,
@@ -1520,6 +1701,10 @@
 	},
 /turf/open/floor/shiva,
 /area/space)
+"gf" = (
+/obj/structure/roof/hybrisa/lattice_prop/lattice_2,
+/turf/open/floor/plating/plating_catwalk,
+/area)
 "gg" = (
 /turf/open/floor/darkred2/west,
 /area/space)
@@ -1538,6 +1723,13 @@
 "gk" = (
 /turf/closed/wall/rock/brown,
 /area/lv759/indoors/colonial_marshals/prisoners_cells)
+"gl" = (
+/obj/structure/barricade/handrail/type_b{
+	layer = 4
+	},
+/obj/structure/platform/metal/almayer,
+/turf/open/slippery/hull,
+/area)
 "gm" = (
 /turf/open/floor/shiva/bluecorners,
 /area/space)
@@ -157733,6 +157925,7 @@ DP
 DP
 DP
 Uq
+ca
 DL
 DL
 DL
@@ -157741,8 +157934,7 @@ DL
 DL
 DL
 DL
-DL
-DL
+bV
 Uq
 DP
 DP
@@ -157915,6 +158107,7 @@ DP
 DP
 DP
 Uq
+bV
 DL
 DL
 DL
@@ -157923,8 +158116,7 @@ DL
 DL
 DL
 DL
-DL
-DL
+ca
 Uq
 DP
 DP
@@ -202870,16 +203062,16 @@ DP
 DP
 DP
 DP
-DP
-DP
-DP
-DP
-DP
-DP
-DP
-DP
-DP
-DP
+cc
+cc
+cc
+cc
+cc
+cc
+cc
+cc
+cc
+cc
 DP
 DP
 DP
@@ -203051,18 +203243,18 @@ DP
 DP
 DP
 DP
-DP
-DP
-DP
-DP
-DP
-DP
-DP
-DP
-DP
-DP
-DP
-DP
+cc
+cn
+cn
+cn
+cn
+cn
+cn
+cn
+cn
+cn
+cn
+cc
 DP
 DP
 DP
@@ -203233,18 +203425,18 @@ DP
 DP
 DP
 DP
-DP
-DP
-DP
-DP
-DP
-DP
-DP
-DP
-DP
-DP
-DP
-DP
+fU
+fJ
+dn
+dn
+dn
+dn
+dn
+dn
+dn
+dn
+cJ
+cg
 DP
 DP
 DP
@@ -203415,18 +203607,18 @@ DP
 DP
 DP
 DP
-DP
-DP
-DP
-DP
-DP
-DP
-DP
-DP
-DP
-DP
-DP
-DP
+fU
+fL
+dC
+dC
+dC
+dx
+dx
+dC
+dC
+dC
+cW
+cg
 DP
 DP
 DP
@@ -203597,18 +203789,18 @@ DP
 DP
 DP
 DP
-DP
-DP
-DP
-DP
-DP
-DP
-DP
-DP
-DP
-DP
-DP
-DP
+cc
+cH
+cH
+cH
+eK
+dx
+eI
+dN
+cH
+cH
+cH
+cc
 DP
 DP
 DP
@@ -203780,16 +203972,16 @@ DP
 DP
 DP
 DP
-DP
-DP
-DP
-DP
-DP
-DP
-DP
-DP
-DP
-DP
+cc
+cc
+cc
+fa
+dx
+cD
+cg
+cc
+cc
+cc
 DP
 DP
 DP
@@ -203961,18 +204153,18 @@ DP
 DP
 DP
 DP
-DP
-DP
-DP
-DP
-DP
-DP
-DP
-DP
-DP
-DP
-DP
-DP
+gf
+de
+de
+de
+fo
+dx
+cD
+eg
+de
+de
+de
+ck
 DP
 DP
 DP
@@ -204143,18 +204335,18 @@ DP
 DP
 DP
 DP
-DP
-DP
-DP
-DP
-DP
-DP
-DP
-DP
-DP
-DP
-DP
-DP
+cc
+cc
+cc
+cc
+fa
+dx
+cD
+cg
+cc
+cc
+cc
+cc
 DP
 DP
 DP
@@ -204325,18 +204517,18 @@ DP
 DP
 DP
 DP
-DP
-DP
-DP
-DP
-DP
-DP
-DP
-DP
-DP
-DP
-DP
-DP
+cc
+cc
+cc
+cc
+fa
+dx
+cD
+cg
+cc
+cc
+cc
+cc
 DP
 DP
 DP
@@ -204507,18 +204699,18 @@ DP
 DP
 DP
 DP
-DP
-DP
-DP
-DP
-DP
-DP
-DP
-DP
-DP
-DP
-DP
-DP
+cc
+cc
+cc
+cc
+fa
+dx
+cD
+cg
+cc
+cc
+cc
+cc
 DP
 DP
 DP
@@ -204689,18 +204881,18 @@ DP
 DP
 DP
 DP
-DP
-DP
-DP
-DP
-DP
-DP
-DP
-DP
-DP
-DP
-DP
-DP
+cc
+cc
+cc
+cc
+fa
+dx
+cD
+cg
+cc
+cc
+cc
+cc
 DP
 DP
 DP
@@ -204871,18 +205063,18 @@ DP
 DP
 DP
 DP
-DP
-DP
-DP
-DP
-DP
-DP
-DP
-DP
-DP
-DP
-DP
-DP
+cc
+cc
+cc
+cc
+fa
+dx
+cD
+cg
+cc
+cc
+cc
+cc
 DP
 DP
 DP
@@ -205053,18 +205245,18 @@ DP
 DP
 DP
 DP
-DP
-DP
-DP
-DP
-DP
-DP
-DP
-DP
-DP
-DP
-DP
-DP
+cc
+cc
+cc
+cc
+fa
+dx
+cD
+cg
+cc
+cc
+cc
+cc
 DP
 DP
 DP
@@ -205235,18 +205427,18 @@ DP
 DP
 DP
 DP
-DP
-DP
-DP
-DP
-DP
-DP
-DP
-DP
-DP
-DP
-DP
-DP
+cc
+cc
+cc
+cc
+fa
+dx
+cD
+cg
+cc
+cc
+cc
+cc
 DP
 DP
 DP
@@ -205417,18 +205609,18 @@ DP
 DP
 DP
 DP
-DP
-DP
-DP
-DP
-DP
-DP
-DP
-DP
-DP
-DP
-DP
-DP
+cc
+cc
+cc
+cc
+fa
+dx
+cD
+cg
+cc
+cc
+cc
+cc
 DP
 DP
 DP
@@ -205599,18 +205791,18 @@ DP
 DP
 DP
 DP
-DP
-DP
-DP
-DP
-DP
-DP
-DP
-DP
-DP
-DP
-DP
-DP
+gf
+de
+de
+de
+fp
+dx
+cD
+eg
+de
+de
+de
+ck
 DP
 DP
 DP
@@ -205780,20 +205972,20 @@ DP
 DP
 DP
 DP
-DP
-DP
-DP
-DP
-DP
-DP
-DP
-DP
-DP
-DP
-DP
-DP
-DP
-DP
+cc
+cn
+cn
+cn
+cn
+ft
+dx
+cD
+eh
+cn
+cn
+cn
+cn
+cc
 DP
 DP
 DP
@@ -205962,20 +206154,20 @@ DP
 DP
 DP
 DP
-DP
-DP
-DP
-DP
-DP
-DP
-DP
-DP
-DP
-DP
-DP
-DP
-DP
-DP
+fa
+dn
+dn
+dn
+dn
+dn
+dx
+dx
+dn
+dn
+dn
+dn
+cu
+cg
 DP
 DP
 DP
@@ -206144,20 +206336,20 @@ DP
 DP
 DP
 DP
-DP
-DP
-DP
-DP
-DP
-DP
-DP
-DP
-DP
-DP
-DP
-DP
-DP
-DP
+fa
+dx
+dx
+dx
+dx
+dx
+dx
+dx
+dx
+dx
+dx
+dx
+cD
+cg
 DP
 DP
 DP
@@ -206326,20 +206518,20 @@ DP
 DP
 DP
 DP
-DP
-DP
-DP
-DP
-DP
-DP
-DP
-DP
-DP
-DP
-DP
-DP
-DP
-DP
+fa
+dx
+dx
+dx
+dx
+dx
+dx
+dx
+dx
+dx
+dx
+dx
+cD
+cg
 DP
 DP
 DP
@@ -206508,20 +206700,20 @@ DP
 DP
 DP
 DP
-DP
-DP
-DP
-DP
-DP
-DP
-DP
-DP
-DP
-DP
-DP
-DP
-DP
-DP
+fa
+dx
+dx
+dx
+dx
+dx
+dx
+dx
+dx
+dx
+dx
+dx
+cD
+cg
 DP
 DP
 DP
@@ -206690,20 +206882,20 @@ DP
 DP
 DP
 DP
-DP
-DP
-DP
-DP
-DP
-DP
-DP
-DP
-DP
-DP
-DP
-DP
-DP
-DP
+gl
+dC
+dC
+dC
+dC
+dC
+dx
+dx
+dC
+dC
+dC
+dC
+cF
+cg
 DP
 DP
 DP
@@ -206873,18 +207065,18 @@ DP
 DP
 DP
 DP
-DP
-DP
-DP
-DP
-DP
-DP
-DP
-DP
-DP
-DP
-DP
-DP
+cH
+cH
+cH
+cH
+fC
+dC
+cF
+dN
+cH
+cH
+cH
+cH
 DP
 DP
 DP
@@ -207056,16 +207248,16 @@ DP
 DP
 DP
 DP
-DP
-DP
-DP
-DP
-DP
-DP
-DP
-DP
-DP
-DP
+cc
+cc
+cc
+cc
+cc
+cc
+cc
+cc
+cc
+cc
 DP
 DP
 DP
