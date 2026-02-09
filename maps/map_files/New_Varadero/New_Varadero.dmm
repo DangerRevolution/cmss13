@@ -680,6 +680,9 @@
 "cl" = (
 /turf/open/floor/shiva/wredcorners/east,
 /area/space)
+"cm" = (
+/turf/open/floor/corsat/squares,
+/area/space)
 "cn" = (
 /turf/closed/wall/new_varadero/concrete,
 /area/space)
@@ -1013,6 +1016,13 @@
 /obj/structure/machinery/door/airlock/multi_tile/almayer/medidoor/colony,
 /turf/open/floor/shiva,
 /area/shipyard/entertainment/canteen/commons)
+"dG" = (
+/obj/structure/platform/broken,
+/obj/structure/platform/broken{
+	dir = 8
+	},
+/turf/open_space,
+/area/space)
 "dH" = (
 /obj/structure/machinery/portable_atmospherics/hydroponics,
 /turf/open/floor/shiva,
@@ -2393,6 +2403,13 @@
 	},
 /turf/open/floor/prison,
 /area/space)
+"iS" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "S"
+	},
+/obj/structure/platform/broken,
+/turf/open_space,
+/area/space)
 "iT" = (
 /obj/structure/machinery/big_computers/computerblack/computer3,
 /turf/open/floor/prison/darkpurple2/north,
@@ -3554,6 +3571,10 @@
 	},
 /turf/open/floor/plating,
 /area/space)
+"mv" = (
+/obj/structure/platform/broken,
+/turf/open_space,
+/area/space)
 "mw" = (
 /obj/structure/bed/chair,
 /turf/open/floor/shiva,
@@ -4219,6 +4240,13 @@
 	},
 /turf/open/auto_turf/sand_white/layer1,
 /area/space)
+"oD" = (
+/obj/structure/platform/broken,
+/obj/structure/platform/broken{
+	dir = 4
+	},
+/turf/open_space,
+/area/space)
 "oE" = (
 /obj/structure/closet/fireaxecabinet,
 /turf/closed/wall,
@@ -4282,6 +4310,12 @@
 	dir = 1
 	},
 /turf/open/floor/prison/darkpurple2/northeast,
+/area/space)
+"oP" = (
+/obj/structure/platform/broken{
+	dir = 8
+	},
+/turf/open_space,
 /area/space)
 "oQ" = (
 /obj/effect/decal/hybrisa/bloodtrail{
@@ -4560,15 +4594,18 @@
 "pQ" = (
 /turf/open/floor/plating,
 /area/desert_dam/building/warehouse/warehouse)
-"pR" = (
-/turf/closed/wall/r_wall/unmeltable,
-/area/almayer/command/cic)
 "pS" = (
 /obj/structure/largecrate/random,
 /obj/structure/machinery/light/small{
 	dir = 4
 	},
 /turf/open/new_varadero,
+/area/space)
+"pT" = (
+/obj/structure/platform/broken{
+	dir = 4
+	},
+/turf/open_space,
 /area/space)
 "pU" = (
 /obj/structure/prop/almayer/computers/mapping_computer,
@@ -4624,6 +4661,15 @@
 /obj/structure/flora/grass/desert/heavy,
 /obj/item/lightstick/red/variant/planted,
 /turf/open/auto_turf/sand_white/layer1,
+/area/space)
+"qe" = (
+/obj/structure/platform/broken{
+	dir = 1
+	},
+/obj/structure/platform/broken{
+	dir = 8
+	},
+/turf/open_space,
 /area/space)
 "qf" = (
 /turf/closed/wall/new_varadero/reinforced,
@@ -4745,6 +4791,12 @@
 /obj/structure/surface/table/reinforced/prison,
 /turf/open/floor/shiva,
 /area/almayer/engineering/lower/engine_monitoring)
+"qD" = (
+/obj/structure/platform/broken{
+	dir = 1
+	},
+/turf/open_space,
+/area/space)
 "qE" = (
 /obj/structure/closet/secure_closet/engineering_electrical,
 /turf/open/floor/shiva,
@@ -4969,6 +5021,15 @@
 "rt" = (
 /turf/open/floor/shiva,
 /area/varadero/interior/oob)
+"ru" = (
+/obj/structure/platform/broken{
+	dir = 4
+	},
+/obj/structure/platform/broken{
+	dir = 1
+	},
+/turf/open_space,
+/area/space)
 "rv" = (
 /obj/structure/closet/wardrobe/morgue,
 /turf/open/floor/shiva/north,
@@ -78196,8 +78257,8 @@ qH
 qB
 pA
 pW
-pR
-pR
+pP
+pP
 pN
 pA
 pt
@@ -122784,14 +122845,14 @@ lo
 lo
 lo
 df
-DP
-DP
-DP
-DP
-DP
-DP
-DP
-DP
+cm
+cm
+cm
+cm
+cm
+cm
+cm
+cm
 df
 Uq
 Uq
@@ -122966,14 +123027,14 @@ Uq
 lo
 lo
 gp
-DP
-DP
-DP
-DP
-DP
-DP
-DP
-DP
+cm
+qe
+oP
+oP
+oP
+oP
+dG
+cm
 gp
 lo
 lo
@@ -123148,14 +123209,14 @@ Uq
 lo
 lo
 gp
+cm
+qD
 DP
 DP
 DP
 DP
-DP
-DP
-DP
-DP
+iS
+cm
 gp
 lo
 lo
@@ -123330,14 +123391,14 @@ Uq
 Uq
 lo
 gp
+cm
+qD
 DP
 DP
 DP
 DP
-DP
-DP
-DP
-DP
+mv
+cm
 gp
 Uq
 Uq
@@ -123512,14 +123573,14 @@ lo
 Uq
 lo
 gp
-DP
-DP
-DP
-DP
-DP
-DP
-DP
-DP
+cm
+ru
+pT
+pT
+pT
+pT
+oD
+cm
 gp
 lo
 Uq
@@ -123694,14 +123755,14 @@ lo
 Uq
 lo
 df
-DP
-DP
-DP
-DP
-DP
-DP
-DP
-DP
+cm
+cm
+cm
+cm
+cm
+cm
+cm
+cm
 df
 Uq
 Uq
