@@ -101,6 +101,10 @@
 	},
 /turf/open/floor/shiva/yellow/east,
 /area/space)
+"aw" = (
+/obj/structure/machinery/door/airlock/maintenance/colony,
+/turf/open/floor/plating,
+/area/corsat/gamma/rnr/library)
 "ay" = (
 /turf/open/floor/hybrisa/metal/red_warning_floor,
 /area/space)
@@ -247,6 +251,20 @@
 	},
 /turf/open/floor/shiva/red,
 /area/space)
+"aW" = (
+/obj/structure/surface/table/reinforced,
+/obj/structure/window/reinforced/tinted{
+	dir = 4
+	},
+/obj/item/storage/box/ids{
+	pixel_x = 4;
+	pixel_y = 10
+	},
+/obj/item/storage/box/zipcuffs{
+	pixel_y = 2
+	},
+/turf/open/floor/plating,
+/area/lv759/indoors/colonial_marshals/prisoners_cells)
 "aX" = (
 /obj/structure/girder/displaced,
 /turf/open/auto_turf/sand_white/layer1,
@@ -592,6 +610,10 @@
 "cj" = (
 /turf/open/floor/shiva,
 /area/almayer/living/basketball)
+"ck" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/shiva/red/southwest,
+/area/lv759/indoors/colonial_marshals/prisoners_cells)
 "cl" = (
 /turf/open/floor/shiva/wredcorners/east,
 /area/space)
@@ -670,6 +692,9 @@
 	},
 /turf/closed/wall/rock/brown,
 /area/space)
+"cF" = (
+/turf/open/floor/shiva/red/east,
+/area/lv759/indoors/colonial_marshals/prisoners_cells)
 "cG" = (
 /turf/closed/wall/huntership/destructible,
 /area/corsat/sigma/dorms)
@@ -794,7 +819,14 @@
 /turf/closed/wall/new_varadero,
 /area/space)
 "dg" = (
-/turf/open/floor/plating,
+/obj/structure/bed/chair/office/dark{
+	dir = 4
+	},
+/obj/structure/machinery/firealarm{
+	pixel_y = 26
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/shiva/red/northeast,
 /area/lv759/indoors/colonial_marshals/prisoners_cells)
 "dh" = (
 /obj/structure/pipes/standard/simple/hidden/green{
@@ -809,16 +841,22 @@
 /turf/open/asphalt,
 /area/space)
 "dj" = (
-/obj/structure/closet/secure_closet/brig/prisoner,
-/turf/open/floor/plating,
+/obj/structure/machinery/light{
+	dir = 4;
+	pixel_y = -14
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/closet/medical_wall{
+	pixel_x = 27;
+	pixel_y = 4
+	},
+/turf/open/floor/shiva/red/east,
 /area/lv759/indoors/colonial_marshals/prisoners_cells)
 "dk" = (
-/obj/structure/closet/secure_closet/brig/prisoner,
-/turf/open/floor/plating,
-/area/space)
+/turf/closed/wall/new_varadero/reinforced/hull,
+/area/lv759/indoors/colonial_marshals/prisoners_cells)
 "dl" = (
-/obj/structure/window/framed/hybrisa/marshalls,
-/turf/closed/wall/new_varadero,
+/turf/open/floor/shiva/red,
 /area/lv759/indoors/colonial_marshals/prisoners_cells)
 "dm" = (
 /obj/structure/pipes/vents/pump/siphon/on{
@@ -839,12 +877,19 @@
 /turf/open/space/basic,
 /area/varadero/exterior/comms4)
 "dr" = (
-/obj/structure/bed,
-/turf/open/floor/plating,
+/obj/structure/machinery/computer/arcade{
+	pixel_x = -5
+	},
+/turf/open/floor/hybrisa/metal/metalwhitefull,
 /area/lv759/indoors/colonial_marshals/prisoners_cells)
 "ds" = (
-/obj/structure/window/framed/hybrisa/marshalls,
-/turf/open/floor/plating,
+/obj/structure/window/framed/prison/reinforced,
+/obj/structure/window/framed/hybrisa/marshalls/reinforced,
+/obj/structure/machinery/door/poddoor/almayer/open{
+	id = "Brig Lockdown Shutters";
+	name = "\improper Brig Lockdown Shutter"
+	},
+/turf/closed/wall/new_varadero,
 /area/lv759/indoors/colonial_marshals/prisoners_cells)
 "dt" = (
 /obj/structure/desertdam/decals/road_stop{
@@ -854,9 +899,14 @@
 /turf/open/asphalt,
 /area/space)
 "du" = (
-/obj/structure/window/framed/hybrisa/marshalls,
+/obj/structure/window/framed/hybrisa/marshalls/reinforced,
+/obj/structure/machinery/door/poddoor/almayer/open{
+	dir = 4;
+	id = "Brig Lockdown Shutters";
+	name = "\improper Brig Lockdown Shutter"
+	},
 /turf/open/floor/plating,
-/area/space)
+/area/lv759/indoors/colonial_marshals/prisoners_cells)
 "dv" = (
 /obj/structure/pipes/standard/simple/hidden/green{
 	dir = 5
@@ -876,15 +926,16 @@
 /turf/open/asphalt,
 /area/space)
 "dy" = (
-/obj/structure/machinery/computer/arcade,
-/turf/open/floor/shiva,
+/turf/open/floor/hybrisa/metal/metalwhitefull,
 /area/lv759/indoors/colonial_marshals/prisoners_cells)
 "dz" = (
 /turf/open/floor/shiva,
 /area/lv759/indoors/colonial_marshals/prisoners_cells)
 "dA" = (
-/obj/structure/machinery/door/airlock/glass_security/colony,
-/turf/open/floor/plating,
+/obj/structure/machinery/light{
+	dir = 8
+	},
+/turf/open/floor/shiva,
 /area/lv759/indoors/colonial_marshals/prisoners_cells)
 "dB" = (
 /obj/structure/surface/table/almayer,
@@ -899,7 +950,8 @@
 /area/varadero/interior_protected/maintenance/south)
 "dE" = (
 /obj/structure/machinery/door/window/ultra,
-/turf/open/floor/plating,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/shiva/red/east,
 /area/lv759/indoors/colonial_marshals/prisoners_cells)
 "dF" = (
 /obj/effect/decal/hybrisa/road/lines4,
@@ -912,12 +964,19 @@
 /turf/open/auto_turf/sand_white/layer1,
 /area/varadero/exterior/pontoon_beach)
 "dH" = (
-/obj/structure/machinery/portable_atmospherics/hydroponics,
+/obj/structure/window/framed/hybrisa/marshalls/reinforced,
+/obj/structure/machinery/door/poddoor/almayer/open{
+	id = "Brig Lockdown Shutters";
+	name = "\improper Brig Lockdown Shutter"
+	},
 /turf/open/floor/shiva,
-/area/space)
+/area/lv759/indoors/colonial_marshals/prisoners_cells)
 "dI" = (
-/obj/structure/machinery/portable_atmospherics/hydroponics,
-/turf/open/floor/shiva,
+/obj/structure/surface/table/almayer,
+/obj/structure/machinery/microwave{
+	pixel_y = 10
+	},
+/turf/open/floor/hybrisa/metal/metalwhitefull,
 /area/lv759/indoors/colonial_marshals/prisoners_cells)
 "dJ" = (
 /obj/structure/disposalpipe/segment,
@@ -925,15 +984,25 @@
 /turf/open/auto_turf/snow/layer0,
 /area/space)
 "dK" = (
-/obj/structure/surface/table/almayer,
+/obj/structure/closet/medical_wall{
+	pixel_y = -26
+	},
 /turf/open/floor/shiva,
-/area/space)
+/area/lv759/indoors/colonial_marshals/prisoners_cells)
 "dL" = (
 /turf/open/floor/strata/fake_wood,
 /area/corsat/gamma/rnr/bar)
 "dM" = (
 /turf/open/floor/shiva,
 /area/corsat/gamma/rnr/bar)
+"dN" = (
+/obj/structure/flora/pottedplant{
+	icon_state = "pottedplant_17";
+	pixel_x = -5;
+	pixel_y = 10
+	},
+/turf/open/floor/shiva,
+/area/lv759/indoors/colonial_marshals/prisoners_cells)
 "dO" = (
 /obj/structure/bed/chair/comfy{
 	dir = 4
@@ -997,7 +1066,7 @@
 /area/space)
 "dZ" = (
 /turf/open/floor/carpet/edge/southwest,
-/area/space)
+/area/corsat/gamma/rnr/library)
 "ea" = (
 /turf/open/floor/strata/fake_wood,
 /area/bigred/ground/chapel)
@@ -1062,9 +1131,9 @@
 /turf/open/auto_turf/sand_white/layer1,
 /area/space)
 "eq" = (
-/obj/structure/machinery/door/airlock/glass_security/colony,
+/obj/structure/machinery/door/airlock/multi_tile/almayer/secdoor/colony,
 /turf/open/floor/shiva,
-/area/space)
+/area/lv759/indoors/colonial_marshals/prisoners_cells)
 "er" = (
 /obj/structure/surface/table/woodentable,
 /turf/open/floor/strata/fake_wood,
@@ -1224,7 +1293,7 @@
 /area/space)
 "fe" = (
 /turf/open/floor/carpet/edge,
-/area/space)
+/area/corsat/gamma/rnr/library)
 "ff" = (
 /turf/open/floor/shiva/blue/west,
 /area/space)
@@ -1470,7 +1539,25 @@
 /turf/open/floor/shiva/wred/southwest,
 /area/space)
 "gk" = (
-/turf/closed/wall/rock/brown,
+/obj/structure/machinery/light{
+	dir = 1
+	},
+/turf/open/floor/shiva/wred/north,
+/area/lv759/indoors/colonial_marshals/prisoners_cells)
+"gl" = (
+/obj/structure/surface/rack{
+	color = "#98a3ab"
+	},
+/obj/item/storage/box/flashbangs{
+	pixel_x = -8;
+	pixel_y = 5
+	},
+/obj/item/storage/box/flashbangs{
+	pixel_x = 5;
+	pixel_y = 9
+	},
+/obj/item/storage/box/flashbangs,
+/turf/open/floor/shiva/redfull,
 /area/lv759/indoors/colonial_marshals/prisoners_cells)
 "gm" = (
 /turf/open/floor/shiva/bluecorners,
@@ -1508,20 +1595,26 @@
 /turf/open/space/basic,
 /area/almayer/living/basketball)
 "gu" = (
-/obj/structure/machinery/door/airlock/glass_security/colony,
-/turf/closed/wall/new_varadero,
+/obj/structure/machinery/light{
+	dir = 4;
+	pixel_y = -14
+	},
+/turf/open/floor/hybrisa/metal/metalwhitefull,
 /area/lv759/indoors/colonial_marshals/prisoners_cells)
 "gv" = (
 /obj/structure/toilet{
 	dir = 1
 	},
-/turf/open/floor/plating,
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/machinery/light/small/blue,
+/turf/open/floor/shiva,
 /area/lv759/indoors/colonial_marshals/prisoners_cells)
 "gw" = (
-/obj/structure/toilet{
-	pixel_y = 16
+/obj/structure/machinery/light/small{
+	dir = 1
 	},
-/turf/open/floor/plating,
+/obj/structure/closet/secure_closet/brig/prisoner,
+/turf/open/floor/shiva,
 /area/lv759/indoors/colonial_marshals/prisoners_cells)
 "gx" = (
 /turf/closed/wall/new_varadero,
@@ -1731,7 +1824,7 @@
 	dir = 1
 	},
 /turf/open/floor/carpet/edge,
-/area/space)
+/area/corsat/gamma/rnr/library)
 "hr" = (
 /obj/item/device/flashlight/lamp/tripod,
 /turf/open/auto_turf/sand_white/layer1,
@@ -1756,10 +1849,15 @@
 	dir = 1
 	},
 /turf/open/floor/carpet/edge/southeast,
-/area/space)
+/area/corsat/gamma/rnr/library)
+"hy" = (
+/obj/structure/surface/table/reinforced,
+/obj/structure/machinery/door/window,
+/turf/open/floor/plating,
+/area/lv759/indoors/colonial_marshals/prisoners_cells)
 "hz" = (
 /turf/open/floor/carpet/edge/west,
-/area/space)
+/area/corsat/gamma/rnr/library)
 "hA" = (
 /obj/structure/machinery/light,
 /turf/open/floor/strata/multi_tiles,
@@ -1772,7 +1870,7 @@
 /area/space)
 "hD" = (
 /turf/open/floor/carpet,
-/area/space)
+/area/corsat/gamma/rnr/library)
 "hE" = (
 /turf/closed/wall/r_wall,
 /area/varadero/interior/caves/east)
@@ -1795,7 +1893,7 @@
 "hK" = (
 /obj/structure/surface/table/holotable/wood,
 /turf/open/floor/carpet,
-/area/space)
+/area/corsat/gamma/rnr/library)
 "hL" = (
 /obj/structure/machinery/conveyor{
 	icon_state = "switch-off"
@@ -1819,7 +1917,7 @@
 "hN" = (
 /obj/structure/surface/table/holotable/wood,
 /turf/open/floor/carpet/edge/east,
-/area/space)
+/area/corsat/gamma/rnr/library)
 "hO" = (
 /obj/structure/dropship_equipment/weapon/heavygun,
 /turf/open/floor/shiva,
@@ -1876,15 +1974,22 @@
 /turf/open/floor/plating/icefloor/asteroidplating,
 /area/varadero/interior_protected/maintenance/south)
 "hX" = (
-/turf/open/floor/carpet/edge/west,
-/area/corsat/gamma/rnr/library)
+/obj/structure/bed/chair/office/dark{
+	dir = 4
+	},
+/turf/open/floor/shiva/red/east,
+/area/lv759/indoors/colonial_marshals/prisoners_cells)
 "hZ" = (
-/turf/open/floor/carpet,
-/area/corsat/gamma/rnr/library)
+/obj/structure/surface/table/reinforced,
+/obj/item/storage/donut_box{
+	pixel_y = 7
+	},
+/turf/open/floor/shiva,
+/area/lv759/indoors/colonial_marshals/prisoners_cells)
 "ia" = (
-/obj/structure/surface/table/holotable/wood,
-/turf/open/floor/carpet,
-/area/corsat/gamma/rnr/library)
+/obj/structure/surface/table/reinforced,
+/turf/open/floor/shiva,
+/area/lv759/indoors/colonial_marshals/prisoners_cells)
 "ib" = (
 /obj/structure/closet/basketball,
 /turf/open/space/basic,
@@ -1907,13 +2012,16 @@
 /turf/open/floor/shiva/green/north,
 /area/space)
 "ih" = (
-/obj/structure/bed/chair/wood/normal,
-/turf/open/floor/carpet/edge/north,
-/area/space)
+/obj/effect/decal/strata_decals/grime/grime3{
+	pixel_y = 12;
+	pixel_x = 12
+	},
+/turf/open/floor/shiva,
+/area/lv759/indoors/colonial_marshals/prisoners_cells)
 "ii" = (
 /obj/structure/bed/chair/wood/normal,
 /turf/open/floor/carpet/edge/northeast,
-/area/space)
+/area/corsat/gamma/rnr/library)
 "ij" = (
 /turf/open/floor/plating,
 /area/varadero/exterior/pool)
@@ -1941,14 +2049,31 @@
 	},
 /turf/open/floor/shiva,
 /area/varadero/interior/caves/east)
+"ip" = (
+/obj/structure/surface/table/reinforced,
+/obj/structure/window/reinforced{
+	health = 80;
+	dir = 4
+	},
+/obj/structure/machinery/computer/cameras{
+	dir = 8;
+	pixel_y = 5;
+	pixel_x = -1
+	},
+/obj/item/reagent_container/food/drinks/coffee{
+	pixel_y = -1;
+	pixel_x = -4
+	},
+/turf/open/floor/shiva,
+/area/lv759/indoors/colonial_marshals/prisoners_cells)
 "iq" = (
 /obj/structure/bookcase,
 /turf/open/floor/shiva,
 /area/corsat/gamma/rnr/library)
 "ir" = (
-/obj/structure/bookcase,
+/obj/effect/decal/cleanable/cobweb2,
 /turf/open/floor/shiva,
-/area/space)
+/area/lv759/indoors/colonial_marshals/prisoners_cells)
 "is" = (
 /turf/open/floor/shiva/bluefull,
 /area/space)
@@ -2086,6 +2211,13 @@
 /obj/structure/window/framed/strata/hull,
 /turf/open/auto_turf/sand_white/layer1,
 /area/varadero/interior/maintenance/north)
+"iT" = (
+/obj/structure/bed/chair/office/dark{
+	dir = 8;
+	layer = 3.25
+	},
+/turf/open/floor/shiva,
+/area/lv759/indoors/colonial_marshals/prisoners_cells)
 "iU" = (
 /obj/structure/machinery/power/apc/no_power/north,
 /turf/open/floor/darkbrown2/northeast,
@@ -2455,6 +2587,20 @@
 "kh" = (
 /turf/open_space,
 /area/varadero/interior/caves/east)
+"ki" = (
+/obj/structure/surface/rack{
+	color = "#98a3ab"
+	},
+/obj/item/weapon/gun/pistol/l54{
+	pixel_x = -2;
+	pixel_y = 4
+	},
+/obj/item/weapon/gun/pistol/l54{
+	pixel_x = -2;
+	pixel_y = -4
+	},
+/turf/open/floor/shiva/redfull,
+/area/lv759/indoors/colonial_marshals/prisoners_cells)
 "kj" = (
 /turf/open/floor/hybrisa/metal/yellow_warning_floor,
 /area/space)
@@ -2919,6 +3065,14 @@
 /obj/structure/closet/secure_closet/quartermaster,
 /turf/open/floor/wood,
 /area/space)
+"lH" = (
+/obj/structure/machinery/vending/snack{
+	anchored = 0;
+	pixel_y = 16;
+	pixel_x = 1
+	},
+/turf/open/floor/shiva/red/north,
+/area/lv759/indoors/colonial_marshals/prisoners_cells)
 "lI" = (
 /obj/structure/machinery/vending/cigarette/wy{
 	pixel_x = 6
@@ -3231,6 +3385,12 @@
 /obj/structure/closet/wardrobe/pjs,
 /turf/open/floor/shiva/blue/northwest,
 /area/space)
+"mN" = (
+/obj/structure/machinery/door/airlock/security/colony{
+	dir = 1
+	},
+/turf/open/floor/shiva/wredfull,
+/area/lv759/indoors/colonial_marshals/prisoners_cells)
 "mO" = (
 /obj/structure/bed/hybrisa/bunkbed1,
 /obj/item/prop/magazine/dirty{
@@ -3632,6 +3792,9 @@
 /obj/structure/disposalpipe/segment,
 /turf/open/floor/dark2,
 /area/space)
+"on" = (
+/turf/open/floor/shiva/red/northwest,
+/area/lv759/indoors/colonial_marshals/prisoners_cells)
 "oo" = (
 /turf/closed/wall/shiva/prefabricated/reinforced,
 /area/lv624/lazarus/corporate_dome)
@@ -4246,6 +4409,18 @@
 	},
 /turf/open/auto_turf/snow/layer0,
 /area/space)
+"qG" = (
+/obj/structure/surface/table/reinforced,
+/obj/item/storage/box/handcuffs{
+	pixel_x = -5;
+	pixel_y = 10
+	},
+/obj/item/device/megaphone{
+	pixel_x = 1;
+	pixel_y = -4
+	},
+/turf/open/floor/shiva/red/southwest,
+/area/lv759/indoors/colonial_marshals/prisoners_cells)
 "qH" = (
 /turf/closed/wall/new_varadero,
 /area/desert_dam/building/security/observation)
@@ -4484,6 +4659,12 @@
 /obj/effect/decal/cleanable/dirt/alt_dirt/stain,
 /turf/open/floor/corsat,
 /area/space)
+"rH" = (
+/obj/structure/machinery/vending/security{
+	pixel_y = 10
+	},
+/turf/open/floor/shiva/red/northwest,
+/area/lv759/indoors/colonial_marshals/prisoners_cells)
 "rI" = (
 /obj/effect/hybrisa/misc/fake/wire/yellow,
 /obj/effect/hybrisa/misc/fake/wire/red{
@@ -4604,6 +4785,17 @@
 /obj/structure/fence/dark/warning,
 /turf/open/auto_turf/sand_white/layer1,
 /area/space)
+"rW" = (
+/obj/structure/closet/secure_closet/marshal{
+	pixel_x = 9
+	},
+/obj/effect/decal/cleanable/blood{
+	icon_state = "armor_blood";
+	pixel_x = -5;
+	pixel_y = -12
+	},
+/turf/open/floor/shiva/red/east,
+/area/lv759/indoors/colonial_marshals/prisoners_cells)
 "rX" = (
 /obj/item/stack/tile/plasteel{
 	pixel_x = 8;
@@ -4962,6 +5154,15 @@
 	},
 /turf/open/floor/shiva/green/north,
 /area/space)
+"sU" = (
+/obj/structure/machinery/light,
+/obj/effect/decal/cleanable/dirt/alt_dirt{
+	color = "#140400";
+	pixel_y = 8;
+	pixel_x = 6
+	},
+/turf/open/floor/shiva/red,
+/area/lv759/indoors/colonial_marshals/prisoners_cells)
 "sV" = (
 /obj/structure/machinery/landinglight/ds1/delayone{
 	dir = 8
@@ -5320,6 +5521,13 @@
 	},
 /turf/open/hybrisa/street/roadlines,
 /area/space)
+"ud" = (
+/obj/structure/machinery/light{
+	dir = 8;
+	pixel_y = -14
+	},
+/turf/open/floor/shiva/red/west,
+/area/lv759/indoors/colonial_marshals/prisoners_cells)
 "ue" = (
 /obj/item/device/flashlight/lamp/tripod,
 /obj/structure/stairs/multiz/up{
@@ -5333,6 +5541,13 @@
 	icon_state = "pwall"
 	},
 /area/varadero/interior/oob)
+"uh" = (
+/obj/structure/machinery/light{
+	dir = 4;
+	pixel_y = -14
+	},
+/turf/open/floor/shiva/red/east,
+/area/lv759/indoors/colonial_marshals/prisoners_cells)
 "ui" = (
 /turf/closed/wall/new_varadero,
 /area/bigred/ground/engineering/atmospherics)
@@ -5403,6 +5618,9 @@
 "uA" = (
 /turf/open/floor/shiva,
 /area/lv759/indoors/spaceport/janitor)
+"uC" = (
+/turf/closed/wall/rock/brown,
+/area/lv759/indoors/colonial_marshals/prisoners_cells)
 "uD" = (
 /obj/structure/window/framed/strata/hull,
 /turf/open/floor/plating/icefloor/asteroidplating,
@@ -5699,6 +5917,14 @@
 "vN" = (
 /turf/open/space/basic,
 /area/varadero/interior/caves/north_research)
+"vO" = (
+/obj/effect/decal/strata_decals/grime/grime3{
+	dir = 4;
+	pixel_x = -6;
+	pixel_y = 6
+	},
+/turf/open/floor/hybrisa/metal/metalwhitefull,
+/area/lv759/indoors/colonial_marshals/prisoners_cells)
 "vP" = (
 /turf/open/floor/hybrisa/tile/tilewhite,
 /area/space)
@@ -5749,6 +5975,12 @@
 "wk" = (
 /turf/open/new_varadero/sidewalk/east,
 /area/space)
+"wm" = (
+/obj/structure/machinery/firealarm{
+	pixel_x = -25
+	},
+/turf/open/floor/shiva,
+/area/lv759/indoors/colonial_marshals/prisoners_cells)
 "wn" = (
 /obj/structure/machinery/landinglight/ds1/delaytwo{
 	dir = 1
@@ -5827,6 +6059,16 @@
 	color = "#0b8f8d"
 	},
 /area/space)
+"wA" = (
+/obj/structure/surface/rack{
+	color = "#98a3ab"
+	},
+/obj/item/ammo_magazine/shotgun/beanbag,
+/obj/item/ammo_magazine/shotgun/beanbag{
+	pixel_y = -6
+	},
+/turf/open/floor/shiva/redfull,
+/area/lv759/indoors/colonial_marshals/prisoners_cells)
 "wE" = (
 /obj/structure/machinery/portable_atmospherics/canister/empty,
 /turf/open/floor/engine,
@@ -5856,6 +6098,16 @@
 "wN" = (
 /turf/closed/wall/rock/brown,
 /area/varadero/exterior/monsoon)
+"wO" = (
+/obj/structure/machinery/light{
+	dir = 4
+	},
+/obj/structure/target{
+	name = "punching bag";
+	pixel_x = 7
+	},
+/turf/open/floor/hybrisa/metal/metalwhitefull,
+/area/lv759/indoors/colonial_marshals/prisoners_cells)
 "wQ" = (
 /obj/effect/decal/warning_stripes{
 	icon_state = "cargo"
@@ -5867,6 +6119,14 @@
 /obj/structure/bed/roller/hospital_empty/bigrollerempty3,
 /turf/open/floor/shiva/green/west,
 /area/space)
+"wU" = (
+/obj/structure/window/framed/hybrisa/marshalls/reinforced,
+/obj/structure/machinery/door/poddoor/almayer/open{
+	id = "Brig Lockdown Shutters";
+	name = "\improper Brig Lockdown Shutter"
+	},
+/turf/open/floor/plating,
+/area/lv759/indoors/colonial_marshals/prisoners_cells)
 "wV" = (
 /obj/structure/surface/table/almayer,
 /obj/item/reagent_container/glass/beaker/bluespace{
@@ -5878,6 +6138,20 @@
 	},
 /turf/open/floor/darkpurple2/north,
 /area/space)
+"wY" = (
+/obj/structure/closet/secure_closet/marshal{
+	pixel_x = 9
+	},
+/turf/open/floor/shiva/red/east,
+/area/lv759/indoors/colonial_marshals/prisoners_cells)
+"xa" = (
+/obj/structure/machinery/vending/cola{
+	density = 0;
+	pixel_y = 16;
+	pixel_x = -4
+	},
+/turf/open/floor/shiva/red/north,
+/area/lv759/indoors/colonial_marshals/prisoners_cells)
 "xb" = (
 /obj/effect/decal/hybrisa/road/lines1,
 /obj/effect/decal/hybrisa/road/road_stop{
@@ -5924,6 +6198,29 @@
 	},
 /turf/open/floor/prison/floor_plate/southwest,
 /area/space)
+"xt" = (
+/obj/structure/surface/table/almayer,
+/obj/item/storage/box/donkpockets{
+	pixel_x = 3;
+	pixel_y = -1
+	},
+/obj/item/storage/box/donkpockets{
+	pixel_x = 12;
+	pixel_y = 16
+	},
+/turf/open/floor/hybrisa/metal/metalwhitefull,
+/area/lv759/indoors/colonial_marshals/prisoners_cells)
+"xw" = (
+/obj/structure/machinery/vending/security{
+	pixel_y = 10
+	},
+/turf/open/floor/shiva/red/northeast,
+/area/lv759/indoors/colonial_marshals/prisoners_cells)
+"xy" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/machinery/light,
+/turf/open/floor/shiva,
+/area/lv759/indoors/colonial_marshals/prisoners_cells)
 "xz" = (
 /turf/open/floor/strata/fake_wood,
 /area/ice_colony/exterior/underground/caves)
@@ -5931,6 +6228,12 @@
 /obj/structure/closet/firecloset/full,
 /turf/open/new_varadero/alt_concrete,
 /area/space)
+"xB" = (
+/obj/structure/bed/chair/office/dark{
+	dir = 1
+	},
+/turf/open/floor/shiva,
+/area/lv759/indoors/colonial_marshals/prisoners_cells)
 "xH" = (
 /obj/structure/machinery/door/airlock/almayer/medical/glass{
 	dir = 1;
@@ -6044,11 +6347,34 @@
 /obj/effect/decal/hybrisa/dirt,
 /turf/open/hybrisa/street/asphalt,
 /area/space)
+"yt" = (
+/obj/structure/window/framed/hybrisa/marshalls/reinforced,
+/obj/structure/machinery/door/poddoor/almayer/open{
+	dir = 4;
+	id = "Brig Lockdown Shutters";
+	name = "\improper Brig Lockdown Shutter"
+	},
+/turf/open/space/basic,
+/area/lv759/indoors/colonial_marshals/prisoners_cells)
 "yu" = (
 /obj/structure/surface/table/reinforced/prison,
 /obj/item/paper_bin,
 /turf/open/floor/shiva/yellowfull/west,
 /area/space)
+"yw" = (
+/obj/structure/extinguisher_cabinet{
+	pixel_x = 2;
+	pixel_y = 30
+	},
+/obj/structure/machinery/door_control{
+	id = "Colony Brig Lockdown Shutters";
+	name = "Brig Lockdown Shutters";
+	pixel_x = -24;
+	pixel_y = -5;
+	req_access_txt = "3"
+	},
+/turf/open/floor/shiva/red/northwest,
+/area/lv759/indoors/colonial_marshals/prisoners_cells)
 "yx" = (
 /obj/effect/landmark/structure_spawner/setup/distress/xeno_weed_node,
 /turf/open/gm/grass/grass1/weedable,
@@ -6059,6 +6385,12 @@
 	},
 /turf/open/floor/dark2,
 /area/space)
+"yC" = (
+/obj/effect/decal/strata_decals/grime/grime3{
+	pixel_y = 12
+	},
+/turf/open/floor/hybrisa/metal/metalwhitefull,
+/area/lv759/indoors/colonial_marshals/prisoners_cells)
 "yF" = (
 /obj/item/stack/sheet/plasteel/large_stack,
 /turf/open/floor/darkbrown2/southeast,
@@ -6077,6 +6409,11 @@
 /obj/structure/blocker/fog,
 /turf/open_space,
 /area/space)
+"yN" = (
+/obj/structure/surface/table/reinforced,
+/obj/item/reagent_container/food/drinks/coffeecup,
+/turf/open/floor/shiva/red,
+/area/lv759/indoors/colonial_marshals/prisoners_cells)
 "yO" = (
 /turf/open/floor/shiva/greencorners/north,
 /area/space)
@@ -6108,6 +6445,24 @@
 /obj/structure/machinery/light,
 /turf/open_space,
 /area/space)
+"yV" = (
+/obj/effect/decal/hybrisa/dirt,
+/obj/structure/bed/hybrisa/prisonbed,
+/turf/open/floor/shiva,
+/area/lv759/indoors/colonial_marshals/prisoners_cells)
+"yW" = (
+/obj/structure/window/framed/hybrisa/marshalls,
+/obj/structure/curtain/colorable_transparent{
+	color = "#687d89";
+	alpha = 220;
+	layer = 3.2
+	},
+/turf/open/floor/shiva,
+/area/lv759/indoors/colonial_marshals/prisoners_cells)
+"yY" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/shiva/red/east,
+/area/lv759/indoors/colonial_marshals/prisoners_cells)
 "yZ" = (
 /turf/open/gm/river/ocean/deep_ocean,
 /area/varadero/interior/oob)
@@ -6118,6 +6473,15 @@
 	},
 /turf/open/floor/strata/multi_tiles,
 /area/space)
+"zg" = (
+/obj/structure/machinery/light{
+	dir = 4;
+	pixel_y = -14
+	},
+/obj/structure/surface/table/reinforced,
+/obj/item/storage/firstaid/regular,
+/turf/open/floor/shiva,
+/area/lv759/indoors/colonial_marshals/prisoners_cells)
 "zh" = (
 /obj/structure/blocker/fog,
 /obj/structure/blocker/fog,
@@ -6138,10 +6502,35 @@
 	},
 /turf/open/floor/darkyellow2/east,
 /area/space)
+"zk" = (
+/obj/structure/prop/hybrisa/misc/buildinggreebliessmall/smallvent3{
+	pixel_x = -24
+	},
+/obj/structure/closet/secure_closet/guncabinet/blue/riot_control,
+/obj/item/weapon/shield/riot,
+/obj/item/weapon/shield/riot,
+/obj/item/clothing/suit/armor/riot,
+/obj/item/clothing/suit/armor/riot,
+/obj/item/clothing/head/helmet/riot/vintage_riot,
+/obj/item/clothing/head/helmet/riot/vintage_riot,
+/turf/open/floor/shiva/red/southwest,
+/area/lv759/indoors/colonial_marshals/prisoners_cells)
 "zl" = (
 /obj/effect/landmark/structure_spawner/setup/distress/xeno_weed_node,
 /turf/open/auto_turf/sand_white/layer1,
 /area/varadero/interior_protected/caves)
+"zm" = (
+/obj/structure/window/reinforced{
+	health = 80;
+	dir = 8
+	},
+/obj/structure/surface/table/reinforced,
+/obj/structure/machinery/faxmachine{
+	pixel_x = 1;
+	pixel_y = 3
+	},
+/turf/open/floor/shiva,
+/area/lv759/indoors/colonial_marshals/prisoners_cells)
 "zo" = (
 /obj/structure/bed/stool,
 /turf/open/floor/dark2,
@@ -6179,6 +6568,17 @@
 /obj/structure/largecrate/random/barrel,
 /turf/open/floor/prison/floor_plate/southwest,
 /area/space)
+"zC" = (
+/obj/structure/target{
+	name = "punching bag";
+	pixel_x = 7
+	},
+/turf/open/floor/hybrisa/metal/metalwhitefull,
+/area/lv759/indoors/colonial_marshals/prisoners_cells)
+"zD" = (
+/obj/structure/closet/secure_closet/warden,
+/turf/open/floor/shiva/red/northwest,
+/area/lv759/indoors/colonial_marshals/prisoners_cells)
 "zE" = (
 /obj/effect/decal/hybrisa/warning/redandwhite_N,
 /turf/open/floor/almayer/plating,
@@ -6235,6 +6635,22 @@
 	},
 /turf/open/floor/plating/icefloor/asteroidplating,
 /area/varadero/interior_protected/maintenance/south)
+"zV" = (
+/obj/structure/window/reinforced{
+	health = 80;
+	dir = 4
+	},
+/obj/structure/surface/table/reinforced,
+/obj/item/phone{
+	pixel_x = -3;
+	pixel_y = 10
+	},
+/obj/item/tape{
+	pixel_x = 1;
+	pixel_y = -2
+	},
+/turf/open/floor/shiva,
+/area/lv759/indoors/colonial_marshals/prisoners_cells)
 "zW" = (
 /obj/structure/bed/roller/hospital_empty/bigrollerempty3,
 /obj/structure/pipes/standard/manifold/visible{
@@ -6261,6 +6677,15 @@
 /obj/effect/decal/hybrisa/dirt_2,
 /turf/open/floor/strata/white_cyan2/west,
 /area/space)
+"Ad" = (
+/obj/structure/machinery/light{
+	dir = 4
+	},
+/obj/structure/bed/chair/bolted{
+	dir = 1
+	},
+/turf/open/floor/hybrisa/metal/metalwhitefull,
+/area/lv759/indoors/colonial_marshals/prisoners_cells)
 "Ae" = (
 /obj/structure/machinery/portable_atmospherics/powered/pump,
 /obj/structure/machinery/light,
@@ -6328,6 +6753,9 @@
 /obj/structure/holowindow,
 /turf/open/floor/darkyellow2/east,
 /area/space)
+"Aw" = (
+/turf/open/floor/shiva/red/southeast,
+/area/lv759/indoors/colonial_marshals/prisoners_cells)
 "Ax" = (
 /obj/structure/largecrate/random/mini/wooden,
 /turf/open/floor/plating/icefloor/asteroidplating,
@@ -6366,6 +6794,16 @@
 	},
 /turf/open/auto_turf/sand_white/layer1,
 /area/space)
+"AJ" = (
+/turf/open/floor/shiva/red/west,
+/area/lv759/indoors/colonial_marshals/prisoners_cells)
+"AM" = (
+/obj/structure/closet/secure_closet/marshal{
+	pixel_x = 9
+	},
+/obj/effect/decal/cleanable/dirt/alt_dirt,
+/turf/open/floor/shiva/red/east,
+/area/lv759/indoors/colonial_marshals/prisoners_cells)
 "AN" = (
 /obj/structure/closet/secure_closet/engineering_electrical,
 /turf/open/floor/shiva,
@@ -6395,9 +6833,15 @@
 /turf/open/auto_turf/sand_white/layer0,
 /area/space)
 "Bb" = (
-/obj/item/device/radio/electropack,
-/obj/structure/surface/rack,
-/turf/open/floor/plating,
+/turf/closed/wall/new_varadero/reinforced,
+/area/lv759/indoors/colonial_marshals/prisoners_cells)
+"Bc" = (
+/obj/structure/bed/stool{
+	buckling_y = 14;
+	pixel_y = 1;
+	pixel_x = 7
+	},
+/turf/open/floor/shiva/red/east,
 /area/lv759/indoors/colonial_marshals/prisoners_cells)
 "Be" = (
 /turf/closed/wall/rock/brown,
@@ -6511,6 +6955,18 @@
 	},
 /turf/open/floor/shiva/bluefull/west,
 /area/space)
+"BN" = (
+/obj/structure/surface/table/reinforced,
+/obj/item/storage/toolbox/emergency{
+	pixel_y = 7;
+	pixel_x = -3
+	},
+/obj/item/device/taperecorder/empty{
+	pixel_x = 8;
+	pixel_y = -6
+	},
+/turf/open/floor/shiva,
+/area/lv759/indoors/colonial_marshals/prisoners_cells)
 "BO" = (
 /obj/structure/largecrate/random/barrel/true_random{
 	pixel_y = 5;
@@ -6555,6 +7011,16 @@
 "Ca" = (
 /turf/closed/wall/rock/brown,
 /area/varadero/interior_protected/caves/digsite)
+"Cb" = (
+/obj/structure/closet/secure_closet/guncabinet/blue/riot_control,
+/obj/item/weapon/shield/riot,
+/obj/item/weapon/shield/riot,
+/obj/item/clothing/suit/armor/riot,
+/obj/item/clothing/suit/armor/riot,
+/obj/item/clothing/head/helmet/riot/vintage_riot,
+/obj/item/clothing/head/helmet/riot/vintage_riot,
+/turf/open/floor/shiva/red/northwest,
+/area/lv759/indoors/colonial_marshals/prisoners_cells)
 "Cd" = (
 /obj/structure/pipes/standard/simple/hidden/scrubbers{
 	dir = 4
@@ -6580,6 +7046,13 @@
 /obj/item/tool/shovel/snow,
 /turf/open/new_varadero,
 /area/space)
+"Cm" = (
+/obj/effect/decal/cleanable/blood{
+	pixel_x = 3;
+	pixel_y = -7
+	},
+/turf/open/floor/shiva,
+/area/lv759/indoors/colonial_marshals/prisoners_cells)
 "Co" = (
 /obj/structure/machinery/landinglight/ds1/delayone,
 /obj/structure/machinery/landinglight/ds1/delaytwo{
@@ -6594,6 +7067,10 @@
 "Ct" = (
 /turf/open_space,
 /area/varadero/interior/oob)
+"Cu" = (
+/obj/structure/machinery/disposal,
+/turf/open/floor/shiva,
+/area/lv759/indoors/colonial_marshals/prisoners_cells)
 "Cw" = (
 /obj/structure/machinery/conveyor{
 	dir = 4;
@@ -6658,12 +7135,34 @@
 	},
 /turf/open/new_varadero,
 /area/space)
+"CS" = (
+/obj/structure/machinery/light{
+	dir = 8
+	},
+/obj/structure/machinery/vending/hydroseeds{
+	pixel_x = -2;
+	pixel_y = 10
+	},
+/turf/open/floor/hybrisa/metal/metalwhitefull,
+/area/lv759/indoors/colonial_marshals/prisoners_cells)
 "CV" = (
 /obj/structure/pipes/standard/simple/visible{
 	dir = 4
 	},
 /turf/open/floor/darkpurple2,
 /area/space)
+"CX" = (
+/obj/structure/surface/table/reinforced,
+/obj/item/storage/box/evidence{
+	pixel_y = -3;
+	pixel_x = 7
+	},
+/obj/item/weapon/baton{
+	pixel_y = 6;
+	pixel_x = -3
+	},
+/turf/open/floor/shiva/red/southeast,
+/area/lv759/indoors/colonial_marshals/prisoners_cells)
 "CY" = (
 /obj/effect/landmark/structure_spawner/setup/distress/xeno_door,
 /turf/open/gm/grass/grass1/weedable,
@@ -6683,6 +7182,10 @@
 	},
 /turf/open/floor/dark2,
 /area/space)
+"Dg" = (
+/obj/structure/fence/slim/dark,
+/turf/open/floor/shiva,
+/area/lv759/indoors/colonial_marshals/prisoners_cells)
 "Dj" = (
 /obj/effect/decal/hybrisa/road/lines1,
 /obj/effect/decal/hybrisa/road/road_edge,
@@ -6763,6 +7266,15 @@
 /obj/structure/window_frame/colony/reinforced,
 /turf/open/floor/plating,
 /area/space)
+"DB" = (
+/obj/structure/machinery/firealarm{
+	pixel_y = -24
+	},
+/turf/open/floor/shiva/wredfull,
+/area/lv759/indoors/colonial_marshals/prisoners_cells)
+"DC" = (
+/turf/open/floor/shiva/red/northeast,
+/area/lv759/indoors/colonial_marshals/prisoners_cells)
 "DE" = (
 /obj/structure/closet/secure_closet/engineering_electrical,
 /turf/open/floor/shiva/yellow/southeast,
@@ -6789,6 +7301,12 @@
 /obj/item/tool/pen/blue,
 /turf/open/floor/shiva/redfull/west,
 /area/space)
+"DK" = (
+/obj/structure/surface/rack{
+	color = "#98a3ab"
+	},
+/turf/open/floor/shiva/redfull,
+/area/lv759/indoors/colonial_marshals/prisoners_cells)
 "DL" = (
 /turf/open/floor/dark2,
 /area/space)
@@ -6808,6 +7326,13 @@
 /obj/structure/fence/electrified,
 /turf/open/auto_turf/sand_white/layer1,
 /area/space)
+"DR" = (
+/obj/structure/machinery/light{
+	dir = 8;
+	pixel_y = 17
+	},
+/turf/open/floor/shiva/red/west,
+/area/lv759/indoors/colonial_marshals/prisoners_cells)
 "DS" = (
 /obj/structure/machinery/vending/snack,
 /turf/open/floor/shiva/wred/east,
@@ -6829,6 +7354,13 @@
 "DX" = (
 /turf/open/floor/almayer/sterile_green,
 /area/space)
+"DY" = (
+/obj/effect/decal/strata_decals/grime/grime3{
+	dir = 8
+	},
+/obj/structure/machinery/portable_atmospherics/hydroponics,
+/turf/open/floor/hybrisa/metal/metalwhitefull,
+/area/lv759/indoors/colonial_marshals/prisoners_cells)
 "Ea" = (
 /obj/structure/reagent_dispensers/tank/fuel/gas/methane{
 	anchored = 1
@@ -6869,6 +7401,10 @@
 /obj/structure/machinery/light,
 /turf/open/floor/shiva/wred/southeast,
 /area/space)
+"El" = (
+/obj/structure/machinery/door/airlock/maintenance/colony,
+/turf/open/floor/plating,
+/area/lv759/indoors/colonial_marshals/prisoners_cells)
 "En" = (
 /obj/structure/extinguisher_cabinet{
 	pixel_y = 26
@@ -6888,6 +7424,10 @@
 /obj/structure/prop/hybrisa/vehicles/Armored_Truck/White,
 /turf/open/floor/dark2,
 /area/space)
+"Ev" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/shiva/red/west,
+/area/lv759/indoors/colonial_marshals/prisoners_cells)
 "Ex" = (
 /obj/structure/pipes/standard/simple/hidden/green{
 	dir = 4
@@ -6897,6 +7437,12 @@
 	},
 /turf/open/new_varadero,
 /area/space)
+"ED" = (
+/obj/structure/machinery/light{
+	dir = 4
+	},
+/turf/open/floor/shiva/red/east,
+/area/lv759/indoors/colonial_marshals/prisoners_cells)
 "EG" = (
 /obj/structure/barricade/metal{
 	dir = 1
@@ -6912,6 +7458,12 @@
 	},
 /turf/open/floor/darkpurple2/east,
 /area/space)
+"EJ" = (
+/obj/structure/bed/chair/bolted{
+	dir = 1
+	},
+/turf/open/floor/hybrisa/metal/metalwhitefull,
+/area/lv759/indoors/colonial_marshals/prisoners_cells)
 "EL" = (
 /obj/structure/prop/hybrisa/vehicles/Ambulance{
 	pixel_x = 12;
@@ -6919,6 +7471,9 @@
 	},
 /turf/open/hybrisa/street/roadlines,
 /area/space)
+"EO" = (
+/turf/open/floor/shiva/redcorners/north,
+/area/lv759/indoors/colonial_marshals/prisoners_cells)
 "EP" = (
 /obj/structure/prop/rock/brown,
 /turf/open/gm/dirt,
@@ -6954,6 +7509,20 @@
 	color = "#0b8f8d"
 	},
 /area/space)
+"Fb" = (
+/obj/structure/surface/rack{
+	color = "#98a3ab"
+	},
+/obj/effect/spawner/random/tool{
+	pixel_x = 4;
+	pixel_y = 6
+	},
+/obj/effect/spawner/random/tool{
+	pixel_x = -7;
+	pixel_y = -1
+	},
+/turf/open/floor/shiva/redfull,
+/area/lv759/indoors/colonial_marshals/prisoners_cells)
 "Fc" = (
 /obj/structure/pipes/standard/simple/hidden/green{
 	dir = 4
@@ -6963,6 +7532,10 @@
 "Fd" = (
 /turf/open/floor/shiva/wred/west,
 /area/space)
+"Fg" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/hybrisa/metal/metalwhitefull,
+/area/lv759/indoors/colonial_marshals/prisoners_cells)
 "Fh" = (
 /obj/structure/platform/stone/kutjevo/west,
 /turf/open_space,
@@ -6974,11 +7547,24 @@
 	},
 /turf/open/floor/darkpurple2/west,
 /area/space)
+"Fk" = (
+/obj/structure/machinery/firealarm{
+	pixel_x = 25
+	},
+/obj/structure/closet/secure_closet/brig/prisoner,
+/turf/open/floor/shiva/redcorners/east,
+/area/lv759/indoors/colonial_marshals/prisoners_cells)
 "Fq" = (
 /obj/structure/flora/bush/ausbushes/var3/fullgrass,
 /obj/effect/landmark/queen_spawn,
 /turf/open/auto_turf/sand_white/layer1,
 /area/varadero/interior_protected/maintenance/south)
+"Ft" = (
+/obj/structure/sink{
+	pixel_y = 18
+	},
+/turf/open/floor/hybrisa/metal/metalwhitefull,
+/area/lv759/indoors/colonial_marshals/prisoners_cells)
 "Fu" = (
 /obj/structure/pipes/standard/simple/hidden/green{
 	dir = 10
@@ -7000,6 +7586,12 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/closed/wall,
 /area/space)
+"FA" = (
+/obj/structure/closet/fireaxecabinet{
+	pixel_y = -26
+	},
+/turf/open/floor/shiva/red,
+/area/lv759/indoors/colonial_marshals/prisoners_cells)
 "FD" = (
 /turf/open_space,
 /area/almayer/shipboard/port_point_defense)
@@ -7019,6 +7611,9 @@
 	},
 /turf/open/floor/strata/multi_tiles,
 /area/space)
+"FK" = (
+/turf/open/floor/shiva/wred/northwest,
+/area/lv759/indoors/colonial_marshals/prisoners_cells)
 "FM" = (
 /obj/structure/pipes/standard/simple/visible{
 	dir = 6
@@ -7034,6 +7629,13 @@
 "FR" = (
 /turf/open/floor/shiva/green/southeast,
 /area/space)
+"FS" = (
+/obj/structure/machinery/vending/cigarette/koorlander{
+	pixel_y = 11;
+	pixel_x = -2
+	},
+/turf/open/floor/shiva/red/west,
+/area/lv759/indoors/colonial_marshals/prisoners_cells)
 "FU" = (
 /obj/structure/platform_decoration/stone/kutjevo/west,
 /obj/structure/platform_decoration/stone/kutjevo,
@@ -7050,6 +7652,12 @@
 	},
 /turf/open/floor/prison/floor_plate/southwest,
 /area/space)
+"Gc" = (
+/obj/structure/machinery/door/airlock/multi_tile/almayer/secdoor/glass/reinforced/autoname{
+	dir = 1
+	},
+/turf/open/floor/shiva,
+/area/lv759/indoors/colonial_marshals/prisoners_cells)
 "Ge" = (
 /turf/open/floor/strata/multi_tiles,
 /area/space)
@@ -7119,6 +7727,10 @@
 /obj/effect/decal/hybrisa/dirt_2,
 /turf/open/floor/strata/white_cyan2/west,
 /area/space)
+"GF" = (
+/obj/effect/decal/cleanable/dirt/alt_dirt/stain,
+/turf/open/floor/hybrisa/metal/metalwhitefull,
+/area/lv759/indoors/colonial_marshals/prisoners_cells)
 "GH" = (
 /obj/structure/pipes/standard/simple/hidden/green{
 	dir = 4
@@ -7131,6 +7743,19 @@
 /obj/structure/machinery/floodlight,
 /turf/open/new_varadero,
 /area/space)
+"GK" = (
+/obj/structure/pipes/vents,
+/turf/open/floor/hybrisa/metal/metalwhitefull,
+/area/lv759/indoors/colonial_marshals/prisoners_cells)
+"GN" = (
+/obj/structure/machinery/door/airlock/glass_security/colony,
+/obj/structure/machinery/door/poddoor/almayer/open{
+	dir = 4;
+	id = "Brig Lockdown Shutters";
+	name = "\improper Brig Lockdown Shutter"
+	},
+/turf/open/floor/shiva,
+/area/lv759/indoors/colonial_marshals/prisoners_cells)
 "GO" = (
 /obj/structure/machinery/landinglight/ds1{
 	dir = 8
@@ -7224,6 +7849,14 @@
 /obj/structure/fence/slim/dark,
 /turf/open/floor/strata/multi_tiles,
 /area/space)
+"Hv" = (
+/obj/structure/bed/chair/office/dark{
+	dir = 8;
+	layer = 3.25
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/shiva,
+/area/lv759/indoors/colonial_marshals/prisoners_cells)
 "Hw" = (
 /obj/structure/machinery/portable_atmospherics/canister/carbon_dioxide,
 /obj/effect/decal/hybrisa/warning/redandwhite_N,
@@ -7242,6 +7875,11 @@
 /obj/structure/bed/chair/office/dark,
 /turf/open/floor/shiva/north,
 /area/space)
+"Hz" = (
+/obj/structure/machinery/light,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/shiva/red,
+/area/lv759/indoors/colonial_marshals/prisoners_cells)
 "HB" = (
 /obj/structure/pipes/standard/manifold/hidden/green,
 /obj/structure/disposalpipe/junction{
@@ -7368,9 +8006,46 @@
 /obj/structure/blocker/invisible_wall,
 /turf/open/auto_turf/sand_white/layer0,
 /area/space)
+"Ij" = (
+/obj/structure/machinery/light{
+	dir = 4;
+	pixel_y = -14
+	},
+/obj/structure/bed/stool{
+	buckling_y = 14;
+	pixel_y = 1;
+	pixel_x = 7
+	},
+/turf/open/floor/shiva/red/east,
+/area/lv759/indoors/colonial_marshals/prisoners_cells)
 "Ik" = (
 /turf/open/floor/shiva/redcorners/west,
 /area/space)
+"Il" = (
+/obj/structure/machinery/flasher{
+	pixel_y = -22
+	},
+/obj/effect/decal/cleanable/blood/drip,
+/obj/effect/decal/cleanable/blood/drip{
+	pixel_y = 6;
+	pixel_x = 7
+	},
+/turf/open/floor/shiva/wredfull,
+/area/lv759/indoors/colonial_marshals/prisoners_cells)
+"Io" = (
+/obj/structure/machinery/door_control{
+	id = "Colony Brig Lockdown Shutters";
+	name = "Brig Lockdown Shutters";
+	pixel_x = 8;
+	pixel_y = 25;
+	req_access_txt = "3"
+	},
+/turf/open/floor/shiva/red/north,
+/area/lv759/indoors/colonial_marshals/prisoners_cells)
+"Ip" = (
+/obj/structure/machinery/door/airlock/multi_tile/almayer/secdoor/glass/reinforced/autoname,
+/turf/open/floor/shiva/red/west,
+/area/lv759/indoors/colonial_marshals/prisoners_cells)
 "Iq" = (
 /obj/structure/surface/table/woodentable/fancy,
 /obj/structure/machinery/faxmachine,
@@ -7406,6 +8081,9 @@
 /obj/structure/machinery/power/apc/no_power/north,
 /turf/open/floor/shiva/red/north,
 /area/space)
+"IB" = (
+/turf/open/floor/shiva/redcorners/west,
+/area/lv759/indoors/colonial_marshals/prisoners_cells)
 "IC" = (
 /turf/open/floor/plating/icefloor/asteroidplating,
 /area/varadero/interior/maintenance/security/south)
@@ -7496,6 +8174,9 @@
 /obj/structure/closet/crate,
 /turf/open/floor/plating/icefloor/warnplate/north,
 /area/varadero/interior/cargo)
+"Jb" = (
+/turf/open/floor/shiva/wredfull,
+/area/lv759/indoors/colonial_marshals/prisoners_cells)
 "Jf" = (
 /obj/structure/machinery/light{
 	dir = 1
@@ -7533,6 +8214,14 @@
 /obj/structure/platform_decoration/metal/kutjevo,
 /turf/open_space,
 /area/varadero/exterior/comms4)
+"Jm" = (
+/obj/structure/surface/rack{
+	color = "#98a3ab"
+	},
+/obj/item/storage/belt/gun/l54,
+/obj/item/storage/belt/security/brown,
+/turf/open/floor/shiva/red/east,
+/area/lv759/indoors/colonial_marshals/prisoners_cells)
 "Jn" = (
 /obj/structure/disposalpipe/segment,
 /obj/structure/pipes/standard/simple/hidden/green,
@@ -7560,6 +8249,16 @@
 /obj/structure/machinery/floodlight,
 /turf/open/floor/darkbrown2/north,
 /area/space)
+"Js" = (
+/obj/structure/surface/rack{
+	color = "#98a3ab"
+	},
+/obj/item/weapon/gun/shotgun/pump/dual_tube/cmb,
+/obj/item/weapon/gun/shotgun/pump/dual_tube/cmb{
+	pixel_y = -7
+	},
+/turf/open/floor/shiva/redfull,
+/area/lv759/indoors/colonial_marshals/prisoners_cells)
 "Jt" = (
 /obj/structure/machinery/light,
 /turf/open/floor/darkyellow2/southeast,
@@ -7615,6 +8314,18 @@
 "JP" = (
 /turf/open/floor/darkbrown2/east,
 /area/space)
+"JQ" = (
+/obj/structure/window/framed/hybrisa/marshalls/reinforced,
+/obj/structure/machinery/door/poddoor/almayer/open{
+	id = "Brig Lockdown Shutters";
+	name = "\improper Brig Lockdown Shutter"
+	},
+/turf/open/floor/hybrisa/metal/metalwhitefull,
+/area/lv759/indoors/colonial_marshals/prisoners_cells)
+"JS" = (
+/obj/structure/machinery/door/airlock/security/colony,
+/turf/open/floor/shiva/wredfull,
+/area/lv759/indoors/colonial_marshals/prisoners_cells)
 "JT" = (
 /obj/structure/machinery/light{
 	dir = 8
@@ -7661,6 +8372,10 @@
 "Kd" = (
 /turf/open/auto_turf/sand_white/layer1,
 /area/varadero/interior/caves/east)
+"Ke" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/shiva/red/north,
+/area/lv759/indoors/colonial_marshals/prisoners_cells)
 "Kf" = (
 /obj/structure/machinery/landinglight/ds1{
 	dir = 1
@@ -7670,9 +8385,23 @@
 "Kg" = (
 /turf/open/floor/shiva/red,
 /area/space)
+"Kj" = (
+/obj/structure/machinery/light{
+	dir = 1
+	},
+/turf/open/floor/shiva/red/north,
+/area/lv759/indoors/colonial_marshals/prisoners_cells)
 "Kk" = (
 /turf/open/space/basic,
 /area/almayer/shipboard/port_point_defense)
+"Kl" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/shiva/red,
+/area/lv759/indoors/colonial_marshals/prisoners_cells)
+"Kn" = (
+/obj/structure/machinery/door/airlock/security/colony,
+/turf/open/floor/plating,
+/area/lv759/indoors/colonial_marshals/prisoners_cells)
 "Ko" = (
 /turf/open/space/basic,
 /area/almayer/command/combat_correspondent)
@@ -7696,6 +8425,13 @@
 	},
 /turf/open/floor/strata/multi_tiles,
 /area/space)
+"Kx" = (
+/obj/structure/bed/chair/office/dark{
+	dir = 4;
+	layer = 3.25
+	},
+/turf/open/floor/shiva,
+/area/lv759/indoors/colonial_marshals/prisoners_cells)
 "Ky" = (
 /turf/open/floor/darkred2/north,
 /area/space)
@@ -7708,6 +8444,15 @@
 	},
 /turf/open/floor/dark2,
 /area/space)
+"KB" = (
+/obj/structure/filingcabinet/security{
+	pixel_x = 8
+	},
+/obj/structure/filingcabinet/security{
+	pixel_x = -7
+	},
+/turf/open/floor/shiva,
+/area/lv759/indoors/colonial_marshals/prisoners_cells)
 "KD" = (
 /obj/structure/machinery/conveyor{
 	dir = 4;
@@ -7745,6 +8490,20 @@
 "KN" = (
 /turf/closed/wall/shiva/prefabricated/red,
 /area/space)
+"KO" = (
+/obj/structure/machinery/light{
+	dir = 8
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/machinery/door_control{
+	id = "Interrogation Shutters";
+	name = "\improper Shutters";
+	pixel_x = -21;
+	pixel_y = 11;
+	req_access_txt = "3"
+	},
+/turf/open/floor/shiva/red/west,
+/area/lv759/indoors/colonial_marshals/prisoners_cells)
 "KP" = (
 /obj/structure/machinery/conveyor{
 	dir = 4;
@@ -7848,6 +8607,12 @@
 /obj/effect/landmark/objective_landmark/medium,
 /turf/open/floor/darkbrown2/north,
 /area/space)
+"Ls" = (
+/obj/structure/machinery/firealarm{
+	pixel_y = 26
+	},
+/turf/open/floor/shiva/red/north,
+/area/lv759/indoors/colonial_marshals/prisoners_cells)
 "Lt" = (
 /obj/structure/surface/table,
 /obj/effect/spawner/random/toolbox,
@@ -7897,6 +8662,12 @@
 	},
 /turf/open/floor/dark2,
 /area/space)
+"LJ" = (
+/obj/structure/machinery/firealarm{
+	pixel_x = 25
+	},
+/turf/open/floor/shiva,
+/area/lv759/indoors/colonial_marshals/prisoners_cells)
 "LL" = (
 /obj/structure/machinery/light,
 /turf/open_space,
@@ -8067,16 +8838,44 @@
 	},
 /turf/open/floor/strata/multi_tiles,
 /area/space)
+"MN" = (
+/obj/structure/bed/chair/bolted{
+	dir = 8
+	},
+/turf/open/floor/shiva,
+/area/lv759/indoors/colonial_marshals/prisoners_cells)
+"MQ" = (
+/obj/structure/toilet{
+	dir = 1
+	},
+/obj/effect/decal/cleanable/vomit{
+	icon_state = "vomit_4";
+	pixel_y = 6;
+	pixel_x = 5
+	},
+/obj/structure/machinery/light/small/blue,
+/turf/open/floor/shiva,
+/area/lv759/indoors/colonial_marshals/prisoners_cells)
 "MS" = (
 /obj/structure/curtain/open/shower,
 /turf/open/floor/hybrisa/tile/tilewhite,
 /area/space)
+"MT" = (
+/turf/open/floor/shiva/wred/west,
+/area/lv759/indoors/colonial_marshals/prisoners_cells)
 "MY" = (
 /obj/structure/toilet{
 	dir = 8
 	},
 /turf/open/floor/strata/white_cyan2/west,
 /area/space)
+"MZ" = (
+/obj/structure/machinery/power/apc/no_power/north,
+/obj/structure/machinery/light{
+	dir = 1
+	},
+/turf/open/floor/shiva/red/north,
+/area/lv759/indoors/colonial_marshals/prisoners_cells)
 "Na" = (
 /obj/effect/decal/hybrisa/road/roadmiddle{
 	dir = 8;
@@ -8118,6 +8917,17 @@
 /obj/structure/pipes/standard/simple/hidden/green,
 /turf/open/auto_turf/sand_white/layer0,
 /area/space)
+"Ns" = (
+/obj/structure/machinery/light/small{
+	dir = 1
+	},
+/turf/open/floor/shiva,
+/area/lv759/indoors/colonial_marshals/prisoners_cells)
+"Nu" = (
+/obj/item/device/radio/electropack,
+/obj/structure/surface/rack,
+/turf/open/floor/shiva/wredfull,
+/area/lv759/indoors/colonial_marshals/prisoners_cells)
 "Ny" = (
 /obj/structure/machinery/colony_floodlight,
 /turf/open/auto_turf/snow/layer0,
@@ -8132,6 +8942,12 @@
 /obj/structure/bookcase,
 /turf/open/floor/wood,
 /area/space)
+"NC" = (
+/obj/structure/machinery/flasher_button{
+	pixel_x = -22
+	},
+/turf/open/floor/shiva/red/west,
+/area/lv759/indoors/colonial_marshals/prisoners_cells)
 "NE" = (
 /obj/structure/machinery/power/power_generator/reactor/colony,
 /turf/open/floor/shiva,
@@ -8146,6 +8962,18 @@
 "NH" = (
 /turf/open_space,
 /area/varadero/exterior/comms4)
+"NK" = (
+/obj/structure/pipes/vents,
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/sink{
+	pixel_y = 22
+	},
+/obj/structure/mirror{
+	pixel_y = 36;
+	pixel_x = -1
+	},
+/turf/open/floor/shiva,
+/area/lv759/indoors/colonial_marshals/prisoners_cells)
 "NL" = (
 /obj/structure/fence/dark/warning,
 /turf/open/space/basic,
@@ -8181,6 +9009,12 @@
 "NT" = (
 /turf/open/floor/shiva/blue,
 /area/space)
+"NV" = (
+/obj/structure/machinery/flasher{
+	pixel_y = 22
+	},
+/turf/open/floor/shiva,
+/area/lv759/indoors/colonial_marshals/prisoners_cells)
 "NY" = (
 /obj/structure/bed,
 /obj/item/bedsheet/bedroll/blue,
@@ -8206,12 +9040,39 @@
 /obj/structure/pipes/standard/manifold/visible,
 /turf/open/floor/dark2,
 /area/space)
+"Oi" = (
+/obj/structure/window/reinforced{
+	health = 80;
+	dir = 4
+	},
+/obj/structure/surface/table/reinforced,
+/obj/structure/machinery/computer/cameras{
+	dir = 8
+	},
+/obj/item/reagent_container/food/drinks/coffeecup{
+	pixel_x = -6;
+	pixel_y = 13
+	},
+/turf/open/floor/shiva,
+/area/lv759/indoors/colonial_marshals/prisoners_cells)
 "Oj" = (
 /turf/open/floor/white,
 /area/lv624/lazarus/corporate_dome)
 "Ok" = (
 /turf/open/gm/dirt,
 /area/varadero/interior/caves/east)
+"Ol" = (
+/obj/structure/surface/table/reinforced,
+/obj/item/storage/box/handcuffs{
+	pixel_x = 4;
+	pixel_y = 9
+	},
+/obj/item/storage/box/legcuffs{
+	pixel_x = -3;
+	pixel_y = -8
+	},
+/turf/open/floor/shiva,
+/area/lv759/indoors/colonial_marshals/prisoners_cells)
 "On" = (
 /obj/structure/machinery/landinglight/ds1{
 	dir = 8
@@ -8229,6 +9090,15 @@
 "Os" = (
 /turf/open/floor/prison/ramptop,
 /area/space)
+"Ou" = (
+/obj/structure/machinery/door/airlock/security/colony,
+/obj/structure/machinery/door/poddoor/shutters/almayer{
+	dir = 8;
+	id = "bot_armory";
+	name = "\improper Armory Shutters"
+	},
+/turf/open/floor/shiva,
+/area/lv759/indoors/colonial_marshals/prisoners_cells)
 "Ow" = (
 /obj/structure/window/framed/colony,
 /turf/open/floor/shiva/wred/east,
@@ -8237,6 +9107,17 @@
 /obj/structure/blocker/forcefield/multitile_vehicles,
 /turf/open/auto_turf/sand_white/layer1,
 /area/varadero/interior_protected/caves)
+"Oy" = (
+/obj/structure/machinery/fermenter,
+/turf/open/floor/hybrisa/metal/metalwhitefull,
+/area/lv759/indoors/colonial_marshals/prisoners_cells)
+"Oz" = (
+/obj/structure/closet/secure_closet/brig/prisoner,
+/obj/structure/machinery/light/small{
+	pixel_x = 11
+	},
+/turf/open/floor/shiva,
+/area/lv759/indoors/colonial_marshals/prisoners_cells)
 "OA" = (
 /obj/structure/fence/slim/dark,
 /turf/open/floor/shiva/red/east,
@@ -8247,6 +9128,12 @@
 	},
 /turf/open/floor/darkbrown2/north,
 /area/space)
+"OC" = (
+/obj/structure/machinery/firealarm{
+	pixel_x = -25
+	},
+/turf/open/floor/shiva/red/west,
+/area/lv759/indoors/colonial_marshals/prisoners_cells)
 "OD" = (
 /obj/structure/pipes/standard/simple/visible{
 	dir = 4
@@ -8256,6 +9143,13 @@
 "OG" = (
 /turf/closed/wall/r_wall,
 /area/varadero/interior_protected/maintenance/south)
+"OH" = (
+/obj/structure/machinery/light{
+	dir = 8;
+	pixel_y = -14
+	},
+/turf/open/floor/shiva,
+/area/lv759/indoors/colonial_marshals/prisoners_cells)
 "OI" = (
 /obj/structure/curtain/open/shower,
 /turf/open/floor/plating/plating_catwalk/shiva,
@@ -8269,6 +9163,20 @@
 	},
 /turf/open/hybrisa/street/asphalt,
 /area/space)
+"OL" = (
+/obj/structure/window/framed/prison/reinforced,
+/obj/structure/window/framed/hybrisa/marshalls/reinforced,
+/obj/structure/machinery/door/poddoor/almayer/open{
+	dir = 4;
+	id = "Brig Lockdown Shutters";
+	name = "\improper Brig Lockdown Shutter"
+	},
+/turf/closed/wall/new_varadero,
+/area/lv759/indoors/colonial_marshals/prisoners_cells)
+"OM" = (
+/obj/structure/window/framed/hybrisa/marshalls/cell,
+/turf/open/floor/shiva,
+/area/lv759/indoors/colonial_marshals/prisoners_cells)
 "OO" = (
 /obj/structure/largecrate/random,
 /turf/open/auto_turf/sand_white/layer1,
@@ -8378,6 +9286,10 @@
 	},
 /turf/open/gm/grass/grass1/weedable,
 /area/varadero/interior_protected/caves/central)
+"Pr" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/shiva/red/northwest,
+/area/lv759/indoors/colonial_marshals/prisoners_cells)
 "Ps" = (
 /turf/open/floor/delivery,
 /area/space)
@@ -8399,6 +9311,10 @@
 /obj/structure/machinery/landinglight/ds1/delayone,
 /turf/open/floor/plating/icefloor/warnplate,
 /area/space)
+"Pz" = (
+/obj/structure/machinery/light,
+/turf/open/floor/shiva/wredfull,
+/area/lv759/indoors/colonial_marshals/prisoners_cells)
 "PA" = (
 /obj/structure/machinery/door/airlock/almayer/secure/colony{
 	dir = 2;
@@ -8407,6 +9323,10 @@
 	},
 /turf/open/floor/shiva/north,
 /area/space)
+"PD" = (
+/obj/structure/window/framed/hybrisa/marshalls/cell,
+/turf/open/floor/plating,
+/area/lv759/indoors/colonial_marshals/prisoners_cells)
 "PI" = (
 /obj/structure/machinery/power/power_generator/port_gen/pacman,
 /turf/open/floor/darkyellow2/north,
@@ -8443,6 +9363,15 @@
 	},
 /turf/open/floor/shiva/red/north,
 /area/space)
+"PY" = (
+/obj/structure/filingcabinet/security{
+	pixel_x = 7
+	},
+/obj/structure/filingcabinet/security{
+	pixel_x = -8
+	},
+/turf/open/floor/shiva/red/southeast,
+/area/lv759/indoors/colonial_marshals/prisoners_cells)
 "PZ" = (
 /obj/effect/decal/cleanable/dirt/alt_dirt,
 /obj/item/reagent_container/glass/bucket/mopbucket{
@@ -8457,6 +9386,12 @@
 /obj/item/device/mass_spectrometer/adv/objective,
 /turf/open/new_varadero/alt_concrete,
 /area/space)
+"Qf" = (
+/obj/structure/bed/chair/bolted{
+	dir = 8
+	},
+/turf/open/floor/hybrisa/metal/metalwhitefull,
+/area/lv759/indoors/colonial_marshals/prisoners_cells)
 "Qi" = (
 /obj/effect/decal/warning_stripes{
 	icon_state = "N-corner"
@@ -8511,6 +9446,18 @@
 /obj/structure/pipes/standard/manifold/hidden/green,
 /turf/open/hybrisa/street/roadlines,
 /area/space)
+"QA" = (
+/obj/structure/machinery/door_control{
+	id = "Interrogation Shutters";
+	name = "\improper Shutters";
+	pixel_x = 22;
+	pixel_y = 11;
+	req_access_txt = "3"
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/shiva/red/east,
+/area/lv759/indoors/colonial_marshals/prisoners_cells)
 "QC" = (
 /obj/structure/machinery/light{
 	dir = 1
@@ -8518,6 +9465,13 @@
 /obj/structure/window/framed/strata/hull,
 /turf/open/floor/plating/icefloor/asteroidplating,
 /area/varadero/interior/maintenance/north)
+"QF" = (
+/obj/structure/closet/secure_closet/brig/prisoner,
+/obj/structure/machinery/light/small{
+	dir = 4
+	},
+/turf/open/floor/shiva,
+/area/lv759/indoors/colonial_marshals/prisoners_cells)
 "QH" = (
 /turf/open_space,
 /area/varadero/interior/comms1)
@@ -8559,6 +9513,17 @@
 /obj/structure/machinery/power/power_generator/port_gen/pacman,
 /turf/open/floor/darkbrown2/northeast,
 /area/space)
+"QN" = (
+/obj/structure/pipes/vents,
+/obj/structure/mirror{
+	pixel_y = 36;
+	pixel_x = -1
+	},
+/obj/structure/sink{
+	pixel_y = 22
+	},
+/turf/open/floor/shiva,
+/area/lv759/indoors/colonial_marshals/prisoners_cells)
 "QP" = (
 /obj/structure/machinery/vending/coffee,
 /turf/open/floor/shiva/blue/east,
@@ -8567,6 +9532,10 @@
 /obj/effect/landmark/xeno_spawn,
 /turf/open/gm/dirt,
 /area/varadero/interior_protected/caves)
+"QT" = (
+/obj/effect/decal/strata_decals/grime/grime3,
+/turf/open/floor/hybrisa/metal/metalwhitefull,
+/area/lv759/indoors/colonial_marshals/prisoners_cells)
 "QU" = (
 /turf/closed/wall/r_wall/unmeltable,
 /area/varadero/exterior/comms4)
@@ -8598,6 +9567,16 @@
 /obj/structure/machinery/sleep_console,
 /turf/open/floor/shiva/wredcorners/west,
 /area/space)
+"Rf" = (
+/obj/structure/machinery/light{
+	dir = 4;
+	pixel_y = -14
+	},
+/obj/structure/bed/chair/bolted{
+	dir = 8
+	},
+/turf/open/floor/shiva,
+/area/lv759/indoors/colonial_marshals/prisoners_cells)
 "Rh" = (
 /obj/structure/machinery/portable_atmospherics/canister/oxygen,
 /turf/open/floor/engine,
@@ -8736,6 +9715,12 @@
 "Sf" = (
 /turf/open/floor/shiva/green/west,
 /area/space)
+"Sg" = (
+/obj/structure/machinery/light/small{
+	pixel_x = 11
+	},
+/turf/open/floor/shiva,
+/area/lv759/indoors/colonial_marshals/prisoners_cells)
 "Sk" = (
 /turf/open/hybrisa/street/roadlines4,
 /area/space)
@@ -8746,6 +9731,12 @@
 	},
 /turf/open/floor/prison/ramptop/north,
 /area/space)
+"Sm" = (
+/obj/structure/fence/slim/dark/door{
+	dir = 8
+	},
+/turf/open/floor/shiva,
+/area/lv759/indoors/colonial_marshals/prisoners_cells)
 "Sn" = (
 /turf/open/space/basic,
 /area/almayer/living/basketball)
@@ -8772,6 +9763,14 @@
 "Sx" = (
 /turf/open/new_varadero/sidewalk/sidewalkfull,
 /area/space)
+"Sy" = (
+/obj/effect/decal/cleanable/dirt/alt_dirt{
+	color = "#140400";
+	pixel_y = 8;
+	pixel_x = 16
+	},
+/turf/open/floor/shiva/red/west,
+/area/lv759/indoors/colonial_marshals/prisoners_cells)
 "SA" = (
 /obj/structure/machinery/light,
 /turf/open/floor/dark2,
@@ -8807,6 +9806,10 @@
 /obj/structure/machinery/landinglight/ds1,
 /turf/open/floor/plating/icefloor/warnplate/northeast,
 /area/space)
+"SM" = (
+/obj/structure/machinery/disposal,
+/turf/open/floor/shiva/red/southwest,
+/area/lv759/indoors/colonial_marshals/prisoners_cells)
 "SP" = (
 /turf/open/space/basic,
 /area/almayer/engineering/laundry)
@@ -8885,6 +9888,10 @@
 /obj/item/device/flashlight,
 /turf/open/floor/darkbrown2/west,
 /area/space)
+"Tr" = (
+/obj/structure/surface/table/almayer,
+/turf/open/floor/hybrisa/metal/metalwhitefull,
+/area/lv759/indoors/colonial_marshals/prisoners_cells)
 "Ts" = (
 /obj/structure/machinery/conveyor{
 	icon_state = "switch-off"
@@ -8933,6 +9940,10 @@
 	},
 /turf/closed/wall/r_wall,
 /area/varadero/interior_protected/maintenance/south)
+"TH" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/shiva/wred/northwest,
+/area/lv759/indoors/colonial_marshals/prisoners_cells)
 "TI" = (
 /obj/structure/reagent_dispensers/tank/fuel/oxygentank{
 	anchored = 1
@@ -8979,6 +9990,12 @@
 	},
 /turf/open/floor/darkyellow2/north,
 /area/space)
+"TS" = (
+/obj/structure/machinery/firealarm{
+	pixel_y = 26
+	},
+/turf/open/floor/shiva,
+/area/lv759/indoors/colonial_marshals/prisoners_cells)
 "TU" = (
 /turf/open/gm/river/ocean/deep_ocean,
 /area/varadero/exterior/farocean)
@@ -9018,6 +10035,13 @@
 	},
 /turf/open/floor/shiva/redfull/west,
 /area/space)
+"Uj" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/machinery/flasher{
+	pixel_y = 22
+	},
+/turf/open/floor/shiva,
+/area/lv759/indoors/colonial_marshals/prisoners_cells)
 "Uk" = (
 /obj/structure/pipes/standard/simple/hidden/green{
 	dir = 6
@@ -9030,6 +10054,13 @@
 	},
 /turf/open/floor/strata/white_cyan2/west,
 /area/space)
+"Um" = (
+/obj/structure/machinery/light{
+	dir = 1
+	},
+/obj/structure/closet/secure_closet/brig/prisoner,
+/turf/open/floor/shiva,
+/area/lv759/indoors/colonial_marshals/prisoners_cells)
 "Uo" = (
 /obj/effect/decal/warning_stripes{
 	icon_state = "W";
@@ -9091,6 +10122,22 @@
 	},
 /turf/open/floor/hybrisa/carpet/carpetblack,
 /area/space)
+"UC" = (
+/turf/open/floor/shiva/red/southwest,
+/area/lv759/indoors/colonial_marshals/prisoners_cells)
+"UD" = (
+/obj/structure/surface/table/reinforced,
+/obj/structure/machinery/door/window,
+/obj/structure/machinery/door/window{
+	dir = 8
+	},
+/obj/structure/machinery/door/poddoor/shutters/almayer{
+	dir = 8;
+	id = "bot_armory";
+	name = "\improper Armory Shutters"
+	},
+/turf/open/floor/shiva,
+/area/lv759/indoors/colonial_marshals/prisoners_cells)
 "UE" = (
 /obj/structure/pipes/standard/simple/hidden/supply{
 	dir = 9
@@ -9224,6 +10271,14 @@
 	},
 /turf/open/floor/shiva/red,
 /area/space)
+"Vr" = (
+/obj/structure/window/framed/hybrisa/marshalls/reinforced,
+/obj/structure/machinery/door/poddoor/almayer/open{
+	id = "Brig Lockdown Shutters";
+	name = "\improper Brig Lockdown Shutter"
+	},
+/turf/open/space/basic,
+/area/lv759/indoors/colonial_marshals/prisoners_cells)
 "Vu" = (
 /obj/effect/landmark/structure_spawner/setup/distress/xeno_weed_node,
 /turf/open/floor/plating/icefloor/asteroidplating,
@@ -9239,6 +10294,16 @@
 /obj/structure/bed/chair/office/light,
 /turf/open/floor/shiva/red/west,
 /area/space)
+"VF" = (
+/obj/structure/surface/rack{
+	color = "#98a3ab"
+	},
+/obj/item/clothing/accessory/storage/black_vest,
+/obj/item/clothing/accessory/storage/black_vest,
+/obj/item/clothing/accessory/storage/black_vest,
+/obj/item/clothing/accessory/storage/black_vest,
+/turf/open/floor/shiva/redfull,
+/area/lv759/indoors/colonial_marshals/prisoners_cells)
 "VH" = (
 /obj/structure/platform_decoration/stone/kutjevo/north,
 /turf/open_space,
@@ -9375,6 +10440,25 @@
 	},
 /turf/open/floor/darkpurple2/west,
 /area/space)
+"WE" = (
+/obj/item/ammo_magazine/pistol/l54,
+/obj/item/ammo_magazine/pistol/l54,
+/obj/item/ammo_magazine/pistol/l54,
+/obj/item/ammo_magazine/pistol/l54,
+/obj/item/ammo_box/magazine/l54,
+/obj/structure/surface/rack{
+	color = "#98a3ab"
+	},
+/turf/open/floor/shiva/redfull,
+/area/lv759/indoors/colonial_marshals/prisoners_cells)
+"WF" = (
+/obj/effect/decal/strata_decals/grime/grime3{
+	dir = 4;
+	pixel_x = -6;
+	pixel_y = 6
+	},
+/turf/open/floor/shiva/red/east,
+/area/lv759/indoors/colonial_marshals/prisoners_cells)
 "WG" = (
 /obj/structure/bed/chair/comfy/orange{
 	dir = 1
@@ -9416,6 +10500,16 @@
 	},
 /turf/open/floor/shiva/red/southeast,
 /area/space)
+"WP" = (
+/obj/structure/flora/pottedplant{
+	icon_state = "pottedplant_21"
+	},
+/turf/open/floor/shiva/red,
+/area/lv759/indoors/colonial_marshals/prisoners_cells)
+"WQ" = (
+/obj/effect/decal/cleanable/spiderling_remains,
+/turf/open/floor/shiva,
+/area/lv759/indoors/colonial_marshals/prisoners_cells)
 "WS" = (
 /obj/structure/machinery/light{
 	dir = 1
@@ -9499,9 +10593,21 @@
 "Xm" = (
 /turf/closed/wall/shiva/prefabricated/orange,
 /area/space)
+"Xn" = (
+/obj/structure/machinery/portable_atmospherics/hydroponics,
+/turf/open/floor/hybrisa/metal/metalwhitefull,
+/area/lv759/indoors/colonial_marshals/prisoners_cells)
 "Xo" = (
 /turf/open/floor/shiva/snow_mat/east,
 /area/space)
+"Xq" = (
+/obj/structure/machinery/photocopier,
+/obj/item/folder{
+	pixel_x = -6;
+	pixel_y = 5
+	},
+/turf/open/floor/shiva,
+/area/lv759/indoors/colonial_marshals/prisoners_cells)
 "Xs" = (
 /turf/open/floor/shiva/red/west,
 /area/space)
@@ -9513,12 +10619,23 @@
 /obj/effect/landmark/structure_spawner/xvx_hive/xeno_core,
 /turf/open/floor/plating/icefloor/asteroidplating,
 /area/varadero/interior_protected/maintenance/south)
+"Xx" = (
+/obj/structure/machinery/light{
+	unacidable = 1;
+	unslashable = 1
+	},
+/turf/open/floor/hybrisa/metal/metalwhitefull,
+/area/lv759/indoors/colonial_marshals/prisoners_cells)
 "Xy" = (
 /obj/structure/pipes/standard/manifold/visible{
 	dir = 4
 	},
 /turf/open/floor/darkyellow2/east,
 /area/space)
+"Xz" = (
+/obj/structure/machinery/door/window/ultra,
+/turf/open/floor/shiva/red/east,
+/area/lv759/indoors/colonial_marshals/prisoners_cells)
 "XA" = (
 /turf/open/new_varadero/sidewalk,
 /area/space)
@@ -9550,6 +10667,13 @@
 	},
 /turf/open/floor/shiva/blue,
 /area/space)
+"XH" = (
+/obj/structure/bed/chair/bolted{
+	dir = 8
+	},
+/obj/structure/pipes/vents,
+/turf/open/floor/shiva/wredcorners/north,
+/area/lv759/indoors/colonial_marshals/prisoners_cells)
 "XI" = (
 /turf/open/floor/shiva/blue/northwest,
 /area/space)
@@ -9596,6 +10720,17 @@
 "Ya" = (
 /turf/open/auto_turf/sand_white/layer1,
 /area/varadero/interior/caves/north_research)
+"Yb" = (
+/obj/structure/surface/table/reinforced,
+/obj/structure/machinery/microwave{
+	pixel_y = 10
+	},
+/obj/item/storage/box/donkpockets{
+	pixel_x = -5;
+	pixel_y = 1
+	},
+/turf/open/floor/shiva,
+/area/lv759/indoors/colonial_marshals/prisoners_cells)
 "Yd" = (
 /obj/structure/blocker/invisible_wall,
 /turf/open/auto_turf/sand_white/layer1,
@@ -9621,6 +10756,12 @@
 "Yg" = (
 /turf/open/space/basic,
 /area/varadero/exterior/farocean)
+"Yi" = (
+/obj/structure/machinery/flasher_button{
+	pixel_y = 25
+	},
+/turf/open/floor/shiva/red/northwest,
+/area/lv759/indoors/colonial_marshals/prisoners_cells)
 "Yj" = (
 /obj/effect/decal/warning_stripes{
 	icon_state = "S";
@@ -9629,9 +10770,17 @@
 /obj/effect/decal/hybrisa/trash,
 /turf/open/floor/shiva/yellow/north,
 /area/space)
+"Yn" = (
+/obj/structure/closet/secure_closet/brig/prisoner,
+/turf/open/floor/shiva,
+/area/lv759/indoors/colonial_marshals/prisoners_cells)
 "Yp" = (
 /turf/open/gm/dirt,
 /area/varadero/interior_protected/caves)
+"Yq" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/shiva,
+/area/lv759/indoors/colonial_marshals/prisoners_cells)
 "Ys" = (
 /obj/structure/machinery/door/airlock/multi_tile/almayer/medidoor/colony{
 	name = "\improper Aurora Medical Clinic Treatment";
@@ -9657,6 +10806,21 @@
 "Yw" = (
 /turf/closed/wall/r_wall/unmeltable,
 /area/varadero/interior/caves/east)
+"Yy" = (
+/obj/structure/window/reinforced{
+	health = 80;
+	dir = 8
+	},
+/obj/structure/surface/table/reinforced,
+/obj/structure/machinery/computer/cameras{
+	dir = 4;
+	pixel_y = 3
+	},
+/obj/item/clothing/glasses/sunglasses{
+	pixel_y = -5
+	},
+/turf/open/floor/shiva,
+/area/lv759/indoors/colonial_marshals/prisoners_cells)
 "YA" = (
 /obj/structure/machinery/landinglight/ds1/delaythree,
 /turf/open/floor/plating/icefloor/warnplate,
@@ -9678,10 +10842,31 @@
 /obj/structure/machinery/computer/rdconsole,
 /turf/open/floor/shiva,
 /area/desert_dam/building/security/observation)
+"YJ" = (
+/obj/structure/machinery/light{
+	dir = 4;
+	pixel_y = -16
+	},
+/obj/structure/closet/firecloset{
+	pixel_y = 2;
+	pixel_x = 8
+	},
+/turf/open/floor/shiva,
+/area/lv759/indoors/colonial_marshals/prisoners_cells)
 "YK" = (
 /obj/structure/sign/poster/propaganda,
 /turf/closed/wall,
 /area/space)
+"YL" = (
+/obj/structure/closet/hydrant/empty{
+	pixel_x = -28
+	},
+/obj/structure/machinery/light{
+	dir = 8;
+	pixel_y = -14
+	},
+/turf/open/floor/shiva/red/west,
+/area/lv759/indoors/colonial_marshals/prisoners_cells)
 "YM" = (
 /turf/open_space,
 /area/varadero/interior/maintenance/north)
@@ -9694,6 +10879,28 @@
 	},
 /turf/open/hybrisa/street/roadlines,
 /area/space)
+"YO" = (
+/obj/structure/machinery/power/apc/no_power/east,
+/obj/structure/closet/secure_closet/brig/prisoner,
+/turf/open/floor/shiva/redcorners,
+/area/lv759/indoors/colonial_marshals/prisoners_cells)
+"YR" = (
+/obj/structure/window/reinforced{
+	health = 80;
+	dir = 8
+	},
+/obj/structure/surface/table/reinforced,
+/obj/structure/machinery/computer/cameras{
+	dir = 4;
+	pixel_y = 1;
+	pixel_x = 2
+	},
+/obj/item/reagent_container/food/drinks/coffeecup{
+	pixel_x = 9;
+	pixel_y = 13
+	},
+/turf/open/floor/shiva,
+/area/lv759/indoors/colonial_marshals/prisoners_cells)
 "YT" = (
 /obj/effect/landmark/structure_spawner/setup/distress/xeno_weed_node,
 /obj/effect/landmark/xeno_spawn,
@@ -9806,6 +11013,22 @@
 	},
 /turf/open/floor/strata/multi_tiles,
 /area/space)
+"Zv" = (
+/obj/effect/decal/cleanable/blood{
+	pixel_x = -10;
+	pixel_y = 3
+	},
+/turf/open/floor/shiva,
+/area/lv759/indoors/colonial_marshals/prisoners_cells)
+"Zw" = (
+/obj/structure/window/framed/hybrisa/marshalls/reinforced,
+/obj/structure/machinery/door/poddoor/almayer/open{
+	dir = 4;
+	id = "Brig Lockdown Shutters";
+	name = "\improper Brig Lockdown Shutter"
+	},
+/turf/open/floor/shiva,
+/area/lv759/indoors/colonial_marshals/prisoners_cells)
 "Zx" = (
 /obj/structure/window/framed/shiva/blue,
 /turf/open/floor/plating,
@@ -9872,6 +11095,21 @@
 	},
 /turf/open/floor/plating/icefloor/asteroidplating,
 /area/varadero/interior_protected/maintenance/south)
+"ZR" = (
+/turf/open/floor/shiva/red/north,
+/area/lv759/indoors/colonial_marshals/prisoners_cells)
+"ZS" = (
+/obj/structure/machinery/flasher_button{
+	pixel_y = 25
+	},
+/obj/effect/decal/cleanable/cobweb2,
+/obj/effect/decal/cleanable/dirt/alt_dirt{
+	color = "#140400";
+	pixel_y = 1;
+	pixel_x = 5
+	},
+/turf/open/floor/shiva/wredfull,
+/area/lv759/indoors/colonial_marshals/prisoners_cells)
 "ZT" = (
 /obj/structure/machinery/power/power_generator/port_gen/pacman,
 /obj/structure/machinery/light{
@@ -75538,13 +76776,13 @@ bP
 bP
 bP
 bP
-dd
-dd
-dd
-dd
-df
-df
-df
+bP
+yt
+OL
+OL
+dk
+dk
+dk
 bP
 bP
 bP
@@ -75720,13 +76958,13 @@ bP
 bP
 bP
 bP
+Vr
+Vr
+TH
+MT
 dd
-gk
-gk
-gk
-Be
-Be
-df
+uC
+dk
 bP
 bP
 bP
@@ -75902,13 +77140,13 @@ bP
 bP
 bP
 bP
+ds
+FK
+XH
+Il
 dd
-gk
-gk
-gk
-Be
-Be
-df
+uC
+dk
 bP
 bP
 bP
@@ -76074,24 +77312,24 @@ bP
 bP
 bP
 bP
-BP
-du
-du
-du
-BP
-du
-du
-du
-df
-df
-dd
-gk
-gk
-gk
-Be
-Be
-df
 bP
+bP
+bP
+wU
+dk
+du
+du
+Zw
+Zw
+dk
+dk
+gk
+Jb
+Pz
+dd
+dd
+dk
+dd
 bP
 bP
 bP
@@ -76256,27 +77494,27 @@ bP
 bP
 bP
 bP
-du
 bP
 bP
+dH
+JQ
+CS
+Xn
+Xn
+Xn
+DY
+Oy
+Bb
+Bb
+ZS
+Jb
+mN
+Nu
+dk
+dd
+dd
 bP
 bP
-bP
-dz
-dy
-dd
-dr
-dd
-dd
-gk
-gk
-dd
-dd
-dd
-bP
-bm
-bm
-bm
 bP
 bP
 bP
@@ -76438,30 +77676,30 @@ bP
 bP
 bP
 bP
-du
-bP
-dK
-dK
 bP
 dH
-dz
-dz
-dd
-dg
+dH
+Xn
+dy
+dy
+GF
+dy
+dy
+dy
 dr
-dd
-dd
-gk
-dd
 Bb
 dd
+DB
+dd
+Bb
+Bb
+Bb
+Bb
+Bb
 bP
-bm
-bm
-bm
-bm
-bm
-bm
+bP
+bP
+bP
 bP
 bP
 bP
@@ -76620,31 +77858,31 @@ bP
 bP
 bP
 bP
-du
+wU
+JQ
+Xn
+Xn
+dy
+dy
+dy
+dy
+dy
+Fg
+dy
+dy
+Bb
+JS
+dd
+Bb
+Cb
+AJ
+zk
+Bb
+df
 bP
-dK
-dK
 bP
-dH
-dz
-dz
-dd
-dg
-dg
-dr
-dd
-dd
-dd
-dA
-dd
 bP
-bm
-bm
-bm
-bm
-bm
-bm
-bm
+bP
 bP
 bP
 bP
@@ -76802,36 +78040,36 @@ bP
 bP
 bP
 bP
-BP
-bP
-bP
-bP
+dk
+Ft
+dy
+vO
+dy
+Tr
+Tr
+GK
+dy
+dy
+dy
+dy
+dH
+on
+SM
+Bb
+DK
 dz
-dz
-dz
-dz
-do
-dg
-dg
-dg
-dd
-dg
-dg
-dg
-dd
-df
+VF
+Bb
 ic
 ic
 ic
-ic
-bm
-bm
-bm
 bP
 bP
 bP
 bP
 bP
+bP
+SX
 bP
 bP
 bP
@@ -76984,36 +78222,36 @@ bP
 bP
 bP
 bP
-du
-bP
-dK
-dK
+wU
+EJ
+dy
+dy
+dy
+Tr
+Tr
+dy
+Tr
+Tr
+yC
+Xx
+Bb
+Io
+WP
+Bb
+ki
 dz
-dI
-dz
-dz
-dd
-dl
-dE
-ds
-dd
-dg
-dg
-dg
-dg
-bZ
-ic
+gl
+Bb
 iC
 bm
 ic
 ic
-bm
-bm
 bP
 bP
 bP
 bP
 bP
+SX
 bP
 bP
 bP
@@ -77166,35 +78404,35 @@ bP
 bP
 bP
 bP
-du
-bP
-dK
-dK
-dz
+wU
+EJ
+dy
+dy
+dy
+dy
+dy
+dy
 dI
+xt
+dy
+dy
+dH
+ZR
+yN
+Bb
+Js
 dz
-dz
-ds
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-bZ
-ic
+WE
+Bb
 iE
 bm
 in
 ic
 ic
 bm
-bP
-df
-df
-SX
+bm
+ic
+ic
 SX
 SX
 SX
@@ -77348,35 +78586,35 @@ bP
 bP
 bP
 bP
-du
-bP
-dz
-dz
-dz
-dz
-dz
-dz
+wU
+Ad
+dy
+Qf
+QT
+wO
+zC
+dy
 gu
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-bZ
-ic
+dy
+dy
+dy
+dH
+Ke
+Hz
+Bb
+wA
+dz
+Fb
+Bb
 iK
 bm
 bm
 il
 id
-hX
+hz
 hz
 dZ
-df
-SX
+ic
 SX
 SX
 SX
@@ -77524,41 +78762,41 @@ bP
 bP
 bP
 bP
-df
-df
-df
-df
-df
-df
-df
-df
-dA
-dd
-dA
+bP
 dd
 dd
-dA
 dd
 dd
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-bZ
-ic
+dd
+Bb
+Bb
+GN
+Bb
+GN
+Bb
+Bb
+GN
+Bb
+Bb
+GN
+Bb
+Bb
+ZR
+Kl
+Bb
+Pr
+dz
+ck
+Bb
 bm
 bm
 bm
 il
 ie
-hZ
+hD
 hD
 fe
-df
-SX
+ic
 SX
 SX
 SX
@@ -77706,41 +78944,41 @@ bP
 bP
 bP
 bP
-df
-bZ
-bZ
-bZ
-bZ
-dg
 dd
-dr
-dg
 dd
-dg
-dr
+zD
+OC
+DR
+SM
 dd
-dg
-dr
+TS
+dK
 dd
+dz
+yV
+dd
+Yq
+yV
+dd
+Zv
+yV
+dd
+lH
+dl
+Bb
 dg
-dg
-dg
-dg
-dg
-dg
-dg
-bZ
-ic
+QA
+Aw
+Bb
 bm
 bm
 il
 il
 if
-ia
+hK
 hK
 hq
-df
-SX
+ic
 SX
 SX
 SX
@@ -77888,41 +79126,41 @@ bP
 bP
 bP
 bP
-df
-bZ
-bZ
-bZ
-bZ
-dg
 dd
-gw
-dg
+yw
+EO
+dz
+dz
+KB
 dd
-dg
+dz
+xy
+dd
+QN
 gv
 dd
-dg
+QN
+MQ
+dd
+NK
 gv
 dd
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-bZ
-ic
+xa
+dl
+Bb
+UD
+Bb
+Ou
+Bb
 bm
 bm
 bm
 bm
 if
-ia
+hK
 hK
 hq
-df
-SX
+ic
 SX
 SX
 SX
@@ -78070,41 +79308,41 @@ bP
 bP
 bP
 bP
-df
-bZ
-bZ
-dg
-dg
-dg
 dd
-dr
-dg
+DC
+ED
+WF
+hX
+PY
 dd
-dg
-dr
+Cm
+dz
 dd
-dg
-dr
+Uj
+yV
 dd
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-bZ
-ic
+NV
+yV
+dd
+Uj
+yV
+dd
+Kj
+IB
+AJ
+AJ
+KO
+ck
+dd
 iq
 iq
 iq
 bm
 ie
-hZ
+hD
 hD
 fe
-df
-SX
+ic
 SX
 SX
 SX
@@ -78252,41 +79490,41 @@ bP
 bP
 bP
 bP
-df
-bZ
-bZ
-dg
-dg
-dg
 dd
-ds
+Kn
+dd
+aW
+hy
+dd
+dd
+dd
+do
+dd
+Xz
+PD
+dd
 dE
+PD
 dd
-dE
-ds
+Xz
+OM
 dd
-dE
-ds
+Ls
+Kx
+ih
+Kx
+dz
+dl
 dd
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-bZ
-ic
 bm
 bm
 bm
 bm
 if
-ia
+hK
 hK
 hq
-df
-SX
+ic
 SX
 SX
 SX
@@ -78434,41 +79672,41 @@ bP
 bP
 bP
 bP
-df
-dg
-dg
-dg
-dg
-dg
 dd
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-bZ
-ic
+TS
+dA
+on
+UC
+dd
+OH
+dz
+dz
+dd
+Yi
+ud
+NC
+AJ
+ud
+NC
+AJ
+UC
+yW
+ZR
+ip
+zV
+Oi
+dN
+dl
+dd
 iq
 iq
 iq
 bm
 if
-ia
+hK
 hK
 hq
-df
-SX
+ic
 SX
 SX
 SX
@@ -78617,40 +79855,40 @@ bP
 bP
 bP
 eq
-dg
-dg
-dg
-dg
-dg
-dA
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-bZ
-ic
+AJ
+AJ
+EO
+IB
+Ip
+AJ
+Sy
+AJ
+Ip
+EO
+dz
+Yq
+Yq
+dz
+Yq
+dz
+dl
+yW
+ZR
+zm
+YR
+Yy
+Xq
+FA
+dd
 bm
 bm
 bm
 bm
 ie
-hZ
+hD
 hD
 fe
-df
-SX
+ic
 SX
 SX
 SX
@@ -78798,41 +80036,41 @@ bP
 bP
 bP
 bP
-eq
-dg
-dg
-dg
-dg
-dg
-dA
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-bZ
-df
-ir
-ir
-ir
-bP
-ih
+dz
+cF
+cF
+cF
+cF
+cF
+cF
+cF
+cF
+cF
+yY
+yY
+yY
+cF
+yY
+yY
+cF
+Aw
+yW
+ZR
+dz
+Hv
+iT
+dz
+sU
+dd
+iq
+iq
+iq
+bm
+if
 hK
 hK
 hq
-df
-SX
+ic
 SX
 SX
 SX
@@ -78980,41 +80218,41 @@ bP
 bP
 bP
 bP
-df
-dg
-dg
-dg
-dg
-dg
 dd
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-dg
-bZ
-df
-bP
-bP
-bP
-bP
+Rf
+MN
+dz
+Cu
+dd
+YJ
+LJ
+dz
+dd
+Um
+BN
+Ol
+zg
+YO
+yY
+cF
+Fk
+yW
+ZR
+Yq
+dz
+dz
+dz
+dl
+dd
+bm
+bm
+bm
+bm
 ii
 hN
 hN
 hx
-df
-SX
+ic
 SX
 SX
 SX
@@ -79162,41 +80400,41 @@ bP
 bP
 bP
 df
-df
-df
-df
-df
-df
-df
-df
-df
-df
-df
-df
-df
-df
-df
-df
+dk
+dk
 dd
-dA
+do
 dd
 dd
-dg
-dg
-dg
-dg
-bZ
-df
-df
-df
-df
-fA
-df
-df
-df
-df
-df
-SX
+dd
+dk
+dk
+dk
+dd
+dd
+dd
+dd
+dd
+dz
+Gc
+dd
+dd
+MZ
+dz
+Yb
+hZ
+dz
+dl
+dd
+ic
+ic
+ic
+aw
+ic
+ic
+ic
+ic
+ic
 SX
 SX
 SX
@@ -79345,30 +80583,31 @@ bP
 df
 df
 Be
+dk
+wm
+dz
+ia
+xB
+dz
+dk
 Be
 Be
-Be
-Be
-Be
-Be
-Be
-Be
-Be
-df
-df
-df
-df
-df
-dj
-dg
-dj
-dd
-dg
-dg
-dg
-dg
-bZ
-fA
+dk
+dk
+dk
+dk
+rH
+Ev
+Ev
+Ev
+AJ
+EO
+dz
+dz
+dz
+Yq
+dl
+El
 bZ
 bZ
 bZ
@@ -79378,7 +80617,6 @@ bZ
 bZ
 bZ
 bZ
-SX
 SX
 SX
 SX
@@ -79527,32 +80765,31 @@ df
 df
 df
 Be
+dk
+Ns
+dz
+Dg
+dz
+Sg
+dk
 Be
 Be
 Be
 Be
-Be
-Be
-Be
-Be
-Be
-Be
-Be
-df
-df
-df
+dk
+dk
+xw
+yY
 dj
-dg
-dj
-dd
-dg
-dg
-dg
-dg
-bZ
-fA
-bZ
-bZ
+cF
+cF
+cF
+uh
+cF
+cF
+cF
+Aw
+El
 bZ
 bZ
 bZ
@@ -79560,7 +80797,8 @@ bZ
 bZ
 bZ
 bZ
-SX
+bZ
+bZ
 SX
 SX
 SX
@@ -79709,31 +80947,31 @@ df
 Be
 Be
 Be
-Be
-Be
-Be
-Be
-Be
-Be
-Be
-Be
-Be
-Be
-Be
-Be
-df
-df
 dk
-bZ
+Dg
+Sm
+Dg
+dz
+Yn
 dk
-df
-df
-df
-df
-df
-df
-df
-SX
+Be
+Be
+Be
+Be
+Be
+dk
+dk
+dd
+dd
+dd
+dd
+dd
+dd
+dd
+dz
+Gc
+dd
+dk
 SX
 SX
 SX
@@ -79891,31 +81129,31 @@ Be
 Be
 Be
 Be
+dk
+dz
+dz
+dz
+dz
+Yn
+dk
 Be
 Be
 Be
 Be
 Be
 Be
-Be
-Be
-Be
-Be
-Be
-Be
-df
-df
-df
-df
-df
-df
-SX
-SX
-SX
-SX
-SX
-SX
-SX
+dk
+FS
+AJ
+YL
+AJ
+AJ
+AJ
+OC
+AJ
+AJ
+qG
+dk
 SX
 SX
 SX
@@ -80073,31 +81311,31 @@ Be
 Be
 Be
 Be
+dk
+gw
+dz
+Yn
+dz
+Oz
+dk
 Be
 Be
 Be
 Be
 Be
 Be
-Be
-Be
-Be
-Be
-Be
-Be
-Be
-Be
-SX
-SX
-SX
-SX
-SX
-SX
-SX
-SX
-SX
-SX
-SX
+dk
+dk
+rW
+Bc
+wY
+Bc
+AM
+Ij
+Jm
+Jm
+CX
+dk
 SX
 SX
 SX
@@ -80255,6 +81493,13 @@ Be
 Be
 Be
 Be
+dk
+Yn
+dz
+Yn
+dz
+Yn
+dk
 Be
 Be
 Be
@@ -80262,24 +81507,17 @@ Be
 Be
 Be
 Be
-Be
-Be
-Be
-Be
-Be
-Be
-Be
-SX
-SX
-SX
-SX
-SX
-SX
-SX
-SX
-SX
-SX
-SX
+dk
+dk
+dk
+dk
+dk
+dk
+dk
+dk
+dk
+dk
+dk
 SX
 SX
 SX
@@ -80437,13 +81675,13 @@ Be
 Be
 Be
 Be
-Be
-Be
-Be
-Be
-Be
-Be
-Be
+dk
+Yn
+dz
+Yn
+dz
+Yn
+dk
 Be
 Be
 Be
@@ -80619,13 +81857,13 @@ Be
 Be
 Be
 Be
-Be
-Be
-Be
-Be
-Be
-Be
-Be
+dk
+dk
+ir
+QF
+WQ
+dk
+dk
 Be
 Be
 Be
@@ -80802,11 +82040,11 @@ Be
 Be
 Be
 Be
-Be
-Be
-Be
-Be
-Be
+dk
+dk
+dk
+dk
+dk
 Be
 Be
 Be
