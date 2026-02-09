@@ -4519,12 +4519,6 @@
 	},
 /turf/open/new_varadero,
 /area/space)
-"pF" = (
-/obj/structure/machinery/landinglight/ds1/delaytwo{
-	dir = 8
-	},
-/turf/open/space/basic,
-/area/space)
 "pG" = (
 /turf/open/shuttle/elevator/grating,
 /area/almayer/command/cic)
@@ -5304,12 +5298,6 @@
 	dir = 1
 	},
 /turf/open/floor/shiva/green/north,
-/area/space)
-"sV" = (
-/obj/structure/machinery/landinglight/ds1/delayone{
-	dir = 8
-	},
-/turf/open/space/basic,
 /area/space)
 "sW" = (
 /obj/structure/machinery/light,
@@ -8943,7 +8931,7 @@
 /obj/structure/machinery/landinglight/ds1/delaythree{
 	dir = 8
 	},
-/turf/open/space/basic,
+/turf/open/floor/plating/warnplate/west,
 /area/space)
 "FQ" = (
 /obj/structure/prop/invuln/lattice_prop{
@@ -10368,12 +10356,6 @@
 "Ok" = (
 /turf/open/gm/dirt,
 /area/varadero/interior/caves/east)
-"On" = (
-/obj/structure/machinery/landinglight/ds1{
-	dir = 8
-	},
-/turf/open/space/basic,
-/area/space)
 "Op" = (
 /obj/structure/reagent_dispensers/tank/fuel,
 /turf/open/floor/darkbrown2/north,
@@ -10887,16 +10869,6 @@
 /turf/open/floor/hybrisa/carpet/rug_colorable/southwest{
 	color = "#0b8f8d"
 	},
-/area/space)
-"SL" = (
-/obj/structure/machinery/landinglight/ds1/delayone{
-	dir = 4
-	},
-/obj/structure/machinery/landinglight/ds1/delaytwo{
-	dir = 1
-	},
-/obj/structure/machinery/landinglight/ds1,
-/turf/open/floor/plating/icefloor/warnplate/northeast,
 /area/space)
 "SP" = (
 /turf/open/space/basic,
@@ -137785,13 +137757,13 @@ BC
 BC
 BC
 wn
-On
-sV
-pF
+GO
+uJ
+rR
 FO
-On
-sV
-pF
+GO
+uJ
+rR
 WI
 BC
 BC
@@ -137974,7 +137946,7 @@ bZ
 bZ
 bZ
 bZ
-SX
+bZ
 uJ
 rR
 vZ
@@ -138332,11 +138304,11 @@ bZ
 bZ
 bZ
 bZ
-SX
-SX
-SX
-SX
-SX
+bZ
+bZ
+bZ
+bZ
+bZ
 bZ
 bZ
 bZ
@@ -139799,7 +139771,7 @@ bZ
 bZ
 bZ
 jm
-SX
+bZ
 YA
 BC
 BC
@@ -140332,7 +140304,7 @@ BC
 BC
 BC
 BC
-SL
+IX
 zK
 dR
 JK
