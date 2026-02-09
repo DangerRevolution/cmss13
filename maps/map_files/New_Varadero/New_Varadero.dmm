@@ -1,4 +1,7 @@
 //MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"aaa" = (
+/turf/closed/wall/new_varadero,
+/area/almayer/engineering/laundry)
 "aab" = (
 /obj/structure/prop/hybrisa/factory/conveyor_belt,
 /obj/structure/ship_ammo/minirocket/incendiary,
@@ -281,6 +284,13 @@
 /obj/effect/decal/hybrisa/dirt_2,
 /turf/open/auto_turf/sand_white/layer0,
 /area/space)
+"aaX" = (
+/obj/structure/machinery/washing_machine,
+/obj/structure/machinery/washing_machine{
+	pixel_y = 14
+	},
+/turf/open/floor/strata/blue2,
+/area/almayer/engineering/laundry)
 "aaY" = (
 /obj/structure/machinery/landinglight/ds1/delaytwo{
 	dir = 8
@@ -288,6 +298,16 @@
 /obj/structure/machinery/landinglight/ds1/delaythree,
 /turf/open/floor/plating/icefloor/warnplate/southwest,
 /area/space)
+"aaZ" = (
+/obj/structure/bedsheetbin{
+	icon_state = "linenbin-empty";
+	layer = 2.9;
+	pixel_y = -8;
+	name = "bag basket";
+	desc = "A basket for shopping bags."
+	},
+/turf/open/floor/strata/blue2,
+/area/almayer/engineering/laundry)
 "aba" = (
 /obj/effect/decal/warning_stripes{
 	icon_state = "cargo"
@@ -323,6 +343,10 @@
 	},
 /turf/closed/wall,
 /area/space)
+"abe" = (
+/obj/structure/bedsheetbin,
+/turf/open/floor/strata/blue2,
+/area/almayer/engineering/laundry)
 "abf" = (
 /obj/structure/machinery/door/airlock/almayer/engineering/colony{
 	dir = 1;
@@ -341,6 +365,13 @@
 	color = "#808080"
 	},
 /area/space)
+"abi" = (
+/obj/item/clothing/under/tshirt/w_br{
+	pixel_y = 2;
+	pixel_x = 3
+	},
+/turf/open/floor/strata/blue2,
+/area/almayer/engineering/laundry)
 "abj" = (
 /obj/structure/desertdam/decals/road_edge{
 	icon_state = "road_edge_decal3"
@@ -383,6 +414,16 @@
 	},
 /turf/open/new_varadero,
 /area/space)
+"abp" = (
+/obj/structure/prop/souto_land/pole{
+	pixel_x = 21
+	},
+/obj/item/reagent_container/glass/rag/polishing_rag{
+	pixel_y = 1;
+	pixel_x = -17
+	},
+/turf/open/floor/strata/blue2,
+/area/almayer/engineering/laundry)
 "abq" = (
 /obj/item/clothing/mask/gas{
 	pixel_x = 4;
@@ -523,6 +564,14 @@
 /obj/structure/reagent_dispensers/peppertank,
 /turf/closed/wall/shiva/prefabricated/reinforced,
 /area/space)
+"abL" = (
+/obj/structure/sink{
+	dir = 8;
+	pixel_x = -12;
+	pixel_y = 2
+	},
+/turf/open/floor/strata/blue2,
+/area/almayer/engineering/laundry)
 "abM" = (
 /obj/effect/landmark/item_pool_spawner/survivor_ammo/buckshot,
 /obj/effect/landmark/objective_landmark/close,
@@ -657,6 +706,10 @@
 "acl" = (
 /turf/open/floor/shiva/wredcorners/east,
 /area/space)
+"acm" = (
+/obj/item/tool/soap,
+/turf/open/floor/strata/blue2,
+/area/almayer/engineering/laundry)
 "acn" = (
 /obj/structure/anti_air_cannon,
 /turf/open/floor/prison/darkpurple2,
@@ -780,6 +833,10 @@
 	},
 /turf/open/floor/white,
 /area/space)
+"acK" = (
+/obj/item/tool/soap/deluxe,
+/turf/open/floor/strata/blue2,
+/area/almayer/engineering/laundry)
 "acL" = (
 /turf/closed/wall/huntership/destructible,
 /area/bigred/ground/kitchen)
@@ -824,6 +881,18 @@
 "acT" = (
 /turf/open/floor/shiva,
 /area/corsat/sigma/dorms)
+"acU" = (
+/obj/structure/prop/souto_land/pole,
+/obj/item/clothing/under/blackskirt{
+	pixel_y = 3;
+	pixel_x = -4
+	},
+/obj/structure/sign/banners/rope{
+	pixel_x = -4;
+	pixel_y = 4
+	},
+/turf/open/floor/strata/blue2,
+/area/almayer/engineering/laundry)
 "acV" = (
 /obj/structure/stairs/multiz/up{
 	dir = 4
@@ -898,6 +967,17 @@
 "adf" = (
 /turf/closed/wall/new_varadero,
 /area/space)
+"adg" = (
+/obj/item/clothing/under/liaison_suit/black/skirt{
+	pixel_y = 2;
+	pixel_x = -9
+	},
+/obj/item/clothing/under/liaison_suit/field/skirt{
+	pixel_y = 2;
+	pixel_x = 4
+	},
+/turf/open/floor/strata/blue2,
+/area/almayer/engineering/laundry)
 "adh" = (
 /obj/structure/pipes/standard/simple/hidden/green{
 	dir = 6
@@ -910,6 +990,34 @@
 	},
 /turf/open/asphalt,
 /area/space)
+"adj" = (
+/obj/structure/prop/souto_land/pole{
+	pixel_x = 21
+	},
+/obj/item/clothing/under/liaison_suit/field/skirt{
+	pixel_y = 4;
+	pixel_x = -3
+	},
+/obj/item/reagent_container/glass/rag/polishing_rag{
+	pixel_y = 1;
+	pixel_x = -16
+	},
+/turf/open/floor/strata/blue2,
+/area/almayer/engineering/laundry)
+"adk" = (
+/obj/structure/machinery/washing_machine,
+/obj/structure/prop/invuln/pipe_water{
+	pixel_x = 4;
+	pixel_y = 1
+	},
+/turf/open/floor/strata/blue2,
+/area/almayer/engineering/laundry)
+"adl" = (
+/obj/structure/prop/invuln/overhead_pipe{
+	pixel_y = -1
+	},
+/turf/closed/wall/new_varadero,
+/area/varadero/interior/cargo)
 "adm" = (
 /obj/structure/pipes/vents/pump/siphon/on{
 	dir = 1;
@@ -9435,7 +9543,19 @@
 /turf/open/floor/strata/multi_tiles,
 /area/space)
 "aHu" = (
-/obj/structure/machinery/washing_machine,
+/obj/structure/prop/souto_land/pole,
+/obj/item/reagent_container/glass/rag/polishing_rag{
+	pixel_y = 2;
+	pixel_x = -4
+	},
+/obj/structure/sign/banners/rope{
+	pixel_x = -4;
+	pixel_y = 4
+	},
+/obj/item/clothing/under/overalls{
+	pixel_x = 10;
+	pixel_y = 2
+	},
 /turf/open/floor/strata/blue2,
 /area/almayer/engineering/laundry)
 "aHv" = (
@@ -70617,9 +70737,9 @@ adf
 adf
 adf
 adf
-adf
-adf
-adf
+abP
+abP
+abP
 abP
 abP
 abP
@@ -70791,17 +70911,17 @@ aIS
 aHj
 aHj
 aHj
+abL
+abL
+abL
 aHj
 aHj
 aHj
 aHj
-aHj
-aHj
-aHj
-aHj
-aHj
-aHj
-adf
+aaa
+abP
+abP
+abP
 abP
 abP
 abP
@@ -70970,20 +71090,20 @@ aIN
 aIS
 aIS
 aIN
+aaX
 aHj
+acU
 aHj
+aaX
 aHj
 aHu
-aHu
-aHu
-aHu
-aHu
 aHj
+aaX
 aHj
-aHj
-aHj
-aHj
-adf
+aaa
+abP
+abP
+abP
 abP
 abP
 abP
@@ -71151,21 +71271,21 @@ aKa
 aIN
 aIS
 aIS
-aIN
+adl
+adk
 aHj
+adg
 aHj
+aaX
 aHj
-aHu
-aHu
-aHu
-aHu
-aHu
+abi
 aHj
+aaX
 aHj
-aHj
-aHj
-aHj
-adf
+aaa
+abP
+abP
+abP
 abP
 abP
 abP
@@ -71334,19 +71454,19 @@ aIN
 aIS
 aIS
 aIN
+aaX
 aHj
+adj
 aHj
+aaX
 aHj
-aHu
-aHu
-aHu
-aHu
-aHu
+abp
 aHj
+aaX
 aHj
-aHj
-aHj
-aHj
+aaa
+aaa
+aaa
 adf
 abP
 abP
@@ -71516,7 +71636,7 @@ aIN
 aIS
 aIS
 aIN
-aHj
+aaX
 aHj
 aHj
 aHj
@@ -71703,9 +71823,9 @@ adf
 adf
 aHj
 aHj
+acm
 aHj
-aHj
-aHj
+aaZ
 aHj
 aHj
 aHj
@@ -71885,9 +72005,9 @@ abP
 adf
 aHj
 aHj
+acK
 aHj
-aHj
-aHj
+abe
 aHj
 aHj
 aHj
