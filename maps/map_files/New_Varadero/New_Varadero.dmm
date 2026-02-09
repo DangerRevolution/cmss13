@@ -5775,7 +5775,8 @@
 /obj/structure/pipes/standard/simple/visible{
 	layer = 3
 	},
-/turf/closed/wall/new_varadero,
+/obj/structure/window/framed/new_varadero/foundation/reinforced,
+/turf/open/floor/almayer/blackfull/west,
 /area/space)
 "asW" = (
 /obj/effect/decal/warning_stripes{
@@ -5823,7 +5824,8 @@
 /obj/structure/pipes/standard/simple/visible{
 	dir = 6
 	},
-/turf/closed/wall/new_varadero,
+/obj/structure/window/framed/new_varadero/foundation/reinforced,
+/turf/open/floor/almayer/blackfull/west,
 /area/space)
 "atb" = (
 /obj/effect/decal/warning_stripes{
@@ -5934,7 +5936,10 @@
 	dir = 9;
 	layer = 3
 	},
-/turf/closed/wall/new_varadero,
+/obj/structure/window/framed/new_varadero/foundation/reinforced,
+/obj/structure/window/framed/new_varadero/foundation/reinforced,
+/obj/structure/window/framed/new_varadero/foundation/reinforced,
+/turf/open/floor/almayer/blackfull/west,
 /area/space)
 "att" = (
 /obj/effect/decal/warning_stripes{
