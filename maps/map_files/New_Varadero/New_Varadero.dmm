@@ -8243,13 +8243,6 @@
 /obj/structure/bed/chair,
 /turf/open/floor/dark2,
 /area/space)
-"Dp" = (
-/obj/structure/platform/stone/kutjevo/east{
-	dir = 2
-	},
-/obj/structure/platform_decoration/stone/kutjevo/west,
-/turf/open_space,
-/area/space)
 "Dq" = (
 /obj/structure/machinery/shower{
 	dir = 1
@@ -8981,11 +8974,6 @@
 	},
 /turf/open/floor/plating/plating_catwalk,
 /area)
-"FU" = (
-/obj/structure/platform_decoration/stone/kutjevo/west,
-/obj/structure/platform_decoration/stone/kutjevo,
-/turf/open_space,
-/area/space)
 "FV" = (
 /turf/open/floor/shiva/redcorners,
 /area/space)
@@ -11039,14 +11027,6 @@
 	dir = 4
 	},
 /turf/open/floor/dark2,
-/area/space)
-"TO" = (
-/obj/structure/platform/stone/kutjevo/east{
-	dir = 2
-	},
-/obj/structure/platform/stone/kutjevo/north,
-/obj/structure/platform/stone/kutjevo/east,
-/turf/open_space,
 /area/space)
 "TP" = (
 /obj/structure/surface/table/woodentable/fancy,
@@ -64040,7 +64020,7 @@ hU
 hU
 hU
 hU
-cF
+hU
 bP
 bP
 bP
@@ -108460,11 +108440,11 @@ jq
 jq
 jq
 jq
-jq
-jq
-jq
-jq
-jq
+DP
+DP
+DP
+DP
+DP
 jq
 jq
 jq
@@ -108642,11 +108622,11 @@ jq
 jq
 jq
 jq
-jq
-jq
-jq
-jq
-jq
+DP
+DP
+DP
+DP
+DP
 jq
 jq
 Be
@@ -108824,11 +108804,11 @@ jq
 jq
 jq
 jq
-jq
-jq
-jq
-jq
-jq
+DP
+DP
+DP
+DP
+DP
 jq
 jq
 Be
@@ -108992,8 +108972,6 @@ fr
 lm
 lm
 Uq
-Fh
-NR
 jq
 jq
 jq
@@ -109008,9 +108986,11 @@ jq
 jq
 jq
 jq
-jq
-jq
-jq
+DP
+DP
+DP
+DP
+DP
 jq
 Be
 Be
@@ -109174,25 +109154,25 @@ hg
 hg
 hg
 Uq
+jq
+jq
+jq
+jq
+jq
+jq
+jq
+jq
+jq
+jq
+jq
+jq
+jq
+jq
 DP
-VH
-NR
-jq
-jq
-jq
-jq
-jq
-jq
-jq
-jq
-jq
-jq
-jq
-jq
-jq
-jq
-jq
-jq
+DP
+DP
+DP
+DP
 jq
 jq
 jq
@@ -109356,10 +109336,10 @@ Pb
 gg
 QK
 Uq
-hv
-DP
-VH
-NR
+jq
+jq
+jq
+jq
 jq
 jq
 jq
@@ -109538,10 +109518,10 @@ Ky
 Hy
 qX
 Uq
-FU
-ZB
-ZB
-Dp
+jq
+jq
+jq
+jq
 jq
 jq
 jq
@@ -109720,10 +109700,10 @@ qq
 sj
 iH
 Uq
-TO
 jq
 jq
-TO
+jq
+jq
 jq
 jq
 Be
