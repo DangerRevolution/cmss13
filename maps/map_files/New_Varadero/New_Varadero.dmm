@@ -2082,6 +2082,16 @@
 /obj/structure/surface/table/almayer{
 	color = "#848484"
 	},
+/obj/item/clipboard,
+/obj/item/paper/Toxin,
+/obj/item/paper{
+	pixel_x = -10;
+	pixel_y = 6
+	},
+/obj/item/paper{
+	pixel_x = 2;
+	pixel_y = 6
+	},
 /turf/open/floor/prison/whitepurple/southwest,
 /area/space)
 "ahs" = (
@@ -2331,6 +2341,19 @@
 /area/corsat/gamma/rnr/library)
 "aim" = (
 /obj/structure/surface/rack,
+/obj/item/card/id/guest{
+	bound_x = 9;
+	pixel_y = -6
+	},
+/obj/item/card/id/guest{
+	bound_x = 9;
+	pixel_y = 7
+	},
+/obj/item/card/id/guest{
+	bound_x = 9;
+	pixel_y = 4;
+	pixel_x = 6
+	},
 /turf/open/floor/prison/whitepurple/west,
 /area/space)
 "ain" = (
@@ -5040,6 +5063,13 @@
 /obj/structure/ship_ammo/minirocket,
 /turf/open/floor/shiva,
 /area/almayer/command/cic)
+"aqP" = (
+/obj/structure/machinery/portable_atmospherics/canister/phoron,
+/obj/structure/pipes/portables_connector{
+	dir = 4
+	},
+/turf/open/floor/almayer/blackfull/west,
+/area/space)
 "aqQ" = (
 /obj/structure/prop/hybrisa/factory/conveyor_belt,
 /obj/structure/ship_ammo/rocket,
@@ -5106,10 +5136,23 @@
 	},
 /turf/open/floor/darkred2,
 /area/space)
+"aqY" = (
+/obj/structure/pipes/standard/simple/visible{
+	dir = 4
+	},
+/turf/open/floor/almayer/blackfull/west,
+/area/space)
 "aqZ" = (
 /obj/structure/sign/nosmoking_1,
 /turf/closed/wall/new_varadero,
 /area/shuttle/elevator1)
+"ara" = (
+/obj/structure/pipes/standard/simple/visible{
+	dir = 9;
+	layer = 3
+	},
+/turf/open/floor/almayer/blackfull/west,
+/area/space)
 "arb" = (
 /obj/effect/decal/hybrisa/road/lines2,
 /obj/structure/sign/nosmoking_1,
@@ -5157,11 +5200,22 @@
 "arh" = (
 /turf/open/floor/prison/darkpurple2,
 /area/space)
+"ari" = (
+/turf/open/floor/almayer/blackfull/west,
+/area/space)
 "arj" = (
 /obj/effect/decal/hybrisa/road/lines4{
 	pixel_y = -1
 	},
 /turf/open/floor/shiva,
+/area/space)
+"ark" = (
+/obj/structure/prop/static_tank/fuel,
+/obj/structure/prop/static_tank/fuel,
+/obj/structure/pipes/standard/simple/visible{
+	dir = 5
+	},
+/turf/open/floor/almayer/blackfull/west,
 /area/space)
 "arl" = (
 /obj/structure/machinery/landinglight/ds1/delayone{
@@ -5217,6 +5271,17 @@
 "aru" = (
 /turf/closed/wall/new_varadero,
 /area/varadero/exterior/farocean)
+"arv" = (
+/obj/structure/prop/static_tank/fuel,
+/obj/structure/pipes/standard/simple/visible{
+	dir = 9;
+	layer = 3
+	},
+/obj/structure/pipes/standard/simple/visible{
+	dir = 4
+	},
+/turf/open/floor/almayer/blackfull/west,
+/area/space)
 "arw" = (
 /obj/effect/decal/hybrisa/road/lines2,
 /turf/open/floor/shiva,
@@ -5230,6 +5295,13 @@
 	},
 /turf/open/floor/shiva,
 /area/almayer/engineering/lower/engine_core)
+"ary" = (
+/obj/structure/machinery/portable_atmospherics/canister/oxygen,
+/obj/structure/pipes/portables_connector{
+	dir = 1
+	},
+/turf/open/floor/almayer/blackfull/west,
+/area/space)
 "arz" = (
 /obj/structure/pipes/standard/manifold/visible{
 	dir = 8
@@ -5238,6 +5310,10 @@
 	dir = 8
 	},
 /turf/open/floor/darkyellowcorners2/west,
+/area/space)
+"arA" = (
+/obj/structure/pipes/tvalve/bypass,
+/turf/open/floor/almayer/blackfull/west,
 /area/space)
 "arB" = (
 /obj/structure/machinery/meter,
@@ -5253,6 +5329,22 @@
 /obj/effect/decal/hybrisa/road/lines3,
 /obj/structure/cargo_container/hybrisa/containersextended/kelland_left,
 /turf/open/hybrisa/street/asphalt,
+/area/space)
+"arD" = (
+/obj/structure/prop/static_tank/fuel,
+/turf/open/floor/almayer/blackfull/west,
+/area/space)
+"arE" = (
+/obj/structure/pipes/standard/simple/visible{
+	dir = 6
+	},
+/turf/open/floor/almayer/blackfull/west,
+/area/space)
+"arF" = (
+/obj/structure/pipes/standard/manifold/visible{
+	dir = 4
+	},
+/turf/open/floor/almayer/blackfull/west,
 /area/space)
 "arG" = (
 /obj/effect/decal/hybrisa/road/lines2,
@@ -5283,6 +5375,16 @@
 	name = "Colony Garage"
 	},
 /turf/open/auto_turf/snow/layer0,
+/area/space)
+"arK" = (
+/obj/structure/pipes/standard/simple/visible,
+/turf/open/floor/almayer/blackfull/west,
+/area/space)
+"arL" = (
+/obj/structure/pipes/standard/simple/visible{
+	dir = 10
+	},
+/turf/open/floor/almayer/blackfull/west,
 /area/space)
 "arM" = (
 /obj/structure/largecrate/random/barrel/true_random{
@@ -5367,6 +5469,10 @@
 	},
 /turf/open/floor/shiva,
 /area/almayer/engineering/lower/engine_monitoring)
+"arX" = (
+/obj/structure/pipes/tvalve/mirrored,
+/turf/open/floor/almayer/blackfull/west,
+/area/space)
 "arY" = (
 /obj/effect/decal/hybrisa/road/lines2,
 /turf/open/hybrisa/street/asphalt,
@@ -5398,6 +5504,12 @@
 	},
 /turf/closed/wall/r_wall/unmeltable,
 /area/almayer/engineering/lower/engine_core)
+"ase" = (
+/obj/structure/pipes/standard/simple/visible{
+	dir = 9
+	},
+/turf/open/floor/almayer/blackfull/west,
+/area/space)
 "asf" = (
 /obj/effect/decal/warning_stripes{
 	icon_state = "test_square_red"
@@ -5483,6 +5595,12 @@
 	},
 /turf/open/floor/plating,
 /area/ice_colony/surface/disposals)
+"asu" = (
+/obj/structure/machinery/door/airlock/multi_tile/almayer/generic{
+	name = "\improper Backup SMES"
+	},
+/turf/open/floor/almayer/blackfull/west,
+/area/space)
 "asv" = (
 /obj/structure/sign/safety/fire_haz,
 /turf/closed/wall/new_varadero,
@@ -5653,6 +5771,12 @@
 /obj/structure/machinery/conveyor_switch,
 /turf/open/floor/shiva,
 /area/almayer/command/cic)
+"asV" = (
+/obj/structure/pipes/standard/simple/visible{
+	layer = 3
+	},
+/turf/closed/wall/new_varadero,
+/area/space)
 "asW" = (
 /obj/effect/decal/warning_stripes{
 	icon_state = "E-corner";
@@ -5695,6 +5819,12 @@
 	},
 /turf/open/floor/shiva,
 /area/lv759/indoors/landing_zone_2/kmcc_hub_fuel)
+"ata" = (
+/obj/structure/pipes/standard/simple/visible{
+	dir = 6
+	},
+/turf/closed/wall/new_varadero,
+/area/space)
 "atb" = (
 /obj/effect/decal/warning_stripes{
 	icon_state = "NE-in"
@@ -5792,6 +5922,20 @@
 /obj/structure/machinery/conveyor_switch,
 /turf/open/floor/shiva,
 /area/almayer/engineering/lower/engine_monitoring)
+"atr" = (
+/obj/structure/pipes/standard/simple/visible{
+	dir = 4
+	},
+/obj/structure/window/framed/new_varadero/foundation/reinforced,
+/turf/open/floor/almayer/blackfull/west,
+/area/space)
+"ats" = (
+/obj/structure/pipes/standard/simple/visible{
+	dir = 9;
+	layer = 3
+	},
+/turf/closed/wall/new_varadero,
+/area/space)
 "att" = (
 /obj/effect/decal/warning_stripes{
 	icon_state = "E";
@@ -5882,6 +6026,13 @@
 /obj/vehicle/train/cargo/engine,
 /turf/open/floor/shiva/yellow/north,
 /area/almayer/command/cic)
+"atD" = (
+/obj/effect/decal/cleanable/dirt{
+	icon_state = "thermite";
+	name = "impact"
+	},
+/turf/open/floor/plating/burnt_platingdmg3,
+/area/space)
 "atE" = (
 /turf/closed/wall/huntership/destructible,
 /area/space)
@@ -6005,6 +6156,12 @@
 	},
 /turf/open/floor/shiva,
 /area/lv759/indoors/landing_zone_2/kmcc_hub_fuel)
+"atV" = (
+/obj/structure/pipes/standard/simple/visible{
+	layer = 3
+	},
+/turf/open/floor/almayer/blackfull/west,
+/area/space)
 "atW" = (
 /obj/effect/decal/warning_stripes{
 	icon_state = "N-corner"
@@ -6063,6 +6220,10 @@
 	},
 /turf/open/floor/shiva,
 /area/lv759/indoors/landing_zone_2/kmcc_hub_fuel)
+"aub" = (
+/obj/structure/platform/metal/almayer/north,
+/turf/open/floor/almayer/blackfull/west,
+/area/space)
 "auc" = (
 /obj/structure/pipes/standard/simple/hidden/green{
 	dir = 4
@@ -6140,6 +6301,12 @@
 /obj/structure/prop/rock/brown,
 /turf/open/auto_turf/sand_white/layer1,
 /area/varadero/interior/caves/east)
+"aul" = (
+/obj/structure/platform/metal/almayer/north,
+/obj/structure/platform/metal/almayer/north,
+/obj/structure/pipes/standard/simple/visible,
+/turf/open/floor/almayer/blackfull/west,
+/area/space)
 "aum" = (
 /obj/structure/closet/secure_closet/surgical{
 	pixel_x = -30
@@ -6153,6 +6320,13 @@
 /obj/effect/decal/hybrisa/road/lines4,
 /turf/open/floor/shiva,
 /area/almayer/engineering/lower/engine_monitoring)
+"auo" = (
+/obj/structure/platform/metal/almayer/north,
+/obj/structure/pipes/standard/simple/visible{
+	layer = 3
+	},
+/turf/open/floor/almayer/blackfull/west,
+/area/space)
 "aup" = (
 /obj/effect/decal/warning_stripes{
 	icon_state = "N-corner"
@@ -6171,6 +6345,12 @@
 	},
 /turf/open/floor/shiva,
 /area/almayer/engineering/lower/engine_monitoring)
+"auq" = (
+/obj/structure/stairs{
+	icon_state = "ramptop"
+	},
+/turf/open/floor/almayer/blackfull/west,
+/area/space)
 "aur" = (
 /obj/effect/decal/warning_stripes{
 	icon_state = "N-corner"
@@ -6252,6 +6432,10 @@
 "auC" = (
 /turf/open/floor/plating/catwalk,
 /area/lv759/indoors/colonial_marshals/hallway_reception)
+"auD" = (
+/obj/structure/platform/metal/almayer/west,
+/turf/closed/wall/new_varadero/concrete,
+/area/space)
 "auE" = (
 /obj/structure/prop/hybrisa/factory/conveyor_belt,
 /obj/structure/plasticflaps,
@@ -6459,6 +6643,12 @@
 	},
 /turf/open/floor/prison,
 /area/almayer/engineering/lower/engine_monitoring)
+"avf" = (
+/obj/structure/machinery/door/airlock/multi_tile/almayer/generic{
+	name = "\improper Backup SMES"
+	},
+/turf/open/space/basic,
+/area/space)
 "avg" = (
 /obj/structure/pipes/unary/freezer{
 	dir = 8;
@@ -6473,6 +6663,16 @@
 	pixel_y = 2
 	},
 /turf/open/floor/prison/ramptop,
+/area/space)
+"avi" = (
+/obj/structure/platform/metal/almayer/west,
+/obj/structure/prop/hybrisa/airport/refuelinghose2{
+	layer = 1;
+	pixel_x = -12;
+	pixel_y = -12;
+	dir = 1
+	},
+/turf/open/floor/almayer/blackfull/west,
 /area/space)
 "avj" = (
 /obj/effect/decal/warning_stripes{
@@ -6534,6 +6734,12 @@
 	},
 /turf/open/floor/darkpurple2,
 /area/desert_dam/building/security/observation)
+"avr" = (
+/obj/structure/prop/hybrisa/airport/refuelinghose2{
+	pixel_x = -3
+	},
+/turf/open/floor/almayer/blackfull/west,
+/area/space)
 "avs" = (
 /obj/structure/prop/server_equipment/laptop/on{
 	icon_state = "broadcaster_send"
@@ -6576,6 +6782,11 @@
 "avx" = (
 /turf/closed/wall/rock/brown,
 /area/varadero/exterior/farocean)
+"avy" = (
+/obj/structure/window/framed/new_varadero/foundation,
+/obj/structure/machinery/door/poddoor/shutters/almayer/containment,
+/turf/open/floor/almayer/blackfull/west,
+/area/space)
 "avz" = (
 /obj/structure/machinery/big_computers/computerwhite/computer3,
 /turf/open/shuttle/lifeboat/catwalk,
@@ -6622,6 +6833,10 @@
 	},
 /turf/open/floor/shiva,
 /area/lv759/indoors/colonial_marshals/hallway_reception)
+"avH" = (
+/obj/structure/platform/metal/almayer/west,
+/turf/open/floor/almayer/blackfull/west,
+/area/space)
 "avI" = (
 /turf/open/shuttle/lifeboat/catwalk{
 	dir = 2
@@ -6634,6 +6849,9 @@
 	},
 /turf/open/floor/shiva,
 /area/lv759/indoors/colonial_marshals/hallway_reception)
+"avK" = (
+/turf/open/floor/prison/whitepurple/west,
+/area/space)
 "avL" = (
 /obj/structure/closet/secure_closet/engineering_welding,
 /turf/open/floor/prison,
@@ -6655,6 +6873,9 @@
 /area/desert_dam/building/security/observation)
 "avP" = (
 /turf/open/floor/hybrisa/tile/tilewhite,
+/area/space)
+"avQ" = (
+/turf/open/floor/prison/sterile_white,
 /area/space)
 "avR" = (
 /obj/effect/decal/warning_stripes{
@@ -6702,6 +6923,16 @@
 	icon_state = "floor1"
 	},
 /area/desert_dam/building/security/observation)
+"avX" = (
+/obj/structure/window/framed/new_varadero/foundation,
+/obj/structure/machinery/door/poddoor/shutters/almayer/containment,
+/obj/structure/machinery/door/poddoor/shutters/almayer/containment,
+/turf/open/floor/almayer/blackfull/west,
+/area/space)
+"avY" = (
+/obj/structure/prop/turbine,
+/turf/open/floor/almayer/blackfull/west,
+/area/space)
 "avZ" = (
 /obj/structure/machinery/landinglight/ds1,
 /obj/structure/machinery/landinglight/ds1/delaythree{
@@ -6720,6 +6951,10 @@
 	dir = 1
 	},
 /area/desert_dam/building/security/observation)
+"awc" = (
+/obj/structure/surface/table/almayer,
+/turf/open/floor/prison/whitepurple/west,
+/area/space)
 "awd" = (
 /turf/open/shuttle/escapepod/floor2{
 	dir = 8
@@ -6785,6 +7020,14 @@
 /obj/structure/machinery/mill,
 /turf/open/floor/shiva,
 /area/almayer/engineering/lower/engine_monitoring)
+"awq" = (
+/obj/item/card/id/guest{
+	bound_x = 9;
+	pixel_y = 4;
+	pixel_x = 6
+	},
+/turf/closed/wall/new_varadero,
+/area/space)
 "awr" = (
 /obj/structure/pipes/standard/simple/hidden/green{
 	dir = 4
@@ -6808,6 +7051,12 @@
 /obj/structure/window/framed/new_varadero/foundation/reinforced/hull,
 /turf/open/space/basic,
 /area/almayer/engineering/lower/engine_monitoring)
+"awu" = (
+/obj/structure/machinery/door/airlock/multi_tile/almayer/generic{
+	name = "\improper Backup SMES"
+	},
+/turf/closed/wall/new_varadero,
+/area/space)
 "awv" = (
 /obj/structure/machinery/door/airlock/maintenance/colony{
 	dir = 8
@@ -6966,6 +7215,10 @@
 	icon_state = "squares"
 	},
 /area/space)
+"awQ" = (
+/obj/structure/platform/metal/almayer,
+/turf/open/floor/almayer/blackfull/west,
+/area/space)
 "awR" = (
 /obj/structure/bed/roller/hospital_empty/bigrollerempty3,
 /turf/open/floor/shiva/green/west,
@@ -7043,6 +7296,13 @@
 	},
 /obj/effect/decal/hybrisa/road/road_edge,
 /turf/open/hybrisa/street/asphalt,
+/area/space)
+"axc" = (
+/obj/structure/machinery/door/airlock/multi_tile/almayer/generic{
+	dir = 2;
+	name = "\improper Bar"
+	},
+/turf/open/floor/almayer/blackfull/west,
 /area/space)
 "axd" = (
 /obj/structure/window/reinforced{
@@ -72287,7 +72547,7 @@ ajq
 ajq
 adf
 adf
-aFK
+atD
 aFv
 aFg
 adf
@@ -74826,7 +75086,7 @@ apb
 arh
 adf
 adf
-adf
+awq
 als
 aHm
 adf
@@ -82099,28 +82359,28 @@ aSX
 aSX
 adf
 adf
-aSX
-aqt
-aqt
-aqt
-aqt
-aqt
-aqt
-aqt
-aqt
-aqt
-aqt
-aqt
-aqt
-aqt
-aqt
-aqt
-aqt
-aqt
-aqt
-aqt
-aqt
 aBe
+aJo
+aJo
+aJo
+aJo
+aJo
+aJo
+aJo
+aJo
+aJo
+aJo
+aJo
+aJo
+aJo
+aJo
+aJo
+aJo
+aJo
+aJo
+aJo
+aJo
+adf
 aBe
 aSX
 aSX
@@ -82280,28 +82540,28 @@ afV
 afV
 afV
 adf
-aSX
-aSX
+aBe
+aBe
 adf
+ajL
+avK
+avK
+avK
+afT
 adf
+ajL
+awc
+awc
+avK
+afT
 adf
+ari
+ari
+ari
 adf
-adf
-adf
-adf
-adf
-adf
-adf
-adf
-adf
-adf
-adf
-adf
-adf
-adf
-adf
-adf
-adf
+ari
+aqP
+aqP
 adf
 aBe
 aSX
@@ -82465,25 +82725,25 @@ abP
 abP
 abP
 adf
-aSX
-aSX
-aSX
-aSX
-aSX
-aSX
-aSX
-aSX
-aSX
-aSX
-aSX
-aSX
-aSX
-aSX
-aSX
-aSX
-aSX
-aSX
-aSX
+akk
+avQ
+avQ
+avQ
+afW
+awu
+akk
+avQ
+avQ
+avQ
+afW
+avf
+auq
+ari
+ari
+asu
+ari
+aqY
+aqY
 adf
 aBe
 aSX
@@ -82647,25 +82907,25 @@ abP
 abP
 abP
 adf
+akk
+avQ
+avQ
+avQ
+afW
+adf
+akk
+avQ
+avQ
+avQ
+afW
 aSX
-aSX
-aSX
-aSX
-aSX
-aSX
-aSX
-aSX
-aSX
-aSX
-aSX
-aSX
-aSX
-aSX
-aSX
-aSX
-aSX
-aSX
-aSX
+auq
+ari
+ari
+ari
+arE
+arA
+ara
 adf
 aBe
 aSX
@@ -82829,25 +83089,25 @@ abP
 abP
 abP
 adf
-aSX
-aSX
-aSX
-aSX
-aSX
-aSX
-aSX
-aSX
-aSX
-aSX
-aSX
-aSX
-aSX
-aSX
-aSX
-aSX
-aSX
-aSX
-aSX
+ajP
+ahC
+ahC
+ahC
+agb
+adf
+ajP
+ahC
+ahC
+ahC
+agb
+adf
+ari
+ari
+ari
+adf
+aqY
+ari
+ari
 adf
 aBe
 aBe
@@ -83011,25 +83271,25 @@ abP
 abP
 abP
 adf
-aSX
-aSX
-aSX
-aSX
-aSX
-aSX
-aSX
-aSX
-aSX
-aSX
-aSX
-aSX
-aSX
-aSX
-aSX
-aSX
-aSX
-aSX
-aSX
+adf
+ari
+axc
+adf
+adf
+adf
+avy
+avX
+avy
+avX
+avy
+adf
+ari
+ari
+ari
+adf
+arL
+arD
+ark
 adf
 aBe
 aBe
@@ -83193,25 +83453,25 @@ abP
 abP
 abP
 adf
-aSX
-aSX
-aSX
-aSX
-aSX
-aSX
-aSX
-aSX
-aSX
-aSX
-aSX
-aSX
-aSX
-aSX
-aSX
-aSX
-aSX
-aSX
-aSX
+ari
+ari
+ari
+ari
+ari
+ari
+ari
+ari
+ari
+ari
+ari
+ari
+ari
+ari
+arE
+asV
+arX
+arD
+arv
 adf
 aBe
 aBe
@@ -83375,25 +83635,25 @@ abP
 abP
 abP
 adf
-aSX
-aSX
-aSX
-aSX
-aSX
-aSX
-aSX
-aSX
-aSX
-aSX
-aSX
-aSX
-aSX
-aSX
-aSX
-aSX
-aSX
-aSX
-aSX
+ari
+ari
+ari
+ari
+ari
+ari
+ari
+ari
+ari
+ari
+ari
+ari
+ari
+ari
+aqY
+ata
+ase
+ari
+aqY
 adf
 aBe
 aBe
@@ -83557,25 +83817,25 @@ aSX
 aSX
 aSX
 adf
-aSX
-aSX
-aSX
-aSX
-aSX
-aSX
-aSX
-aSX
-aSX
-aSX
-aSX
-aSX
-aSX
-aSX
-aSX
-aSX
-aSX
-aSX
-aSX
+ari
+ari
+ari
+awQ
+avH
+avH
+avH
+avH
+avH
+avH
+avH
+avi
+auD
+aub
+aqY
+atr
+ari
+ari
+aqY
 adf
 aBe
 aBe
@@ -83739,25 +83999,25 @@ aSX
 aSX
 aSX
 adf
-aSX
-aSX
-aSX
-aSX
-aSX
-aSX
-aSX
-aSX
-aSX
-aSX
-aSX
-aSX
-aSX
-aSX
-aSX
-aSX
-aSX
-aSX
-aSX
+ari
+ari
+ari
+awQ
+ari
+ari
+ari
+ari
+ari
+avY
+ari
+ari
+aFK
+aub
+aqY
+atr
+ari
+arE
+ara
 adf
 aBe
 aBe
@@ -83921,25 +84181,25 @@ aSX
 aSX
 aSX
 adf
-aSX
-aSX
-aSX
-aSX
-aSX
-aSX
-aSX
-aSX
-aSX
-aSX
-aSX
-aSX
-aSX
-aSX
-aSX
-aSX
-aSX
-aSX
-aSX
+ari
+ari
+ari
+awQ
+ari
+ari
+ari
+ari
+ari
+avY
+ari
+avr
+aFK
+aul
+ara
+atr
+arE
+arF
+ary
 adf
 aBe
 aBe
@@ -84103,25 +84363,25 @@ aSX
 aSX
 aSX
 adf
-aSX
-aSX
-aSX
-aSX
-aSX
-aSX
-aSX
-aSX
-aSX
-aSX
-aSX
-aSX
-aSX
-aSX
-aSX
-aSX
-aSX
-aSX
-aSX
+ari
+ari
+ari
+awQ
+ari
+ari
+ari
+ari
+ari
+avY
+ari
+ari
+aFK
+auo
+atV
+ats
+arL
+arK
+ary
 adf
 aBe
 aBe
@@ -84285,25 +84545,25 @@ aSX
 aSX
 aSX
 adf
+ari
+ari
+ari
+awQ
+ari
+ari
+ari
+ari
+ari
+ari
+ari
+ari
+aFK
+aub
+ari
 adf
-adf
-adf
-adf
-adf
-adf
-adf
-adf
-adf
-adf
-adf
-adf
-adf
-adf
-adf
-adf
-adf
-adf
-adf
+ari
+ari
+ari
 adf
 aBe
 aBe
@@ -84466,27 +84726,27 @@ aSX
 aSX
 aSX
 aBe
-aBe
-aBe
-aBe
-aBe
-aBe
-aBe
-aBe
-aBe
-aBe
-aBe
-aBe
-aBe
-aBe
-aBe
-aBe
-aBe
-aBe
-aBe
-aBe
-aBe
-aBe
+adf
+adf
+adf
+adf
+adf
+adf
+adf
+adf
+adf
+adf
+adf
+adf
+adf
+adf
+adf
+adf
+adf
+adf
+adf
+adf
+adf
 aBe
 aBe
 aSX
