@@ -2451,6 +2451,13 @@
 /obj/structure/machinery/space_heater,
 /turf/open/floor/darkbrown2/west,
 /area/space)
+"jl" = (
+/obj/effect/decal/hybrisa/workers_decal{
+	pixel_x = 16;
+	pixel_y = 27
+	},
+/turf/open/floor/shiva,
+/area/lv759/indoors/colonial_marshals/hallway_reception)
 "jm" = (
 /obj/structure/machinery/camera/autoname/lz_camera,
 /turf/open/floor/plating,
@@ -4502,7 +4509,10 @@
 /turf/open/auto_turf/sand_white/layer1,
 /area/varadero/interior_protected/maintenance/south)
 "pR" = (
-/turf/closed/wall/r_wall/unmeltable,
+/obj/structure/machinery/door/airlock/multi_tile/almayer/engidoor/colony{
+	dir = 2
+	},
+/turf/open/floor/shiva,
 /area/almayer/command/cic)
 "pS" = (
 /obj/structure/largecrate/random,
@@ -4826,15 +4836,6 @@
 	},
 /turf/open/floor/darkred2,
 /area/space)
-"qY" = (
-/obj/structure/prop/structure_lattice{
-	dir = 1;
-	health = 300;
-	icon = 'icons/turf/elevator.dmi';
-	icon_state = "wall_broke"
-	},
-/turf/open/floor/shiva,
-/area/almayer/command/cic)
 "qZ" = (
 /obj/structure/sign/nosmoking_1,
 /turf/closed/wall/new_varadero,
@@ -5060,12 +5061,6 @@
 /obj/effect/stairs/up,
 /turf/open/space/basic,
 /area/varadero/interior/cargo)
-"rL" = (
-/obj/effect/decal/hybrisa/workers_decal{
-	dir = 4
-	},
-/turf/open/floor/shiva,
-/area/lv759/indoors/colonial_marshals/hallway_reception)
 "rM" = (
 /obj/structure/largecrate/random/barrel/true_random{
 	pixel_y = 2
@@ -5278,16 +5273,6 @@
 	},
 /turf/open/floor/plating,
 /area/ice_colony/surface/disposals)
-"su" = (
-/obj/structure/prop/structure_lattice{
-	health = 300;
-	icon = 'icons/turf/elevator.dmi';
-	icon_state = "wall_broke"
-	},
-/turf/closed/shuttle/elevator{
-	dir = 1
-	},
-/area/almayer/command/cic)
 "sv" = (
 /obj/structure/sign/safety/fire_haz,
 /turf/closed/wall/new_varadero,
@@ -33037,8 +33022,8 @@ ah
 ah
 ah
 sb
-sb
 ab
+sb
 sb
 sb
 sb
@@ -33219,8 +33204,8 @@ ah
 ah
 ah
 sb
-sb
 ac
+sb
 sb
 sb
 sb
@@ -33401,8 +33386,8 @@ ah
 ah
 ah
 sb
-sb
 ag
+sb
 sb
 sb
 sb
@@ -35585,8 +35570,8 @@ ah
 ah
 ah
 sb
-sb
 ac
+sb
 sb
 sb
 sb
@@ -35767,8 +35752,8 @@ ah
 ah
 ah
 sb
-sb
 aw
+sb
 sb
 sb
 sb
@@ -35949,8 +35934,8 @@ ah
 ah
 ah
 sb
-sb
 ax
+sb
 sb
 sb
 sb
@@ -78359,10 +78344,10 @@ qH
 uB
 Mw
 qB
-su
+pA
+cA
 pR
-pR
-qY
+pA
 pA
 pA
 pt
@@ -78547,7 +78532,7 @@ pl
 pl
 pl
 pl
-pl
+jl
 pl
 bP
 bP
@@ -78725,7 +78710,7 @@ tP
 pl
 pl
 pl
-rL
+pl
 pl
 pl
 pl
