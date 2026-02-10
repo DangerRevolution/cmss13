@@ -183,6 +183,10 @@
 /obj/structure/closet/crate/miningcar,
 /turf/open/floor/shiva/red/east,
 /area/space)
+"aaH" = (
+/obj/structure/barricade/wooden,
+/turf/open/floor/plating,
+/area/space)
 "aaI" = (
 /obj/structure/curtain/colorable_transparent{
 	color = "#5a5a5a";
@@ -83324,7 +83328,7 @@ aiZ
 aiZ
 aiZ
 aiZ
-abZ
+aaH
 abZ
 aaN
 aaN
@@ -83506,7 +83510,7 @@ aiZ
 aiZ
 aiZ
 aiZ
-abZ
+aaH
 abZ
 aaN
 aaN
@@ -83688,7 +83692,7 @@ aiZ
 aiZ
 aiZ
 aiZ
-abZ
+aaH
 abZ
 aaN
 aaN
