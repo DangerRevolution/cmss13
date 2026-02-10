@@ -20949,6 +20949,347 @@
 	},
 /turf/open/floor/prison/darkbrown3/northeast,
 /area/space)
+"biY" = (
+/obj/structure/platform/stone/hybrisa/rockdark,
+/obj/structure/platform/stone/hybrisa/rockdark/west,
+/turf/open_space,
+/area/space)
+"biZ" = (
+/obj/structure/platform/stone/hybrisa/rockdark,
+/turf/open_space,
+/area/space)
+"bja" = (
+/obj/structure/platform/stone/hybrisa/rockdark,
+/obj/structure/platform/stone/hybrisa/rockdark/east,
+/turf/open_space,
+/area/space)
+"bjb" = (
+/obj/structure/platform/stone/hybrisa/rockdark/west,
+/turf/open_space,
+/area/space)
+"bjc" = (
+/obj/structure/platform/stone/hybrisa/rockdark/west,
+/obj/structure/platform/stone/hybrisa/rockdark,
+/turf/open_space,
+/area/space)
+"bjd" = (
+/obj/structure/platform/stone/hybrisa/rockdark/west,
+/obj/structure/platform/stone/hybrisa/rockdark/north,
+/turf/open_space,
+/area/space)
+"bje" = (
+/obj/structure/platform/stone/hybrisa/rockdark/north,
+/turf/open_space,
+/area/space)
+"bjf" = (
+/obj/structure/platform/stone/hybrisa/rockdark/north,
+/obj/structure/platform/stone/hybrisa/rockdark/west,
+/turf/open_space,
+/area/space)
+"bjg" = (
+/obj/structure/platform/stone/hybrisa/rockdark/north,
+/obj/structure/platform/stone/hybrisa/rockdark/east,
+/turf/open_space,
+/area/space)
+"bjh" = (
+/obj/structure/surface/rack{
+	color = "#6b675e";
+	layer = 2.79
+	},
+/obj/item/weapon/yautja/duelsword{
+	pixel_x = 3
+	},
+/obj/item/weapon/yautja/duelsword{
+	pixel_x = 10;
+	pixel_y = -1
+	},
+/obj/item/weapon/yautja/duelsword{
+	pixel_x = -2;
+	pixel_y = 3
+	},
+/obj/item/weapon/yautja/duelsword{
+	pixel_x = -6;
+	pixel_y = 7
+	},
+/obj/effect/hunter/bridge_border/brown/corner{
+	dir = 8
+	},
+/turf/open/shuttle/dropship/predship/hunter_catwalk_alt,
+/area/space)
+"bji" = (
+/obj/structure/surface/rack{
+	color = "#6b675e";
+	layer = 2.79
+	},
+/obj/item/weapon/yautja/duelclub{
+	pixel_x = 4
+	},
+/obj/item/weapon/yautja/duelclub{
+	pixel_y = 2
+	},
+/obj/item/weapon/yautja/duelclub{
+	pixel_x = -4;
+	pixel_y = 4
+	},
+/obj/item/weapon/yautja/duelclub{
+	pixel_x = -6;
+	pixel_y = 7
+	},
+/obj/effect/hunter/bridge_border/brown/corner{
+	dir = 4
+	},
+/turf/open/shuttle/dropship/predship/hunter_catwalk_alt,
+/area/space)
+"bjj" = (
+/obj/structure/surface/rack{
+	color = "#6b675e";
+	layer = 2.79
+	},
+/obj/item/weapon/yautja/duelclub{
+	pixel_x = 3;
+	pixel_y = -1
+	},
+/obj/item/weapon/yautja/duelclub{
+	pixel_x = -1;
+	pixel_y = 2
+	},
+/obj/item/weapon/yautja/duelclub{
+	pixel_x = -4;
+	pixel_y = 4
+	},
+/obj/item/weapon/yautja/duelclub{
+	pixel_x = -6;
+	pixel_y = 8
+	},
+/obj/effect/hunter/bridge_border/brown,
+/turf/open/shuttle/dropship/predship/hunter_catwalk_alt,
+/area/space)
+"bjk" = (
+/obj/effect/hunter/bridge_border/brown{
+	dir = 4
+	},
+/turf/open/shuttle/dropship/predship/hunter_catwalk_alt,
+/area/space)
+"bjl" = (
+/obj/structure/surface/rack{
+	color = "#6b675e";
+	layer = 2.79
+	},
+/obj/item/weapon/yautja/duelsword{
+	pixel_x = -6;
+	pixel_y = 7
+	},
+/obj/item/weapon/yautja/duelsword{
+	pixel_x = -9;
+	pixel_y = 10
+	},
+/obj/item/weapon/yautja/duelsword{
+	pixel_x = 12;
+	pixel_y = -3
+	},
+/obj/item/weapon/yautja/duelsword{
+	pixel_x = 8;
+	pixel_y = -1
+	},
+/obj/item/weapon/yautja/duelsword{
+	pixel_x = 4;
+	pixel_y = 2
+	},
+/obj/item/weapon/yautja/duelsword{
+	pixel_y = 3
+	},
+/obj/item/weapon/yautja/duelsword{
+	pixel_x = -3;
+	pixel_y = 5
+	},
+/obj/effect/hunter/bridge_border/brown/corner,
+/turf/open/shuttle/dropship/predship/hunter_catwalk_alt,
+/area/space)
+"bjm" = (
+/obj/structure/machinery/door/airlock/yautja/secure{
+	name = "\improper Prisoner Cell 1";
+	opacity = 0;
+	dir = 2
+	},
+/obj/structure/machinery/door/poddoor/yautja/open{
+	id = "prisonlockdown"
+	},
+/turf/open/floor/corsat/squares,
+/area/space)
+"bjn" = (
+/obj/structure/machinery/door/airlock/yautja/secure{
+	name = "\improper Prisoner Cell 2";
+	opacity = 0;
+	dir = 1
+	},
+/obj/structure/machinery/door/poddoor/yautja/open{
+	id = "prisonlockdown"
+	},
+/turf/open/floor/corsat/squares,
+/area/space)
+"bjo" = (
+/obj/effect/hunter/bridge_border/brown/edge{
+	dir = 4
+	},
+/turf/open/shuttle/dropship/predship/tile/red2,
+/area/space)
+"bjp" = (
+/obj/structure/platform_decoration/metal/hunter/west,
+/obj/effect/hunter/bridge_border/brown{
+	dir = 1
+	},
+/turf/open/shuttle/dropship/predship/tile/red3,
+/area/space)
+"bjq" = (
+/obj/effect/hunter/bridge_border/brown{
+	dir = 1
+	},
+/turf/open/shuttle/dropship/predship/tile/red2,
+/area/space)
+"bjr" = (
+/obj/effect/hunter/bridge_border/brown{
+	dir = 1
+	},
+/turf/open/shuttle/dropship/predship/tile/red3,
+/area/space)
+"bjs" = (
+/obj/effect/hunter/bridge_border/brown{
+	dir = 4;
+	layer = 3
+	},
+/turf/open/shuttle/dropship/predship/tile/red3,
+/area/space)
+"bjt" = (
+/obj/structure/prop/hunter/fake_platform/hunter,
+/obj/structure/prop/hunter/fake_platform/hunter/north,
+/obj/structure/prop/hunter/fake_platform/hunter/west,
+/obj/effect/hunter/catwalk/hunter_grate,
+/turf/open/shuttle/dropship/predship/red_glow/on,
+/area/space)
+"bju" = (
+/obj/structure/prop/hunter/fake_platform/hunter,
+/obj/structure/prop/hunter/fake_platform/hunter/north,
+/obj/effect/hunter/catwalk/hunter_grate,
+/turf/open/shuttle/dropship/predship/red_glow/on,
+/area/space)
+"bjv" = (
+/obj/structure/prop/hunter/fake_platform/hunter,
+/obj/structure/prop/hunter/fake_platform/hunter/north,
+/obj/structure/prop/hunter/fake_platform/hunter/east,
+/obj/effect/hunter/catwalk/hunter_grate,
+/turf/open/shuttle/dropship/predship/red_glow/on,
+/area/space)
+"bjw" = (
+/obj/effect/hunter/bridge_border/brown/edge{
+	dir = 8
+	},
+/obj/item/weapon/yautja/knife{
+	name = "sacred ceremonial dagger";
+	pixel_y = 34;
+	anchored = 1
+	},
+/obj/item/weapon/shield/riot/yautja{
+	anchored = 1;
+	layer = 2.9;
+	pixel_x = 17;
+	pixel_y = 32
+	},
+/obj/item/clothing/mask/gas/yautja/hunter{
+	pixel_y = 35;
+	anchored = 1;
+	pixel_x = 17
+	},
+/turf/open/shuttle/dropship/predship/tile/red2,
+/area/space)
+"bjx" = (
+/obj/structure/platform_decoration/metal/hunter,
+/obj/effect/hunter/bridge_border/brown{
+	dir = 8
+	},
+/obj/item/weapon/yautja/knife{
+	name = "sacred ceremonial dagger";
+	pixel_y = 34;
+	anchored = 1
+	},
+/turf/open/shuttle/dropship/predship/tile/red3,
+/area/space)
+"bjy" = (
+/obj/structure/prop/hunter/fake_platform/hunter,
+/obj/effect/hunter/bridge_border/brown{
+	dir = 8
+	},
+/turf/open/shuttle/dropship/predship/tile/red2,
+/area/space)
+"bjz" = (
+/obj/structure/showcase{
+	desc = null;
+	icon = 'icons/obj/structures/machinery/yautja_machines.dmi';
+	icon_state = "smallmonitor";
+	name = "Monitor";
+	pixel_y = 23;
+	pixel_x = 7;
+	density = 0
+	},
+/obj/effect/hunter/bridge_border/brown{
+	dir = 8
+	},
+/turf/open/shuttle/dropship/predship/tile/red2,
+/area/space)
+"bjA" = (
+/obj/structure/showcase{
+	desc = null;
+	icon = 'icons/obj/structures/machinery/yautja_machines.dmi';
+	icon_state = "smallmonitor";
+	name = "Monitor";
+	pixel_y = 23;
+	pixel_x = -6;
+	density = 0
+	},
+/obj/effect/hunter/bridge_border/brown{
+	dir = 8
+	},
+/turf/open/shuttle/dropship/predship/tile/red3,
+/area/space)
+"bjB" = (
+/obj/effect/hunter/bridge_border/brown{
+	dir = 8
+	},
+/turf/open/shuttle/dropship/predship/tile/red2,
+/area/space)
+"bjC" = (
+/obj/structure/platform_decoration/metal/hunter,
+/obj/effect/hunter/bridge_border/brown{
+	dir = 8
+	},
+/turf/open/shuttle/dropship/predship/tile/red3,
+/area/space)
+"bjD" = (
+/obj/effect/hunter/rune/corner{
+	dir = 1
+	},
+/obj/structure/machinery/door/poddoor/yautja/open{
+	id = "prisonlockdown"
+	},
+/turf/open/shuttle/dropship/predship/mainfloor/edge,
+/area/space)
+"bjE" = (
+/obj/effect/hunter/rune/corner,
+/obj/structure/machinery/door/poddoor/yautja/open{
+	id = "prisonlockdown"
+	},
+/turf/open/shuttle/dropship/predship/mainfloor/edge/west,
+/area/space)
+"bjF" = (
+/obj/structure/machinery/door/airlock/yautja/secure{
+	name = "\improper Prisoner Cell 5";
+	opacity = 0;
+	dir = 2
+	},
+/obj/structure/machinery/door/poddoor/yautja/open{
+	id = "prisonlockdown"
+	},
+/turf/open/floor/corsat/squares,
+/area/space)
 
 (1,1,1) = {"
 ayZ
@@ -82737,7 +83078,7 @@ aBe
 aBe
 aBP
 aBP
-abP
+ady
 ady
 ady
 ady
@@ -123133,9 +123474,9 @@ aqf
 aqf
 aqf
 aqf
-aqf
-aqf
-aqf
+ady
+ady
+ady
 aqf
 aqf
 aqf
@@ -123315,9 +123656,9 @@ aqf
 aqf
 aqf
 aqf
-aqf
-aqf
-aqf
+ady
+ady
+ady
 aqf
 aqf
 aqf
@@ -123495,14 +123836,14 @@ aqf
 alo
 alo
 alo
-alo
-alo
-alo
-alo
-alo
-alo
-alo
-alo
+ady
+ady
+ady
+ady
+ady
+ady
+ady
+ady
 alo
 alo
 alo
@@ -123677,14 +124018,14 @@ aqf
 alo
 alo
 alo
-alo
-alo
-alo
-alo
-alo
-alo
-alo
-alo
+ady
+ady
+ady
+ady
+ady
+ady
+ady
+ady
 alo
 alo
 alo
@@ -123859,14 +124200,14 @@ aqf
 alo
 alo
 alo
-alo
-alo
-alo
-alo
-alo
-alo
-alo
-alo
+ady
+ady
+ady
+ady
+ady
+ady
+ady
+ady
 alo
 alo
 alo
@@ -124041,14 +124382,14 @@ aqf
 alo
 alo
 alo
-alo
-alo
-alo
-alo
-alo
-alo
-alo
-alo
+atE
+atE
+atE
+atE
+atE
+atE
+atE
+atE
 alo
 alo
 alo
@@ -124223,14 +124564,14 @@ aqf
 alo
 alo
 alo
-alo
-alo
-alo
-alo
-alo
-alo
-alo
-alo
+atE
+bjw
+bjs
+bjo
+apn
+anO
+any
+atE
 alo
 alo
 alo
@@ -124405,14 +124746,14 @@ aqf
 alo
 alo
 alo
-alo
-alo
-alo
-alo
-alo
-alo
-alo
-alo
+atE
+bjx
+azl
+bjp
+bjm
+aoD
+anB
+atE
 alo
 alo
 alo
@@ -124587,15 +124928,15 @@ aqf
 alo
 alo
 alo
-alo
-alo
-alo
-alo
-alo
-alo
-alo
-alo
-alo
+bjD
+bjy
+aqR
+avN
+atE
+atE
+atE
+atE
+atE
 alo
 alo
 alo
@@ -124769,15 +125110,15 @@ aqf
 alo
 alo
 alo
-alo
-alo
-alo
-alo
-alo
-alo
-alo
-alo
-alo
+bjE
+azS
+bjt
+avQ
+atE
+bjl
+bjj
+bjh
+atE
 alo
 alo
 alo
@@ -124951,15 +125292,15 @@ aqf
 alo
 alo
 alo
-alo
-alo
-alo
-alo
-alo
-alo
-alo
-alo
-alo
+atE
+bjz
+bju
+bjq
+apx
+aoD
+bjk
+bji
+atE
 alo
 alo
 alo
@@ -125133,15 +125474,15 @@ aqf
 alo
 alo
 alo
-alo
-alo
-alo
-alo
-alo
-alo
-alo
-alo
-alo
+atE
+bjA
+bju
+bjr
+atE
+atE
+atE
+atE
+atE
 alo
 alo
 alo
@@ -125315,14 +125656,14 @@ aqf
 alo
 alo
 alo
-alo
-alo
-alo
-alo
-alo
-alo
-alo
-alo
+bjF
+bjB
+bju
+bjq
+apn
+anO
+any
+atE
 alo
 alo
 alo
@@ -125497,14 +125838,14 @@ aqf
 alo
 alo
 alo
-alo
-alo
-alo
-alo
-alo
-alo
-alo
-alo
+apn
+bjC
+bjv
+bjp
+bjn
+aoD
+anB
+atE
 alo
 alo
 alo
@@ -125679,14 +126020,14 @@ aqf
 alo
 alo
 alo
-alo
-alo
-alo
-alo
-alo
-alo
-alo
-alo
+atE
+azr
+aqR
+avN
+atE
+atE
+atE
+atE
 alo
 alo
 alo
@@ -125861,14 +126202,14 @@ aqf
 alo
 alo
 alo
-alo
-alo
-alo
-alo
-alo
-alo
-alo
-alo
+ady
+ady
+ady
+ady
+ady
+ady
+ady
+ady
 alo
 alo
 alo
@@ -126043,14 +126384,14 @@ aqf
 alo
 alo
 alo
-alo
-alo
-alo
-alo
-alo
-alo
-alo
-alo
+ady
+ady
+ady
+ady
+ady
+ady
+ady
+ady
 alo
 alo
 alo
@@ -126225,14 +126566,14 @@ aqf
 alo
 alo
 alo
-alo
-alo
-alo
-alo
-alo
-alo
-alo
-alo
+ady
+ady
+ady
+ady
+ady
+ady
+ady
+ady
 alo
 alo
 alo
@@ -126606,11 +126947,11 @@ aqf
 alo
 alo
 aPL
-aPL
-aPL
-aPL
-alo
-alo
+bjd
+bjb
+bjb
+bjb
+bjc
 alo
 aPL
 aPL
@@ -126783,16 +127124,16 @@ aSx
 aSx
 aSk
 aSk
-aSx
-aSx
-aSx
-aSx
-aSk
-aSk
-aSk
-aSk
-aSx
-aSx
+bjd
+bjb
+bjb
+bjb
+bjb
+aDP
+aDP
+aDP
+aDP
+biZ
 aSx
 aSk
 aSk
@@ -126965,18 +127306,18 @@ awk
 awk
 aSk
 aSk
-awk
-awk
-awk
-awk
-aSk
-aSk
-aSk
-aSk
-awk
-awk
-awk
-aSk
+bje
+aDP
+aDP
+aDP
+aDP
+aDP
+aDP
+aDP
+aDP
+aDP
+bjb
+biY
 aSk
 aSk
 aSk
@@ -127146,19 +127487,19 @@ aPL
 alo
 alo
 aPL
-aPL
-alo
-alo
-alo
-alo
-aPL
-aPL
-aPL
-aPL
-alo
-alo
-alo
-aPL
+bjf
+aDP
+aDP
+aDP
+aDP
+aDP
+aDP
+aDP
+aDP
+aDP
+aDP
+aDP
+biZ
 aPL
 aPL
 aPL
@@ -127327,7 +127668,7 @@ aPL
 aPL
 aPL
 aPL
-aPL
+bjf
 aDP
 aDP
 aDP
@@ -127341,7 +127682,7 @@ aDP
 aDP
 aDP
 aDP
-aPL
+biY
 aPL
 aPL
 aPL
@@ -127509,7 +127850,7 @@ aPL
 aPL
 aPL
 aPL
-aPL
+bje
 aDP
 aDP
 aDP
@@ -127523,7 +127864,7 @@ aDP
 aDP
 aDP
 aDP
-aPL
+biZ
 aPL
 aPL
 aPL
@@ -127691,7 +128032,7 @@ aPL
 aPL
 aPL
 aPL
-aPL
+bjg
 aDP
 aDP
 aDP
@@ -127705,7 +128046,7 @@ aDP
 aDP
 aDP
 aDP
-aPL
+bja
 aPL
 aPL
 aPL
@@ -127874,6 +128215,7 @@ aPL
 aPL
 aPL
 aPL
+bje
 aDP
 aDP
 aDP
@@ -127885,8 +128227,7 @@ aDP
 aDP
 aDP
 aDP
-aDP
-aDP
+biZ
 aPL
 aPL
 aPL
@@ -128056,6 +128397,7 @@ atE
 aPL
 aPL
 aPL
+bje
 aDP
 aDP
 aDP
@@ -128067,8 +128409,7 @@ aDP
 aDP
 aDP
 aDP
-aDP
-aDP
+biZ
 aPL
 aPL
 aPL
@@ -128238,6 +128579,7 @@ aqR
 aPL
 aPL
 aPL
+bje
 aDP
 aDP
 aDP
@@ -128249,8 +128591,7 @@ aDP
 aDP
 aDP
 aDP
-aDP
-aDP
+biZ
 aPL
 aPL
 aPL
@@ -128417,9 +128758,9 @@ auq
 asV
 arr
 aqT
-alo
-alo
-alo
+ady
+ady
+ady
 aDP
 aDP
 aDP
@@ -128599,21 +128940,21 @@ adH
 ata
 arv
 aqW
-alo
-alo
-alo
-alo
-alo
-alo
-alo
-alo
-alo
-alo
-alo
-alo
-alo
-alo
-alo
+ady
+ady
+ady
+ady
+ady
+ady
+ady
+ady
+ady
+ady
+ady
+ady
+ady
+ady
+ady
 alo
 alo
 aPL
@@ -128781,21 +129122,21 @@ auD
 adr
 ary
 ara
-alo
-alo
-alo
-alo
-alo
-alo
-alo
-alo
-alo
-alo
-alo
-alo
-alo
-alo
-alo
+ady
+ady
+ady
+ady
+ady
+ady
+ady
+ady
+ady
+ady
+ady
+ady
+ady
+ady
+ady
 alo
 alo
 aPL
@@ -128963,21 +129304,21 @@ avi
 atr
 arA
 arc
-alo
-alo
-alo
-alo
-alo
-alo
-alo
-alo
-alo
-alo
-alo
-alo
-alo
-alo
-alo
+ady
+ady
+ady
+ady
+ady
+ady
+ady
+ady
+ady
+ady
+ady
+ady
+ady
+ady
+ady
 alo
 alo
 aPL
@@ -129145,21 +129486,21 @@ avr
 atD
 arD
 arf
-alo
-alo
-alo
-alo
-alo
-alo
-alo
-alo
-alo
-alo
-alo
-alo
-alo
-alo
-alo
+ady
+ady
+ady
+ady
+ady
+ady
+ady
+ady
+ady
+ady
+ady
+ady
+ady
+ady
+ady
 alo
 alo
 aPL
