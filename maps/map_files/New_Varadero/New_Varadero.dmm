@@ -15792,9 +15792,6 @@
 	},
 /turf/open/floor/plating/plating_catwalk/prison,
 /area/almayer/engineering/lower/engine_monitoring)
-"aTU" = (
-/turf/open/gm/river/ocean/deep_ocean,
-/area/varadero/exterior/farocean)
 "aTV" = (
 /turf/open/floor/shiva,
 /area/bigred/ground/chapel)
@@ -77166,7 +77163,7 @@ aug
 "}
 (58,1,2) = {"
 aug
-ayZ
+aCt
 aCt
 aCt
 aCt
@@ -77348,7 +77345,7 @@ aug
 "}
 (59,1,2) = {"
 aug
-ayZ
+aCt
 aCt
 aCt
 aCt
@@ -77530,7 +77527,7 @@ aug
 "}
 (60,1,2) = {"
 aug
-ayZ
+aCt
 aCt
 aCt
 aCt
@@ -77712,7 +77709,7 @@ aug
 "}
 (61,1,2) = {"
 aug
-ayZ
+aCt
 aCt
 aCt
 aCt
@@ -77894,7 +77891,7 @@ aug
 "}
 (62,1,2) = {"
 aug
-ayZ
+aCt
 aCt
 aCt
 aCt
@@ -78076,7 +78073,7 @@ aug
 "}
 (63,1,2) = {"
 aug
-ayZ
+aCt
 aCt
 aCt
 aCt
@@ -78258,7 +78255,7 @@ aug
 "}
 (64,1,2) = {"
 aug
-ayZ
+aCt
 aCt
 aCt
 aCt
@@ -78440,7 +78437,7 @@ aug
 "}
 (65,1,2) = {"
 aug
-ayZ
+aCt
 aCt
 aCt
 aCt
@@ -78622,7 +78619,7 @@ aug
 "}
 (66,1,2) = {"
 aug
-ayZ
+aCt
 aCt
 aCt
 aCt
@@ -78804,7 +78801,7 @@ aug
 "}
 (67,1,2) = {"
 aug
-ayZ
+aCt
 aCt
 aCt
 aCt
@@ -78986,7 +78983,7 @@ aug
 "}
 (68,1,2) = {"
 aug
-ayZ
+aCt
 aCt
 aCt
 aCt
@@ -79168,7 +79165,7 @@ aug
 "}
 (69,1,2) = {"
 aug
-ayZ
+aCt
 aCt
 aCt
 aCt
@@ -79350,7 +79347,7 @@ aug
 "}
 (70,1,2) = {"
 aug
-ayZ
+aCt
 aCt
 aCt
 aCt
@@ -79532,7 +79529,7 @@ aug
 "}
 (71,1,2) = {"
 aug
-ayZ
+aCt
 aCt
 aCt
 aCt
@@ -79714,7 +79711,7 @@ aug
 "}
 (72,1,2) = {"
 aug
-ayZ
+aCt
 aCt
 aCt
 aCt
@@ -79896,7 +79893,7 @@ aug
 "}
 (73,1,2) = {"
 aug
-ayZ
+aCt
 aCt
 aCt
 aCt
@@ -80078,7 +80075,7 @@ aug
 "}
 (74,1,2) = {"
 aug
-ayZ
+aCt
 aCt
 aCt
 aCt
@@ -80260,7 +80257,7 @@ aug
 "}
 (75,1,2) = {"
 aug
-ayZ
+aCt
 aCt
 aCt
 aCt
@@ -80442,7 +80439,7 @@ aug
 "}
 (76,1,2) = {"
 aug
-ayZ
+aCt
 aCt
 aCt
 aCt
@@ -80624,7 +80621,7 @@ aug
 "}
 (77,1,2) = {"
 aug
-ayZ
+aCt
 aCt
 aCt
 aCt
@@ -80806,7 +80803,7 @@ aug
 "}
 (78,1,2) = {"
 aug
-ayZ
+aCt
 aCt
 aCt
 aCt
@@ -80988,7 +80985,7 @@ aug
 "}
 (79,1,2) = {"
 aug
-ayZ
+aCt
 aCt
 aCt
 aCt
@@ -81170,7 +81167,7 @@ aug
 "}
 (80,1,2) = {"
 aug
-ayZ
+aCt
 aCt
 aCt
 aCt
@@ -81352,7 +81349,7 @@ aug
 "}
 (81,1,2) = {"
 aug
-ayZ
+aCt
 aCt
 aCt
 aCt
@@ -81534,7 +81531,7 @@ aug
 "}
 (82,1,2) = {"
 aug
-ayZ
+aCt
 aCt
 aCt
 aCt
@@ -81716,7 +81713,7 @@ aug
 "}
 (83,1,2) = {"
 aug
-ayZ
+aCt
 aCt
 aCt
 aCt
@@ -81898,7 +81895,7 @@ aug
 "}
 (84,1,2) = {"
 aug
-ayZ
+aCt
 aCt
 aCt
 aCt
@@ -82080,7 +82077,7 @@ aug
 "}
 (85,1,2) = {"
 aug
-ayZ
+aCt
 aCt
 aCt
 aCt
@@ -82262,7 +82259,7 @@ aug
 "}
 (86,1,2) = {"
 aug
-ayZ
+aCt
 aCt
 aCt
 aCt
@@ -82444,7 +82441,7 @@ aug
 "}
 (87,1,2) = {"
 aug
-ayZ
+aCt
 aCt
 aCt
 aCt
@@ -82626,7 +82623,7 @@ aug
 "}
 (88,1,2) = {"
 aug
-ayZ
+aCt
 aCt
 aCt
 aCt
@@ -82808,7 +82805,7 @@ aug
 "}
 (89,1,2) = {"
 aug
-ayZ
+aCt
 aCt
 aCt
 aCt
@@ -82990,7 +82987,7 @@ aug
 "}
 (90,1,2) = {"
 aug
-ayZ
+aCt
 aCt
 aCt
 aCt
@@ -83172,7 +83169,7 @@ aug
 "}
 (91,1,2) = {"
 aug
-ayZ
+aCt
 aCt
 aCt
 aCt
@@ -83354,7 +83351,7 @@ aug
 "}
 (92,1,2) = {"
 aug
-ayZ
+aCt
 aCt
 aCt
 aCt
@@ -83536,7 +83533,7 @@ aug
 "}
 (93,1,2) = {"
 aug
-ayZ
+aCt
 aCt
 aCt
 aCt
@@ -83718,7 +83715,7 @@ aug
 "}
 (94,1,2) = {"
 aug
-ayZ
+aCt
 aCt
 aCt
 aCt
@@ -83900,7 +83897,7 @@ aug
 "}
 (95,1,2) = {"
 aug
-ayZ
+aCt
 aCt
 aCt
 aCt
@@ -84082,7 +84079,7 @@ aug
 "}
 (96,1,2) = {"
 aug
-ayZ
+aCt
 aCt
 aCt
 aCt
@@ -84264,7 +84261,7 @@ aug
 "}
 (97,1,2) = {"
 aug
-ayZ
+aCt
 aCt
 aCt
 aCt
@@ -84446,7 +84443,7 @@ aug
 "}
 (98,1,2) = {"
 aug
-ayZ
+aCt
 aCt
 aCt
 aCt
@@ -84628,7 +84625,7 @@ aug
 "}
 (99,1,2) = {"
 aug
-ayZ
+aCt
 aCt
 aCt
 aCt
@@ -84810,7 +84807,7 @@ aug
 "}
 (100,1,2) = {"
 aug
-ayZ
+aCt
 aCt
 aCt
 aCt
@@ -84992,7 +84989,7 @@ aug
 "}
 (101,1,2) = {"
 aug
-ayZ
+aCt
 aCt
 aCt
 aCt
@@ -85174,7 +85171,7 @@ aug
 "}
 (102,1,2) = {"
 aug
-ayZ
+aCt
 aCt
 aCt
 aCt
@@ -85356,7 +85353,7 @@ aug
 "}
 (103,1,2) = {"
 aug
-ayZ
+aCt
 aCt
 aCt
 aCt
@@ -85538,7 +85535,7 @@ aug
 "}
 (104,1,2) = {"
 aug
-ayZ
+aCt
 aCt
 aCt
 aCt
@@ -85720,7 +85717,7 @@ aug
 "}
 (105,1,2) = {"
 aug
-ayZ
+aCt
 aCt
 aCt
 aCt
@@ -85902,7 +85899,7 @@ aug
 "}
 (106,1,2) = {"
 aug
-ayZ
+aCt
 aCt
 aCt
 aCt
@@ -86084,7 +86081,7 @@ aug
 "}
 (107,1,2) = {"
 aug
-ayZ
+aCt
 aCt
 aCt
 aCt
@@ -86266,7 +86263,7 @@ aug
 "}
 (108,1,2) = {"
 aug
-ayZ
+aCt
 aCt
 aCt
 aCt
@@ -86448,7 +86445,7 @@ aug
 "}
 (109,1,2) = {"
 aug
-ayZ
+aCt
 aCt
 aCt
 aCt
@@ -86630,7 +86627,7 @@ aug
 "}
 (110,1,2) = {"
 aug
-ayZ
+aCt
 aCt
 aCt
 aCt
@@ -86812,7 +86809,7 @@ aug
 "}
 (111,1,2) = {"
 aug
-aTU
+ahB
 ahB
 ahB
 ahB
@@ -86994,7 +86991,7 @@ aug
 "}
 (112,1,2) = {"
 aug
-aTU
+ahB
 ahB
 ahB
 ahB
@@ -87176,7 +87173,7 @@ aug
 "}
 (113,1,2) = {"
 aug
-aTU
+ahB
 ahB
 ahB
 ahB
@@ -87358,7 +87355,7 @@ aug
 "}
 (114,1,2) = {"
 aug
-aTU
+ahB
 ahB
 ahB
 ahB
@@ -87540,7 +87537,7 @@ aug
 "}
 (115,1,2) = {"
 aug
-aTU
+ahB
 ahB
 ahB
 ahB
@@ -87722,7 +87719,7 @@ aug
 "}
 (116,1,2) = {"
 aug
-aTU
+ahB
 ahB
 ahB
 ahB
@@ -87904,7 +87901,7 @@ aug
 "}
 (117,1,2) = {"
 aug
-aTU
+ahB
 ahB
 ahB
 ahB
@@ -88086,7 +88083,7 @@ aug
 "}
 (118,1,2) = {"
 aug
-aTU
+ahB
 ahB
 ahB
 ahB
@@ -88268,7 +88265,7 @@ aug
 "}
 (119,1,2) = {"
 aug
-aTU
+ahB
 ahB
 ahB
 ahB
@@ -88450,7 +88447,7 @@ aug
 "}
 (120,1,2) = {"
 aug
-aTU
+ahB
 ahB
 ahB
 ahB
@@ -88632,7 +88629,7 @@ aug
 "}
 (121,1,2) = {"
 aug
-aTU
+ahB
 ahB
 ahB
 ahB
@@ -88814,7 +88811,7 @@ aug
 "}
 (122,1,2) = {"
 aug
-aTU
+ahB
 ahB
 ahB
 ahB
@@ -88996,7 +88993,7 @@ aug
 "}
 (123,1,2) = {"
 aug
-aTU
+ahB
 ahB
 ahB
 ahB
@@ -89178,7 +89175,7 @@ aug
 "}
 (124,1,2) = {"
 aug
-aTU
+ahB
 ahB
 ahB
 ahB
@@ -89360,7 +89357,7 @@ aug
 "}
 (125,1,2) = {"
 aug
-aTU
+ahB
 ahB
 ahB
 ahB
@@ -89542,7 +89539,7 @@ aug
 "}
 (126,1,2) = {"
 aug
-aTU
+ahB
 ahB
 ahB
 ahB
@@ -89724,7 +89721,7 @@ aug
 "}
 (127,1,2) = {"
 aug
-aTU
+ahB
 ahB
 ahB
 ahB
@@ -89906,7 +89903,7 @@ aug
 "}
 (128,1,2) = {"
 aug
-aTU
+ahB
 ahB
 ahB
 ahB
@@ -90088,7 +90085,7 @@ aug
 "}
 (129,1,2) = {"
 aug
-aTU
+ahB
 ahB
 ahB
 ahB
@@ -90270,7 +90267,7 @@ aug
 "}
 (130,1,2) = {"
 aug
-aTU
+ahB
 ahB
 ahB
 ahB
@@ -90452,7 +90449,7 @@ aug
 "}
 (131,1,2) = {"
 aug
-aTU
+ahB
 ahB
 ahB
 ahB
@@ -90634,7 +90631,7 @@ aug
 "}
 (132,1,2) = {"
 aug
-aTU
+ahB
 ahB
 ahB
 ahB
@@ -90816,7 +90813,7 @@ aug
 "}
 (133,1,2) = {"
 aug
-aTU
+ahB
 ahB
 ahB
 ahB
@@ -90998,7 +90995,7 @@ aug
 "}
 (134,1,2) = {"
 aug
-aTU
+ahB
 ahB
 ahB
 ahB
@@ -91180,7 +91177,7 @@ aug
 "}
 (135,1,2) = {"
 aug
-aTU
+ahB
 ahB
 ahB
 ahB
@@ -91362,7 +91359,7 @@ aug
 "}
 (136,1,2) = {"
 aug
-aTU
+ahB
 ahB
 ahB
 ahB
@@ -91544,7 +91541,7 @@ aug
 "}
 (137,1,2) = {"
 aug
-aTU
+ahB
 ahB
 ahB
 ahB
@@ -91726,7 +91723,7 @@ aug
 "}
 (138,1,2) = {"
 aug
-aTU
+ahB
 ahB
 ahB
 ahB
@@ -91908,7 +91905,7 @@ aug
 "}
 (139,1,2) = {"
 aug
-aTU
+ahB
 ahB
 ahB
 ahB
@@ -92090,7 +92087,7 @@ aug
 "}
 (140,1,2) = {"
 aug
-aTU
+ahB
 ahB
 ahB
 ahB
@@ -92272,7 +92269,7 @@ aug
 "}
 (141,1,2) = {"
 aug
-aTU
+ahB
 ahB
 ahB
 ahB
@@ -92454,7 +92451,7 @@ aug
 "}
 (142,1,2) = {"
 aug
-aTU
+ahB
 ahB
 ahB
 ahB
@@ -92636,7 +92633,7 @@ aug
 "}
 (143,1,2) = {"
 aug
-aTU
+ahB
 ahB
 ahB
 ahB
@@ -92818,7 +92815,7 @@ aug
 "}
 (144,1,2) = {"
 aug
-aTU
+ahB
 ahB
 ahB
 ahB
@@ -93000,7 +92997,7 @@ aug
 "}
 (145,1,2) = {"
 aug
-aTU
+ahB
 ahB
 ahB
 ahB
@@ -93182,7 +93179,7 @@ aug
 "}
 (146,1,2) = {"
 aug
-aTU
+ahB
 ahB
 ahB
 ahB
@@ -93364,7 +93361,7 @@ aug
 "}
 (147,1,2) = {"
 aug
-aTU
+ahB
 ahB
 ahB
 ahB
@@ -93546,7 +93543,7 @@ aug
 "}
 (148,1,2) = {"
 aug
-aTU
+ahB
 ahB
 ahB
 ahB
@@ -93728,7 +93725,7 @@ aug
 "}
 (149,1,2) = {"
 aug
-aTU
+ahB
 ahB
 ahB
 ahB
@@ -93910,7 +93907,7 @@ aug
 "}
 (150,1,2) = {"
 aug
-aTU
+ahB
 ahB
 ahB
 ahB
@@ -94092,7 +94089,7 @@ aug
 "}
 (151,1,2) = {"
 aug
-aTU
+ahB
 ahB
 ahB
 ahB
@@ -94274,7 +94271,7 @@ aug
 "}
 (152,1,2) = {"
 aug
-aTU
+ahB
 ahB
 ahB
 ahB
@@ -94456,7 +94453,7 @@ aug
 "}
 (153,1,2) = {"
 aug
-aTU
+ahB
 ahB
 ahB
 ahB
@@ -94638,7 +94635,7 @@ aug
 "}
 (154,1,2) = {"
 aug
-aTU
+ahB
 ahB
 ahB
 ahB
@@ -94820,7 +94817,7 @@ aug
 "}
 (155,1,2) = {"
 aug
-aTU
+ahB
 ahB
 ahB
 ahB
@@ -95002,7 +94999,7 @@ aug
 "}
 (156,1,2) = {"
 aug
-aTU
+ahB
 ahB
 ahB
 ahB
@@ -95184,7 +95181,7 @@ aug
 "}
 (157,1,2) = {"
 aug
-aTU
+ahB
 ahB
 ahB
 ahB
@@ -95366,7 +95363,7 @@ aug
 "}
 (158,1,2) = {"
 aug
-aTU
+ahB
 ahB
 ahB
 ahB
@@ -95548,7 +95545,7 @@ aug
 "}
 (159,1,2) = {"
 aug
-aTU
+ahB
 ahB
 ahB
 ahB
@@ -95730,7 +95727,7 @@ aug
 "}
 (160,1,2) = {"
 aug
-aTU
+ahB
 ahB
 ahB
 ahB
@@ -95912,7 +95909,7 @@ aug
 "}
 (161,1,2) = {"
 aug
-aTU
+ahB
 ahB
 ahB
 ahB
@@ -96094,7 +96091,7 @@ aug
 "}
 (162,1,2) = {"
 aug
-aTU
+ahB
 ahB
 ahB
 ahB
@@ -96276,7 +96273,7 @@ aug
 "}
 (163,1,2) = {"
 aug
-aTU
+ahB
 ahB
 ahB
 ahB
@@ -96458,7 +96455,7 @@ aug
 "}
 (164,1,2) = {"
 aug
-aTU
+ahB
 ahB
 ahB
 ahB
@@ -96640,7 +96637,7 @@ aug
 "}
 (165,1,2) = {"
 aug
-aTU
+ahB
 ahB
 ahB
 ahB
@@ -96822,7 +96819,7 @@ aug
 "}
 (166,1,2) = {"
 aug
-aTU
+ahB
 ahB
 ahB
 ahB
@@ -97004,7 +97001,7 @@ aug
 "}
 (167,1,2) = {"
 aug
-aTU
+ahB
 ahB
 ahB
 ahB
@@ -97186,7 +97183,7 @@ aug
 "}
 (168,1,2) = {"
 aug
-aTU
+ahB
 ahB
 ahB
 ahB
@@ -97368,7 +97365,7 @@ aug
 "}
 (169,1,2) = {"
 aug
-aTU
+ahB
 ahB
 ahB
 ahB
@@ -97550,7 +97547,7 @@ aug
 "}
 (170,1,2) = {"
 aug
-aTU
+ahB
 ahB
 ahB
 ahB
@@ -97732,7 +97729,7 @@ aug
 "}
 (171,1,2) = {"
 aug
-aTU
+ahB
 ahB
 ahB
 ahB
@@ -97914,7 +97911,7 @@ aug
 "}
 (172,1,2) = {"
 aug
-aTU
+ahB
 ahB
 ahB
 ahB
@@ -98096,7 +98093,7 @@ aug
 "}
 (173,1,2) = {"
 aug
-aTU
+ahB
 ahB
 ahB
 ahB
@@ -98278,7 +98275,7 @@ aug
 "}
 (174,1,2) = {"
 aug
-aTU
+ahB
 ahB
 ahB
 ahB
@@ -98460,7 +98457,7 @@ aug
 "}
 (175,1,2) = {"
 aug
-aTU
+ahB
 ahB
 ahB
 ahB
@@ -98642,7 +98639,7 @@ aug
 "}
 (176,1,2) = {"
 aug
-aTU
+ahB
 ahB
 ahB
 ahB
@@ -98824,7 +98821,7 @@ aug
 "}
 (177,1,2) = {"
 aug
-aTU
+ahB
 ahB
 ahB
 ahB
@@ -99006,7 +99003,7 @@ aug
 "}
 (178,1,2) = {"
 aug
-aTU
+ahB
 ahB
 ahB
 ahB
@@ -99188,7 +99185,7 @@ aug
 "}
 (179,1,2) = {"
 aug
-aTU
+ahB
 ahB
 ahB
 ahB
