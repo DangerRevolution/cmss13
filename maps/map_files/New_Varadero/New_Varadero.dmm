@@ -8839,6 +8839,11 @@
 	},
 /turf/open/floor/prison/darkpurple2/northwest,
 /area/space)
+"aAp" = (
+/obj/structure/platform/stone/hybrisa/rockdark,
+/obj/structure/platform/stone/hybrisa/rockdark/west,
+/turf/open_space,
+/area/space)
 "aAq" = (
 /obj/effect/decal/hybrisa/road/lines2,
 /obj/effect/decal/hybrisa/road/lines1{
@@ -11128,6 +11133,10 @@
 	},
 /turf/open/floor/shiva/red/northwest,
 /area/lv759/indoors/colonial_marshals/prisoners_cells)
+"aGQ" = (
+/obj/structure/platform/stone/hybrisa/rockdark,
+/turf/open_space,
+/area/space)
 "aGR" = (
 /obj/structure/surface/table/reinforced/prison,
 /turf/open/floor/shiva/redfull/west,
@@ -13120,6 +13129,11 @@
 	pixel_y = -1
 	},
 /turf/open/floor/shiva,
+/area/space)
+"aNa" = (
+/obj/structure/platform/stone/hybrisa/rockdark,
+/obj/structure/platform/stone/hybrisa/rockdark/east,
+/turf/open_space,
 /area/space)
 "aNb" = (
 /obj/effect/decal/hybrisa/road/lines2,
@@ -16387,6 +16401,10 @@
 /obj/structure/sign/safety/bridge,
 /turf/closed/wall/new_varadero,
 /area/space)
+"aVu" = (
+/obj/structure/platform/stone/hybrisa/rockdark/west,
+/turf/open_space,
+/area/space)
 "aVv" = (
 /obj/effect/decal/floor_symbol/wy_3x1{
 	dir = 8
@@ -16411,6 +16429,11 @@
 "aVA" = (
 /obj/structure/window/framed/colony,
 /turf/open/floor/shiva/wred/west,
+/area/space)
+"aVB" = (
+/obj/structure/platform/stone/hybrisa/rockdark/west,
+/obj/structure/platform/stone/hybrisa/rockdark,
+/turf/open_space,
 /area/space)
 "aVC" = (
 /obj/structure/bed/chair{
@@ -16465,6 +16488,11 @@
 /obj/structure/catwalk/bigred,
 /obj/structure/lattice,
 /turf/open/gm/river/ocean/deep_ocean,
+/area/space)
+"aVL" = (
+/obj/structure/platform/stone/hybrisa/rockdark/west,
+/obj/structure/platform/stone/hybrisa/rockdark/north,
+/turf/open_space,
 /area/space)
 "aVM" = (
 /obj/structure/closet/wardrobe/engineering_yellow,
@@ -16617,6 +16645,10 @@
 	},
 /turf/open/gm/river/ocean/deep_ocean,
 /area/space)
+"aWk" = (
+/obj/structure/platform/stone/hybrisa/rockdark/north,
+/turf/open_space,
+/area/space)
 "aWl" = (
 /obj/structure/roof/hybrisa/lattice_prop/lattice_3,
 /obj/structure/barricade/handrail/hybrisa/handrail{
@@ -16628,6 +16660,11 @@
 /obj/structure/window/framed/new_varadero/foundation/reinforced/hull,
 /turf/open_space,
 /area/space)
+"aWn" = (
+/obj/structure/platform/stone/hybrisa/rockdark/north,
+/obj/structure/platform/stone/hybrisa/rockdark/west,
+/turf/open_space,
+/area/space)
 "aWo" = (
 /obj/structure/window/framed/new_varadero/foundation/reinforced/hull,
 /turf/open/floor/plating,
@@ -16635,6 +16672,11 @@
 "aWp" = (
 /obj/structure/prop/almayer/computers/sensor_computer2,
 /turf/open/floor/darkpurple2/north,
+/area/space)
+"aWq" = (
+/obj/structure/platform/stone/hybrisa/rockdark/north,
+/obj/structure/platform/stone/hybrisa/rockdark/east,
+/turf/open_space,
 /area/space)
 "aWr" = (
 /obj/structure/prop/almayer/computers/sensor_computer3,
@@ -82070,7 +82112,7 @@ aBe
 aBe
 aBP
 aBP
-abP
+aSX
 ady
 ady
 ady
@@ -125939,11 +125981,11 @@ aqf
 alo
 alo
 aPL
-aPL
-aPL
-aPL
-alo
-alo
+aVL
+aVu
+aVu
+aVu
+aVB
 alo
 aPL
 aPL
@@ -126116,16 +126158,16 @@ aSx
 aSx
 aSk
 aSk
-aSx
-aSx
-aSx
-aSx
-aSk
-aSk
-aSk
-aSk
-aSx
-aSx
+aVL
+aVu
+aVu
+aVu
+aVu
+aDP
+aDP
+aDP
+aDP
+aGQ
 aSx
 aSk
 aSk
@@ -126298,18 +126340,18 @@ awk
 awk
 aSk
 aSk
-awk
-awk
-awk
-awk
-aSk
-aSk
-aSk
-aSk
-awk
-awk
-awk
-aSk
+aWk
+aDP
+aDP
+aDP
+aDP
+aDP
+aDP
+aDP
+aDP
+aDP
+aVu
+aAp
 aSk
 aSk
 aSk
@@ -126479,19 +126521,19 @@ aPL
 alo
 alo
 aPL
-aPL
-alo
-alo
-alo
-alo
-aPL
-aPL
-aPL
-aPL
-alo
-alo
-alo
-aPL
+aWn
+aDP
+aDP
+aDP
+aDP
+aDP
+aDP
+aDP
+aDP
+aDP
+aDP
+aDP
+aGQ
 aPL
 aPL
 aPL
@@ -126660,7 +126702,7 @@ aPL
 aPL
 aPL
 aPL
-aPL
+aWn
 aDP
 aDP
 aDP
@@ -126674,7 +126716,7 @@ aDP
 aDP
 aDP
 aDP
-aPL
+aAp
 aPL
 aPL
 aPL
@@ -126842,7 +126884,7 @@ aPL
 aPL
 aPL
 aPL
-aPL
+aWk
 aDP
 aDP
 aDP
@@ -126856,7 +126898,7 @@ aDP
 aDP
 aDP
 aDP
-aPL
+aGQ
 aPL
 aPL
 aPL
@@ -127024,7 +127066,7 @@ aPL
 aPL
 aPL
 aPL
-aPL
+aWq
 aDP
 aDP
 aDP
@@ -127038,7 +127080,7 @@ aDP
 aDP
 aDP
 aDP
-aPL
+aNa
 aPL
 aPL
 aPL
@@ -127207,6 +127249,7 @@ aPL
 aPL
 aPL
 aPL
+aWk
 aDP
 aDP
 aDP
@@ -127218,8 +127261,7 @@ aDP
 aDP
 aDP
 aDP
-aDP
-aDP
+aGQ
 aPL
 aPL
 aPL
@@ -127389,6 +127431,7 @@ atE
 aPL
 aPL
 aPL
+aWk
 aDP
 aDP
 aDP
@@ -127400,8 +127443,7 @@ aDP
 aDP
 aDP
 aDP
-aDP
-aDP
+aGQ
 aPL
 aPL
 aPL
@@ -127750,9 +127792,9 @@ auq
 asV
 arr
 aqT
-alo
-alo
-alo
+ady
+ady
+ady
 aDP
 aDP
 aDP
@@ -127932,21 +127974,21 @@ adH
 ata
 arv
 aqW
-alo
-alo
-alo
-alo
-alo
-alo
-alo
-alo
-alo
-alo
-alo
-alo
-alo
-alo
-alo
+ady
+ady
+ady
+ady
+ady
+ady
+ady
+ady
+ady
+ady
+ady
+ady
+ady
+ady
+ady
 alo
 alo
 aPL
@@ -128114,21 +128156,21 @@ auD
 adr
 ary
 ara
-alo
-alo
-alo
-alo
-alo
-alo
-alo
-alo
-alo
-alo
-alo
-alo
-alo
-alo
-alo
+ady
+ady
+ady
+ady
+ady
+ady
+ady
+ady
+ady
+ady
+ady
+ady
+ady
+ady
+ady
 alo
 alo
 aPL
@@ -128296,21 +128338,21 @@ avi
 atr
 arA
 arc
-alo
-alo
-alo
-alo
-alo
-alo
-alo
-alo
-alo
-alo
-alo
-alo
-alo
-alo
-alo
+ady
+ady
+ady
+ady
+ady
+ady
+ady
+ady
+ady
+ady
+ady
+ady
+ady
+ady
+ady
 alo
 alo
 aPL
@@ -128478,21 +128520,21 @@ avr
 atD
 arD
 arf
-alo
-alo
-alo
-alo
-alo
-alo
-alo
-alo
-alo
-alo
-alo
-alo
-alo
-alo
-alo
+ady
+ady
+ady
+ady
+ady
+ady
+ady
+ady
+ady
+ady
+ady
+ady
+ady
+ady
+ady
 alo
 alo
 aPL
