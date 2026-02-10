@@ -183,6 +183,9 @@
 /obj/structure/closet/crate/miningcar,
 /turf/open/floor/shiva/red/east,
 /area/space)
+"aaH" = (
+/turf/closed/wall/rock/brown,
+/area/varadero/interior_protected/caves/central)
 "aaI" = (
 /obj/structure/curtain/colorable_transparent{
 	color = "#5a5a5a";
@@ -69594,8 +69597,8 @@ aaN
 aaN
 aaN
 aaN
-aaN
-aaN
+aaH
+aaH
 aaN
 aaN
 aaN
@@ -69775,10 +69778,10 @@ aaN
 aaN
 aaN
 aaN
-aaN
-aaN
-aaN
-aaN
+aaH
+aaH
+aaH
+aaH
 aaN
 aaN
 aaN
@@ -69956,12 +69959,12 @@ aaN
 aaN
 aaN
 aaN
-aaN
-aaN
-aaN
-aaN
-aaN
-aaN
+aaH
+aaH
+aaH
+aaH
+aaH
+aaH
 aaN
 aaN
 aaN
@@ -70139,10 +70142,10 @@ aaN
 aaN
 aaN
 aaN
-aaN
-aaN
-aaN
-aaN
+aaH
+aaH
+aaH
+aaH
 aaN
 aaN
 aaN
@@ -70322,8 +70325,8 @@ aaN
 aaN
 aaN
 aaN
-aaN
-aaN
+aaH
+aaH
 aaN
 aaN
 aaN
