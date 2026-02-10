@@ -1037,12 +1037,28 @@
 /obj/structure/fence/slim,
 /turf/open/auto_turf/sand_white/layer1,
 /area/space)
+"adq" = (
+/obj/effect/decal/sand_overlay/sand1,
+/turf/open/auto_turf/sand_white/layer1,
+/area/space)
+"adr" = (
+/turf/open/floor/predship/hull/non_weedable_hull,
+/area/space)
+"ads" = (
+/turf/open/floor/predship/hull/non_weedable_hull/southeast,
+/area/space)
 "adt" = (
 /obj/structure/desertdam/decals/road_stop{
 	icon_state = "stop_decal3";
 	pixel_x = 9
 	},
 /turf/open/asphalt,
+/area/space)
+"adu" = (
+/obj/effect/decal/sand_overlay/sand1{
+	dir = 10
+	},
+/turf/open/auto_turf/sand_white/layer1,
 /area/space)
 "adv" = (
 /obj/structure/pipes/standard/simple/hidden/green{
@@ -1066,9 +1082,15 @@
 /obj/structure/prop/static_tank/fuel,
 /turf/open/floor/almayer/blackfull/west,
 /area/space)
+"ady" = (
+/turf/open/floor/plating/burnt_platingdmg3,
+/area/space)
 "adz" = (
 /turf/open/floor/shiva,
 /area/lv759/indoors/colonial_marshals/prisoners_cells)
+"adA" = (
+/turf/open/floor/predship/hull/non_weedable_hull/northwest,
+/area/space)
 "adB" = (
 /obj/structure/surface/table/almayer,
 /obj/structure/machinery/reagentgrinder{
@@ -1083,6 +1105,18 @@
 	},
 /turf/open/floor/almayer/blackfull/west,
 /area/space)
+"adD" = (
+/obj/effect/decal/sand_overlay/sand1{
+	dir = 4
+	},
+/turf/open/auto_turf/sand_white/layer1,
+/area/space)
+"adE" = (
+/obj/structure/machinery/prop/almayer/CICmap/yautja{
+	pixel_y = 3
+	},
+/turf/open/floor/corsat/squares,
+/area/space)
 "adF" = (
 /obj/effect/decal/hybrisa/road/lines4,
 /obj/structure/desertdam/decals/road_edge{
@@ -1090,10 +1124,60 @@
 	},
 /turf/open/asphalt,
 /area/space)
+"adG" = (
+/obj/structure/bed/chair/hunter{
+	pixel_x = -15;
+	buckling_x = -15
+	},
+/turf/open/floor/corsat/squares,
+/area/space)
+"adH" = (
+/turf/open/floor/predship/hull/non_weedable_hull/west,
+/area/space)
+"adI" = (
+/obj/structure/surface/table/reinforced/prison{
+	color = "#6b675e"
+	},
+/obj/structure/showcase{
+	desc = "A console equipped with a radar used by the Hunters to detect gear and good hunting grounds.";
+	dir = 8;
+	icon = 'icons/obj/structures/machinery/yautja_machines.dmi';
+	icon_state = "terminal";
+	name = "Radar Console";
+	pixel_x = -17;
+	pixel_y = 10;
+	layer = 3.1
+	},
+/turf/open/floor/corsat/squares,
+/area/space)
 "adJ" = (
 /obj/structure/disposalpipe/segment,
 /obj/structure/pipes/standard/simple/hidden/green,
 /turf/open/auto_turf/snow/layer0,
+/area/space)
+"adK" = (
+/obj/structure/showcase{
+	desc = "A console equipped with a radar used by the Hunters to detect gear and good hunting grounds.";
+	dir = 8;
+	icon = 'icons/obj/structures/machinery/yautja_machines.dmi';
+	icon_state = "terminal";
+	name = "Radar Console";
+	pixel_x = -17;
+	pixel_y = 4
+	},
+/obj/structure/showcase{
+	desc = "A console equipped with a radar used by the Hunters to detect gear and good hunting grounds.";
+	dir = 8;
+	icon = 'icons/obj/structures/machinery/yautja_machines.dmi';
+	icon_state = "terminal";
+	name = "Radar Console";
+	pixel_x = -17;
+	pixel_y = -9
+	},
+/obj/structure/surface/table/reinforced/prison{
+	color = "#6b675e"
+	},
+/turf/open/floor/corsat/squares,
 /area/space)
 "adL" = (
 /turf/open/floor/strata/fake_wood,
@@ -1168,6 +1252,15 @@
 	},
 /turf/open/floor/wood,
 /area/space)
+"adZ" = (
+/obj/effect/hunter/glowing_shape{
+	pixel_x = 5;
+	pixel_y = 9;
+	light_power = 1;
+	light_range = 1
+	},
+/turf/open/shuttle/dropship/predship/tile/hunter_tile_1,
+/area/space)
 "aea" = (
 /turf/open/floor/strata/fake_wood,
 /area/bigred/ground/chapel)
@@ -1239,6 +1332,9 @@
 	pixel_x = 1
 	},
 /turf/open/auto_turf/sand_white/layer1,
+/area/space)
+"aeq" = (
+/turf/open/shuttle/dropship/predship/tile/hunter_tile_1,
 /area/space)
 "aer" = (
 /obj/structure/surface/table/woodentable,
@@ -1343,6 +1439,14 @@
 "aeN" = (
 /turf/open/floor/plating,
 /area/bigred/ground/chapel)
+"aeO" = (
+/obj/effect/hunter/catwalk/hunter_grate,
+/obj/structure/prop/hunter/fake_platform/hunter,
+/obj/structure/prop/hunter/fake_platform/hunter/east,
+/obj/structure/prop/hunter/fake_platform/hunter/west,
+/obj/structure/prop/hunter/misc/feed,
+/turf/open/shuttle/dropship/predship/red_glow/on,
+/area/space)
 "aeP" = (
 /turf/open/floor/plating,
 /area/ice_colony/exterior/underground/caves)
@@ -1357,6 +1461,13 @@
 /obj/item/reagent_container/glass/bucket/mopbucket,
 /turf/open/floor/plating,
 /area/ice_colony/exterior/underground/caves)
+"aeT" = (
+/obj/effect/hunter/catwalk/hunter_grate,
+/obj/structure/prop/hunter/fake_platform/hunter/east,
+/obj/structure/prop/hunter/fake_platform/hunter/west,
+/obj/structure/prop/hunter/misc/feed,
+/turf/open/shuttle/dropship/predship/red_glow/on,
+/area/space)
 "aeU" = (
 /turf/open/floor/plating/icefloor,
 /area/space)
@@ -1404,6 +1515,13 @@
 	dir = 4
 	},
 /turf/open/floor/dark2,
+/area/space)
+"afe" = (
+/obj/effect/hunter/glowing_shape/small_red_flipped{
+	pixel_x = -31;
+	pixel_y = -12
+	},
+/turf/open/shuttle/dropship/predship/tile/hunter_tile_1,
 /area/space)
 "aff" = (
 /turf/open/floor/shiva/blue/west,
@@ -1517,6 +1635,14 @@
 /obj/structure/filingcabinet/chestdrawer,
 /turf/open/floor/shiva,
 /area/space)
+"afC" = (
+/obj/structure/bed/chair/hunter{
+	dir = 1;
+	pixel_y = 10;
+	buckling_y = 10
+	},
+/turf/open/shuttle/dropship/predship/tile/hunter_tile_1,
+/area/space)
 "afD" = (
 /turf/closed/wall/new_varadero,
 /area/prison/medbay/surgery)
@@ -1578,12 +1704,21 @@
 /obj/structure/filingcabinet,
 /turf/open/floor/shiva,
 /area/space)
+"afQ" = (
+/obj/structure/surface/table/reinforced/prison{
+	color = "#6b675e"
+	},
+/turf/open/shuttle/dropship/predship/tile/hunter_tile_1,
+/area/space)
 "afR" = (
 /obj/structure/window/framed/colony,
 /turf/open/floor/plating,
 /area/space)
 "afS" = (
 /turf/open/gm/river/desert/shallow/pool,
+/area/space)
+"afT" = (
+/turf/open/floor/predship/hull/non_weedable_hull/east,
 /area/space)
 "afU" = (
 /obj/structure/surface/table/reinforced,
@@ -1593,6 +1728,14 @@
 "afV" = (
 /obj/structure/window/framed/new_varadero/foundation,
 /turf/open/floor/plating,
+/area/space)
+"afW" = (
+/obj/effect/hunter/catwalk/hunter_grate,
+/obj/structure/prop/hunter/fake_platform/hunter/north,
+/obj/structure/prop/hunter/fake_platform/hunter/east,
+/obj/structure/prop/hunter/fake_platform/hunter/west,
+/obj/structure/prop/hunter/misc/feed,
+/turf/open/shuttle/dropship/predship/red_glow/on,
 /area/space)
 "afX" = (
 /turf/open/gm/river/desert/shallow/pool,
@@ -1623,6 +1766,17 @@
 	},
 /turf/open/hybrisa/street/asphalt,
 /area/space)
+"agb" = (
+/obj/effect/hunter/bridge_border/brown{
+	dir = 4;
+	layer = 3
+	},
+/obj/structure/prop/hunter/fake_platform/hunter,
+/obj/structure/platform_decoration/metal/hunter,
+/obj/structure/prop/hunter/fake_platform/hunter/west,
+/obj/structure/platform_decoration/metal/hunter/north,
+/turf/open/shuttle/dropship/predship/tile/hunter_tile_5/north,
+/area/space)
 "agc" = (
 /turf/closed/wall/new_varadero,
 /area/varadero/exterior/pool)
@@ -1645,6 +1799,17 @@
 /area/space)
 "agg" = (
 /turf/open/floor/darkred2/west,
+/area/space)
+"agh" = (
+/obj/effect/hunter/bridge_border/brown/small_stair{
+	dir = 4;
+	pixel_x = -1;
+	pixel_y = -15
+	},
+/obj/effect/hunter/rune{
+	pixel_y = 18
+	},
+/turf/open/shuttle/dropship/predship/mainfloor/direction_1/north,
 /area/space)
 "agi" = (
 /obj/structure/curtain/medical,
@@ -1701,9 +1866,51 @@
 	},
 /turf/open/space/basic,
 /area/almayer/living/basketball)
+"agt" = (
+/obj/effect/hunter/bridge_border/brown/small_stair{
+	dir = 4;
+	pixel_x = -1;
+	pixel_y = -15
+	},
+/obj/effect/hunter/rune{
+	dir = 4;
+	pixel_y = 18
+	},
+/turf/open/shuttle/dropship/predship/mainfloor/direction_1/west,
+/area/space)
+"agu" = (
+/obj/effect/hunter/bridge_border/brown,
+/obj/structure/prop/hunter/fake_platform/hunter,
+/obj/structure/platform_decoration/metal/hunter/north,
+/obj/structure/prop/hunter/fake_platform/hunter/east,
+/obj/structure/platform_decoration/metal/hunter,
+/turf/open/shuttle/dropship/predship/tile/hunter_tile_5/north,
+/area/space)
+"agv" = (
+/obj/effect/hunter/bridge_border/brown{
+	dir = 1
+	},
+/obj/effect/hunter/bridge_border/brown{
+	dir = 4
+	},
+/obj/effect/hunter/bridge_border/brown{
+	dir = 4;
+	pixel_y = -15
+	},
+/obj/structure/platform_decoration/metal/hunter/north{
+	pixel_y = -8
+	},
+/turf/open/shuttle/dropship/predship/tile/hunter_tile_5/north,
+/area/space)
+"agw" = (
+/turf/open/shuttle/dropship/predship/mainfloor/direction_1/north,
+/area/space)
 "agx" = (
 /turf/closed/wall/new_varadero,
 /area/corsat/sigma/dorms)
+"agy" = (
+/turf/open/shuttle/dropship/predship/mainfloor/direction_1/west,
+/area/space)
 "agz" = (
 /obj/structure/window/framed/colony/reinforced,
 /turf/open/space/basic,
@@ -1756,6 +1963,19 @@
 /obj/structure/platform_decoration/metal/strata/west,
 /turf/open/floor/chapel/north,
 /area/bigred/ground/chapel)
+"agK" = (
+/obj/effect/hunter/bridge_border/brown{
+	dir = 1
+	},
+/obj/effect/hunter/bridge_border/brown,
+/obj/effect/hunter/bridge_border/brown{
+	pixel_y = -15
+	},
+/obj/structure/platform_decoration/metal/hunter{
+	pixel_y = -8
+	},
+/turf/open/shuttle/dropship/predship/tile/hunter_tile_5/north,
+/area/space)
 "agL" = (
 /obj/structure/pipes/standard/simple/hidden/green{
 	dir = 9
@@ -126260,7 +126480,7 @@ abh
 abh
 abh
 abh
-aAp
+abh
 abh
 abh
 abh
@@ -126442,7 +126662,7 @@ aAB
 aAB
 aAB
 aAB
-atE
+aAB
 aAB
 aAB
 aAB
@@ -126624,7 +126844,7 @@ aAB
 aAB
 aAB
 aAB
-atE
+aAB
 aAB
 aAB
 aAB
@@ -126806,20 +127026,20 @@ aXg
 aXg
 aXg
 aXg
-aNa
 aXg
-aXg
-aXg
-aXg
-aXg
+adH
+adH
+adH
+adH
+adH
+adH
+adH
+adH
+adH
 aAB
 aAB
-aAB
-aAB
-aAB
-aAB
-aAB
-aAB
+adD
+adu
 aAB
 aBC
 adp
@@ -126988,20 +127208,20 @@ aAB
 aAB
 aAB
 aAB
+aAB
+atE
+atE
+atE
+atE
+atE
+atE
+atE
+atE
 atE
 aAB
 aAB
-aAB
-aAB
-aAB
-aAB
-aAB
-aAB
-aAB
-aAB
-aAB
-aAB
-aAB
+ady
+adq
 aAB
 aBC
 adp
@@ -127171,20 +127391,20 @@ aAB
 aAB
 aAB
 aAB
-aAB
-aAB
-aAB
-aAB
-aAB
-aAB
-aAB
-aAB
-aAB
-aAB
-aAB
-aAB
-aAB
-aAB
+aeq
+aeq
+afW
+aeT
+aeT
+aeO
+aeq
+adK
+adI
+beA
+beA
+ady
+ady
+adq
 aBC
 adp
 avn
@@ -127353,20 +127573,20 @@ aAB
 aAB
 aAB
 aAB
-aAB
-aAB
-aAB
-aAB
-aAB
-aAB
-aAB
-aAB
-aAB
-atE
-atE
-atE
-atE
-aAB
+ady
+aeq
+aeq
+aeq
+aeq
+aeq
+aeq
+beA
+beA
+beA
+adG
+ady
+ady
+adq
 aBC
 adp
 asr
@@ -127534,21 +127754,21 @@ aVT
 aVT
 aVT
 aVT
-aVT
-aVT
-aVT
-aVT
-aVT
-aVT
-aAB
-aAB
-atE
-atE
-aAB
-aAB
-aAB
-atE
-aAB
+agv
+agb
+aeq
+aeq
+aeq
+afe
+aeq
+aeq
+adZ
+beA
+beA
+beA
+ady
+ady
+adq
 aBC
 adp
 asr
@@ -127716,21 +127936,21 @@ alo
 alo
 alo
 alo
-alo
-aPL
-aPL
-aPL
-aPL
-aPL
-aPL
-aBC
+agw
+agh
+ady
+aeq
+aeq
+aeq
+aeq
+aeq
+aeq
+beA
+beA
+beA
+adE
 atE
-atE
-aBC
-aBC
-aBC
-atE
-aBC
+adr
 aBC
 adp
 aNl
@@ -127898,21 +128118,21 @@ alo
 alo
 alo
 alo
-alo
-aPL
-aPL
-aPL
-aPL
-aPL
-aPL
-aBC
+agy
+agt
+ady
+aeq
+aeq
+aeq
+aeq
+aeq
+aeq
+beA
+beA
+beA
+beA
 atE
-atE
-aBC
-aBC
-aBC
-aBC
-atE
+adr
 aBC
 adp
 avn
@@ -128080,21 +128300,21 @@ alo
 alo
 alo
 alo
-alo
-aPL
-aPL
-aPL
-aPL
-aPL
-aPL
-aBC
+agK
+agu
+aeq
+aeq
+aeq
+aeq
+aeq
+aeq
+aeq
+beA
+beA
+beA
 atE
-atE
-aBC
-aBC
-aBC
-aBC
-atE
+adA
+ads
 aBC
 adp
 aHC
@@ -128263,19 +128483,19 @@ alo
 alo
 alo
 alo
-aPL
-aPL
-aPL
-aPL
-aPL
-aPL
-aBC
+ady
+aeq
+aeq
+afQ
+aeq
+aeq
+aeq
+aeq
+beA
+beA
 atE
-atE
-aBC
-aBC
-aBC
-atE
+adA
+ads
 aBC
 aBC
 adp
@@ -128445,18 +128665,18 @@ alo
 alo
 alo
 alo
-aPL
-aPL
-aPL
-aPL
-aPL
-aPL
-aBC
+ady
+aeq
+aeq
+afQ
+afC
+aeq
+aeq
+aeq
+beA
 atE
-atE
-aBC
-aBC
-atE
+adA
+ads
 aBC
 aBC
 aBC
@@ -128627,17 +128847,17 @@ alo
 alo
 alo
 alo
-aPL
-aPL
-aPL
-aPL
-aPL
-aPL
+ady
+ady
+ady
+ady
+ady
+ady
+ady
+ady
 aBC
 aBC
-atE
-aBC
-atE
+ads
 aBC
 aBC
 aBC
@@ -128809,16 +129029,16 @@ alo
 alo
 alo
 alo
-aPL
-aPL
-aPL
-aPL
-aPL
-aPL
+ady
+ady
+ady
+ady
+ady
+ady
+ady
+atE
 aBC
 aBC
-atE
-atE
 aBC
 aBC
 aBC
@@ -128977,29 +129197,29 @@ alo
 alo
 alo
 alo
+alo
+alo
+alo
+alo
+alo
+alo
+alo
+alo
+alo
+alo
+alo
+alo
+alo
+alo
+ady
+ady
+ady
+ady
+ady
+ady
 atE
-alo
-alo
-alo
-alo
-alo
-alo
-alo
-alo
-alo
-alo
-alo
-alo
-alo
-aPL
-aPL
-aPL
-aPL
-aPL
-aPL
-aBC
-aBC
-aBC
+adA
+ads
 aBC
 aBC
 aBC
@@ -129159,28 +129379,28 @@ alo
 alo
 alo
 alo
-atE
 alo
+alo
+alo
+alo
+alo
+alo
+alo
+alo
+alo
+alo
+alo
+alo
+alo
+alo
+ady
+ady
+ady
+ady
+ady
 atE
-atE
-atE
-atE
-atE
-atE
-atE
-atE
-atE
-atE
-atE
-atE
-aPL
-aPL
-aPL
-aPL
-aPL
-aPL
-aBC
-aBC
+adA
+ads
 aBC
 aBC
 aBC
@@ -129342,7 +129562,7 @@ alo
 alo
 alo
 alo
-atE
+alo
 alo
 alo
 alo
@@ -129354,14 +129574,14 @@ aAB
 alo
 alo
 alo
+alo
+ady
+ady
+ady
+ady
 atE
-aPL
-aPL
-aPL
-aPL
-aPL
-aPL
-aBC
+adA
+ads
 aBC
 aBC
 aBC
@@ -129524,25 +129744,25 @@ alo
 alo
 alo
 alo
+alo
+alo
+alo
+alo
+alo
+alo
+aAB
+aAB
+aAB
+aAB
+alo
+alo
+alo
+aPL
+aPL
+aPL
 atE
-alo
-alo
-alo
-alo
-alo
-aAB
-aAB
-aAB
-aAB
-alo
-alo
-atE
-aPL
-aPL
-aPL
-aPL
-aPL
-aPL
+adA
+ads
 aBC
 aBC
 aBC
@@ -129706,11 +129926,11 @@ alo
 alo
 alo
 alo
-atE
 alo
 alo
 alo
 alo
+alo
 aAB
 aAB
 aAB
@@ -129718,12 +129938,12 @@ aAB
 aAB
 aAB
 alo
-atE
+alo
 aPL
 aPL
 aPL
-aPL
-aPL
+afT
+ads
 aPL
 aBC
 aBC
@@ -129888,10 +130108,10 @@ alo
 alo
 alo
 alo
-atE
 alo
 alo
 alo
+alo
 aAB
 aAB
 aAB
@@ -129900,7 +130120,7 @@ aAB
 aAB
 aAB
 aAB
-atE
+alo
 aPL
 aPL
 aPL
@@ -130071,7 +130291,7 @@ alo
 alo
 alo
 alo
-atE
+alo
 alo
 aAB
 aAB
@@ -130082,7 +130302,7 @@ aAB
 aAB
 aAB
 aAB
-atE
+alo
 aPL
 aPL
 aPL
@@ -130253,7 +130473,7 @@ alo
 alo
 alo
 alo
-atE
+alo
 aAB
 aAB
 aAB
@@ -130264,7 +130484,7 @@ aAB
 aAB
 aAB
 aAB
-atE
+alo
 alo
 aPL
 aPL
@@ -130435,7 +130655,6 @@ alo
 alo
 alo
 alo
-atE
 aAB
 aAB
 aAB
@@ -130445,7 +130664,8 @@ aAB
 aAB
 aAB
 aAB
-atE
+aAB
+alo
 alo
 aPL
 aPL
@@ -130617,8 +130837,6 @@ alo
 alo
 alo
 aAB
-atE
-atE
 aAB
 aAB
 aAB
@@ -130627,7 +130845,9 @@ aAB
 aAB
 aAB
 aAB
-atE
+aAB
+aAB
+alo
 aPL
 aPL
 aPL
@@ -130800,15 +131020,15 @@ alo
 aAB
 aAB
 aAB
-atE
 aAB
 aAB
 aAB
 aAB
 aAB
 aAB
-atE
-atE
+aAB
+alo
+alo
 aPL
 aPL
 aPL
@@ -130982,13 +131202,13 @@ aAB
 aAB
 aAB
 aAB
-atE
-atE
-atE
-atE
-atE
-atE
-atE
+aAB
+aAB
+aAB
+aAB
+aAB
+aAB
+alo
 alo
 aPL
 aPL
