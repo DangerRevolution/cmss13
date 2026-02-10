@@ -16698,6 +16698,31 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/prison/floor_plate/southwest,
 /area/space)
+"aWv" = (
+/obj/structure/surface/rack{
+	color = "#6b675e";
+	layer = 2.79
+	},
+/obj/item/weapon/yautja/duelsword{
+	pixel_x = 3
+	},
+/obj/item/weapon/yautja/duelsword{
+	pixel_x = 10;
+	pixel_y = -1
+	},
+/obj/item/weapon/yautja/duelsword{
+	pixel_x = -2;
+	pixel_y = 3
+	},
+/obj/item/weapon/yautja/duelsword{
+	pixel_x = -6;
+	pixel_y = 7
+	},
+/obj/effect/hunter/bridge_border/brown/corner{
+	dir = 8
+	},
+/turf/open/shuttle/dropship/predship/hunter_catwalk_alt,
+/area/space)
 "aWw" = (
 /obj/structure/prop/almayer/computers/sensor_computer1,
 /turf/open/floor/darkpurple2/north,
@@ -16860,6 +16885,30 @@
 	},
 /turf/open/floor/plating,
 /area/space)
+"aWU" = (
+/obj/structure/surface/rack{
+	color = "#6b675e";
+	layer = 2.79
+	},
+/obj/item/weapon/yautja/duelclub{
+	pixel_x = 4
+	},
+/obj/item/weapon/yautja/duelclub{
+	pixel_y = 2
+	},
+/obj/item/weapon/yautja/duelclub{
+	pixel_x = -4;
+	pixel_y = 4
+	},
+/obj/item/weapon/yautja/duelclub{
+	pixel_x = -6;
+	pixel_y = 7
+	},
+/obj/effect/hunter/bridge_border/brown/corner{
+	dir = 4
+	},
+/turf/open/shuttle/dropship/predship/hunter_catwalk_alt,
+/area/space)
 "aWV" = (
 /obj/structure/sink{
 	dir = 8;
@@ -16899,6 +16948,30 @@
 /obj/structure/closet/wardrobe/morgue,
 /turf/open/floor/shiva/north,
 /area/varadero/interior/oob)
+"aXc" = (
+/obj/structure/surface/rack{
+	color = "#6b675e";
+	layer = 2.79
+	},
+/obj/item/weapon/yautja/duelclub{
+	pixel_x = 3;
+	pixel_y = -1
+	},
+/obj/item/weapon/yautja/duelclub{
+	pixel_x = -1;
+	pixel_y = 2
+	},
+/obj/item/weapon/yautja/duelclub{
+	pixel_x = -4;
+	pixel_y = 4
+	},
+/obj/item/weapon/yautja/duelclub{
+	pixel_x = -6;
+	pixel_y = 8
+	},
+/obj/effect/hunter/bridge_border/brown,
+/turf/open/shuttle/dropship/predship/hunter_catwalk_alt,
+/area/space)
 "aXd" = (
 /obj/item/device/radio{
 	pixel_x = 3;
@@ -16963,6 +17036,12 @@
 	},
 /turf/open/floor/dark2,
 /area/space)
+"aXl" = (
+/obj/effect/hunter/bridge_border/brown{
+	dir = 4
+	},
+/turf/open/shuttle/dropship/predship/hunter_catwalk_alt,
+/area/space)
 "aXm" = (
 /turf/closed/wall/shiva/prefabricated/orange,
 /area/space)
@@ -16998,6 +17077,41 @@
 "aXu" = (
 /obj/structure/machinery/iv_drip,
 /turf/open/floor/shiva/snow_mat/east,
+/area/space)
+"aXv" = (
+/obj/structure/surface/rack{
+	color = "#6b675e";
+	layer = 2.79
+	},
+/obj/item/weapon/yautja/duelsword{
+	pixel_x = -6;
+	pixel_y = 7
+	},
+/obj/item/weapon/yautja/duelsword{
+	pixel_x = -9;
+	pixel_y = 10
+	},
+/obj/item/weapon/yautja/duelsword{
+	pixel_x = 12;
+	pixel_y = -3
+	},
+/obj/item/weapon/yautja/duelsword{
+	pixel_x = 8;
+	pixel_y = -1
+	},
+/obj/item/weapon/yautja/duelsword{
+	pixel_x = 4;
+	pixel_y = 2
+	},
+/obj/item/weapon/yautja/duelsword{
+	pixel_y = 3
+	},
+/obj/item/weapon/yautja/duelsword{
+	pixel_x = -3;
+	pixel_y = 5
+	},
+/obj/effect/hunter/bridge_border/brown/corner,
+/turf/open/shuttle/dropship/predship/hunter_catwalk_alt,
 /area/space)
 "aXw" = (
 /turf/open/new_varadero/alt_concrete/warning/east,
@@ -17162,9 +17276,31 @@
 "aXX" = (
 /turf/open/floor/asteroidwarning/southeast,
 /area/varadero/exterior/farocean)
+"aXY" = (
+/obj/structure/machinery/door/airlock/yautja/secure{
+	name = "\improper Prisoner Cell 1";
+	opacity = 0;
+	dir = 2
+	},
+/obj/structure/machinery/door/poddoor/yautja/open{
+	id = "prisonlockdown"
+	},
+/turf/open/floor/corsat/squares,
+/area/space)
 "aXZ" = (
 /turf/open/floor/asteroidwarning/west,
 /area/varadero/exterior/farocean)
+"aYa" = (
+/obj/structure/machinery/door/airlock/yautja/secure{
+	name = "\improper Prisoner Cell 2";
+	opacity = 0;
+	dir = 1
+	},
+/obj/structure/machinery/door/poddoor/yautja/open{
+	id = "prisonlockdown"
+	},
+/turf/open/floor/corsat/squares,
+/area/space)
 "aYb" = (
 /obj/structure/dropship_equipment/electronics/targeting_system,
 /obj/structure/dropship_equipment/electronics/landing_zone_detector{
@@ -17238,6 +17374,12 @@
 "aYo" = (
 /turf/open/floor/asteroidwarning/northwest,
 /area/varadero/exterior/farocean)
+"aYp" = (
+/obj/effect/hunter/bridge_border/brown/edge{
+	dir = 4
+	},
+/turf/open/shuttle/dropship/predship/tile/red2,
+/area/space)
 "aYq" = (
 /turf/open/floor/asteroidwarning/north,
 /area/varadero/exterior/farocean)
@@ -17310,6 +17452,32 @@
 	icon_state = "wy1"
 	},
 /area/varadero/interior/oob)
+"aYF" = (
+/obj/structure/platform_decoration/metal/hunter/west,
+/obj/effect/hunter/bridge_border/brown{
+	dir = 1
+	},
+/turf/open/shuttle/dropship/predship/tile/red3,
+/area/space)
+"aYG" = (
+/obj/effect/hunter/bridge_border/brown{
+	dir = 1
+	},
+/turf/open/shuttle/dropship/predship/tile/red2,
+/area/space)
+"aYH" = (
+/obj/effect/hunter/bridge_border/brown{
+	dir = 1
+	},
+/turf/open/shuttle/dropship/predship/tile/red3,
+/area/space)
+"aYI" = (
+/obj/effect/hunter/bridge_border/brown{
+	dir = 4;
+	layer = 3
+	},
+/turf/open/shuttle/dropship/predship/tile/red3,
+/area/space)
 "aYJ" = (
 /obj/structure/machinery/door/poddoor/hybrisa/white{
 	name = "\improper Lockdown"
@@ -17325,6 +17493,13 @@
 	icon_state = "wy3"
 	},
 /area/varadero/interior/oob)
+"aYM" = (
+/obj/structure/prop/hunter/fake_platform/hunter,
+/obj/structure/prop/hunter/fake_platform/hunter/north,
+/obj/structure/prop/hunter/fake_platform/hunter/west,
+/obj/effect/hunter/catwalk/hunter_grate,
+/turf/open/shuttle/dropship/predship/red_glow/on,
+/area/space)
 "aYN" = (
 /obj/structure/pipes/standard/simple/hidden/green{
 	dir = 4
@@ -17359,6 +17534,12 @@
 	opacity = 0
 	},
 /area/varadero/interior/oob)
+"aYT" = (
+/obj/structure/prop/hunter/fake_platform/hunter,
+/obj/structure/prop/hunter/fake_platform/hunter/north,
+/obj/effect/hunter/catwalk/hunter_grate,
+/turf/open/shuttle/dropship/predship/red_glow/on,
+/area/space)
 "aYU" = (
 /turf/closed/shuttle/ert{
 	icon_state = "wy4"
@@ -17489,6 +17670,13 @@
 /obj/effect/landmark/corpsespawner/miner,
 /turf/open/auto_turf/sand_white,
 /area/space)
+"aZp" = (
+/obj/structure/prop/hunter/fake_platform/hunter,
+/obj/structure/prop/hunter/fake_platform/hunter/north,
+/obj/structure/prop/hunter/fake_platform/hunter/east,
+/obj/effect/hunter/catwalk/hunter_grate,
+/turf/open/shuttle/dropship/predship/red_glow/on,
+/area/space)
 "aZq" = (
 /obj/structure/machinery/power/monitor,
 /turf/open/floor/shiva,
@@ -17550,6 +17738,28 @@
 	opacity = 0
 	},
 /area/varadero/interior/oob)
+"aZA" = (
+/obj/effect/hunter/bridge_border/brown/edge{
+	dir = 8
+	},
+/obj/item/weapon/yautja/knife{
+	name = "sacred ceremonial dagger";
+	pixel_y = 34;
+	anchored = 1
+	},
+/obj/item/weapon/shield/riot/yautja{
+	anchored = 1;
+	layer = 2.9;
+	pixel_x = 17;
+	pixel_y = 32
+	},
+/obj/item/clothing/mask/gas/yautja/hunter{
+	pixel_y = 35;
+	anchored = 1;
+	pixel_x = 17
+	},
+/turf/open/shuttle/dropship/predship/tile/red2,
+/area/space)
 "aZB" = (
 /obj/structure/platform/stone/kutjevo/east,
 /turf/open_space,
@@ -17611,6 +17821,18 @@
 	},
 /turf/open/floor/dark2,
 /area/space)
+"aZN" = (
+/obj/structure/platform_decoration/metal/hunter,
+/obj/effect/hunter/bridge_border/brown{
+	dir = 8
+	},
+/obj/item/weapon/yautja/knife{
+	name = "sacred ceremonial dagger";
+	pixel_y = 34;
+	anchored = 1
+	},
+/turf/open/shuttle/dropship/predship/tile/red3,
+/area/space)
 "aZO" = (
 /turf/closed/shuttle/ert{
 	icon_state = "wy8"
@@ -17667,6 +17889,13 @@
 	},
 /obj/structure/cargo_container/upp/mk6/left,
 /turf/open/hybrisa/street/asphalt,
+/area/space)
+"aZZ" = (
+/obj/structure/prop/hunter/fake_platform/hunter,
+/obj/effect/hunter/bridge_border/brown{
+	dir = 8
+	},
+/turf/open/shuttle/dropship/predship/tile/red2,
 /area/space)
 "baa" = (
 /obj/structure/prop/hybrisa/factory/conveyor_belt,
@@ -20323,6 +20552,76 @@
 	dir = 1
 	},
 /turf/open_space,
+/area/space)
+"bhO" = (
+/obj/structure/showcase{
+	desc = null;
+	icon = 'icons/obj/structures/machinery/yautja_machines.dmi';
+	icon_state = "smallmonitor";
+	name = "Monitor";
+	pixel_y = 23;
+	pixel_x = 7;
+	density = 0
+	},
+/obj/effect/hunter/bridge_border/brown{
+	dir = 8
+	},
+/turf/open/shuttle/dropship/predship/tile/red2,
+/area/space)
+"bhP" = (
+/obj/structure/showcase{
+	desc = null;
+	icon = 'icons/obj/structures/machinery/yautja_machines.dmi';
+	icon_state = "smallmonitor";
+	name = "Monitor";
+	pixel_y = 23;
+	pixel_x = -6;
+	density = 0
+	},
+/obj/effect/hunter/bridge_border/brown{
+	dir = 8
+	},
+/turf/open/shuttle/dropship/predship/tile/red3,
+/area/space)
+"bhQ" = (
+/obj/effect/hunter/bridge_border/brown{
+	dir = 8
+	},
+/turf/open/shuttle/dropship/predship/tile/red2,
+/area/space)
+"bhR" = (
+/obj/structure/platform_decoration/metal/hunter,
+/obj/effect/hunter/bridge_border/brown{
+	dir = 8
+	},
+/turf/open/shuttle/dropship/predship/tile/red3,
+/area/space)
+"bhS" = (
+/obj/effect/hunter/rune/corner{
+	dir = 1
+	},
+/obj/structure/machinery/door/poddoor/yautja/open{
+	id = "prisonlockdown"
+	},
+/turf/open/shuttle/dropship/predship/mainfloor/edge,
+/area/space)
+"bhT" = (
+/obj/effect/hunter/rune/corner,
+/obj/structure/machinery/door/poddoor/yautja/open{
+	id = "prisonlockdown"
+	},
+/turf/open/shuttle/dropship/predship/mainfloor/edge/west,
+/area/space)
+"bhU" = (
+/obj/structure/machinery/door/airlock/yautja/secure{
+	name = "\improper Prisoner Cell 5";
+	opacity = 0;
+	dir = 2
+	},
+/obj/structure/machinery/door/poddoor/yautja/open{
+	id = "prisonlockdown"
+	},
+/turf/open/floor/corsat/squares,
 /area/space)
 
 (1,1,1) = {"
@@ -122508,9 +122807,9 @@ aqf
 aqf
 aqf
 aqf
-aqf
-aqf
-aqf
+ady
+ady
+ady
 aqf
 aqf
 aqf
@@ -122690,9 +122989,9 @@ aqf
 aqf
 aqf
 aqf
-aqf
-aqf
-aqf
+ady
+ady
+ady
 aqf
 aqf
 aqf
@@ -122870,14 +123169,14 @@ aqf
 alo
 alo
 alo
-alo
-alo
-alo
-alo
-alo
-alo
-alo
-alo
+ady
+ady
+ady
+ady
+ady
+ady
+ady
+ady
 alo
 alo
 alo
@@ -123052,14 +123351,14 @@ aqf
 alo
 alo
 alo
-alo
-alo
-alo
-alo
-alo
-alo
-alo
-alo
+ady
+ady
+ady
+ady
+ady
+ady
+ady
+ady
 alo
 alo
 alo
@@ -123234,14 +123533,14 @@ aqf
 alo
 alo
 alo
-alo
-alo
-alo
-alo
-alo
-alo
-alo
-alo
+ady
+ady
+ady
+ady
+ady
+ady
+ady
+ady
 alo
 alo
 alo
@@ -123416,14 +123715,14 @@ aqf
 alo
 alo
 alo
-alo
-alo
-alo
-alo
-alo
-alo
-alo
-alo
+atE
+atE
+atE
+atE
+atE
+atE
+atE
+atE
 alo
 alo
 alo
@@ -123598,14 +123897,14 @@ aqf
 alo
 alo
 alo
-alo
-alo
-alo
-alo
-alo
-alo
-alo
-alo
+atE
+aZA
+aYI
+aYp
+apn
+anO
+any
+atE
 alo
 alo
 alo
@@ -123780,14 +124079,14 @@ aqf
 alo
 alo
 alo
-alo
-alo
-alo
-alo
-alo
-alo
-alo
-alo
+atE
+aZN
+azl
+aYF
+aXY
+aoD
+anB
+atE
 alo
 alo
 alo
@@ -123962,15 +124261,15 @@ aqf
 alo
 alo
 alo
-alo
-alo
-alo
-alo
-alo
-alo
-alo
-alo
-alo
+bhS
+aZZ
+aqR
+avN
+atE
+atE
+atE
+atE
+atE
 alo
 alo
 alo
@@ -124144,15 +124443,15 @@ aqf
 alo
 alo
 alo
-alo
-alo
-alo
-alo
-alo
-alo
-alo
-alo
-alo
+bhT
+azS
+aYM
+avQ
+atE
+aXv
+aXc
+aWv
+atE
 alo
 alo
 alo
@@ -124326,15 +124625,15 @@ aqf
 alo
 alo
 alo
-alo
-alo
-alo
-alo
-alo
-alo
-alo
-alo
-alo
+atE
+bhO
+aYT
+aYG
+apx
+aoD
+aXl
+aWU
+atE
 alo
 alo
 alo
@@ -124508,15 +124807,15 @@ aqf
 alo
 alo
 alo
-alo
-alo
-alo
-alo
-alo
-alo
-alo
-alo
-alo
+atE
+bhP
+aYT
+aYH
+atE
+atE
+atE
+atE
+atE
 alo
 alo
 alo
@@ -124690,14 +124989,14 @@ aqf
 alo
 alo
 alo
-alo
-alo
-alo
-alo
-alo
-alo
-alo
-alo
+bhU
+bhQ
+aYT
+aYG
+apn
+anO
+any
+atE
 alo
 alo
 alo
@@ -124872,14 +125171,14 @@ aqf
 alo
 alo
 alo
-alo
-alo
-alo
-alo
-alo
-alo
-alo
-alo
+apn
+bhR
+aZp
+aYF
+aYa
+aoD
+anB
+atE
 alo
 alo
 alo
@@ -125054,14 +125353,14 @@ aqf
 alo
 alo
 alo
-alo
-alo
-alo
-alo
-alo
-alo
-alo
-alo
+atE
+azr
+aqR
+avN
+atE
+atE
+atE
+atE
 alo
 alo
 alo
@@ -125236,14 +125535,14 @@ aqf
 alo
 alo
 alo
-alo
-alo
-alo
-alo
-alo
-alo
-alo
-alo
+ady
+ady
+ady
+ady
+ady
+ady
+ady
+ady
 alo
 alo
 alo
@@ -125418,14 +125717,14 @@ aqf
 alo
 alo
 alo
-alo
-alo
-alo
-alo
-alo
-alo
-alo
-alo
+ady
+ady
+ady
+ady
+ady
+ady
+ady
+ady
 alo
 alo
 alo
@@ -125600,14 +125899,14 @@ aqf
 alo
 alo
 alo
-alo
-alo
-alo
-alo
-alo
-alo
-alo
-alo
+ady
+ady
+ady
+ady
+ady
+ady
+ady
+ady
 alo
 alo
 alo
