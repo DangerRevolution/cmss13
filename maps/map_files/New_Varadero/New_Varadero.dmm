@@ -20740,6 +20740,10 @@
 	pixel_x = -5;
 	pixel_y = 5
 	},
+/obj/item/reagent_container/food/drinks/cans/aspen{
+	pixel_y = 7;
+	pixel_x = 4
+	},
 /turf/open/auto_turf/sand_white/layer1,
 /area/space)
 "bjR" = (
@@ -20900,6 +20904,22 @@
 /area/space)
 "bkg" = (
 /obj/item/trash/semki,
+/turf/open/auto_turf/sand_white/layer1,
+/area/space)
+"bkh" = (
+/obj/structure/closet/crate/trashcart,
+/obj/effect/landmark/crap_item,
+/turf/open/auto_turf/sand_white/layer1,
+/area/space)
+"bki" = (
+/obj/item/device/binoculars/civ{
+	pixel_y = 4;
+	pixel_x = 5
+	},
+/turf/open/auto_turf/sand_white/layer1,
+/area/space)
+"bkj" = (
+/obj/effect/landmark/crap_item,
 /turf/open/auto_turf/sand_white/layer1,
 /area/space)
 "byq" = (
@@ -149247,7 +149267,7 @@ aDP
 aYT
 aBC
 aBC
-aBC
+bkj
 bjs
 bjh
 bje
@@ -149613,7 +149633,7 @@ aYT
 aBC
 bka
 bju
-aBC
+bki
 aBC
 aBC
 aXm
@@ -150342,7 +150362,7 @@ aBC
 aBC
 aBC
 aBC
-bdn
+bkh
 aBC
 aBC
 aBC
