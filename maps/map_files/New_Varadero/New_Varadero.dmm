@@ -10157,10 +10157,6 @@
 	},
 /turf/open/floor/plating,
 /area/lv759/indoors/colonial_marshals/prisoners_cells)
-"aFx" = (
-/obj/structure/machinery/colony_floodlight,
-/turf/open/auto_turf/sand_white,
-/area/space)
 "aFy" = (
 /turf/open/floor/darkbrown2,
 /area/space)
@@ -11082,9 +11078,6 @@
 /obj/effect/landmark/objective_landmark/close,
 /turf/open/floor/wood,
 /area/space)
-"aIr" = (
-/turf/open/auto_turf/sand_white,
-/area/ice_colony/underground/reception)
 "aIs" = (
 /obj/structure/ore_box{
 	layer = 4;
@@ -137749,7 +137742,7 @@ aSx
 afs
 afs
 afs
-aFx
+afs
 afs
 afs
 aKR
@@ -138836,7 +138829,7 @@ aPL
 aPL
 aSx
 aSx
-aIr
+afs
 afs
 afs
 aBC
