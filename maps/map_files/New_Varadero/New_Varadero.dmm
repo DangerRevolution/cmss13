@@ -987,6 +987,13 @@
 /obj/structure/pipes/standard/simple/hidden/green,
 /turf/open/auto_turf/snow/layer0,
 /area/space)
+"adK" = (
+/obj/structure/pipes/standard/simple/visible,
+/obj/structure/prop/hybrisa/misc/metergreen{
+	pixel_x = 25
+	},
+/turf/open/new_varadero/alt_concrete/floor,
+/area/bigred/ground/engineering/atmospherics)
 "adL" = (
 /turf/open/floor/strata/fake_wood,
 /area/corsat/gamma/rnr/bar)
@@ -3835,6 +3842,15 @@
 	},
 /turf/open/auto_turf/sand_white/layer1,
 /area/space)
+"aoO" = (
+/obj/structure/machinery/computer/general_air_control/large_tank_control{
+	dir = 8;
+	pixel_x = 1;
+	pixel_y = 5
+	},
+/obj/structure/surface/table/reinforced/prison,
+/turf/open/new_varadero/alt_concrete/floor,
+/area/bigred/ground/engineering/atmospherics)
 "aoQ" = (
 /obj/effect/decal/hybrisa/bloodtrail{
 	dir = 4
@@ -5282,26 +5298,16 @@
 /turf/closed/wall,
 /area/space)
 "aup" = (
-/obj/structure/prop/hybrisa/misc/buildinggreebliessmall/computer{
-	pixel_y = 12
-	},
 /turf/open/new_varadero/alt_concrete/floor,
-/area/fiorina/station/power_ring/reactor)
+/area/bigred/ground/engineering/atmospherics)
 "aur" = (
-/obj/item/prop/colony/canister{
-	pixel_y = 3;
-	pixel_x = 5
-	},
-/obj/item/prop/colony/canister{
-	pixel_y = -5;
-	pixel_x = 3
-	},
-/obj/effect/decal/cleanable/dirt/alt_dirt/stain{
-	pixel_x = -10;
-	pixel_y = 7
+/obj/structure/bed/chair/office/dark{
+	dir = 4;
+	pixel_x = 7;
+	pixel_y = 10
 	},
 /turf/open/new_varadero/alt_concrete/floor,
-/area/fiorina/station/power_ring/reactor)
+/area/bigred/ground/engineering/atmospherics)
 "aus" = (
 /turf/open/floor/prison/whitepurple/southeast,
 /area/space)
@@ -5319,10 +5325,10 @@
 /turf/open/floor/shiva/red/west,
 /area/space)
 "auv" = (
-/obj/structure/closet/fireaxecabinet{
-	pixel_x = 32
+/obj/structure/prop/hybrisa/misc/metergreen{
+	pixel_x = 28;
+	pixel_y = 3
 	},
-/obj/structure/pipes/standard/simple/hidden/supply,
 /turf/open/new_varadero/alt_concrete/floor,
 /area/fiorina/station/power_ring/reactor)
 "auw" = (
@@ -5333,17 +5339,18 @@
 /turf/open/floor/plating,
 /area/space)
 "aux" = (
+/obj/effect/decal/cleanable/dirt,
 /turf/open/new_varadero/alt_concrete/floor,
 /area/bigred/ground/engineering/atmospherics)
 "auy" = (
-/turf/open/floor/shiva,
+/turf/open/space/basic,
 /area/fiorina/station/power_ring/reactor)
 "auz" = (
 /turf/closed/wall/new_varadero,
 /area/lv759/indoors/spaceport/janitor)
 "auA" = (
-/turf/open/floor/shiva,
-/area/lv759/indoors/spaceport/janitor)
+/turf/open/new_varadero/alt_concrete/warning/south,
+/area/fiorina/station/power_ring/reactor)
 "auB" = (
 /obj/structure/machinery/door/airlock/multi_tile/almayer/generic{
 	name = "\improper Backup SMES"
@@ -7386,15 +7393,11 @@
 /turf/closed/wall/new_varadero/reinforced,
 /area/lv759/indoors/colonial_marshals/prisoners_cells)
 "aAV" = (
-/obj/structure/machinery/door/airlock/maintenance/colony{
-	dir = 2
-	},
+/obj/structure/machinery/door/airlock/maintenance/colony,
 /turf/open/floor/plating,
 /area/lv759/indoors/colonial_marshals/prisoners_cells)
 "aAW" = (
-/turf/closed/wall/new_varadero/reinforced/hull{
-	desc = "A concrete wall with metal reinforcements. The plating seems to have more rivets giving a daunting finish. This seems impenetrable to most conventional stands."s"
-	},
+/turf/closed/wall/new_varadero/reinforced/hull,
 /area/lv759/indoors/colonial_marshals/prisoners_cells)
 "aAX" = (
 /obj/effect/decal/hybrisa/road/lines2{
@@ -17768,43 +17771,786 @@
 	},
 /turf/open_space,
 /area/space)
-"brM" = (
+"byq" = (
+/obj/structure/pipes/standard/simple/hidden/supply,
+/obj/structure/barricade/handrail/no_vault{
+	dir = 4
+	},
+/turf/open/new_varadero/alt_concrete/floor,
+/area/fiorina/station/power_ring/reactor)
+"bFa" = (
+/obj/structure/surface/table/reinforced/prison,
+/obj/effect/spawner/random/powercell,
+/turf/open/new_varadero/alt_concrete/floor,
+/area/fiorina/station/power_ring/reactor)
+"bOE" = (
+/obj/structure/pipes/standard/manifold/hidden/supply{
+	dir = 8
+	},
+/turf/open/new_varadero/alt_concrete/floor,
+/area/bigred/ground/engineering/atmospherics)
+"crZ" = (
+/obj/effect/decal/hybrisa/tiretrack{
+	dir = 9;
+	pixel_x = 2
+	},
+/turf/open/new_varadero/dock_concrete,
+/area/fiorina/station/power_ring/reactor)
+"cxK" = (
+/obj/structure/prop/hybrisa/misc/buildinggreeblies/greeble11{
+	dir = 1;
+	pixel_x = -30
+	},
+/turf/open/auto_turf/sand_white/layer0,
+/area/bigred/ground/engineering/atmospherics)
+"cLy" = (
+/obj/structure/machinery/door/airlock/multi_tile/almayer/engidoor/glass/colony{
+	autoname = 1;
+	dir = 1
+	},
+/turf/open/new_varadero/alt_concrete/floor,
+/area/fiorina/station/power_ring/reactor)
+"cSo" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/shuttle/escapepod/floor0/east,
+/area/fiorina/station/power_ring/reactor)
+"dKn" = (
+/obj/structure/machinery/door/airlock/multi_tile/almayer/engidoor/colony,
+/turf/open/floor/plating,
+/area/lv759/indoors/spaceport/janitor)
+"dPd" = (
+/turf/open/shuttle/escapepod/floor1,
+/area/fiorina/station/power_ring/reactor)
+"dXp" = (
+/obj/structure/machinery/power/smes/buildable{
+	name = "colony distribution SMES"
+	},
+/turf/open/new_varadero/alt_concrete/floor,
+/area/fiorina/station/power_ring/reactor)
+"dXU" = (
 /obj/structure/pipes/standard/simple/hidden/universal{
 	dir = 4
 	},
 /turf/open/new_varadero/alt_concrete/floor,
 /area/bigred/ground/engineering/atmospherics)
-"bsb" = (
-/obj/effect/decal/warning_stripes{
-	icon_state = "test_square"
+"dZA" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/new_varadero/alt_concrete/warning/south,
+/area/fiorina/station/power_ring/reactor)
+"eiV" = (
+/obj/structure/window/framed/new_varadero/foundation,
+/turf/open/new_varadero/alt_concrete/floor,
+/area/fiorina/station/power_ring/reactor)
+"elE" = (
+/turf/open/shuttle/escapepod/floor3/north,
+/area/fiorina/station/power_ring/reactor)
+"esF" = (
+/turf/open/new_varadero/alt_concrete/warning/corner_edge/southwest,
+/area/fiorina/station/power_ring/reactor)
+"ets" = (
+/obj/structure/pipes/standard/simple/hidden/supply{
+	dir = 4;
+	icon_state = "exposed01-supply"
 	},
+/obj/structure/barricade/handrail/no_vault,
+/turf/open/new_varadero/alt_concrete/warning/south,
+/area/fiorina/station/power_ring/reactor)
+"euK" = (
+/obj/structure/pipes/standard/simple/hidden/supply{
+	dir = 4;
+	icon_state = "exposed01-supply"
+	},
+/turf/open/new_varadero/alt_concrete/warning,
+/area/fiorina/station/power_ring/reactor)
+"eLA" = (
+/turf/closed/wall/new_varadero/reinforced/hull,
+/area/bigred/ground/engineering/atmospherics)
+"fkj" = (
+/obj/structure/stairs/perspective{
+	icon_state = "p_stair_ew_full_cap"
+	},
+/obj/structure/stairs/perspective{
+	dir = 8;
+	icon_state = "p_stair_full"
+	},
+/obj/structure/platform/metal/almayer_smooth,
+/turf/open/new_varadero/alt_concrete/floor,
+/area/fiorina/station/power_ring/reactor)
+"fob" = (
+/obj/structure/pipes/standard/simple/hidden/supply,
+/obj/effect/decal/cleanable/dirt{
+	layer = 4
+	},
+/turf/open/new_varadero/alt_concrete/floor,
+/area/fiorina/station/power_ring/reactor)
+"fwa" = (
 /obj/structure/machinery/portable_atmospherics/canister/empty,
 /turf/open/new_varadero/alt_concrete/floor,
 /area/bigred/ground/engineering/atmospherics)
-"bsk" = (
-/obj/structure/machinery/computer/general_air_control/large_tank_control{
-	dir = 8;
-	pixel_x = 1;
-	pixel_y = 5
-	},
-/obj/structure/surface/table/reinforced/prison,
+"fze" = (
+/obj/structure/platform/metal/almayer_smooth,
 /turf/open/new_varadero/alt_concrete/floor,
-/area/bigred/ground/engineering/atmospherics)
-"byk" = (
-/obj/structure/bed/chair/office/dark{
-	dir = 4;
-	pixel_x = 7;
-	pixel_y = 10
+/area/fiorina/station/power_ring/reactor)
+"fzm" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/new_varadero/grate,
+/area/fiorina/station/power_ring/reactor)
+"fBl" = (
+/obj/structure/pipes/standard/simple/hidden/supply,
+/obj/structure/platform_decoration/metal/almayer_smooth/west,
+/turf/open/new_varadero/alt_concrete/warning,
+/area/fiorina/station/power_ring/reactor)
+"ggq" = (
+/obj/item/reagent_container/glass/bucket/janibucket{
+	pixel_y = 11;
+	pixel_x = 4
+	},
+/obj/item/reagent_container/glass/bucket/janibucket{
+	pixel_y = -2;
+	pixel_x = -7
+	},
+/obj/item/tool/mop{
+	pixel_y = 9;
+	pixel_x = 10
+	},
+/turf/open/floor/plating,
+/area/lv759/indoors/spaceport/janitor)
+"gjr" = (
+/obj/structure/platform/metal/almayer_smooth,
+/turf/open/new_varadero/alt_concrete/warning/west,
+/area/fiorina/station/power_ring/reactor)
+"gAa" = (
+/obj/structure/machinery/door_control{
+	id = "garage_ice_2";
+	name = "garage shutter control";
+	pixel_x = -23;
+	pixel_y = -5
 	},
 /turf/open/new_varadero/alt_concrete/floor,
-/area/bigred/ground/engineering/atmospherics)
-"bMs" = (
+/area/fiorina/station/power_ring/reactor)
+"gAY" = (
+/obj/structure/pipes/standard/manifold/hidden/supply,
+/turf/open/new_varadero/alt_concrete/warning,
+/area/fiorina/station/power_ring/reactor)
+"gBe" = (
+/obj/effect/decal/cleanable/dirt{
+	layer = 4
+	},
+/turf/open/new_varadero/alt_concrete/floor,
+/area/fiorina/station/power_ring/reactor)
+"gCm" = (
+/turf/open/new_varadero/alt_concrete/warning,
+/area/fiorina/station/power_ring/reactor)
+"gIU" = (
+/obj/structure/platform/metal/almayer_smooth/east,
+/obj/structure/pipes/standard/manifold/hidden/supply{
+	dir = 4
+	},
+/turf/open/new_varadero/alt_concrete/floor,
+/area/fiorina/station/power_ring/reactor)
+"gJV" = (
+/obj/structure/prop/hybrisa/signs/high_voltage{
+	pixel_y = -25
+	},
+/turf/open/floor/shiva,
+/area/space)
+"gZa" = (
+/obj/structure/machinery/cm_vending/sorted/tech/electronics_storage,
+/turf/open/new_varadero/alt_concrete/floor,
+/area/fiorina/station/power_ring/reactor)
+"hiK" = (
+/obj/structure/machinery/power/apc/no_power/north,
+/turf/open/floor/plating,
+/area/lv759/indoors/spaceport/janitor)
+"hjF" = (
 /obj/structure/pipes/standard/simple/visible{
+	dir = 5
+	},
+/turf/open/new_varadero/alt_concrete/floor,
+/area/bigred/ground/engineering/atmospherics)
+"hnK" = (
+/obj/structure/machinery/firealarm{
+	pixel_y = -1;
+	pixel_x = -29
+	},
+/turf/open/new_varadero/alt_concrete/floor,
+/area/fiorina/station/power_ring/reactor)
+"hrQ" = (
+/obj/structure/pipes/standard/simple/hidden/supply{
+	dir = 6
+	},
+/turf/open/new_varadero/alt_concrete/warning,
+/area/fiorina/station/power_ring/reactor)
+"htG" = (
+/obj/structure/pipes/standard/simple/hidden/supply,
+/obj/structure/closet/fireaxecabinet{
+	pixel_x = 32
+	},
+/turf/open/new_varadero/alt_concrete/floor,
+/area/fiorina/station/power_ring/reactor)
+"htS" = (
+/obj/structure/surface/table/reinforced/prison,
+/obj/structure/machinery/computer/cameras{
+	dir = 4;
+	pixel_y = 5;
+	name = "computer"
+	},
+/turf/open/new_varadero/alt_concrete/floor,
+/area/fiorina/station/power_ring/reactor)
+"hAy" = (
+/obj/structure/pipes/vents/pump,
+/turf/open/new_varadero/alt_concrete/floor,
+/area/bigred/ground/engineering/atmospherics)
+"hCe" = (
+/turf/open/shuttle/escapepod/floor1/east,
+/area/fiorina/station/power_ring/reactor)
+"hJS" = (
+/obj/structure/pipes/standard/simple/hidden/supply,
+/turf/open/new_varadero/alt_concrete/warning/corner_edge/southeast,
+/area/fiorina/station/power_ring/reactor)
+"hUF" = (
+/obj/structure/closet/radiation{
+	pixel_y = -1;
+	pixel_x = -9
+	},
+/obj/structure/closet/radiation{
+	pixel_y = -1;
+	pixel_x = 6
+	},
+/turf/open/new_varadero/alt_concrete/floor,
+/area/fiorina/station/power_ring/reactor)
+"hUI" = (
+/turf/open/auto_turf/sand_white/layer0,
+/area/bigred/ground/engineering/atmospherics)
+"hUM" = (
+/obj/structure/machinery/floodlight,
+/turf/open/new_varadero/dock_concrete,
+/area/fiorina/station/power_ring/reactor)
+"hVR" = (
+/obj/structure/pipes/standard/simple/visible{
+	dir = 9
+	},
+/obj/structure/machinery/meter,
+/obj/structure/prop/hybrisa/misc/metergreen{
+	pixel_x = 25
+	},
+/turf/open/new_varadero/alt_concrete/floor,
+/area/bigred/ground/engineering/atmospherics)
+"hXK" = (
+/obj/effect/decal/strata_decals/catwalk/prison{
+	icon = 'icons/turf/floors/hybrisafloors.dmi'
+	},
+/turf/open/floor/shiva/radiator_tile2,
+/area/fiorina/station/power_ring/reactor)
+"hXR" = (
+/obj/effect/decal/strata_decals/catwalk/prison{
+	icon = 'icons/turf/floors/hybrisafloors.dmi'
+	},
+/turf/open/floor/shiva/radiator_tile,
+/area/fiorina/station/power_ring/reactor)
+"hXT" = (
+/obj/structure/pipes/standard/simple/visible{
+	dir = 6
+	},
+/turf/open/new_varadero/alt_concrete/floor,
+/area/bigred/ground/engineering/atmospherics)
+"hZM" = (
+/turf/open/new_varadero/dock_concrete,
+/area/bigred/ground/engineering/atmospherics)
+"idE" = (
+/obj/structure/machinery/power/apc/no_power/south,
+/turf/open/new_varadero/alt_concrete/floor,
+/area/bigred/ground/engineering/atmospherics)
+"ihK" = (
+/obj/structure/pipes/standard/simple/hidden/supply{
+	dir = 6
+	},
+/turf/open/new_varadero/alt_concrete/floor,
+/area/fiorina/station/power_ring/reactor)
+"iwM" = (
+/obj/structure/machinery/portable_atmospherics/canister/oxygen,
+/turf/open/new_varadero/alt_concrete/floor,
+/area/bigred/ground/engineering/atmospherics)
+"iyk" = (
+/obj/effect/decal/hybrisa/workers_decal{
+	dir = 4
+	},
+/turf/open/new_varadero/dock_concrete,
+/area/fiorina/station/power_ring/reactor)
+"iFl" = (
+/obj/structure/machinery/door/airlock/maintenance/colony{
+	dir = 8
+	},
+/turf/open/new_varadero/alt_concrete/floor,
+/area/bigred/ground/engineering/atmospherics)
+"iHw" = (
+/turf/closed/wall/rock/brown{
+	desc = "A rough wall of hardened rocsk."
+	},
+/area/fiorina/station/power_ring/reactor)
+"iTA" = (
+/obj/structure/surface/rack,
+/obj/effect/spawner/random/toolbox,
+/turf/open/floor/plating,
+/area/lv759/indoors/spaceport/janitor)
+"jhd" = (
+/obj/structure/pipes/standard/manifold/hidden/supply{
+	dir = 1
+	},
+/turf/open/new_varadero/alt_concrete/warning/south,
+/area/fiorina/station/power_ring/reactor)
+"jpM" = (
+/obj/structure/surface/table/reinforced/prison,
+/obj/structure/prop/hybrisa/misc/machinery/screens/multimonitorsmall_on,
+/turf/open/new_varadero/alt_concrete/floor,
+/area/fiorina/station/power_ring/reactor)
+"jtf" = (
+/obj/effect/decal/hybrisa/tiretrack{
+	dir = 8;
+	pixel_y = 12
+	},
+/turf/open/new_varadero/dock_concrete,
+/area/fiorina/station/power_ring/reactor)
+"jua" = (
+/obj/structure/platform/metal/almayer_smooth/west,
+/turf/open/new_varadero/alt_concrete/floor,
+/area/fiorina/station/power_ring/reactor)
+"jve" = (
+/obj/structure/prop/hybrisa/signs/high_voltage/small{
+	pixel_x = -6;
+	pixel_y = 32
+	},
+/obj/structure/pipes/standard/simple/hidden/supply{
+	dir = 4;
+	icon_state = "exposed01-supply"
+	},
+/turf/open/new_varadero/alt_concrete/floor,
+/area/bigred/ground/engineering/atmospherics)
+"jyu" = (
+/obj/effect/decal/hybrisa/tiretrack{
+	dir = 10;
+	pixel_x = 8
+	},
+/turf/open/new_varadero/dock_concrete,
+/area/fiorina/station/power_ring/reactor)
+"jzY" = (
+/obj/structure/closet/firecloset/full{
+	pixel_y = 9;
+	pixel_x = 6
+	},
+/obj/structure/closet/firecloset/full{
+	pixel_y = 9;
+	pixel_x = -8
+	},
+/turf/open/new_varadero/alt_concrete/floor,
+/area/fiorina/station/power_ring/reactor)
+"jER" = (
+/obj/structure/pipes/standard/simple/hidden/supply,
+/obj/structure/platform_decoration/metal/almayer_smooth/west,
+/turf/open/new_varadero/alt_concrete/floor,
+/area/fiorina/station/power_ring/reactor)
+"jHD" = (
+/obj/structure/window/framed/new_varadero/foundation/reinforced,
+/turf/open/floor/shiva,
+/area/fiorina/station/power_ring/reactor)
+"jJk" = (
+/obj/structure/machinery/door_control{
+	id = "garage_ice_2";
+	name = "garage shutter control";
+	pixel_x = 7;
+	pixel_y = 27
+	},
+/turf/open/new_varadero/dock_concrete,
+/area/fiorina/station/power_ring/reactor)
+"jXv" = (
+/turf/open/new_varadero/dock_concrete,
+/area/fiorina/station/power_ring/reactor)
+"jXJ" = (
+/obj/structure/fence/dark,
+/turf/open/auto_turf/sand_white/layer0,
+/area/bigred/ground/engineering/atmospherics)
+"jYj" = (
+/obj/structure/pipes/vents/pump/siphon/on{
+	id_tag = "waste_lower_out"
+	},
+/turf/open/new_varadero/alt_concrete/floor,
+/area/bigred/ground/engineering/atmospherics)
+"kaD" = (
+/obj/structure/pipes/standard/simple/hidden/universal,
+/turf/open/new_varadero/alt_concrete/floor,
+/area/bigred/ground/engineering/atmospherics)
+"kqv" = (
+/obj/structure/closet/radiation{
+	pixel_y = -1;
+	pixel_x = -6
+	},
+/obj/structure/closet/radiation{
+	pixel_y = -1;
+	pixel_x = 9
+	},
+/turf/open/new_varadero/alt_concrete/floor,
+/area/fiorina/station/power_ring/reactor)
+"kBM" = (
+/obj/structure/machinery/firealarm{
+	pixel_y = 23;
+	pixel_x = -1
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/new_varadero/alt_concrete/floor,
+/area/fiorina/station/power_ring/reactor)
+"kCV" = (
+/obj/structure/prop/hybrisa/misc/buildinggreeblies/greeble2{
+	pixel_y = 16;
+	pixel_x = -1
+	},
+/turf/open/new_varadero/alt_concrete/floor,
+/area/fiorina/station/power_ring/reactor)
+"kJe" = (
+/obj/structure/machinery/portable_atmospherics/canister/nitrogen,
+/obj/effect/decal/warning_stripes{
+	icon_state = "test_square"
+	},
+/turf/open/new_varadero/alt_concrete/floor,
+/area/bigred/ground/engineering/atmospherics)
+"kUW" = (
+/obj/structure/machinery/door/poddoor/hybrisa/shutters{
+	dir = 8;
+	id = "bunker_shutters"
+	},
+/turf/open/new_varadero/dock_concrete,
+/area/fiorina/station/power_ring/reactor)
+"kWE" = (
+/obj/structure/machinery/portable_atmospherics/canister/nitrogen,
+/turf/open/new_varadero/alt_concrete/floor,
+/area/bigred/ground/engineering/atmospherics)
+"kWF" = (
+/obj/structure/closet/radiation{
+	pixel_y = -1;
+	pixel_x = 6
+	},
+/obj/structure/closet/radiation{
+	pixel_y = -1;
+	pixel_x = -9
+	},
+/turf/open/new_varadero/alt_concrete/floor,
+/area/fiorina/station/power_ring/reactor)
+"lbl" = (
+/turf/open/new_varadero/alt_concrete/floor,
+/area/varadero/interior/oob)
+"lfQ" = (
+/turf/open/new_varadero/alt_concrete/warning/west,
+/area/fiorina/station/power_ring/reactor)
+"lgE" = (
+/obj/structure/pipes/standard/simple/hidden/supply,
+/obj/structure/platform/metal/almayer_smooth/east,
+/turf/open/new_varadero/alt_concrete/floor,
+/area/fiorina/station/power_ring/reactor)
+"lky" = (
+/obj/structure/prop/hybrisa/vehicles/Mining_Crawlers,
+/turf/open/new_varadero/dock_concrete,
+/area/fiorina/station/power_ring/reactor)
+"llQ" = (
+/obj/structure/pipes/standard/manifold/visible{
 	dir = 4
 	},
 /turf/open/new_varadero/alt_concrete/floor,
 /area/varadero/interior/oob)
-"bSB" = (
+"lyf" = (
+/obj/structure/pipes/standard/simple/hidden/supply,
+/turf/open/new_varadero/alt_concrete/warning/east,
+/area/fiorina/station/power_ring/reactor)
+"lAx" = (
+/obj/structure/fence/slim/dark/door{
+	dir = 8
+	},
+/turf/open/auto_turf/sand_white/layer0,
+/area/space)
+"lFj" = (
+/obj/structure/machinery/fuelpump,
+/obj/structure/cable/white{
+	color = "#550d0d";
+	icon_state = "4-8";
+	layer = 5;
+	level = 2
+	},
+/turf/open/new_varadero/alt_concrete/floor,
+/area/varadero/interior/oob)
+"lRE" = (
+/obj/structure/blocker/invisible_wall/water,
+/turf/open_space,
+/area/fiorina/station/power_ring/reactor)
+"lWW" = (
+/obj/structure/platform/metal/almayer_smooth/west,
+/turf/open/new_varadero/alt_concrete/warning,
+/area/fiorina/station/power_ring/reactor)
+"lXq" = (
+/obj/structure/surface/table/reinforced/prison,
+/obj/structure/prop/hybrisa/misc/machinery/screens/multimonitorsmall_off,
+/turf/open/new_varadero/alt_concrete/floor,
+/area/fiorina/station/power_ring/reactor)
+"mih" = (
+/obj/effect/decal/hybrisa/workers_decal,
+/turf/open/new_varadero/dock_concrete,
+/area/bigred/ground/engineering/atmospherics)
+"mBD" = (
+/obj/structure/surface/table/reinforced/prison,
+/obj/effect/landmark/crap_item,
+/turf/open/new_varadero/alt_concrete/floor,
+/area/fiorina/station/power_ring/reactor)
+"niF" = (
+/turf/open/new_varadero/alt_concrete/floor,
+/area/fiorina/station/power_ring/reactor)
+"njd" = (
+/obj/structure/platform_decoration/metal/almayer_smooth/east,
+/turf/open/new_varadero/alt_concrete/floor,
+/area/fiorina/station/power_ring/reactor)
+"nqR" = (
+/turf/closed/wall/new_varadero/reinforced,
+/area/bigred/ground/engineering/atmospherics)
+"nRg" = (
+/obj/structure/pipes/standard/simple/hidden/supply{
+	dir = 5
+	},
+/turf/open/new_varadero/alt_concrete/floor,
+/area/bigred/ground/engineering/atmospherics)
+"nWG" = (
+/obj/structure/machinery/power/apc/no_power/north,
+/turf/open/new_varadero/alt_concrete/floor,
+/area/fiorina/station/power_ring/reactor)
+"ocV" = (
+/obj/structure/prop/hybrisa/misc/metergreen{
+	pixel_x = -27
+	},
+/turf/open/new_varadero/alt_concrete/floor,
+/area/bigred/ground/engineering/atmospherics)
+"ojf" = (
+/obj/structure/machinery/door/airlock/multi_tile/almayer/engidoor/glass/colony,
+/turf/open/new_varadero/grate,
+/area/fiorina/station/power_ring/reactor)
+"oCq" = (
+/obj/structure/prop/hybrisa/signs/high_voltage{
+	pixel_y = -25
+	},
+/turf/open/new_varadero/alt_concrete/warning/corner/northeast,
+/area/fiorina/station/power_ring/reactor)
+"poM" = (
+/obj/structure/closet/firecloset/full{
+	pixel_y = -1;
+	pixel_x = -8
+	},
+/turf/open/floor/shiva,
+/area/space)
+"pqe" = (
+/obj/structure/cable{
+	icon_state = "1-6"
+	},
+/turf/open/new_varadero/alt_concrete/floor,
+/area/varadero/interior/oob)
+"ptN" = (
+/obj/structure/bed/chair/office/dark{
+	dir = 1;
+	pixel_x = -8;
+	pixel_y = 6
+	},
+/turf/open/new_varadero/alt_concrete/floor,
+/area/fiorina/station/power_ring/reactor)
+"pwp" = (
+/turf/closed/wall/new_varadero/reinforced/hull,
+/area/fiorina/station/power_ring/reactor)
+"pxw" = (
+/turf/open/new_varadero/alt_concrete/warning/corner,
+/area/fiorina/station/power_ring/reactor)
+"pLL" = (
+/obj/structure/pipes/trinary/mixer/m_mixer,
+/turf/open/new_varadero/alt_concrete/floor,
+/area/bigred/ground/engineering/atmospherics)
+"pQy" = (
+/obj/structure/machinery/door/airlock/multi_tile/almayer/engidoor/glass/colony,
+/turf/open/new_varadero/alt_concrete/floor,
+/area/fiorina/station/power_ring/reactor)
+"pSj" = (
+/obj/structure/prop/hybrisa/vehicles/Mining_Crawlers,
+/obj/effect/decal/hybrisa/tiretrack{
+	dir = 8;
+	pixel_y = 12
+	},
+/turf/open/new_varadero/dock_concrete,
+/area/fiorina/station/power_ring/reactor)
+"pUS" = (
+/obj/structure/platform/metal/almayer_smooth/north,
+/turf/open/new_varadero/alt_concrete/floor,
+/area/fiorina/station/power_ring/reactor)
+"qaO" = (
+/turf/open/new_varadero/alt_concrete/warning/corner/southwest,
+/area/fiorina/station/power_ring/reactor)
+"qil" = (
+/obj/structure/pipes/standard/simple/visible,
+/turf/open/new_varadero/alt_concrete/floor,
+/area/bigred/ground/engineering/atmospherics)
+"qDu" = (
+/obj/structure/pipes/standard/simple/hidden/supply{
+	dir = 10
+	},
+/obj/structure/prop/hybrisa/misc/machinery/screens/bluemultimonitorbig_off{
+	pixel_x = -9;
+	pixel_y = 27
+	},
+/turf/open/new_varadero/alt_concrete/floor,
+/area/bigred/ground/engineering/atmospherics)
+"qGX" = (
+/obj/structure/pipes/standard/simple/hidden/supply{
+	dir = 4;
+	icon_state = "exposed01-supply"
+	},
+/turf/open/new_varadero/alt_concrete/floor,
+/area/bigred/ground/engineering/atmospherics)
+"qXJ" = (
+/obj/structure/machinery/portable_atmospherics/canister/oxygen,
+/obj/effect/decal/warning_stripes{
+	icon_state = "test_square"
+	},
+/turf/open/new_varadero/alt_concrete/floor,
+/area/bigred/ground/engineering/atmospherics)
+"qYo" = (
+/obj/structure/machinery/power/power_generator/reactor/colony,
+/turf/open/new_varadero/alt_concrete/grate,
+/area/fiorina/station/power_ring/reactor)
+"rgF" = (
+/obj/structure/prop/hybrisa/signs/high_voltage{
+	pixel_y = 30
+	},
+/obj/structure/pipes/standard/simple/hidden/supply{
+	dir = 4;
+	icon_state = "exposed01-supply"
+	},
+/turf/open/new_varadero/alt_concrete/warning,
+/area/fiorina/station/power_ring/reactor)
+"rlg" = (
+/obj/structure/pipes/standard/simple/hidden/supply{
+	dir = 5
+	},
+/turf/open/new_varadero/alt_concrete/warning/south,
+/area/fiorina/station/power_ring/reactor)
+"rra" = (
+/obj/structure/surface/rack,
+/obj/item/tool/pickaxe,
+/obj/item/tool/pickaxe,
+/obj/item/tool/pickaxe,
+/turf/open/floor/plating,
+/area/lv759/indoors/spaceport/janitor)
+"rzA" = (
+/obj/structure/pipes/standard/simple/hidden/supply,
+/obj/effect/decal/cleanable/dirt/alt_dirt{
+	color = "#140400";
+	pixel_y = 14;
+	pixel_x = -4
+	},
+/turf/open/new_varadero/alt_concrete/floor,
+/area/bigred/ground/engineering/atmospherics)
+"rBC" = (
+/obj/structure/surface/rack,
+/obj/item/storage/toolkit/empty,
+/obj/item/storage/toolkit/empty,
+/obj/item/storage/toolkit/empty,
+/turf/open/floor/plating,
+/area/lv759/indoors/spaceport/janitor)
+"rFh" = (
+/obj/structure/cable/white{
+	color = "550d0d";
+	icon_state = "1-4";
+	layer = 5
+	},
+/turf/open/new_varadero/alt_concrete/floor,
+/area/varadero/interior/oob)
+"rFS" = (
+/obj/structure/fence/slim/dark/door,
+/turf/open/new_varadero/dock_concrete,
+/area/varadero/interior_protected/caves)
+"rHG" = (
+/obj/structure/pipes/portables_connector{
+	dir = 8
+	},
+/obj/structure/machinery/portable_atmospherics/canister/empty,
+/turf/open/new_varadero/alt_concrete/floor,
+/area/bigred/ground/engineering/atmospherics)
+"rSN" = (
+/obj/structure/pipes/standard/simple/hidden/supply{
+	dir = 9
+	},
+/turf/open/new_varadero/alt_concrete/floor,
+/area/fiorina/station/power_ring/reactor)
+"scC" = (
+/obj/structure/prop/hybrisa/misc/buildinggreeblies/greeble8{
+	pixel_x = -16;
+	pixel_y = 11
+	},
+/turf/open/new_varadero/alt_concrete/floor,
+/area/fiorina/station/power_ring/reactor)
+"stX" = (
+/turf/open/new_varadero/alt_concrete/warning/corner/southeast,
+/area/fiorina/station/power_ring/reactor)
+"sCF" = (
+/obj/structure/surface/rack,
+/obj/effect/spawner/random/tool{
+	pixel_y = -5;
+	pixel_x = -2
+	},
+/obj/effect/spawner/random/tool{
+	pixel_y = 7
+	},
+/turf/open/floor/plating,
+/area/lv759/indoors/spaceport/janitor)
+"sJK" = (
+/obj/structure/machinery/fuelcell_recycler,
+/turf/open/new_varadero/alt_concrete/floor,
+/area/fiorina/station/power_ring/reactor)
+"sWe" = (
+/obj/structure/pipes/unary/outlet_injector{
+	dir = 4
+	},
+/turf/open/new_varadero/alt_concrete/floor,
+/area/bigred/ground/engineering/atmospherics)
+"tfN" = (
+/obj/structure/pipes/binary/pump/on{
+	dir = 4
+	},
+/turf/open/new_varadero/alt_concrete/floor,
+/area/bigred/ground/engineering/atmospherics)
+"tnj" = (
+/obj/structure/pipes/binary/pump/on{
+	dir = 8
+	},
+/turf/open/new_varadero/alt_concrete/floor,
+/area/bigred/ground/engineering/atmospherics)
+"trr" = (
+/obj/structure/stairs/perspective{
+	icon_state = "p_stair_ew_full_cap"
+	},
+/obj/structure/stairs/perspective{
+	icon_state = "p_stair_ew_full_cap"
+	},
+/obj/structure/platform/metal/stair_cut/almayer_smooth_right,
+/turf/open/new_varadero/alt_concrete/warning/west,
+/area/fiorina/station/power_ring/reactor)
+"tuc" = (
+/obj/structure/machinery/door/airlock/multi_tile/almayer/engidoor/glass/colony{
+	autoname = 1;
+	dir = 1
+	},
+/turf/open/floor/shiva,
+/area/fiorina/station/power_ring/reactor)
+"tJp" = (
+/obj/structure/closet/toolcloset{
+	pixel_x = -7;
+	pixel_y = -1
+	},
+/obj/structure/closet/toolcloset{
+	pixel_y = -1;
+	pixel_x = 8
+	},
+/turf/open/new_varadero/alt_concrete/floor,
+/area/fiorina/station/power_ring/reactor)
+"tOA" = (
 /obj/structure/surface/table/reinforced/prison,
 /obj/structure/machinery/computer/cameras{
 	network = list("PRISON");
@@ -17817,196 +18563,45 @@
 	},
 /turf/open/new_varadero/alt_concrete/floor,
 /area/fiorina/station/power_ring/reactor)
-"cBw" = (
+"tQk" = (
+/obj/structure/prop/hybrisa/misc/machinery/screens/bluemultimonitorbig_off{
+	pixel_x = -10;
+	pixel_y = 27
+	},
+/turf/open/new_varadero/alt_concrete/floor,
+/area/bigred/ground/engineering/atmospherics)
+"tSL" = (
+/obj/structure/machinery/floodlight,
+/turf/open/new_varadero/dock_concrete,
+/area/bigred/ground/engineering/atmospherics)
+"ujT" = (
 /obj/structure/prop/hybrisa/signs/high_voltage{
 	pixel_y = 30
 	},
 /turf/open/new_varadero/dock_concrete,
 /area/fiorina/station/power_ring/reactor)
-"cHk" = (
-/obj/effect/decal/cleanable/blood/oil,
-/turf/open/floor/plating,
-/area/lv759/indoors/spaceport/janitor)
-"cJS" = (
-/turf/open/new_varadero/alt_concrete/warning/corner_edge/southwest,
-/area/fiorina/station/power_ring/reactor)
-"cLy" = (
-/obj/structure/machinery/door/airlock/multi_tile/almayer/engidoor/colony{
-	dir = 2
-	},
-/turf/open/floor/shiva,
-/area/fiorina/station/power_ring/reactor)
-"cLG" = (
-/obj/structure/machinery/door_control{
-	id = "garage_ice_2";
-	name = "garage shutter control";
-	pixel_x = -23;
-	pixel_y = -5
-	},
-/turf/open/new_varadero/alt_concrete/floor,
-/area/fiorina/station/power_ring/reactor)
-"cPA" = (
-/obj/effect/decal/hybrisa/workers_decal{
-	dir = 4
-	},
-/turf/open/new_varadero/dock_concrete,
-/area/fiorina/station/power_ring/reactor)
-"cSa" = (
-/obj/effect/decal/cleanable/dirt/alt_dirt{
-	color = "#140400";
-	pixel_y = 8;
-	pixel_x = 16
-	},
-/turf/open/new_varadero/alt_concrete/floor,
-/area/fiorina/station/power_ring/reactor)
-"cSo" = (
-/obj/effect/decal/cleanable/dirt,
-/turf/open/shuttle/escapepod/floor0/east,
-/area/fiorina/station/power_ring/reactor)
-"cXP" = (
-/obj/structure/machinery/portable_atmospherics/canister/empty,
-/turf/open/new_varadero/alt_concrete/floor,
-/area/bigred/ground/engineering/atmospherics)
-"dko" = (
-/obj/structure/pipes/trinary/mixer/m_mixer,
-/turf/open/new_varadero/alt_concrete/floor,
-/area/bigred/ground/engineering/atmospherics)
-"doY" = (
-/obj/effect/decal/cleanable/dirt,
-/turf/open/new_varadero/alt_concrete/warning/south,
-/area/fiorina/station/power_ring/reactor)
-"dvv" = (
-/obj/structure/surface/table/reinforced/prison,
-/obj/item/cell/high/empty,
-/obj/item/cell/high/empty{
-	pixel_y = 10;
-	pixel_x = -6
-	},
-/obj/item/cell/high/empty{
-	pixel_x = 13;
-	pixel_y = 7
-	},
-/turf/open/new_varadero/alt_concrete/floor,
-/area/fiorina/station/power_ring/reactor)
-"dyE" = (
-/obj/structure/pipes/standard/simple/visible{
-	dir = 9
-	},
-/obj/structure/machinery/meter,
-/obj/structure/prop/hybrisa/misc/metergreen{
-	pixel_x = 25
-	},
-/turf/open/new_varadero/alt_concrete/floor,
-/area/bigred/ground/engineering/atmospherics)
-"dGX" = (
-/obj/structure/pipes/standard/simple/hidden/supply,
-/obj/structure/barricade/handrail/no_vault{
-	dir = 4
-	},
-/turf/open/new_varadero/alt_concrete/floor,
-/area/fiorina/station/power_ring/reactor)
-"dKn" = (
-/obj/structure/machinery/door/airlock/multi_tile/almayer/engidoor/colony,
-/turf/open/floor/shiva,
-/area/lv759/indoors/spaceport/janitor)
-"dXp" = (
-/obj/structure/machinery/power/smes/buildable,
-/turf/open/new_varadero/alt_concrete/floor,
-/area/fiorina/station/power_ring/reactor)
-"eed" = (
-/obj/structure/pipes/standard/simple/hidden/supply{
-	dir = 5
-	},
-/turf/open/new_varadero/alt_concrete/warning/south,
-/area/fiorina/station/power_ring/reactor)
-"eiV" = (
-/obj/structure/window/framed/new_varadero/foundation,
-/turf/open/new_varadero/alt_concrete/floor,
-/area/fiorina/station/power_ring/reactor)
-"ejc" = (
-/obj/structure/pipes/standard/simple/hidden/universal,
-/turf/open/new_varadero/alt_concrete/floor,
-/area/bigred/ground/engineering/atmospherics)
-"elE" = (
-/turf/open/shuttle/escapepod/floor3/north,
-/area/fiorina/station/power_ring/reactor)
-"eqx" = (
-/obj/structure/pipes/standard/simple/visible,
-/obj/effect/decal/cleanable/dirt,
-/turf/open/new_varadero/alt_concrete/floor,
-/area/bigred/ground/engineering/atmospherics)
-"esy" = (
-/turf/open/new_varadero/alt_concrete/warning/south,
-/area/fiorina/station/power_ring/reactor)
-"evR" = (
-/obj/structure/pipes/standard/simple/hidden/supply{
-	dir = 9
-	},
-/obj/structure/barricade/handrail/no_vault,
-/turf/open/new_varadero/alt_concrete/warning/corner/southeast,
-/area/fiorina/station/power_ring/reactor)
-"ezy" = (
-/obj/effect/decal/hybrisa/tiretrack{
-	dir = 10;
-	pixel_x = 8
-	},
-/turf/open/new_varadero/dock_concrete,
-/area/fiorina/station/power_ring/reactor)
-"eBY" = (
-/obj/structure/machinery/power/apc/no_power/north,
-/turf/open/floor/plating,
-/area/lv759/indoors/spaceport/janitor)
-"eHI" = (
-/obj/structure/pipes/standard/simple/hidden/supply,
-/turf/open/new_varadero/alt_concrete/floor,
-/area/fiorina/station/power_ring/reactor)
-"eLx" = (
-/obj/structure/pipes/standard/simple/hidden/supply{
-	dir = 4;
-	icon_state = "exposed01-supply"
-	},
-/turf/open/new_varadero/alt_concrete/warning,
-/area/fiorina/station/power_ring/reactor)
-"eLA" = (
-/obj/structure/fence/slim/dark/door{
-	dir = 8
-	},
+"uto" = (
+/obj/structure/fence/slim/dark/door,
 /turf/open/auto_turf/sand_white/layer0,
-/area/space)
-"eNf" = (
-/obj/effect/decal/cleanable/dirt,
-/turf/open/new_varadero/alt_concrete/floor,
-/area/bigred/ground/engineering/atmospherics)
-"eUX" = (
-/obj/structure/surface/table/reinforced/prison,
-/obj/effect/landmark/crap_item,
+/area/varadero/interior_protected/caves)
+"uCC" = (
+/obj/structure/pipes/vents/pump,
 /turf/open/new_varadero/alt_concrete/floor,
 /area/fiorina/station/power_ring/reactor)
-"fmD" = (
-/turf/open/new_varadero/alt_concrete/warning/corner_edge{
+"uFi" = (
+/obj/structure/machinery/door/airlock/maintenance/colony{
 	dir = 2
 	},
-/area/fiorina/station/power_ring/reactor)
-"fsp" = (
-/turf/open/shuttle/escapepod/floor1/east,
-/area/fiorina/station/power_ring/reactor)
-"fto" = (
-/obj/structure/platform/metal/almayer_smooth,
-/turf/open/new_varadero/alt_concrete/warning/west,
-/area/fiorina/station/power_ring/reactor)
-"fze" = (
-/obj/effect/decal/strata_decals/catwalk/prison{
-	icon = 'icons/turf/floors/hybrisafloors.dmi'
+/turf/open/floor/shiva,
+/area/space)
+"uHi" = (
+/obj/structure/prop/hybrisa/misc/machinery/screens/bluemultimonitormedium_on{
+	pixel_y = 27;
+	pixel_x = -8
 	},
-/turf/open/floor/shiva/radiator_tile2,
-/area/fiorina/station/power_ring/reactor)
-"fDB" = (
-/turf/open/new_varadero/dock_concrete,
-/area/fiorina/station/power_ring/reactor)
-"fMg" = (
-/turf/open/shuttle/escapepod/floor1,
-/area/fiorina/station/power_ring/reactor)
-"fMo" = (
+/turf/open/new_varadero/alt_concrete/floor,
+/area/bigred/ground/engineering/atmospherics)
+"uJt" = (
 /obj/structure/pipes/standard/simple/hidden/supply{
 	dir = 4;
 	icon_state = "exposed01-supply"
@@ -18017,108 +18612,82 @@
 	},
 /turf/open/new_varadero/alt_concrete/floor,
 /area/bigred/ground/engineering/atmospherics)
-"gbc" = (
-/obj/structure/pipes/unary/outlet_injector{
-	dir = 4
+"uMK" = (
+/turf/open/new_varadero/alt_concrete/warning/corner_edge{
+	dir = 2
 	},
+/area/fiorina/station/power_ring/reactor)
+"uQy" = (
+/obj/structure/pipes/standard/simple/hidden/supply,
 /turf/open/new_varadero/alt_concrete/floor,
-/area/bigred/ground/engineering/atmospherics)
-"gjr" = (
+/area/fiorina/station/power_ring/reactor)
+"vqI" = (
+/obj/structure/surface/rack,
+/obj/item/tool/soap{
+	pixel_y = 3
+	},
+/obj/item/tool/soap{
+	pixel_y = -5
+	},
+/turf/open/floor/plating,
+/area/lv759/indoors/spaceport/janitor)
+"vAs" = (
+/turf/closed/wall/new_varadero/reinforced,
+/area/fiorina/station/power_ring/reactor)
+"vLh" = (
 /obj/structure/pipes/standard/simple/hidden/supply{
 	dir = 4;
 	icon_state = "exposed01-supply"
 	},
-/turf/open/new_varadero/alt_concrete/warning/west,
+/turf/open/new_varadero/alt_concrete/warning/south,
 /area/fiorina/station/power_ring/reactor)
-"gjC" = (
-/obj/structure/pipes/vents/pump,
-/turf/open/new_varadero/alt_concrete/floor,
-/area/bigred/ground/engineering/atmospherics)
-"gks" = (
-/obj/structure/surface/table/reinforced/prison,
-/obj/structure/machinery/computer/cameras{
-	dir = 4;
-	pixel_y = 6;
-	name = "computer"
+"vMe" = (
+/obj/structure/prop/hybrisa/misc/buildinggreeblies/greeble1{
+	pixel_y = 13;
+	pixel_x = -4
 	},
 /turf/open/new_varadero/alt_concrete/floor,
 /area/fiorina/station/power_ring/reactor)
-"glk" = (
-/obj/structure/pipes/standard/manifold/visible{
+"vZA" = (
+/obj/structure/surface/rack,
+/obj/item/tool/shovel,
+/obj/item/tool/shovel,
+/turf/open/floor/plating,
+/area/lv759/indoors/spaceport/janitor)
+"wbZ" = (
+/turf/open/new_varadero/alt_concrete/warning/east,
+/area/fiorina/station/power_ring/reactor)
+"wdP" = (
+/obj/structure/machinery/autolathe,
+/turf/open/new_varadero/alt_concrete/floor,
+/area/fiorina/station/power_ring/reactor)
+"woU" = (
+/obj/structure/terminal{
+	dir = 1
+	},
+/obj/effect/decal/warning_stripes{
+	icon_state = "test_square"
+	},
+/turf/open/new_varadero/alt_concrete/floor,
+/area/fiorina/station/power_ring/reactor)
+"wqu" = (
+/obj/structure/pipes/standard/simple/visible{
 	dir = 4
 	},
 /turf/open/new_varadero/alt_concrete/floor,
 /area/varadero/interior/oob)
-"gmp" = (
-/obj/structure/stairs/perspective{
-	icon_state = "p_stair_ew_full_cap"
-	},
-/obj/structure/stairs/perspective{
-	dir = 8;
-	icon_state = "p_stair_full"
-	},
-/obj/structure/platform/metal/almayer_smooth,
-/turf/open/new_varadero/alt_concrete/floor,
+"wxg" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/new_varadero/alt_concrete/warning,
 /area/fiorina/station/power_ring/reactor)
-"gnE" = (
-/obj/structure/machinery/fuelcell_recycler/full,
-/turf/open/new_varadero/alt_concrete/floor,
-/area/fiorina/station/power_ring/reactor)
-"gox" = (
-/obj/structure/machinery/floodlight,
-/turf/open/new_varadero/dock_concrete,
-/area/bigred/ground/engineering/atmospherics)
-"gCm" = (
-/obj/structure/machinery/portable_atmospherics/canister/oxygen,
+"wIv" = (
+/obj/structure/machinery/portable_atmospherics/canister/empty,
 /obj/effect/decal/warning_stripes{
 	icon_state = "test_square"
 	},
 /turf/open/new_varadero/alt_concrete/floor,
 /area/bigred/ground/engineering/atmospherics)
-"gEw" = (
-/obj/item/reagent_container/glass/bucket/janibucket{
-	pixel_x = 6;
-	pixel_y = 9
-	},
-/obj/item/reagent_container/glass/bucket/janibucket{
-	pixel_x = -6;
-	pixel_y = -3
-	},
-/obj/item/tool/mop{
-	pixel_x = 13;
-	pixel_y = 8
-	},
-/turf/open/floor/plating,
-/area/lv759/indoors/spaceport/janitor)
-"gGx" = (
-/obj/structure/prop/hybrisa/signs/high_voltage{
-	pixel_y = 30
-	},
-/obj/structure/pipes/standard/simple/hidden/supply{
-	dir = 4;
-	icon_state = "exposed01-supply"
-	},
-/turf/open/new_varadero/alt_concrete/warning,
-/area/fiorina/station/power_ring/reactor)
-"gIU" = (
-/obj/effect/decal/hybrisa/tiretrack{
-	dir = 9;
-	pixel_x = 2
-	},
-/turf/open/new_varadero/dock_concrete,
-/area/fiorina/station/power_ring/reactor)
-"gSB" = (
-/obj/structure/machinery/power/apc/no_power/south,
-/turf/open/new_varadero/alt_concrete/floor,
-/area/bigred/ground/engineering/atmospherics)
-"gZa" = (
-/obj/structure/platform/metal/almayer_smooth/east,
-/obj/structure/pipes/standard/manifold/hidden/supply{
-	dir = 4
-	},
-/turf/open/new_varadero/alt_concrete/floor,
-/area/fiorina/station/power_ring/reactor)
-"htS" = (
+"wJd" = (
 /obj/structure/surface/table/reinforced/prison,
 /obj/structure/machinery/computer/cameras{
 	dir = 4;
@@ -18132,683 +18701,6 @@
 	},
 /turf/open/new_varadero/alt_concrete/floor,
 /area/fiorina/station/power_ring/reactor)
-"huc" = (
-/obj/structure/prop/hybrisa/misc/buildinggreeblies/greeble2{
-	pixel_y = 16;
-	pixel_x = -1
-	},
-/turf/open/new_varadero/alt_concrete/floor,
-/area/fiorina/station/power_ring/reactor)
-"hyX" = (
-/obj/structure/closet/radiation{
-	pixel_y = -1;
-	pixel_x = 6
-	},
-/obj/structure/closet/radiation{
-	pixel_y = -1;
-	pixel_x = -9
-	},
-/turf/open/new_varadero/alt_concrete/floor,
-/area/fiorina/station/power_ring/reactor)
-"hCe" = (
-/obj/effect/decal/cleanable/dirt,
-/turf/open/shuttle/escapepod/floor1/east,
-/area/fiorina/station/power_ring/reactor)
-"hDJ" = (
-/obj/structure/closet/radiation{
-	pixel_y = -1;
-	pixel_x = -9
-	},
-/obj/structure/closet/radiation{
-	pixel_y = -1;
-	pixel_x = 6
-	},
-/turf/open/new_varadero/alt_concrete/floor,
-/area/fiorina/station/power_ring/reactor)
-"hHT" = (
-/obj/structure/fence/slim/warning/door,
-/turf/open/auto_turf/sand_white/layer0,
-/area/varadero/interior_protected/caves)
-"hSO" = (
-/obj/structure/closet/firecloset/full{
-	pixel_y = 9;
-	pixel_x = 6
-	},
-/obj/structure/closet/firecloset/full{
-	pixel_y = 9;
-	pixel_x = -8
-	},
-/turf/open/new_varadero/alt_concrete/floor,
-/area/fiorina/station/power_ring/reactor)
-"hUI" = (
-/obj/structure/pipes/vents/pump/siphon/on{
-	id_tag = "waste_lower_out"
-	},
-/turf/open/new_varadero/alt_concrete/floor,
-/area/bigred/ground/engineering/atmospherics)
-"iaM" = (
-/obj/effect/decal/hybrisa/tiretrack{
-	dir = 8;
-	pixel_y = 12
-	},
-/turf/open/new_varadero/dock_concrete,
-/area/fiorina/station/power_ring/reactor)
-"ihK" = (
-/obj/structure/pipes/standard/simple/hidden/supply{
-	dir = 6
-	},
-/turf/open/new_varadero/alt_concrete/floor,
-/area/fiorina/station/power_ring/reactor)
-"ile" = (
-/obj/structure/machinery/door/airlock/multi_tile/almayer/generic2/autoname{
-	dir = 1
-	},
-/turf/open/floor/plating,
-/area/ice_colony/surface/disposals)
-"ilI" = (
-/obj/effect/decal/strata_decals/catwalk/prison{
-	icon = 'icons/turf/floors/hybrisafloors.dmi'
-	},
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/shiva/radiator_tile2,
-/area/fiorina/station/power_ring/reactor)
-"iyr" = (
-/obj/structure/platform/metal/almayer_smooth,
-/turf/open/new_varadero/alt_concrete/floor,
-/area/fiorina/station/power_ring/reactor)
-"iyW" = (
-/obj/structure/pipes/standard/simple/hidden/supply{
-	dir = 4;
-	icon_state = "exposed01-supply"
-	},
-/obj/structure/barricade/handrail/no_vault,
-/turf/open/new_varadero/alt_concrete/warning/south,
-/area/fiorina/station/power_ring/reactor)
-"iDE" = (
-/obj/structure/prop/hybrisa/signs/high_voltage/small{
-	pixel_x = -6;
-	pixel_y = 32
-	},
-/obj/structure/pipes/standard/simple/hidden/supply{
-	dir = 4;
-	icon_state = "exposed01-supply"
-	},
-/turf/open/new_varadero/alt_concrete/floor,
-/area/bigred/ground/engineering/atmospherics)
-"iJT" = (
-/obj/structure/pipes/standard/simple/hidden/supply,
-/turf/open/new_varadero/alt_concrete/warning/corner_edge/southeast,
-/area/fiorina/station/power_ring/reactor)
-"iNw" = (
-/obj/structure/pipes/standard/simple/visible{
-	dir = 5
-	},
-/turf/open/new_varadero/alt_concrete/floor,
-/area/bigred/ground/engineering/atmospherics)
-"iPN" = (
-/obj/structure/machinery/door/airlock/maintenance/colony{
-	dir = 8
-	},
-/turf/open/new_varadero/alt_concrete/floor,
-/area/bigred/ground/engineering/atmospherics)
-"jdM" = (
-/obj/structure/platform/metal/almayer_smooth/west,
-/turf/open/new_varadero/alt_concrete/floor,
-/area/fiorina/station/power_ring/reactor)
-"jhd" = (
-/obj/structure/surface/rack,
-/obj/item/tool/shovel,
-/obj/item/tool/shovel,
-/obj/item/tool/shovel,
-/obj/item/tool/shovel,
-/turf/open/floor/plating,
-/area/lv759/indoors/spaceport/janitor)
-"jjq" = (
-/turf/open/new_varadero/alt_concrete/warning/corner/southwest,
-/area/fiorina/station/power_ring/reactor)
-"jtf" = (
-/turf/closed/wall/new_varadero/reinforced,
-/area/bigred/ground/engineering/atmospherics)
-"jHD" = (
-/obj/structure/window/framed/new_varadero/foundation/reinforced,
-/turf/open/floor/shiva,
-/area/fiorina/station/power_ring/reactor)
-"jPH" = (
-/turf/open/auto_turf/sand_white/layer0,
-/area/lv759/indoors/spaceport/janitor)
-"jZe" = (
-/obj/structure/prop/hybrisa/signs/high_voltage{
-	pixel_y = -25
-	},
-/turf/open/floor/shiva,
-/area/space)
-"kfY" = (
-/obj/structure/prop/hybrisa/misc/metergreen{
-	pixel_x = 28;
-	pixel_y = 3
-	},
-/turf/open/new_varadero/alt_concrete/floor,
-/area/fiorina/station/power_ring/reactor)
-"kle" = (
-/obj/structure/machinery/firealarm{
-	pixel_y = -1;
-	pixel_x = -29
-	},
-/turf/open/new_varadero/alt_concrete/floor,
-/area/fiorina/station/power_ring/reactor)
-"klw" = (
-/obj/structure/prop/hybrisa/misc/metergreen{
-	pixel_x = -27
-	},
-/turf/open/new_varadero/alt_concrete/floor,
-/area/bigred/ground/engineering/atmospherics)
-"kuQ" = (
-/obj/structure/pipes/standard/simple/visible,
-/obj/structure/prop/hybrisa/misc/metergreen{
-	pixel_x = 25
-	},
-/turf/open/new_varadero/alt_concrete/floor,
-/area/bigred/ground/engineering/atmospherics)
-"kBM" = (
-/obj/structure/machinery/firealarm{
-	pixel_y = 23;
-	pixel_x = -1
-	},
-/obj/effect/decal/cleanable/dirt,
-/turf/open/new_varadero/alt_concrete/floor,
-/area/fiorina/station/power_ring/reactor)
-"kGD" = (
-/turf/open/new_varadero/dock_concrete,
-/area/bigred/ground/engineering/atmospherics)
-"kPA" = (
-/obj/structure/prop/hybrisa/vehicles/Mining_Crawlers,
-/obj/effect/decal/hybrisa/tiretrack{
-	dir = 8
-	},
-/turf/open/new_varadero/dock_concrete,
-/area/fiorina/station/power_ring/reactor)
-"kYb" = (
-/obj/structure/surface/rack,
-/obj/item/storage/toolkit/empty,
-/obj/item/storage/toolkit/empty,
-/obj/item/storage/toolkit/empty,
-/turf/open/floor/plating,
-/area/lv759/indoors/spaceport/janitor)
-"lcu" = (
-/obj/structure/machinery/autolathe,
-/turf/open/new_varadero/alt_concrete/floor,
-/area/fiorina/station/power_ring/reactor)
-"lfQ" = (
-/turf/open/new_varadero/alt_concrete/warning/west,
-/area/fiorina/station/power_ring/reactor)
-"lLv" = (
-/obj/structure/platform/metal/almayer_smooth/east,
-/obj/structure/pipes/standard/simple/hidden/supply,
-/turf/open/new_varadero/alt_concrete/floor,
-/area/fiorina/station/power_ring/reactor)
-"lPd" = (
-/obj/structure/blocker/invisible_wall/water,
-/turf/open_space,
-/area/fiorina/station/power_ring/reactor)
-"lRE" = (
-/obj/structure/machinery/portable_atmospherics/canister/nitrogen,
-/turf/open/new_varadero/alt_concrete/floor,
-/area/bigred/ground/engineering/atmospherics)
-"mbU" = (
-/turf/closed/wall/rock/brown{
-	desc = "A rough wall of hardened rocsk."
-	},
-/area/space)
-"moi" = (
-/obj/structure/pipes/standard/simple/hidden/supply,
-/obj/effect/decal/cleanable/dirt/alt_dirt{
-	color = "#140400";
-	pixel_y = 14;
-	pixel_x = -4
-	},
-/turf/open/new_varadero/alt_concrete/floor,
-/area/bigred/ground/engineering/atmospherics)
-"mqe" = (
-/obj/structure/platform_decoration/metal/almayer_smooth/west,
-/obj/structure/pipes/standard/simple/hidden/supply,
-/turf/open/new_varadero/alt_concrete/warning,
-/area/fiorina/station/power_ring/reactor)
-"mxD" = (
-/obj/structure/pipes/standard/simple/visible{
-	dir = 4
-	},
-/obj/structure/window/framed/new_varadero/foundation/reinforced,
-/turf/open/new_varadero/alt_concrete/floor,
-/area/bigred/ground/engineering/atmospherics)
-"niF" = (
-/turf/open/new_varadero/alt_concrete/floor,
-/area/fiorina/station/power_ring/reactor)
-"nxv" = (
-/obj/structure/cable/white{
-	color = "550d0d";
-	icon_state = "1-4";
-	layer = 5
-	},
-/turf/open/new_varadero/alt_concrete/floor,
-/area/varadero/interior/oob)
-"nxy" = (
-/obj/structure/pipes/standard/simple/hidden/supply{
-	dir = 4;
-	icon_state = "exposed01-supply"
-	},
-/turf/open/new_varadero/alt_concrete/warning/south,
-/area/fiorina/station/power_ring/reactor)
-"nyj" = (
-/obj/structure/pipes/standard/simple/visible{
-	dir = 6
-	},
-/turf/open/new_varadero/alt_concrete/floor,
-/area/bigred/ground/engineering/atmospherics)
-"nOX" = (
-/obj/structure/stairs/perspective{
-	icon_state = "p_stair_ew_full_cap"
-	},
-/obj/structure/stairs/perspective{
-	icon_state = "p_stair_ew_full_cap"
-	},
-/obj/structure/platform/metal/stair_cut/almayer_smooth_right,
-/turf/open/new_varadero/alt_concrete/warning/west,
-/area/fiorina/station/power_ring/reactor)
-"nTW" = (
-/obj/effect/decal/hybrisa/tiretrack{
-	dir = 8
-	},
-/turf/open/new_varadero/dock_concrete,
-/area/fiorina/station/power_ring/reactor)
-"nVt" = (
-/obj/structure/platform_decoration/metal/almayer_smooth/east,
-/turf/open/new_varadero/alt_concrete/floor,
-/area/fiorina/station/power_ring/reactor)
-"ojf" = (
-/obj/structure/machinery/door/airlock/multi_tile/almayer/engidoor/glass/colony,
-/turf/open/new_varadero/grate,
-/area/fiorina/station/power_ring/reactor)
-"oyc" = (
-/obj/structure/surface/rack,
-/obj/item/tool/pickaxe,
-/obj/item/tool/pickaxe,
-/obj/item/tool/pickaxe,
-/turf/open/floor/plating,
-/area/lv759/indoors/spaceport/janitor)
-"oCq" = (
-/obj/structure/prop/hybrisa/signs/high_voltage{
-	pixel_y = -25
-	},
-/turf/open/new_varadero/alt_concrete/warning/corner/northeast,
-/area/fiorina/station/power_ring/reactor)
-"oGt" = (
-/obj/structure/machinery/portable_atmospherics/canister/nitrogen,
-/obj/effect/decal/warning_stripes{
-	icon_state = "test_square"
-	},
-/turf/open/new_varadero/alt_concrete/floor,
-/area/bigred/ground/engineering/atmospherics)
-"oUH" = (
-/obj/effect/decal/cleanable/blood/oil,
-/turf/open/new_varadero/dock_concrete,
-/area/fiorina/station/power_ring/reactor)
-"pfA" = (
-/obj/structure/surface/rack,
-/obj/effect/spawner/random/toolbox,
-/turf/open/floor/plating,
-/area/lv759/indoors/spaceport/janitor)
-"ptd" = (
-/obj/structure/prop/hybrisa/misc/metergreen{
-	pixel_x = -27;
-	pixel_y = 5
-	},
-/turf/open/new_varadero/alt_concrete/floor,
-/area/fiorina/station/power_ring/reactor)
-"pwp" = (
-/obj/effect/decal/cleanable/dirt,
-/turf/open/new_varadero/alt_concrete/floor,
-/area/fiorina/station/power_ring/reactor)
-"pxc" = (
-/obj/structure/pipes/standard/simple/hidden/supply,
-/turf/open/new_varadero/alt_concrete/warning/east,
-/area/fiorina/station/power_ring/reactor)
-"pxw" = (
-/turf/open/new_varadero/alt_concrete/warning/corner,
-/area/fiorina/station/power_ring/reactor)
-"pBO" = (
-/obj/structure/prop/hybrisa/misc/buildinggreeblies/greeble12{
-	dir = 1;
-	pixel_x = -31;
-	pixel_y = 8
-	},
-/turf/open/auto_turf/sand_white/layer0,
-/area/varadero/interior_protected/caves)
-"pIX" = (
-/turf/open/new_varadero/alt_concrete/warning/corner/southeast,
-/area/fiorina/station/power_ring/reactor)
-"pMw" = (
-/obj/structure/pipes/standard/simple/hidden/supply{
-	dir = 4;
-	icon_state = "exposed01-supply"
-	},
-/turf/open/floor/shiva,
-/area/fiorina/station/power_ring/reactor)
-"pZi" = (
-/obj/structure/machinery/door/airlock/multi_tile/almayer/engidoor/glass/colony,
-/turf/open/new_varadero/alt_concrete/floor,
-/area/fiorina/station/power_ring/reactor)
-"qcm" = (
-/turf/closed/wall/new_varadero/reinforced/hull{
-	desc = "A concrete wall with metal reinforcements. The plating seems to have more rivets giving a daunting finish. This seems impenetrable to most conventional stands."s"
-	},
-/area/fiorina/station/power_ring/reactor)
-"qia" = (
-/obj/structure/bed/chair/office/dark{
-	dir = 1;
-	pixel_x = -16;
-	pixel_y = 8
-	},
-/turf/open/new_varadero/alt_concrete/floor,
-/area/fiorina/station/power_ring/reactor)
-"qkV" = (
-/obj/structure/platform_decoration/metal/almayer_smooth/west,
-/obj/structure/pipes/standard/simple/hidden/supply,
-/turf/open/new_varadero/alt_concrete/floor,
-/area/fiorina/station/power_ring/reactor)
-"qpV" = (
-/obj/structure/pipes/standard/simple/hidden/supply{
-	dir = 4;
-	icon_state = "exposed01-supply"
-	},
-/turf/open/new_varadero/alt_concrete/floor,
-/area/bigred/ground/engineering/atmospherics)
-"qHU" = (
-/obj/structure/closet/toolcloset{
-	pixel_x = -7;
-	pixel_y = -1
-	},
-/obj/structure/closet/toolcloset{
-	pixel_y = -1;
-	pixel_x = 8
-	},
-/turf/open/new_varadero/alt_concrete/floor,
-/area/fiorina/station/power_ring/reactor)
-"qJb" = (
-/obj/structure/surface/table/reinforced/prison,
-/obj/structure/prop/hybrisa/misc/machinery/screens/multimonitorsmall_on,
-/turf/open/new_varadero/alt_concrete/floor,
-/area/fiorina/station/power_ring/reactor)
-"qJD" = (
-/obj/structure/machinery/cm_vending/sorted/tech/electronics_storage,
-/turf/open/new_varadero/alt_concrete/floor,
-/area/fiorina/station/power_ring/reactor)
-"qLU" = (
-/turf/open/new_varadero/alt_concrete/warning/east,
-/area/fiorina/station/power_ring/reactor)
-"qSq" = (
-/obj/structure/pipes/standard/simple/hidden/supply{
-	dir = 6
-	},
-/turf/open/new_varadero/alt_concrete/warning,
-/area/fiorina/station/power_ring/reactor)
-"qYo" = (
-/turf/open/new_varadero/alt_concrete/warning,
-/area/fiorina/station/power_ring/reactor)
-"rcB" = (
-/obj/effect/decal/cleanable/blood/oil,
-/turf/open/new_varadero/alt_concrete/floor,
-/area/fiorina/station/power_ring/reactor)
-"rfG" = (
-/obj/structure/pipes/standard/manifold/hidden/supply,
-/turf/open/new_varadero/alt_concrete/warning,
-/area/fiorina/station/power_ring/reactor)
-"rss" = (
-/obj/structure/pipes/vents/pump,
-/turf/open/new_varadero/alt_concrete/floor,
-/area/fiorina/station/power_ring/reactor)
-"rEJ" = (
-/obj/structure/machinery/firealarm{
-	pixel_x = -28
-	},
-/obj/structure/prop/hybrisa/misc/buildinggreeblies/greeble1{
-	pixel_x = -2;
-	pixel_y = 12
-	},
-/turf/open/new_varadero/alt_concrete/floor,
-/area/fiorina/station/power_ring/reactor)
-"rJk" = (
-/obj/structure/window/framed/new_varadero/foundation/reinforced,
-/turf/open/new_varadero/alt_concrete/floor,
-/area/bigred/ground/engineering/atmospherics)
-"rSN" = (
-/obj/structure/pipes/standard/simple/hidden/supply{
-	dir = 9
-	},
-/turf/open/new_varadero/alt_concrete/floor,
-/area/fiorina/station/power_ring/reactor)
-"rWp" = (
-/obj/structure/surface/table/reinforced/prison,
-/obj/structure/prop/hybrisa/misc/machinery/screens/multimonitorsmall_off,
-/turf/open/new_varadero/alt_concrete/floor,
-/area/fiorina/station/power_ring/reactor)
-"rZi" = (
-/obj/structure/pipes/standard/simple/hidden/supply,
-/obj/effect/decal/cleanable/dirt{
-	layer = 4
-	},
-/turf/open/new_varadero/alt_concrete/floor,
-/area/fiorina/station/power_ring/reactor)
-"sfX" = (
-/obj/structure/prop/hybrisa/vehicles/Mining_Crawlers,
-/turf/open/new_varadero/dock_concrete,
-/area/fiorina/station/power_ring/reactor)
-"sld" = (
-/obj/structure/cable{
-	icon_state = "1-6"
-	},
-/turf/open/new_varadero/alt_concrete/floor,
-/area/varadero/interior/oob)
-"sti" = (
-/obj/effect/decal/cleanable/dirt,
-/turf/open/new_varadero/dock_concrete,
-/area/bigred/ground/engineering/atmospherics)
-"suw" = (
-/obj/structure/surface/rack,
-/obj/item/tool/soap{
-	pixel_y = 2
-	},
-/obj/item/tool/soap{
-	pixel_y = -6
-	},
-/turf/open/floor/plating,
-/area/lv759/indoors/spaceport/janitor)
-"sHo" = (
-/obj/structure/platform/metal/almayer_smooth/west,
-/turf/open/new_varadero/alt_concrete/warning,
-/area/fiorina/station/power_ring/reactor)
-"sHH" = (
-/obj/structure/machinery/floodlight,
-/turf/open/new_varadero/dock_concrete,
-/area/fiorina/station/power_ring/reactor)
-"sJi" = (
-/obj/structure/pipes/standard/simple/hidden/supply{
-	dir = 10
-	},
-/obj/structure/prop/hybrisa/misc/machinery/screens/bluemultimonitorbig_off{
-	pixel_x = -9;
-	pixel_y = 27
-	},
-/turf/open/new_varadero/alt_concrete/floor,
-/area/bigred/ground/engineering/atmospherics)
-"sOm" = (
-/obj/structure/machinery/door/airlock/maintenance/colony{
-	dir = 2
-	},
-/turf/open/floor/shiva,
-/area/space)
-"tqM" = (
-/obj/structure/machinery/power/apc/no_power/north,
-/turf/open/new_varadero/alt_concrete/floor,
-/area/fiorina/station/power_ring/reactor)
-"tuc" = (
-/obj/structure/machinery/door/airlock/multi_tile/almayer/engidoor/glass/colony{
-	autoname = 1;
-	dir = 1
-	},
-/turf/open/floor/shiva,
-/area/fiorina/station/power_ring/reactor)
-"txy" = (
-/obj/effect/decal/cleanable/dirt,
-/turf/open/new_varadero/alt_concrete/warning,
-/area/fiorina/station/power_ring/reactor)
-"tyh" = (
-/obj/structure/pipes/standard/manifold/hidden/supply{
-	dir = 8
-	},
-/turf/open/new_varadero/alt_concrete/floor,
-/area/bigred/ground/engineering/atmospherics)
-"tCX" = (
-/obj/structure/prop/hybrisa/misc/machinery/screens/bluemultimonitormedium_on{
-	pixel_y = 26;
-	pixel_x = -8
-	},
-/turf/open/new_varadero/alt_concrete/floor,
-/area/bigred/ground/engineering/atmospherics)
-"tGv" = (
-/obj/structure/machinery/firealarm{
-	pixel_y = -27;
-	pixel_x = -1
-	},
-/turf/open/new_varadero/alt_concrete/floor,
-/area/fiorina/station/power_ring/reactor)
-"tSL" = (
-/obj/structure/stairs/perspective{
-	dir = 1;
-	icon_state = "p_stair_full"
-	},
-/turf/open/new_varadero/alt_concrete/warning,
-/area/fiorina/station/power_ring/reactor)
-"tXP" = (
-/obj/structure/prop/hybrisa/misc/machinery/screens/bluemultimonitorbig_off{
-	pixel_x = -10;
-	pixel_y = 27
-	},
-/turf/open/new_varadero/alt_concrete/floor,
-/area/bigred/ground/engineering/atmospherics)
-"ubx" = (
-/obj/structure/machinery/door/poddoor/hybrisa/shutters{
-	dir = 8;
-	layer = 2.9;
-	id = "engineering_lockdown"
-	},
-/turf/open/new_varadero/alt_concrete/warning/west,
-/area/fiorina/station/power_ring/reactor)
-"ujT" = (
-/obj/structure/machinery/power/power_generator/reactor/colony,
-/turf/open/new_varadero/alt_concrete/grate,
-/area/fiorina/station/power_ring/reactor)
-"ukF" = (
-/turf/closed/wall/new_varadero/reinforced/hull,
-/area/bigred/ground/engineering/atmospherics)
-"upf" = (
-/obj/structure/window/framed/new_varadero/foundation,
-/turf/open/new_varadero/alt_concrete/floor,
-/area/bigred/ground/engineering/atmospherics)
-"uqd" = (
-/obj/structure/platform/metal/almayer_smooth/north,
-/turf/open/new_varadero/alt_concrete/floor,
-/area/fiorina/station/power_ring/reactor)
-"uAD" = (
-/obj/structure/pipes/standard/simple/visible,
-/turf/open/new_varadero/alt_concrete/floor,
-/area/bigred/ground/engineering/atmospherics)
-"uHW" = (
-/obj/structure/closet/firecloset/full{
-	pixel_x = -7
-	},
-/turf/open/floor/shiva,
-/area/fiorina/station/power_ring/reactor)
-"uMK" = (
-/obj/effect/decal/strata_decals/catwalk/prison{
-	icon = 'icons/turf/floors/hybrisafloors.dmi'
-	},
-/turf/open/floor/shiva/radiator_tile,
-/area/fiorina/station/power_ring/reactor)
-"uQy" = (
-/obj/effect/decal/cleanable/dirt{
-	layer = 4
-	},
-/turf/open/new_varadero/alt_concrete/floor,
-/area/fiorina/station/power_ring/reactor)
-"uQV" = (
-/obj/structure/machinery/door/airlock/multi_tile/almayer/engidoor/colony,
-/turf/open/new_varadero/alt_concrete/floor,
-/area/bigred/ground/engineering/atmospherics)
-"vsV" = (
-/obj/structure/pipes/standard/manifold/hidden/supply{
-	dir = 1
-	},
-/turf/open/new_varadero/alt_concrete/warning/south,
-/area/fiorina/station/power_ring/reactor)
-"vwe" = (
-/obj/structure/pipes/portables_connector{
-	dir = 8
-	},
-/obj/structure/machinery/portable_atmospherics/canister/empty,
-/turf/open/new_varadero/alt_concrete/floor,
-/area/bigred/ground/engineering/atmospherics)
-"vxF" = (
-/turf/open/new_varadero/alt_concrete/warning/corner_edge/southeast,
-/area/fiorina/station/power_ring/reactor)
-"vAs" = (
-/turf/closed/wall/new_varadero/reinforced,
-/area/fiorina/station/power_ring/reactor)
-"vJD" = (
-/obj/structure/pipes/binary/pump/on{
-	dir = 8
-	},
-/turf/open/new_varadero/alt_concrete/floor,
-/area/bigred/ground/engineering/atmospherics)
-"vMS" = (
-/obj/structure/surface/table/reinforced/prison,
-/obj/effect/spawner/random/toolbox{
-	pixel_y = -2;
-	pixel_x = 2
-	},
-/obj/effect/spawner/random/powercell{
-	pixel_x = -5;
-	pixel_y = 12
-	},
-/turf/open/new_varadero/alt_concrete/floor,
-/area/fiorina/station/power_ring/reactor)
-"vPw" = (
-/obj/structure/platform_decoration/metal/almayer_smooth,
-/obj/structure/pipes/standard/simple/hidden/supply,
-/turf/open/new_varadero/alt_concrete/floor,
-/area/fiorina/station/power_ring/reactor)
-"woU" = (
-/obj/structure/terminal{
-	dir = 1
-	},
-/obj/effect/decal/warning_stripes{
-	icon_state = "test_square"
-	},
-/turf/open/new_varadero/alt_concrete/floor,
-/area/fiorina/station/power_ring/reactor)
-"wuB" = (
-/obj/structure/pipes/standard/simple/hidden/supply{
-	dir = 5
-	},
-/turf/open/new_varadero/alt_concrete/floor,
-/area/bigred/ground/engineering/atmospherics)
-"wuT" = (
-/obj/effect/decal/hybrisa/workers_decal,
-/turf/open/new_varadero/dock_concrete,
-/area/bigred/ground/engineering/atmospherics)
-"wDH" = (
-/obj/structure/machinery/portable_atmospherics/canister/oxygen,
-/turf/open/new_varadero/alt_concrete/floor,
-/area/bigred/ground/engineering/atmospherics)
 "wNl" = (
 /obj/structure/bed/chair/office/dark{
 	dir = 8;
@@ -18819,9 +18711,51 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/new_varadero/alt_concrete/floor,
 /area/fiorina/station/power_ring/reactor)
-"xhQ" = (
+"wRZ" = (
+/obj/structure/barricade/handrail/no_vault,
+/obj/structure/pipes/standard/simple/hidden/supply{
+	dir = 9
+	},
+/turf/open/new_varadero/alt_concrete/warning/corner/southeast,
+/area/fiorina/station/power_ring/reactor)
+"xbS" = (
+/obj/structure/pipes/standard/simple/hidden/supply{
+	dir = 4;
+	icon_state = "exposed01-supply"
+	},
+/turf/open/new_varadero/alt_concrete/warning/west,
+/area/fiorina/station/power_ring/reactor)
+"xfa" = (
+/obj/item/prop/colony/canister{
+	pixel_y = 3;
+	pixel_x = 5
+	},
+/obj/item/prop/colony/canister{
+	pixel_y = -5;
+	pixel_x = 3
+	},
+/obj/effect/decal/cleanable/dirt/alt_dirt/stain{
+	pixel_x = -10;
+	pixel_y = 7
+	},
 /turf/open/new_varadero/alt_concrete/floor,
-/area/varadero/interior/oob)
+/area/fiorina/station/power_ring/reactor)
+"xhz" = (
+/obj/structure/machinery/cm_vending/sorted/tech/tool_storage{
+	pixel_x = -5;
+	pixel_y = 11
+	},
+/turf/open/new_varadero/alt_concrete/floor,
+/area/fiorina/station/power_ring/reactor)
+"xhQ" = (
+/obj/structure/window/framed/new_varadero/foundation/reinforced,
+/turf/open/new_varadero/alt_concrete/floor,
+/area/bigred/ground/engineering/atmospherics)
+"xpz" = (
+/obj/structure/pipes/standard/simple/visible,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/new_varadero/alt_concrete/floor,
+/area/bigred/ground/engineering/atmospherics)
 "xqh" = (
 /obj/structure/pipes/standard/simple/hidden/supply,
 /turf/open/new_varadero/alt_concrete/floor,
@@ -18837,64 +18771,52 @@
 /obj/item/fuel_cell,
 /turf/open/new_varadero/alt_concrete/floor,
 /area/fiorina/station/power_ring/reactor)
-"xJO" = (
-/obj/structure/machinery/fuelpump,
-/obj/structure/cable/white{
-	color = "#550d0d";
-	icon_state = "4-8";
-	layer = 5;
-	level = 2
+"xER" = (
+/obj/structure/surface/table/reinforced/prison,
+/obj/item/cell/high/empty,
+/obj/item/cell/high/empty{
+	pixel_y = 10;
+	pixel_x = -6
 	},
-/turf/open/new_varadero/alt_concrete/floor,
-/area/varadero/interior/oob)
-"xKE" = (
-/obj/structure/machinery/door_control{
-	id = "garage_ice_2";
-	name = "garage shutter control";
-	pixel_y = 30
-	},
-/turf/open/new_varadero/dock_concrete,
-/area/fiorina/station/power_ring/reactor)
-"xTJ" = (
-/obj/structure/pipes/binary/pump/on{
-	dir = 4
-	},
-/turf/open/new_varadero/alt_concrete/floor,
-/area/bigred/ground/engineering/atmospherics)
-"xYM" = (
-/obj/effect/decal/hybrisa/tiretrack{
-	dir = 10;
-	pixel_x = -5
-	},
-/turf/open/new_varadero/dock_concrete,
-/area/fiorina/station/power_ring/reactor)
-"yap" = (
-/obj/structure/window/framed/new_varadero/foundation/reinforced,
-/obj/structure/pipes/standard/simple/visible{
-	dir = 4
-	},
-/turf/open/new_varadero/alt_concrete/floor,
-/area/bigred/ground/engineering/atmospherics)
-"yil" = (
-/obj/structure/surface/rack,
-/obj/effect/spawner/random/tool{
-	pixel_y = -5;
-	pixel_x = -2
-	},
-/obj/effect/spawner/random/tool{
+/obj/item/cell/high/empty{
+	pixel_x = 13;
 	pixel_y = 7
 	},
-/turf/open/floor/plating,
-/area/lv759/indoors/spaceport/janitor)
-"yjz" = (
-/obj/structure/surface/table/reinforced/prison,
-/obj/effect/spawner/random/powercell,
 /turf/open/new_varadero/alt_concrete/floor,
 /area/fiorina/station/power_ring/reactor)
-"ykO" = (
+"xQb" = (
+/obj/effect/decal/strata_decals/catwalk/prison{
+	icon = 'icons/turf/floors/hybrisafloors.dmi'
+	},
 /obj/effect/decal/cleanable/dirt,
-/turf/open/new_varadero/grate,
+/turf/open/floor/shiva/radiator_tile2,
 /area/fiorina/station/power_ring/reactor)
+"xRR" = (
+/obj/structure/platform_decoration/metal/almayer_smooth,
+/obj/structure/pipes/standard/simple/hidden/supply,
+/turf/open/new_varadero/alt_concrete/floor,
+/area/fiorina/station/power_ring/reactor)
+"xTJ" = (
+/obj/structure/machinery/firealarm{
+	pixel_y = 23;
+	pixel_x = -1
+	},
+/turf/open/new_varadero/alt_concrete/floor,
+/area/fiorina/station/power_ring/reactor)
+"xZn" = (
+/obj/structure/platform/metal/almayer_smooth/east,
+/obj/structure/pipes/standard/simple/hidden/supply,
+/turf/open/new_varadero/alt_concrete/floor,
+/area/fiorina/station/power_ring/reactor)
+"yid" = (
+/obj/structure/machinery/door/airlock/multi_tile/almayer/engidoor/colony,
+/turf/open/new_varadero/alt_concrete/floor,
+/area/bigred/ground/engineering/atmospherics)
+"ymb" = (
+/turf/closed/wall/rock/brown{
+	desc = "A rough wall of hardened rocsk."
+	},
+/area/space)
 
 (1,1,1) = {"
 ayZ
@@ -25750,7 +25672,7 @@ ayZ
 ayZ
 ayZ
 ayZ
-nxv
+rFh
 ayZ
 ayZ
 ayZ
@@ -25932,7 +25854,7 @@ ayZ
 ayZ
 ayZ
 ayZ
-xJO
+lFj
 ayZ
 ayZ
 ayZ
@@ -26114,7 +26036,7 @@ ayZ
 ayZ
 ayZ
 ayZ
-xhQ
+lbl
 ayZ
 ayZ
 ayZ
@@ -26296,7 +26218,7 @@ ayZ
 ayZ
 ayZ
 ayZ
-xhQ
+lbl
 ayZ
 ayZ
 ayZ
@@ -26478,7 +26400,7 @@ ayZ
 ayZ
 ayZ
 ayZ
-bMs
+wqu
 ayZ
 ayZ
 ayZ
@@ -26660,7 +26582,7 @@ ayZ
 ayZ
 ayZ
 ayZ
-glk
+llQ
 ayZ
 ayZ
 ayZ
@@ -26842,7 +26764,7 @@ ayZ
 ayZ
 ayZ
 ayZ
-sld
+pqe
 ayZ
 ayZ
 ayZ
@@ -27024,7 +26946,7 @@ ayZ
 ayZ
 ayZ
 ayZ
-xhQ
+lbl
 ayZ
 ayZ
 ayZ
@@ -68519,8 +68441,8 @@ azH
 azH
 azH
 azH
-eLA
-eLA
+lAx
+lAx
 azH
 azH
 azH
@@ -68691,9 +68613,9 @@ ajq
 ajq
 ajq
 ajq
-ajq
-jPH
-jPH
+ymb
+ymb
+ymb
 auz
 auz
 auz
@@ -68873,15 +68795,15 @@ ajq
 ajq
 ajq
 ajq
-ajq
-jPH
+ymb
+ymb
 auz
 auz
 auF
 auF
 dKn
-fDB
-sHH
+jXv
+hUM
 ajq
 ajq
 ajq
@@ -69054,16 +68976,16 @@ ajq
 ajq
 ajq
 ajq
-ajq
-ajq
+ymb
+ymb
 auz
 auz
-eBY
+hiK
 auF
 auF
-auA
-fDB
-fDB
+auF
+jXv
+jXv
 ajq
 ajq
 ajq
@@ -69236,21 +69158,21 @@ ajq
 ajq
 ajq
 ajq
-ajq
-aBe
+ymb
+ymb
 auz
-kYb
+rBC
 auF
 auF
-oyc
+rra
 auz
-fDB
-fDB
-fDB
-iaM
-fDB
-nTW
-sHH
+jXv
+jXv
+jXv
+jtf
+jXv
+jtf
+hUM
 ajq
 azV
 azV
@@ -69259,7 +69181,7 @@ azV
 azV
 azV
 azV
-hHT
+uto
 azV
 azV
 azV
@@ -69417,22 +69339,22 @@ ajq
 ajq
 ajq
 ajq
-ajq
-aBe
-aBe
+ymb
+ymb
+ymb
 auz
-pfA
+iTA
 auF
-cHk
-jhd
+auF
+vZA
 auz
-fDB
-fDB
-fDB
-sfX
-oUH
-nTW
-fDB
+jXv
+jXv
+jXv
+lky
+jXv
+jtf
+jXv
 ajq
 azV
 azV
@@ -69598,23 +69520,23 @@ ajq
 ajq
 ajq
 ajq
-aBe
-aBe
-aBe
-aBe
+ymb
+ymb
+ymb
+ymb
 auz
-suw
+vqI
 auF
 auF
 auF
 auz
-fDB
-cPA
-fDB
-fDB
-fDB
-kPA
-xYM
+jXv
+iyk
+jXv
+jXv
+jXv
+pSj
+jXv
 ajq
 azV
 azV
@@ -69780,23 +69702,23 @@ ajq
 ajq
 ajq
 ajq
-aBe
-aBe
-aBe
-mbU
+ymb
+ymb
+ymb
+ymb
 auz
-yil
+sCF
 auF
 auF
-gEw
+ggq
 auz
-cBw
-fDB
-fDB
-fDB
-ezy
-nTW
-fDB
+ujT
+jXv
+jXv
+jXv
+jyu
+jtf
+jXv
 ajq
 azV
 azV
@@ -69962,27 +69884,27 @@ ajq
 ajq
 ajq
 ajq
-aBe
-qcm
-qcm
-qcm
-qcm
-qcm
-qcm
-qcm
-qcm
-qcm
-auy
+iHw
+pwp
+pwp
+pwp
+pwp
+pwp
+pwp
+pwp
+pwp
+pwp
+niF
 cLy
 acs
 acs
-xKE
-gIU
-fDB
-azV
-azV
-azV
-azV
+jJk
+crZ
+jXv
+hUI
+hUI
+hUI
+hUI
 azV
 azV
 azV
@@ -70144,27 +70066,27 @@ ajq
 ajq
 ajq
 ajq
-qcm
-qcm
-niF
-kle
-niF
+pwp
 pwp
 niF
-qHU
-qcm
+hnK
 niF
-txy
-doY
+niF
+niF
+tJp
+vAs
+niF
+wxg
+dZA
 niF
 acs
-ubx
-ubx
+kUW
+kUW
 acs
-azF
-azF
-azF
-azF
+jXJ
+jXJ
+jXJ
+jXJ
 azF
 azF
 azF
@@ -70327,26 +70249,26 @@ abP
 abP
 abP
 jHD
-vMS
+xhz
 niF
-lcu
+wdP
 xDQ
 xDQ
 niF
-hyX
-qcm
+kWF
+vAs
 niF
-qYo
-doY
+gCm
+dZA
 niF
-cLG
+gAa
 niF
-cSa
-acs
-azV
-pBO
-azV
-azV
+niF
+aui
+hUI
+cxK
+hUI
+hUI
 azV
 azV
 azV
@@ -70509,26 +70431,26 @@ abP
 abP
 abP
 jHD
-huc
+kCV
 niF
-qJD
-pwp
-rcB
+gZa
 niF
-rss
-ptd
-pwp
-qYo
-cJS
+niF
+uCC
+niF
+niF
+niF
+gCm
+esF
 lfQ
 lfQ
-jjq
+qaO
 niF
 aui
 aui
 aui
 aui
-azV
+hUI
 azV
 azV
 azV
@@ -70694,21 +70616,21 @@ jHD
 niF
 niF
 ihK
-vPw
-lLv
-lLv
-gZa
-lLv
-lLv
-mqe
-vPw
-lLv
-qkV
-eed
+xRR
+xZn
+gIU
+lgE
+xZn
+xZn
+fBl
+xRR
+xZn
+jER
+rlg
 niF
 aui
-aux
-aux
+aup
+aup
 aui
 aui
 azV
@@ -70871,31 +70793,31 @@ abP
 abP
 abP
 abP
-jZe
+gJV
 acs
 lfQ
 lfQ
+xbS
 gjr
-fto
 pxw
 lfQ
 lfQ
 lfQ
 lfQ
-nOX
-gmp
-jjq
-uqd
-nxy
+trr
+fkj
+qaO
+pUS
+vLh
 niF
-uQV
-aux
-aux
-aux
-jtf
-jtf
-jtf
-jtf
+yid
+aup
+aup
+aup
+nqR
+nqR
+nqR
+nqR
 azV
 azV
 azV
@@ -71055,29 +70977,29 @@ abP
 abP
 abP
 ojf
-rZi
-eHI
+fob
+uQy
 rSN
-iyr
+fze
+gCm
 qYo
-ujT
-ujT
-ujT
-fMg
-fMg
-fMg
-esy
-uqd
-vsV
-dGX
+qYo
+qYo
+dPd
+dPd
+dPd
+auA
+pUS
+jhd
+byq
 xqh
-wuB
-eNf
+nRg
 aux
-jtf
-cXP
-aux
-jtf
+aup
+nqR
+fwa
+aup
+nqR
 azV
 azV
 azV
@@ -71236,30 +71158,30 @@ abP
 abP
 abP
 abP
-aGi
-uQy
-uQy
+auy
+gBe
+gBe
 niF
-iyr
+fze
+gCm
 qYo
-ujT
-ujT
-ujT
-ykO
-ykO
-fsp
-esy
-uqd
-iyW
-lPd
-ukF
-iDE
-eNf
-gSB
-jtf
-gbc
-hUI
-jtf
+qYo
+qYo
+fzm
+fzm
+hCe
+auA
+pUS
+ets
+lRE
+eLA
+jve
+aux
+idE
+nqR
+sWe
+jYj
+nqR
 azV
 azV
 azV
@@ -71423,25 +71345,25 @@ eiV
 eiV
 eiV
 vAs
-fmD
 uMK
-fze
-fze
-ilI
-aGi
-fsp
-esy
-uqd
-iyW
-lPd
-ukF
-fMo
-aux
-aux
-jtf
-yap
-yap
-jtf
+hXR
+hXK
+hXK
+xQb
+fzm
+hCe
+auA
+pUS
+ets
+lRE
+eLA
+uJt
+aup
+aup
+nqR
+xhQ
+xhQ
+nqR
 aui
 aui
 aui
@@ -71600,7 +71522,7 @@ avl
 ave
 ast
 auL
-hSO
+jzY
 niF
 niF
 pxw
@@ -71608,27 +71530,27 @@ vAs
 kBM
 aGi
 aGi
-uMK
-ilI
-uMK
-uMK
-esy
-uqd
-iyW
-lPd
-ukF
-qpV
-aux
-aux
-klw
-vJD
-xTJ
-aux
-aux
-aux
+hXR
+xQb
+hXR
+hXR
+auA
+pUS
+ets
+lRE
+eLA
+qGX
+aup
+aup
+ocV
+tnj
+tfN
+aup
+aup
+aup
 aui
-kGD
-gox
+hZM
+tSL
 azF
 azV
 azV
@@ -71785,33 +71707,33 @@ auL
 dXp
 woU
 niF
-tSL
-pZi
-pwp
+gCm
+pQy
+niF
 cSo
 elE
 elE
-ujT
-ujT
-ujT
-esy
-uqd
-iyW
-lPd
-ukF
-qpV
+qYo
+qYo
+qYo
+auA
+pUS
+ets
+lRE
+eLA
+qGX
+aup
+aup
+aup
+dXU
+rHG
+aup
 aux
 aux
-aux
-brM
-vwe
-aux
-eNf
-eNf
-uQV
-wuT
-sti
-hHT
+yid
+mih
+hZM
+rFS
 azV
 azV
 azV
@@ -71967,33 +71889,33 @@ auL
 dXp
 woU
 niF
-tSL
+gCm
 niF
 niF
 hCe
 aGi
 aGi
-ujT
-ujT
-ujT
-esy
-uqd
-iyW
-lPd
-ukF
-sJi
-tyh
-moi
+qYo
+qYo
+qYo
+auA
+pUS
+ets
+lRE
+eLA
+qDu
+bOE
+rzA
 xqh
 xqh
-ejc
-eqx
-eqx
-iNw
-aux
-kGD
-sti
-hHT
+kaD
+xpz
+xpz
+hjF
+aup
+hZM
+hZM
+rFS
 azV
 azV
 azV
@@ -72155,26 +72077,26 @@ eiV
 eiV
 eiV
 niF
-vxF
-qLU
-qLU
-pIX
-uqd
-iyW
-lPd
-ukF
-tCX
-gjC
-byk
-aux
-aux
-aux
-aux
-aux
-vJD
+niF
+wbZ
+wbZ
+stX
+pUS
+ets
+lRE
+eLA
+uHi
+hAy
+aur
+aup
+aup
+aup
+aup
+aup
+tnj
 aui
-kGD
-kGD
+hZM
+hZM
 azF
 azV
 azV
@@ -72328,32 +72250,32 @@ auZ
 avf
 auS
 auL
-aup
+scC
 niF
 niF
 niF
 niF
-gks
 htS
+wJd
 eiV
 eiV
 eiV
-sHo
-jdM
-jdM
-nVt
-iyW
-lPd
-ukF
-tXP
-aux
-bsk
-aux
-nyj
-kuQ
-dko
-uAD
-dyE
+lWW
+jua
+jua
+njd
+ets
+lRE
+eLA
+tQk
+aup
+aoO
+aup
+hXT
+adK
+pLL
+qil
+hVR
 aui
 azV
 azV
@@ -72511,31 +72433,31 @@ avf
 auQ
 auL
 acs
-tqM
+nWG
 niF
 niF
 niF
 niF
 wNl
 niF
-hDJ
+hUF
 eiV
-qSq
-iJT
-pxc
-pxc
-evR
-lPd
-ukF
-aux
-aux
-jtf
-yap
-yap
-jtf
-mxD
-rJk
-jtf
+hrQ
+hJS
+lyf
+lyf
+wRZ
+lRE
+eLA
+aup
+aup
+nqR
+xhQ
+xhQ
+nqR
+xhQ
+xhQ
+nqR
 aui
 azV
 azV
@@ -72693,31 +72615,31 @@ avf
 auQ
 auL
 acs
+xTJ
 niF
 niF
 niF
 niF
-pwp
-pwp
 niF
-dvv
+niF
+xER
 eiV
-eLx
-esy
+euK
+auA
 niF
-aur
-gnE
-ukF
-ukF
-aux
-aux
-jtf
-aux
-hUI
-jtf
-hUI
-aux
-jtf
+xfa
+sJK
+eLA
+eLA
+aup
+aup
+nqR
+aup
+jYj
+nqR
+jYj
+aup
+nqR
 azV
 azV
 azV
@@ -72874,32 +72796,32 @@ auZ
 avf
 auQ
 auL
-rEJ
+vMe
 niF
-qJb
+jpM
 niF
-eUX
-pwp
+mBD
 niF
 niF
-yjz
+niF
+bFa
 eiV
-eLx
-esy
-tGv
-jtf
-jtf
-jtf
-aux
-aux
-aux
-jtf
-aux
-wDH
-jtf
-lRE
-aux
-jtf
+euK
+auA
+niF
+vAs
+nqR
+eLA
+aup
+aup
+aup
+nqR
+aup
+iwM
+nqR
+kWE
+aup
+nqR
 azV
 azV
 azV
@@ -73058,30 +72980,30 @@ auX
 auL
 niF
 niF
-rWp
-qia
-bSB
+lXq
+ptN
+tOA
 niF
 niF
 niF
 niF
-pZi
-eLx
-esy
+pQy
+euK
+auA
 niF
-upf
-gCm
-gCm
-eNf
+eiV
+qXJ
+qXJ
 aux
-aux
-jtf
-jtf
-jtf
-jtf
-jtf
-jtf
-jtf
+aup
+aup
+nqR
+nqR
+nqR
+nqR
+nqR
+nqR
+nqR
 azV
 azV
 azV
@@ -73239,26 +73161,26 @@ auZ
 auZ
 auL
 acs
-kfY
-niF
-rss
-eHI
-eHI
-eHI
 auv
-eHI
-eHI
-rfG
-esy
 niF
-upf
-bsb
-bsb
-eNf
+uCC
+uQy
+uQy
+uQy
+htG
+uQy
+uQy
+gAY
+auA
+niF
+eiV
+wIv
+wIv
 aux
+aup
 aui
 aui
-azV
+hUI
 azV
 azV
 azV
@@ -73417,7 +73339,7 @@ avs
 auZ
 auL
 auZ
-ile
+auZ
 auL
 auL
 acs
@@ -73430,17 +73352,17 @@ vAs
 vAs
 vAs
 vAs
-gGx
-esy
-hDJ
-upf
-oGt
-oGt
-eNf
+rgF
+auA
+kqv
+eiV
+kJe
+kJe
 aux
+aup
 aui
-azV
-azV
+hUI
+hUI
 azV
 azV
 azV
@@ -73602,27 +73524,27 @@ abP
 abP
 abP
 abP
-auy
+abP
 acs
 jHD
 jHD
 jHD
 vAs
 vAs
-auy
-uHW
+abP
+poM
 vAs
-pMw
+auy
 tuc
 vAs
-jtf
-jtf
-jtf
-iPN
-jtf
+vAs
+nqR
+nqR
+iFl
+nqR
 aui
-azF
-azF
+jXJ
+jXJ
 azF
 azF
 azF
@@ -73801,7 +73723,7 @@ abP
 adf
 abP
 abP
-aeZ
+adf
 azV
 azV
 azV
@@ -73980,10 +73902,10 @@ abP
 abP
 abP
 abP
-sOm
+uFi
 abP
 abP
-aeZ
+adf
 azV
 azV
 azV
@@ -74165,7 +74087,7 @@ abP
 adf
 abP
 abP
-aeZ
+adf
 azV
 azV
 azV
@@ -74347,7 +74269,7 @@ abP
 adf
 adf
 adf
-aeZ
+adf
 adf
 adf
 adf
