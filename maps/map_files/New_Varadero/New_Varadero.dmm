@@ -185,7 +185,7 @@
 /area/space)
 "aaH" = (
 /obj/structure/barricade/wooden,
-/turf/open/floor/plating,
+/turf/open/floor/kutjevo/tan,
 /area/space)
 "aaI" = (
 /obj/structure/curtain/colorable_transparent{
@@ -356,7 +356,7 @@
 /turf/open/floor/dark2,
 /area/space)
 "abg" = (
-/turf/open/floor/holofloor/grass,
+/turf/open/auto_turf/strata_grass/layer0,
 /area/fiorina/station/park)
 "abh" = (
 /obj/effect/decal/warning_stripes{
@@ -6777,10 +6777,6 @@
 	pixel_y = -12;
 	dir = 1
 	},
-/obj/effect/decal/medical_decals{
-	icon_state = "triagedecaldir";
-	color = "#d3d3d3"
-	},
 /obj/effect/decal/warning_stripes{
 	icon_state = "test_warning_smooth_red"
 	},
@@ -6800,10 +6796,6 @@
 "auE" = (
 /obj/structure/prop/hybrisa/airport/refuelinghose2{
 	pixel_x = -3
-	},
-/obj/effect/decal/medical_decals{
-	icon_state = "triagedecaldir";
-	color = "#d3d3d3"
 	},
 /obj/effect/decal/warning_stripes{
 	icon_state = "test_warning_smooth_red"
@@ -8260,7 +8252,7 @@
 	pixel_y = 7
 	},
 /obj/item/clothing/glasses/regular/hipster,
-/turf/open/floor/hybrisa/carpet/carpetblack,
+/turf/open/gm/dirtgrassborder2/west,
 /area/space)
 "ayM" = (
 /obj/structure/blocker/fog,
@@ -8922,9 +8914,6 @@
 	},
 /turf/open/floor/prison/darkpurple2/northeast,
 /area/space)
-"aAv" = (
-/turf/open/space/basic,
-/area/fiorina/station/park)
 "aAw" = (
 /obj/structure/prop/hybrisa/misc/machinery/screens/bluemultimonitorsmall_off,
 /turf/closed/wall/new_varadero,
@@ -9503,6 +9492,10 @@
 	},
 /turf/open/floor/shiva,
 /area/lv759/indoors/colonial_marshals/prisoners_cells)
+"aCa" = (
+/obj/effect/landmark/structure_spawner/setup/distress/xeno_door,
+/turf/open/floor/plating,
+/area/space)
 "aCb" = (
 /obj/structure/bed/chair/office/dark{
 	dir = 4;
@@ -11213,6 +11206,9 @@
 /obj/item/stack/sheet/mineral/phoron,
 /turf/open/new_varadero,
 /area/space)
+"aGX" = (
+/turf/closed/wall/resin/ondirt,
+/area/space)
 "aGY" = (
 /obj/structure/machinery/door/airlock/multi_tile/almayer/secdoor/colony,
 /turf/open/floor/shiva,
@@ -11223,6 +11219,10 @@
 /turf/open/floor/hybrisa/carpet/rug_colorable/southwest{
 	color = "#0b8f8d"
 	},
+/area/space)
+"aHa" = (
+/obj/structure/barricade/wooden,
+/turf/open/auto_turf/strata_grass/layer1,
 /area/space)
 "aHb" = (
 /obj/structure/machinery/light,
@@ -11438,6 +11438,9 @@
 /obj/structure/pipes/valve,
 /turf/open/floor/shiva/radiator_tile2,
 /area/almayer/engineering/lower/engine_core)
+"aHL" = (
+/turf/open/auto_turf/strata_grass/layer1,
+/area/fiorina/station/park)
 "aHM" = (
 /obj/effect/decal/warning_stripes{
 	icon_state = "N";
@@ -12142,6 +12145,9 @@
 /obj/structure/machinery/colony_floodlight,
 /turf/open/floor/strata/multi_tiles,
 /area/space)
+"aJW" = (
+/turf/open/floor/kutjevo/tan,
+/area/fiorina/station/park)
 "aJX" = (
 /obj/structure/machinery/conveyor{
 	dir = 4;
@@ -15785,6 +15791,10 @@
 	},
 /turf/open/floor/plating/plating_catwalk/prison,
 /area/almayer/engineering/lower/engine_monitoring)
+"aTU" = (
+/obj/structure/bed/bedroll,
+/turf/open/auto_turf/strata_grass/layer1,
+/area/fiorina/station/park)
 "aTV" = (
 /turf/open/floor/shiva,
 /area/bigred/ground/chapel)
@@ -20476,31 +20486,13 @@
 	},
 /turf/open_space,
 /area/space)
-"bhO" = (
-/obj/effect/decal/medical_decals{
-	icon_state = "triagedecaldir";
-	color = "#d3d3d3"
-	},
-/obj/effect/decal/warning_stripes{
-	icon_state = "test_warning_smooth_red"
-	},
-/turf/open/floor/plating/platingdmg1,
-/area/space)
 "bhP" = (
-/obj/effect/decal/medical_decals{
-	icon_state = "triagedecaldir";
-	color = "#d3d3d3"
-	},
 /obj/effect/decal/warning_stripes{
 	icon_state = "test_warning_smooth_red"
 	},
 /turf/open/floor/almayer/blackfull/west,
 /area/space)
 "bhQ" = (
-/obj/effect/decal/medical_decals{
-	icon_state = "triagedecaldir";
-	color = "#d3d3d3"
-	},
 /obj/effect/decal/warning_stripes{
 	icon_state = "test_warning_smooth_red"
 	},
@@ -21278,6 +21270,587 @@
 /obj/structure/fence/dark,
 /turf/open/auto_turf/sand_white/layer0,
 /area/varadero/interior_protected/caves/central)
+"bjI" = (
+/obj/structure/bed/bedroll,
+/obj/item/prop/magazine/book/spacebeast{
+	pixel_x = 7
+	},
+/turf/open/auto_turf/strata_grass/layer1,
+/area/fiorina/station/park)
+"bjJ" = (
+/obj/effect/landmark/structure_spawner/setup/distress/xeno_weed_node,
+/turf/open/auto_turf/strata_grass/layer1,
+/area/fiorina/station/park)
+"bjK" = (
+/turf/open/auto_turf/strata_grass/layer0_mud,
+/area/fiorina/station/park)
+"bjL" = (
+/obj/structure/platform_decoration/stone/soro/west,
+/turf/open/auto_turf/strata_grass/layer1,
+/area/fiorina/station/park)
+"bjM" = (
+/obj/structure/platform/stone/soro/north,
+/turf/open/auto_turf/strata_grass/layer1,
+/area/fiorina/station/park)
+"bjN" = (
+/obj/structure/platform_decoration/stone/soro/east,
+/turf/open/auto_turf/strata_grass/layer1,
+/area/fiorina/station/park)
+"bjO" = (
+/obj/item/reagent_container/food/drinks/bottle/vodka/chess/w_rook,
+/turf/open/auto_turf/strata_grass/layer1,
+/area/fiorina/station/park)
+"bjP" = (
+/obj/structure/prop/brazier/frame/full/campfire/smolder,
+/turf/open/auto_turf/strata_grass/layer1,
+/area/fiorina/station/park)
+"bjQ" = (
+/obj/structure/sign/poster/clf{
+	pixel_x = -5;
+	pixel_y = 3
+	},
+/turf/closed/wall/new_varadero,
+/area/fiorina/station/park)
+"bjR" = (
+/obj/structure/platform/stone/soro/east,
+/turf/open/auto_turf/strata_grass/layer1,
+/area/fiorina/station/park)
+"bjS" = (
+/obj/structure/prop/hybrisa/misc/concretestatue{
+	layer = 5;
+	pixel_y = 16
+	},
+/turf/open/auto_turf/strata_grass/layer0_mud,
+/area/fiorina/station/park)
+"bjT" = (
+/obj/structure/platform/stone/soro/west,
+/turf/open/auto_turf/strata_grass/layer0_mud,
+/area/fiorina/station/park)
+"bjU" = (
+/obj/structure/barricade/wooden{
+	dir = 1
+	},
+/turf/open/auto_turf/strata_grass/layer0_mud,
+/area/fiorina/station/park)
+"bjV" = (
+/obj/structure/barricade/wooden{
+	dir = 1
+	},
+/turf/open/auto_turf/strata_grass/layer1,
+/area/fiorina/station/park)
+"bjW" = (
+/obj/effect/decal/strata_decals/mud_corner{
+	dir = 4
+	},
+/turf/open/auto_turf/strata_grass/layer0_mud,
+/area/fiorina/station/park)
+"bjX" = (
+/obj/effect/decal/strata_decals/mud_corner{
+	dir = 4
+	},
+/obj/effect/decal/strata_decals/mud_corner{
+	dir = 4
+	},
+/turf/open/auto_turf/strata_grass/layer0_mud,
+/area/fiorina/station/park)
+"bjY" = (
+/obj/effect/landmark/structure_spawner/setup/distress/xeno_weed_node,
+/obj/effect/decal/strata_decals/mud_corner{
+	dir = 4
+	},
+/turf/open/auto_turf/strata_grass/layer0_mud,
+/area/fiorina/station/park)
+"bjZ" = (
+/obj/structure/flora/bush/ausbushes/var3/fullgrass,
+/turf/open/auto_turf/strata_grass/layer0_mud,
+/area/fiorina/station/park)
+"bka" = (
+/obj/structure/platform_decoration/stone/soro,
+/turf/open/auto_turf/strata_grass/layer1,
+/area/fiorina/station/park)
+"bkb" = (
+/obj/structure/platform/stone/soro,
+/turf/open/auto_turf/strata_grass/layer0,
+/area/fiorina/station/park)
+"bkc" = (
+/obj/structure/platform/stone/soro,
+/obj/structure/platform/stone/soro,
+/turf/open/auto_turf/strata_grass/layer0_mud,
+/area/fiorina/station/park)
+"bkd" = (
+/obj/structure/platform/stone/soro,
+/turf/open/auto_turf/strata_grass/layer0_mud,
+/area/fiorina/station/park)
+"bke" = (
+/obj/structure/platform_decoration/stone/soro/north,
+/turf/open/auto_turf/strata_grass/layer0,
+/area/fiorina/station/park)
+"bkf" = (
+/obj/structure/flora/bush/ausbushes/reedbush{
+	pixel_x = -3;
+	pixel_y = 21
+	},
+/obj/effect/decal/strata_decals/mud_corner{
+	dir = 5
+	},
+/turf/open/gm/coast/dirt/beachcorner/south_west,
+/area/fiorina/station/park)
+"bkg" = (
+/obj/structure/flora/bush/ausbushes/reedbush{
+	pixel_x = -2;
+	pixel_y = 7
+	},
+/obj/effect/decal/strata_decals/mud_corner{
+	dir = 1
+	},
+/turf/open/gm/coast/dirt/south,
+/area/fiorina/station/park)
+"bkh" = (
+/obj/effect/decal/strata_decals/mud_corner{
+	dir = 1
+	},
+/turf/open/gm/coast/dirt/south,
+/area/fiorina/station/park)
+"bki" = (
+/obj/effect/decal/strata_decals/mud_corner{
+	dir = 9
+	},
+/turf/open/gm/coast/dirt/beachcorner/south_east,
+/area/fiorina/station/park)
+"bkj" = (
+/obj/structure/flora/grass/tallgrass/jungle/corner{
+	dir = 5
+	},
+/turf/open/auto_turf/strata_grass/layer1,
+/area/fiorina/station/park)
+"bkk" = (
+/obj/structure/flora/grass/tallgrass/jungle/corner{
+	dir = 1
+	},
+/turf/open/auto_turf/strata_grass/layer1,
+/area/fiorina/station/park)
+"bkl" = (
+/obj/structure/flora/grass/tallgrass/jungle/corner{
+	dir = 1
+	},
+/turf/open/auto_turf/strata_grass/layer0_mud,
+/area/fiorina/station/park)
+"bkm" = (
+/obj/structure/flora/bush/ausbushes/reedbush{
+	pixel_x = 7;
+	pixel_y = -25
+	},
+/obj/effect/decal/strata_decals/mud_corner{
+	dir = 4
+	},
+/turf/open/gm/coast/dirt/west,
+/area/fiorina/station/park)
+"bkn" = (
+/turf/open/gm/river/soro,
+/area/fiorina/station/park)
+"bko" = (
+/obj/structure/flora/bush/ausbushes/reedbush,
+/turf/open/gm/river/soro,
+/area/fiorina/station/park)
+"bkp" = (
+/obj/effect/decal/strata_decals/mud_corner{
+	dir = 8
+	},
+/turf/open/gm/coast/dirt/east,
+/area/fiorina/station/park)
+"bkq" = (
+/obj/structure/flora/grass/tallgrass/jungle/corner{
+	dir = 6
+	},
+/turf/open/auto_turf/strata_grass/layer0_mud,
+/area/fiorina/station/park)
+"bkr" = (
+/obj/structure/flora/grass/tallgrass/jungle/corner,
+/turf/open/auto_turf/strata_grass/layer1,
+/area/fiorina/station/park)
+"bks" = (
+/obj/structure/flora/grass/tallgrass/jungle/corner,
+/turf/open/auto_turf/strata_grass/layer0_mud,
+/area/fiorina/station/park)
+"bkt" = (
+/obj/structure/flora/grass/tallgrass/jungle/corner{
+	dir = 10
+	},
+/turf/open/auto_turf/strata_grass/layer1,
+/area/fiorina/station/park)
+"bku" = (
+/obj/effect/decal/strata_decals/mud_corner{
+	dir = 4
+	},
+/turf/open/gm/coast/dirt/west,
+/area/fiorina/station/park)
+"bkv" = (
+/obj/structure/flora/bush/ausbushes/var3/brflowers,
+/turf/open/auto_turf/strata_grass/layer0_mud,
+/area/fiorina/station/park)
+"bkw" = (
+/obj/effect/decal/strata_decals/mud_corner{
+	dir = 6
+	},
+/turf/open/gm/coast/dirt/beachcorner/north_west,
+/area/fiorina/station/park)
+"bkx" = (
+/obj/effect/decal/strata_decals/mud_corner,
+/turf/open/gm/coast/dirt/north,
+/area/fiorina/station/park)
+"bky" = (
+/obj/effect/decal/strata_decals/mud_corner,
+/obj/structure/flora/bush/ausbushes/reedbush,
+/turf/open/gm/coast/dirt/north,
+/area/fiorina/station/park)
+"bkz" = (
+/obj/effect/decal/strata_decals/mud_corner{
+	dir = 10
+	},
+/turf/open/gm/coast/dirt/beachcorner/north_east,
+/area/fiorina/station/park)
+"bkA" = (
+/obj/effect/landmark/structure_spawner/setup/distress/xeno_weed_node,
+/turf/open/floor/kutjevo/tan,
+/area/fiorina/station/park)
+"bkB" = (
+/obj/effect/landmark/structure_spawner/setup/distress/xeno_weed_node,
+/turf/open/auto_turf/strata_grass/layer0_mud,
+/area/fiorina/station/park)
+"bkC" = (
+/turf/open/auto_turf/varadero_brown_grass/layer0,
+/area/fiorina/station/park)
+"bkD" = (
+/obj/structure/flora/bush/ausbushes/var3/sunnybush,
+/turf/open/auto_turf/strata_grass/layer0_mud,
+/area/fiorina/station/park)
+"bkE" = (
+/obj/effect/landmark/structure_spawner/setup/distress/xeno_wall,
+/turf/open/auto_turf/strata_grass/layer0_mud,
+/area/fiorina/station/park)
+"bkF" = (
+/obj/effect/landmark/structure_spawner/setup/distress/xeno_wall,
+/obj/effect/landmark/structure_spawner/setup/distress/xeno_wall,
+/turf/open/auto_turf/strata_grass/layer0_mud,
+/area/fiorina/station/park)
+"bkG" = (
+/obj/structure/flora/bush/ausbushes/lavendergrass,
+/turf/open/auto_turf/strata_grass/layer1,
+/area/fiorina/station/park)
+"bkH" = (
+/obj/effect/landmark/structure_spawner/setup/distress/xeno_wall,
+/turf/open/auto_turf/strata_grass/layer1,
+/area/fiorina/station/park)
+"bkI" = (
+/turf/open/floor/panelscorched,
+/area/space)
+"bkJ" = (
+/obj/effect/landmark/structure_spawner/setup/distress/xeno_weed_node,
+/obj/structure/flora/grass/tallgrass/jungle/corner{
+	dir = 1
+	},
+/turf/open/auto_turf/varadero_brown_grass/layer0,
+/area/fiorina/station/park)
+"bkK" = (
+/obj/structure/flora/grass/tallgrass/jungle/corner{
+	dir = 9
+	},
+/turf/open/auto_turf/strata_grass/layer1,
+/area/fiorina/station/park)
+"bkL" = (
+/obj/structure/flora/grass/tallgrass/jungle/corner{
+	dir = 6
+	},
+/turf/open/auto_turf/varadero_brown_grass/layer0,
+/area/fiorina/station/park)
+"bkM" = (
+/obj/structure/flora/grass/tallgrass/jungle/corner,
+/obj/structure/flora/grass/tallgrass/jungle/corner,
+/turf/open/auto_turf/strata_grass/layer0_mud,
+/area/fiorina/station/park)
+"bkN" = (
+/obj/structure/flora/grass/tallgrass/jungle/corner{
+	dir = 10
+	},
+/turf/open/auto_turf/varadero_brown_grass/layer0,
+/area/fiorina/station/park)
+"bkO" = (
+/obj/effect/landmark/structure_spawner/setup/distress/xeno_wall,
+/turf/open/floor/kutjevo/tan,
+/area/fiorina/station/park)
+"bkP" = (
+/obj/effect/decal/hybrisa/warning/redandwhite_E,
+/turf/open/auto_turf/sand_white/layer0,
+/area/varadero/interior_protected/caves/central)
+"bkQ" = (
+/obj/effect/landmark/structure_spawner/setup/distress/xeno_wall,
+/turf/open/auto_turf/varadero_brown_grass/layer0,
+/area/fiorina/station/park)
+"bkR" = (
+/obj/effect/decal/strata_decals/mud_corner{
+	dir = 1
+	},
+/obj/effect/decal/strata_decals/mud_corner{
+	dir = 5
+	},
+/obj/structure/flora/bush/desert,
+/turf/open/gm/dirt/brown/variant_1,
+/area/fiorina/station/park)
+"bkS" = (
+/obj/effect/decal/strata_decals/mud_corner{
+	dir = 1
+	},
+/obj/structure/flora/bush/desert{
+	icon_state = "tree_4"
+	},
+/turf/open/gm/dirt/brown/variant_1,
+/area/fiorina/station/park)
+"bkT" = (
+/obj/effect/decal/strata_decals/mud_corner{
+	dir = 9
+	},
+/obj/structure/flora/bush/desert{
+	icon_state = "tree_4"
+	},
+/turf/open/gm/dirt/brown/variant_1,
+/area/fiorina/station/park)
+"bkU" = (
+/obj/effect/decal/strata_decals/mud_corner{
+	dir = 1
+	},
+/obj/effect/decal/strata_decals/mud_corner{
+	dir = 5
+	},
+/obj/structure/flora/bush/desert{
+	icon_state = "tree_3"
+	},
+/turf/open/gm/dirt/brown/variant_1,
+/area/fiorina/station/park)
+"bkV" = (
+/obj/effect/decal/strata_decals/mud_corner{
+	dir = 1
+	},
+/obj/structure/flora/bush/desert{
+	icon_state = "tree_2";
+	pixel_y = 14
+	},
+/turf/open/gm/dirt/brown/variant_1,
+/area/fiorina/station/park)
+"bkW" = (
+/obj/effect/decal/strata_decals/mud_corner{
+	dir = 9
+	},
+/obj/structure/flora/bush/desert{
+	icon_state = "tree_2";
+	pixel_y = 14
+	},
+/turf/open/gm/dirt/brown/variant_1,
+/area/fiorina/station/park)
+"bkX" = (
+/obj/structure/window/framed/new_varadero/foundation,
+/turf/open/floor/plating,
+/area/fiorina/station/park)
+"bkY" = (
+/obj/structure/machinery/door/airlock/multi_tile/almayer/generic{
+	name = "Hydroponics"
+	},
+/turf/open/floor/plating,
+/area/fiorina/station/park)
+"bkZ" = (
+/obj/effect/decal/strata_decals/mud_corner{
+	dir = 1
+	},
+/obj/structure/flora/bush/ausbushes/var3/leafybush,
+/obj/effect/decal/strata_decals/mud_corner{
+	dir = 5
+	},
+/turf/open/gm/dirt/brown/variant_1,
+/area/fiorina/station/park)
+"bla" = (
+/obj/effect/decal/strata_decals/mud_corner{
+	dir = 1
+	},
+/obj/structure/flora/bush/ausbushes/ywflowers,
+/turf/open/gm/dirt/brown/variant_1,
+/area/fiorina/station/park)
+"blb" = (
+/obj/effect/decal/strata_decals/mud_corner{
+	dir = 1
+	},
+/obj/structure/flora/bush/ausbushes/var3/leafybush,
+/turf/open/gm/dirt/brown/variant_1,
+/area/fiorina/station/park)
+"blc" = (
+/obj/structure/flora/bush/ausbushes/ywflowers,
+/obj/effect/decal/strata_decals/mud_corner{
+	dir = 9
+	},
+/turf/open/gm/dirt/brown/variant_1,
+/area/fiorina/station/park)
+"bld" = (
+/obj/structure/reagent_dispensers/tank/water,
+/turf/open/floor/kutjevo/colors/green,
+/area/fiorina/station/park)
+"ble" = (
+/turf/open/floor/kutjevo/colors/green,
+/area/fiorina/station/park)
+"blf" = (
+/obj/structure/machinery/portable_atmospherics/hydroponics,
+/turf/open/floor/kutjevo/colors/green,
+/area/fiorina/station/park)
+"blg" = (
+/obj/effect/decal/strata_decals/mud_corner{
+	dir = 6
+	},
+/obj/structure/flora/bush/ausbushes/var3/leafybush,
+/turf/open/gm/dirt/brown/variant_1,
+/area/fiorina/station/park)
+"blh" = (
+/obj/effect/decal/strata_decals/mud_corner,
+/obj/structure/flora/bush/ausbushes/ywflowers,
+/turf/open/gm/dirt/brown/variant_1,
+/area/fiorina/station/park)
+"bli" = (
+/obj/effect/decal/strata_decals/mud_corner,
+/obj/structure/flora/bush/ausbushes/var3/leafybush,
+/turf/open/gm/dirt/brown/variant_1,
+/area/fiorina/station/park)
+"blj" = (
+/obj/effect/decal/strata_decals/mud_corner,
+/obj/effect/decal/strata_decals/mud_corner{
+	dir = 10
+	},
+/obj/structure/flora/bush/ausbushes/ywflowers,
+/turf/open/gm/dirt/brown/variant_1,
+/area/fiorina/station/park)
+"blk" = (
+/obj/effect/decal/strata_decals/mud_corner{
+	dir = 4
+	},
+/obj/effect/decal/strata_decals/mud_corner{
+	dir = 1
+	},
+/obj/effect/decal/strata_decals/mud_corner,
+/obj/structure/flora/bush/ausbushes/var3/leafybush,
+/turf/open/gm/dirt/brown/variant_1,
+/area/fiorina/station/park)
+"bll" = (
+/obj/effect/decal/strata_decals/mud_corner{
+	dir = 1
+	},
+/obj/effect/decal/strata_decals/mud_corner,
+/obj/structure/flora/bush/ausbushes/ywflowers,
+/turf/open/gm/dirt/brown/variant_1,
+/area/fiorina/station/park)
+"blm" = (
+/obj/effect/decal/strata_decals/mud_corner{
+	dir = 1
+	},
+/obj/effect/decal/strata_decals/mud_corner,
+/obj/structure/flora/bush/ausbushes/var3/leafybush,
+/turf/open/gm/dirt/brown/variant_1,
+/area/fiorina/station/park)
+"bln" = (
+/obj/effect/decal/strata_decals/mud_corner{
+	dir = 8
+	},
+/obj/effect/decal/strata_decals/mud_corner{
+	dir = 8
+	},
+/obj/effect/decal/strata_decals/mud_corner{
+	dir = 1
+	},
+/obj/effect/decal/strata_decals/mud_corner,
+/obj/structure/flora/bush/ausbushes/ywflowers,
+/turf/open/gm/dirt/brown/variant_1,
+/area/fiorina/station/park)
+"blo" = (
+/obj/effect/decal/strata_decals/mud_corner,
+/obj/effect/decal/strata_decals/mud_corner{
+	dir = 1
+	},
+/obj/effect/decal/strata_decals/mud_corner{
+	dir = 4
+	},
+/obj/structure/flora/bush/ausbushes/var3/sunnybush,
+/turf/open/gm/dirt/brown/variant_1,
+/area/fiorina/station/park)
+"blp" = (
+/obj/effect/decal/strata_decals/mud_corner,
+/obj/effect/decal/strata_decals/mud_corner{
+	dir = 1
+	},
+/obj/structure/flora/bush/ausbushes/var3/sunnybush{
+	desc = "The oranges aren't done yet... this sucks.";
+	name = "orange tree";
+	pixel_x = -7;
+	pixel_y = 10
+	},
+/turf/open/gm/dirt/brown/variant_1,
+/area/fiorina/station/park)
+"blq" = (
+/obj/effect/decal/strata_decals/mud_corner,
+/obj/effect/decal/strata_decals/mud_corner{
+	dir = 1
+	},
+/obj/structure/flora/bush/ausbushes/var3/sunnybush{
+	desc = "The oranges aren't done yet... this sucks.";
+	name = "orange tree"
+	},
+/turf/open/gm/dirt/brown/variant_1,
+/area/fiorina/station/park)
+"blr" = (
+/obj/effect/decal/strata_decals/mud_corner,
+/obj/effect/decal/strata_decals/mud_corner{
+	dir = 8
+	},
+/obj/effect/decal/strata_decals/mud_corner{
+	dir = 1
+	},
+/obj/structure/flora/bush/ausbushes/var3/sunnybush,
+/turf/open/gm/dirt/brown/variant_1,
+/area/fiorina/station/park)
+"bls" = (
+/obj/structure/surface/rack{
+	color = "#8B7B5B"
+	},
+/obj/item/reagent_container/glass/watertank,
+/turf/open/floor/kutjevo/colors/green,
+/area/fiorina/station/park)
+"blt" = (
+/obj/structure/machinery/vending/hydroseeds,
+/turf/open/floor/kutjevo/colors/green,
+/area/fiorina/station/park)
+"blu" = (
+/obj/structure/surface/rack{
+	color = "#8B7B5B"
+	},
+/obj/item/clothing/gloves/botanic_leather,
+/turf/open/floor/kutjevo/colors/green,
+/area/fiorina/station/park)
+"blv" = (
+/obj/structure/closet/crate/hydroponics/prespawned,
+/turf/open/floor/kutjevo/colors/green,
+/area/fiorina/station/park)
+"blw" = (
+/obj/structure/surface/table,
+/obj/item/seeds/riceseed,
+/turf/open/floor/kutjevo/colors/green,
+/area/fiorina/station/park)
+"blx" = (
+/obj/structure/surface/rack{
+	color = "#8B7B5B"
+	},
+/obj/item/tool/shovel/spade,
+/obj/item/tool/minihoe{
+	pixel_y = -2
+	},
+/obj/item/tool/hatchet{
+	pixel_x = 6;
+	pixel_y = 4
+	},
+/turf/open/floor/kutjevo/colors/green,
+/area/fiorina/station/park)
 
 (1,1,1) = {"
 ayZ
@@ -76943,7 +77516,7 @@ bjH
 aaN
 aaN
 aaN
-aaN
+bkP
 aaN
 aaN
 aaN
@@ -77489,9 +78062,9 @@ adf
 adf
 adf
 adf
-adf
-adf
-adf
+bkI
+bkI
+bkI
 adf
 adf
 adf
@@ -81123,24 +81696,24 @@ abP
 abP
 adf
 aSX
-aSX
-aAv
+adf
+bjK
+bjK
+bkB
+bjK
+aHL
+bkD
+bkL
+bkj
+aJW
+aJW
+bkD
+aJW
+aJW
+bkq
+bkj
+aHL
 abg
-abg
-abg
-aiZ
-aiZ
-aiZ
-abg
-abg
-abg
-abg
-abg
-abg
-abg
-aiZ
-aiZ
-aiZ
 abg
 abg
 abg
@@ -81305,25 +81878,25 @@ abP
 abP
 adf
 aSX
-aSX
-aAv
-abg
-abg
-abg
-aiZ
-aiZ
-aiZ
-abg
-abg
-abg
-abg
-abg
-abg
-abg
-aiZ
-aiZ
-aiZ
-abg
+adf
+bjK
+blg
+bkZ
+bjK
+bkC
+bkD
+bkM
+bkl
+aJW
+aJW
+bkD
+aJW
+aJW
+bkr
+bkk
+bjK
+bjJ
+aHL
 abg
 abg
 aBe
@@ -81487,26 +82060,26 @@ abP
 abP
 adf
 aSX
-aSX
-aAv
+adf
+bjK
+blh
+bla
+bjK
+bkC
+bkD
+bkr
+bkJ
+aJW
+aJW
+bkD
+aJW
+aJW
+bkr
+bkl
+aHL
+aHL
 abg
-abg
-abg
-aiZ
-aiZ
-aiZ
-abg
-abg
-abg
-abg
-abg
-abg
-abg
-aiZ
-aiZ
-aiZ
-abg
-abg
+bjJ
 azF
 aBe
 aBe
@@ -81669,25 +82242,25 @@ abP
 abP
 adf
 aSX
-aSX
-aAv
+adf
+bjK
+bli
+blb
+bjK
+aHL
+bkD
+bkN
+bkK
+aJW
+aJW
+bkD
+aJW
+aJW
+bkr
+bkk
+aHL
 abg
-abg
-abg
-aiZ
-aiZ
-aiZ
-abg
-abg
-abg
-abg
-abg
-abg
-abg
-aiZ
-aiZ
-aiZ
-abg
+bjK
 abg
 azF
 aBe
@@ -81851,26 +82424,26 @@ abP
 abP
 adf
 aSX
-aSX
-aAv
-abg
-abg
-abg
-aiZ
-aiZ
-aiZ
-abg
-abg
-abg
-abg
-abg
-abg
-abg
-aiZ
-aiZ
-aiZ
-abg
-azF
+adf
+bjK
+blj
+blc
+bjK
+bkC
+bkD
+bkC
+bkC
+aJW
+aJW
+bkD
+aJW
+aJW
+bks
+bkk
+aHL
+aHL
+aHL
+bjK
 azF
 aBe
 aBe
@@ -82033,26 +82606,26 @@ abP
 abP
 adf
 aSX
-aSX
-aAv
-abg
-abg
-abg
-aiZ
-aiZ
-aiZ
-abg
-abg
-abg
-abg
-abg
-abg
-abg
-aiZ
-aiZ
-aiZ
-abg
-azF
+adf
+bjK
+bjK
+bjK
+bjK
+bkC
+aJW
+aJW
+aJW
+aJW
+aJW
+aJW
+bkA
+aJW
+bkr
+bkk
+bka
+bjR
+bjR
+bjL
 azF
 aBe
 aBe
@@ -82215,26 +82788,26 @@ abP
 abP
 adf
 aSX
-aSX
-aAv
-abg
-abg
-abg
-aiZ
-aiZ
-aiZ
-abg
-abg
-abg
-abg
-abg
-abg
-abg
-aiZ
-aiZ
-aiZ
-abg
-azF
+adf
+bjK
+blg
+bkZ
+bjK
+bkC
+aJW
+aJW
+aJW
+aJW
+aJW
+aJW
+aJW
+aJW
+bkt
+bkl
+bkb
+aHL
+bjJ
+bjM
 azF
 aBe
 aBe
@@ -82397,26 +82970,26 @@ abP
 abP
 adf
 adf
-aSX
-aAv
+adf
+bjK
+blh
+bla
+bjK
+bkC
+aJW
+aJW
+bkE
+bkE
+aHL
+aHL
+aHL
+aHL
 abg
+aHL
+bkb
 abg
-abg
-aiZ
-aiZ
-aiZ
-abg
-abg
-abg
-abg
-abg
-abg
-abg
-aiZ
-aiZ
-aiZ
-abg
-azF
+bjS
+bjM
 azF
 aBe
 aBe
@@ -82579,26 +83152,26 @@ abP
 abP
 abP
 adf
-aSX
-aAv
+adf
+bjK
+bli
+blb
+bjK
+bkC
+aJW
+aJW
+bkE
+bkE
 abg
 abg
+bjK
+aHL
+aHL
 abg
-aiZ
-aiZ
-aiZ
+bkc
+bjK
 abg
-abg
-abg
-abg
-abg
-abg
-abg
-aiZ
-aiZ
-aiZ
-abg
-azF
+bjM
 azF
 aBe
 aBe
@@ -82761,27 +83334,27 @@ abP
 abP
 abP
 adf
-aSX
-aAv
+adf
+bjK
+blj
+blc
+bjK
+bkC
+aJW
+aJW
+bkE
+bkF
 abg
+bjK
+bkB
+bjK
 abg
+aHL
+bkd
+bjK
 abg
-aiZ
-aiZ
-aiZ
-abg
-abg
-abg
-abg
-abg
-abg
-abg
-aiZ
-aiZ
-aiZ
-abg
-abg
-azF
+bjM
+aHL
 aBe
 aBe
 aaN
@@ -82945,25 +83518,25 @@ abP
 adf
 adf
 abv
+bjK
+bjK
+bkE
+bkQ
+aJW
+aJW
+bkG
+bkG
+bjK
+bjK
+aHL
+aHL
 abg
-abg
-abg
-aiZ
-aiZ
-aiZ
-abg
-abg
-abg
-abg
-abg
-abg
-abg
-aiZ
-aiZ
-aiZ
-abg
-abg
-azF
+aHL
+bke
+bjT
+bjT
+bjN
+aHL
 aBe
 aBe
 aaN
@@ -83127,25 +83700,25 @@ abP
 abP
 abP
 azk
+bjK
+bjK
+bkQ
+bkQ
+aJW
+aJW
+bkG
+bkG
+bjK
+aHL
+aHL
+aHL
+aHL
+aHL
+bjK
 abg
-abg
-abg
-aiZ
-aiZ
-aiZ
-abg
-abg
-abg
-abg
-azV
-abg
-abg
-aiZ
-aiZ
-azV
-abg
-abg
-abg
+aHL
+bjJ
+aHL
 aBe
 aBe
 aaN
@@ -83309,27 +83882,27 @@ abP
 abP
 abP
 azk
-aiZ
-aiZ
-aiZ
-aiZ
-aiZ
-aiZ
-aiZ
-aiZ
-aiZ
-aiZ
+aJW
+aJW
+bkO
+bkO
+bkA
+aJW
+aJW
+aJW
+aJW
+aJW
 azV
-aiZ
-aiZ
-aiZ
-aiZ
-aiZ
-aiZ
-aiZ
-aiZ
+aJW
+aJW
+aJW
+aJW
+aJW
+aJW
+aJW
+aJW
 aaH
-abZ
+aCa
 aaN
 aaN
 aaN
@@ -83491,27 +84064,27 @@ abP
 abP
 abP
 azk
-aiZ
-aiZ
-aiZ
-aiZ
-aiZ
-aiZ
-aiZ
-aiZ
-aiZ
-aiZ
+aJW
+aJW
+aJW
+aJW
+aJW
+aJW
+aJW
+aJW
+bkA
+aJW
 azV
-aiZ
-aiZ
-aiZ
-aiZ
-aiZ
-aiZ
-aiZ
-aiZ
+aJW
+aJW
+aJW
+aJW
+aJW
+aJW
+aJW
+aJW
 aaH
-abZ
+aGX
 aaN
 aaN
 aaN
@@ -83673,27 +84246,27 @@ adf
 adf
 adf
 abv
-aiZ
-aiZ
-aiZ
-aiZ
-aiZ
-aiZ
-aiZ
-aiZ
-aiZ
-aiZ
+aHL
+aHL
+aHL
+aHL
+aJW
+aJW
+aHL
+aHL
+aHL
+aHL
 azV
-aiZ
-aiZ
-aiZ
-aiZ
-aiZ
-aiZ
-aiZ
-aiZ
-aaH
-abZ
+aHL
+aHL
+aHL
+bjJ
+aHL
+aHL
+aHL
+aHL
+aHa
+aCa
 aaN
 aaN
 aaN
@@ -83854,26 +84427,26 @@ aSX
 aSX
 aSX
 adf
-abg
-abg
-abg
-abg
-aiZ
-aiZ
-aiZ
-abg
-abg
-abg
-abg
+abv
+bkX
+bkX
+abv
+bkR
+aJW
+aJW
+aHL
+aHL
+aHL
+aHL
 azV
-abg
-abg
-aiZ
+aHL
+aHL
+aHL
 azV
 azV
-abg
-abg
-abg
+aHL
+aHL
+aHL
 aBe
 aBe
 aaN
@@ -84036,26 +84609,26 @@ aSX
 aSX
 aSX
 adf
-abg
-abg
-abg
-abg
-aiZ
-aiZ
-aiZ
-abg
-abg
-abg
-abg
+bls
+ble
+bld
+bkX
+bkS
+aJW
+aJW
+aHL
+aHL
+aHL
+aHL
 azV
-abg
-abg
+aHL
+aHL
 azV
 azV
 azV
-abg
-abg
-abg
+aHL
+bjJ
+aHL
 aBe
 aBe
 aaN
@@ -84218,26 +84791,26 @@ aSX
 aSX
 aSX
 adf
-abg
-abg
-abg
-abg
-aiZ
-aiZ
-aiZ
-abg
-abg
-abg
-abg
+blt
+aJW
+ble
+bkX
+bkT
+aJW
+aJW
+aHL
+bjJ
+aHL
+aHL
 azV
-abg
-abg
-azV
-azV
+aHL
+aHL
 azV
 azV
 azV
-abg
+azV
+azV
+aHL
 aBe
 aBe
 aaN
@@ -84400,24 +84973,24 @@ aSX
 aSX
 aSX
 adf
-abg
-abg
-abg
-abg
-aiZ
-aiZ
-aiZ
-abg
-abg
-abg
-abg
+blu
+aJW
+ble
+bkY
+aJW
+aJW
+bkO
+bkH
+bkH
+aHL
+aHL
 azV
-abg
-abg
-aiZ
-aiZ
-aiZ
-abg
+aHL
+bjK
+bjK
+bjK
+bjK
+aHL
 azV
 azF
 aBe
@@ -84582,24 +85155,24 @@ aSX
 aSX
 aSX
 adf
-abg
-abg
-abg
-abg
+blv
+aJW
+ble
 aiZ
-aiZ
-aiZ
-abg
-abg
-abg
-abg
-aiZ
-abg
-abg
-aiZ
-aiZ
-aiZ
-abg
+aJW
+aJW
+aJW
+aHL
+aHL
+aHL
+bkC
+bjJ
+aHL
+bjK
+bjK
+bjK
+bjK
+aHL
 azV
 azF
 aBe
@@ -84764,24 +85337,24 @@ aSX
 aSX
 aSX
 adf
+blw
+aJW
+ble
+bkX
+bkU
+aJW
+aJW
+aHL
+aHL
+bkC
+bkC
+aHL
+aHL
+aHL
+bjK
 abg
-abg
-abg
-abg
-aiZ
-aiZ
-aiZ
-abg
-abg
-abg
-abg
-aiZ
-abg
-abg
-aiZ
-aiZ
-aiZ
-abg
+bjK
+aHL
 azV
 azF
 aBe
@@ -84946,24 +85519,24 @@ aSX
 aSX
 aSX
 adf
-abg
-abg
-abg
-abg
-aiZ
-aiZ
-aiZ
-abg
-abg
-abg
-abg
-aiZ
-abg
-abg
-aiZ
-aiZ
-aiZ
-abg
+blx
+blf
+blf
+bkX
+bkV
+aJW
+aJW
+aHL
+aHL
+aHL
+bkC
+bkC
+aHL
+aHL
+aHL
+bjK
+bjJ
+aHL
 azV
 azF
 aBe
@@ -85128,14 +85701,14 @@ aSX
 aSX
 aSX
 adf
-abg
-abg
-abg
-abg
-aiZ
-aiZ
-aiZ
-abg
+bkX
+bkX
+bkX
+bkX
+bkW
+aJW
+bkA
+aHL
 abg
 abg
 abg
@@ -85143,9 +85716,9 @@ azV
 azV
 azV
 azV
-aiZ
-aiZ
-abg
+aHL
+bjK
+aHL
 azV
 azF
 aBe
@@ -85310,25 +85883,25 @@ aSX
 aSX
 aSX
 adf
+bjK
+bkB
+bjK
+aJW
+aJW
+aJW
+aJW
+aHL
 abg
-abg
-abg
-abg
-aiZ
-aiZ
-aiZ
-abg
-abg
-abg
-abg
-abg
-abg
-abg
-aiZ
-aiZ
-aiZ
-abg
-abg
+aHL
+aHL
+aHL
+aHL
+aHL
+aHL
+aHL
+aHL
+aHL
+aHL
 azF
 aBe
 aBe
@@ -85492,25 +86065,25 @@ afS
 afS
 aSX
 adf
-abg
-abg
-abg
-abg
-aiZ
-aiZ
-aiZ
-abg
-abg
-abg
-abg
-abg
-abg
-abg
-aiZ
-aiZ
-aiZ
-abg
-abg
+bjK
+blk
+bjK
+aJW
+aJW
+aJW
+aJW
+aHL
+aHL
+aHL
+aHL
+aHL
+bjK
+bjZ
+bjK
+bjK
+aHL
+aHL
+aHL
 azF
 aBe
 aBe
@@ -85674,24 +86247,24 @@ afS
 afS
 aSX
 adf
-abg
-abg
-abg
-abg
-aiZ
-aiZ
-aiZ
-abg
-abg
-abg
-abg
-abg
-abg
-abg
-aiZ
-aiZ
-aiZ
-abg
+bjK
+bll
+bjK
+aJW
+aJW
+aHL
+aHL
+aHL
+aHL
+aHL
+aHL
+bjJ
+bkv
+bjK
+bjZ
+bjK
+bjK
+aHL
 azF
 azF
 aBe
@@ -85856,24 +86429,24 @@ afS
 afS
 aSX
 adf
+bjK
+blm
+bjK
+aJW
+aJW
+aHL
+aHL
+aHL
 abg
 abg
-abg
-abg
-aiZ
-aiZ
-aiZ
-abg
-abg
-abg
-abg
-abg
-abg
-abg
-aiZ
-aiZ
-aiZ
-abg
+aHL
+bkv
+bkw
+bku
+bkm
+bkf
+bjW
+aHL
 azF
 azF
 aBe
@@ -86038,24 +86611,24 @@ afS
 afS
 aSX
 adf
+bjK
+bln
+bjK
+aJW
+aJW
+aHL
+aHL
+aHL
+aHL
 abg
-abg
-abg
-abg
-aiZ
-aiZ
-aiZ
-abg
-abg
-abg
-abg
-abg
-abg
-abg
-aiZ
-aiZ
-aiZ
-abg
+aHL
+bjK
+bkx
+bkn
+bkn
+bkg
+bjX
+aHL
 azF
 azF
 aBe
@@ -86220,24 +86793,24 @@ afS
 afS
 aSX
 adf
+bjK
+bjK
+bjK
+aJW
+aJW
+aHL
+aHL
+aHL
 abg
 abg
-abg
-abg
-aiZ
-aiZ
-aiZ
-abg
-abg
-abg
-abg
-abg
-abg
-abg
-aiZ
-aiZ
-aiZ
-abg
+aHL
+bjK
+bkx
+bkn
+bko
+bkh
+bjW
+bjK
 azF
 azF
 aBe
@@ -86402,25 +86975,25 @@ afS
 afS
 aSX
 adf
+bjK
+blo
+bjK
+aJW
+aJW
+aHL
+aHL
+aHL
+bjJ
 abg
-abg
-abg
-abg
-aiZ
-aiZ
-aiZ
-abg
-abg
-abg
-abg
-abg
-abg
-abg
-aiZ
-aiZ
-aiZ
-abg
-abg
+aHL
+bjK
+bky
+bkn
+bkn
+bkh
+bjY
+bjU
+bjO
 azF
 aBe
 aBe
@@ -86584,26 +87157,26 @@ afS
 afS
 aSX
 adf
+bjK
+blp
+bjK
+aJW
+aJW
+aHL
+aHL
+aHL
+aHL
+aHL
 abg
-abg
-abg
-abg
-aiZ
-aiZ
-aiZ
-abg
-abg
-abg
-abg
-abg
-abg
-abg
-aiZ
-aiZ
-aiZ
-abg
-abg
-abg
+bjK
+bkz
+bkp
+bkp
+bki
+bjZ
+bjK
+aHL
+aTU
 aBe
 aBe
 aaN
@@ -86766,26 +87339,26 @@ afS
 afS
 aSX
 adf
-abg
-abg
-abg
-abg
-aiZ
-aiZ
-aiZ
-abg
-abg
-abg
-abg
-abg
-abg
-abg
-aiZ
-aiZ
-aiZ
-abg
-abg
-abg
+bjK
+blq
+bjK
+aJW
+aJW
+aHL
+aHL
+aHL
+aHL
+aHL
+aHL
+bjZ
+bjK
+bjK
+bjK
+bjK
+bjK
+bjU
+bjP
+aHL
 aBe
 aBe
 aaN
@@ -86948,26 +87521,26 @@ afS
 afS
 adf
 adf
-abg
-abg
-abg
-abg
-aiZ
-aiZ
-aiZ
-abg
-abg
-abg
-abg
-abg
-abg
-abg
-aiZ
-aiZ
-aiZ
-abg
-abg
-abg
+bjK
+blr
+bjK
+aJW
+aJW
+aHL
+aHL
+aHL
+aHL
+aHL
+aHL
+aHL
+bjK
+bjK
+bjZ
+bjK
+aHL
+bjV
+aHL
+bjI
 aBe
 aBe
 aaN
@@ -87148,7 +87721,7 @@ aVB
 aVB
 abv
 abv
-abv
+bjQ
 abv
 adf
 aBe
@@ -88780,7 +89353,7 @@ bil
 abH
 awO
 bhX
-bhO
+bhY
 asf
 aqG
 aWU
