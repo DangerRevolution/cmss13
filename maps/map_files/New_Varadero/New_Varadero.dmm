@@ -18,7 +18,7 @@
 /area/space)
 "aae" = (
 /obj/structure/machinery/door/airlock/almayer/secure/colony{
-	id = s;
+	id = "s";
 	name = "Omicron Research Dome"
 	},
 /turf/open/floor/dark2,
@@ -3061,7 +3061,9 @@
 /turf/open/shuttle/dropship/predship/tile,
 /area/shipyard/entertainment/canteen/commons)
 "akg" = (
-/obj/vehicle/multitile,
+/obj/vehicle/train/cargo/engine{
+	dir = 2
+	},
 /turf/open/floor/strata/multi_tiles,
 /area/space)
 "akh" = (
@@ -4898,7 +4900,7 @@
 /area/space)
 "aqa" = (
 /obj/structure/machinery/door/poddoor/shutters/almayer{
-	id = s;
+	id = "s";
 	name = "\improper Garage Shutters"
 	},
 /turf/open/floor/darkbrown2/north,
@@ -22803,7 +22805,7 @@
 "bpV" = (
 /obj/structure/window/framed/new_varadero/foundation/reinforced,
 /obj/structure/machinery/door/poddoor/almayer/planet_side_blastdoor{
-	id = ammo_elevator
+	id = "ammo_elevator"
 	},
 /turf/open/floor/plating,
 /area/space)
@@ -22832,7 +22834,7 @@
 "bqb" = (
 /obj/structure/machinery/door/poddoor/railing/open{
 	dir = 8;
-	id = ammo_elevator
+	id = "ammo_elevator"
 	},
 /turf/open/floor/corsat/squares,
 /area/space)
@@ -23026,7 +23028,7 @@
 "bqR" = (
 /obj/structure/window_frame/new_varadero/foundation/reinforced,
 /obj/structure/machinery/door/poddoor/almayer/planet_side_blastdoor{
-	id = cannon;
+	id = "cannon";
 	dir = 8
 	},
 /turf/open/new_varadero/dock_concrete,
@@ -23206,7 +23208,7 @@
 "brz" = (
 /obj/structure/window_frame/new_varadero/foundation/reinforced,
 /obj/structure/machinery/door/poddoor/almayer/planet_side_blastdoor{
-	id = cannon;
+	id = "cannon";
 	dir = 2
 	},
 /turf/open/new_varadero/dock_concrete,
@@ -23472,7 +23474,7 @@
 "bsq" = (
 /obj/structure/window_frame/new_varadero/foundation/reinforced/hull,
 /obj/structure/machinery/door/poddoor/almayer/planet_side_blastdoor{
-	id = cannon
+	id = "cannon"
 	},
 /turf/open/new_varadero/dock_concrete,
 /area/space)

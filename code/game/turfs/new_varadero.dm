@@ -896,7 +896,7 @@
 	desc = "A concrete wall with metal reinforcements."
 	icon = 'icons/turf/walls/new_varadero/new_varadero_wall.dmi'
 	icon_state = "new_varadero"
-	walltype = WALL_STRATA_OUTPOST_BARE
+	walltype = WALL_NEW_VARANDERO
 
 /turf/closed/wall/new_varadero/reinforced
 	name = "secured foundation wall"
