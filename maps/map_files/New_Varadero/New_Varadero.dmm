@@ -4942,14 +4942,7 @@
 /turf/open/shuttle/dropship/predship/tile/red5,
 /area/lv759/indoors/apartment/westshowers)
 "aqD" = (
-/turf/open/shuttle/dropship/predship/tile/red4/glow,
-/area/lv759/indoors/apartment/westshowers)
-"aqE" = (
-/obj/structure/machinery/iv_drip{
-	pixel_y = 17;
-	color = "#9bb1be"
-	},
-/turf/open/shuttle/dropship/predship/tile/red5,
+/turf/open/shuttle/dropship/predship/tile,
 /area/lv759/indoors/apartment/westshowers)
 "aqF" = (
 /obj/structure/machinery/medical_pod/bodyscanner/yautja{
@@ -4977,10 +4970,6 @@
 /turf/open/floor/shiva,
 /area/desert_dam/building/security/observation)
 "aqL" = (
-/obj/structure/machinery/body_scanconsole/yautja{
-	pixel_x = -1;
-	pixel_y = 8
-	},
 /turf/open/shuttle/dropship/predship/hunter_grille,
 /area/lv759/indoors/apartment/westshowers)
 "aqM" = (
@@ -5055,7 +5044,7 @@
 	pixel_x = 7;
 	density = 0
 	},
-/turf/open/shuttle/dropship/predship/red_glow/on,
+/turf/open/space/basic,
 /area/lv759/indoors/apartment/westshowers)
 "aqQ" = (
 /obj/effect/hunter/catwalk/hunter_grate,
@@ -5075,24 +5064,13 @@
 	pixel_x = -6;
 	density = 0
 	},
-/turf/open/shuttle/dropship/predship/red_glow/on,
+/turf/open/space/basic,
 /area/lv759/indoors/apartment/westshowers)
 "aqR" = (
-/obj/item/storage/medicomp/full{
-	pixel_x = -3;
-	pixel_y = 10
-	},
 /obj/structure/surface/table/reinforced/prison{
 	color = "#6b675e"
 	},
-/obj/item/storage/medicomp/full{
-	pixel_x = -3;
-	pixel_y = 4
-	},
-/obj/item/storage/medicomp/full{
-	pixel_x = -2;
-	pixel_y = -2
-	},
+/obj/item/storage/medicomp,
 /turf/open/shuttle/dropship/predship/hunter_grille,
 /area/lv759/indoors/apartment/westshowers)
 "aqS" = (
@@ -5101,9 +5079,6 @@
 /turf/open/new_varadero/sidewalk/sidewalkfull,
 /area/space)
 "aqT" = (
-/obj/structure/machinery/autodoc_console/yautja{
-	pixel_y = 8
-	},
 /turf/open/shuttle/dropship/predship/hunter_grille,
 /area/shipyard/entertainment/canteen/commons)
 "aqU" = (
@@ -5190,7 +5165,7 @@
 /turf/open/shuttle/dropship/predship/hunter_grille,
 /area/shipyard/entertainment/canteen/commons)
 "arg" = (
-/turf/open/shuttle/dropship/predship/tile/red4/glow,
+/turf/open/shuttle/dropship/predship/tile,
 /area/shipyard/entertainment/canteen/commons)
 "arh" = (
 /obj/structure/pipes/standard/simple/hidden{
@@ -5257,17 +5232,14 @@
 /obj/structure/window/framed/new_varadero/foundation/reinforced/hull,
 /turf/open/floor/shiva,
 /area/almayer/engineering/lower/engine_monitoring)
-"arq" = (
-/obj/structure/machinery/sleep_console/yautja{
-	pixel_x = -1;
-	pixel_y = 8
-	},
-/turf/open/shuttle/dropship/predship/hunter_grille,
-/area/shipyard/entertainment/canteen/commons)
 "arr" = (
-/obj/structure/machinery/computer/crew/alt/yautja{
-	pixel_y = 32;
-	pixel_x = -2
+/obj/structure/showcase{
+	desc = "A console equipped with a radar used by the Hunters to detect gear and good hunting grounds.";
+	icon = 'icons/obj/structures/machinery/yautja_machines.dmi';
+	icon_state = "terminal";
+	name = "Radar Console";
+	pixel_x = -1;
+	pixel_y = 16
 	},
 /turf/open/shuttle/dropship/predship/hunter_grille,
 /area/shipyard/entertainment/canteen/commons)
@@ -5313,7 +5285,7 @@
 	pixel_y = 17;
 	color = "#9bb1be"
 	},
-/turf/open/shuttle/dropship/predship/tile/red4/glow,
+/turf/open/shuttle/dropship/predship/tile,
 /area/shipyard/entertainment/canteen/commons)
 "arz" = (
 /obj/structure/pipes/standard/manifold/visible{
@@ -5354,9 +5326,6 @@
 	light_range = 3
 	},
 /turf/open/shuttle/dropship/predship/hunter_grille,
-/area/shipyard/entertainment/canteen/commons)
-"arE" = (
-/turf/open/shuttle/dropship/predship/tile/red,
 /area/shipyard/entertainment/canteen/commons)
 "arF" = (
 /turf/open/floor/corsat,
@@ -6517,12 +6486,7 @@
 /turf/open/hybrisa/street/roadlines,
 /area/space)
 "auP" = (
-/obj/structure/window/framed/colony/reinforced/hull/yautja,
-/obj/structure/machinery/door/poddoor/hybrisa/open_shutters{
-	color = "#fbebe2";
-	dir = 4
-	},
-/turf/open/floor/corsat,
+/turf/open/floor/plating/platingdmg2,
 /area/shipyard/entertainment/canteen/commons)
 "auQ" = (
 /obj/structure/machinery/conveyor{
@@ -6820,6 +6784,9 @@
 "avP" = (
 /turf/open/floor/hybrisa/tile/tilewhite,
 /area/space)
+"avQ" = (
+/turf/open/floor/plating/burnt_platingdmg3,
+/area/corsat/sigma/dorms)
 "avR" = (
 /obj/effect/decal/warning_stripes{
 	icon_state = "W";
@@ -10429,6 +10396,9 @@
 	},
 /turf/open/floor/hybrisa/metal/metalwhitefull,
 /area/lv759/indoors/colonial_marshals/prisoners_cells)
+"aFD" = (
+/turf/open/floor/plating/platingdmg2,
+/area/lv759/indoors/apartment/westshowers)
 "aFE" = (
 /obj/structure/machinery/door/airlock/multi_tile/almayer/secdoor/glass/reinforced/autoname,
 /turf/open/floor/shiva/red/west,
@@ -10681,6 +10651,9 @@
 	},
 /turf/open/floor/darkpurple2/west,
 /area/space)
+"aGt" = (
+/turf/open/floor/plating/platingdmg2,
+/area/space)
 "aGu" = (
 /obj/structure/machinery/disposal,
 /turf/open/floor/shiva,
@@ -10912,7 +10885,7 @@
 /turf/open/floor/corsat,
 /area/space)
 "aHd" = (
-/turf/open/space/basic,
+/turf/open/floor/plating/platingdmg1,
 /area/bigred/ground/kitchen)
 "aHe" = (
 /obj/structure/machinery/door/airlock/almayer/security/glass/colony{
@@ -11351,6 +11324,9 @@
 	},
 /turf/open/floor/shiva,
 /area/almayer/engineering/lower/engine_core)
+"aIF" = (
+/turf/open/floor/plating/platingdmg3,
+/area/space)
 "aIG" = (
 /obj/structure/pipes/standard/simple/visible/universal{
 	dir = 4
@@ -11462,6 +11438,9 @@
 "aIZ" = (
 /turf/open/floor/shiva/yellow/east,
 /area/desert_dam/building/warehouse/warehouse)
+"aJa" = (
+/turf/open/floor/plating/platingdmg1,
+/area/space)
 "aJb" = (
 /obj/effect/decal/hybrisa/workers_decal{
 	dir = 4
@@ -12154,6 +12133,9 @@
 /obj/structure/largecrate/empty/case/double,
 /turf/open/floor/shiva/yellow,
 /area/almayer/command/cic)
+"aLn" = (
+/turf/open/floor/plating/platingdmg2,
+/area/bigred/ground/kitchen)
 "aLo" = (
 /obj/effect/decal/warning_stripes{
 	icon_state = "E-corner"
@@ -79666,16 +79648,16 @@ abP
 abP
 abP
 agx
-agx
-agx
-acG
-agx
-agx
-agx
-agx
-agx
-agx
-agx
+avQ
+avQ
+avQ
+avQ
+avQ
+avQ
+avQ
+avQ
+avQ
+avQ
 agx
 agx
 agx
@@ -80214,7 +80196,7 @@ aqn
 avp
 arx
 arg
-arq
+aqT
 arg
 aqT
 aqD
@@ -80394,7 +80376,7 @@ aqn
 aqn
 aqn
 avp
-arE
+auP
 aqW
 aqW
 aqW
@@ -80575,7 +80557,7 @@ aqn
 aqn
 aqn
 aqn
-avp
+auP
 arx
 arA
 arr
@@ -80752,12 +80734,12 @@ asV
 asV
 arX
 arK
-arF
-arF
+aJa
+aJa
 aqn
-aqn
-aqn
-avp
+aGt
+aJa
+auP
 arx
 arD
 arv
@@ -80765,7 +80747,7 @@ ari
 arc
 aqr
 aqr
-aqE
+aqC
 aqC
 aqo
 aqo
@@ -80934,12 +80916,12 @@ arK
 arK
 arK
 arK
-arF
-arF
+aJa
+aJa
 aqn
-aqn
-aqn
-avp
+aGt
+aJa
+auP
 arx
 arD
 arv
@@ -80949,7 +80931,7 @@ aqr
 aqP
 aqt
 aqt
-aqo
+aFD
 aqo
 aqo
 aqo
@@ -81111,17 +81093,17 @@ ahi
 acN
 avv
 arK
-arK
-arK
-arK
-arK
-arK
-arF
-arF
+aLn
+aLn
+aLn
+aLn
+aLn
+aGt
+aGt
 abP
-aqn
-aqn
-avp
+aGt
+aGt
+auP
 arx
 arx
 auP
@@ -81131,7 +81113,7 @@ aqr
 aqQ
 aqC
 aqC
-aqo
+aFD
 aqo
 aqo
 aqo
@@ -81293,27 +81275,27 @@ ahi
 acN
 acN
 aHd
-arK
-arK
-arK
-arK
-arK
-arF
-arF
+aLn
+aLn
+aLn
+aLn
+aLn
+aGt
+aGt
 aqn
-aqn
-aqn
-aqn
-aqn
-aqn
-aqn
-aqn
-aqn
-aqn
-aqn
-abP
-abP
-aqn
+aGt
+aGt
+aGt
+aGt
+aGt
+aGt
+aGt
+aGt
+aGt
+aGt
+aGt
+aGt
+aGt
 aqn
 aqn
 aqn
@@ -81475,27 +81457,27 @@ abP
 abP
 abP
 abP
-arF
-arF
-arF
-arF
-arF
+aGt
+aGt
+aGt
+aGt
+aGt
 aqn
+aGt
 aqn
-aqn
-aqn
-aqn
-aqn
-aqn
-aqn
-aqn
-aqn
-aqn
-aqn
-aqn
-aqn
-aqn
-aqn
+aGt
+aGt
+aJa
+aGt
+aGt
+aGt
+aGt
+aGt
+aGt
+aGt
+aGt
+aGt
+aGt
 aqn
 aqn
 aqn
@@ -81657,26 +81639,26 @@ abP
 abP
 abP
 aqn
+aGt
+aGt
+aGt
+aGt
+aGt
+aGt
+aGt
 aqn
-aqn
-aqn
-aqn
-aqn
-aqn
-aqn
-aqn
-aqn
-aqn
-aqn
-aqn
-aqn
-aqn
-aqn
-aqn
-aqn
-aqn
-aqn
-aqn
+aGt
+aGt
+aJa
+aJa
+aGt
+aGt
+aGt
+aGt
+aGt
+aGt
+aGt
+aIF
 aqn
 aqn
 aqn
@@ -81839,26 +81821,26 @@ ajr
 abP
 abP
 aqn
+aGt
+aGt
+aGt
+aGt
+aGt
+aGt
+aGt
+aqn
+aGt
+aJa
+aGt
+aGt
+aGt
+aGt
+aGt
 aqn
 aqn
-aqn
-aqn
-aqn
-aqn
-aqn
-aqn
-aqn
-aqn
-aqn
-aqn
-aqn
-aqn
-aqn
-aqn
-aqn
-aqn
-aqn
-aqn
+aIF
+aIF
+aIF
 aqn
 aqn
 aqn
@@ -82021,26 +82003,26 @@ ajr
 abP
 abP
 aqn
+aGt
+aGt
+aGt
+aGt
+aGt
+aGt
+aGt
+aqn
+aGt
+aGt
+aGt
+aGt
+aGt
+aGt
+aGt
 aqn
 aqn
-aqn
-aqn
-aqn
-aqn
-aqn
-aqn
-aqn
-aqn
-aqn
-aqn
-aqn
-aqn
-aqn
-aqn
-aqn
-aqn
-aqn
-aqn
+aIF
+aIF
+aIF
 aqn
 abP
 abP
@@ -82204,19 +82186,19 @@ abP
 abP
 aqn
 aqn
+aGt
+aGt
+aGt
 aqn
 aqn
 aqn
-aqn
-aqn
-aqn
-aqn
-aqn
-aqn
-aqn
-aqn
-aqn
-aqn
+aGt
+aGt
+aGt
+aGt
+aGt
+aGt
+aGt
 aqn
 aqn
 aqn
@@ -82383,22 +82365,22 @@ ajr
 ajr
 ajr
 abP
-abP
+aIF
+aqn
+aGt
+aJa
+aJa
+aGt
 aqn
 aqn
 aqn
-aqn
-aqn
-aqn
-aqn
-aqn
-aqn
-aqn
-aqn
-aqn
-aqn
-abP
-abP
+aGt
+aGt
+aGt
+aGt
+aGt
+aGt
+aGt
 abP
 abP
 abP
@@ -82565,22 +82547,22 @@ ajr
 ajr
 ajr
 abP
-abP
+aIF
+aqn
+aGt
+aGt
+aGt
+aGt
 aqn
 aqn
-aqn
-aqn
-aqn
-aqn
-aqn
-aqn
-aqn
-aqn
-aqn
-aqn
-aqn
-abP
-abP
+aGt
+aGt
+aJa
+aGt
+aGt
+aGt
+aGt
+aGt
 abP
 abP
 abP
@@ -82747,19 +82729,19 @@ ajr
 ajr
 ajr
 abP
-abP
+aIF
+aqn
+aGt
+aGt
+aGt
+aGt
 aqn
 aqn
-aqn
-aqn
-aqn
-aqn
-aqn
-aqn
-aqn
-aqn
-aqn
-aqn
+aGt
+aGt
+aJa
+aJa
+aGt
 aqn
 abP
 abP
@@ -82929,19 +82911,19 @@ ada
 ajr
 ajr
 abP
-abP
+aIF
+aGt
+aGt
+aGt
+aGt
+aGt
 aqn
 aqn
-aqn
-aqn
-aqn
-aqn
-aqn
-aqn
-aqn
-aqn
-aqn
-aqn
+aGt
+aGt
+aJa
+aGt
+aGt
 aqn
 abP
 abP
@@ -83112,18 +83094,18 @@ aBP
 aBP
 aBP
 aBP
+aGt
+aGt
+aGt
+aGt
 aqn
 aqn
 aqn
-aqn
-aqn
-aqn
-aqn
-aqn
-aqn
-aqn
-aqn
-aqn
+aGt
+aGt
+aGt
+aGt
+aGt
 aqn
 aBP
 abP
@@ -83301,10 +83283,10 @@ aqn
 aqn
 aqn
 aqn
-aqn
-aqn
-aqn
-aqn
+aGt
+aGt
+aGt
+aGt
 aqn
 aqn
 aBP
