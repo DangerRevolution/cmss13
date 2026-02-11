@@ -1253,7 +1253,7 @@
 /obj/structure/machinery/door/airlock/multi_tile/hybrisa/generic/autoname{
 	dir = 2
 	},
-/turf/open/floor/dark2,
+/turf/open/floor/corsat/officesquares,
 /area/space)
 "aef" = (
 /obj/structure/machinery/door/airlock/almayer/maint/colony/autoname,
@@ -2105,8 +2105,11 @@
 /turf/open/floor/prison/whitepurple/east,
 /area/space)
 "ahs" = (
-/obj/structure/machinery/door/poddoor/almayer/planet_side_blastdoor,
-/turf/open/space/basic,
+/obj/structure/machinery/door/poddoor/almayer/planet_side_blastdoor{
+	id = "ATC Lobby Lockdown";
+	name = "ATC Lobby Lockdown"
+	},
+/turf/open/floor/corsat/officesquares,
 /area/space)
 "aht" = (
 /obj/structure/machinery/conveyor{
@@ -2583,7 +2586,7 @@
 /obj/structure/machinery/door/airlock/multi_tile/almayer/secdoor/glass{
 	dir = 2
 	},
-/turf/open/floor/dark2,
+/turf/open/floor/corsat/officesquares,
 /area/space)
 "aiZ" = (
 /turf/open/floor/plating,
@@ -2618,7 +2621,10 @@
 /turf/open/floor/shiva/green/west,
 /area/space)
 "ajf" = (
-/obj/structure/machinery/door/poddoor/almayer/planet_side_blastdoor,
+/obj/structure/machinery/door/poddoor/almayer/planet_side_blastdoor{
+	id = "ATC Lobby Lockdown";
+	name = "ATC Lobby Lockdown"
+	},
 /turf/open/floor/dark2,
 /area/space)
 "ajg" = (
@@ -3653,7 +3659,10 @@
 /area/space)
 "amh" = (
 /obj/structure/barricade/handrail/type_b,
-/turf/open/floor/dark2,
+/obj/structure/machinery/light{
+	dir = 8
+	},
+/turf/open/floor/corsat/officetiles,
 /area/space)
 "ami" = (
 /obj/structure/surface/table,
@@ -5235,6 +5244,10 @@
 /obj/structure/window/framed/new_varadero/foundation/reinforced/hull,
 /turf/open/floor/shiva,
 /area/almayer/engineering/lower/engine_monitoring)
+"arq" = (
+/obj/structure/prop/dam/crane/damaged,
+/turf/open/auto_turf/sand_white/layer1,
+/area/space)
 "arr" = (
 /obj/structure/showcase{
 	desc = "A console equipped with a radar used by the Hunters to detect gear and good hunting grounds.";
@@ -5330,6 +5343,10 @@
 	},
 /turf/open/shuttle/dropship/predship/hunter_grille,
 /area/shipyard/entertainment/canteen/commons)
+"arE" = (
+/obj/structure/prop/dam/truck/damaged,
+/turf/open/new_varadero/sidewalk/north,
+/area/space)
 "arF" = (
 /turf/open/floor/corsat,
 /area/space)
@@ -6532,7 +6549,7 @@
 /area/space)
 "auW" = (
 /obj/structure/bed/chair/office/dark,
-/turf/open/floor/dark2,
+/turf/open/floor/corsat/browncorner/east,
 /area/space)
 "auX" = (
 /obj/structure/machinery/conveyor{
@@ -12401,6 +12418,12 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/shiva/yellow,
 /area/space)
+"aMa" = (
+/obj/item/ammo_casing/bullet{
+	icon_state = "cartridge_10_1"
+	},
+/turf/open/hybrisa/street/roadlines,
+/area/space)
 "aMb" = (
 /obj/structure/machinery/light{
 	dir = 1
@@ -12469,6 +12492,11 @@
 	},
 /turf/open/floor/shiva,
 /area/almayer/engineering/lower/engine_core)
+"aMk" = (
+/obj/effect/decal/cleanable/blood/xeno,
+/obj/effect/decal/cleanable/blood/xeno,
+/turf/open/hybrisa/street/roadlines,
+/area/space)
 "aMl" = (
 /obj/structure/pipes/standard/simple/visible,
 /obj/structure/machinery/door/airlock/almayer/engineering/colony{
@@ -12624,6 +12652,10 @@
 "aMK" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/hybrisa/tile/tilewhite,
+/area/space)
+"aML" = (
+/obj/item/prop/alien/hugger,
+/turf/open/hybrisa/street/roadlines,
 /area/space)
 "aMM" = (
 /obj/structure/pipes/standard/manifold/hidden/green,
@@ -12952,6 +12984,12 @@
 "aNM" = (
 /turf/open/floor/shiva/yellow,
 /area/space)
+"aNN" = (
+/obj/effect/decal/cleanable/blood/xeno,
+/obj/effect/decal/cleanable/blood/xeno,
+/obj/item/alien_embryo,
+/turf/open/hybrisa/street/roadlines,
+/area/space)
 "aNO" = (
 /obj/structure/machinery/door/airlock/almayer/medical/glass/colony{
 	dir = 2
@@ -13147,6 +13185,10 @@
 /obj/structure/window/framed/colony,
 /turf/open/floor/shiva/wred/east,
 /area/space)
+"aOx" = (
+/obj/effect/landmark/corpsespawner/ua_riot,
+/turf/open/hybrisa/street/roadlines,
+/area/space)
 "aOy" = (
 /obj/effect/decal/warning_stripes{
 	icon_state = "test_square_red"
@@ -13200,6 +13242,12 @@
 /obj/structure/machinery/conveyor_switch,
 /turf/open/floor/shiva,
 /area/almayer/command/cic)
+"aOG" = (
+/obj/structure/machinery/light{
+	dir = 1
+	},
+/turf/open/new_varadero/sidewalk,
+/area/space)
 "aOH" = (
 /obj/effect/decal/warning_stripes{
 	icon_state = "E-corner";
@@ -13473,6 +13521,10 @@
 /obj/structure/cargo_container/hybrisa/containersextended/kelland_right,
 /turf/open/floor/shiva/yellow,
 /area/space)
+"aPq" = (
+/obj/item/prop/alien/hugger,
+/turf/open/new_varadero/sidewalk,
+/area/space)
 "aPr" = (
 /obj/effect/decal/warning_stripes{
 	icon_state = "N-corner"
@@ -13497,6 +13549,10 @@
 "aPu" = (
 /turf/open/gm/coast/beachcorner/south_west,
 /area/varadero/exterior/farocean)
+"aPv" = (
+/obj/effect/decal/cleanable/blood/xeno,
+/turf/open/new_varadero/sidewalk/southeast,
+/area/space)
 "aPw" = (
 /obj/effect/decal/warning_stripes{
 	icon_state = "N-corner"
@@ -13896,6 +13952,10 @@
 	},
 /turf/open/floor/shiva,
 /area/desert_dam/building/security/observation)
+"aQr" = (
+/obj/effect/decal/cleanable/blood/xeno,
+/turf/open/auto_turf/snow/layer0,
+/area/space)
 "aQs" = (
 /obj/structure/prop/hybrisa/factory/conveyor_belt,
 /obj/structure/ship_ammo/minirocket/incendiary,
@@ -13958,6 +14018,11 @@
 /obj/structure/prop/hybrisa/factory/conveyor_belt,
 /obj/structure/ob_ammo/ob_fuel,
 /turf/open/floor/shiva,
+/area/space)
+"aQC" = (
+/obj/effect/decal/cleanable/blood/xeno,
+/obj/effect/landmark/corpsespawner/forecon_spotter,
+/turf/open/auto_turf/snow/layer0,
 /area/space)
 "aQD" = (
 /obj/structure/prop/hybrisa/factory/conveyor_belt,
@@ -14071,6 +14136,12 @@
 	layer = 5
 	},
 /turf/open/floor/shiva,
+/area/space)
+"aQU" = (
+/obj/structure/machinery/light{
+	dir = 1
+	},
+/turf/open/new_varadero/sidewalk/sidewalkfull,
 /area/space)
 "aQV" = (
 /obj/effect/decal/warning_stripes{
@@ -14278,6 +14349,11 @@
 /obj/structure/closet/secure_closet/fridge/groceries,
 /turf/open/floor/shiva,
 /area/desert_dam/building/security/observation)
+"aRr" = (
+/obj/effect/decal/cleanable/blood/xeno,
+/obj/effect/decal/cleanable/blood/xeno,
+/turf/open/new_varadero/sidewalk/sidewalkfull,
+/area/space)
 "aRs" = (
 /obj/structure/machinery/door/window,
 /turf/open/floor/shiva,
@@ -14360,6 +14436,10 @@
 /obj/structure/machinery/big_computers/computerwhite/computer3,
 /turf/open/shuttle/lifeboat/catwalk,
 /area/desert_dam/building/security/observation)
+"aRG" = (
+/obj/effect/decal/cleanable/blood/xeno,
+/turf/open/new_varadero/sidewalk/east,
+/area/space)
 "aRH" = (
 /obj/structure/machinery/door_control{
 	id = "garage_ice_1";
@@ -14495,6 +14575,10 @@
 	},
 /turf/open/floor/shiva,
 /area/desert_dam/building/security/observation)
+"aSb" = (
+/obj/item/prop/alien/hugger,
+/turf/open/auto_turf/snow/layer0,
+/area/space)
 "aSc" = (
 /obj/structure/surface/table/reinforced/prison,
 /obj/item/clipboard,
@@ -14634,6 +14718,10 @@
 	},
 /turf/open/floor/corsat/white/southeast,
 /area/space)
+"aSC" = (
+/obj/item/alien_embryo,
+/turf/open/auto_turf/snow/layer0,
+/area/space)
 "aSD" = (
 /obj/effect/decal/cleanable/liquid_fuel,
 /turf/open/floor/plating,
@@ -14671,6 +14759,12 @@
 	color = "#0b8f8d"
 	},
 /area/space)
+"aSL" = (
+/obj/structure/machinery/light{
+	dir = 8
+	},
+/turf/open/floor/corsat/officetiles,
+/area/space)
 "aSM" = (
 /obj/structure/machinery/door/airlock/maintenance/colony{
 	dir = 8
@@ -14689,6 +14783,9 @@
 	},
 /turf/open/floor/shiva,
 /area/desert_dam/building/security/observation)
+"aSP" = (
+/turf/open/floor/corsat/officetiles,
+/area/space)
 "aSQ" = (
 /obj/structure/window/reinforced{
 	dir = 4
@@ -14719,6 +14816,11 @@
 	dir = 2
 	},
 /area/desert_dam/building/security/observation)
+"aSW" = (
+/obj/item/alien_embryo,
+/obj/effect/decal/cleanable/blood/xeno,
+/turf/open/floor/plating/icefloor,
+/area/space)
 "aSX" = (
 /turf/open/space/basic,
 /area/space)
@@ -15000,6 +15102,10 @@
 /turf/open/floor/corsat/white{
 	icon_state = "squares"
 	},
+/area/space)
+"aTM" = (
+/obj/structure/prop/hybrisa/supermart/rack/longrack1,
+/turf/open/floor/plating/warnplate/southwest,
 /area/space)
 "aTN" = (
 /obj/structure/pipes/unary/freezer{
@@ -15665,6 +15771,10 @@
 	dir = 1
 	},
 /area/desert_dam/building/security/observation)
+"aVp" = (
+/obj/structure/prop/hybrisa/supermart/rack/longrack1,
+/turf/open/floor/plating/warnplate/southeast,
+/area/space)
 "aVq" = (
 /obj/structure/surface/table/woodentable,
 /obj/item/ashtray/bronze{
@@ -15786,6 +15896,13 @@
 /obj/structure/catwalk/bigred,
 /obj/structure/lattice,
 /turf/open/gm/river/ocean/deep_ocean,
+/area/space)
+"aVL" = (
+/obj/structure/machinery/light{
+	unacidable = 1;
+	unslashable = 1
+	},
+/turf/open/floor/corsat/officesquares,
 /area/space)
 "aVM" = (
 /obj/structure/closet/wardrobe/engineering_yellow,
@@ -15953,6 +16070,9 @@
 /obj/structure/window/framed/new_varadero/foundation/reinforced/hull,
 /turf/open_space,
 /area/space)
+"aWn" = (
+/turf/open/floor/corsat/officesquares,
+/area/space)
 "aWo" = (
 /obj/structure/window/framed/new_varadero/foundation/reinforced/hull,
 /turf/open/floor/plating,
@@ -15960,6 +16080,10 @@
 "aWp" = (
 /obj/structure/prop/almayer/computers/sensor_computer2,
 /turf/open/floor/darkpurple2/north,
+/area/space)
+"aWq" = (
+/obj/effect/landmark/corpsespawner/colonist/random,
+/turf/open/floor/corsat/officetiles,
 /area/space)
 "aWr" = (
 /obj/structure/prop/almayer/computers/sensor_computer3,
@@ -15980,6 +16104,10 @@
 	},
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/prison/floor_plate/southwest,
+/area/space)
+"aWv" = (
+/obj/item/alien_embryo,
+/turf/open/floor/corsat/officetiles,
 /area/space)
 "aWw" = (
 /obj/structure/prop/almayer/computers/sensor_computer1,
@@ -16143,6 +16271,10 @@
 	},
 /turf/open/floor/plating,
 /area/space)
+"aWU" = (
+/obj/effect/decal/cleanable/blood/xeno,
+/turf/open/floor/corsat/officetiles,
+/area/space)
 "aWV" = (
 /obj/structure/sink{
 	dir = 8;
@@ -16182,6 +16314,12 @@
 /obj/structure/closet/wardrobe/morgue,
 /turf/open/floor/shiva/north,
 /area/varadero/interior/oob)
+"aXc" = (
+/obj/structure/machinery/light{
+	dir = 4
+	},
+/turf/open/floor/corsat/officetiles,
+/area/space)
 "aXd" = (
 /obj/item/device/radio{
 	pixel_x = 3;
@@ -16245,6 +16383,10 @@
 	dir = 4
 	},
 /turf/open/floor/dark2,
+/area/space)
+"aXl" = (
+/obj/effect/landmark/corpsespawner/ua_riot,
+/turf/open/auto_turf/snow/layer0,
 /area/space)
 "aXm" = (
 /turf/closed/wall/shiva/prefabricated/orange,
@@ -16321,7 +16463,7 @@
 /turf/open/new_varadero/sidewalk,
 /area/space)
 "aXB" = (
-/obj/structure/window/framed/colony/reinforced,
+/obj/structure/window/framed/new_varadero/foundation/reinforced,
 /turf/open/floor/dark2,
 /area/space)
 "aXC" = (
@@ -16669,6 +16811,11 @@
 	icon_state = "wy3"
 	},
 /area/varadero/interior/oob)
+"aYM" = (
+/obj/effect/decal/cleanable/blood/xeno,
+/obj/structure/machinery/colony_floodlight,
+/turf/open/auto_turf/snow/layer0,
+/area/space)
 "aYN" = (
 /obj/structure/pipes/standard/simple/hidden/green{
 	dir = 4
@@ -16703,6 +16850,13 @@
 	opacity = 0
 	},
 /area/varadero/interior/oob)
+"aYT" = (
+/obj/structure/machinery/light{
+	dir = 4;
+	pixel_y = -16
+	},
+/turf/open/auto_turf/sand_white/layer1,
+/area/space)
 "aYU" = (
 /turf/closed/shuttle/ert{
 	icon_state = "wy4"
@@ -16832,6 +16986,13 @@
 /obj/effect/decal/cleanable/blood,
 /obj/effect/landmark/corpsespawner/miner,
 /turf/open/auto_turf/sand_white,
+/area/space)
+"aZp" = (
+/obj/structure/machinery/firealarm{
+	dir = 8;
+	pixel_x = -24
+	},
+/turf/open/floor/plating/warnplate/southwest,
 /area/space)
 "aZq" = (
 /obj/structure/machinery/power/monitor,
@@ -18546,10 +18707,16 @@
 	pixel_x = 16;
 	pixel_y = 16
 	},
+/obj/structure/machinery/light{
+	dir = 1
+	},
 /turf/open/new_varadero/sidewalk/sidewalkfull,
 /area/space)
 "beO" = (
 /obj/effect/decal/cleanable/blood/xeno,
+/obj/item/ammo_casing/bullet{
+	icon_state = "cartridge_10_1"
+	},
 /turf/open/new_varadero/sidewalk/sidewalkfull,
 /area/space)
 "beP" = (
@@ -18582,16 +18749,21 @@
 /obj/structure/machinery/door/airlock/multi_tile/almayer/generic{
 	name = "\improper Underground Requesitions Bay"
 	},
-/obj/structure/machinery/door/poddoor/almayer/planet_side_blastdoor,
-/turf/open/space/basic,
+/obj/structure/machinery/door/poddoor/almayer/planet_side_blastdoor{
+	id = "ATC Lobby Lockdown";
+	name = "ATC Lobby Lockdown"
+	},
+/turf/open/floor/corsat/officesquares,
 /area/space)
 "beT" = (
 /obj/item/stack/sheet/metal,
-/turf/open/floor/dark2,
+/turf/open/floor/corsat/officetiles,
 /area/space)
 "beU" = (
 /obj/effect/landmark/corpsespawner/colonist/random,
-/turf/open/floor/dark2,
+/obj/effect/decal/cleanable/blood/xeno,
+/obj/effect/decal/cleanable/blood/xeno,
+/turf/open/floor/corsat/officetiles,
 /area/space)
 "beV" = (
 /obj/effect/decal/hybrisa/road/lines4,
@@ -18614,7 +18786,11 @@
 /area/space)
 "beY" = (
 /obj/effect/decal/cleanable/blood/xeno,
-/turf/open/floor/dark2,
+/obj/structure/machinery/light{
+	unacidable = 1;
+	unslashable = 1
+	},
+/turf/open/floor/corsat/officesquares,
 /area/space)
 "beZ" = (
 /obj/structure/barricade/wooden{
@@ -18622,18 +18798,22 @@
 	layer = 5.3
 	},
 /obj/effect/decal/cleanable/blood/xeno,
-/turf/open/floor/dark2,
+/obj/structure/machinery/light{
+	unacidable = 1;
+	unslashable = 1
+	},
+/turf/open/floor/corsat/officesquares,
 /area/space)
 "bfa" = (
 /obj/structure/girder/displaced,
 /obj/effect/decal/cleanable/blood/xeno,
-/turf/open/floor/dark2,
+/turf/open/floor/corsat/officesquares,
 /area/space)
 "bfb" = (
 /obj/structure/barricade/deployable{
 	dir = 8
 	},
-/turf/open/floor/dark2,
+/turf/open/floor/corsat/officetiles,
 /area/space)
 "bfc" = (
 /obj/effect/decal/hybrisa/road/lines4,
@@ -18658,26 +18838,30 @@
 /area/space)
 "bfe" = (
 /obj/structure/barricade/deployable,
-/turf/open/floor/dark2,
+/turf/open/floor/corsat/officesquares,
 /area/space)
 "bff" = (
 /obj/structure/barricade/wooden,
-/turf/open/floor/dark2,
+/turf/open/floor/corsat/officesquares,
 /area/space)
 "bfg" = (
 /obj/structure/barricade/deployable{
 	dir = 4
 	},
-/turf/open/floor/dark2,
+/obj/item/ammo_casing/bullet{
+	icon_state = "cartridge_10_1"
+	},
+/turf/open/floor/corsat/officesquares,
 /area/space)
 "bfh" = (
 /obj/item/prop/alien/hugger,
 /obj/structure/barricade/deployable,
-/turf/open/floor/dark2,
+/turf/open/floor/corsat/officetiles,
 /area/space)
 "bfi" = (
 /obj/item/trash/burger,
-/turf/open/floor/dark2,
+/obj/structure/barricade/deployable,
+/turf/open/floor/corsat/officetiles,
 /area/space)
 "bfj" = (
 /obj/structure/machinery/door/airlock/multi_tile/hybrisa/generic/autoname{
@@ -18687,71 +18871,75 @@
 /turf/open/floor/dark2,
 /area/space)
 "bfk" = (
-/obj/structure/surface/rack,
-/turf/open/floor/plating/icefloor,
+/obj/structure/prop/hybrisa/supermart/rack/longrack1,
+/obj/structure/machinery/light{
+	dir = 8;
+	pixel_y = 17
+	},
+/turf/open/floor/plating/warnplate/west,
 /area/space)
 "bfl" = (
 /obj/structure/bed/sofa/vert/grey/bot,
-/turf/open/floor/dark2,
+/turf/open/floor/corsat/officesquares,
 /area/space)
 "bfm" = (
 /obj/item/trash/uscm_mre,
-/turf/open/floor/dark2,
+/turf/open/floor/corsat/officesquares,
 /area/space)
 "bfn" = (
 /obj/structure/machinery/vending/coffee,
-/turf/open/floor/dark2,
+/obj/structure/machinery/light{
+	dir = 4
+	},
+/turf/open/floor/corsat/officesquares,
 /area/space)
 "bfo" = (
 /obj/structure/extinguisher_cabinet{
 	pixel_y = 26
 	},
-/turf/open/floor/dark2,
+/obj/item/ammo_casing/bullet{
+	icon_state = "cartridge_10_1"
+	},
+/turf/open/floor/corsat/marked,
 /area/space)
 "bfp" = (
 /obj/structure/bed/sofa/vert/grey,
-/turf/open/floor/dark2,
+/turf/open/floor/corsat/officesquares,
 /area/space)
 "bfq" = (
 /obj/item/ammo_casing/bullet{
 	icon_state = "cartridge_10_1"
 	},
-/turf/open/floor/dark2,
+/turf/open/floor/corsat/officesquares,
 /area/space)
 "bfr" = (
 /obj/structure/window/reinforced{
 	dir = 8;
 	layer = 3.1
 	},
-/turf/open/floor/dark2,
+/obj/item/ammo_casing/cartridge,
+/turf/open/floor/corsat/officesquares,
 /area/space)
 "bfs" = (
 /obj/item/weapon/gun/smg/mp5,
-/turf/open/floor/dark2,
+/turf/open/floor/corsat/officesquares,
 /area/space)
 "bft" = (
 /obj/structure/barricade/deployable{
 	dir = 4
 	},
 /obj/effect/decal/cleanable/blood/xeno,
-/turf/open/floor/dark2,
-/area/space)
-"bfu" = (
-/obj/structure/machinery/defenses/sentry/premade/dumb{
-	desc = "A deployable, semi-automated turret with AI targeting capabilities. Armed with an M30 Autocannon and a high-capacity drum magazine. This one's IFF system has been fried via acid damage, and it will open fire on any targets within range.";
-	name = "Damaged UA-577 Gauss Turret"
-	},
-/turf/open/floor/dark2,
+/turf/open/floor/corsat/officesquares,
 /area/space)
 "bfv" = (
 /obj/effect/landmark/survivor_spawner,
-/turf/open/floor/dark2,
+/turf/open/floor/corsat/officesquares,
 /area/space)
 "bfw" = (
 /obj/structure/stairs/multiz/up{
 	dir = 1
 	},
-/turf/open/floor/dark2,
+/turf/open/floor/corsat/officesquares,
 /area/space)
 "bfx" = (
 /obj/effect/decal/cleanable/blood/xeno,
@@ -18759,7 +18947,7 @@
 /area/space)
 "bfy" = (
 /obj/structure/bed/sofa/vert/grey/top,
-/turf/open/floor/dark2,
+/turf/open/floor/corsat/officesquares,
 /area/space)
 "bfz" = (
 /obj/structure/barricade/wooden{
@@ -18768,7 +18956,13 @@
 	pixel_x = 12;
 	pixel_y = 6
 	},
-/turf/open/floor/dark2,
+/obj/structure/barricade/wooden{
+	dir = 1;
+	layer = 3.2;
+	pixel_x = 12;
+	pixel_y = 6
+	},
+/turf/open/floor/corsat/officesquares,
 /area/space)
 "bfA" = (
 /obj/structure/surface/table/reinforced/prison{
@@ -18777,25 +18971,18 @@
 /obj/item/weapon/gun/shotgun/pump/dual_tube/cmb{
 	pixel_y = 3
 	},
-/turf/open/floor/dark2,
+/turf/open/floor/corsat/brown/southeast,
 /area/space)
 "bfB" = (
 /obj/structure/bed/chair/comfy{
 	dir = 1
 	},
-/turf/open/floor/dark2,
-/area/space)
-"bfC" = (
-/obj/structure/barricade/wooden{
-	dir = 4;
-	layer = 5.3
-	},
-/turf/open/floor/dark2,
+/turf/open/floor/corsat/officesquares,
 /area/space)
 "bfD" = (
 /obj/effect/decal/cleanable/blood/xeno,
 /obj/structure/girder/displaced,
-/turf/open/floor/dark2,
+/turf/open/floor/corsat/officesquares,
 /area/space)
 "bfE" = (
 /obj/structure/surface/table/almayer{
@@ -18803,7 +18990,8 @@
 	flipped = 1
 	},
 /obj/effect/decal/cleanable/blood/xeno,
-/turf/open/floor/dark2,
+/obj/effect/landmark/objective_landmark/medium,
+/turf/open/floor/corsat/officesquares,
 /area/space)
 "bfF" = (
 /obj/structure/surface/table/reinforced/prison{
@@ -18815,44 +19003,47 @@
 	phone_id = "Secure Storage";
 	pixel_y = 24
 	},
-/turf/open/floor/dark2,
+/obj/item/restraint/handcuffs,
+/turf/open/floor/corsat/brown/northeast,
 /area/space)
 "bfG" = (
 /obj/structure/window/framed/colony/reinforced,
-/obj/structure/window/framed/colony/reinforced,
+/obj/structure/window/framed/new_varadero/foundation/reinforced,
 /turf/open/floor/dark2,
 /area/space)
 "bfH" = (
 /obj/structure/extinguisher_cabinet{
 	pixel_y = 26
 	},
-/turf/open/floor/plating/icefloor,
+/obj/effect/landmark/corpsespawner/colonist/random,
+/turf/open/floor/plating/warnplate/northwest,
 /area/space)
 "bfI" = (
 /obj/structure/machinery/washing_machine{
 	density = 0;
 	pixel_y = 15
 	},
-/turf/open/floor/plating/icefloor,
+/turf/open/floor/plating/warnplate/northeast,
 /area/space)
 "bfJ" = (
 /obj/structure/surface/table/almayer,
 /obj/structure/machinery/prop/almayer/computer/PC{
 	pixel_y = 3
 	},
-/turf/open/floor/dark2,
+/turf/open/floor/corsat/officesquares,
 /area/space)
 "bfK" = (
 /obj/structure/surface/table/almayer,
 /obj/item/weapon/gun/rifle/m4ra{
 	current_mag = null
 	},
-/turf/open/floor/dark2,
+/obj/effect/landmark/objective_landmark/medium,
+/turf/open/floor/corsat/officesquares,
 /area/space)
 "bfL" = (
 /obj/structure/surface/table/almayer,
 /obj/structure/machinery/faxmachine,
-/turf/open/floor/dark2,
+/turf/open/floor/corsat/officesquares,
 /area/space)
 "bfM" = (
 /obj/structure/extinguisher_cabinet{
@@ -18862,12 +19053,12 @@
 	dir = 4;
 	layer = 5.3
 	},
-/turf/open/floor/dark2,
+/turf/open/floor/corsat/officesquares,
 /area/space)
 "bfN" = (
 /obj/effect/decal/cleanable/blood/xeno,
 /obj/structure/girder,
-/turf/open/floor/dark2,
+/turf/open/floor/corsat/officesquares,
 /area/space)
 "bfO" = (
 /obj/structure/fence/dark/warning,
@@ -18884,27 +19075,39 @@
 	pixel_x = -8;
 	pixel_y = 18
 	},
-/turf/open/floor/almayer/cargo,
+/obj/structure/machinery/firealarm{
+	dir = 8;
+	pixel_x = -24
+	},
+/turf/open/floor/corsat/brown/northwest,
 /area/space)
 "bfQ" = (
 /obj/structure/closet/secure_closet/guncabinet,
-/turf/open/floor/dark2,
+/turf/open/floor/corsat/brown/northeast,
 /area/space)
 "bfR" = (
 /obj/structure/prop/hybrisa/misc/buildinggreebliessmall/computer,
-/turf/open/floor/dark2,
+/obj/structure/machinery/light{
+	dir = 8
+	},
+/obj/structure/machinery/firealarm{
+	dir = 8;
+	pixel_x = -24
+	},
+/turf/open/floor/corsat/box,
 /area/space)
 "bfS" = (
 /obj/structure/prop/server_equipment/yutani_server,
-/turf/open/floor/dark2,
+/turf/open/floor/corsat/box,
 /area/space)
 "bfT" = (
 /obj/structure/prop/server_equipment/yutani_server/broken,
-/turf/open/floor/dark2,
+/obj/structure/machinery/light,
+/turf/open/floor/corsat/box,
 /area/space)
 "bfU" = (
 /obj/structure/prop/server_equipment,
-/turf/open/floor/dark2,
+/turf/open/floor/corsat/box,
 /area/space)
 "bfV" = (
 /obj/structure/prop/invuln/overhead_pipe{
@@ -18919,18 +19122,17 @@
 /obj/structure/barricade/handrail/type_b{
 	dir = 8
 	},
-/turf/open/floor/dark2,
+/turf/open/floor/corsat/blue/southwest,
 /area/space)
 "bfY" = (
 /obj/structure/machinery/door/airlock/multi_tile/hybrisa/generic/autoname{
 	dir = 2
 	},
-/obj/structure/machinery/door/poddoor/almayer/open{
-	dir = 4;
-	id = "CIC Lockdown";
-	name = "\improper Combat Information Center Blast Door"
+/obj/structure/machinery/door/poddoor/almayer/planet_side_blastdoor{
+	id = "ATC Lockdown";
+	name = "ATC Lockdown"
 	},
-/turf/open/floor/dark2,
+/turf/open/floor/corsat/blue,
 /area/space)
 "bfZ" = (
 /obj/structure/surface/table/almayer,
@@ -18939,12 +19141,20 @@
 	pixel_y = 5;
 	dir = 1
 	},
-/turf/open/floor/dark2,
+/obj/effect/landmark/objective_landmark/medium,
+/turf/open/floor/corsat/blue/southeast,
 /area/space)
 "bga" = (
 /obj/effect/decal/warning_stripes{
 	icon_state = "N";
 	pixel_y = 1
+	},
+/obj/structure/machinery/light{
+	dir = 8
+	},
+/obj/structure/machinery/firealarm{
+	dir = 8;
+	pixel_x = -24
 	},
 /turf/open/floor/almayer/plate,
 /area/space)
@@ -18971,15 +19181,17 @@
 	dir = 1
 	},
 /obj/item/tool/soap/syndie,
+/obj/structure/machinery/light{
+	dir = 4
+	},
 /turf/open/floor/plating/plating_catwalk,
 /area/space)
 "bge" = (
-/obj/structure/machinery/door/poddoor/almayer/open{
-	dir = 4;
-	id = "CIC Lockdown";
-	name = "\improper Combat Information Center Blast Door"
+/obj/structure/machinery/door/poddoor/almayer/planet_side_blastdoor{
+	id = "ATC Lockdown";
+	name = "ATC Lockdown"
 	},
-/turf/open/floor/dark2,
+/turf/open/floor/corsat/blue/north,
 /area/space)
 "bgf" = (
 /obj/structure/toilet{
@@ -18989,6 +19201,7 @@
 	dir = 4;
 	health = 80
 	},
+/obj/effect/landmark/objective_landmark/medium,
 /turf/open/floor/plating/plating_catwalk,
 /area/space)
 "bgg" = (
@@ -19033,19 +19246,20 @@
 	},
 /obj/structure/surface/table/reinforced/black,
 /obj/structure/window/reinforced,
-/turf/open/floor/dark2,
+/obj/effect/landmark/objective_landmark/medium,
+/turf/open/floor/corsat/box,
 /area/space)
 "bgk" = (
 /obj/structure/bed/chair/office/dark{
 	dir = 8;
 	layer = 3.25
 	},
-/turf/open/floor/dark2,
+/turf/open/floor/corsat/blue/west,
 /area/space)
 "bgl" = (
 /obj/structure/machinery/door/airlock/almayer/secure/colony{
 	dir = 2;
-	name = "Disposals Storage Unit";
+	name = "Toilet";
 	id_tag = "st_18"
 	},
 /turf/open/floor/plating,
@@ -19061,37 +19275,53 @@
 	phone_category = "Command";
 	phone_id = "Bravo Overwatch"
 	},
-/turf/open/floor/dark2,
+/turf/open/floor/corsat/box,
 /area/space)
 "bgn" = (
 /obj/structure/bed/chair/comfy/blue{
 	dir = 1
 	},
-/turf/open/floor/dark2,
+/turf/open/floor/corsat/box,
 /area/space)
 "bgo" = (
 /obj/structure/closet/toolcloset,
+/obj/structure/machinery/light{
+	unacidable = 1;
+	unslashable = 1
+	},
+/obj/structure/machinery/firealarm{
+	dir = 8;
+	pixel_x = -24
+	},
 /turf/open/floor/plating,
 /area/space)
 "bgp" = (
 /obj/structure/machinery/power/power_generator/port_gen/pacman,
+/obj/structure/machinery/light{
+	unacidable = 1;
+	unslashable = 1
+	},
 /turf/open/floor/plating,
 /area/space)
 "bgq" = (
 /obj/structure/bed/chair/comfy/blue{
 	dir = 4
 	},
-/turf/open/floor/dark2,
+/turf/open/floor/corsat/box,
 /area/space)
 "bgr" = (
 /obj/structure/surface/table/reinforced/black,
 /obj/structure/surface/table/reinforced/black,
 /obj/structure/prop/server_equipment/laptop/closed,
-/turf/open/floor/dark2,
+/turf/open/floor/corsat/box,
 /area/space)
 "bgs" = (
 /obj/structure/surface/table/reinforced/black,
-/turf/open/floor/dark2,
+/obj/structure/machinery/door_control/brbutton/alt{
+	id = "ATC Lockdown";
+	name = "ATC Lockdown"
+	},
+/turf/open/floor/corsat/blue/east,
 /area/space)
 "bgt" = (
 /obj/structure/prop/invuln/lattice_prop{
@@ -19125,7 +19355,7 @@
 /obj/structure/machinery/prop/almayer/CICmap{
 	pixel_x = -5
 	},
-/turf/open/floor/dark2,
+/turf/open/floor/corsat/box,
 /area/space)
 "bgx" = (
 /obj/structure/closet/secure_closet/fridge/meat/stock,
@@ -19133,6 +19363,7 @@
 /area/space)
 "bgy" = (
 /obj/structure/largecrate/random/case/double,
+/obj/effect/landmark/objective_landmark/medium,
 /turf/open/floor/plating,
 /area/space)
 "bgz" = (
@@ -19152,7 +19383,7 @@
 /area/space)
 "bgB" = (
 /obj/structure/bed/chair/comfy/blue,
-/turf/open/floor/dark2,
+/turf/open/floor/corsat/box,
 /area/space)
 "bgC" = (
 /obj/structure/surface/table/reinforced/almayer_B,
@@ -19160,29 +19391,38 @@
 	density = 0;
 	pixel_y = 9
 	},
+/obj/structure/machinery/light{
+	dir = 1
+	},
 /turf/open/floor/plating,
 /area/space)
 "bgD" = (
 /obj/structure/extinguisher_cabinet{
 	pixel_y = 26
 	},
+/obj/structure/machinery/light{
+	dir = 1
+	},
 /turf/open/floor/plating,
 /area/space)
 "bgE" = (
 /obj/structure/machinery/door/airlock/almayer/secure/colony{
 	dir = 2;
-	name = "Disposals Storage Unit";
+	name = "Maintenance";
 	id_tag = "st_18"
 	},
 /turf/open/floor/dark2,
 /area/space)
 "bgF" = (
 /obj/structure/window/reinforced,
-/turf/open/floor/dark2,
+/turf/open/floor/corsat/blue,
 /area/space)
 "bgG" = (
 /obj/structure/machinery/big_computers/messaging_server,
-/turf/open/floor/dark2,
+/obj/structure/machinery/light{
+	dir = 1
+	},
+/turf/open/floor/corsat/blue/northeast,
 /area/space)
 "bgH" = (
 /obj/structure/ladder/multiz,
@@ -19221,22 +19461,22 @@
 	density = 0;
 	pixel_y = 16
 	},
-/turf/open/floor/dark2,
+/turf/open/floor/corsat/blue/north,
 /area/space)
 "bgK" = (
 /obj/structure/machinery/vending/snack,
-/turf/open/floor/dark2,
+/turf/open/floor/corsat/blue/north,
 /area/space)
 "bgL" = (
 /obj/structure/machinery/vending/cola{
 	density = 0;
 	pixel_y = 16
 	},
-/turf/open/floor/dark2,
+/turf/open/floor/corsat/blue/north,
 /area/space)
 "bgM" = (
 /obj/structure/machinery/big_computers/computerblack/computer2,
-/turf/open/floor/dark2,
+/turf/open/floor/corsat/blue/northeast,
 /area/space)
 "bgN" = (
 /obj/structure/prop/hybrisa/misc/machinery/screens/bluemultimonitorsmall_on,
@@ -19244,19 +19484,25 @@
 /area/space)
 "bgO" = (
 /obj/structure/machinery/big_computers/computerblack/computer1,
-/turf/open/floor/dark2,
+/obj/structure/machinery/light{
+	dir = 8
+	},
+/turf/open/floor/corsat/box,
 /area/space)
 "bgP" = (
 /obj/structure/machinery/big_computers/computerblack/computer3,
-/turf/open/floor/dark2,
+/turf/open/floor/corsat/box,
 /area/space)
 "bgQ" = (
 /obj/structure/machinery/big_computers/computerblack/computer4,
-/turf/open/floor/dark2,
+/obj/structure/machinery/light{
+	dir = 1
+	},
+/turf/open/floor/corsat/box,
 /area/space)
 "bgR" = (
 /obj/structure/machinery/big_computers/computerblack/computer5,
-/turf/open/floor/dark2,
+/turf/open/floor/corsat/box,
 /area/space)
 "bgS" = (
 /obj/structure/platform_decoration/metal/almayer/northwest{
@@ -19303,6 +19549,10 @@
 /area)
 "bgX" = (
 /obj/structure/roof/hybrisa/lattice_prop,
+/obj/item/lightstick/red/spoke/planted{
+	layer = 6;
+	pixel_y = 14
+	},
 /turf/open/floor/plating/plating_catwalk,
 /area)
 "bgY" = (
@@ -19460,6 +19710,10 @@
 "bhr" = (
 /obj/structure/roof/hybrisa/lattice_prop/lattice_3,
 /obj/structure/platform/metal/almayer/north,
+/obj/item/lightstick/red/spoke/planted{
+	layer = 6;
+	pixel_y = 14
+	},
 /turf/open/slippery/hull,
 /area)
 "bhs" = (
@@ -19477,6 +19731,10 @@
 /obj/structure/platform/metal/almayer/north,
 /obj/structure/prop/invuln/lattice_prop{
 	layer = 1
+	},
+/obj/item/lightstick/red/spoke/planted{
+	layer = 6;
+	pixel_y = 14
 	},
 /turf/open/slippery/hull,
 /area)
@@ -19542,6 +19800,10 @@
 /obj/structure/prop/invuln/lattice_prop{
 	layer = 0.1
 	},
+/obj/item/lightstick/red/spoke/planted{
+	layer = 6;
+	pixel_y = 14
+	},
 /turf/open/slippery/hull,
 /area)
 "bhA" = (
@@ -19574,6 +19836,10 @@
 /obj/structure/prop/invuln/lattice_prop{
 	layer = 0
 	},
+/obj/item/lightstick/red/spoke/planted{
+	layer = 6;
+	pixel_y = 14
+	},
 /turf/open/slippery/hull,
 /area)
 "bhC" = (
@@ -19604,6 +19870,9 @@
 	},
 /obj/structure/prop/invuln/lattice_prop{
 	layer = 1
+	},
+/obj/structure/machinery/colony_floodlight{
+	layer = 2
 	},
 /turf/open/slippery/hull,
 /area)
@@ -19670,6 +19939,10 @@
 /area)
 "bhL" = (
 /obj/structure/roof/hybrisa/lattice_prop/lattice_2,
+/obj/item/lightstick/red/spoke/planted{
+	layer = 6;
+	pixel_y = 14
+	},
 /turf/open/floor/plating/plating_catwalk,
 /area)
 "bhM" = (
@@ -20243,6 +20516,52 @@
 	},
 /turf/open/floor/predship/hull,
 /area/space)
+"biZ" = (
+/turf/open/floor/plating/warnplatecorner/north,
+/area/space)
+"bja" = (
+/turf/open/floor/plating/warnplatecorner/north{
+	dir = 2
+	},
+/area/space)
+"bjb" = (
+/obj/structure/largecrate,
+/turf/open/floor/plating/warnplate/southeast,
+/area/space)
+"bjc" = (
+/obj/structure/machinery/door/airlock/almayer/secure/colony{
+	dir = 2;
+	name = "Disposals Storage Unit";
+	id_tag = "st_18";
+	locked = 1
+	},
+/turf/open/floor/corsat/officesquares,
+/area/space)
+"bjd" = (
+/obj/effect/decal/cleanable/blood/xeno,
+/turf/open/floor/corsat/officesquares,
+/area/space)
+"bje" = (
+/obj/structure/barricade/deployable{
+	dir = 8
+	},
+/turf/open/floor/corsat/officesquares,
+/area/space)
+"bjf" = (
+/obj/effect/landmark/corpsespawner/ua_riot,
+/turf/open/floor/corsat/officesquares,
+/area/space)
+"bjg" = (
+/obj/item/ammo_casing/shell,
+/turf/open/floor/corsat/officesquares,
+/area/space)
+"bjh" = (
+/obj/structure/barricade/deployable,
+/obj/item/ammo_casing/bullet{
+	icon_state = "cartridge_10_1"
+	},
+/turf/open/floor/corsat/officetiles,
+/area/space)
 "bji" = (
 /obj/item/weapon/shield/riot/yautja{
 	anchored = 1;
@@ -20271,6 +20590,9 @@
 	},
 /obj/structure/platform_decoration/metal/hunter,
 /turf/open/shuttle/dropship/predship/tile/hunter_tile_5/south,
+/area/space)
+"bjm" = (
+/turf/open/floor/corsat/marked,
 /area/space)
 "bjn" = (
 /obj/structure/prop/hunter/fake_platform/hunter/west,
@@ -20314,11 +20636,33 @@
 /obj/effect/hunter/catwalk/hunter_grate,
 /turf/open/space/basic,
 /area/space)
+"bjs" = (
+/obj/structure/largecrate/supply/supplies/tables_racks,
+/turf/open/floor/podhatchfloor,
+/area/space)
 "bjt" = (
 /obj/effect/hunter/bridge_border/brown{
 	dir = 4
 	},
 /turf/open/shuttle/dropship/predship/tile/hunter_tile_6/north,
+/area/space)
+"bju" = (
+/obj/item/ammo_casing/bullet{
+	icon_state = "cartridge_10_1"
+	},
+/turf/open/floor/podhatchfloor,
+/area/space)
+"bjv" = (
+/obj/effect/landmark/corpsespawner/ua_riot,
+/turf/open/floor/plating/warnplate/east,
+/area/space)
+"bjw" = (
+/obj/structure/girder,
+/obj/structure/machinery/light{
+	dir = 8;
+	pixel_y = 17
+	},
+/turf/open/floor/corsat/officesquares,
 /area/space)
 "bjx" = (
 /obj/structure/bed/chair/comfy/yautja{
@@ -20336,6 +20680,17 @@
 	},
 /obj/effect/hunter/bridge_border/brown,
 /turf/open/shuttle/dropship/predship/tile/hunter_tile_6/north,
+/area/space)
+"bjz" = (
+/obj/item/ammo_casing/cartridge,
+/turf/open/floor/corsat/officesquares,
+/area/space)
+"bjA" = (
+/obj/structure/machinery/firealarm{
+	dir = 8;
+	pixel_x = -24
+	},
+/turf/open/floor/corsat/officetiles,
 /area/space)
 "bjB" = (
 /obj/effect/hunter/bridge_border,
@@ -20472,6 +20827,13 @@
 	layer = 3.1
 	},
 /turf/open/space/basic,
+/area/space)
+"bjQ" = (
+/obj/item/trash/uscm_mre,
+/obj/item/ammo_casing/bullet{
+	icon_state = "cartridge_10_1"
+	},
+/turf/open/floor/corsat/officetiles,
 /area/space)
 "bjR" = (
 /obj/structure/prop/brazier/frame{
@@ -20627,6 +20989,612 @@
 "bkf" = (
 /turf/open/shuttle/dropship/predship,
 /area/space)
+"bkg" = (
+/obj/structure/surface/rack,
+/obj/effect/landmark/item_pool_spawner/survivor_ammo,
+/turf/open/floor/plating/warnplate/west,
+/area/space)
+"bkh" = (
+/turf/open/floor/podhatchfloor,
+/area/space)
+"bki" = (
+/obj/structure/largecrate,
+/turf/open/floor/podhatchfloor,
+/area/space)
+"bkj" = (
+/obj/structure/machinery/light{
+	dir = 4
+	},
+/turf/open/floor/plating/warnplate/east,
+/area/space)
+"bkk" = (
+/obj/structure/girder,
+/turf/open/floor/corsat/officesquares,
+/area/space)
+"bkl" = (
+/obj/item/ammo_casing/shell,
+/obj/item/ammo_box/magazine,
+/obj/item/ammo_magazine/smg/mp5,
+/obj/item/ammo_magazine/smg/mp5,
+/obj/item/ammo_magazine/smg/mp5,
+/turf/open/floor/corsat/officesquares,
+/area/space)
+"bkm" = (
+/obj/structure/barricade/handrail/type_b,
+/turf/open/floor/corsat/officetiles,
+/area/space)
+"bkn" = (
+/obj/structure/barricade/handrail/type_b,
+/obj/structure/machinery/light{
+	dir = 4
+	},
+/turf/open/floor/corsat/officetiles,
+/area/space)
+"bko" = (
+/obj/structure/reagent_dispensers/tank/fuel,
+/turf/open/floor/plating/warnplate/west,
+/area/space)
+"bkp" = (
+/obj/structure/surface/rack,
+/obj/effect/landmark/good_item,
+/turf/open/floor/plating/warnplate/east,
+/area/space)
+"bkq" = (
+/obj/structure/machinery/firealarm{
+	dir = 8;
+	pixel_x = -24
+	},
+/turf/open/floor/corsat/officesquares,
+/area/space)
+"bkr" = (
+/obj/item/ammo_casing/cartridge,
+/obj/effect/landmark/corpsespawner/ua_riot,
+/turf/open/floor/corsat/officesquares,
+/area/space)
+"bks" = (
+/obj/structure/girder/displaced,
+/turf/open/floor/corsat/officesquares,
+/area/space)
+"bkt" = (
+/obj/structure/machinery/door/airlock/multi_tile/hybrisa/generic/autoname{
+	dir = 2
+	},
+/obj/structure/machinery/door/poddoor/almayer/planet_side_blastdoor{
+	id = "ATC Lobby Lockdown";
+	name = "ATC Lobby Lockdown"
+	},
+/turf/open/floor/dark2,
+/area/space)
+"bku" = (
+/obj/structure/surface/rack,
+/obj/effect/landmark/objective_landmark/medium,
+/turf/open/floor/plating/warnplate/west,
+/area/space)
+"bkv" = (
+/obj/item/ammo_casing/bullet{
+	icon_state = "cartridge_10_1"
+	},
+/obj/structure/largecrate/supply/supplies/tables_racks,
+/turf/open/floor/podhatchfloor,
+/area/space)
+"bkw" = (
+/obj/structure/surface/rack,
+/obj/effect/landmark/objective_landmark/medium,
+/turf/open/floor/plating/warnplate/east,
+/area/space)
+"bkx" = (
+/obj/structure/machinery/light{
+	dir = 8;
+	pixel_y = 17
+	},
+/turf/open/floor/corsat/officesquares,
+/area/space)
+"bky" = (
+/obj/structure/window/reinforced{
+	dir = 8;
+	layer = 3.1
+	},
+/turf/open/floor/corsat/officesquares,
+/area/space)
+"bkz" = (
+/obj/structure/barricade/wooden{
+	dir = 4;
+	layer = 5.3
+	},
+/turf/open/floor/corsat/officesquares,
+/area/space)
+"bkA" = (
+/obj/structure/barricade/deployable{
+	dir = 4
+	},
+/turf/open/floor/corsat/officesquares,
+/area/space)
+"bkB" = (
+/obj/item/trash/burger,
+/turf/open/floor/corsat/officetiles,
+/area/space)
+"bkC" = (
+/obj/structure/machinery/door/poddoor/almayer/planet_side_blastdoor{
+	name = "ATC Lobby Lockdown";
+	id = "ATC Lobby Lockdown"
+	},
+/turf/open/floor/dark2,
+/area/space)
+"bkD" = (
+/obj/structure/prop/hybrisa/supermart/rack/longrack1,
+/turf/open/floor/plating/warnplate/east,
+/area/space)
+"bkE" = (
+/obj/effect/decal/cleanable/blood/xeno,
+/obj/structure/barricade/wooden,
+/turf/open/floor/corsat/officesquares,
+/area/space)
+"bkF" = (
+/obj/structure/sign/poster/propaganda,
+/turf/closed/wall/new_varadero/reinforced,
+/area/space)
+"bkG" = (
+/obj/structure/machinery/light{
+	dir = 4;
+	pixel_y = -14
+	},
+/turf/open/auto_turf/sand_white/layer1,
+/area/space)
+"bkH" = (
+/obj/structure/largecrate,
+/turf/open/floor/plating/warnplate/west,
+/area/space)
+"bkI" = (
+/obj/effect/decal/cleanable/blood/xeno,
+/obj/structure/largecrate,
+/turf/open/floor/podhatchfloor,
+/area/space)
+"bkJ" = (
+/obj/structure/surface/rack,
+/obj/effect/landmark/item_pool_spawner/survivor_ammo/buckshot,
+/obj/structure/machinery/light{
+	dir = 4
+	},
+/turf/open/floor/plating/warnplate/east,
+/area/space)
+"bkK" = (
+/obj/structure/bed/sofa/vert/grey/top,
+/obj/item/ammo_casing/bullet{
+	icon_state = "cartridge_10_1"
+	},
+/turf/open/floor/corsat/officesquares,
+/area/space)
+"bkL" = (
+/obj/structure/machinery/light{
+	dir = 8
+	},
+/obj/structure/surface/table/reinforced/prison{
+	color = "#98a3ab"
+	},
+/obj/item/reagent_container/food/drinks/coffeecup{
+	pixel_x = 10;
+	pixel_y = 14
+	},
+/obj/structure/machinery/door_control/brbutton/alt{
+	name = "ATC Lobby Lockdown";
+	id = "ATC Lobby Lockdown"
+	},
+/turf/open/floor/corsat/brown/southwest,
+/area/space)
+"bkM" = (
+/obj/structure/surface/table/reinforced/prison{
+	color = "#98a3ab"
+	},
+/obj/item/paper_bin/uscm{
+	pixel_y = 6;
+	pixel_x = 4
+	},
+/obj/item/book/manual/marine_law{
+	pixel_x = -6;
+	pixel_y = 5
+	},
+/obj/item/clipboard,
+/obj/item/tool/pen/multicolor/fountain,
+/turf/open/floor/corsat/brown,
+/area/space)
+"bkN" = (
+/obj/structure/surface/table/reinforced/prison{
+	color = "#98a3ab"
+	},
+/obj/structure/machinery/hybrisa/coffee_machine{
+	pixel_x = -5;
+	pixel_y = 10
+	},
+/obj/effect/landmark/objective_landmark/medium,
+/turf/open/floor/corsat/brown,
+/area/space)
+"bkO" = (
+/obj/structure/machinery/m56d_hmg/mg_turret,
+/turf/open/floor/corsat/brown,
+/area/space)
+"bkP" = (
+/turf/open/floor/corsat/brown,
+/area/space)
+"bkQ" = (
+/obj/effect/decal/cleanable/blood/xeno,
+/obj/structure/largecrate,
+/turf/open/floor/plating/warnplate/northwest,
+/area/space)
+"bkR" = (
+/obj/effect/decal/cleanable/blood/xeno,
+/obj/structure/largecrate,
+/turf/open/floor/plating/warnplatecorner/north{
+	dir = 4
+	},
+/area/space)
+"bkS" = (
+/obj/item/tool/wet_sign,
+/turf/open/floor/plating/warnplatecorner/north{
+	dir = 8
+	},
+/area/space)
+"bkT" = (
+/obj/structure/surface/rack,
+/obj/effect/landmark/good_item,
+/turf/open/floor/plating/warnplate/northeast,
+/area/space)
+"bkU" = (
+/obj/structure/bed/chair/comfy{
+	dir = 1
+	},
+/obj/item/ammo_casing/bullet{
+	icon_state = "cartridge_10_1"
+	},
+/turf/open/floor/corsat/officesquares,
+/area/space)
+"bkV" = (
+/turf/open/floor/corsat/brown/west,
+/area/space)
+"bkW" = (
+/obj/structure/bed/chair/office/dark,
+/turf/open/floor/corsat/box,
+/area/space)
+"bkX" = (
+/obj/structure/machinery/light{
+	dir = 1
+	},
+/turf/open/floor/corsat/officesquares,
+/area/space)
+"bkY" = (
+/obj/effect/decal/cleanable/blood/xeno,
+/obj/structure/machinery/light{
+	dir = 1
+	},
+/turf/open/floor/corsat/officesquares,
+/area/space)
+"bkZ" = (
+/turf/open/floor/corsat/browncorner/east,
+/area/space)
+"bla" = (
+/obj/structure/machinery/light{
+	dir = 1
+	},
+/turf/open/floor/corsat/brown/northeast,
+/area/space)
+"blb" = (
+/obj/structure/machinery/light{
+	dir = 1
+	},
+/turf/open/floor/corsat/brown/north,
+/area/space)
+"blc" = (
+/obj/structure/extinguisher_cabinet{
+	pixel_y = 26
+	},
+/turf/open/floor/corsat/brown/north,
+/area/space)
+"bld" = (
+/obj/structure/prop/hybrisa/misc/machinery/screens/multimonitorsmall_off{
+	pixel_y = -2
+	},
+/turf/closed/wall/new_varadero/reinforced,
+/area/space)
+"ble" = (
+/obj/structure/machinery/camera/autoname{
+	network = list("Colony")
+	},
+/turf/open_space,
+/area/space)
+"blf" = (
+/turf/open/floor/corsat/blue,
+/area/space)
+"blg" = (
+/obj/effect/landmark/objective_landmark/medium,
+/turf/open/floor/corsat/blue,
+/area/space)
+"blh" = (
+/obj/structure/barricade/handrail/type_b{
+	dir = 8
+	},
+/turf/open/floor/corsat/blue/west,
+/area/space)
+"bli" = (
+/turf/open/floor/corsat/bluecorner/east,
+/area/space)
+"blj" = (
+/turf/open/floor/corsat/blue/north,
+/area/space)
+"blk" = (
+/turf/open/floor/corsat/bluecorner/north,
+/area/space)
+"bll" = (
+/turf/open/floor/corsat/bluecorner,
+/area/space)
+"blm" = (
+/obj/structure/machinery/light{
+	unacidable = 1;
+	unslashable = 1
+	},
+/turf/open/floor/corsat/blue/southeast,
+/area/space)
+"bln" = (
+/turf/open/floor/corsat/blue/east,
+/area/space)
+"blo" = (
+/obj/effect/landmark/survivor_spawner,
+/turf/open/floor/corsat/box,
+/area/space)
+"blp" = (
+/obj/structure/machinery/light{
+	dir = 4;
+	pixel_y = -16
+	},
+/turf/open/floor/corsat/blue/east,
+/area/space)
+"blq" = (
+/turf/open/floor/corsat/blue/west,
+/area/space)
+"blr" = (
+/obj/structure/bed/chair/comfy/blue{
+	dir = 1
+	},
+/obj/structure/machinery/light{
+	dir = 4;
+	pixel_y = -16
+	},
+/turf/open/floor/corsat/blue/east,
+/area/space)
+"bls" = (
+/obj/structure/machinery/computer/overwatch/almayer{
+	dir = 8;
+	layer = 3.2;
+	pixel_x = -17;
+	pixel_y = 16
+	},
+/obj/structure/surface/table/reinforced/black,
+/obj/structure/window/reinforced,
+/obj/structure/machinery/light{
+	dir = 8;
+	pixel_y = -14
+	},
+/turf/open/floor/corsat/box,
+/area/space)
+"blt" = (
+/obj/structure/surface/table/reinforced/black,
+/obj/effect/landmark/objective_landmark/medium,
+/turf/open/floor/corsat/blue/east,
+/area/space)
+"blu" = (
+/obj/structure/machinery/computer/overwatch/almayer{
+	dir = 8;
+	layer = 3.2;
+	pixel_x = -17;
+	pixel_y = 16
+	},
+/obj/structure/surface/table/reinforced/black,
+/obj/structure/window/reinforced,
+/obj/structure/machinery/light{
+	dir = 8;
+	pixel_y = -14
+	},
+/obj/effect/landmark/objective_landmark/medium,
+/turf/open/floor/corsat/box,
+/area/space)
+"blv" = (
+/obj/structure/surface/table/reinforced/black,
+/obj/effect/landmark/objective_landmark/medium,
+/turf/open/floor/corsat/box,
+/area/space)
+"blw" = (
+/obj/structure/surface/table/reinforced/black,
+/obj/structure/machinery/computer/cameras{
+	network = list("COLONY");
+	dir = 1;
+	pixel_x = -8
+	},
+/turf/open/floor/corsat/blue/east,
+/area/space)
+"blx" = (
+/obj/structure/prop/invuln/lattice_prop{
+	icon_state = "lattice12";
+	pixel_y = 16
+	},
+/obj/structure/machinery/power/apc/no_power/west,
+/turf/open/floor/plating,
+/area/space)
+"bly" = (
+/obj/structure/stairs,
+/obj/structure/stairs/multiz/down{
+	dir = 1
+	},
+/obj/structure/machinery/firealarm{
+	dir = 8;
+	pixel_x = -24
+	},
+/turf/open_space,
+/area/space)
+"blz" = (
+/obj/structure/barricade/handrail/type_b,
+/turf/open/floor/corsat/blue,
+/area/space)
+"blA" = (
+/turf/open/floor/corsat/bluecorner/west,
+/area/space)
+"blB" = (
+/obj/structure/bed/chair/comfy/blue,
+/obj/structure/machinery/light{
+	dir = 4;
+	pixel_y = -16
+	},
+/turf/open/floor/corsat/blue/east,
+/area/space)
+"blC" = (
+/obj/structure/machinery/light{
+	dir = 1
+	},
+/turf/open/floor/corsat/box,
+/area/space)
+"blD" = (
+/obj/structure/machinery/door/airlock/multi_tile/hybrisa/generic/autoname{
+	dir = 2
+	},
+/obj/structure/machinery/door/poddoor/almayer/planet_side_blastdoor{
+	name = "ATC Lockdown";
+	id = "ATC Lockdown"
+	},
+/turf/open/floor/dark2,
+/area/space)
+"blE" = (
+/obj/structure/extinguisher_cabinet{
+	pixel_y = 26
+	},
+/turf/open/floor/corsat/blue/north,
+/area/space)
+"blF" = (
+/obj/structure/machinery/light{
+	dir = 1
+	},
+/turf/open/floor/corsat/blue/north,
+/area/space)
+"blG" = (
+/obj/structure/machinery/door/poddoor/almayer/planet_side_blastdoor{
+	name = "ATC Lockdown";
+	id = "ATC Lockdown"
+	},
+/turf/open/floor/dark2,
+/area/space)
+"blH" = (
+/obj/structure/machinery/firealarm,
+/turf/open_space,
+/area/space)
+"blI" = (
+/obj/item/ammo_casing/bullet,
+/turf/open/floor/plating/plating_catwalk,
+/area)
+"blJ" = (
+/obj/structure/bed/chair/wood/normal,
+/obj/effect/landmark/corpsespawner/administrator,
+/turf/open/floor/plating/plating_catwalk,
+/area)
+"blK" = (
+/obj/structure/barricade/handrail/type_b{
+	dir = 4
+	},
+/obj/item/weapon/gun/revolver/cmb,
+/turf/open/floor/plating/plating_catwalk,
+/area)
+"blL" = (
+/obj/structure/roof/hybrisa/lattice_prop/lattice_3,
+/obj/structure/prop/invuln/lattice_prop{
+	layer = 1
+	},
+/obj/item/lightstick/red/spoke/planted{
+	layer = 6;
+	pixel_y = 14
+	},
+/turf/open/slippery/hull,
+/area)
+"blM" = (
+/obj/effect/decal/cleanable/blood/splatter,
+/turf/open/floor/plating/plating_catwalk,
+/area)
+"blN" = (
+/obj/structure/platform/metal/almayer/north,
+/obj/structure/prop/invuln/lattice_prop{
+	layer = 1
+	},
+/obj/structure/machinery/colony_floodlight,
+/turf/open/slippery/hull,
+/area)
+"blO" = (
+/obj/structure/platform/metal/almayer/north,
+/obj/structure/platform/metal/almayer/west{
+	layer = 11
+	},
+/obj/structure/platform_decoration/metal/almayer/northwest{
+	dir = 5
+	},
+/obj/structure/prop/invuln/lattice_prop{
+	layer = 1
+	},
+/obj/structure/machinery/colony_floodlight{
+	layer = 10
+	},
+/turf/open/slippery/hull,
+/area)
+"blP" = (
+/obj/structure/barricade/handrail/type_b{
+	dir = 4
+	},
+/obj/structure/barricade/handrail/type_b{
+	layer = 5
+	},
+/turf/open/floor/plating/plating_catwalk,
+/area)
+"blQ" = (
+/obj/structure/platform/metal/almayer,
+/obj/structure/barricade/handrail/type_b{
+	layer = 4
+	},
+/obj/structure/prop/invuln/lattice_prop{
+	layer = 1
+	},
+/obj/structure/prop/invuln/lattice_prop{
+	layer = 1
+	},
+/obj/structure/machinery/colony_floodlight{
+	layer = 2
+	},
+/turf/open/slippery/hull,
+/area)
+"blR" = (
+/obj/structure/platform/metal/almayer/west{
+	layer = 2
+	},
+/obj/structure/prop/invuln/lattice_prop{
+	layer = 1
+	},
+/turf/open/slippery/hull,
+/area)
+"blS" = (
+/obj/structure/roof/hybrisa/lattice_prop/lattice_3,
+/obj/structure/prop/invuln/lattice_prop{
+	layer = 1
+	},
+/obj/structure/prop/invuln/lattice_prop{
+	layer = 1
+	},
+/obj/item/lightstick/red/spoke/planted{
+	layer = 6;
+	pixel_y = 14
+	},
+/turf/open/slippery/hull,
+/area)
+"blT" = (
+/obj/structure/prop/invuln/lattice_prop{
+	layer = 1
+	},
+/obj/structure/prop/invuln/lattice_prop{
+	layer = 1
+	},
+/obj/structure/prop/power_transformer,
+/turf/open/slippery/hull,
+/area)
 "byq" = (
 /obj/structure/pipes/standard/simple/hidden/supply,
 /obj/structure/barricade/handrail/no_vault{
@@ -123469,13 +124437,13 @@ aBC
 aBC
 aBC
 aBC
+bkG
 aBC
 aBC
+aYT
 aBC
 aBC
-aBC
-aBC
-aBC
+aYT
 aBC
 aBC
 atI
@@ -123832,14 +124800,14 @@ aBe
 aBC
 aqf
 aqf
-bfx
-aeU
+bkQ
+bkH
 bfk
+bku
+bko
+bkg
 bfk
-aeU
-bfk
-bfk
-aeU
+aZp
 aqf
 aqf
 aSx
@@ -124014,17 +124982,17 @@ aBe
 aBC
 aqf
 bfH
-bfx
-bfx
-aeU
-aeU
-aeU
-aeU
-aeU
-aeU
-aeU
+bkR
+bkI
+bkh
+bkv
+bki
+bkh
+bjs
+biZ
+aTM
 aqf
-aSx
+aQU
 aXA
 aPL
 aPL
@@ -124196,15 +125164,15 @@ aDP
 aDP
 aqf
 bfI
-aeU
-aeU
-aeU
-aeU
-aeU
-aeU
-aeU
-aeU
-aeU
+bkS
+bkh
+bki
+bki
+bki
+bki
+bju
+bja
+aVp
 aqf
 aSx
 aXA
@@ -124378,14 +125346,14 @@ aDP
 aDP
 aqf
 aqf
-bfk
-bfk
-aeU
-bfk
-bfk
-aeU
-aeU
-aeU
+bkT
+bkJ
+bkD
+bkw
+bkp
+bkj
+bjv
+bjb
 aqf
 aqf
 aSx
@@ -124567,7 +125535,7 @@ aqf
 aqf
 aqf
 aqf
-bfd
+bjc
 aqf
 aSx
 aSx
@@ -124742,14 +125710,14 @@ aDP
 aDP
 aqf
 aqf
-aDL
+aWn
 aqf
 bfw
-aDL
-aDL
-beW
-beW
-beY
+bkx
+bkq
+bkk
+bjw
+bjd
 aqf
 aqf
 aSx
@@ -124923,15 +125891,15 @@ aDP
 aDP
 aDP
 aqf
-aDL
-aDL
+bkX
+aWn
 aqf
 bfw
-aDL
-aDL
-aDL
-bfb
-bfb
+aWn
+bkr
+bjz
+bje
+bje
 beW
 aqf
 beN
@@ -125105,16 +126073,16 @@ aDP
 aDP
 aDP
 aqf
-aDL
-aDL
+aWn
+aWn
 aqf
 bfw
-aDL
-aDL
-aDL
-aDL
-aDL
-aDL
+aWn
+bjz
+aWn
+bjz
+aWn
+aVL
 beR
 beO
 beM
@@ -125290,18 +126258,18 @@ aqf
 bfJ
 bfB
 bfm
+bky
+bky
 bfr
-bfr
-bfr
-aDL
-aDL
+bkl
+aWn
 bfe
 beX
 beS
 aSx
 aXA
 aPL
-aPL
+aMa
 aPL
 aIK
 aSx
@@ -125470,7 +126438,7 @@ aDP
 aDP
 aqf
 bfK
-aDL
+bjg
 bfy
 bfp
 bfp
@@ -125652,13 +126620,13 @@ aDP
 aDP
 aqf
 bfL
-aDL
-aDL
-aDL
-bfu
+aWn
+aWn
+aWn
+aWn
 bfs
 bfq
-aDL
+aWn
 bff
 beY
 beR
@@ -125832,19 +126800,19 @@ aDP
 aDP
 aDP
 aDP
-aqf
+bkF
 bfJ
-bfB
-aDL
-aDL
+bkU
+bjg
+aWn
 bfv
-aDL
+aWn
 bff
 bfm
-aDL
-aDL
+bjf
+aWn
 aqf
-aSx
+aQU
 aXA
 beI
 aPL
@@ -126016,15 +126984,15 @@ aDP
 aDP
 aqf
 bfM
-bfC
-bfy
+bkz
+bkK
 bfp
 bfp
 bfp
 bfp
 bfl
-aDL
-aDL
+bjg
+aWn
 aqf
 aSx
 aXA
@@ -126197,14 +127165,14 @@ aDP
 aDP
 aDP
 aqf
-beY
+bkY
 bfD
 bfz
-aDL
-aDL
-beX
-aDL
-aDL
+aWn
+bkz
+bks
+aWn
+aWn
 bfg
 beZ
 aqf
@@ -126381,11 +127349,11 @@ aDP
 aqf
 bfN
 bfE
-aDL
-beY
-bfg
+aWn
+bkE
+bkA
 bft
-beW
+bkk
 bfn
 bfa
 bfa
@@ -126561,15 +127529,15 @@ aDP
 aDP
 aqf
 aqf
-aDL
+aWn
 aiY
 aqf
 aqf
-aDL
+aWn
 aee
 aqf
 aqf
-aDL
+aWn
 aee
 aqf
 aqf
@@ -126743,19 +127711,19 @@ aDP
 aDP
 aqf
 bfP
-aDL
-aDL
-aDL
+bkV
+bkV
+bkL
 aXB
-bfi
-aDL
+bkB
+aSP
 amh
-aDL
-aDL
-beU
-aDL
+bjA
+aSP
+aWq
+aSL
 aqf
-aXA
+aOG
 beJ
 aPL
 aPL
@@ -126923,25 +127891,25 @@ aDP
 aDP
 aDP
 aDP
-aqf
-aDL
-aDL
-aDL
-aDL
+bld
+blb
+bjj
+bkW
+bkM
 aXB
-beY
-aDL
-amh
-bfm
+aWU
+aSP
+bkm
+bjQ
 bfh
-aDL
+aWv
 beT
 beQ
 aXA
 aPL
 aPL
 aPL
-aIK
+arE
 aSx
 aBC
 aqf
@@ -127106,26 +128074,26 @@ aDP
 aDP
 aDP
 aqf
-bfo
-aDL
-aDL
-aDL
+blc
+bjj
+bjj
+bkN
 aXB
-aDL
-beY
-amh
-aDL
-bfe
-beY
-aDL
+aSP
+aWU
+bkm
+aSP
+bjh
+aWU
+aSP
 aqf
 aXA
 aPL
 aPL
-aPL
+aMa
 aIK
 aSx
-aBC
+arq
 aqf
 aqf
 aPL
@@ -127289,15 +128257,15 @@ aDP
 aDP
 aqf
 bfQ
-aDL
-aDL
-aDL
+bkZ
+bjj
+bkO
 aYZ
-aDL
-beY
-amh
-beY
-beY
+aSP
+aWU
+bkm
+aWU
+aWU
 bfb
 beU
 aqf
@@ -127470,20 +128438,20 @@ aDP
 aDP
 aDP
 aqf
-aqf
-aDL
+bkF
+bla
 auW
-aDL
+bkP
 aXB
-beU
-beY
-amh
-aDL
+aWq
+aWU
+bkn
+aSP
 bfi
-aDL
-aqf
-aqf
-aXA
+aXc
+aSW
+aeU
+aPq
 aPL
 atE
 aPL
@@ -127656,15 +128624,15 @@ aqf
 aqf
 bfF
 bfA
-aqf
-aDL
-aDL
+bkF
+bjm
+bjm
 aqf
 bfo
-aDL
+bjm
 aqf
-aqf
-aSx
+bfx
+aRr
 aXA
 atE
 aPL
@@ -127839,15 +128807,15 @@ aqf
 bfG
 aXB
 aqf
-ajf
-bfj
+bkC
+bkt
 aqf
 ajf
 bfj
 aqf
 awk
-awk
-aJG
+aRG
+aPv
 aPL
 aPL
 aPL
@@ -128027,11 +128995,11 @@ alo
 alo
 alo
 alo
-alo
-alo
-alo
-aPL
-aPL
+aQr
+aSb
+aQr
+aNN
+aMk
 aPL
 aPL
 aPL
@@ -128208,12 +129176,12 @@ alo
 alo
 alo
 alo
+aXl
+aQr
 alo
-alo
-alo
-alo
-aPL
-aPL
+aQC
+aMk
+aML
 aPL
 aPL
 aPL
@@ -128390,11 +129358,11 @@ alo
 alo
 alo
 alo
+aSb
+aQr
+aSC
 alo
-alo
-alo
-alo
-aPL
+beH
 aPL
 aPL
 aPL
@@ -128563,20 +129531,20 @@ aDP
 aDP
 alo
 alo
+aNy
 alo
 alo
 alo
 alo
+aNy
 alo
 alo
 alo
+aYM
 alo
 alo
 alo
-alo
-alo
-alo
-aPL
+beH
 aPL
 atF
 aPL
@@ -128755,10 +129723,10 @@ alo
 alo
 alo
 alo
+aQr
 alo
 alo
-alo
-aPL
+aOx
 aPL
 aPL
 aPL
@@ -128937,10 +129905,10 @@ alo
 alo
 alo
 alo
+aQr
 alo
-alo
-alo
-aPL
+aQr
+beH
 aPL
 aPL
 aPL
@@ -169332,9 +170300,9 @@ aDP
 aDP
 aDP
 aqf
-aqf
+bkF
 bgC
-bgu
+blx
 bgx
 bgt
 bgo
@@ -170243,8 +171211,8 @@ aDP
 aDP
 aqf
 aqf
-aDL
-bgA
+blC
+bly
 aDP
 aDP
 aDP
@@ -170425,7 +171393,7 @@ aDP
 aDP
 aqf
 bgJ
-aDL
+bjj
 bgA
 aDP
 aDP
@@ -170607,7 +171575,7 @@ aDP
 aDP
 aqf
 bgK
-aDL
+bjj
 bgA
 aDP
 aDP
@@ -170788,9 +171756,9 @@ aDP
 aDP
 aDP
 aqf
-bfo
-aDL
-amh
+blE
+bjj
+blz
 aDP
 aDP
 aDP
@@ -170965,14 +171933,14 @@ aDP
 aDP
 aDP
 aDP
+blH
 aDP
 aDP
 aDP
-aDP
-aqf
-aDL
-aDL
-amh
+bkF
+blF
+bjj
+blz
 aDP
 aDP
 aDP
@@ -171153,8 +172121,8 @@ aDP
 aDP
 aqf
 bgL
-aDL
-amh
+bjj
+blz
 aDP
 aDP
 aDP
@@ -171334,9 +172302,9 @@ aDP
 aDP
 aDP
 aqf
-aDL
-aDL
-amh
+blj
+bjj
+blz
 aDP
 aDP
 aDP
@@ -171516,15 +172484,15 @@ aDP
 aDP
 aDP
 bgN
-aDL
-aDL
-aDL
-bfX
-bfX
-bfX
-bfX
-bfX
-bfX
+blj
+bjj
+blA
+blh
+blh
+blh
+blh
+blh
+blh
 bfX
 aqf
 aDP
@@ -171698,16 +172666,16 @@ aDP
 aDP
 aDP
 aqf
-aDL
-aDL
-aDL
-aDL
-aDL
-aDL
-aDL
-aDL
-aDL
-aDL
+blF
+bjj
+bjj
+bjj
+bjj
+bjj
+bjj
+bjj
+bjj
+blf
 aqf
 aDP
 aDP
@@ -171880,16 +172848,16 @@ aDP
 aDP
 aDP
 aqf
-aDL
-aDL
-aDL
-aDL
-aDL
-aDL
-aDL
-aDL
-aDL
-aDL
+blj
+bll
+blp
+bln
+bln
+bln
+blp
+bln
+bli
+blf
 aqf
 aDP
 aDP
@@ -172062,8 +173030,8 @@ aDP
 aDP
 aqf
 beR
-bge
-bfY
+blG
+blD
 aqf
 aqf
 aqf
@@ -172074,7 +173042,7 @@ bge
 bfY
 aqf
 aqf
-aDP
+ble
 aDP
 aDP
 aDP
@@ -172244,16 +173212,16 @@ aDP
 aDP
 aXB
 bgO
-aDL
+blj
 bgF
 bgm
-bgj
+blu
+bgm
+bls
 bgm
 bgj
-bgm
-bgj
-aDL
-aDL
+blj
+blf
 bfR
 aXB
 aDP
@@ -172426,16 +173394,16 @@ aDP
 aDP
 aXB
 bgP
-aDL
-aDL
-aDL
+blj
+blA
+blq
 bgk
-aDL
+blq
 bgk
-aDL
+blq
 bgk
-aDL
-aDL
+blk
+blf
 bfS
 aXB
 aDP
@@ -172608,16 +173576,16 @@ aDP
 aDP
 aXB
 bgQ
-aDL
-aDL
-aDL
-aDL
-aDL
-aDL
-aDL
-aDL
-aDL
-aDL
+blj
+bjj
+bjj
+bjj
+bjj
+bjj
+bjj
+bjj
+bjj
+blf
 bfT
 aXB
 aDP
@@ -172790,16 +173758,16 @@ aDP
 aDP
 aXB
 bgR
-aDL
-aDL
-aDL
+blj
+bjj
+bjj
 bgq
 bgq
 bgq
-aDL
-aDL
-aDL
-aDL
+bjj
+bjj
+bjj
+blg
 bfU
 aXB
 aDP
@@ -172973,14 +173941,14 @@ aDP
 aXB
 aXB
 bgM
-aDL
+bli
 bgB
-bgs
+blv
 bgw
 bgr
 bgn
-bfv
-aDL
+blo
+bll
 bfZ
 aXB
 aXB
@@ -173156,13 +174124,13 @@ aDP
 aXB
 aXB
 bgG
-bgB
+blB
+blw
+blt
 bgs
-bgs
-bgs
-bgn
-aDL
-aDL
+blr
+bln
+blm
 aXB
 aXB
 aDP
@@ -215744,14 +216712,14 @@ aDP
 aDP
 bhL
 bhF
-bhF
+blS
 bhF
 bhz
 bhm
 bhb
 bhr
 bhh
-bhh
+blL
 bhh
 bgX
 aDP
@@ -215926,12 +216894,12 @@ aDP
 aDP
 bgY
 bhj
+blT
 bhj
-bhj
-bhA
+blQ
 bhm
 bhb
-bgT
+blN
 bgY
 bgY
 bhi
@@ -216472,7 +217440,7 @@ aDP
 aDP
 bgY
 bhj
-bhj
+blT
 bhj
 bhA
 bhm
@@ -217018,7 +217986,7 @@ aDP
 aDP
 bgY
 bhj
-bhj
+blT
 bhj
 bhA
 bhm
@@ -217202,10 +218170,10 @@ bgY
 bhj
 bhj
 bhj
-bhA
+blQ
 bhm
 bhb
-bgT
+blN
 bgY
 bhj
 bhj
@@ -217382,14 +218350,14 @@ aDP
 aDP
 bhL
 bhF
-bhF
+blS
 bhF
 bhB
 bhm
 bhb
 bht
 bhh
-bhh
+blL
 bhh
 bgX
 aDP
@@ -218118,7 +219086,7 @@ bhm
 bhm
 bhm
 bhm
-bhm
+blI
 bhb
 bgT
 aDP
@@ -218299,8 +219267,8 @@ bhm
 bhm
 bhm
 bhm
-bhm
-bhm
+blM
+blJ
 bhb
 bgT
 aDP
@@ -218482,7 +219450,7 @@ bhm
 bhn
 bhn
 bhn
-bhn
+blK
 bhc
 bgT
 aDP
@@ -218657,11 +219625,11 @@ bhN
 bhd
 bhd
 bhd
-bhd
+blR
 bhD
 bhn
-bhc
-bhq
+blP
+blO
 bhd
 bhd
 bhd
