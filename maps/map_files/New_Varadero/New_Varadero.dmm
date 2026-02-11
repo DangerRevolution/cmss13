@@ -12509,6 +12509,10 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/shiva/yellow,
 /area/space)
+"aMa" = (
+/obj/effect/stairs/up,
+/turf/open/auto_turf/strata_grass/layer0_mud,
+/area/fiorina/station/park)
 "aMb" = (
 /obj/structure/machinery/light{
 	dir = 1
@@ -12655,6 +12659,10 @@
 /obj/structure/pipes/standard/simple/hidden/green,
 /turf/open/floor/shiva/yellowfull,
 /area/varadero/interior/cargo)
+"aMv" = (
+/obj/effect/stairs/up,
+/turf/open/auto_turf/sand_white/layer0,
+/area/varadero/interior_protected/caves/central)
 "aMw" = (
 /turf/closed/wall/new_varadero,
 /area/almayer/command/cic)
@@ -13034,6 +13042,10 @@
 /obj/structure/machinery/power/power_generator/reactor/colony,
 /turf/open/floor/shiva,
 /area/space)
+"aNF" = (
+/obj/effect/stairs/up,
+/turf/open/floor/plating/burnt_platingdmg3,
+/area/space)
 "aNG" = (
 /obj/effect/decal/warning_stripes{
 	icon_state = "test_square_red"
@@ -13230,6 +13242,10 @@
 /obj/effect/decal/hybrisa/road/lines3,
 /turf/open/floor/shiva,
 /area/almayer/engineering/lower/engine_monitoring)
+"aOn" = (
+/obj/effect/stairs/up,
+/turf/open/floor/shiva,
+/area/varadero/interior/caves/east)
 "aOo" = (
 /obj/vehicle/powerloader{
 	dir = 8
@@ -13269,6 +13285,10 @@
 "aOv" = (
 /obj/structure/closet/firecloset/full,
 /turf/open/floor/shiva/yellow/west,
+/area/almayer/command/cic)
+"aOw" = (
+/obj/effect/stairs/up,
+/turf/open/shuttle/elevator,
 /area/almayer/command/cic)
 "aOx" = (
 /obj/effect/hunter/bridge_border/brown{
@@ -13329,6 +13349,10 @@
 /obj/structure/machinery/conveyor_switch,
 /turf/open/floor/shiva,
 /area/almayer/command/cic)
+"aOG" = (
+/obj/effect/stairs/down,
+/turf/open/floor/corsat/squares,
+/area/space)
 "aOH" = (
 /obj/effect/decal/warning_stripes{
 	icon_state = "E-corner";
@@ -78382,7 +78406,7 @@ aaN
 aaN
 aaN
 aAs
-aaN
+aMv
 aaN
 aaN
 bjH
@@ -85625,7 +85649,7 @@ ady
 ady
 ady
 ady
-ady
+aNF
 ady
 ady
 ady
@@ -87149,7 +87173,7 @@ bkC
 bjJ
 aHL
 bjK
-bjK
+aMa
 bjK
 bjK
 aHL
@@ -89422,7 +89446,7 @@ aPE
 aqA
 apG
 apG
-apC
+aOw
 apC
 apG
 apG
@@ -95271,7 +95295,7 @@ avk
 anW
 anW
 ath
-ath
+aOn
 ath
 ath
 ath
@@ -131126,7 +131150,7 @@ aDP
 aDP
 aDP
 aDP
-aDP
+ahv
 aDP
 aDP
 aDP
@@ -135288,7 +135312,7 @@ beA
 beA
 beA
 beA
-beA
+aOG
 beA
 beA
 beA
