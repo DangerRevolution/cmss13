@@ -1682,7 +1682,8 @@
 /turf/open/floor/prison/darkbrown3/east,
 /area/space)
 "afR" = (
-/obj/structure/window/framed/colony,
+/obj/structure/window/framed/new_varadero/foundation/reinforced/hull,
+/obj/structure/blocker/invisible_wall,
 /turf/open/floor/plating,
 /area/space)
 "afS" = (
@@ -6242,10 +6243,6 @@
 /obj/structure/bedsheetbin,
 /turf/open/floor/strata/blue2,
 /area/almayer/engineering/laundry)
-"atZ" = (
-/obj/structure/window/framed/colony,
-/turf/open/floor/shiva/redfull,
-/area/space)
 "aua" = (
 /obj/item/clothing/under/tshirt/w_br{
 	pixel_y = 2;
@@ -6317,7 +6314,7 @@
 /obj/structure/closet/secure_closet/surgical{
 	pixel_x = -30
 	},
-/turf/closed/wall,
+/turf/closed/wall/new_varadero/concrete,
 /area/space)
 "aun" = (
 /obj/item/tool/soap/deluxe,
@@ -7744,10 +7741,6 @@
 	},
 /turf/open/new_varadero,
 /area/space)
-"ayo" = (
-/obj/structure/window/framed/colony,
-/turf/open/auto_turf/snow/layer0,
-/area/space)
 "ayp" = (
 /obj/structure/filingcabinet{
 	density = 0;
@@ -8138,11 +8131,6 @@
 	name = "\improper Bar"
 	},
 /turf/open/floor/prison,
-/area/space)
-"azt" = (
-/obj/structure/window/framed/colony,
-/obj/structure/window/framed/colony,
-/turf/open/floor/plating,
 /area/space)
 "azu" = (
 /obj/effect/decal/medical_decals{
@@ -13058,7 +13046,7 @@
 /area/lv624/lazarus/corporate_dome)
 "aNZ" = (
 /obj/structure/dartboard,
-/turf/closed/wall,
+/turf/closed/wall/new_varadero/concrete,
 /area/space)
 "aOa" = (
 /obj/effect/decal/warning_stripes{
@@ -13177,10 +13165,6 @@
 /obj/structure/closet/firecloset/full,
 /turf/open/floor/shiva/yellow/west,
 /area/almayer/command/cic)
-"aOw" = (
-/obj/structure/window/framed/colony,
-/turf/open/floor/shiva/wred/east,
-/area/space)
 "aOx" = (
 /obj/structure/girder/reinforced,
 /turf/open/new_varadero/dock_concrete,
@@ -15834,10 +15818,6 @@
 	dir = 1
 	},
 /turf/open/floor/corsat/white/east,
-/area/space)
-"aVA" = (
-/obj/structure/window/framed/colony,
-/turf/open/floor/shiva/wred/west,
 /area/space)
 "aVB" = (
 /obj/effect/hunter/bridge_border/brown/large_stair,
@@ -20921,6 +20901,21 @@
 "bkj" = (
 /obj/effect/landmark/crap_item,
 /turf/open/auto_turf/sand_white/layer1,
+/area/space)
+"bkk" = (
+/obj/structure/blocker/invisible_wall,
+/obj/structure/window/framed/new_varadero/foundation/reinforced/hull,
+/turf/open/floor/plating,
+/area/space)
+"bkl" = (
+/obj/structure/window/framed/new_varadero/foundation/reinforced,
+/turf/open/floor/hybrisa/tile/tilewhite,
+/area/space)
+"bkm" = (
+/obj/structure/closet/secure_closet/surgical{
+	pixel_x = -30
+	},
+/turf/closed/wall/new_varadero/concrete/hull,
 /area/space)
 "byq" = (
 /obj/structure/pipes/standard/simple/hidden/supply,
@@ -117596,7 +117591,7 @@ aHM
 aGy
 axO
 abd
-avP
+bkl
 ahg
 alb
 ahg
@@ -141439,11 +141434,11 @@ aPL
 aNN
 aNN
 aNN
-ahg
-ayo
-ayo
-ayo
-ahg
+asf
+afV
+afV
+afV
+asf
 aSx
 aSx
 aPL
@@ -141612,7 +141607,7 @@ aNN
 aNN
 aNN
 aNN
-ahg
+asf
 aPL
 aPL
 aPL
@@ -141620,13 +141615,13 @@ aPL
 aPL
 aPL
 aPL
-ahg
-ahg
+asf
+asf
 alQ
 aIe
 asF
-ahg
-ahg
+asf
+asf
 aqS
 aVi
 aVi
@@ -141794,7 +141789,7 @@ aNN
 aNN
 aBC
 aBC
-ahg
+asf
 aPL
 aEL
 aPL
@@ -141808,7 +141803,7 @@ alm
 alm
 alm
 aNB
-afR
+afV
 aSx
 aPL
 aPL
@@ -141976,7 +141971,7 @@ aNN
 aBC
 aBC
 aBC
-ahg
+asf
 aJf
 aPL
 aPL
@@ -141984,13 +141979,13 @@ aPL
 aPL
 aPL
 aWi
-ahg
+asf
 ayH
 aUH
 awy
 azO
 aNB
-afR
+afV
 aSx
 aPL
 aPL
@@ -142158,7 +142153,7 @@ aBC
 aBC
 aBC
 aBC
-ahg
+asf
 aPL
 aPL
 aPL
@@ -142166,13 +142161,13 @@ aPL
 aPL
 aPL
 aPL
-ahg
+asf
 aFa
 aGZ
 aSK
 aiA
 amC
-ahg
+asf
 aSx
 aPL
 aPL
@@ -142340,7 +142335,7 @@ aBC
 aBC
 aBC
 aBC
-ahg
+asf
 aEn
 aPL
 aPL
@@ -142354,7 +142349,7 @@ alm
 alm
 alm
 alm
-afR
+afV
 aSx
 aPL
 aPL
@@ -142520,23 +142515,23 @@ aBC
 aBC
 aBC
 aBC
-ahg
-ahg
-ahg
-ahg
-ahg
+asf
+asf
+asf
+asf
+asf
 adX
 aIb
-ahg
-ahg
-ahg
-ahg
+asf
+asf
+asf
+asf
 ajM
 ajM
 alm
 alm
 aCA
-afR
+afV
 aSx
 aPL
 aPL
@@ -142702,7 +142697,7 @@ aBC
 aBC
 aBC
 aBC
-ahg
+asf
 aPt
 atc
 apL
@@ -142712,13 +142707,13 @@ aFd
 aFd
 apL
 agj
-ahg
-ahg
-ahg
+asf
+asf
+asf
 aoU
-ahg
-ahg
-ahg
+asf
+asf
+asf
 aSx
 aPL
 aPL
@@ -142883,8 +142878,8 @@ aYT
 aYT
 aYT
 aYT
-ahg
-ahg
+aYM
+asf
 azi
 aKb
 agG
@@ -142894,13 +142889,13 @@ aDX
 abR
 agG
 aRc
-aVA
+afV
 aTW
 aTW
 aFd
 aTW
 aiv
-ahg
+asf
 aSx
 aPL
 aPL
@@ -143065,7 +143060,7 @@ aDP
 aDP
 aDP
 aDP
-ahg
+aYM
 axm
 aph
 abR
@@ -143247,7 +143242,7 @@ aDP
 aDP
 aDP
 aDP
-ahg
+aYM
 asg
 acl
 abR
@@ -143429,8 +143424,8 @@ aDP
 aDP
 aDP
 aDP
-ahg
-ahg
+aYM
+aYM
 aai
 abR
 abR
@@ -143440,7 +143435,7 @@ aDX
 abR
 abR
 ano
-aOw
+afV
 aSS
 aSS
 ayP
@@ -143612,7 +143607,7 @@ aDP
 aDP
 aDP
 aDP
-ahg
+aYM
 aMb
 aut
 aGo
@@ -143622,13 +143617,13 @@ anx
 afk
 ayP
 aEj
-ahg
-ahg
-ahg
+asf
+asf
+asf
 axH
-ahg
-ahg
-ahg
+asf
+asf
+asf
 aSx
 aPL
 aPL
@@ -143794,23 +143789,23 @@ aDP
 aDP
 aDP
 aDP
-ahg
-ahg
-ahg
-atZ
+aYM
+aYM
+aYM
+agp
 aYf
-afR
-ahg
-afR
+agp
+asf
+agp
 aNQ
-afR
-ahg
+agp
+asf
 aGS
 aDM
 aSf
 aDM
 aKH
-ahg
+asf
 aSx
 aPL
 aPL
@@ -143978,21 +143973,21 @@ aDP
 aDP
 aDP
 aDP
-ahg
+aYM
 aJH
 aWY
 abs
-ahg
+asf
 aJH
 aXo
 abs
-ahg
+asf
 aqw
 agi
 asj
 agi
 ass
-ahg
+asf
 aSx
 aPL
 aPL
@@ -144160,21 +144155,21 @@ aDP
 aDP
 aDP
 aDP
-ahg
+aYM
 ami
 aWY
 aHR
-ahg
+asf
 ami
 aXo
 aHR
-ahg
+asf
 asT
 agi
 asj
 agi
 anl
-ahg
+asf
 aSx
 aPL
 aPL
@@ -144342,7 +144337,7 @@ aDP
 aDP
 aDP
 aDP
-aum
+bkm
 apD
 aWY
 aXu
@@ -144350,13 +144345,13 @@ aum
 apD
 aXo
 aXu
-ahg
+asf
 aqw
 agi
 asj
 agi
 ass
-ahg
+asf
 aSx
 aPL
 aPL
@@ -144524,21 +144519,21 @@ aDP
 aDP
 aDP
 aDP
-ahg
-ahg
+aYM
+aYM
 aYf
-afR
-ahg
-ahg
+agp
+asf
+asf
 axH
-afR
-ahg
+agp
+asf
 aig
 asj
 asj
 agi
 anl
-ahg
+asf
 aSx
 aPL
 aPL
@@ -144707,7 +144702,7 @@ aDP
 aDP
 aDP
 aDP
-azt
+bkk
 aOD
 awR
 awR
@@ -144720,7 +144715,7 @@ asj
 asj
 agi
 ass
-ahg
+asf
 aSx
 aPL
 aPL
@@ -144889,7 +144884,7 @@ aDP
 aDP
 aDP
 aDP
-afR
+bkk
 apJ
 arQ
 asj
@@ -144902,7 +144897,7 @@ asj
 asj
 asj
 asj
-ahg
+asf
 aSx
 aPL
 ajq
@@ -145071,7 +145066,7 @@ aDP
 aDP
 aDP
 aDP
-afR
+bkk
 asI
 abz
 aVl
@@ -145084,7 +145079,7 @@ aeR
 aeR
 aeR
 aFR
-ahg
+asf
 bbC
 ajq
 ajq
@@ -145253,20 +145248,20 @@ aDP
 aDP
 aDP
 aDP
-ahg
-ahg
+aYM
+aYM
+bkk
+bkk
+aYM
+bkk
+bkk
+aYM
+bkk
 afR
+aYM
+bkk
 afR
-ahg
-afR
-afR
-ahg
-afR
-afR
-ahg
-afR
-afR
-ahg
+aYM
 bbG
 ajq
 ajq
@@ -145629,7 +145624,7 @@ aDP
 aDP
 aDP
 aDP
-aDP
+aYT
 bdx
 bdy
 ajq
