@@ -5240,6 +5240,13 @@
 /obj/structure/window/framed/new_varadero/foundation/reinforced/hull,
 /turf/open/floor/shiva,
 /area/almayer/engineering/lower/engine_monitoring)
+"arq" = (
+/obj/structure/window/framed/new_varadero/foundation/reinforced,
+/obj/structure/machinery/door/poddoor/almayer/planet_side_blastdoor{
+	id = ammo_elevator
+	},
+/turf/open/floor/plating,
+/area/space)
 "arr" = (
 /obj/structure/showcase{
 	desc = "A console equipped with a radar used by the Hunters to detect gear and good hunting grounds.";
@@ -5335,6 +5342,9 @@
 	},
 /turf/open/shuttle/dropship/predship/hunter_grille,
 /area/shipyard/entertainment/canteen/commons)
+"arE" = (
+/turf/open/floor/plating/platingdmg2/west,
+/area/space)
 "arF" = (
 /turf/open/floor/corsat,
 /area/space)
@@ -12406,6 +12416,10 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/shiva/yellow,
 /area/space)
+"aMa" = (
+/obj/structure/girder,
+/turf/open/auto_turf/sand_white/layer1,
+/area/space)
 "aMb" = (
 /obj/structure/machinery/light{
 	dir = 1
@@ -12474,6 +12488,12 @@
 	},
 /turf/open/floor/shiva,
 /area/almayer/engineering/lower/engine_core)
+"aMk" = (
+/obj/structure/machinery/door/poddoor/railing{
+	dir = 4
+	},
+/turf/open/floor/corsat/squares,
+/area/space)
 "aMl" = (
 /obj/structure/pipes/standard/simple/visible,
 /obj/structure/machinery/door/airlock/almayer/engineering/colony{
@@ -12629,6 +12649,13 @@
 "aMK" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/hybrisa/tile/tilewhite,
+/area/space)
+"aML" = (
+/obj/structure/machinery/door/poddoor/railing/open{
+	dir = 8;
+	id = ammo_elevator
+	},
+/turf/open/floor/corsat/squares,
 /area/space)
 "aMM" = (
 /obj/structure/pipes/standard/manifold/hidden/green,
@@ -13155,6 +13182,10 @@
 /obj/structure/window/framed/colony,
 /turf/open/floor/shiva/wred/east,
 /area/space)
+"aOx" = (
+/obj/structure/girder/reinforced,
+/turf/open/new_varadero/dock_concrete,
+/area/space)
 "aOy" = (
 /obj/effect/decal/warning_stripes{
 	icon_state = "test_square_red"
@@ -13208,6 +13239,10 @@
 /obj/structure/machinery/conveyor_switch,
 /turf/open/floor/shiva,
 /area/almayer/command/cic)
+"aOG" = (
+/obj/structure/girder,
+/turf/open/new_varadero/dock_concrete,
+/area/space)
 "aOH" = (
 /obj/effect/decal/warning_stripes{
 	icon_state = "E-corner";
@@ -13481,6 +13516,12 @@
 /obj/structure/cargo_container/hybrisa/containersextended/kelland_right,
 /turf/open/floor/shiva/yellow,
 /area/space)
+"aPq" = (
+/obj/structure/machinery/door_control/railings{
+	id = "ammo_elevator"
+	},
+/turf/closed/wall/new_varadero,
+/area/space)
 "aPr" = (
 /obj/effect/decal/warning_stripes{
 	icon_state = "N-corner"
@@ -13505,6 +13546,9 @@
 "aPu" = (
 /turf/open/gm/coast/beachcorner/south_west,
 /area/varadero/exterior/farocean)
+"aPv" = (
+/turf/open/new_varadero/alt_concrete/grate_s,
+/area/space)
 "aPw" = (
 /obj/effect/decal/warning_stripes{
 	icon_state = "N-corner"
@@ -13904,6 +13948,10 @@
 	},
 /turf/open/floor/shiva,
 /area/desert_dam/building/security/observation)
+"aQr" = (
+/obj/structure/platform_decoration/metal/hybrisa/metalplatformdeco6/west,
+/turf/open/new_varadero/dock_concrete,
+/area/space)
 "aQs" = (
 /obj/structure/prop/hybrisa/factory/conveyor_belt,
 /obj/structure/ship_ammo/minirocket/incendiary,
@@ -13966,6 +14014,10 @@
 /obj/structure/prop/hybrisa/factory/conveyor_belt,
 /obj/structure/ob_ammo/ob_fuel,
 /turf/open/floor/shiva,
+/area/space)
+"aQC" = (
+/obj/structure/platform/metal/hybrisa/metalplatform6/north,
+/turf/open/new_varadero/dock_concrete,
 /area/space)
 "aQD" = (
 /obj/structure/prop/hybrisa/factory/conveyor_belt,
@@ -14079,6 +14131,10 @@
 	layer = 5
 	},
 /turf/open/floor/shiva,
+/area/space)
+"aQU" = (
+/obj/structure/platform_decoration/metal/hybrisa/metalplatformdeco6/east,
+/turf/open/new_varadero/dock_concrete,
 /area/space)
 "aQV" = (
 /obj/effect/decal/warning_stripes{
@@ -14286,6 +14342,14 @@
 /obj/structure/closet/secure_closet/fridge/groceries,
 /turf/open/floor/shiva,
 /area/desert_dam/building/security/observation)
+"aRr" = (
+/obj/structure/window_frame/new_varadero/foundation/reinforced,
+/obj/structure/machinery/door/poddoor/almayer/planet_side_blastdoor{
+	id = cannon;
+	dir = 8
+	},
+/turf/open/new_varadero/dock_concrete,
+/area/space)
 "aRs" = (
 /obj/structure/machinery/door/window,
 /turf/open/floor/shiva,
@@ -14368,6 +14432,10 @@
 /obj/structure/machinery/big_computers/computerwhite/computer3,
 /turf/open/shuttle/lifeboat/catwalk,
 /area/desert_dam/building/security/observation)
+"aRG" = (
+/obj/structure/platform/metal/hybrisa/metalplatform6/east,
+/turf/open/new_varadero/dock_concrete,
+/area/space)
 "aRH" = (
 /obj/structure/machinery/door_control{
 	id = "garage_ice_1";
@@ -14503,6 +14571,10 @@
 	},
 /turf/open/floor/shiva,
 /area/desert_dam/building/security/observation)
+"aSb" = (
+/obj/structure/orbital_cannon,
+/turf/open/new_varadero/dock_concrete,
+/area/space)
 "aSc" = (
 /obj/structure/surface/table/reinforced/prison,
 /obj/item/clipboard,
@@ -14642,6 +14714,10 @@
 	},
 /turf/open/floor/corsat/white/southeast,
 /area/space)
+"aSC" = (
+/obj/structure/platform/metal/hybrisa/metalplatform6/west,
+/turf/open/new_varadero/dock_concrete,
+/area/space)
 "aSD" = (
 /obj/effect/decal/cleanable/liquid_fuel,
 /turf/open/floor/plating,
@@ -14679,6 +14755,10 @@
 	color = "#0b8f8d"
 	},
 /area/space)
+"aSL" = (
+/obj/structure/prop/invuln/minecart_tracks/bumper,
+/turf/open/new_varadero/dock_concrete,
+/area/space)
 "aSM" = (
 /obj/structure/machinery/door/airlock/maintenance/colony{
 	dir = 8
@@ -14697,6 +14777,10 @@
 	},
 /turf/open/floor/shiva,
 /area/desert_dam/building/security/observation)
+"aSP" = (
+/obj/structure/prop/invuln/minecart_tracks,
+/turf/open/new_varadero/dock_concrete,
+/area/space)
 "aSQ" = (
 /obj/structure/window/reinforced{
 	dir = 4
@@ -14727,6 +14811,12 @@
 	dir = 2
 	},
 /area/desert_dam/building/security/observation)
+"aSW" = (
+/obj/structure/prop/invuln/minecart_tracks{
+	dir = 1
+	},
+/turf/open/new_varadero/dock_concrete,
+/area/space)
 "aSX" = (
 /turf/open/space/basic,
 /area/space)
@@ -15008,6 +15098,12 @@
 /turf/open/floor/corsat/white{
 	icon_state = "squares"
 	},
+/area/space)
+"aTM" = (
+/obj/structure/prop/invuln/minecart_tracks{
+	dir = 5
+	},
+/turf/open/new_varadero/dock_concrete,
 /area/space)
 "aTN" = (
 /obj/structure/pipes/unary/freezer{
@@ -15673,6 +15769,12 @@
 	dir = 1
 	},
 /area/desert_dam/building/security/observation)
+"aVp" = (
+/obj/structure/prop/invuln/minecart_tracks{
+	dir = 8
+	},
+/turf/open/new_varadero/dock_concrete,
+/area/space)
 "aVq" = (
 /obj/structure/surface/table/woodentable,
 /obj/item/ashtray/bronze{
@@ -15794,6 +15896,12 @@
 /obj/structure/catwalk/bigred,
 /obj/structure/lattice,
 /turf/open/gm/river/ocean/deep_ocean,
+/area/space)
+"aVL" = (
+/obj/structure/prop/invuln/minecart_tracks{
+	dir = 6
+	},
+/turf/open/new_varadero/dock_concrete,
 /area/space)
 "aVM" = (
 /obj/structure/closet/wardrobe/engineering_yellow,
@@ -15961,6 +16069,10 @@
 /obj/structure/window/framed/new_varadero/foundation/reinforced/hull,
 /turf/open_space,
 /area/space)
+"aWn" = (
+/obj/structure/platform_decoration/metal/hybrisa/metalplatformdeco6,
+/turf/open/new_varadero/dock_concrete,
+/area/space)
 "aWo" = (
 /obj/structure/window/framed/new_varadero/foundation/reinforced/hull,
 /turf/open/floor/plating,
@@ -15968,6 +16080,10 @@
 "aWp" = (
 /obj/structure/prop/almayer/computers/sensor_computer2,
 /turf/open/floor/darkpurple2/north,
+/area/space)
+"aWq" = (
+/obj/structure/platform/metal/hybrisa/metalplatform6,
+/turf/open/new_varadero/dock_concrete,
 /area/space)
 "aWr" = (
 /obj/structure/prop/almayer/computers/sensor_computer3,
@@ -15988,6 +16104,10 @@
 	},
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/prison/floor_plate/southwest,
+/area/space)
+"aWv" = (
+/obj/structure/platform_decoration/metal/hybrisa/metalplatformdeco6/north,
+/turf/open/new_varadero/dock_concrete,
 /area/space)
 "aWw" = (
 /obj/structure/prop/almayer/computers/sensor_computer1,
@@ -16150,6 +16270,13 @@
 	dir = 2
 	},
 /turf/open/floor/plating,
+/area/space)
+"aWU" = (
+/obj/structure/window_frame/new_varadero/foundation/reinforced/hull,
+/obj/structure/machinery/door/poddoor/almayer/planet_side_blastdoor{
+	id = cannon
+	},
+/turf/open/new_varadero/dock_concrete,
 /area/space)
 "aWV" = (
 /obj/structure/sink{
@@ -20605,12 +20732,6 @@
 /obj/structure/prop/server_equipment/yutani_server/off{
 	pixel_x = 12;
 	pixel_y = -2
-	},
-/turf/open/new_varadero/dock_concrete,
-/area/space)
-"bka" = (
-/obj/structure/fence/slim/door{
-	dir = 8
 	},
 /turf/open/new_varadero/dock_concrete,
 /area/space)
@@ -131495,15 +131616,15 @@ aNN
 aNN
 aNN
 aNN
-aNN
-aNN
-aNN
-aNN
-aNN
-aBC
-aBC
-aBC
-aBC
+adf
+adf
+adf
+adf
+aOx
+aMa
+aMa
+aMa
+aMa
 aBC
 aBC
 aBC
@@ -131677,15 +131798,15 @@ aNN
 aNN
 aNN
 aNN
-aNN
-aNN
-aNN
-aNN
-aNN
-aNN
-aNN
-aNN
-aNN
+aXt
+aXt
+aXt
+aXt
+aXt
+aXt
+aXt
+aXt
+adf
 aBC
 aBC
 aBC
@@ -131859,15 +131980,15 @@ aNN
 aNN
 aNN
 aNN
-aNN
-aNN
-aNN
-aNN
-aNN
-aNN
-aNN
-aNN
-aNN
+aXt
+aXt
+aXt
+aXw
+aXw
+aXw
+aXw
+aXt
+adf
 aAs
 aAs
 aAs
@@ -132036,18 +132157,18 @@ aNN
 aNN
 aNN
 aNN
-aNN
-aNN
-aNN
-aNN
-aNN
+aRr
+aRr
+aRr
 adf
 adf
 adf
-aDL
-aDL
-aDL
-aDL
+adf
+adf
+aMk
+aMk
+aMk
+aMk
 adf
 adf
 adf
@@ -132217,12 +132338,12 @@ aNN
 aNN
 aNN
 aNN
+aRr
 aNN
 aNN
 aNN
 aNN
-aNN
-aNN
+adf
 adf
 beA
 beA
@@ -132394,18 +132515,18 @@ aDP
 aNN
 aNN
 aNN
+adf
+adf
+aRr
+aRr
+aRr
 aNN
 aNN
 aNN
 aNN
 aNN
 aNN
-aNN
-aNN
-aNN
-aNN
-aNN
-agp
+arq
 beA
 aDP
 aDP
@@ -132414,7 +132535,7 @@ aDP
 aDP
 aDP
 beA
-agp
+arq
 aNN
 aNa
 aNa
@@ -132576,6 +132697,7 @@ aDP
 aNN
 aNN
 aNN
+adf
 aNN
 aNN
 aNN
@@ -132586,8 +132708,7 @@ aNN
 aNN
 aNN
 aNN
-aNN
-agp
+arq
 beA
 aDP
 aDP
@@ -132596,7 +132717,7 @@ aDP
 aDP
 beB
 beA
-agp
+arq
 bjZ
 aNN
 aTU
@@ -132758,18 +132879,18 @@ aDP
 aNN
 aNN
 aNN
+aWU
 aNN
 aNN
+aWn
+aRG
+aRG
+aRG
+aRG
+aRG
+aQr
 aNN
-aNN
-aNN
-aNN
-aNN
-aNN
-aNN
-aNN
-aNN
-agp
+arq
 beA
 aDP
 aDP
@@ -132778,7 +132899,7 @@ aDP
 aDP
 aDP
 beA
-agp
+arq
 aNN
 aNN
 aNN
@@ -132940,18 +133061,18 @@ aDP
 aNN
 aNN
 aNN
+aWU
 aNN
 aNN
+aWq
+aTM
+aSP
+aSP
+aSL
 aNN
+aQC
 aNN
-aNN
-aNN
-aNN
-aNN
-aNN
-aNN
-aNN
-agp
+arq
 beA
 aDP
 aDP
@@ -132960,7 +133081,7 @@ aDP
 aDP
 aDP
 beA
-agp
+arq
 aNN
 aNa
 aNa
@@ -133122,16 +133243,16 @@ aDP
 aNN
 aNN
 aNN
+aWU
+aNN
+aNN
+aWq
+aVp
 aNN
 aNN
 aNN
-aNN
-aNN
-aNN
-aNN
-aNN
-aNN
-aNN
+aSb
+aQC
 aNN
 adf
 beA
@@ -133304,30 +133425,30 @@ aDP
 aNN
 aNN
 aNN
+aWU
+aNN
+aNN
+aWq
+aVp
 aNN
 aNN
 aNN
 aNN
-aNN
-aNN
-aNN
-aNN
-aNN
-aNN
+aQC
 aNN
 adf
 adf
+aPq
+aML
+aML
+aML
+aML
 adf
-aDL
-aDL
-aDL
-aDL
 adf
 adf
-adf
-bka
 bkb
-bka
+bkb
+bkb
 aGX
 aGX
 aGX
@@ -133486,29 +133607,29 @@ aDP
 aNN
 aNN
 aNN
+aWU
+aNN
+aNN
+aWq
+aVp
 aNN
 aNN
 aNN
 aNN
+aQC
 aNN
+adf
+aXt
+aXt
+aXw
+aXw
+aXw
+aXw
+aXt
+aXt
+adf
 aNN
-aNN
-aNN
-aNN
-aNN
-aNN
-aNN
-aNN
-aNN
-aNN
-aNN
-aNN
-aNN
-aNN
-aNN
-aNN
-aNN
-aNN
+aBC
 aBC
 aBC
 aBC
@@ -133668,29 +133789,29 @@ aDP
 aNN
 aNN
 aNN
+aWU
 aNN
 aNN
+aWq
+aVL
+aSW
+aSW
+aSL
 aNN
+aQC
 aNN
-aNN
-aNN
-aNN
-aNN
-aNN
-aNN
-aNN
-aNN
-aNN
-aNN
-aNN
-aNN
-aNN
-aNN
-aNN
-aNN
-aNN
-aNN
-aNN
+aPv
+aXt
+aXt
+aXt
+aXt
+aXt
+aXt
+aXt
+aXt
+aBC
+aBC
+aBC
 aBC
 aBC
 aBC
@@ -133850,29 +133971,29 @@ aDP
 aNN
 aNN
 aNN
+aWU
 aNN
 aNN
+aWv
+aSC
+aSC
+aSC
+aSC
+aSC
+aQU
 aNN
-aNN
-aNN
-aNN
-aNN
-aNN
-aNN
-aNN
-aNN
-aNN
-aNN
-aNN
-aNN
-aNN
-aNN
-aNN
-aNN
-aNN
-aNN
-aNN
-aNN
+aPv
+aXt
+aXt
+aXt
+aXt
+aXt
+aXt
+aXt
+aXt
+aBC
+aBC
+aBC
 aBC
 aBC
 aBC
@@ -134032,6 +134153,7 @@ aDP
 aNN
 aNN
 aNN
+adf
 aNN
 aNN
 aNN
@@ -134042,17 +134164,16 @@ aNN
 aNN
 aNN
 aNN
-aNN
-aNN
-aNN
-aNN
-aNN
-aNN
-aNN
-aNN
-aNN
-aNN
-aNN
+aPv
+aXt
+aXt
+aXt
+aXt
+aXt
+aXt
+aXt
+aBC
+aBC
 aBC
 aBC
 aBC
@@ -134214,27 +134335,27 @@ aDP
 aNN
 aNN
 aNN
+adf
+adf
+aRr
+aRr
+aRr
 aNN
 aNN
 aNN
 aNN
 aNN
 aNN
-aNN
-aNN
-aNN
-aNN
-aNN
-aNN
-aNN
-aNN
-aNN
-aNN
-aNN
-aNN
-aNN
-aNN
-aNN
+aPv
+aXt
+aXt
+aXt
+aBC
+aBC
+aBC
+aBC
+aBC
+aBC
 aBC
 aBC
 aBC
@@ -134401,22 +134522,22 @@ aNN
 aNN
 aNN
 aNN
+aRr
 aNN
 aNN
 aNN
 aNN
-aNN
-aNN
-aNN
-aNN
-aNN
-aNN
+adf
+adf
+aXt
+aXt
+aXt
 aBC
 aBC
 aBC
 aBC
 aBC
-aBC
+aGt
 aBC
 aBC
 aBC
@@ -134584,21 +134705,21 @@ aNN
 aNN
 aNN
 aNN
-aNN
-aNN
-aNN
-aNN
-aNN
-aNN
-aNN
-aNN
-aNN
+aRr
+aRr
+aRr
+adf
+adf
+adf
+adf
+aOG
+aOG
 aBC
 aBC
 aBC
 aBC
-aBC
-aBC
+arE
+arE
 aBC
 aBC
 aBC
@@ -134773,8 +134894,8 @@ aNN
 aNN
 aNN
 aNN
-aNN
-aNN
+aBC
+aBC
 aBC
 aBC
 aBC
@@ -134955,8 +135076,8 @@ aNN
 aNN
 aNN
 aNN
-aNN
-aNN
+aBC
+aBC
 aBC
 aBC
 aBC
