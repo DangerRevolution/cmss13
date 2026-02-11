@@ -2165,10 +2165,6 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating/platingdmg3/west,
 /area/space)
-"ahx" = (
-/obj/effect/decal/hybrisa/dirt,
-/turf/open/asphalt/cement_sunbleached,
-/area/space)
 "ahy" = (
 /obj/effect/decal/cleanable/ash,
 /obj/effect/decal/cleanable/dirt,
@@ -154886,7 +154882,7 @@ aSX
 aSX
 aSX
 anL
-ahx
+ajK
 aSX
 aSX
 aSX
@@ -155068,7 +155064,7 @@ aSX
 aSX
 aSX
 apd
-ajK
+adE
 aSX
 aSX
 aSX
