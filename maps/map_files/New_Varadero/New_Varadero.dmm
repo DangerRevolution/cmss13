@@ -20423,6 +20423,37 @@
 /obj/structure/blocker/fog,
 /turf/open_space,
 /area/varadero/exterior/farocean)
+"bjd" = (
+/obj/structure/fence/slim/dark,
+/turf/open/auto_turf/sand_white/layer1,
+/area/space)
+"bje" = (
+/obj/item/clothing/shoes/slippers_worn{
+	pixel_y = 7;
+	pixel_x = 6
+	},
+/turf/open/auto_turf/sand_white/layer1,
+/area/space)
+"bjf" = (
+/obj/item/trash/cigbutt{
+	pixel_y = 3;
+	pixel_x = 5
+	},
+/turf/open/auto_turf/sand_white/layer1,
+/area/space)
+"bjg" = (
+/obj/item/reagent_container/food/drinks/cans/waterbottle{
+	pixel_y = 18;
+	pixel_x = 7
+	},
+/turf/open/auto_turf/sand_white/layer1,
+/area/space)
+"bjh" = (
+/obj/structure/bed/bedroll/comfy/blue{
+	dir = 1
+	},
+/turf/open/auto_turf/sand_white/layer1,
+/area/space)
 "bji" = (
 /obj/item/weapon/shield/riot/yautja{
 	anchored = 1;
@@ -20452,6 +20483,13 @@
 /obj/structure/platform_decoration/metal/hunter,
 /turf/open/shuttle/dropship/predship/tile/hunter_tile_5/south,
 /area/space)
+"bjm" = (
+/obj/structure/bed/bedroll/comfy/green{
+	dir = 10
+	},
+/obj/effect/landmark/corpsespawner/colonist,
+/turf/open/auto_turf/sand_white/layer1,
+/area/space)
 "bjn" = (
 /obj/structure/prop/hunter/fake_platform/hunter/west,
 /obj/structure/prop/hunter/fake_platform/hunter,
@@ -20474,6 +20512,10 @@
 /obj/structure/platform_decoration/metal/hunter/north,
 /turf/open/shuttle/dropship/predship/tile/hunter_tile_5/south,
 /area/space)
+"bjq" = (
+/obj/item/trash/chips,
+/turf/open/auto_turf/sand_white/layer1,
+/area/space)
 "bjr" = (
 /obj/structure/prop/hunter/fake_platform/hunter/north,
 /obj/structure/prop/hunter/fake_platform/hunter/west,
@@ -20490,11 +20532,40 @@
 /obj/effect/hunter/catwalk/hunter_grate,
 /turf/open/space/basic,
 /area/space)
+"bjs" = (
+/obj/item/trash/burger,
+/obj/item/trash/hybrisa/cuppa_joes_static/lid{
+	pixel_y = -9;
+	pixel_x = -7
+	},
+/turf/open/auto_turf/sand_white/layer1,
+/area/space)
 "bjt" = (
 /obj/effect/hunter/bridge_border/brown{
 	dir = 4
 	},
 /turf/open/shuttle/dropship/predship/tile/hunter_tile_6/north,
+/area/space)
+"bju" = (
+/obj/structure/prop/brazier/frame/full/campfire/smolder,
+/obj/item/reagent_container/food/snacks/meat{
+	pixel_x = -6;
+	pixel_y = -7
+	},
+/turf/open/auto_turf/sand_white/layer1,
+/area/space)
+"bjv" = (
+/obj/item/pizzabox/meat{
+	pixel_x = 5;
+	pixel_y = 17
+	},
+/obj/effect/decal/hybrisa/trash,
+/turf/open/auto_turf/sand_white/layer1,
+/area/space)
+"bjw" = (
+/obj/structure/bed/bedroll/comfy,
+/obj/item/reagent_container/food/drinks/cans/aspen,
+/turf/open/auto_turf/sand_white/layer1,
 /area/space)
 "bjx" = (
 /obj/structure/bed/chair/comfy/yautja{
@@ -20512,6 +20583,20 @@
 	},
 /obj/effect/hunter/bridge_border/brown,
 /turf/open/shuttle/dropship/predship/tile/hunter_tile_6/north,
+/area/space)
+"bjz" = (
+/obj/item/trash/cigbutt,
+/obj/item/trash/cigbutt{
+	pixel_y = 5;
+	pixel_x = -3
+	},
+/turf/open/auto_turf/sand_white/layer1,
+/area/space)
+"bjA" = (
+/obj/item/trash/cigbutt{
+	pixel_x = -16
+	},
+/turf/open/auto_turf/sand_white/layer1,
 /area/space)
 "bjB" = (
 /obj/effect/hunter/bridge_border,
@@ -20649,6 +20734,14 @@
 	},
 /turf/open/space/basic,
 /area/space)
+"bjQ" = (
+/obj/structure/surface/table/woodentable/poor,
+/obj/item/reagent_container/food/drinks/cans/aspen{
+	pixel_x = -5;
+	pixel_y = 5
+	},
+/turf/open/auto_turf/sand_white/layer1,
+/area/space)
 "bjR" = (
 /obj/structure/prop/brazier/frame{
 	pixel_y = 12
@@ -20776,6 +20869,14 @@
 	},
 /turf/open/new_varadero/dock_concrete,
 /area/space)
+"bka" = (
+/obj/structure/surface/table/woodentable/poor,
+/obj/item/reagent_container/food/drinks/cans/aspen{
+	pixel_y = 7;
+	pixel_x = 4
+	},
+/turf/open/auto_turf/sand_white/layer1,
+/area/space)
 "bkb" = (
 /obj/structure/fence/slim,
 /turf/open/new_varadero/dock_concrete,
@@ -20796,6 +20897,10 @@
 /area/space)
 "bkf" = (
 /turf/open/shuttle/dropship/predship,
+/area/space)
+"bkg" = (
+/obj/item/trash/semki,
+/turf/open/auto_turf/sand_white/layer1,
 /area/space)
 "byq" = (
 /obj/structure/pipes/standard/simple/hidden/supply,
@@ -147142,9 +147247,9 @@ aBe
 aBe
 aBe
 aBe
-aBe
-aBe
-aBe
+aBC
+aBC
+bjd
 bew
 bbS
 bbO
@@ -147324,9 +147429,9 @@ aBe
 aBe
 aBe
 aBe
-aBe
-aBe
-aBe
+aBC
+aBC
+aTw
 bew
 bea
 bdV
@@ -147506,8 +147611,8 @@ aBe
 aBe
 aBe
 aBe
-aBe
-aBe
+aBC
+aBC
 aBe
 bex
 bdW
@@ -147688,8 +147793,8 @@ aBe
 aBe
 aBe
 aBe
-aBe
-aBe
+aBC
+aBC
 aBe
 anS
 aXm
@@ -147870,8 +147975,8 @@ aDP
 aBe
 aBe
 aBe
-aBe
-aBe
+aBC
+aBC
 aBe
 aXm
 aww
@@ -148052,8 +148157,8 @@ aDP
 aDP
 aDP
 aBe
-aBe
-aBe
+aBC
+aBC
 aBe
 aXm
 aCD
@@ -148232,10 +148337,10 @@ aDP
 aDP
 aDP
 aDP
+aYT
 aBC
 aBC
 aBC
-aBe
 aBe
 aXm
 aCD
@@ -148413,8 +148518,8 @@ aDP
 aDP
 aDP
 aDP
-aDP
-aBC
+aYT
+aYT
 aBC
 aBC
 aBC
@@ -148595,10 +148700,10 @@ aDP
 aDP
 aDP
 aDP
-aDP
+aYT
+bjz
 aBC
-aBC
-aBC
+bjg
 aBC
 aBC
 aXm
@@ -148776,9 +148881,9 @@ aDP
 aDP
 aDP
 aDP
-aDP
-aDP
-aBC
+aYT
+aYT
+bjA
 aBC
 aBC
 aBC
@@ -148958,7 +149063,7 @@ aDP
 aDP
 aDP
 aDP
-aDP
+aYT
 aBC
 aBC
 aBC
@@ -149139,13 +149244,13 @@ aDP
 aDP
 aDP
 aDP
+aYT
 aBC
 aBC
 aBC
-aBC
-aBC
-aBC
-aBC
+bjs
+bjh
+bje
 aBC
 amx
 aww
@@ -149321,10 +149426,10 @@ aDP
 aDP
 aDP
 aDP
+aYT
 aBC
 aBC
-aBC
-aBC
+bjQ
 aBC
 aBC
 aBC
@@ -149503,11 +149608,11 @@ aDP
 aDP
 aDP
 aDP
+aYT
+aYT
 aBC
-aBC
-aBC
-aBC
-aBC
+bka
+bju
 aBC
 aBC
 aBC
@@ -149686,11 +149791,11 @@ aDP
 aDP
 aDP
 aDP
-aDP
+aYT
 aBC
 aBC
-aBC
-aBC
+bjv
+bjm
 aBC
 aBC
 aXm
@@ -149868,12 +149973,12 @@ aDP
 aDP
 aDP
 aDP
-aDP
-aDP
+aYT
 aBC
-aBC
-aBC
-aBC
+bkg
+bjw
+bjq
+bjf
 aBC
 aXm
 aWf
@@ -150050,12 +150155,12 @@ aDP
 aDP
 aDP
 aDP
-aDP
+aYT
 aBC
 aBC
 aBC
 aBC
-aDP
+aBC
 aBC
 anS
 aXm
@@ -150232,12 +150337,12 @@ aDP
 aDP
 aDP
 aDP
-aDP
+aYT
 aBC
 aBC
 aBC
-aDP
-aDP
+aBC
+bdn
 aBC
 aBC
 aBC
@@ -150414,13 +150519,13 @@ aDP
 aDP
 aDP
 aDP
-aDP
-aDP
-aDP
-aDP
-aDP
+aYT
+aYT
+aYT
+aYT
+aYT
 aBe
-aBe
+aBC
 aBC
 aBC
 aBC
