@@ -24261,6 +24261,44 @@
 /obj/item/stack/sheet/metal,
 /turf/open/floor/shiva,
 /area/space)
+"buE" = (
+/obj/item/prop/alien/hugger,
+/obj/effect/landmark/corpsespawner/colonist/burst,
+/turf/open/floor/shiva,
+/area/lv759/indoors/apartment/westshowers)
+"buF" = (
+/obj/effect/landmark/corpsespawner/colonist/burst,
+/turf/open/floor/shiva,
+/area/corsat/sigma/dorms)
+"buG" = (
+/obj/item/prop/alien/hugger,
+/turf/open/floor/shiva,
+/area/corsat/sigma/dorms)
+"buH" = (
+/obj/item/prop/alien/hugger,
+/obj/effect/landmark/corpsespawner/colonist/burst,
+/turf/open/floor/shiva,
+/area/corsat/sigma/dorms)
+"buI" = (
+/obj/item/prop/alien/hugger,
+/turf/open/floor/almayer/research/containment/yautja/alt,
+/area/space)
+"buJ" = (
+/obj/item/prop/alien/hugger,
+/turf/open/floor/shiva,
+/area/bigred/ground/kitchen)
+"buK" = (
+/obj/effect/landmark/corpsespawner/colonist/burst,
+/turf/open/floor/strata/blue2,
+/area/almayer/engineering/laundry)
+"buL" = (
+/obj/item/prop/alien/hugger,
+/turf/open/floor/strata/blue2,
+/area/almayer/engineering/laundry)
+"buM" = (
+/obj/effect/landmark/corpsespawner/colonist/burst,
+/turf/open/floor/shiva,
+/area/bigred/ground/kitchen)
 "byH" = (
 /obj/effect/decal/warning_stripes{
 	icon_state = "test_square"
@@ -78077,7 +78115,7 @@ aHj
 adj
 aHj
 aaX
-aHj
+buK
 abp
 aHj
 aaX
@@ -78259,7 +78297,7 @@ aHj
 aHj
 aHj
 aHj
-aHj
+buL
 aHj
 aHj
 aHj
@@ -79543,7 +79581,7 @@ buw
 ady
 ady
 buo
-buo
+buI
 buo
 buo
 atE
@@ -80084,7 +80122,7 @@ abP
 buD
 akG
 atE
-buo
+buI
 buo
 ady
 boy
@@ -80994,8 +81032,8 @@ acT
 acT
 agx
 acT
-acT
-acT
+buG
+buF
 buz
 buk
 bow
@@ -81010,12 +81048,12 @@ bow
 buk
 acT
 acT
-acT
-acT
+buG
+buF
 agx
 acT
-acT
-acT
+buG
+buF
 agx
 agx
 abP
@@ -81716,14 +81754,14 @@ abP
 abP
 agx
 acT
-acT
-acT
+buF
+buG
 acT
 acT
 agx
 acT
-acT
-acT
+buF
+buG
 acT
 bow
 bum
@@ -81737,8 +81775,8 @@ bow
 buk
 acT
 acT
-acT
-acT
+buG
+buF
 acT
 agx
 acT
@@ -82079,8 +82117,8 @@ abP
 abP
 abP
 agx
-acT
-acT
+buG
+buF
 acT
 acT
 acT
@@ -82106,7 +82144,7 @@ acT
 acT
 agx
 acT
-acT
+buH
 acT
 acT
 acT
@@ -82991,7 +83029,7 @@ abP
 adf
 avL
 ahi
-ahi
+buM
 ahi
 ahi
 amz
@@ -83018,7 +83056,7 @@ ahD
 ahr
 agY
 auI
-acQ
+buE
 aiN
 acy
 abP
@@ -83174,7 +83212,7 @@ adf
 ahi
 ahi
 ahi
-ahi
+buJ
 ahi
 amz
 buC
