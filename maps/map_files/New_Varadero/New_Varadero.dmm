@@ -3166,6 +3166,10 @@
 	},
 /turf/open/floor/rampbottom,
 /area/space)
+"akB" = (
+/obj/structure/bed/hybrisa/dingy,
+/turf/open/floor/plating/burnt_platingdmg3,
+/area/corsat/sigma/dorms)
 "akC" = (
 /obj/structure/prop/hybrisa/misc/blood/blood3{
 	pixel_x = -9;
@@ -6851,7 +6855,7 @@
 /area/bigred/ground/kitchen)
 "avK" = (
 /obj/effect/stairs/up,
-/turf/open/floor/plating/burnt_platingdmg3,
+/turf/open/auto_turf/sand_white/layer1,
 /area/space)
 "avL" = (
 /obj/structure/closet/secure_closet/fridge/groceries,
@@ -24256,7 +24260,7 @@
 "buH" = (
 /obj/item/prop/alien/hugger,
 /obj/effect/landmark/corpsespawner/colonist/burst,
-/turf/open/floor/shiva,
+/turf/open/floor/plating/burnt_platingdmg3,
 /area/corsat/sigma/dorms)
 "buI" = (
 /obj/item/prop/alien/hugger,
@@ -24330,6 +24334,10 @@
 /area/corsat/sigma/dorms)
 "buY" = (
 /turf/open/floor/almayer/research/containment/yautja/alt,
+/area/corsat/sigma/dorms)
+"buZ" = (
+/obj/structure/curtain/colorable,
+/turf/open/floor/plating/burnt_platingdmg3,
 /area/corsat/sigma/dorms)
 "byH" = (
 /obj/effect/decal/warning_stripes{
@@ -82175,9 +82183,9 @@ acT
 acT
 acT
 agx
-acT
+bow
 buH
-acT
+bow
 acT
 acT
 agx
@@ -82354,12 +82362,12 @@ bow
 acG
 acG
 acT
-acT
-acT
-auK
-acT
-auH
-auH
+bow
+bow
+buZ
+bow
+akB
+akB
 auH
 acT
 agx
@@ -82542,7 +82550,7 @@ bow
 buk
 bow
 bow
-agx
+bow
 agx
 agx
 abP
@@ -82723,7 +82731,7 @@ agS
 agS
 agS
 agS
-auI
+acQ
 acQ
 aiN
 acy
@@ -82905,7 +82913,7 @@ ahr
 ahz
 ahr
 agS
-acy
+agO
 acy
 acy
 acy
@@ -83453,7 +83461,7 @@ agY
 agY
 auI
 aiN
-acy
+agO
 acy
 abP
 abP
@@ -85265,8 +85273,8 @@ boy
 boy
 boy
 boy
-abP
-abP
+ady
+ady
 abP
 abP
 abP
@@ -85447,8 +85455,8 @@ boy
 boy
 boy
 boy
-abP
-abP
+ady
+ady
 abP
 abP
 abP
@@ -85627,8 +85635,8 @@ boZ
 boZ
 boy
 ady
-abP
-abP
+ady
+ady
 abP
 abP
 abP
@@ -85809,7 +85817,7 @@ boZ
 boy
 boy
 ady
-abP
+ady
 abP
 abP
 abP
@@ -85978,20 +85986,20 @@ aBP
 aBP
 aBP
 aBP
-boy
-boy
-boy
-boy
-ady
-ady
-ady
-boy
-boy
-boy
-boy
+aBC
+aBC
+aBC
 boy
 ady
-aBP
+ady
+ady
+boy
+boy
+boy
+boy
+aBC
+aBC
+aBC
 abP
 abP
 abP
@@ -86160,19 +86168,19 @@ aBe
 aBP
 aBP
 aBP
+aBC
+aBC
+aBC
 ady
+aBC
+aBC
 ady
-ady
-ady
-ady
-ady
-ady
-boy
-boy
-boy
-boy
-ady
-ady
+aBC
+aBC
+aBC
+aBC
+aBC
+aBC
 aBP
 aBP
 abP
@@ -86342,19 +86350,19 @@ aBe
 aBe
 aBP
 aBP
-ady
-ady
-ady
-ady
-ady
-ady
+aBC
+aBC
+aBC
+aBC
+aBC
+aBC
 avK
-ady
-ady
-ady
-ady
-ady
-ady
+aBC
+aBC
+aBC
+aBC
+aBC
+aBC
 aBP
 aBP
 aBP
