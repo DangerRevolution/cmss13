@@ -451,12 +451,12 @@
 /obj/structure/prop/new_varadero_props/egg_open
 	name = "egg"
 	desc = "It looks like a weird egg, this one has been open for a long time."
-	icon = 'icons/effects/effects.dmi'
+	icon = 'icons/mob/xenos/effects.dmi'
 	icon_state = "Egg Opened"
 
 /obj/structure/prop/new_varadero_props/egg_destroyed
 	name = "egg"
 	desc = "It looks like a weird egg, this one has been destroyed for a long time."
-	icon = 'icons/effects/effects.dmi'
+	icon = 'icons/mob/xenos/effects.dmi'
 	icon_state = "Egg Exploded"
 
