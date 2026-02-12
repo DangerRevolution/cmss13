@@ -4954,9 +4954,6 @@
 /obj/structure/kitchenspike,
 /turf/open/shuttle/dropship/predship/hunter_grate/north,
 /area/space)
-"aqo" = (
-/turf/closed/wall/kutjevo/colony/reinforced/hull,
-/area/space)
 "aqp" = (
 /turf/open/shuttle/dropship/predship/hunter_grate/north,
 /area/space)
@@ -4983,7 +4980,12 @@
 /turf/open/space/basic,
 /area/varadero/interior/cargo)
 "aqt" = (
-/turf/closed/wall/kutjevo/colony/reinforced/hull,
+/obj/structure/platform_decoration/metal/kutjevo_smooth/east,
+/obj/structure/platform/metal/kutjevo/north,
+/obj/structure/platform/metal/kutjevo_smooth/north{
+	pixel_y = 8
+	},
+/turf/open/floor/hybrisa/carpet/carpetblue,
 /area/almayer/command/combat_correspondent)
 "aqu" = (
 /obj/structure/surface/rack,
@@ -5052,17 +5054,6 @@
 	},
 /turf/closed/wall/huntership/destructible,
 /area/space)
-"aqF" = (
-/obj/structure/machinery/light{
-	dir = 8
-	},
-/obj/structure/flora/pottedplant{
-	icon_state = "pottedplant_17";
-	pixel_x = -9
-	},
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/wood/ship,
-/area/almayer/command/combat_correspondent)
 "aqG" = (
 /obj/structure/platform/metal/almayer/north,
 /turf/open/floor/prison/darkbrown3,
@@ -5106,10 +5097,8 @@
 /turf/open/floor/prison/darkbrown3,
 /area/space)
 "aqP" = (
-/obj/structure/bed/chair/comfy{
-	dir = 1
-	},
-/turf/open/floor/wood/ship,
+/obj/structure/window/framed/new_varadero/foundation/reinforced,
+/turf/open/floor/hybrisa/wood/greywood,
 /area/almayer/command/combat_correspondent)
 "aqQ" = (
 /obj/item/trash/tray{
@@ -5131,23 +5120,14 @@
 /turf/open/new_varadero/sidewalk/sidewalkfull,
 /area/space)
 "aqT" = (
-/obj/structure/surface/table/woodentable/fancy,
-/obj/structure/machinery/computer/crew/alt{
-	pixel_y = -1;
-	name = "USCM monitoring computer";
-	dir = 8;
-	pixel_x = 3
+/obj/effect/decal/strata_decals/mud_corner{
+	dir = 1
 	},
-/obj/structure/transmitter/rotary/fax_responder{
-	networks_transmit = list("USCM","Colonist","Press","Fax Responders");
-	phone_id = "Free Press Relay";
-	pixel_y = 15;
-	pixel_x = -5
+/obj/effect/decal/strata_decals/mud_corner{
+	dir = 9
 	},
-/obj/structure/machinery/light{
-	dir = 4
-	},
-/turf/open/floor/wood/ship,
+/obj/structure/flora/bush/ausbushes/ywflowers,
+/turf/open/gm/dirt/brown/variant_1,
 /area/almayer/command/combat_correspondent)
 "aqU" = (
 /obj/structure/platform/metal/almayer/north,
@@ -5160,16 +5140,6 @@
 /obj/item/toy/plush/gnarp,
 /turf/open/auto_turf/sand_white/layer0,
 /area/varadero/interior_protected/caves/central)
-"aqW" = (
-/obj/structure/window/framed/kutjevo/reinforced{
-	not_damageable = 1;
-	not_deconstructable = 1;
-	health = 999999;
-	unacidable = 1;
-	unslashable = 1
-	},
-/turf/open/floor/almayer/plate,
-/area/almayer/command/combat_correspondent)
 "aqX" = (
 /obj/structure/surface/table/reinforced/prison{
 	color = "#98a3ab"
@@ -5221,21 +5191,6 @@
 "arf" = (
 /turf/open/shuttle/dropship/predship/mainfloor/direction_3,
 /area/space)
-"arg" = (
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/wood/ship,
-/area/almayer/command/combat_correspondent)
-"arh" = (
-/obj/structure/surface/table/woodentable/fancy,
-/obj/structure/machinery/faxmachine/press/highcom{
-	pixel_y = 6
-	},
-/obj/item/ashtray/plastic{
-	pixel_y = -5;
-	pixel_x = 7
-	},
-/turf/open/floor/carpet,
-/area/almayer/command/combat_correspondent)
 "ari" = (
 /turf/open/shuttle/dropship/predship/tile/red,
 /area/space)
@@ -5252,18 +5207,6 @@
 	},
 /turf/open/floor/plating/icefloor/warnplate/east,
 /area/space)
-"arm" = (
-/obj/structure/surface/table/woodentable/fancy,
-/obj/item/tool/pen/multicolor/fountain{
-	pixel_x = -13;
-	pixel_y = 2
-	},
-/obj/item/paper_bin{
-	pixel_y = 7;
-	pixel_x = -12
-	},
-/turf/open/floor/carpet,
-/area/almayer/command/combat_correspondent)
 "arn" = (
 /obj/effect/decal/hybrisa/road/lines4,
 /obj/effect/decal/hybrisa/road/lines2,
@@ -5280,66 +5223,6 @@
 /obj/structure/window/framed/new_varadero/foundation/reinforced/hull,
 /turf/open/floor/shiva,
 /area/almayer/engineering/lower/engine_monitoring)
-"arq" = (
-/obj/structure/surface/table/woodentable/fancy,
-/obj/structure/machinery/computer/cameras/almayer{
-	admin_console = 1;
-	network = list("Overwatch");
-	pixel_x = 12;
-	pixel_y = 3;
-	name = "Overwatch Cameras";
-	colony_camera_mapload = 0
-	},
-/obj/structure/machinery/computer/cameras/almayer{
-	admin_console = 1;
-	network = list("ARES","Almayer","Research","Containment","Containment Hidden");
-	layer = 2.99;
-	name = "USS Almayer Cameras";
-	pixel_y = 3;
-	colony_camera_mapload = 0;
-	pixel_x = -5
-	},
-/turf/open/floor/carpet,
-/area/almayer/command/combat_correspondent)
-"arr" = (
-/obj/structure/surface/table/woodentable/fancy,
-/obj/item/folder/white{
-	pixel_x = 6;
-	pixel_y = -6;
-	layer = 3
-	},
-/obj/item/folder/red{
-	pixel_x = 6;
-	pixel_y = -1;
-	layer = 2.99
-	},
-/obj/item/folder/blue{
-	pixel_x = 6;
-	pixel_y = 4;
-	layer = 2.98
-	},
-/obj/item/folder/black{
-	pixel_x = 6;
-	pixel_y = 9;
-	layer = 2.97
-	},
-/obj/item/tool/stamp/hos{
-	name = "red stamp";
-	pixel_y = 8;
-	pixel_x = -5
-	},
-/obj/item/tool/stamp/hop{
-	name = "blue stamp";
-	pixel_x = -5
-	},
-/obj/item/tool/stamp/ce{
-	name = "yellow stamp";
-	pixel_y = -8;
-	pixel_x = -5
-	},
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/wood/ship,
-/area/almayer/command/combat_correspondent)
 "ars" = (
 /obj/structure/machinery/space_heater,
 /turf/open/floor/shiva/blue,
@@ -5380,10 +5263,6 @@
 	},
 /turf/open/floor/darkyellowcorners2/west,
 /area/space)
-"arA" = (
-/obj/effect/landmark/late_join/responder/press,
-/turf/open/floor/wood/ship,
-/area/almayer/command/combat_correspondent)
 "arB" = (
 /obj/structure/machinery/meter,
 /obj/structure/pipes/standard/simple/visible{
@@ -5400,13 +5279,13 @@
 /turf/open/hybrisa/street/asphalt,
 /area/space)
 "arD" = (
-/turf/open/floor/carpet,
-/area/almayer/command/combat_correspondent)
-"arE" = (
-/obj/structure/pipes/vents/pump/no_boom{
+/obj/structure/bed/chair/comfy/hybrisa/brown{
 	dir = 1
 	},
-/turf/open/floor/carpet,
+/obj/structure/bed/chair/comfy/hybrisa/brown{
+	dir = 1
+	},
+/turf/open/floor/hybrisa/wood/greywood,
 /area/almayer/command/combat_correspondent)
 "arF" = (
 /obj/structure/prop/hunter/fake_platform/hunter,
@@ -5446,12 +5325,6 @@
 	},
 /turf/open/auto_turf/snow/layer0,
 /area/space)
-"arK" = (
-/obj/structure/machinery/cryopod/no_store{
-	pixel_y = 13
-	},
-/turf/open/floor/wood/ship,
-/area/almayer/command/combat_correspondent)
 "arL" = (
 /obj/structure/stairs{
 	color = "#a6aeab";
@@ -5986,14 +5859,6 @@
 	},
 /turf/open/floor/shiva/yellow/north,
 /area/space)
-"ata" = (
-/obj/structure/coatrack{
-	pixel_y = 19;
-	pixel_x = 7
-	},
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/wood/ship,
-/area/almayer/command/combat_correspondent)
 "atb" = (
 /obj/structure/platform/metal/strata/north,
 /obj/structure/platform/metal/strata/north,
@@ -6316,10 +6181,6 @@
 	},
 /turf/open/floor/shiva/yellow/north,
 /area/space)
-"atV" = (
-/obj/structure/pipes/standard/simple/hidden/supply/no_boom,
-/turf/open/floor/wood/ship,
-/area/almayer/command/combat_correspondent)
 "atW" = (
 /obj/structure/machinery/recharge_station,
 /turf/open/floor/shiva/yellow/northeast,
@@ -6335,25 +6196,6 @@
 /obj/structure/prop/hunter/fake_platform/hunter/west,
 /turf/open/shuttle/dropship/predship/tile/hunter_tile_5/north,
 /area/space)
-"atZ" = (
-/obj/structure/filingcabinet{
-	density = 0;
-	pixel_y = 24;
-	pixel_x = -7
-	},
-/obj/structure/filingcabinet/documentation/highcom/press{
-	pixel_x = 8;
-	pixel_y = 24;
-	density = 0
-	},
-/turf/open/floor/wood/ship,
-/area/almayer/command/combat_correspondent)
-"aua" = (
-/obj/structure/sign/calendar{
-	pixel_y = 27
-	},
-/turf/open/floor/wood/ship,
-/area/almayer/command/combat_correspondent)
 "aub" = (
 /obj/structure/closet/basketball,
 /turf/open/floor/whitebluefull,
@@ -6372,13 +6214,8 @@
 /turf/open/floor/plating,
 /area/space)
 "aue" = (
-/obj/structure/machinery/door/airlock/almayer/secure{
-	name = "\improper Editor's Office";
-	req_access = null;
-	dir = 1
-	},
-/obj/structure/pipes/standard/simple/hidden/supply/no_boom,
-/turf/open/floor/almayer/plate,
+/obj/structure/platform_decoration/metal/kutjevo_smooth/east,
+/turf/open/floor/hybrisa/wood/greywood,
 /area/almayer/command/combat_correspondent)
 "auf" = (
 /turf/open/floor/prison/whitepurple/southwest,
@@ -11935,7 +11772,7 @@
 /turf/open/floor/shiva,
 /area/almayer/command/cic)
 "aKo" = (
-/turf/open/space/basic,
+/turf/open/floor/hybrisa/wood/greywood,
 /area/almayer/command/combat_correspondent)
 "aKp" = (
 /obj/structure/window/framed/colony,
@@ -24212,10 +24049,6 @@
 /obj/structure/girder,
 /turf/open/floor/plating,
 /area/ice_colony/surface/disposals)
-"buw" = (
-/obj/structure/prop/new_varadero_props/egg_open,
-/turf/open/floor/almayer/research/containment/yautja/alt,
-/area/space)
 "bux" = (
 /obj/item/stack/rods,
 /turf/open/floor/plating/platingdmg2,
@@ -24324,14 +24157,6 @@
 /obj/structure/prop/hybrisa/xenobiology/misc,
 /turf/open/floor/shiva,
 /area/space)
-"buW" = (
-/obj/structure/prop/new_varadero_props/egg_destroyed,
-/turf/open/floor/almayer/research/containment/yautja/alt,
-/area/space)
-"buX" = (
-/obj/structure/prop/new_varadero_props/egg_destroyed,
-/turf/open/floor/almayer/research/containment/yautja/alt,
-/area/corsat/sigma/dorms)
 "buY" = (
 /turf/open/floor/almayer/research/containment/yautja/alt,
 /area/corsat/sigma/dorms)
@@ -24365,6 +24190,481 @@
 /obj/effect/acid_hole,
 /turf/closed/wall/new_varadero/concrete,
 /area/space)
+"bvf" = (
+/obj/structure/prop/hybrisa/misc/stoneplanterseats,
+/turf/open/auto_turf/strata_grass/layer1,
+/area/fiorina/station/park)
+"bvg" = (
+/obj/structure/platform/stone/soro/west,
+/obj/structure/prop/hybrisa/misc/stoneplanterseats{
+	dir = 1;
+	pixel_x = -6
+	},
+/turf/open/auto_turf/strata_grass/layer0_mud,
+/area/fiorina/station/park)
+"bvh" = (
+/obj/structure/barricade/handrail/kutjevo,
+/turf/open/auto_turf/strata_grass,
+/area/space)
+"bvi" = (
+/obj/structure/window/framed/new_varadero/foundation/reinforced,
+/turf/open/shuttle/plating,
+/area/space)
+"bvj" = (
+/obj/structure/machinery/door/airlock/multi_tile/almayer/generic{
+	name = "Hydroponics"
+	},
+/turf/open/floor/plating,
+/area/space)
+"bvk" = (
+/obj/effect/decal/strata_decals/mud_corner{
+	dir = 1
+	},
+/obj/effect/decal/strata_decals/mud_corner{
+	dir = 5
+	},
+/obj/structure/flora/bush/ausbushes/ywflowers,
+/obj/structure/flora/bush/ausbushes/ywflowers,
+/turf/open/gm/dirt/brown/variant_1,
+/area/space)
+"bvl" = (
+/obj/effect/decal/strata_decals/mud_corner{
+	dir = 1
+	},
+/obj/effect/decal/strata_decals/mud_corner{
+	dir = 9
+	},
+/obj/structure/flora/bush/ausbushes/ywflowers,
+/turf/open/gm/dirt/brown/variant_1,
+/area/space)
+"bvm" = (
+/obj/structure/window/framed/new_varadero/foundation/reinforced,
+/turf/open/floor/hybrisa/wood/greywood,
+/area/space)
+"bvn" = (
+/turf/open/floor/hybrisa/carpet/carpetblue,
+/area/almayer/command/combat_correspondent)
+"bvo" = (
+/turf/open/floor/hybrisa/carpet/carpetdarkerblue,
+/area/almayer/command/combat_correspondent)
+"bvp" = (
+/obj/effect/decal/strata_decals/mud_corner{
+	dir = 1
+	},
+/obj/effect/decal/strata_decals/mud_corner{
+	dir = 5
+	},
+/obj/structure/flora/bush/ausbushes/ywflowers,
+/turf/open/gm/dirt/brown/variant_1,
+/area/almayer/command/combat_correspondent)
+"bvq" = (
+/obj/structure/bed/chair/comfy/hybrisa/brown{
+	dir = 1
+	},
+/turf/open/floor/hybrisa/wood/greywood,
+/area/almayer/command/combat_correspondent)
+"bvr" = (
+/obj/structure/bed/chair/comfy/hybrisa/brown{
+	dir = 1
+	},
+/obj/structure/bed/chair/comfy/hybrisa/brown{
+	dir = 1
+	},
+/turf/open/floor/hybrisa/carpet/carpetblue,
+/area/almayer/command/combat_correspondent)
+"bvs" = (
+/turf/open/floor/hybrisa/wood/greywood,
+/area/space)
+"bvt" = (
+/obj/structure/bed/chair/comfy/hybrisa/brown{
+	dir = 1
+	},
+/turf/open/floor/hybrisa/carpet/carpetblue,
+/area/almayer/command/combat_correspondent)
+"bvu" = (
+/obj/structure/platform_decoration/metal/kutjevo_smooth/west,
+/turf/open/floor/hybrisa/wood/greywood,
+/area/almayer/command/combat_correspondent)
+"bvv" = (
+/obj/structure/platform_decoration/metal/kutjevo_smooth/west,
+/obj/structure/platform/metal/kutjevo/north,
+/turf/open/floor/hybrisa/wood/greywood,
+/area/almayer/command/combat_correspondent)
+"bvw" = (
+/obj/structure/platform/metal/kutjevo_smooth/north{
+	pixel_y = 8
+	},
+/obj/structure/platform/metal/kutjevo/north,
+/turf/open/floor/hybrisa/carpet/carpetblue,
+/area/almayer/command/combat_correspondent)
+"bvx" = (
+/obj/structure/platform/metal/kutjevo_smooth/north{
+	pixel_y = 8
+	},
+/obj/structure/platform/metal/kutjevo/north,
+/turf/open/floor/hybrisa/carpet/carpetdarkerblue,
+/area/almayer/command/combat_correspondent)
+"bvy" = (
+/obj/structure/platform_decoration/metal/kutjevo_smooth/east,
+/obj/structure/platform/metal/kutjevo/north,
+/turf/open/floor/hybrisa/wood/greywood,
+/area/almayer/command/combat_correspondent)
+"bvz" = (
+/obj/structure/platform/metal/kutjevo/east,
+/turf/open/floor/hybrisa/wood/greywood,
+/area/almayer/command/combat_correspondent)
+"bvA" = (
+/obj/structure/platform_decoration/metal/kutjevo_smooth,
+/obj/effect/decal/hybrisa/gold/line3,
+/obj/effect/decal/hybrisa/gold/line1,
+/obj/effect/decal/hybrisa/gold/line4,
+/turf/open/floor/hybrisa/wood/redwood,
+/area/almayer/command/combat_correspondent)
+"bvB" = (
+/obj/effect/decal/hybrisa/gold/line1,
+/turf/open/floor/hybrisa/wood/redwood,
+/area/almayer/command/combat_correspondent)
+"bvC" = (
+/turf/open/floor/hybrisa/wood/redwood,
+/area/almayer/command/combat_correspondent)
+"bvD" = (
+/obj/structure/platform_decoration/metal/kutjevo_smooth/north,
+/obj/effect/decal/hybrisa/gold/line3,
+/obj/effect/decal/hybrisa/gold/line2,
+/obj/effect/decal/hybrisa/gold/line1,
+/turf/open/floor/hybrisa/wood/redwood,
+/area/almayer/command/combat_correspondent)
+"bvE" = (
+/obj/structure/platform/metal/kutjevo/west,
+/turf/open/floor/hybrisa/wood/greywood,
+/area/almayer/command/combat_correspondent)
+"bvF" = (
+/obj/structure/machinery/door/airlock/multi_tile/almayer/generic{
+	dir = 2;
+	name = "\improper Bar"
+	},
+/turf/open/floor/plating,
+/area/almayer/command/combat_correspondent)
+"bvG" = (
+/obj/structure/stairs/perspective/kutjevo{
+	dir = 8;
+	layer = 2.5
+	},
+/obj/structure/platform/metal/stair_cut/kutjevo_smooth_right,
+/obj/structure/barricade/handrail/kutjevo,
+/turf/open/floor/plating,
+/area/almayer/command/combat_correspondent)
+"bvH" = (
+/obj/effect/decal/hybrisa/gold/line4,
+/turf/open/floor/hybrisa/wood/redwood,
+/area/almayer/command/combat_correspondent)
+"bvI" = (
+/obj/effect/decal/hybrisa/gold/line2,
+/turf/open/floor/hybrisa/wood/redwood,
+/area/almayer/command/combat_correspondent)
+"bvJ" = (
+/obj/structure/stairs/perspective/kutjevo{
+	dir = 4
+	},
+/obj/structure/platform/metal/stair_cut/kutjevo_smooth_left,
+/obj/structure/barricade/handrail/kutjevo,
+/turf/open/floor/hybrisa/wood/greywood,
+/area/almayer/command/combat_correspondent)
+"bvK" = (
+/obj/structure/machinery/door/airlock/multi_tile/almayer/generic{
+	name = "Hydroponics"
+	},
+/turf/open/floor/wood/ship,
+/area/space)
+"bvL" = (
+/turf/open/floor/wood/ship,
+/area/space)
+"bvM" = (
+/obj/structure/sign/banners/united_americas_flag,
+/turf/closed/wall/new_varadero,
+/area/almayer/command/combat_correspondent)
+"bvN" = (
+/obj/structure/surface/table/woodentable/fancy,
+/obj/structure/machinery/computer/cameras/wooden_tv{
+	desc = "An old TV hooked up to a video cassette recorder, you can even use it to time shift WOW.";
+	dir = 4;
+	layer = 3.2;
+	name = "Television set";
+	network = null;
+	pixel_y = 4
+	},
+/turf/open/floor/wood/ship,
+/area/almayer/command/combat_correspondent)
+"bvO" = (
+/obj/structure/bed/chair/comfy{
+	dir = 8
+	},
+/turf/open/floor/wood/ship,
+/area/almayer/command/combat_correspondent)
+"bvP" = (
+/obj/structure/noticeboard{
+	pixel_y = 29
+	},
+/obj/structure/noticeboard{
+	pixel_y = 30;
+	icon_state = "notices_6";
+	desc = null;
+	name = "sticky notes"
+	},
+/turf/open/floor/wood/ship,
+/area/space)
+"bvQ" = (
+/obj/structure/coatrack,
+/turf/open/floor/wood/ship,
+/area/space)
+"bvR" = (
+/obj/structure/surface/table/woodentable/fancy,
+/obj/structure/machinery/hybrisa/coffee_machine,
+/turf/open/floor/wood/ship,
+/area/almayer/command/combat_correspondent)
+"bvS" = (
+/obj/structure/surface/table/woodentable/fancy,
+/obj/item/reagent_container/food/drinks/milk{
+	layer = 2.9;
+	pixel_x = -9
+	},
+/obj/item/reagent_container/food/drinks/soymilk{
+	pixel_x = -5
+	},
+/obj/item/reagent_container/food/drinks/coffee{
+	pixel_x = 5;
+	pixel_y = 9
+	},
+/obj/item/reagent_container/food/drinks/coffeecup/uscm{
+	pixel_x = 7;
+	pixel_y = 5;
+	name = "TWE coffee mug";
+	desc = "A red, white and blue coffee mug depicting the flag of the TWE. Patriotic and bold, and commonly seen among veterans as a novelty."
+	},
+/obj/item/reagent_container/food/drinks/coffeecup{
+	pixel_x = 9;
+	pixel_y = -4
+	},
+/turf/open/floor/wood/ship,
+/area/almayer/command/combat_correspondent)
+"bvT" = (
+/obj/structure/surface/table/woodentable/fancy,
+/obj/item/reagent_container/food/drinks/tea{
+	pixel_x = 4
+	},
+/obj/item/prop/helmetgarb/rabbitsfoot{
+	pixel_x = -7;
+	pixel_y = -3
+	},
+/obj/item/clothing/head/flatcap{
+	pixel_y = 9;
+	pixel_x = -7
+	},
+/turf/open/floor/wood/ship,
+/area/almayer/command/combat_correspondent)
+"bvU" = (
+/obj/structure/window/framed/new_varadero/foundation,
+/obj/structure/curtain/colorable_transparent{
+	color = "#8a6161";
+	alpha = 225;
+	layer = 2.9
+	},
+/turf/open/floor/plating,
+/area/almayer/command/combat_correspondent)
+"bvV" = (
+/turf/open/floor/carpet5_1,
+/area/almayer/command/combat_correspondent)
+"bvW" = (
+/obj/structure/surface/table/woodentable/fancy,
+/obj/item/spacecash,
+/obj/item/storage/fancy/cigar{
+	pixel_y = 10
+	},
+/obj/item/storage/fancy/cigar/matchbook/exec_select{
+	pixel_x = -4;
+	pixel_y = 12
+	},
+/turf/open/floor/carpet13_5,
+/area/almayer/command/combat_correspondent)
+"bvX" = (
+/turf/open/floor/carpet9_4,
+/area/almayer/command/combat_correspondent)
+"bvY" = (
+/obj/structure/surface/table/woodentable/fancy,
+/obj/structure/machinery/microwave{
+	pixel_y = 6
+	},
+/obj/item/reagent_container/food/snacks/sliceable/creamcheesebread{
+	pixel_y = 19;
+	pixel_x = 3
+	},
+/turf/open/floor/wood/ship,
+/area/almayer/command/combat_correspondent)
+"bvZ" = (
+/obj/structure/machinery/door/airlock/almayer/generic/autoname{
+	dir = 8
+	},
+/turf/open/floor/plating,
+/area/almayer/command/combat_correspondent)
+"bwa" = (
+/turf/open/floor/carpet7_3,
+/area/almayer/command/combat_correspondent)
+"bwb" = (
+/obj/structure/surface/table/woodentable/fancy,
+/obj/structure/machinery/prop/almayer/computer/PC{
+	dir = 4;
+	pixel_y = 3
+	},
+/turf/open/floor/carpet15_15,
+/area/almayer/command/combat_correspondent)
+"bwc" = (
+/obj/structure/bed/chair/comfy{
+	dir = 8
+	},
+/turf/open/floor/carpet11_12,
+/area/almayer/command/combat_correspondent)
+"bwd" = (
+/obj/structure/sign/calendar/ua,
+/turf/closed/wall/new_varadero,
+/area/almayer/command/combat_correspondent)
+"bwe" = (
+/obj/structure/toilet{
+	dir = 4;
+	pixel_y = 4
+	},
+/turf/open/floor/hybrisa/tile/tilewhite,
+/area/space)
+"bwf" = (
+/obj/structure/sign/safety/bathunisex{
+	desc = "Semiotic Standard denoting the nearby presence of a bathroom.";
+	name = "bathroom semiotic";
+	pixel_x = -16;
+	pixel_y = 8
+	},
+/turf/open/floor/wood/ship,
+/area/almayer/command/combat_correspondent)
+"bwg" = (
+/obj/structure/surface/table/woodentable/fancy,
+/obj/structure/machinery/prop/almayer/computer/PC{
+	dir = 1;
+	pixel_x = 2;
+	pixel_y = 2
+	},
+/obj/item/reagent_container/food/drinks/dry_ramen{
+	pixel_y = 12;
+	pixel_x = -9
+	},
+/turf/open/floor/wood/ship,
+/area/almayer/command/combat_correspondent)
+"bwh" = (
+/turf/open/floor/carpet6_2,
+/area/almayer/command/combat_correspondent)
+"bwi" = (
+/obj/structure/surface/table/woodentable/fancy,
+/obj/structure/machinery/faxmachine/press/highcom{
+	pixel_y = 6
+	},
+/turf/open/floor/carpet14_10,
+/area/almayer/command/combat_correspondent)
+"bwj" = (
+/obj/structure/surface/table/woodentable/fancy,
+/obj/item/smallDelivery{
+	pixel_x = 6;
+	pixel_y = 8
+	},
+/obj/item/device/flashlight/lamp/green{
+	pixel_y = 13;
+	pixel_x = -7
+	},
+/obj/item/paper_bin/uscm{
+	pixel_x = -7;
+	pixel_y = 3
+	},
+/obj/item/tool/pen/multicolor/fountain{
+	pixel_x = 4
+	},
+/turf/open/floor/carpet10_8,
+/area/almayer/command/combat_correspondent)
+"bwk" = (
+/obj/structure/sign/poster/music,
+/turf/closed/wall/new_varadero,
+/area/almayer/command/combat_correspondent)
+"bwl" = (
+/obj/structure/sink{
+	pixel_y = 22
+	},
+/obj/structure/mirror{
+	pixel_y = 32;
+	pixel_x = -1
+	},
+/turf/open/floor/hybrisa/tile/tilewhite,
+/area/space)
+"bwm" = (
+/obj/structure/prop/hybrisa/misc/buildinggreebliessmall/smallvent3{
+	pixel_y = 28;
+	pixel_x = 8
+	},
+/turf/open/floor/hybrisa/tile/tilewhite,
+/area/space)
+"bwn" = (
+/obj/structure/machinery/door/airlock/almayer/generic/autoname{
+	dir = 8
+	},
+/turf/open/space/basic,
+/area/almayer/command/combat_correspondent)
+"bwo" = (
+/obj/structure/bed/sofa{
+	icon_state = "couch_hori1"
+	},
+/turf/open/floor/wood/ship,
+/area/almayer/command/combat_correspondent)
+"bwp" = (
+/obj/structure/bed/sofa{
+	icon_state = "couch_hori3"
+	},
+/turf/open/floor/wood/ship,
+/area/almayer/command/combat_correspondent)
+"bwq" = (
+/obj/structure/bed/chair/comfy,
+/turf/open/floor/wood/ship,
+/area/almayer/command/combat_correspondent)
+"bwr" = (
+/obj/structure/prop/hybrisa/misc/buildinggreebliessmall/smallvent3{
+	pixel_y = 28;
+	pixel_x = -12
+	},
+/obj/structure/prop/hybrisa/misc/buildinggreebliessmall/smallvent3{
+	pixel_y = 28;
+	pixel_x = 8
+	},
+/turf/open/floor/wood/ship,
+/area/almayer/command/combat_correspondent)
+"bws" = (
+/obj/structure/filingcabinet/documentation/highcom/press{
+	pixel_x = 8;
+	pixel_y = 24;
+	density = 0
+	},
+/obj/structure/filingcabinet{
+	density = 0;
+	pixel_y = 24;
+	pixel_x = -7
+	},
+/turf/open/floor/wood/ship,
+/area/almayer/command/combat_correspondent)
+"bwt" = (
+/obj/structure/safe/co_office,
+/turf/open/floor/wood/ship,
+/area/almayer/command/combat_correspondent)
+"bwu" = (
+/obj/structure/window/framed/new_varadero/foundation,
+/obj/structure/curtain/colorable_transparent{
+	color = "#887362";
+	alpha = 225;
+	layer = 2.9
+	},
+/turf/open/floor/plating,
+/area/almayer/command/combat_correspondent)
 "byH" = (
 /obj/effect/decal/warning_stripes{
 	icon_state = "test_square"
@@ -79100,9 +79400,9 @@ aHj
 bup
 buq
 ady
-buw
-buW
-buw
+buo
+buo
+buo
 buo
 buQ
 boy
@@ -79464,9 +79764,9 @@ buQ
 buo
 ady
 ady
-buW
-buW
-buW
+buo
+buo
+buo
 buo
 ady
 quj
@@ -79643,7 +79943,7 @@ abP
 abP
 avs
 buR
-buw
+buo
 ady
 ady
 buo
@@ -79825,7 +80125,7 @@ abP
 abP
 akG
 buS
-buw
+buo
 ady
 ady
 buo
@@ -80007,7 +80307,7 @@ abP
 akG
 atE
 buT
-buW
+buo
 ady
 ady
 buo
@@ -80193,9 +80493,9 @@ buo
 ady
 boy
 buo
-buW
-buW
-buW
+buo
+buo
+buo
 boy
 boy
 ady
@@ -80370,7 +80670,7 @@ abP
 abP
 akG
 atE
-buW
+buo
 ady
 quj
 buo
@@ -80556,9 +80856,9 @@ acG
 bow
 buk
 buY
-buX
-buX
-buw
+buY
+buY
+buo
 boy
 boy
 boy
@@ -83503,21 +83803,21 @@ abP
 abP
 abP
 abP
-abP
-abP
-abP
-abP
-abP
-abP
 adf
-aSX
-aSX
-aSX
-aSX
-aSX
-aSX
-aSX
 adf
+adf
+adf
+adf
+adf
+adf
+bvs
+bvs
+bvs
+bvs
+bvs
+bvm
+bvk
+bvh
 abP
 abP
 adf
@@ -83686,20 +83986,20 @@ abP
 abP
 abP
 adf
+bwl
+bwe
 adf
-adf
-adf
-adf
-adf
-adf
-aSX
-aSX
-aSX
-aSX
+bvP
+bvL
+bvK
+bvs
+bvs
+bvs
+bvs
 aKo
-aKo
-aSX
-adf
+aqP
+bvl
+bvh
 abP
 abP
 adf
@@ -83868,20 +84168,20 @@ abP
 abP
 abP
 adf
-aSX
-aSX
-aSX
-aSX
-aSX
-aSX
-aKo
-aKo
-aKo
-aKo
-aKo
-aKo
-aSX
+bwm
+avP
 adf
+bvQ
+bvL
+bvL
+aKo
+bvz
+bvu
+aKo
+aKo
+aKo
+bvm
+bvh
 abP
 abP
 adf
@@ -84050,20 +84350,20 @@ abP
 abP
 acI
 acp
+bwn
+acp
+acp
+bvR
+aqM
+acp
+bvG
+bvA
+bvv
+bvq
+bvq
+bvq
 aKo
-aKo
-aKo
-aKo
-aKo
-aKo
-aKo
-aKo
-aKo
-aKo
-aKo
-aKo
-aKo
-adf
+bvi
 abP
 abP
 adf
@@ -84231,20 +84531,20 @@ abP
 abP
 abP
 acI
+bwu
+aqM
+bwf
+bvY
+bvS
+aqM
 acp
-aKo
-aKo
-aKo
-aKo
-aKo
-acp
-aKo
-aKo
-aKo
-aKo
-aKo
-aKo
-aKo
+bvH
+bvB
+bvw
+bvt
+bvt
+bvr
+bvn
 adf
 abP
 abP
@@ -84413,21 +84713,21 @@ abP
 abP
 abP
 acI
-acp
-aKo
-aKo
-aKo
-aKo
-aKo
-acp
-aKo
-aKo
-aKo
-aKo
-aKo
-aKo
-aKo
-adf
+bwu
+bwo
+aqM
+aqM
+aqM
+aqM
+bvM
+bvC
+bvB
+bvx
+bvo
+bvo
+bvo
+bvo
+bvj
 abP
 abP
 adf
@@ -84595,21 +84895,21 @@ abP
 abP
 abP
 abP
+bwu
+bwp
+aqM
+aqM
+bvT
+bvN
 acp
-aKo
-aKo
-aKo
-aKo
-aKo
-acp
-aKo
-aKo
-aqt
-aqW
-aqW
-aqW
-aqt
-aqo
+bvC
+bvB
+bvx
+bvo
+bvo
+bvo
+bvo
+abZ
 abP
 abP
 adf
@@ -84777,21 +85077,21 @@ abP
 abP
 abP
 abP
+bwu
+bwq
+bwg
+aqM
+aqM
+bvO
 acp
-aKo
-aKo
-aKo
-aKo
-aKo
-acp
-aKo
-aKo
+bvI
+bvC
 aqt
-arK
-arA
-arg
-aqF
-aqo
+bvt
+bvt
+bvr
+bvn
+adf
 abP
 abP
 adf
@@ -84960,20 +85260,20 @@ abP
 abP
 abP
 acp
-aKo
-aKo
-aKo
-aKo
-aKo
 acp
-aKo
-aKo
-aqt
-ata
+bvU
+bvZ
+bvU
+acp
+acp
+bvJ
+bvD
+bvy
+bvq
 arD
-arh
-aqM
-aqo
+bvq
+aKo
+bvi
 abP
 abP
 adf
@@ -85142,20 +85442,20 @@ abP
 abP
 aBP
 adf
-aKo
-aKo
-aKo
-aKo
-aKo
+bwr
+bwh
+bwa
+bvV
+aqM
 acp
 aKo
-aKo
+bvE
 aue
-atV
-arE
-arm
+aKo
+aKo
+aKo
 aqP
-aqo
+bvh
 abP
 abP
 adf
@@ -85179,7 +85479,7 @@ bks
 bkk
 aHL
 aHL
-aHL
+bvf
 bjK
 azF
 aBe
@@ -85324,20 +85624,20 @@ abP
 aBP
 aBP
 adf
-aKo
-aKo
-aKo
-aKo
-aKo
+bws
+bwi
+bwb
+bvW
+aqM
 acp
 aKo
 aKo
-aqt
-atZ
-arD
-arq
-aqM
-aqo
+aKo
+aKo
+aKo
+aqP
+bvp
+bvh
 abP
 abP
 adf
@@ -85506,20 +85806,20 @@ aBP
 aBP
 aBP
 adf
-aKo
-aKo
-aKo
-aKo
-aKo
+bwt
+bwj
+bwc
+bvX
+aqM
 acp
-aix
-aix
-aqt
-aua
-arg
-arr
+aKo
+aKo
+aKo
+aKo
+aKo
+aqP
 aqT
-aqo
+bvh
 abP
 abP
 adf
@@ -85688,20 +85988,20 @@ aBP
 aBP
 aBP
 adf
-aKo
-aKo
-aKo
-aKo
-aKo
+acp
+bwk
+bwd
+acp
+acp
 acp
 aix
-aix
-aqt
-aqW
-aqW
-aqW
-aqt
-aqo
+bvF
+acp
+acp
+acp
+acp
+acp
+adf
 abP
 abP
 adf
@@ -86271,7 +86571,7 @@ abg
 aHL
 bke
 bjT
-bjT
+bvg
 bjN
 aHL
 aBe
