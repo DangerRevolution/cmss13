@@ -1326,6 +1326,10 @@
 /obj/structure/machinery/chem_dispenser/soda/beer,
 /turf/closed/wall/new_varadero,
 /area/bigred/ground/chapel)
+"aep" = (
+/obj/effect/landmark/railgun_camera_pos,
+/turf/open/auto_turf/sand_white/layer1,
+/area/space)
 "aeq" = (
 /turf/open/shuttle/dropship/predship/tile/hunter_tile_1,
 /area/space)
@@ -151634,7 +151638,7 @@ aBC
 aBC
 asA
 aBC
-aBC
+aep
 aBC
 aBC
 aBC
