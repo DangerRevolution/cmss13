@@ -24299,6 +24299,22 @@
 /obj/effect/landmark/corpsespawner/colonist/burst,
 /turf/open/floor/shiva,
 /area/bigred/ground/kitchen)
+"buN" = (
+/obj/structure/barricade/handrail/hybrisa{
+	dir = 1
+	},
+/turf/open/floor/shiva,
+/area/space)
+"buO" = (
+/obj/structure/barricade/handrail/hybrisa{
+	dir = 4
+	},
+/turf/open/floor/shiva,
+/area/space)
+"buP" = (
+/obj/structure/barricade/handrail/hybrisa,
+/turf/open/floor/shiva,
+/area/space)
 "byH" = (
 /obj/effect/decal/warning_stripes{
 	icon_state = "test_square"
@@ -77942,11 +77958,11 @@ aaa
 abP
 abP
 abP
+buO
 abP
 abP
-abP
-abP
-abP
+buO
+buO
 abP
 avb
 byH
@@ -79571,7 +79587,7 @@ abP
 abP
 abP
 abP
-abP
+buP
 abP
 abP
 abP
@@ -79593,7 +79609,7 @@ akG
 buj
 abP
 abP
-abP
+buN
 abP
 abP
 abP
@@ -80117,7 +80133,7 @@ abP
 abP
 abP
 abP
-abP
+buP
 abP
 buD
 akG
@@ -80139,7 +80155,7 @@ atE
 akG
 abP
 abP
-abP
+buN
 abP
 abP
 abP
