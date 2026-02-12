@@ -3166,11 +3166,6 @@
 	},
 /turf/open/floor/rampbottom,
 /area/space)
-"akB" = (
-/obj/structure/sign/safety/bathwomens,
-/obj/item/stack/rods,
-/turf/closed/wall/new_varadero,
-/area/corsat/sigma/dorms)
 "akC" = (
 /obj/structure/prop/hybrisa/misc/blood/blood3{
 	pixel_x = -9;
@@ -24169,7 +24164,7 @@
 "bul" = (
 /obj/item/stack/rods,
 /obj/item/stack/sheet/metal,
-/turf/open/floor/shiva,
+/turf/open/floor/plating/burnt_platingdmg3,
 /area/corsat/sigma/dorms)
 "bum" = (
 /turf/open/floor/plating/platingdmg2,
@@ -24214,7 +24209,7 @@
 /turf/open/floor/plating,
 /area/ice_colony/surface/disposals)
 "buw" = (
-/obj/structure/prop/hybrisa/xenobiology/misc,
+/obj/structure/prop/new_varadero_props/egg_open,
 /turf/open/floor/almayer/research/containment/yautja/alt,
 /area/space)
 "bux" = (
@@ -24317,6 +24312,25 @@
 /obj/item/skull/carrier,
 /turf/closed/wall/huntership/destructible,
 /area/space)
+"buU" = (
+/obj/item/prop/alien/hugger,
+/turf/open/floor/plating/burnt_platingdmg3,
+/area/corsat/sigma/dorms)
+"buV" = (
+/obj/structure/prop/hybrisa/xenobiology/misc,
+/turf/open/floor/shiva,
+/area/space)
+"buW" = (
+/obj/structure/prop/new_varadero_props/egg_destroyed,
+/turf/open/floor/almayer/research/containment/yautja/alt,
+/area/space)
+"buX" = (
+/obj/structure/prop/new_varadero_props/egg_destroyed,
+/turf/open/floor/almayer/research/containment/yautja/alt,
+/area/corsat/sigma/dorms)
+"buY" = (
+/turf/open/floor/almayer/research/containment/yautja/alt,
+/area/corsat/sigma/dorms)
 "byH" = (
 /obj/effect/decal/warning_stripes{
 	icon_state = "test_square"
@@ -77601,7 +77615,7 @@ abP
 abP
 abP
 abP
-abP
+buV
 avb
 tRi
 auZ
@@ -79053,7 +79067,7 @@ bup
 buq
 ady
 buw
-buw
+buW
 buw
 buo
 buQ
@@ -79416,9 +79430,9 @@ buQ
 buo
 ady
 ady
-buo
-buw
-buw
+buW
+buW
+buW
 buo
 ady
 quj
@@ -79780,8 +79794,8 @@ buS
 buw
 ady
 ady
-boy
-boy
+buo
+buo
 atE
 atE
 atE
@@ -79959,13 +79973,13 @@ abP
 akG
 atE
 buT
-buw
+buW
 ady
 ady
-ady
-ady
-boy
-boy
+buo
+buo
+buo
+buo
 boy
 boy
 ady
@@ -80144,10 +80158,10 @@ buI
 buo
 ady
 boy
-boy
-ady
-boy
-boy
+buo
+buW
+buW
+buW
 boy
 boy
 ady
@@ -80322,13 +80336,13 @@ abP
 abP
 akG
 atE
-buw
+buW
 ady
 quj
-boy
-boy
-ady
-boy
+buo
+buo
+buo
+buo
 boy
 boy
 boy
@@ -80507,10 +80521,10 @@ agx
 acG
 bow
 buk
-bow
-bum
-bum
-boy
+buY
+buX
+buX
+buw
 boy
 boy
 boy
@@ -80689,10 +80703,10 @@ acT
 acT
 acT
 bow
-bow
-bum
-bum
-boy
+buY
+buY
+buY
+buo
 boy
 boy
 boy
@@ -80882,8 +80896,8 @@ boy
 bow
 bow
 bow
-auM
-auM
+bow
+bow
 auM
 acT
 agx
@@ -81064,8 +81078,8 @@ boy
 bow
 bow
 buk
-acT
-acT
+acG
+bow
 buG
 buF
 agx
@@ -81235,7 +81249,7 @@ acT
 avF
 avF
 bow
-bow
+acG
 bow
 bum
 boy
@@ -81246,8 +81260,8 @@ boy
 bow
 bow
 bul
-auM
-auM
+acG
+bow
 auM
 acT
 auK
@@ -81417,7 +81431,7 @@ acT
 agx
 agx
 bow
-bow
+acG
 bow
 bum
 boy
@@ -81426,10 +81440,10 @@ boy
 boy
 boy
 bow
-buu
-akB
-agx
-agx
+bow
+bow
+bow
+bow
 agx
 agx
 agx
@@ -81599,7 +81613,7 @@ acT
 avF
 avF
 avF
-bow
+acG
 bum
 bum
 boy
@@ -81609,9 +81623,9 @@ boy
 boy
 bow
 buk
-auM
-auM
-auM
+bow
+bow
+bow
 auM
 acT
 auK
@@ -81791,9 +81805,9 @@ boy
 boy
 bow
 buk
-acT
-acT
-buG
+bow
+bow
+buU
 buF
 acT
 agx
@@ -81973,9 +81987,9 @@ boy
 boy
 bow
 bow
-auM
-auM
-auM
+bow
+bow
+bow
 auM
 acT
 agx
@@ -82516,7 +82530,7 @@ boy
 boy
 boy
 boy
-ady
+atE
 bum
 bow
 bow
@@ -82697,7 +82711,7 @@ bpa
 ady
 boy
 boy
-boy
+atE
 ady
 avp
 arx
