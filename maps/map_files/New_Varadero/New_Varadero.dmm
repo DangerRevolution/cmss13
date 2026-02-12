@@ -1,8 +1,4 @@
 //MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
-"aaa" = (
-/obj/structure/window/framed/new_varadero/foundation,
-/turf/open/floor/shiva,
-/area/space)
 "aab" = (
 /obj/structure/prop/hybrisa/factory/conveyor_belt,
 /obj/structure/ship_ammo/minirocket/incendiary,
@@ -90968,11 +90964,11 @@ acx
 acx
 abi
 abi
+acx
 abi
 abi
-abi
-abP
-aaa
+adf
+adf
 abP
 abP
 abP
@@ -91154,8 +91150,8 @@ abp
 aea
 aea
 abe
-aaa
-aaa
+adf
+adf
 abP
 abP
 abP
@@ -91882,8 +91878,8 @@ aen
 adL
 adL
 adL
-agn
-agn
+acr
+acr
 adM
 adM
 abP
@@ -92060,11 +92056,11 @@ acz
 acr
 agn
 agn
+acr
 agn
 agn
-agn
-adM
-agn
+acr
+acr
 adM
 adM
 adM
