@@ -2622,10 +2622,6 @@
 	dir = 8;
 	color = "#6b675e"
 	},
-/obj/effect/hunter/rune{
-	dir = 1;
-	pixel_y = 1
-	},
 /turf/open/floor/corsat/box,
 /area/shipyard/entertainment/canteen/commons)
 "aiT" = (
@@ -2747,10 +2743,6 @@
 /obj/structure/pipes/standard/simple/hidden{
 	dir = 9;
 	color = "#6b675e"
-	},
-/obj/effect/hunter/rune{
-	dir = 1;
-	pixel_y = 1
 	},
 /turf/open/floor/corsat/box,
 /area/shipyard/entertainment/canteen/commons)
@@ -3042,14 +3034,6 @@
 /obj/structure/pipes/standard/simple/hidden{
 	dir = 1;
 	color = "#6b675e"
-	},
-/obj/effect/hunter/rune/stripes_arrow{
-	dir = 1;
-	pixel_y = -4
-	},
-/obj/effect/hunter/rune{
-	dir = 1;
-	pixel_y = 1
 	},
 /turf/open/floor/corsat/box,
 /area/shipyard/entertainment/canteen/commons)
@@ -24314,6 +24298,24 @@
 "buP" = (
 /obj/structure/barricade/handrail/hybrisa,
 /turf/open/floor/shiva,
+/area/space)
+"buQ" = (
+/obj/structure/machinery/door/airlock/yautja{
+	dir = 1
+	},
+/turf/open/floor/plating,
+/area/space)
+"buR" = (
+/obj/item/skull/hivelord,
+/turf/closed/wall/huntership/destructible,
+/area/space)
+"buS" = (
+/obj/item/skull/queen,
+/turf/closed/wall/huntership/destructible,
+/area/space)
+"buT" = (
+/obj/item/skull/carrier,
+/turf/closed/wall/huntership/destructible,
 /area/space)
 "byH" = (
 /obj/effect/decal/warning_stripes{
@@ -79054,7 +79056,7 @@ buw
 buw
 buw
 buo
-abP
+buQ
 boy
 hwu
 bmb
@@ -79410,7 +79412,7 @@ abP
 abP
 abP
 akG
-atE
+buQ
 buo
 ady
 ady
@@ -79592,7 +79594,7 @@ abP
 abP
 abP
 avs
-atE
+buR
 buw
 ady
 ady
@@ -79774,7 +79776,7 @@ abP
 abP
 abP
 akG
-atE
+buS
 buw
 ady
 ady
@@ -79956,7 +79958,7 @@ abP
 abP
 akG
 atE
-atE
+buT
 buw
 ady
 ady
