@@ -24339,6 +24339,32 @@
 /obj/structure/curtain/colorable,
 /turf/open/floor/plating/burnt_platingdmg3,
 /area/corsat/sigma/dorms)
+"bva" = (
+/obj/effect/acid_hole{
+	dir = 4
+	},
+/turf/closed/wall/huntership/destructible,
+/area/lv759/indoors/apartment/westshowers)
+"bvb" = (
+/obj/effect/acid_hole{
+	dir = 4
+	},
+/turf/closed/wall/huntership/destructible,
+/area/space)
+"bvc" = (
+/obj/effect/acid_hole,
+/turf/closed/wall/huntership/destructible,
+/area/space)
+"bvd" = (
+/obj/effect/acid_hole{
+	dir = 8
+	},
+/turf/closed/wall/new_varadero/concrete,
+/area/space)
+"bve" = (
+/obj/effect/acid_hole,
+/turf/closed/wall/new_varadero/concrete,
+/area/space)
 "byH" = (
 /obj/effect/decal/warning_stripes{
 	icon_state = "test_square"
@@ -78710,7 +78736,7 @@ bup
 buA
 aHj
 atE
-atE
+bvb
 atE
 abZ
 atE
@@ -80161,7 +80187,7 @@ buP
 abP
 buD
 akG
-atE
+bvc
 buI
 buo
 ady
@@ -82727,7 +82753,7 @@ arx
 arx
 arx
 arx
-agS
+bva
 agS
 agS
 agS
@@ -120005,8 +120031,8 @@ aJi
 aUq
 aBV
 asf
-asf
-asf
+bvd
+bvd
 asf
 asf
 asf
@@ -123443,7 +123469,7 @@ ajq
 ajq
 ajq
 ajq
-asf
+bve
 aVZ
 anb
 ate
@@ -123855,7 +123881,7 @@ asf
 asf
 asf
 asf
-asf
+bvd
 asf
 asf
 aBe
