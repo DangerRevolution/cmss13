@@ -3704,6 +3704,10 @@
 	},
 /turf/open/floor/shiva,
 /area/space)
+"amf" = (
+/obj/item/stack/rods,
+/turf/open/floor/plating/platingdmg2,
+/area/lv759/indoors/apartment/westshowers)
 "amg" = (
 /obj/structure/surface/table/woodentable/poor,
 /obj/item/notepad,
@@ -6733,6 +6737,10 @@
 	},
 /turf/open/auto_turf/sand_white/layer1,
 /area/space)
+"avo" = (
+/obj/item/stack/rods,
+/turf/open/floor/plating/platingdmg2,
+/area/space)
 "avp" = (
 /turf/open/floor/plating/burnt_platingdmg3,
 /area/shipyard/entertainment/canteen/commons)
@@ -6749,6 +6757,10 @@
 /obj/structure/platform_decoration/metal/hunter,
 /obj/effect/hunter/catwalk/new_alpha,
 /turf/open/shuttle/bright_red/glow,
+/area/space)
+"avs" = (
+/obj/item/stack/sheet/metal,
+/turf/open/floor/corsat,
 /area/space)
 "avt" = (
 /obj/structure/prop/hunter/fake_platform/hunter/east,
@@ -6795,6 +6807,11 @@
 /obj/structure/prop/hunter/fake_platform/hunter/west,
 /obj/structure/platform_decoration/metal/hunter/north,
 /turf/open/shuttle/dropship/predship/tile/hunter_tile_5/north,
+/area/space)
+"avz" = (
+/obj/item/stack/rods,
+/obj/item/stack/sheet/metal,
+/turf/open/floor/shiva,
 /area/space)
 "avA" = (
 /obj/structure/machinery/door/poddoor/shutters/almayer{
@@ -24167,6 +24184,7 @@
 /area/corsat/sigma/dorms)
 "bul" = (
 /obj/item/stack/rods,
+/obj/item/stack/sheet/metal,
 /turf/open/floor/shiva,
 /area/corsat/sigma/dorms)
 "bum" = (
@@ -24203,6 +24221,46 @@
 	},
 /turf/open/floor/plating/platingdmg2,
 /area/almayer/engineering/laundry)
+"buu" = (
+/obj/structure/girder,
+/turf/open/floor/plating/burnt_platingdmg3,
+/area/corsat/sigma/dorms)
+"buv" = (
+/obj/structure/girder,
+/turf/open/floor/plating,
+/area/ice_colony/surface/disposals)
+"buw" = (
+/obj/structure/prop/hybrisa/xenobiology/misc,
+/turf/open/floor/almayer/research/containment/yautja/alt,
+/area/space)
+"bux" = (
+/obj/item/stack/rods,
+/turf/open/floor/plating/platingdmg2,
+/area/bigred/ground/kitchen)
+"buy" = (
+/obj/structure/girder,
+/turf/open/floor/plating,
+/area/space)
+"buz" = (
+/obj/item/stack/sheet/metal,
+/turf/open/floor/plating/burnt_platingdmg3,
+/area/corsat/sigma/dorms)
+"buA" = (
+/obj/item/stack/sheet/metal/small_stack,
+/turf/open/floor/corsat,
+/area/almayer/engineering/laundry)
+"buB" = (
+/obj/item/stack/sheet/metal,
+/turf/open/floor/corsat,
+/area/almayer/engineering/laundry)
+"buC" = (
+/obj/item/stack/rods,
+/turf/open/floor/plating/burnt_platingdmg3,
+/area/bigred/ground/kitchen)
+"buD" = (
+/obj/item/stack/sheet/metal,
+/turf/open/floor/shiva,
+/area/space)
 "byH" = (
 /obj/effect/decal/warning_stripes{
 	icon_state = "test_square"
@@ -78209,7 +78267,7 @@ aHj
 aHj
 aHj
 aHj
-adf
+buy
 abP
 bun
 akG
@@ -78391,14 +78449,14 @@ aHj
 aHj
 aHj
 aHj
-adf
+buy
 akG
 bun
 bun
 akG
 bun
 akG
-auL
+buv
 pIX
 auZ
 avl
@@ -78571,12 +78629,12 @@ abe
 aHj
 aHj
 bup
-bup
+buA
 aHj
 atE
 atE
 atE
-atE
+abZ
 atE
 atE
 ady
@@ -78752,7 +78810,7 @@ aHj
 aHj
 aHj
 aHj
-bup
+buB
 bus
 bup
 ady
@@ -78938,9 +78996,9 @@ aHj
 bup
 buq
 ady
-buo
-buo
-buo
+buw
+buw
+buw
 buo
 abP
 boy
@@ -79297,21 +79355,21 @@ abP
 abP
 abP
 abP
-abP
+akG
 atE
 buo
 ady
 ady
 buo
-buo
-buo
+buw
+buw
 buo
 ady
 quj
 ady
 atE
 akG
-buj
+avz
 abP
 abP
 abP
@@ -79479,9 +79537,9 @@ abP
 abP
 abP
 abP
-abP
+avs
 atE
-buo
+buw
 ady
 ady
 buo
@@ -79661,9 +79719,9 @@ abP
 abP
 abP
 abP
-abP
+akG
 atE
-buo
+buw
 ady
 ady
 boy
@@ -79842,10 +79900,10 @@ abP
 abP
 abP
 abP
-abP
+akG
 atE
 atE
-buo
+buw
 ady
 ady
 ady
@@ -79858,7 +79916,7 @@ ady
 ady
 atE
 akG
-akG
+avs
 abP
 abP
 abP
@@ -80023,8 +80081,8 @@ abP
 abP
 abP
 abP
-abP
-abP
+buD
+akG
 atE
 buo
 buo
@@ -80206,9 +80264,9 @@ abP
 abP
 abP
 abP
-abP
+akG
 atE
-buo
+buw
 ady
 quj
 boy
@@ -80938,7 +80996,7 @@ agx
 acT
 acT
 acT
-bow
+buz
 buk
 bow
 bum
@@ -81312,7 +81370,7 @@ boy
 boy
 boy
 bow
-bow
+buu
 akB
 agx
 agx
@@ -82393,8 +82451,8 @@ agx
 agx
 agx
 bow
-agx
-agx
+buu
+buu
 buk
 bum
 bum
@@ -82411,7 +82469,7 @@ bow
 bow
 bow
 bow
-bow
+buk
 bow
 bow
 agx
@@ -83119,7 +83177,7 @@ ahi
 ahi
 ahi
 amz
-avv
+buC
 acL
 amb
 amb
@@ -83665,7 +83723,7 @@ acN
 acN
 acN
 acN
-avv
+buC
 als
 als
 als
@@ -83850,7 +83908,7 @@ acN
 avv
 als
 bpa
-bpa
+bux
 bpa
 bpa
 bpa
@@ -83869,7 +83927,7 @@ agS
 ahN
 ahq
 ahq
-box
+amf
 agO
 agO
 agO
@@ -84031,11 +84089,11 @@ ahi
 acN
 acN
 aHd
+bux
 bpa
 bpa
 bpa
-bpa
-bpa
+bux
 boy
 boy
 ady
@@ -84233,7 +84291,7 @@ boy
 boy
 boy
 boy
-boy
+avo
 ady
 ady
 ady
