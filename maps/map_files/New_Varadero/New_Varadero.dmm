@@ -22828,9 +22828,7 @@
 /area/space)
 "bpV" = (
 /obj/structure/window/framed/new_varadero/foundation/reinforced,
-/obj/structure/machinery/door/poddoor/almayer/planet_side_blastdoor{
-	id = "ammo_elevator"
-	},
+/obj/structure/machinery/door/poddoor/almayer/planet_side_blastdoor,
 /turf/open/floor/plating,
 /area/space)
 "bpW" = (
@@ -22857,8 +22855,7 @@
 /area/space)
 "bqb" = (
 /obj/structure/machinery/door/poddoor/railing/open{
-	dir = 8;
-	id = "ammo_elevator"
+	dir = 8
 	},
 /turf/open/floor/corsat/squares,
 /area/space)
@@ -22893,9 +22890,7 @@
 /turf/open/hybrisa/street/roadlines,
 /area/space)
 "bqj" = (
-/obj/structure/machinery/door_control/railings{
-	id = "ammo_elevator"
-	},
+/obj/structure/machinery/door_control/railings,
 /turf/closed/wall/new_varadero,
 /area/space)
 "bqk" = (
