@@ -703,6 +703,10 @@
 "aci" = (
 /turf/closed/wall/r_wall/unmeltable,
 /area/almayer/living/gym)
+"acj" = (
+/obj/structure/sign/safety/radio_rad,
+/turf/closed/wall/new_varadero,
+/area/space)
 "ack" = (
 /turf/open/floor/prison/darkpurple2,
 /area/space)
@@ -1199,7 +1203,7 @@
 /turf/open/floor/strata/fake_wood,
 /area/corsat/gamma/rnr/bar)
 "adP" = (
-/turf/open/floor/warning,
+/turf/open/floor/whiteblue/east,
 /area/varadero/exterior/pool)
 "adQ" = (
 /obj/structure/surface/table/woodentable/fancy,
@@ -1857,6 +1861,12 @@
 "agr" = (
 /turf/closed/wall/r_wall/unmeltable,
 /area/almayer/living/captain_mess)
+"ags" = (
+/obj/structure/machinery/door/airlock/multi_tile/almayer/generic{
+	name = "Hydroponics"
+	},
+/turf/open/floor/shiva,
+/area/fiorina/station/park)
 "agt" = (
 /obj/effect/hunter/bridge_border/brown/small_stair{
 	dir = 4;
@@ -2890,7 +2900,10 @@
 /turf/open/floor/plating,
 /area/space)
 "ajK" = (
-/turf/open/floor/warning,
+/obj/structure/bed/chair/bolted{
+	dir = 1
+	},
+/turf/open/floor/whiteblue,
 /area/space)
 "ajL" = (
 /obj/structure/showcase{
@@ -5353,7 +5366,10 @@
 /turf/closed/wall/new_varadero,
 /area/varadero/exterior/farocean)
 "arv" = (
-/turf/open/floor/warningcorner,
+/obj/structure/prop/hybrisa/misc/machinery/screens/gold_clock{
+	pixel_y = 40
+	},
+/turf/open/floor/whiteblue/north,
 /area/varadero/exterior/pool)
 "arw" = (
 /obj/structure/platform/metal/strata/north,
@@ -10428,6 +10444,10 @@
 	},
 /turf/open/floor/plating,
 /area/lv759/indoors/colonial_marshals/prisoners_cells)
+"aFx" = (
+/obj/structure/closet/athletic_mixed,
+/turf/open/floor/whitepurple/southwest,
+/area/space)
 "aFy" = (
 /turf/open/floor/darkbrown2,
 /area/space)
@@ -11348,6 +11368,15 @@
 /obj/structure/machinery/faxmachine,
 /obj/effect/landmark/objective_landmark/close,
 /turf/open/floor/wood,
+/area/space)
+"aIr" = (
+/obj/structure/machinery/shower{
+	dir = 1
+	},
+/obj/structure/pipes/vents/pump{
+	dir = 4
+	},
+/turf/open/floor/whitepurple,
 /area/space)
 "aIs" = (
 /obj/structure/ore_box{
@@ -14891,6 +14920,15 @@
 	},
 /turf/open/floor/shiva,
 /area/desert_dam/building/security/observation)
+"aSP" = (
+/obj/structure/pipes/vents/pump{
+	dir = 4
+	},
+/obj/structure/machinery/shower{
+	dir = 1
+	},
+/turf/open/floor/whitepurple,
+/area/space)
 "aSQ" = (
 /obj/structure/window/reinforced{
 	dir = 4
@@ -15972,6 +16010,10 @@
 	dir = 1
 	},
 /turf/open/floor/corsat/white/east,
+/area/space)
+"aVA" = (
+/obj/structure/surface/table,
+/turf/open/floor/whitepurple/southeast,
 /area/space)
 "aVB" = (
 /obj/structure/window/framed/new_varadero/foundation/reinforced,
@@ -17846,6 +17888,11 @@
 /obj/structure/prop/hybrisa/vehicles/Small_Truck/Garbage,
 /turf/open/asphalt/cement_sunbleached,
 /area/space)
+"bbO" = (
+/obj/structure/surface/rack,
+/obj/item/storage/firstaid/o2,
+/turf/open/floor/whiteblue/southwest,
+/area/space)
 "bbP" = (
 /obj/structure/prop/hybrisa/vehicles/Small_Truck/Blue{
 	dir = 1;
@@ -18709,6 +18756,9 @@
 /obj/effect/decal/hybrisa/road/lines4,
 /turf/open/asphalt/cement_sunbleached,
 /area/space)
+"bet" = (
+/turf/open/floor/whiteblue,
+/area/space)
 "beu" = (
 /obj/structure/prop/dam/truck/cargo,
 /obj/effect/decal/hybrisa/road/lines2{
@@ -18727,6 +18777,13 @@
 "bex" = (
 /obj/structure/machinery/colony_floodlight,
 /turf/open/asphalt/cement_shaded/full,
+/area/space)
+"bey" = (
+/turf/open/floor/whiteblue/southeast,
+/area/space)
+"bez" = (
+/obj/structure/closet/athletic_mixed,
+/turf/open/floor/whitepurple/west,
 /area/space)
 "beA" = (
 /turf/open/floor/corsat/squares,
@@ -19044,6 +19101,9 @@
 /obj/effect/decal/cleanable/blood/xeno,
 /turf/open/floor/corsat/officesquares,
 /area/space)
+"bfu" = (
+/turf/open/floor/whitepurplecorner/east,
+/area/space)
 "bfv" = (
 /obj/effect/landmark/survivor_spawner,
 /turf/open/floor/corsat/officesquares,
@@ -19091,6 +19151,9 @@
 	dir = 1
 	},
 /turf/open/floor/corsat/officesquares,
+/area/space)
+"bfC" = (
+/turf/open/floor/whitepurple/north,
 /area/space)
 "bfD" = (
 /obj/effect/decal/cleanable/blood/xeno,
@@ -23881,6 +23944,232 @@
 /obj/structure/prop/power_transformer,
 /turf/open/slippery/hull,
 /area)
+"btr" = (
+/turf/open/floor/whitepurple/northeast,
+/area/space)
+"bts" = (
+/obj/structure/machinery/door/airlock/almayer/generic/autoname{
+	dir = 8
+	},
+/turf/closed/wall/new_varadero,
+/area/space)
+"btt" = (
+/turf/open/floor/whiteblue/west,
+/area/space)
+"btu" = (
+/turf/open/floor/whitebluecorner/east,
+/area/space)
+"btv" = (
+/turf/open/floor/whiteblue/north,
+/area/space)
+"btw" = (
+/turf/open/floor/whiteblue/northeast,
+/area/space)
+"btx" = (
+/obj/structure/sign/safety/bathmens,
+/turf/closed/wall/new_varadero,
+/area/space)
+"bty" = (
+/turf/open/floor/whitepurple/east,
+/area/space)
+"btz" = (
+/obj/structure/sign/safety/water,
+/turf/closed/wall/new_varadero,
+/area/space)
+"btA" = (
+/obj/structure/surface/table,
+/obj/item/clothing/under/shorts/grey{
+	pixel_x = 4;
+	pixel_y = 5
+	},
+/turf/open/floor/whiteblue/west,
+/area/space)
+"btB" = (
+/turf/open/floor/whiteblue/east,
+/area/space)
+"btC" = (
+/obj/item/toy/plush/shark,
+/turf/open/gm/river/desert/shallow/pool,
+/area/space)
+"btD" = (
+/obj/structure/machinery/door/airlock/almayer/generic/autoname{
+	dir = 8
+	},
+/obj/structure/sign/safety/bathwomens{
+	pixel_x = 14;
+	pixel_y = -26
+	},
+/turf/open/floor/white,
+/area/varadero/exterior/pool)
+"btE" = (
+/obj/structure/sink{
+	pixel_y = 22
+	},
+/obj/structure/mirror{
+	pixel_y = 32;
+	pixel_x = -1
+	},
+/turf/open/floor/whitepurple/northwest,
+/area/varadero/exterior/pool)
+"btF" = (
+/turf/open/floor/whitepurple/north,
+/area/varadero/exterior/pool)
+"btG" = (
+/turf/open/floor/whitepurple/northeast,
+/area/varadero/exterior/pool)
+"btH" = (
+/obj/structure/machinery/door/airlock/almayer/generic/autoname,
+/turf/open/floor/whitepurple/northeast,
+/area/varadero/exterior/pool)
+"btI" = (
+/obj/structure/toilet{
+	dir = 8
+	},
+/turf/open/floor/white,
+/area/varadero/exterior/pool)
+"btJ" = (
+/obj/structure/surface/table,
+/turf/open/floor/whiteblue/west,
+/area/varadero/exterior/pool)
+"btK" = (
+/obj/item/toy/inflatable_duck,
+/turf/open/gm/river/desert/shallow/pool,
+/area/space)
+"btL" = (
+/obj/structure/machinery/door/airlock/almayer/generic/autoname{
+	dir = 1
+	},
+/obj/structure/prop/hybrisa/fakeplatforms,
+/turf/closed/wall/new_varadero,
+/area/varadero/exterior/pool)
+"btM" = (
+/obj/effect/decal/strata_decals/catwalk/prison,
+/obj/effect/mist/steam,
+/turf/open/floor/shiva/radiator_tile2,
+/area/varadero/exterior/pool)
+"btN" = (
+/obj/structure/bed/chair/wood/normal{
+	dir = 1;
+	pixel_y = 12;
+	buckling_y = 12
+	},
+/turf/open/floor/hybrisa/wood/darkerwood,
+/area/varadero/exterior/pool)
+"btO" = (
+/obj/structure/bed/chair/wood/normal{
+	dir = 1;
+	pixel_y = 12;
+	buckling_y = 12
+	},
+/obj/effect/mist/steam,
+/turf/open/floor/hybrisa/wood/darkerwood,
+/area/varadero/exterior/pool)
+"btP" = (
+/obj/item/ore/coal,
+/obj/structure/barricade/handrail/kutjevo{
+	dir = 1;
+	layer = 5;
+	level = 5;
+	pixel_y = 8
+	},
+/obj/structure/barricade/handrail/kutjevo{
+	dir = 8
+	},
+/obj/effect/decal/strata_decals/catwalk/prison,
+/turf/open/floor/shiva/radiator_tile2,
+/area/varadero/exterior/pool)
+"btQ" = (
+/obj/structure/window/framed/new_varadero/foundation,
+/turf/closed/wall/new_varadero,
+/area/varadero/exterior/pool)
+"btR" = (
+/turf/open/floor/whiteblue/west,
+/area/varadero/exterior/pool)
+"btS" = (
+/obj/structure/prop/new_varadero_props/water_buoys/small,
+/turf/open/gm/river/desert/shallow/pool,
+/area/space)
+"btT" = (
+/obj/structure/machinery/door/airlock/almayer/generic/autoname{
+	dir = 8
+	},
+/turf/closed/wall/new_varadero,
+/area/varadero/exterior/pool)
+"btU" = (
+/turf/open/floor/hybrisa/wood/darkerwood,
+/area/varadero/exterior/pool)
+"btV" = (
+/obj/effect/mist/steam,
+/turf/open/floor/hybrisa/wood/darkerwood,
+/area/varadero/exterior/pool)
+"btW" = (
+/turf/open/floor/whitebluecorner,
+/area/varadero/exterior/pool)
+"btX" = (
+/obj/item/toy/beach_ball,
+/turf/open/floor/whiteblue,
+/area/varadero/exterior/pool)
+"btY" = (
+/turf/open/floor/whiteblue,
+/area/varadero/exterior/pool)
+"btZ" = (
+/obj/structure/sign/safety/water,
+/turf/closed/wall/new_varadero,
+/area/varadero/exterior/pool)
+"bua" = (
+/obj/structure/surface/table/woodentable,
+/obj/effect/decal/strata_decals/catwalk/prison,
+/obj/item/reagent_container/glass/rag{
+	desc = "A towel for drying yourself.";
+	icon = 'icons/obj/items/hunter/pred_gear.dmi';
+	icon_state = "polishing_rag";
+	name = "towel";
+	pixel_x = 8
+	},
+/turf/open/floor/shiva/radiator_tile2,
+/area/varadero/exterior/pool)
+"bub" = (
+/obj/structure/bed/chair/wood/normal,
+/turf/open/floor/hybrisa/wood/darkerwood,
+/area/varadero/exterior/pool)
+"buc" = (
+/obj/structure/bed/chair/wood/normal,
+/obj/effect/mist/steam,
+/turf/open/floor/hybrisa/wood/darkerwood,
+/area/varadero/exterior/pool)
+"bud" = (
+/obj/effect/mist/steam,
+/obj/structure/surface/table/woodentable,
+/obj/item/reagent_container/glass/bucket{
+	pixel_x = -4;
+	pixel_y = -3
+	},
+/obj/effect/decal/strata_decals/catwalk/prison,
+/turf/open/floor/shiva/radiator_tile2,
+/area/varadero/exterior/pool)
+"bue" = (
+/turf/open/floor/whiteblue/northwest,
+/area/varadero/exterior/pool)
+"buf" = (
+/turf/open/floor/whiteblue/north,
+/area/varadero/exterior/pool)
+"bug" = (
+/obj/structure/prop/hybrisa/misc/redmeter{
+	pixel_x = -6;
+	pixel_y = -3
+	},
+/turf/closed/wall/new_varadero,
+/area/varadero/exterior/pool)
+"buh" = (
+/obj/structure/sign/banners/united_americas_flag,
+/turf/closed/wall/new_varadero,
+/area/varadero/exterior/pool)
+"bui" = (
+/obj/structure/machinery/door/airlock/multi_tile/almayer/generic{
+	name = "Hydroponics"
+	},
+/turf/open/floor/shiva,
+/area/space)
 "byH" = (
 /obj/effect/decal/warning_stripes{
 	icon_state = "test_square"
@@ -82130,7 +82419,7 @@ adf
 ahx
 ahx
 adf
-adf
+acj
 axD
 azs
 adf
@@ -85952,7 +86241,7 @@ abP
 abP
 abP
 abP
-azk
+abv
 bjK
 bjK
 bkQ
@@ -86134,7 +86423,7 @@ abP
 abP
 abP
 abP
-azk
+ags
 aJW
 aJW
 bkO
@@ -86489,12 +86778,12 @@ adf
 aij
 aij
 agc
-apU
+btZ
+btT
 agc
 agc
-agc
-apU
-adf
+btD
+btx
 adf
 adf
 adf
@@ -86671,14 +86960,14 @@ adf
 aij
 aij
 agc
-apU
-apU
-apU
+bua
+btU
+btM
 agc
-apU
-aqi
-aqi
-aqi
+btE
+bez
+bez
+aFx
 adf
 abv
 bkX
@@ -86853,14 +87142,14 @@ adf
 aij
 aij
 agc
-apU
-apU
-apU
-agc
-apU
+bub
+btU
+btN
+btL
+btF
 aqi
 aqi
-aqi
+aIr
 adf
 bls
 ble
@@ -87035,14 +87324,14 @@ adf
 aij
 aij
 agc
-apU
+buc
+btU
+btO
 agc
-agc
-agc
-apU
-adf
-adf
-adf
+btG
+bty
+bfu
+aSP
 adf
 blt
 aJW
@@ -87217,14 +87506,14 @@ adf
 aij
 aij
 agc
-apU
-apU
-apU
-apU
-apU
-aqi
-aqi
-aqi
+bub
+btV
+btN
+agc
+btH
+adf
+bfC
+aSP
 adf
 blu
 aJW
@@ -87398,15 +87687,15 @@ ahG
 adf
 aij
 aij
+bug
+bud
+btV
+btP
 agc
-apU
-apU
-apU
-apU
-apU
-aqi
-aqi
-aqi
+btI
+adf
+btr
+aVA
 adf
 blv
 aJW
@@ -87581,14 +87870,14 @@ adf
 aij
 aij
 agc
-apU
-apU
-apU
-apU
-apU
-aqi
-aqi
-aqi
+btQ
+btT
+btQ
+agc
+agc
+btz
+bts
+adf
 adf
 blw
 aJW
@@ -87762,15 +88051,15 @@ ahG
 adf
 aij
 aij
-agc
-apU
-apU
-apU
-apU
-apU
-aqi
-aqi
-aqi
+buh
+bue
+btR
+btR
+btJ
+btJ
+btA
+btt
+bbO
 adf
 blx
 blf
@@ -87945,14 +88234,14 @@ adf
 aij
 aij
 agc
-apU
+buf
 apU
 apU
 apU
 apU
 aqi
 aqi
-aqi
+bet
 adf
 bkX
 bkX
@@ -88128,13 +88417,13 @@ aij
 aij
 agc
 arv
+btW
 adP
 adP
 adP
-adP
-ajK
-ajK
-ajK
+btB
+btu
+bet
 adf
 bjK
 bkB
@@ -88308,15 +88597,15 @@ ahG
 adf
 aij
 aij
-agc
-adP
-afX
+buh
+buf
+btX
 afX
 afX
 afX
 afS
-afS
-ajK
+btv
+bet
 adf
 bjK
 blk
@@ -88491,13 +88780,13 @@ adf
 aij
 aij
 agc
-adP
-afX
+buf
+btY
 afX
 afX
 afX
 afS
-afS
+btv
 ajK
 adf
 bjK
@@ -88673,13 +88962,13 @@ abP
 aal
 aal
 agc
-adP
-afX
+buf
+btY
 afX
 afX
 afX
 afS
-afS
+btv
 ajK
 adf
 bjK
@@ -88855,13 +89144,13 @@ abP
 abP
 abP
 adf
-ajK
+btv
+bet
 afS
 afS
 afS
 afS
-afS
-afS
+btv
 ajK
 adf
 bjK
@@ -89036,14 +89325,14 @@ abP
 abP
 abP
 abP
-abP
-ajK
+bui
+aqi
+bet
 afS
 afS
+btK
 afS
-afS
-afS
-afS
+btv
 ajK
 adf
 bjK
@@ -89219,13 +89508,13 @@ abP
 abP
 abP
 abP
-ajK
+aqi
+bet
 afS
 afS
 afS
 afS
-afS
-afS
+btv
 ajK
 adf
 bjK
@@ -89400,15 +89689,15 @@ abP
 abP
 abP
 abP
-adf
-ajK
+btz
+btv
+bet
 afS
 afS
 afS
-afS
-afS
-afS
-ajK
+btC
+btv
+bet
 adf
 bjK
 blp
@@ -89583,14 +89872,14 @@ abP
 abP
 abP
 adf
-ajK
+btw
+bey
 afS
 afS
 afS
 afS
-afS
-afS
-ajK
+btw
+bey
 adf
 bjK
 blq
@@ -89766,12 +90055,12 @@ abP
 abP
 adf
 adf
+avH
+btS
 afS
 afS
 afS
-afS
-afS
-afS
+avH
 adf
 adf
 bjK
@@ -89948,12 +90237,12 @@ abP
 abP
 abP
 adf
-adf
-aqi
-aqi
-aqi
-aqi
-adf
+avH
+avH
+avH
+avH
+avH
+avH
 adf
 aBe
 abv
