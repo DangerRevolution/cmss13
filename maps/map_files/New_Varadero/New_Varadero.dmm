@@ -16045,7 +16045,7 @@
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
-/turf/open/auto_turf/snow/layer0,
+/turf/open/auto_turf/sand_white/layer0,
 /area/space)
 "aXO" = (
 /obj/structure/barricade/handrail/hybrisa/road/plastic/red{
@@ -25499,55 +25499,6 @@
 	},
 /turf/open/hybrisa/street/roadlines3,
 /area/space)
-"bzi" = (
-/obj/structure/surface/rack{
-	color = "#6b675e";
-	layer = 2.79
-	},
-/obj/item/weapon/yautja/duelsword{
-	pixel_x = 3
-	},
-/obj/item/weapon/yautja/duelsword{
-	pixel_x = 10;
-	pixel_y = -1
-	},
-/obj/item/weapon/yautja/duelsword{
-	pixel_x = -2;
-	pixel_y = 3
-	},
-/obj/item/weapon/yautja/duelsword{
-	pixel_x = -6;
-	pixel_y = 7
-	},
-/obj/effect/hunter/bridge_border/brown/corner{
-	dir = 8
-	},
-/turf/open/shuttle/dropship/predship/hunter_catwalk_alt,
-/area/space)
-"bzj" = (
-/obj/structure/surface/rack{
-	color = "#6b675e";
-	layer = 2.79
-	},
-/obj/item/weapon/yautja/duelclub{
-	pixel_x = 4
-	},
-/obj/item/weapon/yautja/duelclub{
-	pixel_y = 2
-	},
-/obj/item/weapon/yautja/duelclub{
-	pixel_x = -4;
-	pixel_y = 4
-	},
-/obj/item/weapon/yautja/duelclub{
-	pixel_x = -6;
-	pixel_y = 7
-	},
-/obj/effect/hunter/bridge_border/brown/corner{
-	dir = 4
-	},
-/turf/open/shuttle/dropship/predship/hunter_catwalk_alt,
-/area/space)
 "bzk" = (
 /obj/structure/fence/slim{
 	cut = 1;
@@ -25580,44 +25531,6 @@
 /area/space)
 "bzo" = (
 /turf/open/shuttle/dropship/predship/tile/red,
-/area/space)
-"bzp" = (
-/obj/structure/surface/table/reinforced/prison{
-	color = "#6b675e"
-	},
-/obj/item/clothing/shoes/combat,
-/obj/item/clothing/under/chainshirt/hunter,
-/obj/item/clothing/gloves/combat,
-/obj/item/clothing/head/helmet/gladiator,
-/obj/item/clothing/suit/armor/gladiator,
-/obj/effect/hunter/bridge_border/brown/corner{
-	dir = 8
-	},
-/turf/open/shuttle/dropship/predship/hunter_catwalk_alt,
-/area/space)
-"bzq" = (
-/obj/structure/surface/rack{
-	color = "#6b675e";
-	layer = 2.79
-	},
-/obj/item/weapon/yautja/duelclub{
-	pixel_x = 3;
-	pixel_y = -1
-	},
-/obj/item/weapon/yautja/duelclub{
-	pixel_x = -1;
-	pixel_y = 2
-	},
-/obj/item/weapon/yautja/duelclub{
-	pixel_x = -4;
-	pixel_y = 4
-	},
-/obj/item/weapon/yautja/duelclub{
-	pixel_x = -6;
-	pixel_y = 8
-	},
-/obj/effect/hunter/bridge_border/brown,
-/turf/open/shuttle/dropship/predship/hunter_catwalk_alt,
 /area/space)
 "bzr" = (
 /obj/structure/prop/hunter/fake_platform/hunter,
@@ -25652,41 +25565,6 @@
 /obj/item/reagent_container/food/drinks/soymilk,
 /obj/structure/closet/secure_closet/freezer/fridge/yautja,
 /turf/open/floor/corsat/squares,
-/area/space)
-"bzt" = (
-/obj/structure/surface/rack{
-	color = "#6b675e";
-	layer = 2.79
-	},
-/obj/item/weapon/yautja/duelsword{
-	pixel_x = -6;
-	pixel_y = 7
-	},
-/obj/item/weapon/yautja/duelsword{
-	pixel_x = -9;
-	pixel_y = 10
-	},
-/obj/item/weapon/yautja/duelsword{
-	pixel_x = 12;
-	pixel_y = -3
-	},
-/obj/item/weapon/yautja/duelsword{
-	pixel_x = 8;
-	pixel_y = -1
-	},
-/obj/item/weapon/yautja/duelsword{
-	pixel_x = 4;
-	pixel_y = 2
-	},
-/obj/item/weapon/yautja/duelsword{
-	pixel_y = 3
-	},
-/obj/item/weapon/yautja/duelsword{
-	pixel_x = -3;
-	pixel_y = 5
-	},
-/obj/effect/hunter/bridge_border/brown/corner,
-/turf/open/shuttle/dropship/predship/hunter_catwalk_alt,
 /area/space)
 "bzu" = (
 /obj/effect/hunter/bridge_border/brown/large_stair,
@@ -25955,26 +25833,6 @@
 	},
 /turf/open/floor/predship/hull,
 /area/space)
-"bAm" = (
-/obj/structure/prop/hunter/fake_platform/hunter,
-/obj/structure/prop/hunter/fake_platform/hunter/north,
-/obj/structure/prop/hunter/fake_platform/hunter/west,
-/obj/effect/hunter/catwalk/hunter_grate,
-/turf/open/shuttle/dropship/predship/red_glow/on,
-/area/space)
-"bAn" = (
-/obj/structure/prop/hunter/fake_platform/hunter,
-/obj/structure/prop/hunter/fake_platform/hunter/north,
-/obj/effect/hunter/catwalk/hunter_grate,
-/turf/open/shuttle/dropship/predship/red_glow/on,
-/area/space)
-"bAo" = (
-/obj/structure/prop/hunter/fake_platform/hunter,
-/obj/structure/prop/hunter/fake_platform/hunter/north,
-/obj/structure/prop/hunter/fake_platform/hunter/east,
-/obj/effect/hunter/catwalk/hunter_grate,
-/turf/open/shuttle/dropship/predship/red_glow/on,
-/area/space)
 "bAp" = (
 /turf/open/floor/predship/hull,
 /area/space)
@@ -26113,30 +25971,6 @@
 "bAF" = (
 /obj/effect/hunter/bridge_border/brown{
 	dir = 8
-	},
-/turf/open/shuttle/dropship/predship/tile/red2,
-/area/space)
-"bAG" = (
-/obj/structure/platform_decoration/metal/hunter,
-/obj/effect/hunter/bridge_border/brown{
-	dir = 8
-	},
-/turf/open/shuttle/dropship/predship/tile/red3,
-/area/space)
-"bAH" = (
-/obj/structure/prop/hunter/fake_platform/hunter,
-/obj/effect/hunter/bridge_border/brown{
-	dir = 8
-	},
-/obj/item/skull/defender{
-	pixel_x = -5;
-	pixel_y = 34;
-	anchored = 1
-	},
-/obj/item/skull/hivelord{
-	pixel_x = 6;
-	pixel_y = 25;
-	anchored = 1
 	},
 /turf/open/shuttle/dropship/predship/tile/red2,
 /area/space)
@@ -26280,17 +26114,6 @@
 	id = "prisonlockdown"
 	},
 /turf/open/shuttle/dropship/predship/mainfloor/edge/west,
-/area/space)
-"bAX" = (
-/obj/structure/machinery/door/airlock/yautja/secure{
-	name = "\improper Prisoner Cell 5";
-	opacity = 0;
-	dir = 2
-	},
-/obj/structure/machinery/door/poddoor/yautja/open{
-	id = "prisonlockdown"
-	},
-/turf/open/floor/corsat/squares,
 /area/space)
 "bAY" = (
 /obj/structure/prop/hunter/fake_platform/hunter/east,
@@ -28484,6 +28307,141 @@
 /obj/item/shard,
 /turf/open/floor/plating/platingdmg2,
 /area/bigred/ground/kitchen)
+"bHv" = (
+/obj/item/stack/sheet/metal,
+/turf/open/floor/plating/burnt_platingdmg3,
+/area/space)
+"bHw" = (
+/obj/structure/girder,
+/turf/open/floor/plating/burnt_platingdmg3,
+/area/space)
+"bHx" = (
+/obj/item/stack/rods,
+/turf/open/new_varadero/dock_concrete,
+/area/space)
+"bHy" = (
+/obj/item/stack/sheet/metal,
+/turf/open/new_varadero/dock_concrete,
+/area/space)
+"bHz" = (
+/obj/item/stack/rods,
+/turf/open/new_varadero/sidewalk/sidewalkfull,
+/area/space)
+"bHA" = (
+/obj/item/stack/rods,
+/obj/item/stack/rods,
+/turf/open/auto_turf/sand_white/layer0,
+/area/space)
+"bHB" = (
+/obj/effect/hunter/bridge_border/brown/corner{
+	dir = 8
+	},
+/turf/open/shuttle/dropship/predship/hunter_catwalk_alt,
+/area/space)
+"bHC" = (
+/obj/structure/bed/bedroll{
+	color = "#6b675e";
+	dir = 8
+	},
+/obj/effect/hunter/bridge_border/brown/corner{
+	dir = 4
+	},
+/obj/item/clothing/under/chainshirt/hunter{
+	pixel_y = 12;
+	pixel_x = -7
+	},
+/obj/item/clothing/gloves/combat{
+	pixel_x = 14;
+	pixel_y = 16
+	},
+/turf/open/shuttle/dropship/predship/hunter_catwalk_alt,
+/area/space)
+"bHD" = (
+/obj/effect/hunter/bridge_border/brown{
+	dir = 4
+	},
+/obj/item/weapon/yautja/duelclub{
+	pixel_x = -1;
+	pixel_y = 2
+	},
+/turf/open/shuttle/dropship/predship/hunter_catwalk_alt,
+/area/space)
+"bHE" = (
+/obj/structure/surface/table/reinforced/prison{
+	color = "#6b675e"
+	},
+/obj/item/clothing/suit/armor/gladiator,
+/obj/effect/hunter/bridge_border/brown/corner{
+	dir = 8
+	},
+/turf/open/shuttle/dropship/predship/hunter_catwalk_alt,
+/area/space)
+"bHF" = (
+/obj/item/stack/rods,
+/turf/open/auto_turf/sand_white/layer0,
+/area/space)
+"bHG" = (
+/obj/structure/surface/rack{
+	color = "#6b675e";
+	layer = 2.79
+	},
+/obj/item/weapon/yautja/duelsword{
+	pixel_x = -6;
+	pixel_y = 7
+	},
+/obj/effect/hunter/bridge_border/brown/corner,
+/turf/open/shuttle/dropship/predship/hunter_catwalk_alt,
+/area/space)
+"bHH" = (
+/turf/open/shuttle/dropship/predship/tile/red2,
+/area/space)
+"bHI" = (
+/obj/item/stack/rods,
+/turf/open/hybrisa/street/roadlines,
+/area/space)
+"bHJ" = (
+/obj/structure/prop/hunter/fake_platform/hunter,
+/obj/structure/prop/hunter/fake_platform/hunter/north,
+/obj/structure/prop/hunter/fake_platform/hunter/west,
+/obj/effect/hunter/catwalk/hunter_grate,
+/turf/open/space/basic,
+/area/space)
+"bHK" = (
+/obj/structure/prop/hunter/fake_platform/hunter,
+/obj/structure/prop/hunter/fake_platform/hunter/north,
+/obj/effect/hunter/catwalk/hunter_grate,
+/turf/open/space/basic,
+/area/space)
+"bHL" = (
+/obj/structure/prop/hunter/fake_platform/hunter,
+/obj/structure/prop/hunter/fake_platform/hunter/north,
+/obj/structure/prop/hunter/fake_platform/hunter/east,
+/obj/effect/hunter/catwalk/hunter_grate,
+/turf/open/space/basic,
+/area/space)
+"bHM" = (
+/obj/effect/hunter/bridge_border/brown{
+	dir = 8
+	},
+/turf/open/floor/plating/burnt_platingdmg3,
+/area/space)
+"bHN" = (
+/obj/structure/machinery/door/airlock/yautja/secure{
+	name = "\improper Prisoner Cell 5";
+	opacity = 0;
+	dir = 2
+	},
+/turf/open/floor/plating/burnt_platingdmg3,
+/area/space)
+"bHO" = (
+/obj/item/stack/sheet/metal,
+/obj/item/stack/sheet/metal,
+/turf/open/floor/plating/burnt_platingdmg3,
+/area/space)
+"bHP" = (
+/obj/item/stack/rods,
+/turf/open/hybrisa/street/roadlines4,
+/area/space)
 
 (1,1,1) = {"
 ayZ
@@ -89548,12 +89506,12 @@ aFk
 bqh
 bqh
 bqi
-bqh
+aHJ
 brD
 brD
-bqh
+aHJ
 bHk
-brE
+bHj
 bHh
 bqi
 brD
@@ -89730,12 +89688,12 @@ bqh
 bqh
 bqh
 bqi
-bqh
+aHJ
 aFk
-aFk
+bHv
 bqi
 bqi
-brE
+bHj
 bqi
 bqi
 aFk
@@ -130485,14 +130443,14 @@ aSx
 aSx
 aSx
 aSx
+bHz
+bHz
 aSx
 aSx
-aSx
-aSx
-aSx
-aSx
-aSx
-aSx
+bHz
+bHz
+bHz
+bHz
 aSx
 aSx
 aSx
@@ -130665,17 +130623,17 @@ aqf
 aqf
 aqf
 aqf
-aqf
-aqf
-aqf
+bHw
+bHw
+bHw
+brD
 aFk
 aFk
-aFk
-aqf
-aqf
-aqf
-aqf
-aqf
+bHw
+bHw
+bHw
+bHw
+bHw
 aqf
 aqf
 aqf
@@ -130847,17 +130805,17 @@ aqf
 aqf
 aqf
 aqf
-aqf
-aqf
-aqf
+bHw
+bHw
+atE
+atE
 aFk
 aFk
-aFk
-aqf
-aqf
-aqf
-aqf
-aqf
+bHw
+atE
+atE
+atE
+bHw
 aqf
 aqf
 aqf
@@ -131030,6 +130988,8 @@ aqf
 bxN
 bxN
 bxN
+atE
+atE
 aFk
 aFk
 aFk
@@ -131037,9 +130997,7 @@ aFk
 aFk
 aFk
 aFk
-aFk
-bxN
-bxN
+atE
 bxN
 bxN
 aqf
@@ -131219,8 +131177,8 @@ aFk
 aFk
 aFk
 aFk
+brD
 aFk
-bxN
 bxN
 bxN
 bxN
@@ -131395,15 +131353,15 @@ bxN
 bxN
 bxN
 aFk
+bHv
 aFk
 aFk
+aHJ
+bqi
+bHv
+bHv
 aFk
 aFk
-aFk
-aFk
-aFk
-bxN
-bxN
 bxN
 bxN
 aUq
@@ -131576,16 +131534,16 @@ aqf
 bxN
 bxN
 bxN
-atE
-atE
-atE
-atE
-atE
-atE
-atE
-atE
-bxN
-bxN
+brD
+bHO
+bHv
+aFk
+bHj
+aHJ
+bHv
+bHv
+brD
+brD
 bxN
 bxN
 aUq
@@ -131758,16 +131716,16 @@ aqf
 bxN
 bxN
 bxN
-atE
-bAz
-bAj
-bzM
-byM
-byF
-bzp
-atE
-bxN
-bxN
+brD
+bHv
+bHv
+aFk
+aFk
+aFk
+aFk
+aFk
+aFk
+aFk
 bxN
 bxN
 aUq
@@ -131940,19 +131898,19 @@ aqf
 bxN
 bxN
 bxN
-atE
-bAA
-bAk
-bzN
-bzz
-byG
-byB
-atE
+bHv
+aFk
+aFk
+aFk
+aFk
+aFk
+aFk
+aFk
+aFk
+aFk
+aFk
 bxN
-bxN
-bxN
-bxN
-aUq
+bHw
 aOr
 aOr
 amJ
@@ -132122,20 +132080,20 @@ aqf
 bxN
 bxN
 bxN
-bAV
-bAB
-bAl
-bzO
+aFk
+aFk
+atE
+aFk
+aFk
 atE
 atE
 atE
 atE
 atE
-bxN
-bxN
-bxN
-aUq
-aUq
+brD
+bHx
+bHw
+bHw
 aUq
 aUq
 aUq
@@ -132304,19 +132262,19 @@ aqf
 bxN
 bxN
 bxN
-bAW
-bAC
-bAm
-bzP
+aFk
+aFk
 atE
-bzt
-bzq
-bzi
+bAz
+bAj
+bzM
+byM
+byF
+bHB
 atE
-bxN
-bxN
-bxN
-aUq
+bHv
+atE
+atE
 aTR
 aDL
 aDL
@@ -132486,19 +132444,19 @@ aqf
 bxN
 bxN
 bxN
+bHO
+bHv
 atE
-bAD
-bAn
-bzQ
-byN
+bAA
+bAk
+bzN
+bzz
 byG
-byD
-bzj
+bHC
 atE
-bxN
-bxN
-bxN
-aUq
+bHv
+bHx
+atE
 aBE
 aDL
 aDL
@@ -132668,19 +132626,19 @@ aqf
 bxN
 bxN
 bxN
+brD
+aFk
+bAV
+bAB
+bAl
+bzO
 atE
-bAE
-bAn
-bzR
 atE
 atE
 atE
+aFk
+brD
 atE
-atE
-bxN
-bxN
-bxN
-aUq
 aTR
 aDL
 aDL
@@ -132850,19 +132808,19 @@ aqf
 bxN
 bxN
 bxN
-bAX
-bAF
-bAn
-bzQ
-byM
-byF
-bzp
+brD
+aFk
+bAW
+bAC
+bHJ
+bzP
 atE
-bxN
-bxN
-bxN
-bxN
-aUq
+bHG
+byC
+aFk
+aFk
+aFk
+atE
 aZT
 aDL
 afz
@@ -133032,19 +132990,19 @@ aqf
 bxN
 bxN
 bxN
-byM
-bAG
-bAo
-bzN
-bzA
-byG
-byB
+brD
+aFk
 atE
-bxN
-bxN
-bxN
-bxN
-aUq
+bAD
+bHK
+bzQ
+byN
+byG
+bHD
+aFk
+aFk
+aFk
+bHw
 aPI
 aDL
 afz
@@ -133214,19 +133172,19 @@ aqf
 bxN
 bxN
 bxN
+bHv
+brD
 atE
-bAH
-bAl
-bzO
+bAE
+bHK
+bzR
 atE
 atE
 atE
 atE
+aFk
 bxN
-bxN
-bxN
-bxN
-aUq
+bHw
 ahg
 ahg
 ahg
@@ -133396,18 +133354,18 @@ aqf
 bxN
 bxN
 bxN
-aFk
-aFk
-aFk
-aFk
-aFk
-aFk
-aFk
-aFk
+bHv
+brD
+bHN
+bAF
+bHK
+bzQ
+byM
+byF
+bHE
+atE
 bxN
-bxN
-bxN
-bxN
+bHy
 aUq
 akz
 aco
@@ -133581,15 +133539,15 @@ bxN
 aFk
 aFk
 aFk
+bHM
+bHL
+bzN
+bzA
+byG
+byB
+atE
+bHv
 aFk
-aFk
-aFk
-aFk
-aFk
-bxN
-bxN
-bxN
-bxN
 aUq
 awE
 akn
@@ -133765,13 +133723,13 @@ aFk
 aFk
 aFk
 aFk
+bHH
+atE
+atE
+atE
+atE
 aFk
 aFk
-aFk
-bxN
-bxN
-bxN
-bxN
 aUq
 ahg
 ahg
@@ -133942,17 +133900,17 @@ aqf
 aPL
 aPL
 aPL
-aPL
-bxN
-bxN
-bxN
-aPL
-aPL
-aPL
-aPL
-bxN
-bxN
-aPL
+aFk
+brD
+aFk
+aFk
+aFk
+aFk
+aFk
+aFk
+aFk
+aFk
+aFk
 aPL
 aUq
 akz
@@ -134122,19 +134080,19 @@ aBC
 aqf
 aqf
 aPL
-aPL
-aPL
-aPL
-bxN
-bxN
-bxN
-aPL
-aPL
-aPL
-aPL
-bxN
-bxN
-aPL
+ajq
+ajq
+aFk
+aFk
+aFk
+brD
+aFk
+aFk
+aFk
+aFk
+aFk
+aFk
+aFk
 aPL
 aUq
 aRh
@@ -134304,20 +134262,20 @@ aSx
 aSx
 aSx
 aSk
+ajq
 aSk
 aSk
-aSk
-aSx
-aSx
-aSx
-aSk
-aSk
-aSk
-aSk
-aSx
-aSx
-aSk
-aSk
+ajq
+ajq
+ajq
+ajq
+ajq
+ajq
+ajq
+ajq
+bHz
+ajq
+ajq
 aUq
 ahg
 ahg
@@ -134486,20 +134444,20 @@ awk
 awk
 awk
 aSk
-aSk
-aSk
-aSk
-awk
-awk
-awk
-aSk
-aSk
-aSk
-aSk
-awk
-awk
-aSk
-aSk
+ajq
+ajq
+bHP
+ajq
+bHF
+bHF
+ajq
+ajq
+ajq
+ajq
+ajq
+bHA
+ajq
+ajq
 aDP
 alL
 adm
@@ -134669,17 +134627,17 @@ alo
 alo
 aPL
 aPL
-aPL
-aPL
-alo
+ajq
+ajq
+ajq
 aXN
-alo
-aPL
-aPL
-aPL
-aPL
-alo
-alo
+ajq
+ajq
+ajq
+ajq
+bHF
+bHF
+ajq
 aPL
 byW
 aDP
@@ -134851,17 +134809,17 @@ aPL
 aPL
 aPL
 aPL
+aBC
+aBC
 aPL
+aXN
+ajq
+bHI
+bHI
 aPL
-aPL
-auc
-aPL
-aPL
-aPL
-aPL
-aPL
-aPL
-aPL
+aBC
+aBC
+ajq
 byW
 aDP
 aDP
@@ -135031,18 +134989,18 @@ aPL
 aFk
 aPL
 aPL
-aPL
-aPL
-aPL
-aPL
-aPL
-auc
-aPL
-aPL
-aPL
-aPL
-aPL
-aPL
+ajq
+ajq
+aBC
+aBC
+aBC
+aAH
+ajq
+ajq
+aBC
+aBC
+aBC
+ajq
 aPL
 byS
 aDP
