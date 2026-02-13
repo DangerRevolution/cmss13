@@ -10812,6 +10812,10 @@
 	},
 /turf/open/floor/darkpurple2/east,
 /area/space)
+"aHJ" = (
+/obj/item/stack/sheet/metal,
+/turf/open/floor/plating/platingdmg2,
+/area/space)
 "aHK" = (
 /obj/structure/machinery/big_computers/computerblack/computer1,
 /turf/open/floor/prison/darkpurple2/north,
@@ -11422,6 +11426,11 @@
 	pixel_y = 4
 	},
 /turf/open/floor/darkpurple2,
+/area/space)
+"aJw" = (
+/obj/item/stack/sheet/metal,
+/obj/item/shard,
+/turf/open/floor/plating/platingdmg2,
 /area/space)
 "aJx" = (
 /turf/open/floor/whiteyellow/north,
@@ -12766,6 +12775,10 @@
 "aOj" = (
 /obj/item/tool/pickaxe,
 /turf/open/new_varadero/ship,
+/area/space)
+"aOk" = (
+/obj/item/shard,
+/turf/open/floor/plating/platingdmg2,
 /area/space)
 "aOl" = (
 /obj/structure/bed/chair/dropship/passenger{
@@ -28420,6 +28433,78 @@
 /obj/item/shard,
 /turf/open/floor/plating/burnt_platingdmg3,
 /area/ice_colony/surface/disposals)
+"bHe" = (
+/obj/item/stack/rods,
+/obj/item/shard,
+/turf/open/floor/plating/platingdmg2,
+/area/space)
+"bHf" = (
+/obj/item/shard,
+/turf/open/floor/plating/burnt_platingdmg3,
+/area/corsat/sigma/dorms)
+"bHg" = (
+/obj/item/stack/sheet/metal,
+/obj/item/shard,
+/turf/open/floor/plating/burnt_platingdmg3,
+/area/corsat/sigma/dorms)
+"bHh" = (
+/obj/item/stack/rods,
+/turf/open/floor/plating/platingdmg1,
+/area/space)
+"bHi" = (
+/obj/item/stack/rods,
+/turf/open/floor/plating/platingdmg2,
+/area/corsat/sigma/dorms)
+"bHj" = (
+/obj/item/stack/sheet/metal,
+/turf/open/floor/plating/platingdmg1,
+/area/space)
+"bHk" = (
+/obj/item/stack/rods,
+/obj/item/stack/rods,
+/turf/open/floor/plating/platingdmg2,
+/area/space)
+"bHl" = (
+/obj/structure/prop/new_varadero_props/egg_destroyed,
+/turf/open/floor/almayer/research/containment/yautja/alt,
+/area/space)
+"bHm" = (
+/obj/structure/prop/new_varadero_props/egg_open,
+/turf/open/floor/almayer/research/containment/yautja/alt,
+/area/space)
+"bHn" = (
+/obj/structure/prop/new_varadero_props/egg_destroyed,
+/turf/open/floor/almayer/research/containment/yautja/alt,
+/area/corsat/sigma/dorms)
+"bHo" = (
+/obj/item/stack/sheet/metal,
+/turf/open/floor/plating/platingdmg2,
+/area/corsat/sigma/dorms)
+"bHp" = (
+/obj/structure/prop/new_varadero_props/egg_open,
+/turf/open/floor/almayer/research/containment/yautja/alt,
+/area/corsat/sigma/dorms)
+"bHq" = (
+/obj/item/shard,
+/turf/open/floor/plating/platingdmg2,
+/area/corsat/sigma/dorms)
+"bHr" = (
+/obj/item/stack/sheet/metal,
+/turf/open/floor/plating/platingdmg2,
+/area/bigred/ground/kitchen)
+"bHs" = (
+/obj/item/stack/rods,
+/obj/item/shard,
+/turf/open/floor/plating/platingdmg2,
+/area/bigred/ground/kitchen)
+"bHt" = (
+/obj/item/shard,
+/turf/open/floor/shiva,
+/area/corsat/sigma/dorms)
+"bHu" = (
+/obj/item/shard,
+/turf/open/floor/plating/platingdmg2,
+/area/bigred/ground/kitchen)
 
 (1,1,1) = {"
 ayZ
@@ -82932,9 +83017,9 @@ aJB
 bsk
 bsl
 aFk
-brW
-brW
-brW
+bHm
+bHl
+bHl
 brW
 brV
 bqh
@@ -83291,14 +83376,14 @@ abP
 abP
 abP
 abP
-brp
+brU
 brV
 brW
 aFk
 aFk
-brW
-brW
-brW
+bHm
+bHm
+bHl
 brW
 aFk
 brD
@@ -83475,7 +83560,7 @@ abP
 abP
 bro
 bss
-brW
+bHm
 aFk
 aFk
 brW
@@ -83654,10 +83739,10 @@ abP
 abP
 abP
 abP
-abP
+brn
 brp
 bst
-brW
+bHm
 aFk
 aFk
 brW
@@ -83835,11 +83920,11 @@ abP
 abP
 abP
 abP
-abP
-brp
+brn
+brU
 atE
 bsu
-brW
+bHm
 aFk
 aFk
 brW
@@ -84024,9 +84109,9 @@ brZ
 brW
 aFk
 bqh
-brW
-brW
-brW
+bHl
+bHl
+bHl
 brW
 bqh
 bqh
@@ -84199,8 +84284,8 @@ abP
 abP
 abP
 abP
-abP
-brp
+brn
+brU
 atE
 brW
 aFk
@@ -84385,12 +84470,12 @@ agx
 agx
 agx
 ajX
-bpO
+bHf
 bqB
-bsa
-bsa
-bsa
-brW
+bHn
+bHp
+bHn
+bHl
 bqh
 bqh
 bqh
@@ -84567,8 +84652,8 @@ acT
 abT
 acT
 acT
-acT
-bpO
+bHt
+bHf
 bsa
 bsa
 bsa
@@ -84756,8 +84841,8 @@ bpO
 brN
 aFk
 bqh
-bqh
-bqh
+aHJ
+bqi
 bqh
 bpO
 bpO
@@ -84937,8 +85022,8 @@ bqB
 bpO
 brN
 bqh
-bqh
-bqh
+bqi
+aHJ
 bqh
 bqh
 bpO
@@ -85114,9 +85199,9 @@ abT
 acT
 aeC
 aeC
-bpO
+bHf
 ajX
-bpO
+bHf
 brN
 bqh
 bqh
@@ -85296,10 +85381,10 @@ agx
 acT
 agx
 agx
-bpO
+bHf
 ajX
 bpO
-brN
+bHi
 bqh
 bqh
 bqh
@@ -85480,7 +85565,7 @@ aeC
 aeC
 aeC
 ajX
-brN
+bHq
 brN
 bqh
 bqh
@@ -85663,10 +85748,10 @@ bqs
 acT
 bpO
 brN
-brN
-bqh
-bqh
-bqh
+bHo
+aHJ
+bqi
+bqi
 bqh
 bqh
 bpO
@@ -85849,7 +85934,7 @@ brN
 bqh
 bqh
 bqh
-bqh
+aHJ
 bqh
 bpO
 bpO
@@ -86028,7 +86113,7 @@ acT
 bqB
 brN
 brN
-bqh
+bqi
 bqh
 bqh
 bqh
@@ -86210,13 +86295,13 @@ acT
 bqB
 brN
 brN
+aHJ
+aHJ
 bqh
 bqh
 bqh
-bqh
-bqh
-bpO
-bpO
+bHg
+bHg
 ajX
 ajX
 acT
@@ -86397,11 +86482,11 @@ bqh
 bqh
 bqh
 atE
-brN
+bHi
+bHf
 bpO
-bpO
-bpO
-bpO
+bHf
+bHf
 bpO
 bpO
 bpO
@@ -86575,7 +86660,7 @@ bsb
 bsb
 adV
 aFk
-bqh
+bqi
 bqh
 atE
 aFk
@@ -87123,7 +87208,7 @@ akj
 abP
 bqh
 bqh
-bqh
+aHJ
 aFk
 adF
 adi
@@ -87843,8 +87928,8 @@ ahi
 acN
 bsb
 bsc
-adV
-bsd
+bHu
+bHs
 adV
 adV
 adV
@@ -88028,23 +88113,23 @@ aJA
 bsd
 adV
 adV
-adV
+bHr
 bsd
 bqh
 bqh
 aFk
 bqh
 bqh
+aHJ
+bqi
+bqi
 bqh
 bqh
 bqh
+aHJ
 bqh
-bqh
-bqh
-bqh
-bqh
-bqh
-bqh
+bqi
+bqi
 bqh
 aFk
 aFk
@@ -88207,25 +88292,25 @@ abP
 abP
 abP
 abP
-bqh
-bqh
-bqh
-bqh
-bqh
-aFk
+aOk
+aOk
+aHJ
+aHJ
 bqh
 aFk
 bqh
-bqh
-brE
-bqh
+aFk
 bqh
 bqh
-bqh
-bqh
-bqh
-bqh
-bqh
+bHj
+aHJ
+bqi
+bqi
+bqi
+bHe
+aJw
+aHJ
+aHJ
 bqh
 bqi
 aFk
@@ -88400,12 +88485,12 @@ aFk
 bqh
 bqh
 brE
-brE
+bHh
+bqi
 bqh
+aHJ
 bqh
-bqh
-bqh
-bqh
+aOk
 bqh
 bqh
 bqx
@@ -88582,12 +88667,12 @@ aFk
 bqh
 brE
 bqh
+bqi
 bqh
-bqh
-bqh
+aHJ
 bqh
 aFk
-aFk
+brD
 bqx
 bqx
 bqx
@@ -88769,7 +88854,7 @@ bqh
 bqh
 bqh
 aFk
-aFk
+brD
 bqx
 bqx
 bqx
@@ -89304,9 +89389,9 @@ bqh
 bqh
 bqh
 aFk
-aFk
-bqh
-bqh
+brD
+bqi
+bqi
 brE
 bqh
 bqh
@@ -89483,16 +89568,16 @@ bqx
 aFk
 bqh
 bqh
+bqi
 bqh
+brD
+brD
 bqh
-aFk
-aFk
-bqh
-bqh
+bHk
 brE
-brE
-bqh
-aFk
+bHh
+bqi
+brD
 aFk
 aFk
 abP
@@ -89665,15 +89750,15 @@ bqx
 bqh
 bqh
 bqh
-bqh
+bqi
 bqh
 aFk
 aFk
-bqh
-bqh
+bqi
+bqi
 brE
-bqh
-bqh
+bqi
+bqi
 aFk
 aFk
 abP
