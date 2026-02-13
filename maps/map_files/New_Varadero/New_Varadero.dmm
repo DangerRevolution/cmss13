@@ -22848,29 +22848,8 @@
 /obj/structure/surface/table/reinforced/prison{
 	color = "#6b675e"
 	},
-/obj/item/reagent_container/blood/OMinus{
-	pixel_x = -4;
-	pixel_y = 3
-	},
-/obj/item/reagent_container/blood/OMinus{
-	pixel_x = -4;
-	pixel_y = 2
-	},
-/obj/item/reagent_container/blood/OMinus{
-	pixel_x = -4;
-	pixel_y = 3
-	},
-/obj/item/reagent_container/blood/OMinus{
-	pixel_x = -4;
-	pixel_y = 3
-	},
-/obj/item/reagent_container/blood/OMinus{
-	pixel_x = -5;
-	pixel_y = 4
-	},
 /obj/item/device/healthanalyzer/alien{
-	pixel_x = 8;
-	pixel_y = 13
+	pixel_x = -5
 	},
 /obj/item/stack/medical/advanced/bruise_pack/predator{
 	pixel_x = 7;
