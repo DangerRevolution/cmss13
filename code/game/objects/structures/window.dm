@@ -1413,3 +1413,8 @@
 	unslashable = TRUE
 	unacidable = TRUE
 	health = 1000000
+
+/obj/structure/window/framed/new_varadero/foundation/concrete
+	icon = 'icons/turf/walls/new_varadero/concrete_windows.dmi'
+	icon_state = "concrete_window"
+	basestate = "concrete_window"
