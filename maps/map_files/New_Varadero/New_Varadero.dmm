@@ -25894,11 +25894,6 @@
 /obj/effect/hunter/bridge_border/brown/edge{
 	dir = 8
 	},
-/obj/item/weapon/yautja/knife{
-	name = "sacred ceremonial dagger";
-	pixel_y = 34;
-	anchored = 1
-	},
 /obj/item/weapon/shield/riot/yautja{
 	anchored = 1;
 	layer = 2.9;
