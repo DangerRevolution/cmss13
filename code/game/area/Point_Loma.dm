@@ -121,6 +121,7 @@ area/point_loma/airbase/interior/cargo
 	name = "Fuel Mixing Facility"
 	icon = 'icons/turf/hybrisareas.dmi'
 	icon_state = "wylab"
+	minimap_color = MINIMAP_AREA_RESEARCH
 
 /area/point_loma/airbase/interior/hospital
 	name = "Airbase Paramedic Station"
