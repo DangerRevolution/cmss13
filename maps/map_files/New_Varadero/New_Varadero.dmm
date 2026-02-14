@@ -997,12 +997,12 @@
 /turf/open/floor/plating,
 /area/space)
 "adu" = (
-/obj/structure/window/framed/hybrisa/marshalls/reinforced,
 /obj/structure/machinery/door/poddoor/almayer/open{
 	dir = 4;
 	id = "Brig Lockdown Shutters";
 	name = "\improper Brig Lockdown Shutter"
 	},
+/obj/structure/window/framed/new_varadero/foundation/reinforced,
 /turf/open/floor/plating,
 /area/lv759/indoors/colonial_marshals/prisoners_cells)
 "adv" = (
@@ -6932,7 +6932,7 @@
 "avM" = (
 /obj/structure/surface/table/reinforced/prison,
 /turf/open/floor/shiva/yellowfull/west,
-/area/space)
+/area/varadero/interior/cargo)
 "avN" = (
 /obj/effect/decal/warning_stripes{
 	icon_state = "S-corner"
@@ -7144,8 +7144,8 @@
 /turf/open/floor/plating/catwalk/rusted,
 /area/desert_dam/building/security/observation)
 "aww" = (
-/turf/open/floor/shiva/yellow/northwest,
-/area/space)
+/turf/closed/wall/new_varadero/reinforced/hull,
+/area/varadero/interior/cargo)
 "awx" = (
 /obj/structure/pipes/standard/simple/hidden/supply{
 	dir = 6
@@ -9968,8 +9968,15 @@
 /turf/open/floor/prison/darkpurple2,
 /area/space)
 "aEU" = (
+/obj/structure/machinery/door/airlock/multi_tile/hybrisa/generic/autoname{
+	dir = 2
+	},
+/obj/structure/pipes/standard/simple/hidden/supply{
+	dir = 4;
+	icon_state = "exposed01-supply"
+	},
 /turf/open/floor/shiva/yellowfull/west,
-/area/space)
+/area/varadero/interior/cargo)
 "aEV" = (
 /obj/structure/largecrate/random/barrel/true_random{
 	pixel_y = -5;
@@ -10305,7 +10312,7 @@
 /turf/open/floor/prison/floor_plate/southwest,
 /area/space)
 "aGi" = (
-/turf/open/space/basic,
+/turf/open/new_varadero/grate/full/east,
 /area/fiorina/station/power_ring/reactor)
 "aGj" = (
 /obj/structure/barricade/plasteel/metal,
@@ -11468,8 +11475,18 @@
 /turf/open/auto_turf/strata_grass/layer0_mud,
 /area/fiorina/station/park)
 "aJF" = (
-/obj/structure/window/framed/new_varadero/foundation/reinforced,
-/turf/open/floor/plating,
+/obj/structure/pipes/standard/simple/hidden/supply,
+/obj/effect/decal/warning_stripes{
+	icon_state = "S";
+	pixel_x = -1;
+	pixel_y = 1
+	},
+/obj/effect/decal/warning_stripes{
+	icon_state = "N";
+	pixel_y = 1
+	},
+/obj/structure/machinery/door/poddoor/shutters/almayer,
+/turf/open/floor/shiva/north,
 /area/desert_dam/building/warehouse/warehouse)
 "aJG" = (
 /turf/open/new_varadero/sidewalk/southeast,
@@ -11479,7 +11496,7 @@
 /turf/open/floor/shiva/snow_mat/east,
 /area/space)
 "aJI" = (
-/turf/open/floor/shiva/yellowfull,
+/turf/open/floor/shiva/yellow/southwest,
 /area/desert_dam/building/warehouse/warehouse)
 "aJJ" = (
 /obj/structure/prop/souto_land/pole,
@@ -11528,8 +11545,11 @@
 /turf/open/floor/plating,
 /area/almayer/living/offices)
 "aJS" = (
-/obj/structure/closet/crate,
-/turf/open/floor/shiva/yellowfull,
+/obj/effect/decal/warning_stripes{
+	icon_state = "S";
+	pixel_x = -1
+	},
+/turf/open/floor/strata/multi_tiles,
 /area/desert_dam/building/warehouse/warehouse)
 "aJT" = (
 /obj/structure/machinery/light{
@@ -11618,8 +11638,9 @@
 /turf/open/floor/shiva/yellow/east,
 /area/desert_dam/building/warehouse/warehouse)
 "aKj" = (
+/obj/structure/reagent_dispensers/tank/water,
 /turf/open/floor/plating,
-/area/desert_dam/building/warehouse/warehouse)
+/area/varadero/interior/cargo)
 "aKk" = (
 /obj/structure/flora/bush/ausbushes/reedbush{
 	pixel_x = -3;
@@ -11631,8 +11652,9 @@
 /turf/open/gm/coast/dirt/beachcorner/south_west,
 /area/fiorina/station/park)
 "aKl" = (
+/obj/structure/machinery/door/airlock/maintenance/colony,
 /turf/open/floor/shiva/yellowfull/west,
-/area/desert_dam/building/warehouse/warehouse)
+/area/varadero/interior/cargo)
 "aKm" = (
 /obj/structure/machinery/status_display,
 /turf/closed/wall/shiva/prefabricated/red,
@@ -11689,7 +11711,7 @@
 	pixel_y = 11
 	},
 /turf/open/floor/shiva/yellowfull/west,
-/area/space)
+/area/varadero/interior/cargo)
 "aKA" = (
 /obj/effect/decal/warning_stripes{
 	icon_state = "N"
@@ -11706,7 +11728,7 @@
 	pixel_x = 4
 	},
 /turf/open/floor/shiva/yellowfull/west,
-/area/space)
+/area/varadero/interior/cargo)
 "aKC" = (
 /obj/effect/decal/hybrisa/workers_decal{
 	pixel_x = 16;
@@ -11773,7 +11795,7 @@
 	pixel_y = 8
 	},
 /turf/open/floor/shiva/yellowfull,
-/area/space)
+/area/varadero/interior/cargo)
 "aKP" = (
 /obj/structure/machinery/conveyor{
 	dir = 4;
@@ -11784,7 +11806,7 @@
 "aKQ" = (
 /obj/structure/surface/table/woodentable,
 /turf/open/floor/shiva/yellowfull,
-/area/space)
+/area/varadero/interior/cargo)
 "aKR" = (
 /obj/structure/disposalpipe/segment{
 	dir = 4
@@ -11800,7 +11822,7 @@
 	pixel_y = 6
 	},
 /turf/open/floor/shiva/yellowfull,
-/area/space)
+/area/varadero/interior/cargo)
 "aKT" = (
 /obj/effect/landmark/objective_landmark/medium,
 /turf/open/floor/strata/multi_tiles,
@@ -11839,6 +11861,16 @@
 /area/space)
 "aKY" = (
 /obj/item/tool/warning_cone,
+/obj/effect/decal/warning_stripes{
+	icon_state = "S";
+	pixel_x = -1;
+	pixel_y = 1
+	},
+/obj/effect/decal/warning_stripes{
+	icon_state = "W";
+	layer = 3.3;
+	pixel_y = 1
+	},
 /turf/open/floor/shiva/yellowfull/west,
 /area/varadero/interior/cargo)
 "aKZ" = (
@@ -11846,11 +11878,21 @@
 /turf/open/floor/shiva/red/east,
 /area/space)
 "aLa" = (
-/obj/structure/pipes/standard/simple/hidden/green,
+/obj/structure/pipes/standard/simple/hidden/supply,
+/obj/effect/decal/warning_stripes{
+	icon_state = "S";
+	pixel_x = -1;
+	pixel_y = 1
+	},
 /turf/open/floor/shiva/yellowfull/west,
 /area/varadero/interior/cargo)
 "aLb" = (
 /obj/structure/closet/crate,
+/obj/effect/decal/warning_stripes{
+	icon_state = "S";
+	pixel_x = -1;
+	pixel_y = 1
+	},
 /turf/open/floor/shiva/yellowfull/west,
 /area/varadero/interior/cargo)
 "aLc" = (
@@ -11914,18 +11956,25 @@
 	dir = 4
 	},
 /turf/open/floor/shiva/yellowfull,
-/area/space)
+/area/varadero/interior/cargo)
 "aLl" = (
 /obj/structure/bed/chair{
 	pixel_x = 8
 	},
 /turf/open/floor/shiva/yellowfull,
-/area/space)
+/area/varadero/interior/cargo)
 "aLm" = (
-/obj/structure/machinery/light{
-	dir = 8
+/obj/effect/decal/warning_stripes{
+	icon_state = "W";
+	layer = 3.3;
+	pixel_y = 1
 	},
-/obj/structure/surface/table/reinforced,
+/obj/structure/machinery/computer/emails{
+	dir = 4;
+	pixel_y = 1;
+	pixel_x = 3
+	},
+/obj/structure/surface/table/reinforced/prison,
 /turf/open/floor/shiva/yellowfull/west,
 /area/varadero/interior/cargo)
 "aLn" = (
@@ -11942,7 +11991,7 @@
 /turf/open/floor/shiva/yellowfull,
 /area/varadero/interior/cargo)
 "aLp" = (
-/obj/structure/pipes/standard/simple/hidden/green,
+/obj/structure/pipes/standard/simple/hidden/supply,
 /turf/open/floor/shiva/yellowfull,
 /area/varadero/interior/cargo)
 "aLq" = (
@@ -11959,10 +12008,15 @@
 	pixel_x = -18
 	},
 /turf/open/floor/shiva/yellowfull/west,
-/area/space)
+/area/varadero/interior/cargo)
 "aLs" = (
-/obj/structure/surface/table/reinforced,
 /obj/item/tool/weldpack,
+/obj/effect/decal/warning_stripes{
+	icon_state = "W";
+	layer = 3.3;
+	pixel_y = 1
+	},
+/obj/structure/surface/table/reinforced/prison,
 /turf/open/floor/shiva/yellowfull/west,
 /area/varadero/interior/cargo)
 "aLt" = (
@@ -11998,7 +12052,7 @@
 /obj/structure/surface/table/reinforced/prison,
 /obj/item/desk_bell,
 /turf/open/floor/shiva/yellowfull/west,
-/area/space)
+/area/varadero/interior/cargo)
 "aLA" = (
 /obj/structure/machinery/door/airlock/multi_tile/almayer/engidoor/colony{
 	dir = 2
@@ -12006,8 +12060,21 @@
 /turf/open/floor/corsat/squares,
 /area/almayer/command/cic)
 "aLB" = (
-/obj/structure/surface/table/reinforced,
 /obj/item/wrapping_paper,
+/obj/effect/decal/warning_stripes{
+	icon_state = "W";
+	layer = 3.3;
+	pixel_y = 1
+	},
+/obj/structure/machinery/light{
+	dir = 1
+	},
+/obj/structure/surface/table/reinforced/prison,
+/obj/item/ashtray/plastic{
+	icon_state = "ashtray_full_bl";
+	pixel_x = 7;
+	pixel_y = -9
+	},
 /turf/open/floor/shiva/yellowfull/west,
 /area/varadero/interior/cargo)
 "aLC" = (
@@ -12023,7 +12090,7 @@
 "aLE" = (
 /obj/structure/surface/table/woodentable/poor,
 /turf/open/floor/shiva/north,
-/area/space)
+/area/varadero/interior/cargo)
 "aLF" = (
 /obj/structure/disposalpipe/segment{
 	dir = 8
@@ -12046,13 +12113,13 @@
 /turf/open/floor/dark2,
 /area/space)
 "aLI" = (
-/obj/vehicle/powerloader{
-	dir = 8
-	},
 /obj/structure/window/reinforced{
 	dir = 1
 	},
 /obj/structure/window/reinforced,
+/obj/vehicle/powerloader/jd{
+	dir = 8
+	},
 /turf/open/floor/shiva/yellow/east,
 /area/varadero/interior/cargo)
 "aLJ" = (
@@ -12061,8 +12128,9 @@
 /area/varadero/interior/cargo)
 "aLK" = (
 /obj/structure/surface/table/woodentable/poor,
+/obj/item/stack/sheet/metal/medium_stack,
 /turf/open/floor/shiva/yellowcorners/east,
-/area/space)
+/area/varadero/interior/cargo)
 "aLL" = (
 /obj/effect/decal/strata_decals/mud_corner{
 	dir = 1
@@ -12100,9 +12168,12 @@
 /turf/open/gm/coast/dirt/beachcorner/south_east,
 /area/fiorina/station/park)
 "aLS" = (
-/obj/structure/window/framed/new_varadero/foundation/reinforced/hull,
-/turf/open/floor/plating,
-/area/space)
+/obj/structure/pipes/standard/simple/hidden/supply{
+	dir = 4;
+	icon_state = "exposed01-supply"
+	},
+/turf/open/floor/shiva/north,
+/area/varadero/interior/cargo)
 "aLT" = (
 /obj/effect/decal/hybrisa/road/lines2,
 /obj/effect/decal/hybrisa/road/road_edge{
@@ -12147,8 +12218,11 @@
 /area/almayer/engineering/lower/engine_monitoring)
 "aLZ" = (
 /obj/structure/surface/rack,
+/obj/item/clothing/head/hardhat/white,
+/obj/item/clothing/head/hardhat/white,
+/obj/item/clothing/head/hardhat/white,
 /turf/open/floor/shiva/yellow,
-/area/space)
+/area/varadero/interior/cargo)
 "aMa" = (
 /obj/structure/window/framed/new_varadero/foundation/reinforced,
 /turf/open/floor/plating,
@@ -12273,6 +12347,9 @@
 /obj/structure/bed/chair{
 	dir = 1;
 	pixel_y = 7
+	},
+/obj/structure/machinery/light/small{
+	pixel_x = 11
 	},
 /turf/open/floor/plating,
 /area/varadero/interior/cargo)
@@ -20840,13 +20917,12 @@
 /turf/open/floor/wood/ship,
 /area/almayer/command/combat_correspondent)
 "bkT" = (
-/obj/structure/window/framed/prison/reinforced,
-/obj/structure/window/framed/hybrisa/marshalls/reinforced,
 /obj/structure/machinery/door/poddoor/almayer/open{
 	dir = 4;
 	id = "Brig Lockdown Shutters";
 	name = "\improper Brig Lockdown Shutter"
 	},
+/obj/structure/window/framed/new_varadero/foundation/reinforced,
 /turf/closed/wall/new_varadero,
 /area/lv759/indoors/colonial_marshals/prisoners_cells)
 "bkU" = (
@@ -21060,12 +21136,12 @@
 /turf/open/floor/shiva,
 /area/lv759/indoors/colonial_marshals/prisoners_cells)
 "blu" = (
-/obj/structure/window/framed/hybrisa/marshalls,
 /obj/structure/curtain/colorable_transparent{
 	color = "#687d89";
 	alpha = 220;
 	layer = 3.2
 	},
+/obj/structure/window/framed/new_varadero/foundation,
 /turf/open/floor/shiva,
 /area/lv759/indoors/colonial_marshals/prisoners_cells)
 "blv" = (
@@ -21111,20 +21187,20 @@
 /turf/open/new_varadero/alt_concrete/floor,
 /area/bigred/ground/engineering/atmospherics)
 "blD" = (
-/obj/structure/window/framed/hybrisa/marshalls/reinforced,
 /obj/structure/machinery/door/poddoor/almayer/open{
 	dir = 4;
 	id = "Brig Lockdown Shutters";
 	name = "\improper Brig Lockdown Shutter"
 	},
+/obj/structure/window/framed/new_varadero/foundation/reinforced,
 /turf/open/space/basic,
 /area/lv759/indoors/colonial_marshals/prisoners_cells)
 "blE" = (
-/obj/structure/window/framed/hybrisa/marshalls/reinforced,
 /obj/structure/machinery/door/poddoor/almayer/open{
 	id = "Brig Lockdown Shutters";
 	name = "\improper Brig Lockdown Shutter"
 	},
+/obj/structure/window/framed/new_varadero/foundation/reinforced,
 /turf/open/space/basic,
 /area/lv759/indoors/colonial_marshals/prisoners_cells)
 "blF" = (
@@ -21150,7 +21226,7 @@
 /turf/open/floor/shiva,
 /area/lv759/indoors/colonial_marshals/prisoners_cells)
 "blJ" = (
-/obj/structure/window/framed/hybrisa/marshalls/cell,
+/obj/structure/window/framed/new_varadero/foundation/reinforced,
 /turf/open/floor/shiva,
 /area/lv759/indoors/colonial_marshals/prisoners_cells)
 "blK" = (
@@ -21187,12 +21263,11 @@
 /turf/open/auto_turf/sand_white/layer0,
 /area/bigred/ground/engineering/atmospherics)
 "blQ" = (
-/obj/structure/window/framed/prison/reinforced,
-/obj/structure/window/framed/hybrisa/marshalls/reinforced,
 /obj/structure/machinery/door/poddoor/almayer/open{
 	id = "Brig Lockdown Shutters";
 	name = "\improper Brig Lockdown Shutter"
 	},
+/obj/structure/window/framed/new_varadero/foundation/reinforced,
 /turf/closed/wall/new_varadero,
 /area/lv759/indoors/colonial_marshals/prisoners_cells)
 "blR" = (
@@ -21359,12 +21434,12 @@
 /turf/open/new_varadero/alt_concrete/floor,
 /area/bigred/ground/engineering/atmospherics)
 "bmn" = (
-/obj/structure/window/framed/hybrisa/marshalls/reinforced,
 /obj/structure/machinery/door/poddoor/almayer/open{
 	dir = 4;
 	id = "Brig Lockdown Shutters";
 	name = "\improper Brig Lockdown Shutter"
 	},
+/obj/structure/window/framed/new_varadero/foundation/reinforced,
 /turf/open/floor/shiva,
 /area/lv759/indoors/colonial_marshals/prisoners_cells)
 "bmo" = (
@@ -21384,7 +21459,7 @@
 /turf/open/floor/hybrisa/metal/metalwhitefull,
 /area/lv759/indoors/colonial_marshals/prisoners_cells)
 "bmq" = (
-/obj/structure/window/framed/hybrisa/marshalls/cell,
+/obj/structure/window/framed/new_varadero/foundation/reinforced,
 /turf/open/floor/plating,
 /area/lv759/indoors/colonial_marshals/prisoners_cells)
 "bmr" = (
@@ -21823,19 +21898,19 @@
 /turf/open/new_varadero/alt_concrete/floor,
 /area/fiorina/station/power_ring/reactor)
 "bnC" = (
-/obj/structure/window/framed/hybrisa/marshalls/reinforced,
 /obj/structure/machinery/door/poddoor/almayer/open{
 	id = "Brig Lockdown Shutters";
 	name = "\improper Brig Lockdown Shutter"
 	},
+/obj/structure/window/framed/new_varadero/foundation/reinforced,
 /turf/open/floor/plating,
 /area/lv759/indoors/colonial_marshals/prisoners_cells)
 "bnD" = (
-/obj/structure/window/framed/hybrisa/marshalls/reinforced,
 /obj/structure/machinery/door/poddoor/almayer/open{
 	id = "Brig Lockdown Shutters";
 	name = "\improper Brig Lockdown Shutter"
 	},
+/obj/structure/window/framed/new_varadero/foundation/reinforced,
 /turf/open/floor/hybrisa/metal/metalwhitefull,
 /area/lv759/indoors/colonial_marshals/prisoners_cells)
 "bnE" = (
@@ -21970,7 +22045,7 @@
 	autoname = 1;
 	dir = 1
 	},
-/turf/open/floor/shiva,
+/turf/open/new_varadero/grate/full/east,
 /area/fiorina/station/power_ring/reactor)
 "boe" = (
 /obj/structure/sink{
@@ -22910,6 +22985,7 @@
 /area/fiorina/station/power_ring/reactor)
 "bqR" = (
 /obj/structure/machinery/door/airlock/multi_tile/almayer/engidoor/glass/colony,
+/obj/structure/pipes/standard/simple/hidden/supply,
 /turf/open/new_varadero/grate,
 /area/fiorina/station/power_ring/reactor)
 "bqS" = (
@@ -25890,23 +25966,6 @@
 /obj/item/reagent_container/food/drinks/cans/aspen,
 /turf/open/auto_turf/sand_white/layer1,
 /area/space)
-"bAz" = (
-/obj/effect/hunter/bridge_border/brown/edge{
-	dir = 8
-	},
-/obj/item/weapon/shield/riot/yautja{
-	anchored = 1;
-	layer = 2.9;
-	pixel_x = 17;
-	pixel_y = 32
-	},
-/obj/item/clothing/mask/gas/yautja/hunter{
-	pixel_y = 35;
-	anchored = 1;
-	pixel_x = 17
-	},
-/turf/open/shuttle/dropship/predship/tile/red2,
-/area/space)
 "bAA" = (
 /obj/structure/platform_decoration/metal/hunter,
 /obj/effect/hunter/bridge_border/brown{
@@ -28266,46 +28325,46 @@
 /turf/open/floor/almayer/research/containment/yautja/alt,
 /area/space)
 "bHm" = (
+/obj/item/stack/sheet/metal,
+/turf/open/floor/plating/burnt_platingdmg3,
+/area/space)
+"bHn" = (
 /obj/structure/prop/new_varadero_props/egg_open,
 /turf/open/floor/almayer/research/containment/yautja/alt,
 /area/space)
-"bHn" = (
+"bHo" = (
 /obj/structure/prop/new_varadero_props/egg_destroyed,
 /turf/open/floor/almayer/research/containment/yautja/alt,
 /area/corsat/sigma/dorms)
-"bHo" = (
+"bHp" = (
 /obj/item/stack/sheet/metal,
 /turf/open/floor/plating/platingdmg2,
 /area/corsat/sigma/dorms)
-"bHp" = (
+"bHq" = (
 /obj/structure/prop/new_varadero_props/egg_open,
 /turf/open/floor/almayer/research/containment/yautja/alt,
 /area/corsat/sigma/dorms)
-"bHq" = (
+"bHr" = (
 /obj/item/shard,
 /turf/open/floor/plating/platingdmg2,
 /area/corsat/sigma/dorms)
-"bHr" = (
+"bHs" = (
 /obj/item/stack/sheet/metal,
 /turf/open/floor/plating/platingdmg2,
 /area/bigred/ground/kitchen)
-"bHs" = (
+"bHt" = (
 /obj/item/stack/rods,
 /obj/item/shard,
 /turf/open/floor/plating/platingdmg2,
 /area/bigred/ground/kitchen)
-"bHt" = (
+"bHu" = (
 /obj/item/shard,
 /turf/open/floor/shiva,
 /area/corsat/sigma/dorms)
-"bHu" = (
+"bHv" = (
 /obj/item/shard,
 /turf/open/floor/plating/platingdmg2,
 /area/bigred/ground/kitchen)
-"bHv" = (
-/obj/item/stack/sheet/metal,
-/turf/open/floor/plating/burnt_platingdmg3,
-/area/space)
 "bHw" = (
 /obj/structure/girder,
 /turf/open/floor/plating/burnt_platingdmg3,
@@ -28415,12 +28474,29 @@
 /turf/open/space/basic,
 /area/space)
 "bHM" = (
+/obj/effect/hunter/bridge_border/brown/edge{
+	dir = 8
+	},
+/obj/item/weapon/shield/riot/yautja{
+	anchored = 1;
+	layer = 2.9;
+	pixel_x = 17;
+	pixel_y = 32
+	},
+/obj/item/clothing/mask/gas/yautja/hunter{
+	pixel_y = 35;
+	anchored = 1;
+	pixel_x = 17
+	},
+/turf/open/shuttle/dropship/predship/tile/red2,
+/area/space)
+"bHN" = (
 /obj/effect/hunter/bridge_border/brown{
 	dir = 8
 	},
 /turf/open/floor/plating/burnt_platingdmg3,
 /area/space)
-"bHN" = (
+"bHO" = (
 /obj/structure/machinery/door/airlock/yautja/secure{
 	name = "\improper Prisoner Cell 5";
 	opacity = 0;
@@ -28428,15 +28504,1933 @@
 	},
 /turf/open/floor/plating/burnt_platingdmg3,
 /area/space)
-"bHO" = (
+"bHP" = (
 /obj/item/stack/sheet/metal,
 /obj/item/stack/sheet/metal,
 /turf/open/floor/plating/burnt_platingdmg3,
 /area/space)
-"bHP" = (
+"bHQ" = (
 /obj/item/stack/rods,
 /turf/open/hybrisa/street/roadlines4,
 /area/space)
+"bLd" = (
+/obj/structure/pipes/standard/simple/hidden/supply{
+	dir = 9
+	},
+/turf/open/floor/shiva/yellow/east,
+/area/varadero/interior/cargo)
+"bTI" = (
+/turf/closed/wall/mineral/bone_resin,
+/area/space)
+"bWM" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "S";
+	pixel_x = -1;
+	pixel_y = 1
+	},
+/obj/structure/machinery/door/poddoor/shutters/almayer/open,
+/obj/effect/decal/warning_stripes{
+	icon_state = "N";
+	pixel_y = 1
+	},
+/turf/open/floor/shiva/yellow/west,
+/area/desert_dam/building/warehouse/warehouse)
+"bXA" = (
+/obj/structure/machinery/light/small,
+/turf/open/floor/plating,
+/area/varadero/interior/cargo)
+"bYx" = (
+/obj/effect/decal/hybrisa/road/lines4,
+/turf/open/new_varadero/dock_concrete,
+/area/desert_dam/building/warehouse/warehouse)
+"cbp" = (
+/obj/structure/largecrate/random/barrel/red,
+/turf/open/new_varadero/dock_concrete,
+/area/varadero/interior/oob)
+"chZ" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "S";
+	pixel_x = -1;
+	pixel_y = 1
+	},
+/obj/structure/machinery/door/poddoor/shutters/almayer/open,
+/obj/effect/decal/warning_stripes{
+	icon_state = "N";
+	pixel_y = 1
+	},
+/turf/open/floor/shiva/yellow/east,
+/area/desert_dam/building/warehouse/warehouse)
+"cqq" = (
+/obj/structure/cargo_container/horizontal/blue/top,
+/turf/open/new_varadero/dock_concrete,
+/area/desert_dam/building/warehouse/warehouse)
+"cvi" = (
+/obj/structure/pipes/vents/pump,
+/turf/open/floor/shiva,
+/area/varadero/interior/cargo)
+"cyq" = (
+/obj/structure/largecrate/random/barrel/green,
+/turf/open/new_varadero/dock_concrete,
+/area/varadero/interior_protected/caves/central)
+"czh" = (
+/obj/structure/pipes/vents/pump,
+/obj/effect/decal/warning_stripes{
+	icon_state = "W";
+	layer = 3.3;
+	pixel_y = 1;
+	pixel_x = -1
+	},
+/turf/open/floor/strata/multi_tiles,
+/area/desert_dam/building/warehouse/warehouse)
+"cAD" = (
+/obj/structure/barricade/wooden,
+/turf/open/floor/shiva/north,
+/area/varadero/interior/cargo)
+"cDh" = (
+/obj/structure/machinery/door_control{
+	id = "UD6";
+	name = "Cargo Shutter Control";
+	pixel_x = 25;
+	pixel_y = -3
+	},
+/turf/open/floor/shiva/yellow/east,
+/area/varadero/interior/cargo)
+"cFb" = (
+/obj/structure/bed/chair{
+	dir = 8;
+	layer = 2;
+	pixel_y = 6
+	},
+/obj/structure/machinery/light/small{
+	dir = 4
+	},
+/turf/open/floor/plating,
+/area/varadero/interior/cargo)
+"cFU" = (
+/obj/structure/pipes/standard/simple/hidden/supply{
+	dir = 4;
+	icon_state = "exposed01-supply"
+	},
+/turf/open/floor/shiva/yellow/north,
+/area/varadero/interior/cargo)
+"cHy" = (
+/obj/structure/machinery/door/airlock/maintenance/colony{
+	dir = 2
+	},
+/turf/open/floor/plating,
+/area/varadero/interior/cargo)
+"cIn" = (
+/obj/structure/surface/rack,
+/obj/item/tool/weldpack,
+/turf/open/floor/shiva/yellow/north,
+/area/desert_dam/building/warehouse/warehouse)
+"cJD" = (
+/obj/structure/machinery/light{
+	pixel_x = -16
+	},
+/turf/open/floor/shiva/yellow,
+/area/varadero/interior/cargo)
+"cOw" = (
+/turf/open/new_varadero/dock_concrete,
+/area/varadero/interior_protected/caves/central)
+"daZ" = (
+/obj/structure/pipes/standard/manifold/hidden/supply{
+	dir = 4
+	},
+/turf/open/floor/shiva,
+/area/space)
+"ddi" = (
+/turf/open/floor/shiva/yellowcorners,
+/area/desert_dam/building/warehouse/warehouse)
+"dfP" = (
+/obj/structure/pipes/standard/simple/hidden/supply,
+/turf/open/floor/shiva/yellow,
+/area/varadero/interior/cargo)
+"dkC" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "cargo"
+	},
+/obj/structure/largecrate/random/barrel/blue,
+/turf/open/floor/shiva/north,
+/area/varadero/interior/cargo)
+"dlD" = (
+/obj/structure/bed/chair{
+	can_buckle = 0;
+	dir = 4;
+	pixel_y = 11
+	},
+/turf/open/floor/plating,
+/area/varadero/interior/cargo)
+"doK" = (
+/obj/structure/largecrate/empty/secure,
+/turf/open/floor/plating,
+/area/varadero/interior/cargo)
+"dsX" = (
+/turf/open/floor/shiva/yellowcorners/east,
+/area/desert_dam/building/warehouse/warehouse)
+"dtc" = (
+/obj/structure/cargo_container/hybrisa/containersextended/medicalright,
+/turf/open/new_varadero/dock_concrete,
+/area/varadero/interior/oob)
+"dwc" = (
+/obj/structure/surface/table/woodentable/poor,
+/obj/structure/pipes/standard/simple/hidden/supply{
+	dir = 4;
+	icon_state = "exposed01-supply"
+	},
+/turf/open/floor/shiva/north,
+/area/varadero/interior/cargo)
+"dMf" = (
+/obj/structure/surface/table/reinforced,
+/obj/structure/machinery/recharger,
+/turf/open/floor/shiva/yellow/north,
+/area/desert_dam/building/warehouse/warehouse)
+"dMS" = (
+/obj/structure/largecrate/random/barrel/red,
+/turf/open/floor/plating,
+/area/varadero/interior/cargo)
+"dOS" = (
+/obj/structure/machinery/light{
+	dir = 8
+	},
+/obj/structure/sign/safety/maint{
+	pixel_x = -17
+	},
+/turf/open/floor/shiva/yellow/west,
+/area/varadero/interior/cargo)
+"dRA" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "W";
+	layer = 2.5
+	},
+/obj/effect/decal/warning_stripes{
+	icon_state = "S";
+	pixel_y = -4
+	},
+/turf/open/new_varadero/dock_concrete,
+/area/varadero/interior_protected/caves/central)
+"dRN" = (
+/obj/structure/machinery/power/power_generator/port_gen/pacman/mrs,
+/turf/open/floor/plating,
+/area/varadero/interior/cargo)
+"dRT" = (
+/obj/structure/sign/safety/maint{
+	pixel_y = 28
+	},
+/turf/open/floor/shiva/yellow/north,
+/area/varadero/interior/cargo)
+"dTA" = (
+/obj/structure/stairs/perspective{
+	dir = 1;
+	icon_state = "p_stair_sn_full_cap"
+	},
+/turf/open/new_varadero/alt_concrete/warning,
+/area/fiorina/station/power_ring/reactor)
+"efp" = (
+/obj/structure/sign/safety/maint{
+	pixel_x = -17
+	},
+/turf/open/floor/shiva/yellow/west,
+/area/varadero/interior/cargo)
+"etg" = (
+/obj/structure/machinery/light/small,
+/turf/open/floor/shiva,
+/area/space)
+"exn" = (
+/obj/structure/pipes/standard/simple/hidden/supply{
+	dir = 4;
+	icon_state = "exposed01-supply"
+	},
+/turf/open/new_varadero/dock_concrete,
+/area/desert_dam/building/warehouse/warehouse)
+"eFS" = (
+/obj/structure/pipes/standard/simple/hidden/supply{
+	dir = 4;
+	icon_state = "exposed01-supply"
+	},
+/turf/open/floor/shiva/yellowcorners/east,
+/area/varadero/interior/cargo)
+"eKT" = (
+/obj/structure/pipes/standard/simple/hidden/supply,
+/turf/open/floor/shiva/north,
+/area/varadero/interior/cargo)
+"eOP" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "NE-out";
+	pixel_x = 1;
+	pixel_y = 1
+	},
+/turf/open/floor/strata/multi_tiles,
+/area/desert_dam/building/warehouse/warehouse)
+"eTn" = (
+/obj/structure/pipes/standard/simple/hidden/supply,
+/turf/open/floor/shiva/yellow/southeast,
+/area/varadero/interior/cargo)
+"eTE" = (
+/obj/structure/pipes/standard/simple/hidden/supply{
+	dir = 6
+	},
+/turf/open/floor/shiva/north,
+/area/varadero/interior/cargo)
+"eYj" = (
+/obj/structure/machinery/space_heater{
+	pixel_y = 4
+	},
+/turf/open/floor/plating,
+/area/varadero/interior/cargo)
+"fid" = (
+/obj/structure/machinery/door/airlock/maintenance/colony{
+	dir = 2
+	},
+/turf/open/floor/shiva/yellowfull/west,
+/area/varadero/interior/cargo)
+"flD" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "S";
+	pixel_x = -1;
+	pixel_y = 1
+	},
+/turf/open/floor/shiva/yellowfull/west,
+/area/varadero/interior/cargo)
+"fAu" = (
+/obj/structure/machinery/light,
+/turf/open/new_varadero/dock_concrete,
+/area/varadero/interior_protected/caves/central)
+"fCI" = (
+/obj/structure/pipes/standard/simple/hidden/supply,
+/turf/open/floor/shiva,
+/area/space)
+"fHp" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "cargo"
+	},
+/obj/structure/largecrate/random/barrel/yellow,
+/turf/open/floor/shiva/north,
+/area/desert_dam/building/warehouse/warehouse)
+"fNQ" = (
+/obj/structure/machinery/light{
+	pixel_x = -16
+	},
+/turf/open/floor/shiva/yellow,
+/area/desert_dam/building/warehouse/warehouse)
+"fSW" = (
+/obj/structure/machinery/light,
+/turf/open/new_varadero/dock_concrete,
+/area/desert_dam/building/warehouse/warehouse)
+"fUT" = (
+/obj/structure/machinery/door_control{
+	id = "UD6";
+	name = "Cargo Shutter Control";
+	pixel_x = -10;
+	pixel_y = -24
+	},
+/obj/structure/machinery/light,
+/turf/open/floor/shiva/yellow,
+/area/desert_dam/building/warehouse/warehouse)
+"fXD" = (
+/obj/structure/surface/table/woodentable/poor,
+/obj/structure/pipes/vents/pump,
+/turf/open/floor/shiva/north,
+/area/varadero/interior/cargo)
+"get" = (
+/obj/structure/largecrate/random/barrel/blue,
+/turf/open/floor/plating,
+/area/varadero/interior/cargo)
+"gfc" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "S";
+	pixel_y = -4
+	},
+/turf/closed/wall/new_varadero,
+/area/desert_dam/building/warehouse/warehouse)
+"gDp" = (
+/obj/structure/largecrate/random/case/double{
+	pixel_y = 13
+	},
+/obj/structure/largecrate/random/case/double{
+	pixel_x = 3
+	},
+/turf/open/floor/shiva/yellow/northwest,
+/area/desert_dam/building/warehouse/warehouse)
+"gHE" = (
+/obj/structure/largecrate/random/mini{
+	pixel_x = -6;
+	pixel_y = 3
+	},
+/obj/structure/largecrate/random/mini{
+	pixel_x = 7
+	},
+/obj/structure/largecrate/random/mini{
+	pixel_y = 15
+	},
+/turf/open/floor/plating,
+/area/varadero/interior/cargo)
+"gQZ" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "S";
+	pixel_y = -4
+	},
+/obj/structure/machinery/light{
+	dir = 4
+	},
+/turf/open/new_varadero/dock_concrete,
+/area/desert_dam/building/warehouse/warehouse)
+"gSv" = (
+/obj/structure/largecrate/random/case/double,
+/turf/open/floor/plating,
+/area/varadero/interior/cargo)
+"gTR" = (
+/obj/structure/machinery/requests_console{
+	pixel_y = -31
+	},
+/turf/open/floor/shiva/yellow,
+/area/varadero/interior/cargo)
+"gXL" = (
+/obj/structure/cargo_container/horizontal/blue/middle,
+/turf/open/new_varadero/dock_concrete,
+/area/desert_dam/building/warehouse/warehouse)
+"hiI" = (
+/obj/structure/cargo_container/hybrisa/containersextended/blueright,
+/turf/open/new_varadero/dock_concrete,
+/area/varadero/interior/oob)
+"hmm" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "E";
+	layer = 3.33;
+	pixel_x = 1;
+	pixel_y = 1
+	},
+/turf/open/floor/strata/multi_tiles,
+/area/desert_dam/building/warehouse/warehouse)
+"hqd" = (
+/obj/structure/cargo_container/kelland/left,
+/turf/open/new_varadero/dock_concrete,
+/area/desert_dam/building/warehouse/warehouse)
+"hqB" = (
+/obj/structure/machinery/door/poddoor/almayer/open{
+	id = "Brig Lockdown Shutters";
+	name = "\improper Brig Lockdown Shutter"
+	},
+/obj/structure/window/framed/new_varadero/foundation/reinforced,
+/turf/open/floor/shiva,
+/area/lv759/indoors/colonial_marshals/prisoners_cells)
+"hsv" = (
+/obj/structure/cargo_container/kelland/right,
+/turf/open/new_varadero/dock_concrete,
+/area/desert_dam/building/warehouse/warehouse)
+"huL" = (
+/obj/item/stack/sheet/wood,
+/turf/open/floor/shiva/yellow,
+/area/varadero/interior/cargo)
+"hxu" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "S";
+	pixel_x = -1
+	},
+/obj/effect/decal/warning_stripes{
+	icon_state = "W";
+	layer = 3.3;
+	pixel_x = -1
+	},
+/turf/open/floor/strata/multi_tiles,
+/area/desert_dam/building/warehouse/warehouse)
+"hDX" = (
+/obj/structure/cargo_container/hybrisa/containersextended/medicalleft,
+/turf/open/new_varadero/dock_concrete,
+/area/varadero/interior/oob)
+"hGE" = (
+/obj/structure/machinery/door/airlock/almayer/secure/colony{
+	name = "Warehouse"
+	},
+/turf/open/floor/shiva/yellowfull/west,
+/area/varadero/interior/cargo)
+"iaB" = (
+/obj/structure/pipes/standard/simple/hidden/supply{
+	dir = 4;
+	icon_state = "exposed01-supply"
+	},
+/obj/structure/cargo_container/kelland/left{
+	pixel_y = 10
+	},
+/obj/item/tool/warning_cone{
+	pixel_y = -4;
+	pixel_x = -19
+	},
+/turf/open/new_varadero/dock_concrete,
+/area/desert_dam/building/warehouse/warehouse)
+"ibc" = (
+/obj/structure/prop/rock/brown,
+/turf/open/auto_turf/sand_white/layer0,
+/area/space)
+"icr" = (
+/turf/open/floor/shiva/yellowcorners/north,
+/area/desert_dam/building/warehouse/warehouse)
+"igN" = (
+/obj/structure/surface/table/reinforced,
+/obj/item/stack/sheet/cardboard/full_stack,
+/obj/structure/machinery/light{
+	dir = 1;
+	pixel_x = 16
+	},
+/turf/open/floor/shiva/yellow/north,
+/area/desert_dam/building/warehouse/warehouse)
+"iih" = (
+/obj/structure/closet/firecloset{
+	pixel_x = -8
+	},
+/turf/open/floor/plating,
+/area/varadero/interior/cargo)
+"ijB" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "W";
+	layer = 3.3;
+	pixel_y = 1
+	},
+/obj/effect/decal/warning_stripes{
+	icon_state = "N";
+	pixel_y = 2
+	},
+/turf/open/floor/strata/multi_tiles,
+/area/desert_dam/building/warehouse/warehouse)
+"ipb" = (
+/obj/structure/cargo_container/horizontal/blue/bottom,
+/turf/open/new_varadero/dock_concrete,
+/area/desert_dam/building/warehouse/warehouse)
+"ipn" = (
+/obj/structure/blocker/invisible_wall,
+/turf/closed/wall/new_varadero/reinforced/hull,
+/area/varadero/interior/oob)
+"irK" = (
+/obj/structure/surface/table/woodentable/poor,
+/obj/item/weapon/gun/boltaction{
+	pixel_y = 3;
+	pixel_x = -17
+	},
+/turf/open/floor/shiva/north,
+/area/varadero/interior/cargo)
+"iwL" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "cargo"
+	},
+/obj/structure/largecrate/random/barrel/white,
+/turf/open/floor/shiva/north,
+/area/desert_dam/building/warehouse/warehouse)
+"ixp" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "W";
+	layer = 2.5
+	},
+/turf/open/new_varadero/dock_concrete,
+/area/varadero/interior_protected/caves/central)
+"iHb" = (
+/turf/open/floor/shiva/yellow/north,
+/area/desert_dam/building/warehouse/warehouse)
+"iID" = (
+/obj/structure/machinery/door/airlock/maintenance/colony{
+	panel_open = 1;
+	welded = true;
+	locked = 1
+	},
+/turf/open/floor/plating,
+/area/space)
+"iJJ" = (
+/turf/closed/wall/new_varadero/reinforced/hull,
+/area/varadero/interior/oob)
+"iKs" = (
+/obj/structure/pipes/standard/simple/hidden/supply{
+	dir = 10
+	},
+/turf/open/floor/shiva,
+/area/space)
+"iSS" = (
+/obj/structure/machinery/door/airlock/maintenance/colony,
+/turf/open/floor/shiva/north,
+/area/varadero/interior/cargo)
+"jae" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "cargo"
+	},
+/obj/structure/machinery/vending/cola{
+	active = 0;
+	anchored = 0
+	},
+/turf/open/floor/shiva/north,
+/area/desert_dam/building/warehouse/warehouse)
+"jdn" = (
+/obj/structure/largecrate/random/barrel/blue,
+/obj/structure/machinery/light{
+	dir = 8
+	},
+/turf/open/floor/shiva/yellow/west,
+/area/desert_dam/building/warehouse/warehouse)
+"jeB" = (
+/obj/structure/pipes/standard/simple/hidden/supply,
+/obj/effect/decal/warning_stripes{
+	icon_state = "NW-out";
+	pixel_y = 1;
+	pixel_x = -1
+	},
+/turf/open/floor/strata/multi_tiles,
+/area/desert_dam/building/warehouse/warehouse)
+"jeQ" = (
+/obj/structure/machinery/light{
+	dir = 8
+	},
+/turf/open/new_varadero/dock_concrete,
+/area/varadero/interior_protected/caves/central)
+"jlP" = (
+/obj/structure/pipes/vents/pump,
+/turf/open/floor/plating/wood,
+/area/almayer/living/offices)
+"jys" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "cargo"
+	},
+/obj/structure/largecrate/random/case/small,
+/turf/open/floor/shiva/north,
+/area/varadero/interior/cargo)
+"jyW" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "S";
+	pixel_x = -1;
+	pixel_y = 1
+	},
+/obj/effect/decal/warning_stripes{
+	icon_state = "E";
+	pixel_x = 1;
+	pixel_y = 1
+	},
+/turf/open/floor/shiva/yellowfull/west,
+/area/varadero/interior/cargo)
+"jyY" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "E";
+	layer = 3.33
+	},
+/turf/open/new_varadero/dock_concrete,
+/area/desert_dam/building/warehouse/warehouse)
+"jHq" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "cargo"
+	},
+/obj/structure/ore_box{
+	layer = 4;
+	pixel_x = 1;
+	pixel_y = 6
+	},
+/turf/open/floor/shiva/north,
+/area/desert_dam/building/warehouse/warehouse)
+"jMJ" = (
+/obj/structure/barricade/wooden{
+	dir = 4;
+	layer = 5.3
+	},
+/obj/structure/pipes/standard/simple/hidden/supply{
+	dir = 4;
+	icon_state = "exposed01-supply"
+	},
+/turf/open/floor/plating/plating_catwalk/prison,
+/area/varadero/interior/cargo)
+"jSv" = (
+/obj/structure/machinery/door/airlock/almayer/secure/colony{
+	name = "Warehouse";
+	dir = 1
+	},
+/turf/open/floor/shiva/yellowfull/west,
+/area/varadero/interior/cargo)
+"jXC" = (
+/obj/structure/closet/hydrant{
+	pixel_y = 33
+	},
+/turf/open/floor/shiva/yellow/north,
+/area/varadero/interior/cargo)
+"jYl" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "cargo"
+	},
+/obj/structure/cargo_container/kelland/right,
+/turf/open/floor/shiva/north,
+/area/varadero/interior/cargo)
+"jZJ" = (
+/obj/structure/prop/rock/brown,
+/turf/open/auto_turf/sand_white/layer0,
+/area/varadero/interior_protected/caves/central)
+"kaW" = (
+/obj/structure/pipes/standard/simple/hidden/supply,
+/turf/open/floor/shiva/yellow/east,
+/area/varadero/interior/cargo)
+"khJ" = (
+/obj/structure/machinery/light/small{
+	dir = 4
+	},
+/turf/open/floor/plating,
+/area/varadero/interior/cargo)
+"khP" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "cargo"
+	},
+/obj/effect/landmark/crap_item,
+/turf/open/floor/shiva/north,
+/area/desert_dam/building/warehouse/warehouse)
+"knp" = (
+/obj/structure/machinery/light{
+	dir = 4;
+	pixel_y = -14
+	},
+/obj/structure/pipes/vents/pump,
+/turf/open/floor/shiva/yellow/east,
+/area/varadero/interior/cargo)
+"koL" = (
+/obj/structure/machinery/light/small{
+	dir = 8;
+	pixel_y = 6
+	},
+/turf/open/floor/plating,
+/area/varadero/interior/cargo)
+"kxp" = (
+/obj/structure/pipes/standard/manifold/hidden/supply,
+/turf/open/floor/shiva/yellow/north,
+/area/varadero/interior/cargo)
+"kyk" = (
+/obj/structure/largecrate/random/case/small{
+	pixel_y = 10
+	},
+/turf/open/new_varadero/dock_concrete,
+/area/varadero/interior/oob)
+"kzw" = (
+/obj/structure/machinery/light{
+	dir = 8
+	},
+/turf/open/floor/shiva/yellow/west,
+/area/varadero/interior/cargo)
+"kHs" = (
+/obj/structure/pipes/standard/simple/hidden/supply{
+	dir = 4;
+	icon_state = "exposed01-supply"
+	},
+/obj/effect/decal/warning_stripes{
+	icon_state = "E";
+	layer = 3.33
+	},
+/turf/open/new_varadero/dock_concrete,
+/area/desert_dam/building/warehouse/warehouse)
+"kQm" = (
+/turf/open/floor/shiva/yellow/southeast,
+/area/desert_dam/building/warehouse/warehouse)
+"kSO" = (
+/obj/structure/window/framed/new_varadero/foundation,
+/turf/open/floor/plating,
+/area/desert_dam/building/warehouse/warehouse)
+"kVi" = (
+/obj/structure/cargo_container/hybrisa/containersextended/blueleft,
+/turf/open/new_varadero/dock_concrete,
+/area/varadero/interior/oob)
+"kYl" = (
+/obj/structure/surface/table/woodentable/poor,
+/obj/effect/spawner/random/goggles/lowchance,
+/turf/open/floor/shiva/north,
+/area/varadero/interior/cargo)
+"lbt" = (
+/turf/open/floor/plating/plating_catwalk/prison,
+/area/varadero/interior/cargo)
+"lcm" = (
+/obj/structure/machinery/light{
+	dir = 8
+	},
+/turf/open/floor/shiva/yellow/northwest,
+/area/varadero/interior/cargo)
+"ldV" = (
+/obj/structure/pipes/standard/simple/hidden/supply,
+/obj/effect/decal/warning_stripes{
+	icon_state = "W";
+	layer = 3.3;
+	pixel_y = 1;
+	pixel_x = -1
+	},
+/turf/open/floor/strata/multi_tiles,
+/area/desert_dam/building/warehouse/warehouse)
+"lfZ" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "N";
+	pixel_y = 2
+	},
+/obj/effect/decal/warning_stripes{
+	icon_state = "W";
+	layer = 3.3;
+	pixel_x = -1
+	},
+/turf/open/floor/strata/multi_tiles,
+/area/desert_dam/building/warehouse/warehouse)
+"lgG" = (
+/turf/open/auto_turf/sand_white/layer0,
+/area/varadero/interior/oob)
+"lkg" = (
+/obj/effect/decal/hybrisa/road/lines4,
+/turf/open/new_varadero/dock_concrete,
+/area/varadero/interior_protected/caves/central)
+"llb" = (
+/obj/structure/pipes/vents/pump,
+/turf/open/floor/shiva,
+/area/space)
+"lnR" = (
+/obj/structure/machinery/light/small{
+	dir = 1
+	},
+/turf/open/floor/plating,
+/area/varadero/interior/cargo)
+"ltj" = (
+/obj/structure/surface/table/reinforced,
+/obj/item/stack/sheet/wood/medium_stack,
+/turf/open/floor/shiva/yellow/north,
+/area/desert_dam/building/warehouse/warehouse)
+"lxp" = (
+/obj/structure/largecrate/random/barrel/purewhite,
+/turf/open/floor/shiva/yellow/southwest,
+/area/desert_dam/building/warehouse/warehouse)
+"lyL" = (
+/obj/structure/prop/dam/crane/cargo{
+	dir = 1;
+	pixel_x = -10;
+	pixel_y = 6
+	},
+/turf/open/floor/strata/multi_tiles,
+/area/desert_dam/building/warehouse/warehouse)
+"lII" = (
+/obj/structure/largecrate/random,
+/turf/open/floor/plating,
+/area/varadero/interior/cargo)
+"lSl" = (
+/obj/effect/decal/hybrisa/road/lines3,
+/obj/effect/decal/hybrisa/road/lines2,
+/turf/open/new_varadero/dock_concrete,
+/area/varadero/interior_protected/caves/central)
+"lUi" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "W";
+	layer = 3.3;
+	pixel_x = -1
+	},
+/obj/effect/decal/warning_stripes{
+	icon_state = "S";
+	pixel_x = -1
+	},
+/turf/open/floor/strata/multi_tiles,
+/area/desert_dam/building/warehouse/warehouse)
+"mai" = (
+/obj/structure/largecrate/random{
+	pixel_y = 13;
+	pixel_x = 3
+	},
+/turf/open/new_varadero/dock_concrete,
+/area/desert_dam/building/warehouse/warehouse)
+"mak" = (
+/obj/structure/bed/chair{
+	can_buckle = 0;
+	dir = 4
+	},
+/obj/structure/bed/chair{
+	can_buckle = 0;
+	dir = 4;
+	pixel_x = 1;
+	pixel_y = 3
+	},
+/obj/structure/bed/chair{
+	can_buckle = 0;
+	dir = 4;
+	pixel_x = 2;
+	pixel_y = 6
+	},
+/obj/structure/machinery/door_control{
+	id = "UD6";
+	name = "Cargo Shutter Control";
+	pixel_x = 7;
+	pixel_y = 29
+	},
+/turf/open/floor/shiva/yellow/northwest,
+/area/varadero/interior/cargo)
+"mcc" = (
+/obj/structure/machinery/door/airlock/maintenance/colony{
+	dir = 2
+	},
+/turf/open/floor/plating,
+/area/desert_dam/building/warehouse/warehouse)
+"mju" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "N";
+	pixel_y = 2
+	},
+/turf/open/floor/strata/multi_tiles,
+/area/desert_dam/building/warehouse/warehouse)
+"mst" = (
+/obj/structure/machinery/light{
+	dir = 1;
+	pixel_x = 16
+	},
+/turf/open/floor/shiva/yellow/north,
+/area/varadero/interior/cargo)
+"mxL" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "E";
+	pixel_x = 1;
+	pixel_y = 1
+	},
+/turf/open/floor/shiva/yellowfull/west,
+/area/varadero/interior/cargo)
+"mxU" = (
+/obj/effect/decal/hybrisa/road/lines3,
+/turf/open/new_varadero/dock_concrete,
+/area/varadero/interior_protected/caves/central)
+"mGI" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "cargo"
+	},
+/turf/open/floor/shiva/yellowcorners/east,
+/area/varadero/interior/cargo)
+"mGY" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "S";
+	pixel_x = -1;
+	pixel_y = 1
+	},
+/obj/structure/machinery/door/poddoor/shutters/almayer/open,
+/obj/effect/decal/warning_stripes{
+	icon_state = "N";
+	pixel_y = 1
+	},
+/turf/open/floor/shiva/north,
+/area/desert_dam/building/warehouse/warehouse)
+"mHz" = (
+/obj/structure/reagent_dispensers/tank/fuel,
+/turf/open/floor/plating,
+/area/varadero/interior/cargo)
+"mIc" = (
+/obj/structure/cargo_container/hybrisa/containersextended/blueright,
+/obj/structure/cargo_container/hybrisa/containersextended/redright{
+	pixel_y = 22
+	},
+/obj/effect/decal/warning_stripes{
+	icon_state = "S";
+	pixel_y = -4
+	},
+/turf/open/new_varadero/dock_concrete,
+/area/varadero/interior_protected/caves/central)
+"mJr" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "S";
+	pixel_y = -4
+	},
+/turf/open/new_varadero/dock_concrete,
+/area/varadero/interior_protected/caves/central)
+"mLF" = (
+/obj/structure/pipes/standard/simple/hidden/supply,
+/obj/effect/decal/warning_stripes{
+	icon_state = "S";
+	pixel_x = -1;
+	pixel_y = 1
+	},
+/obj/structure/machinery/door/poddoor/shutters/almayer/open,
+/obj/effect/decal/warning_stripes{
+	icon_state = "N";
+	pixel_y = 1
+	},
+/turf/open/floor/shiva/north,
+/area/desert_dam/building/warehouse/warehouse)
+"mMa" = (
+/obj/structure/machinery/space_heater{
+	pixel_x = -1;
+	pixel_y = 7
+	},
+/turf/open/floor/plating,
+/area/varadero/interior/cargo)
+"mUV" = (
+/obj/item/tool/warning_cone,
+/obj/effect/decal/warning_stripes{
+	icon_state = "S";
+	pixel_x = -1;
+	pixel_y = 1
+	},
+/turf/open/floor/shiva/yellowfull/west,
+/area/varadero/interior/cargo)
+"nbX" = (
+/obj/structure/sign/safety/maint{
+	pixel_x = 33
+	},
+/turf/open/floor/shiva/yellow/east,
+/area/varadero/interior/cargo)
+"niN" = (
+/obj/structure/pipes/standard/simple/hidden/supply{
+	dir = 6
+	},
+/turf/open/floor/shiva,
+/area/space)
+"nlI" = (
+/obj/structure/prop/hybrisa/vehicles/Small_Truck/Blue_Cargo,
+/obj/effect/decal/hybrisa/road/lines3,
+/turf/open/new_varadero/dock_concrete,
+/area/varadero/interior_protected/caves/central)
+"noy" = (
+/obj/structure/prop/static_tank/water{
+	pixel_y = 2
+	},
+/turf/open/floor/plating,
+/area/varadero/interior/cargo)
+"nto" = (
+/obj/structure/surface/table/reinforced,
+/obj/item/toy/deck{
+	pixel_y = 4;
+	pixel_x = 7
+	},
+/turf/open/floor/plating,
+/area/varadero/interior/cargo)
+"nzX" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "cargo"
+	},
+/obj/structure/cargo_container/grant/left,
+/turf/open/floor/shiva/north,
+/area/varadero/interior/cargo)
+"nEJ" = (
+/obj/structure/surface/rack,
+/obj/item/tool/pickaxe/drill,
+/obj/item/tool/pickaxe/drill,
+/obj/item/tool/pickaxe/drill,
+/turf/open/floor/shiva/north,
+/area/desert_dam/building/warehouse/warehouse)
+"nMf" = (
+/obj/structure/machinery/light,
+/obj/structure/machinery/door_control{
+	id = "UD6";
+	name = "Cargo Shutter Control";
+	pixel_x = 9;
+	pixel_y = -21
+	},
+/turf/open/floor/shiva/yellow,
+/area/desert_dam/building/warehouse/warehouse)
+"nMy" = (
+/turf/open/floor/shiva/yellow,
+/area/desert_dam/building/warehouse/warehouse)
+"nTt" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "E";
+	layer = 3.33;
+	pixel_x = 1
+	},
+/turf/open/floor/strata/multi_tiles,
+/area/desert_dam/building/warehouse/warehouse)
+"oaa" = (
+/obj/structure/machinery/door/poddoor/shutters/almayer/open,
+/obj/effect/decal/warning_stripes{
+	icon_state = "S";
+	pixel_x = -1;
+	pixel_y = 1
+	},
+/obj/effect/decal/warning_stripes{
+	icon_state = "N";
+	pixel_y = 1
+	},
+/turf/open/floor/shiva/north,
+/area/varadero/interior/cargo)
+"ogO" = (
+/turf/open/floor/strata/multi_tiles,
+/area/desert_dam/building/warehouse/warehouse)
+"ood" = (
+/obj/structure/surface/rack,
+/obj/item/clothing/glasses/welding,
+/turf/open/floor/shiva/yellow,
+/area/varadero/interior/cargo)
+"owX" = (
+/turf/closed/wall/new_varadero/reinforced,
+/area/varadero/interior/cargo)
+"oyx" = (
+/obj/structure/machinery/light{
+	dir = 1;
+	pixel_x = 16
+	},
+/obj/structure/largecrate/empty/secure,
+/turf/open/floor/shiva/yellow/north,
+/area/varadero/interior/cargo)
+"oJN" = (
+/obj/item/stack/sheet/wood,
+/turf/open/floor/shiva/north,
+/area/varadero/interior/cargo)
+"oPh" = (
+/obj/structure/largecrate/random/case/double{
+	pixel_y = 3;
+	pixel_x = -2
+	},
+/turf/open/new_varadero/dock_concrete,
+/area/varadero/interior/oob)
+"oQI" = (
+/obj/structure/machinery/power/apc/no_power/east,
+/turf/open/floor/shiva/yellow/east,
+/area/varadero/interior/cargo)
+"paO" = (
+/obj/structure/machinery/power/apc/no_power/north,
+/turf/open/floor/shiva/yellow/north,
+/area/desert_dam/building/warehouse/warehouse)
+"pdC" = (
+/obj/structure/bed/chair,
+/turf/open/floor/plating,
+/area/varadero/interior/cargo)
+"pfD" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "cargo"
+	},
+/obj/structure/largecrate/random/barrel/yellow,
+/turf/open/floor/shiva/north,
+/area/varadero/interior/cargo)
+"pqI" = (
+/obj/structure/cargo_container/kelland/left{
+	pixel_y = 10
+	},
+/obj/item/tool/warning_cone{
+	pixel_y = -4;
+	pixel_x = -19
+	},
+/turf/open/new_varadero/dock_concrete,
+/area/varadero/interior_protected/caves/central)
+"psx" = (
+/obj/structure/machinery/light{
+	dir = 4;
+	pixel_y = -14
+	},
+/turf/open/floor/shiva/yellow/east,
+/area/desert_dam/building/warehouse/warehouse)
+"pEm" = (
+/obj/structure/machinery/light{
+	dir = 4;
+	pixel_y = -14
+	},
+/turf/open/floor/shiva/yellow/east,
+/area/varadero/interior/cargo)
+"pEN" = (
+/obj/structure/pipes/standard/simple/hidden/supply,
+/turf/open/floor/shiva/yellow,
+/area/desert_dam/building/warehouse/warehouse)
+"qdo" = (
+/obj/structure/machinery/big_computers/computerbrown/computer4{
+	pixel_y = 13
+	},
+/turf/open/floor/shiva/yellow/north,
+/area/varadero/interior/cargo)
+"qfc" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "cargo"
+	},
+/obj/structure/largecrate/random{
+	pixel_y = 7
+	},
+/turf/open/floor/shiva/north,
+/area/desert_dam/building/warehouse/warehouse)
+"qfC" = (
+/turf/closed/wall/new_varadero/reinforced,
+/area/desert_dam/building/warehouse/warehouse)
+"qhD" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "cargo"
+	},
+/obj/structure/largecrate/random/barrel/green,
+/turf/open/floor/shiva/north,
+/area/desert_dam/building/warehouse/warehouse)
+"qiX" = (
+/obj/structure/machinery/door_control{
+	id = "UD6";
+	name = "Cargo Shutter Control";
+	pixel_x = -23;
+	pixel_y = -4
+	},
+/turf/open/floor/shiva/yellow/west,
+/area/varadero/interior/cargo)
+"qkM" = (
+/obj/structure/pipes/standard/simple/hidden/supply{
+	dir = 4;
+	icon_state = "exposed01-supply"
+	},
+/turf/open/floor/shiva/yellowcorners/north,
+/area/varadero/interior/cargo)
+"qtG" = (
+/obj/structure/machinery/door/airlock/maintenance/colony{
+	dir = 2
+	},
+/turf/open/floor/plating,
+/area/almayer/living/offices)
+"qzB" = (
+/obj/effect/decal/hybrisa/road/lines1,
+/turf/open/new_varadero/dock_concrete,
+/area/varadero/interior_protected/caves/central)
+"qHv" = (
+/obj/structure/machinery/light{
+	dir = 1
+	},
+/turf/open/floor/shiva,
+/area/space)
+"qKU" = (
+/obj/structure/pipes/standard/simple/hidden/supply{
+	dir = 6
+	},
+/turf/open/floor/shiva/yellow/northeast,
+/area/varadero/interior/cargo)
+"raT" = (
+/obj/structure/pipes/standard/simple/hidden/supply{
+	dir = 5
+	},
+/turf/open/floor/shiva,
+/area/space)
+"rgp" = (
+/obj/structure/surface/rack,
+/obj/effect/spawner/random/toolbox,
+/turf/open/floor/plating,
+/area/varadero/interior/cargo)
+"rjl" = (
+/obj/structure/bed/chair{
+	dir = 8;
+	layer = 2;
+	pixel_y = 6;
+	pixel_x = -7
+	},
+/turf/open/floor/shiva/yellowfull,
+/area/varadero/interior/cargo)
+"ruI" = (
+/obj/structure/machinery/door_control{
+	id = "UD6";
+	name = "Cargo Shutter Control";
+	pixel_x = 7;
+	pixel_y = 29
+	},
+/obj/effect/decal/warning_stripes{
+	icon_state = "cargo"
+	},
+/obj/structure/largecrate/random,
+/turf/open/floor/shiva/yellow/north,
+/area/desert_dam/building/warehouse/warehouse)
+"ryb" = (
+/obj/structure/pipes/standard/simple/hidden/supply{
+	dir = 4;
+	icon_state = "exposed01-supply"
+	},
+/turf/open/floor/shiva/yellow/west,
+/area/varadero/interior/cargo)
+"rDo" = (
+/obj/structure/pipes/standard/simple/hidden/supply,
+/obj/effect/decal/warning_stripes{
+	icon_state = "S";
+	pixel_x = -1
+	},
+/turf/open/floor/strata/multi_tiles,
+/area/desert_dam/building/warehouse/warehouse)
+"rFQ" = (
+/obj/structure/surface/rack,
+/obj/effect/landmark/crap_item,
+/turf/open/floor/plating,
+/area/varadero/interior/cargo)
+"rHf" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "cargo"
+	},
+/obj/structure/largecrate/random/barrel/green,
+/turf/open/floor/shiva/north,
+/area/varadero/interior/cargo)
+"rJU" = (
+/obj/structure/pipes/standard/manifold/hidden/supply{
+	dir = 1
+	},
+/turf/open/floor/shiva,
+/area/varadero/interior/cargo)
+"rKd" = (
+/obj/structure/pipes/standard/simple/hidden/supply{
+	dir = 9
+	},
+/turf/open/floor/shiva,
+/area/space)
+"rMA" = (
+/obj/structure/machinery/door/poddoor/shutters/almayer/open,
+/obj/effect/decal/warning_stripes{
+	icon_state = "S";
+	pixel_x = -1;
+	pixel_y = 1
+	},
+/obj/effect/decal/warning_stripes{
+	icon_state = "N";
+	pixel_y = 1
+	},
+/turf/open/floor/shiva/yellow/west,
+/area/varadero/interior/cargo)
+"rNN" = (
+/obj/structure/prop/ice_colony/poly_kevlon_roll{
+	pixel_x = 3;
+	pixel_y = 16
+	},
+/obj/structure/prop/ice_colony/poly_kevlon_roll{
+	pixel_x = -5;
+	pixel_y = 8
+	},
+/obj/structure/prop/ice_colony/poly_kevlon_roll{
+	pixel_x = 8;
+	pixel_y = 1
+	},
+/turf/open/floor/shiva/yellow/northeast,
+/area/desert_dam/building/warehouse/warehouse)
+"rNO" = (
+/obj/structure/surface/rack,
+/obj/item/storage/box/lights/bulbs{
+	pixel_x = 3;
+	pixel_y = 7
+	},
+/turf/open/floor/shiva/yellow/north,
+/area/desert_dam/building/warehouse/warehouse)
+"rOJ" = (
+/obj/item/device/assembly/mousetrap/armed,
+/turf/open/floor/plating,
+/area/varadero/interior/cargo)
+"rPu" = (
+/obj/structure/bed/chair{
+	dir = 1;
+	pixel_y = 17;
+	pixel_x = 4
+	},
+/turf/open/floor/plating,
+/area/varadero/interior/cargo)
+"rSa" = (
+/obj/structure/pipes/standard/manifold/hidden/supply{
+	dir = 8
+	},
+/turf/open/floor/shiva,
+/area/space)
+"rTn" = (
+/turf/open/new_varadero/dock_concrete,
+/area/varadero/interior/oob)
+"rVy" = (
+/obj/structure/pipes/standard/simple/hidden/supply{
+	dir = 4;
+	icon_state = "exposed01-supply"
+	},
+/turf/open/floor/shiva,
+/area/space)
+"saR" = (
+/obj/structure/cargo_container/hybrisa/containersextended/blueleft{
+	pixel_y = -7
+	},
+/turf/open/new_varadero/dock_concrete,
+/area/desert_dam/building/warehouse/warehouse)
+"sbD" = (
+/obj/structure/cargo_container/hybrisa/containersextended/blueleft,
+/obj/structure/cargo_container/hybrisa/containersextended/redleft{
+	pixel_y = 22
+	},
+/obj/effect/decal/warning_stripes{
+	icon_state = "S";
+	pixel_y = -4
+	},
+/obj/effect/decal/warning_stripes{
+	icon_state = "W";
+	layer = 2.5
+	},
+/turf/open/new_varadero/dock_concrete,
+/area/varadero/interior_protected/caves/central)
+"sgd" = (
+/obj/structure/largecrate/random/barrel/brown,
+/turf/open/new_varadero/dock_concrete,
+/area/varadero/interior_protected/caves/central)
+"sgg" = (
+/obj/structure/barricade/wooden,
+/obj/structure/machinery/light{
+	dir = 8;
+	pixel_y = -14
+	},
+/turf/open/floor/shiva/yellow/west,
+/area/varadero/interior/cargo)
+"sjN" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "SE-out";
+	pixel_x = 1
+	},
+/turf/open/floor/strata/multi_tiles,
+/area/desert_dam/building/warehouse/warehouse)
+"soU" = (
+/obj/structure/surface/table/reinforced/prison,
+/obj/structure/pipes/standard/simple/hidden/supply,
+/turf/open/floor/shiva/yellowfull/west,
+/area/varadero/interior/cargo)
+"spy" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "cargo"
+	},
+/obj/structure/ore_box{
+	layer = 4;
+	pixel_x = -2;
+	pixel_y = 6
+	},
+/turf/open/floor/shiva/north,
+/area/desert_dam/building/warehouse/warehouse)
+"sre" = (
+/obj/item/tool/warning_cone{
+	pixel_y = -4;
+	pixel_x = -19
+	},
+/obj/structure/machinery/light{
+	dir = 1;
+	pixel_x = 16
+	},
+/turf/open/new_varadero/dock_concrete,
+/area/varadero/interior_protected/caves/central)
+"sAS" = (
+/obj/structure/machinery/door/airlock/almayer/secure/colony{
+	name = "Warehouse Break Room";
+	dir = 1
+	},
+/obj/structure/pipes/standard/simple/hidden/supply,
+/turf/open/floor/shiva/yellowfull/west,
+/area/varadero/interior/cargo)
+"sCJ" = (
+/obj/structure/machinery/door_control{
+	id = "UD6";
+	name = "Cargo Shutter Control";
+	pixel_x = 7;
+	pixel_y = 29
+	},
+/obj/effect/decal/warning_stripes{
+	icon_state = "W";
+	layer = 2.5
+	},
+/obj/structure/machinery/light{
+	dir = 1
+	},
+/turf/open/new_varadero/dock_concrete,
+/area/varadero/interior_protected/caves/central)
+"sDh" = (
+/obj/structure/surface/rack,
+/obj/item/weapon/gun/smg/nailgun,
+/obj/item/weapon/gun/smg/nailgun{
+	pixel_y = 6
+	},
+/turf/open/floor/shiva/yellow,
+/area/varadero/interior/cargo)
+"sFk" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "S";
+	pixel_x = -1;
+	pixel_y = 1
+	},
+/obj/effect/decal/warning_stripes{
+	icon_state = "N";
+	pixel_y = 1
+	},
+/obj/structure/machinery/door/poddoor/shutters/almayer,
+/turf/open/floor/shiva/north,
+/area/desert_dam/building/warehouse/warehouse)
+"sIM" = (
+/obj/structure/machinery/light{
+	dir = 1;
+	pixel_x = 16
+	},
+/obj/structure/reagent_dispensers/tank/fuel,
+/turf/open/floor/shiva/yellowfull,
+/area/varadero/interior/cargo)
+"sJw" = (
+/obj/structure/machinery/light{
+	dir = 8;
+	pixel_y = -14
+	},
+/turf/open/floor/shiva/yellow/west,
+/area/varadero/interior/cargo)
+"sQX" = (
+/obj/structure/pipes/standard/manifold/hidden/supply,
+/turf/open/floor/shiva/yellow/east,
+/area/varadero/interior/cargo)
+"sST" = (
+/obj/structure/pipes/standard/simple/hidden/supply{
+	dir = 4;
+	icon_state = "exposed01-supply"
+	},
+/obj/effect/decal/hybrisa/road/lines1,
+/turf/open/new_varadero/dock_concrete,
+/area/desert_dam/building/warehouse/warehouse)
+"sXe" = (
+/obj/structure/barricade/wooden,
+/obj/structure/sign/safety/maint{
+	pixel_x = 33
+	},
+/turf/open/floor/shiva/yellow/east,
+/area/varadero/interior/cargo)
+"sYG" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "cargo"
+	},
+/obj/structure/prop/ice_colony/surveying_device{
+	layer = 2.9
+	},
+/turf/open/floor/shiva/north,
+/area/desert_dam/building/warehouse/warehouse)
+"tcX" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "S";
+	pixel_y = -4
+	},
+/obj/effect/decal/warning_stripes{
+	icon_state = "W";
+	layer = 2.5
+	},
+/turf/open/new_varadero/dock_concrete,
+/area/varadero/interior_protected/caves/central)
+"tdo" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "cargo"
+	},
+/obj/structure/machinery/vending/snack{
+	anchored = 0;
+	active = 0
+	},
+/turf/open/floor/shiva/north,
+/area/desert_dam/building/warehouse/warehouse)
+"tfN" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "S";
+	pixel_y = -4
+	},
+/turf/open/new_varadero/dock_concrete,
+/area/desert_dam/building/warehouse/warehouse)
+"tfX" = (
+/obj/item/reagent_container/glass/bucket/mopbucket{
+	pixel_x = 6;
+	pixel_y = 1
+	},
+/obj/item/tool/mop{
+	pixel_x = 12
+	},
+/turf/open/floor/plating,
+/area/varadero/interior/cargo)
+"tiv" = (
+/obj/structure/prop/static_tank/water,
+/turf/open/floor/plating,
+/area/varadero/interior/cargo)
+"tkb" = (
+/obj/structure/machinery/autolathe,
+/turf/open/floor/shiva/yellowfull,
+/area/varadero/interior/cargo)
+"tkC" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "N";
+	pixel_y = 1
+	},
+/turf/open/floor/strata/multi_tiles,
+/area/desert_dam/building/warehouse/warehouse)
+"tpx" = (
+/obj/structure/window/framed/new_varadero/foundation/reinforced/hull,
+/obj/structure/blocker/invisible_wall,
+/turf/open/floor/plating,
+/area/varadero/interior/cargo)
+"ttz" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "cargo"
+	},
+/obj/structure/prop/ice_colony/surveying_device/measuring_device,
+/turf/open/floor/shiva/north,
+/area/desert_dam/building/warehouse/warehouse)
+"tuc" = (
+/turf/open/floor/shiva/yellowcorners/west,
+/area/desert_dam/building/warehouse/warehouse)
+"tCG" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "cargo"
+	},
+/obj/structure/cargo_container/grant/rightmid,
+/turf/open/floor/shiva/north,
+/area/varadero/interior/cargo)
+"tDM" = (
+/obj/structure/stairs{
+	dir = 1
+	},
+/turf/open/floor/shiva/yellowfull,
+/area/varadero/interior/cargo)
+"tIw" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "E";
+	layer = 3.33
+	},
+/obj/structure/machinery/light{
+	dir = 1
+	},
+/turf/open/new_varadero/dock_concrete,
+/area/desert_dam/building/warehouse/warehouse)
+"tPt" = (
+/obj/structure/stairs/perspective{
+	dir = 8;
+	icon_state = "p_stair_sn_full_cap"
+	},
+/turf/open/new_varadero/alt_concrete/warning,
+/area/fiorina/station/power_ring/reactor)
+"tRz" = (
+/obj/structure/closet/crate/medical{
+	pixel_x = 1
+	},
+/turf/open/new_varadero/dock_concrete,
+/area/varadero/interior/oob)
+"ugh" = (
+/obj/structure/machinery/light{
+	dir = 1;
+	pixel_x = 16
+	},
+/obj/structure/surface/rack,
+/obj/effect/landmark/crap_item,
+/obj/structure/sign/safety/maint{
+	pixel_y = 28
+	},
+/turf/open/floor/shiva/yellow/north,
+/area/desert_dam/building/warehouse/warehouse)
+"ugk" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "cargo"
+	},
+/obj/structure/largecrate/random/mini/small_case{
+	pixel_y = -3;
+	pixel_x = -8
+	},
+/obj/structure/largecrate/random/mini/small_case{
+	pixel_y = 8;
+	pixel_x = 8
+	},
+/turf/open/floor/shiva/north,
+/area/varadero/interior/cargo)
+"uic" = (
+/obj/structure/largecrate/random/case/double{
+	pixel_y = 6
+	},
+/turf/open/new_varadero/dock_concrete,
+/area/varadero/interior/oob)
+"umN" = (
+/obj/structure/pipes/standard/simple/hidden/supply,
+/turf/open/floor/strata/multi_tiles,
+/area/desert_dam/building/warehouse/warehouse)
+"uoy" = (
+/turf/open/floor/shiva/yellow/northwest,
+/area/desert_dam/building/warehouse/warehouse)
+"usV" = (
+/obj/structure/barricade/wooden{
+	dir = 4
+	},
+/turf/open/floor/shiva/north,
+/area/varadero/interior/cargo)
+"uty" = (
+/obj/structure/machinery/big_computers/computerbrown/computer3{
+	pixel_y = 13
+	},
+/turf/open/floor/shiva/yellow/north,
+/area/varadero/interior/cargo)
+"uBS" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "cargo"
+	},
+/obj/structure/largecrate/random{
+	pixel_y = 4;
+	pixel_x = -1
+	},
+/turf/open/floor/shiva/north,
+/area/desert_dam/building/warehouse/warehouse)
+"uJb" = (
+/obj/structure/blocker/invisible_wall,
+/turf/closed/wall/new_varadero/reinforced/hull,
+/area/varadero/interior/cargo)
+"uJU" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "cargo"
+	},
+/obj/structure/closet/crate,
+/turf/open/floor/shiva/north,
+/area/desert_dam/building/warehouse/warehouse)
+"uJV" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "E";
+	layer = 3.33;
+	pixel_x = 1
+	},
+/obj/effect/decal/warning_stripes{
+	icon_state = "N";
+	pixel_y = 1
+	},
+/turf/open/floor/strata/multi_tiles,
+/area/desert_dam/building/warehouse/warehouse)
+"uVB" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "cargo"
+	},
+/obj/structure/largecrate/random,
+/turf/open/floor/shiva/north,
+/area/varadero/interior/cargo)
+"vjj" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "W";
+	layer = 3.3;
+	pixel_y = 1;
+	pixel_x = -1
+	},
+/turf/open/floor/strata/multi_tiles,
+/area/desert_dam/building/warehouse/warehouse)
+"vka" = (
+/obj/item/tool/warning_cone{
+	pixel_x = -13
+	},
+/turf/open/new_varadero/dock_concrete,
+/area/desert_dam/building/warehouse/warehouse)
+"vov" = (
+/obj/structure/window/framed/new_varadero/foundation,
+/obj/structure/pipes/standard/simple/hidden/supply,
+/turf/open/floor/plating,
+/area/almayer/living/offices)
+"vrF" = (
+/obj/structure/pipes/standard/simple/hidden/supply{
+	dir = 4;
+	icon_state = "exposed01-supply"
+	},
+/turf/open/floor/plating/plating_catwalk/prison,
+/area/varadero/interior/cargo)
+"vsH" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "cargo"
+	},
+/turf/open/floor/shiva/north,
+/area/varadero/interior/cargo)
+"vyK" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "SW-out";
+	layer = 2.5;
+	pixel_x = -1
+	},
+/turf/open/floor/strata/multi_tiles,
+/area/desert_dam/building/warehouse/warehouse)
+"vJb" = (
+/turf/open/new_varadero/dock_concrete,
+/area/desert_dam/building/warehouse/warehouse)
+"vRC" = (
+/obj/structure/machinery/door/airlock/maintenance/colony,
+/turf/open/floor/plating,
+/area/varadero/interior/cargo)
+"wfu" = (
+/obj/structure/pipes/standard/simple/hidden/supply,
+/turf/open/floor/shiva/yellow/northeast,
+/area/varadero/interior/cargo)
+"whF" = (
+/obj/structure/pipes/standard/simple/hidden/supply{
+	dir = 4;
+	icon_state = "exposed01-supply"
+	},
+/turf/open/floor/shiva,
+/area/varadero/interior/cargo)
+"wkS" = (
+/obj/structure/pipes/standard/simple/hidden/supply{
+	dir = 5
+	},
+/obj/effect/decal/hybrisa/road/lines4,
+/turf/open/new_varadero/dock_concrete,
+/area/desert_dam/building/warehouse/warehouse)
+"wny" = (
+/obj/structure/largecrate/random/barrel/blue,
+/turf/open/new_varadero/dock_concrete,
+/area/varadero/interior/oob)
+"wqI" = (
+/obj/structure/bed/chair{
+	dir = 16;
+	pixel_x = 10;
+	pixel_y = 4
+	},
+/turf/open/floor/shiva/yellow,
+/area/varadero/interior/cargo)
+"wqV" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "W";
+	layer = 3.3;
+	pixel_y = 1;
+	pixel_x = -1
+	},
+/obj/effect/decal/warning_stripes{
+	icon_state = "S";
+	pixel_x = -1
+	},
+/turf/open/floor/strata/multi_tiles,
+/area/desert_dam/building/warehouse/warehouse)
+"wsV" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "cargo"
+	},
+/obj/structure/cargo_container/kelland/left,
+/turf/open/floor/shiva/north,
+/area/varadero/interior/cargo)
+"wuc" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "S";
+	pixel_y = -4
+	},
+/obj/effect/decal/warning_stripes{
+	icon_state = "W";
+	layer = 2.5
+	},
+/turf/closed/wall/new_varadero,
+/area/varadero/interior_protected/caves/central)
+"wvK" = (
+/obj/structure/surface/rack,
+/obj/item/clothing/suit/storage/hazardvest,
+/obj/item/clothing/suit/storage/hazardvest,
+/obj/item/clothing/suit/storage/hazardvest,
+/turf/open/floor/shiva/yellow,
+/area/varadero/interior/cargo)
+"wDE" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "S";
+	pixel_y = -4
+	},
+/obj/effect/decal/warning_stripes{
+	icon_state = "E";
+	layer = 3.33
+	},
+/obj/structure/machinery/light{
+	dir = 8
+	},
+/turf/open/new_varadero/dock_concrete,
+/area/desert_dam/building/warehouse/warehouse)
+"wGx" = (
+/obj/structure/pipes/standard/simple/hidden/supply{
+	dir = 4;
+	icon_state = "exposed01-supply"
+	},
+/obj/effect/decal/hybrisa/road/lines4,
+/turf/open/new_varadero/dock_concrete,
+/area/desert_dam/building/warehouse/warehouse)
+"wKD" = (
+/obj/structure/prop/static_tank/water{
+	pixel_x = 3;
+	pixel_y = 2
+	},
+/turf/open/floor/plating,
+/area/varadero/interior/cargo)
+"wSl" = (
+/obj/structure/machinery/door_control{
+	id = "UD6";
+	name = "Cargo Shutter Control";
+	pixel_x = 9;
+	pixel_y = 29
+	},
+/turf/open/new_varadero/dock_concrete,
+/area/varadero/interior_protected/caves/central)
+"wXr" = (
+/obj/structure/pipes/standard/simple/hidden/supply,
+/turf/open/floor/plating/wood,
+/area/almayer/living/offices)
+"xdR" = (
+/obj/structure/largecrate/empty/secure{
+	pixel_x = -6;
+	pixel_y = 3
+	},
+/turf/open/floor/shiva/yellow/north,
+/area/varadero/interior/cargo)
+"xpo" = (
+/obj/structure/machinery/door/poddoor/shutters/almayer/open,
+/obj/effect/decal/warning_stripes{
+	icon_state = "S";
+	pixel_x = -1;
+	pixel_y = 1
+	},
+/obj/effect/decal/warning_stripes{
+	icon_state = "N";
+	pixel_y = 1
+	},
+/turf/open/floor/shiva/yellowfull/west,
+/area/desert_dam/building/warehouse/warehouse)
+"xBI" = (
+/obj/effect/decal/hybrisa/road/lines1,
+/turf/open/new_varadero/dock_concrete,
+/area/desert_dam/building/warehouse/warehouse)
+"xDO" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "cargo"
+	},
+/obj/structure/cargo_container/grant/right,
+/turf/open/floor/shiva/north,
+/area/varadero/interior/cargo)
+"xFn" = (
+/obj/structure/pipes/standard/manifold/hidden/supply{
+	dir = 4
+	},
+/turf/open/floor/strata/multi_tiles,
+/area/desert_dam/building/warehouse/warehouse)
+"xHf" = (
+/obj/structure/machinery/door/poddoor/shutters/almayer/open,
+/obj/effect/decal/warning_stripes{
+	icon_state = "S";
+	pixel_x = -1;
+	pixel_y = 1
+	},
+/obj/effect/decal/warning_stripes{
+	icon_state = "N";
+	pixel_y = 1
+	},
+/turf/open/floor/shiva/yellow/east,
+/area/varadero/interior/cargo)
+"xLz" = (
+/obj/structure/pipes/standard/simple/hidden/supply{
+	dir = 4;
+	icon_state = "exposed01-supply"
+	},
+/obj/structure/cargo_container/kelland/right{
+	pixel_y = 10
+	},
+/obj/item/tool/warning_cone{
+	pixel_y = -1;
+	pixel_x = 13
+	},
+/turf/open/new_varadero/dock_concrete,
+/area/desert_dam/building/warehouse/warehouse)
+"xOD" = (
+/obj/structure/machinery/door/airlock/almayer/secure/colony{
+	name = "Warehouse"
+	},
+/obj/structure/pipes/standard/simple/hidden/supply{
+	dir = 4;
+	icon_state = "exposed01-supply"
+	},
+/turf/open/floor/shiva/yellowfull/west,
+/area/varadero/interior/cargo)
+"xRi" = (
+/obj/structure/surface/rack,
+/obj/effect/landmark/crap_item,
+/turf/open/floor/shiva/yellow,
+/area/varadero/interior/cargo)
+"xXo" = (
+/obj/structure/cargo_container/kelland/right{
+	pixel_y = 10
+	},
+/turf/open/new_varadero/dock_concrete,
+/area/varadero/interior_protected/caves/central)
+"xYU" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "E";
+	layer = 3.33;
+	pixel_x = 1
+	},
+/obj/effect/decal/warning_stripes{
+	icon_state = "S";
+	pixel_x = -1
+	},
+/turf/open/floor/strata/multi_tiles,
+/area/desert_dam/building/warehouse/warehouse)
+"ybp" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "SW-out";
+	pixel_x = -1
+	},
+/turf/open/floor/strata/multi_tiles,
+/area/desert_dam/building/warehouse/warehouse)
+"ydy" = (
+/obj/structure/cargo_container/hybrisa/containersextended/blueright{
+	pixel_y = -7
+	},
+/turf/open/new_varadero/dock_concrete,
+/area/desert_dam/building/warehouse/warehouse)
+"ykz" = (
+/obj/structure/bed/chair{
+	pixel_y = 13;
+	layer = 4
+	},
+/turf/open/floor/shiva/yellow,
+/area/varadero/interior/cargo)
 
 (1,1,1) = {"
 ayZ
@@ -74738,10 +76732,10 @@ asb
 asb
 asb
 asb
-aeN
-aeN
-aeN
-aeN
+asb
+asb
+aeX
+aeX
 aeN
 aeN
 aeN
@@ -74920,16 +76914,16 @@ asb
 asb
 asb
 asb
-aeN
-aeN
-aeN
-aeN
-aeN
-aeN
-aeN
-aeN
-aeN
 asb
+aeX
+aeX
+aeN
+aeN
+aeN
+aeN
+aeN
+aeN
+aeN
 asb
 asb
 asb
@@ -75102,6 +77096,8 @@ asb
 asb
 asb
 asb
+aeX
+aeX
 aeN
 aeN
 aeN
@@ -75111,8 +77107,6 @@ aeN
 aeN
 aeN
 aeN
-aeN
-asb
 asb
 asb
 asb
@@ -75294,9 +77288,9 @@ aeN
 aeN
 aeN
 aeN
-asb
-asb
-asb
+aeN
+aeN
+aeN
 asb
 asb
 asb
@@ -75465,7 +77459,6 @@ asb
 asb
 asb
 asb
-asb
 aeN
 aeN
 aeN
@@ -75478,9 +77471,10 @@ aeN
 aeN
 aeN
 aeN
-asb
-asb
-asb
+aeN
+aeN
+aeN
+aeN
 aeN
 aeN
 aeN
@@ -75646,8 +77640,8 @@ asb
 asb
 asb
 asb
-asb
-asb
+aeN
+aeN
 aeN
 aeN
 aeN
@@ -75822,16 +77816,11 @@ asb
 asb
 asb
 asb
-asb
-asb
-asb
-asb
-asb
-asb
-asb
+aeN
 asb
 aeN
 aeN
+jZJ
 aeN
 aeN
 aeN
@@ -75850,6 +77839,11 @@ aeN
 aeN
 aeN
 aeN
+aeN
+aeN
+aeN
+aeN
+jZJ
 aeN
 aeN
 aeN
@@ -76002,16 +77996,16 @@ asb
 asb
 asb
 asb
-asb
-asb
-asb
-asb
-asb
-asb
-asb
-asb
-asb
-asb
+aeN
+aeN
+aeN
+aeN
+aeN
+aeN
+aeN
+aeN
+aeN
+aeN
 aeN
 aeN
 aeN
@@ -76183,17 +78177,6 @@ asb
 asb
 asb
 asb
-asb
-asb
-asb
-asb
-asb
-asb
-asb
-asb
-asb
-asb
-asb
 aeN
 aeN
 aeN
@@ -76204,6 +78187,17 @@ aeN
 aeN
 aeN
 aeN
+aeN
+aeN
+aeN
+aeN
+aeN
+aeN
+aeN
+aeN
+aeN
+aaI
+aaI
 aeN
 aeN
 aeN
@@ -76365,16 +78359,9 @@ asb
 asb
 asb
 asb
-asb
-asb
-asb
-asb
-asb
-asb
-asb
-asb
-asb
-asb
+aeN
+aeN
+aeN
 asb
 asb
 asb
@@ -76383,9 +78370,17 @@ aeN
 aeN
 aeN
 aeN
+asb
+asb
 aeN
 aeN
 aeN
+aeN
+aeN
+aaI
+aaI
+aaI
+aaI
 aeN
 aeN
 aeN
@@ -76399,7 +78394,6 @@ aeX
 aeX
 aeX
 aeX
-aeN
 aeN
 aeN
 aeN
@@ -76546,10 +78540,10 @@ asb
 asb
 asb
 asb
-asb
-asb
-asb
-asb
+aeN
+aeN
+aeN
+aeN
 asb
 asb
 asb
@@ -76564,11 +78558,12 @@ asb
 aeN
 aeN
 aeN
-aeN
-aeN
-aeN
-aeN
-aeN
+aaI
+aaI
+aaI
+aaI
+aaI
+aaI
 aeN
 aeN
 aeN
@@ -76582,7 +78577,6 @@ aeX
 aeX
 aeX
 aeX
-aeN
 aeN
 aeN
 aeN
@@ -76728,9 +78722,9 @@ asb
 asb
 asb
 asb
-asb
-asb
-asb
+aeN
+aeN
+aeN
 asb
 asb
 asb
@@ -76746,11 +78740,12 @@ asb
 aeN
 aeN
 aeN
-aeN
-aeN
-aeN
-aeN
-aeN
+aaI
+aJD
+aJD
+aJD
+aJD
+aJD
 aeN
 aeN
 aeN
@@ -76763,7 +78758,6 @@ aeX
 aeX
 aeX
 aeX
-aeN
 aeN
 aeN
 aeN
@@ -76909,6 +78903,10 @@ asb
 asb
 asb
 asb
+aeN
+aeN
+aeN
+aeN
 asb
 asb
 asb
@@ -76921,28 +78919,24 @@ asb
 asb
 asb
 asb
-asb
-asb
-asb
-asb
 aeN
 aeN
 aeN
-aeN
-aeN
-aeN
-aeN
-aeN
-aeN
-aeN
-aeN
-aeN
-aeN
-aeN
-aeN
-aeN
-aeN
-aeN
+aJD
+aJD
+gDp
+jdn
+lxp
+aJD
+aJD
+aJD
+sCJ
+ixp
+ixp
+ixp
+ixp
+ixp
+sbD
 aeN
 aeN
 aeN
@@ -77091,6 +79085,11 @@ asb
 asb
 asb
 asb
+aeN
+aeN
+aeN
+aeN
+aeN
 asb
 asb
 asb
@@ -77102,29 +79101,24 @@ asb
 asb
 asb
 asb
-asb
-asb
-asb
-asb
-asb
 aeN
 aeN
 aeN
-aeN
-aeN
-aeN
-aeN
-aeN
-aeN
-aeN
-aeN
-aeN
-aeN
-aeN
-aeN
-aeN
-aeN
-aeN
+aJD
+uoy
+icr
+lfZ
+hxu
+aKe
+aJI
+xpo
+qzB
+qzB
+qzB
+cOw
+cOw
+cOw
+mIc
 aeN
 aeN
 aeN
@@ -77274,40 +79268,40 @@ asb
 asb
 asb
 asb
-aKa
-aKa
-aKa
-aKa
-aKa
-aKa
-aKa
-aKa
-aKa
-aKa
-aKa
-aKa
-aKa
-aKa
-aKa
-aKa
-aKc
-aKa
-aKa
+jZJ
 aeN
 aeN
 aeN
-aeN
-aeN
-aeN
-aeN
-aeN
-aeN
-aeN
-aeN
-aeN
-aeN
-aeN
-aeN
+aKa
+aww
+aww
+aww
+aww
+aww
+aww
+aww
+aww
+aww
+owX
+owX
+vRC
+aKa
+aJD
+iHb
+ijB
+lyL
+vyK
+lUi
+nMy
+xpo
+lkg
+lkg
+lkg
+cOw
+cOw
+cOw
+fAu
+wuc
 aeN
 aeN
 aeN
@@ -77456,41 +79450,41 @@ asb
 asb
 asb
 asb
+asb
 aKa
+aKa
+aKa
+aKa
+tiv
+tiv
 aKc
 aKc
 aKc
-aKc
-aKc
-aKc
-aKc
-aKc
-aKc
-aKc
-aKc
-aKc
-aKc
-aKc
+get
+dMS
+rgp
+rFQ
 aKc
 aKc
 aKc
 aKa
-aeN
-aeN
-aeN
-aeN
-aeN
-aeN
-aeN
-aeN
-aeN
-aeN
-aeN
-aeN
-aeN
-aeN
-aeN
-aeN
+qfC
+paO
+mju
+ogO
+ogO
+aJS
+nMy
+xpo
+qzB
+qzB
+qzB
+cOw
+cOw
+cOw
+cOw
+jeQ
+tcX
 aeN
 aeN
 aeN
@@ -77638,6 +79632,7 @@ asb
 asb
 asb
 asb
+asb
 aKa
 aKc
 aKc
@@ -77649,31 +79644,30 @@ aKc
 aKc
 aKc
 aKc
+khJ
 aKc
 aKc
 aKc
 aKc
 aKc
-aKc
-aKc
-aKc
-aeN
-aeN
-aeN
-aeN
-aeN
-aeN
-aeN
-aeN
-aeN
-aeN
-aeN
-aeN
-aeN
-aeN
-aeN
-aeN
-aeN
+mcc
+iHb
+mju
+ogO
+ogO
+aJS
+nMy
+xpo
+lkg
+lkg
+lkg
+cOw
+cOw
+cOw
+cOw
+cOw
+cOw
+tcX
 aeN
 aeN
 aeN
@@ -77820,44 +79814,44 @@ asb
 asb
 asb
 asb
+aww
 aKa
 aKc
 aKc
+dlD
+aKc
+aKc
+aKc
+wKD
 aKa
 aKa
 aKa
 aKa
 aKa
-aKa
-aKa
-aKa
-aKa
-aKa
+vRC
 aKa
 aKc
+bXA
 aJD
-aKj
-aKj
-aJD
-aJD
-aJD
-aJD
-aJD
-aJD
-aJD
+ugh
+mju
+ogO
+sjN
+xYU
+fUT
 aJD
 aJD
-aJD
-aeN
-aeN
-aeN
-aeN
-aeN
-aeN
-aeN
-aeN
-aeN
-aeN
+mai
+pqI
+cOw
+cOw
+cOw
+cOw
+cOw
+cOw
+cOw
+dRA
+jZJ
 aeN
 aeN
 aeN
@@ -78002,43 +79996,43 @@ asb
 asb
 asb
 asb
+aww
+aKc
+aKc
+pdC
+nto
+rPu
+aKc
+aKc
+noy
 aKa
-aKc
-aKc
-aKx
 aLM
+sJw
 aKF
-aKF
-aKF
-aKF
-aKF
-aKF
-aKF
-aKF
-aKF
+efp
 aKn
-aJD
+aKa
 aKj
-aKj
+aKc
 aJD
-aJI
-aJI
-aJI
-aJI
-aJI
-aJI
-aJI
+rNO
+mju
+ogO
+aJS
+nEJ
+tuc
 aJI
 aJD
-aeN
-aeN
-aeN
-aeN
-aeN
-aeN
-aeN
-aeN
-aeN
+aJD
+xXo
+cOw
+cOw
+cOw
+sgd
+cyq
+lSl
+nlI
+mJr
 aeN
 aeN
 aeN
@@ -78184,43 +80178,43 @@ asb
 asb
 asb
 asb
-aKa
+aww
 aKc
 aKc
+aKc
+cFb
+aKc
+aKc
+gSv
 aKa
-aKI
-aKu
-aKu
-aKu
-aKu
-aKu
-aKu
-aKu
-aKu
-aKu
+aKa
+jXC
+uVB
+jys
+pfD
 aKq
-aJD
+aKa
 aKj
-aKj
+aKc
 aJD
-aJI
-aJI
+cIn
+mju
+ogO
 aJS
-aJS
-aJS
-aJS
-aJI
+ttz
+sYG
+tuc
 aJI
 aJD
-aIJ
-aIJ
-aIJ
-aIJ
+sre
+cOw
+cOw
+cOw
+tRz
 aeX
-aeX
-aeN
-aeN
-aeN
+lSl
+mxU
+mJr
 aeN
 aeN
 aeN
@@ -78366,53 +80360,53 @@ asb
 asb
 asb
 asb
-aKa
+aww
 aKc
 aKc
 aKa
-aKI
-aKu
-aKu
-aKu
-aKu
-aKu
-aKu
-aKu
-aKu
-aKu
+aKa
+aKa
+iSS
+aKa
+aKa
+mak
+aKJ
+dkC
+rHf
+uVB
 aKq
-aJD
-aJD
+aKa
+aKa
 aKl
 aJD
-aJI
-aJI
+ruI
+mju
+ogO
 aJS
-aJS
-aJS
-aJS
-aJI
-aJI
+spy
+jHq
+uJU
+nMf
 aJD
-abP
-abP
-abP
-abP
+wSl
+cOw
+cOw
+cOw
+rTn
 aeX
 aeX
 aeX
 aeX
+lgG
+lgG
+lgG
 aeX
 aeX
-aeX
-aeX
-aeX
-aeX
+bTI
 ajq
 ajq
 ajq
-ajq
-ajq
+ibc
 ajq
 ajq
 bpD
@@ -78548,39 +80542,40 @@ asb
 asb
 asb
 asb
-aKa
+aww
 aKc
 aKc
 aKa
-aKI
-aKu
-aKu
-aKu
-aKu
-aKu
+aLM
+dOS
+aKF
+qiX
+rMA
+aKJ
 aKu
 aKu
 aKu
 aKu
 aKr
-aKe
-aKe
-aKe
-aKe
-aJI
-aJI
-aJI
-aJI
-aJI
-aJI
-aJI
-aJI
-aJF
-abP
-abP
-abP
-abP
-abP
+sgg
+efp
+aKF
+bWM
+icr
+mju
+ogO
+ybp
+czh
+vjj
+wqV
+nMy
+sFk
+xBI
+xBI
+xBI
+vJb
+vJb
+hDX
 aeX
 aeX
 aeX
@@ -78589,8 +80584,7 @@ aeX
 aeX
 aeX
 aeX
-aeX
-ajq
+bTI
 ajq
 ajq
 ajq
@@ -78730,39 +80724,40 @@ asb
 asb
 asb
 asb
-aKa
+aww
 aKc
 aKc
 aKa
 aKI
+lbt
+lbt
+lbt
+oaa
 aKu
 aKu
 aKu
 aKu
-aKu
-aKu
-aKu
-aKu
-aKu
-aKu
-aKh
-aKh
-aKh
-aKh
-aJI
-aJI
-aJI
-aJI
-aJI
-aJI
-aJI
-aJI
+eTE
+eKT
+eKT
+eKT
+eKT
+mLF
+ldV
+jeB
+umN
+umN
+xFn
+umN
+rDo
+pEN
 aJF
-abP
-abP
-abP
-abP
-abP
+wkS
+bYx
+bYx
+vJb
+vJb
+dtc
 aeX
 aeX
 aeX
@@ -78771,8 +80766,7 @@ aeX
 aeX
 aeX
 aeX
-aeX
-ajq
+bTI
 ajq
 ajq
 ajq
@@ -78912,7 +80906,7 @@ asb
 asb
 asb
 asb
-aKa
+aww
 aKc
 aKc
 aKa
@@ -78920,32 +80914,32 @@ aLg
 aLI
 aKL
 aLI
+xHf
 aKL
 aKL
 aKL
 aKL
-aKL
-aKG
+eFS
 aKu
-aKh
-aKh
-aKh
-aKh
-aJI
-aJI
-aJS
-aJS
-aJS
-aJS
-aJI
-aJI
-aJF
-abP
-abP
-abP
-abP
-abP
-aeX
+cAD
+aKu
+aKu
+mGY
+hmm
+eOP
+ogO
+ogO
+ogO
+sjN
+xYU
+nMy
+sFk
+sST
+xBI
+xBI
+vJb
+saR
+kVi
 aeX
 aeX
 aeX
@@ -79094,7 +81088,7 @@ asb
 asb
 asb
 asb
-aKa
+aww
 aKc
 aKc
 aqk
@@ -79107,27 +81101,27 @@ aLB
 aLs
 aLm
 aKY
-aKI
+cFU
 aKv
-aKi
-aKi
-aKi
-aKi
-aJI
-aJI
+sXe
+aKL
+cDh
+chZ
+dsX
+tkC
+ogO
+ogO
+ogO
 aJS
-aJS
-aJS
-aJS
-aJI
-aJI
-aJF
-abP
-abP
-abP
-abP
-abP
-asb
+ddi
+kQm
+sFk
+wGx
+bYx
+bYx
+vJb
+ydy
+hiI
 aeX
 aeX
 aeX
@@ -79276,40 +81270,40 @@ asb
 asb
 asb
 asb
-aKa
+aww
 aKc
 aKc
 aqk
 aqs
+tDM
+tDM
 aLo
 aLo
 aLo
 aLo
-aLo
-aLo
-aLo
-aKx
-aKI
+rjl
+flD
+cFU
 aKq
-aJD
+aKa
 aKl
+aKa
+aJD
+dMf
+uJV
+nTt
+nTt
+nTt
+xYU
+nMy
 aJD
 aJD
-aJI
-aJI
-aJI
-aJI
-aJI
-aJI
-aJI
-aJI
-aJD
-abP
-abP
-abP
-abP
-abP
-asb
+exn
+vJb
+vJb
+vJb
+vka
+wny
 aeX
 aeX
 aeX
@@ -79458,48 +81452,48 @@ asb
 asb
 asb
 asb
-aKa
-aKc
+aww
+lnR
 aKc
 aqk
 aqs
+tDM
+tDM
 aLo
 aLo
 aLo
 aLo
 aLo
-aLo
-aLo
-aKx
-aKI
+flD
+cFU
 aKq
+aKa
+aKc
+mHz
 aJD
-aKj
-aKj
+igN
+aKh
+iwL
+fHp
+uBS
+khP
+fNQ
 aJD
-aJI
-aJI
-aJS
-aJS
-aJS
-aJS
-aJI
-aJI
-aJD
-abP
-abP
-abP
-abP
-abP
-asb
+hqd
+iaB
+vJb
+vJb
+vJb
+vJb
+cbp
 asb
 aeX
+vJb
+tfN
 abP
-abP
-abP
-abP
-abP
-abP
+bTI
+bTI
+bTI
 ajq
 ajq
 ajq
@@ -79640,44 +81634,44 @@ asb
 asb
 asb
 asb
-aKa
-aKc
+aww
+eYj
 aKc
 aqk
 aqs
-aLo
-aLo
+tDM
+tDM
 aLJ
 aLo
 aLo
 aLo
 aLo
-aKY
-aKI
-aKq
+mUV
+cFU
+cJD
+aKa
+aKc
+aKc
 aJD
-aKj
-aKj
-aJD
-aJI
-aJI
-aJS
-aJS
-aJS
-aJS
-aJI
-aJI
-aJD
-abP
-abP
-abP
-abP
-abP
-asb
-asb
-aeX
-abP
-abP
+ltj
+aKh
+qhD
+tdo
+jae
+qfc
+nMy
+kSO
+hsv
+xLz
+vJb
+vJb
+vJb
+vJb
+oPh
+uic
+kyk
+vJb
+gQZ
 abP
 abP
 abP
@@ -79822,45 +81816,45 @@ asb
 asb
 asb
 asb
-aKa
-aKc
+aww
+mMa
 aKc
 aqk
 aqs
-aLo
-aLo
+tDM
+tDM
 aLo
 aLo
 aLo
 aLu
 aLp
 aLa
-aKI
+kxp
 aKq
+aKa
+aKc
+aKc
 aJD
-aKj
-aKj
-aJD
-aJI
-aJI
-aJI
-aJI
-aJI
-aJI
-aJI
-aJI
-aJD
-abP
-abP
-abP
-abP
-abP
-abP
-abP
-abP
-abP
-abP
-abP
+rNN
+aKi
+aKi
+psx
+aKi
+aKi
+kQm
+kSO
+vJb
+exn
+vJb
+vJb
+vJb
+vJb
+cqq
+gXL
+ipb
+fSW
+gfc
+qHv
 abP
 abP
 abP
@@ -80004,24 +81998,25 @@ asb
 asb
 asb
 asb
-aKa
+aww
 aKc
 aKc
 aqk
 aqs
-aLo
-aLo
+tDM
+tDM
 aLo
 aLo
 aLo
 aLy
 aLo
-aKY
-aKI
-aKq
+mUV
+cFU
+gTR
+aKa
+doK
+aKc
 aJD
-aKj
-aKj
 aJM
 aJM
 aJM
@@ -80029,19 +82024,18 @@ aJM
 aJM
 aJM
 aJM
-aJM
-adf
-adf
-abP
-abP
-abP
-abP
-abP
-abP
-abP
-abP
-abP
-abP
+aJD
+tIw
+kHs
+jyY
+jyY
+jyY
+jyY
+jyY
+jyY
+jyY
+jyY
+wDE
 abP
 abP
 abP
@@ -80186,25 +82180,25 @@ asb
 asb
 asb
 asb
-aKa
+aww
 aKc
 aKc
 aqk
 aqs
-aLo
-aLo
+tDM
+tDM
 aLo
 aLo
 aLo
 aLo
 aLo
 aLb
-aKI
+cFU
 aKq
 aKa
 aKc
 aKc
-aJR
+qtG
 aJU
 aJU
 aJU
@@ -80214,7 +82208,7 @@ aJU
 aJM
 abP
 abP
-abP
+rVy
 abP
 abP
 abP
@@ -80368,7 +82362,7 @@ asb
 asb
 asb
 asb
-aKa
+aww
 aKc
 aKc
 aqk
@@ -80377,11 +82371,11 @@ aqk
 aqk
 aqk
 aqk
-aKx
-aKx
-aKx
-aKx
-aKI
+mxL
+mxL
+mxL
+jyW
+cFU
 aKq
 aKa
 aKc
@@ -80396,7 +82390,7 @@ aJU
 aJM
 abP
 abP
-abP
+rVy
 abP
 abP
 abP
@@ -80550,52 +82544,52 @@ asb
 asb
 asb
 asb
-aKa
+aww
 aKc
 aKc
-aKx
+fid
 aLM
 aKF
+kzw
 aKF
 aKF
 aKF
 aKF
 aKF
 aKF
-aKF
-aKJ
-aKq
+qkM
+huL
 aKa
-aKc
+gHE
 aKc
 aJM
 aJU
 aJU
 aJU
-aJU
-aJU
-aJU
-aJQ
-abP
-abP
-abP
-abP
-abP
-abP
+jlP
+wXr
+wXr
+vov
+fCI
+fCI
+daZ
+fCI
+fCI
+raT
 abP
 abP
 aBe
 aBe
 abP
-abP
-abP
-abP
-abP
-abP
-abP
-abP
-abP
-abP
+niN
+fCI
+fCI
+fCI
+fCI
+fCI
+fCI
+fCI
+fCI
 bqR
 bqF
 boE
@@ -80732,20 +82726,20 @@ asb
 asb
 asb
 asb
-aKa
+aww
 aKc
 aKc
 aKa
-aKI
+dRT
+wsV
 aKu
+vsH
 aKu
-aKu
-aKu
-aKu
-aKu
-aKu
-aKu
-aKu
+nzX
+usV
+usV
+oJN
+aLS
 aKq
 aKa
 aKc
@@ -80763,12 +82757,13 @@ abP
 abP
 abP
 abP
-abP
+rVy
 abP
 aBe
 aBe
 aBe
 aBe
+rVy
 abP
 abP
 abP
@@ -80777,8 +82772,7 @@ abP
 abP
 abP
 abP
-abP
-aGi
+boP
 bqy
 bqy
 bmU
@@ -80914,21 +82908,21 @@ asb
 asb
 asb
 asb
-aKa
+aww
 aKc
 aKc
 aKa
 aKI
+jYl
+aKu
+vsH
+aKu
+tCG
 aKu
 aKu
 aKu
-aKu
-aKu
-aKu
-aKu
-aKu
-aKu
-aKq
+aLS
+cJD
 aKa
 aKc
 aKc
@@ -80945,13 +82939,13 @@ abP
 abP
 abP
 abP
-abP
+rVy
 abP
 abP
 aBe
 aBe
 abP
-abP
+rVy
 abP
 brO
 ajc
@@ -81096,20 +83090,20 @@ asb
 asb
 asb
 asb
-aKa
+aww
 aKc
 aKc
 aKa
-aKI
+mst
+ugk
+aKu
+vsH
+aKu
+tCG
 aKu
 aKu
 aKu
-aKu
-aKu
-aKu
-aKu
-aKu
-aKu
+aLS
 aKq
 aKa
 aKc
@@ -81127,13 +83121,13 @@ abP
 aBe
 aBe
 abP
-abP
-abP
-abP
-abP
-abP
-abP
-abP
+iKs
+fCI
+fCI
+rSa
+rSa
+fCI
+rKd
 aBe
 brO
 ajc
@@ -81278,20 +83272,20 @@ asb
 asb
 asb
 asb
-aKa
+aww
+lnR
 aKc
-aKc
 aKa
-aKI
+aLg
+mGI
+aKu
+vsH
+aKu
+xDO
 aKu
 aKu
 aKu
-aKu
-aKu
-aKu
-aKu
-aKu
-aKu
+aLS
 aKq
 aKa
 aKc
@@ -81312,8 +83306,8 @@ aBe
 abP
 abP
 abP
-abP
-abP
+rVy
+llb
 abP
 abP
 aBe
@@ -81327,7 +83321,7 @@ ajc
 bqT
 bqG
 bmU
-bom
+dTA
 boD
 bmU
 bpr
@@ -81460,25 +83454,25 @@ asb
 asb
 asb
 asb
+aww
+aKc
+aKc
 aKa
-aKc
-aKc
 aKa
 aLg
+pEm
 aKL
 aKL
-aKL
-aKL
-aKL
-aKL
-aKL
+nbX
+pEm
+oQI
 aKG
-aKu
+vrF
 aKq
 aKa
 aKc
-aKc
-aKc
+rOJ
+cHy
 aJB
 aJB
 aJB
@@ -81494,7 +83488,7 @@ aBe
 abP
 abP
 abP
-abP
+rVy
 abP
 abP
 abP
@@ -81509,7 +83503,7 @@ ajc
 bqT
 bqG
 bmU
-bom
+tPt
 bmU
 bmU
 bnY
@@ -81642,21 +83636,21 @@ asb
 asb
 asb
 asb
-aKa
+aww
 aKc
 aKc
+iih
 aKa
 aKa
 aKa
 aKa
+aKl
 aKa
 aKa
-aKa
-aKx
 aKa
 aKI
-aKu
-aKq
+jMJ
+huL
 aKa
 aKc
 aKc
@@ -81676,7 +83670,7 @@ abP
 abP
 abP
 abP
-abP
+rVy
 abP
 abP
 abP
@@ -81824,20 +83818,20 @@ asb
 asb
 asb
 asb
+aww
+aKc
+aKc
+aKc
+aKc
+aKc
+aKc
+koL
+aKc
+aKc
 aKa
-aKc
-aKc
-aKc
-aKc
-aKc
-aKc
-aKc
-aKc
-aKc
-aKc
-aKa
+sIM
 aKI
-aKu
+vrF
 aKq
 aKa
 aKc
@@ -81858,7 +83852,7 @@ abP
 abP
 abP
 brT
-abP
+rVy
 abP
 brT
 brT
@@ -82006,20 +84000,20 @@ asb
 asb
 asb
 asb
+aww
+aKc
+aKc
+aKc
+aKc
+aKc
+aKc
+tfX
+lII
+lII
 aKa
-aKc
-aKc
-aKc
-aKc
-aKc
-aKc
-aKc
-aKc
-aKc
-aKc
-aKa
-aLg
-aKL
+tkb
+qKU
+bLd
 aKw
 aKa
 aKc
@@ -82040,7 +84034,7 @@ bsj
 bsj
 adf
 abP
-abP
+rVy
 abP
 abP
 abP
@@ -82182,13 +84176,13 @@ aCt
 aCt
 aCt
 aCt
-aKa
-aKa
-aKa
-aKa
-aKa
-aKa
-aKa
+uJb
+aww
+aww
+aww
+aww
+aww
+aww
 aKc
 aKa
 aKa
@@ -82200,9 +84194,9 @@ aKa
 aKa
 aKa
 aKa
-aKx
+xOD
 aKa
-aKx
+hGE
 aKa
 aKc
 aKc
@@ -82364,29 +84358,29 @@ aCt
 aCt
 aCt
 aCt
+uJb
+aKc
+aKc
+aKc
+aKc
+dRN
 aKa
 aKc
 aKc
 aKc
 aKc
-aKc
-aKa
-aKc
-aKc
-aKc
-aKc
-aKx
+fid
 aLM
-aGy
-aGy
-axO
-aEU
+aKF
+aKF
+aKn
+jSv
 abP
-abP
+rVy
 abP
 abP
 adf
-abZ
+iID
 adf
 adf
 adf
@@ -82546,25 +84540,25 @@ aCt
 aCt
 aCt
 aCt
-aKa
+uJb
 aKc
 aKc
+khJ
 aKc
 aKc
+cHy
 aKc
-aKc
-aKc
-aKc
+khJ
 aMc
 aKc
 aKa
-aKI
+dRT
+aMf
+aMf
+aKq
+aKa
 abP
-abP
-aNM
-adf
-abP
-abP
+rVy
 abP
 abP
 abP
@@ -82728,7 +84722,7 @@ aCt
 aCt
 aCt
 aCt
-aKa
+uJb
 aKc
 aKa
 aKa
@@ -82740,13 +84734,13 @@ aKa
 aKa
 aKa
 aKa
-aKI
+oyx
+aMf
+cvi
+cJD
+aKa
 abP
-abP
-aNM
-adf
-abP
-abP
+rVy
 abP
 abP
 abP
@@ -82910,25 +84904,25 @@ aCt
 aCt
 aCt
 aCt
-aKa
+uJb
 aKc
 aKc
 aKa
 aMt
 aMt
 aKa
-aLM
+lcm
 aKF
 aKF
 aLU
 aKa
-aKI
-abP
-abP
-aNM
-avM
-abP
-abP
+xdR
+aMf
+rJU
+dfP
+soU
+fCI
+rKd
 abP
 abP
 abP
@@ -82949,7 +84943,7 @@ aJB
 bsk
 bsl
 aFk
-bHm
+bHn
 bHl
 bHl
 brW
@@ -83092,7 +85086,7 @@ aCt
 aCt
 aCt
 aCt
-aMC
+tpx
 aKc
 aKc
 aKa
@@ -83104,10 +85098,10 @@ aMg
 aMf
 aLW
 aKa
-aKI
-abP
-abP
-aNM
+qdo
+aMf
+whF
+ykz
 aLz
 abP
 abP
@@ -83274,7 +85268,7 @@ aCt
 aCt
 aCt
 aCt
-aMC
+tpx
 aMA
 aMu
 aKa
@@ -83286,10 +85280,10 @@ aMi
 aMf
 aKq
 aKa
-aKI
-abP
-abP
-aNM
+uty
+aMf
+whF
+aKq
 avM
 abP
 abP
@@ -83313,8 +85307,8 @@ brV
 brW
 aFk
 aFk
-bHm
-bHm
+bHn
+bHn
 bHl
 brW
 aFk
@@ -83456,7 +85450,7 @@ aCt
 aCt
 aCt
 aCt
-aMC
+tpx
 aMB
 aMy
 aKa
@@ -83465,13 +85459,13 @@ aMt
 aKa
 aLg
 aMj
-aKL
+knp
+eTn
+sAS
+wfu
+kaW
+sQX
 aKw
-aKx
-aLg
-aBD
-aBD
-aox
 avM
 abP
 abP
@@ -83492,7 +85486,7 @@ abP
 abP
 bro
 bss
-bHm
+bHn
 aFk
 aFk
 brW
@@ -83524,7 +85518,7 @@ abP
 abP
 bnn
 abP
-abP
+etg
 adf
 aeN
 aeN
@@ -83638,27 +85632,27 @@ aCt
 aCt
 aCt
 aCt
-aLO
-aLO
-aLO
-aLO
-aLO
-aLO
-aLO
-aLO
-aLO
-aLO
-adf
-adf
-adf
+ipn
+iJJ
+iJJ
+iJJ
+iJJ
+iJJ
+iJJ
+iJJ
+iJJ
+iJJ
+aww
+aww
+aKa
+aKx
 aEU
-aEU
-adf
-adf
-adf
-adf
-adf
-adf
+aKa
+aKa
+aKa
+aKa
+aKa
+aKa
 abP
 abP
 abP
@@ -83674,7 +85668,7 @@ abP
 brn
 brp
 bst
-bHm
+bHn
 aFk
 aFk
 brW
@@ -83831,16 +85825,16 @@ aCt
 aCt
 aCt
 aCt
-adf
 aww
-aGy
-aGy
-aGy
-axO
+aLM
+aKF
+ryb
+aKF
+aKn
 avM
-aBr
-aBr
-aEU
+aLo
+aLo
+aKx
 abP
 abP
 abP
@@ -83856,7 +85850,7 @@ brn
 brU
 atE
 bsu
-bHm
+bHn
 aFk
 aFk
 brW
@@ -84013,16 +86007,16 @@ aCt
 aCt
 aCt
 aCt
-adf
-aCD
-asj
-asj
-asj
-aNM
+aww
+aKI
+aKu
+aLS
+aKu
+wqI
 avM
-aBr
-aBr
-aEU
+aLo
+aLo
+aKx
 abP
 abP
 abP
@@ -84195,16 +86189,16 @@ aCt
 aCt
 aCt
 aCt
-aLS
-aCD
+aMC
+aKI
 aLE
-asj
-asj
-aNM
+aLS
+aKu
+aKq
 aLr
-aBr
-aBr
-aEU
+aLo
+aLo
+aKx
 abP
 abP
 abP
@@ -84377,16 +86371,16 @@ aCt
 aCt
 aCt
 aCt
-aLS
-aCD
-aLE
-aLE
-asj
-aNM
+aMC
+aKI
+kYl
+dwc
+aKu
+aKq
 avM
-aBr
-aBr
-aEU
+aLo
+aLo
+aKx
 abP
 abP
 abP
@@ -84404,9 +86398,9 @@ agx
 ajX
 bHf
 bqB
-bHn
-bHp
-bHn
+bHo
+bHq
+bHo
 bHl
 bqh
 bqh
@@ -84559,16 +86553,16 @@ aCt
 aCt
 aCt
 aCt
+aMC
+aKI
+aKu
 aLS
-aCD
-asj
-asj
-asj
-aLZ
-adf
-aBr
-aBr
-aEU
+aKu
+xRi
+aKa
+aLo
+aLo
+aKx
 abP
 abP
 abP
@@ -84584,7 +86578,7 @@ acT
 abT
 acT
 acT
-bHt
+bHu
 bHf
 bsa
 bsa
@@ -84741,16 +86735,16 @@ aCt
 aCt
 aCt
 aCt
-aLS
-aCD
+aMC
+aKI
 aLE
-asj
-asj
+aLS
+aKu
 aLZ
-adf
-aBr
-aBr
-aEU
+aKa
+aLo
+aLo
+aKx
 abP
 abP
 abP
@@ -84923,16 +86917,16 @@ aCt
 aCt
 aCt
 aCt
-aLS
-aCD
-aLE
-aLE
-asj
-aNM
-adf
+aMC
+aKI
+irK
+fXD
+aKu
+aKq
+aKa
 aLk
-aBr
-aEU
+aLo
+aKx
 abP
 abP
 abP
@@ -85105,16 +87099,16 @@ aCt
 aCt
 aCt
 aCt
-aLS
-aCD
-asj
-asj
-asj
-aLZ
-adf
-aBr
-aBr
-aEU
+aMC
+aKI
+aKu
+aKu
+aKu
+wvK
+aKa
+aLo
+aLo
+aKx
 abP
 abP
 abP
@@ -85287,16 +87281,16 @@ aCt
 aCt
 aCt
 aCt
-adf
-aCD
+aww
+aKI
 aLE
-asj
-asj
-aLZ
-adf
+aKu
+aKu
+sDh
+aKa
 aLk
-aBr
-aEU
+aLo
+aKx
 abP
 abP
 abP
@@ -85469,16 +87463,16 @@ aCt
 aCt
 aCt
 aCt
-adf
-aWf
+aww
+aLg
 aLK
 aLE
-asj
-aLZ
-adf
-aBr
-aBr
-aEU
+aKu
+ood
+aKa
+aLo
+aLo
+aKx
 abP
 abP
 abP
@@ -85497,7 +87491,7 @@ aeC
 aeC
 aeC
 ajX
-bHq
+bHr
 brN
 bqh
 bqh
@@ -85651,13 +87645,13 @@ aCt
 aCt
 aCt
 aCt
-adf
-adf
-aWf
-aBD
-asj
-aNM
-adf
+aww
+aww
+aLg
+aKL
+aKu
+aKq
+aKa
 aLl
 aKO
 aKz
@@ -85680,7 +87674,7 @@ bqs
 acT
 bpO
 brN
-bHo
+bHp
 aHJ
 bqi
 bqi
@@ -85835,12 +87829,12 @@ aCt
 aCt
 asb
 asb
-adf
-adf
-aLD
-aNM
-adf
-aBr
+aww
+aww
+aKG
+aKq
+aKa
+aLo
 aKQ
 aKB
 abP
@@ -86018,13 +88012,13 @@ aCt
 asb
 asb
 asb
-adf
-aWf
-aox
-adf
-aBr
+aww
+aLg
+aKw
+aKa
+aLo
 aKS
-aEU
+aKx
 abP
 abP
 abP
@@ -86201,12 +88195,12 @@ asb
 asb
 asb
 asb
-adf
-adf
-adf
-adf
-adf
-adf
+aww
+aww
+aKa
+aKa
+aKa
+aKa
 abP
 abP
 abP
@@ -86385,8 +88379,8 @@ asb
 asb
 asb
 asb
-adf
-adf
+aKa
+aKa
 asb
 adf
 abP
@@ -87860,8 +89854,8 @@ ahi
 acN
 bsb
 bsc
-bHu
-bHs
+bHv
+bHt
 adV
 adV
 adV
@@ -88045,7 +90039,7 @@ aJA
 bsd
 adV
 adV
-bHr
+bHs
 bsd
 bqh
 bqh
@@ -89685,7 +91679,7 @@ bqh
 bqi
 aHJ
 aFk
-bHv
+bHm
 bqi
 bqi
 bHj
@@ -94804,7 +96798,7 @@ abP
 abP
 abP
 abP
-blt
+hqB
 bnD
 bno
 ady
@@ -94985,8 +96979,8 @@ abP
 abP
 abP
 abP
-blt
-blt
+hqB
+hqB
 ady
 adr
 adr
@@ -98833,8 +100827,8 @@ adf
 aBe
 aBe
 ajq
-aBe
-aBe
+ajq
+aIJ
 aeN
 aeN
 aeN
@@ -99016,7 +101010,7 @@ bzJ
 bzJ
 bzJ
 bzJ
-ahJ
+byr
 aeN
 aeN
 aeN
@@ -99198,7 +101192,7 @@ bzJ
 bzJ
 bzJ
 bzJ
-byr
+ahJ
 aaI
 aeN
 aeN
@@ -99380,7 +101374,7 @@ asb
 auk
 bzJ
 bzJ
-byr
+ahJ
 aaI
 aaI
 aaI
@@ -99562,7 +101556,7 @@ asb
 asb
 asb
 asb
-byr
+ahJ
 aaI
 aaI
 aaI
@@ -131348,13 +133342,13 @@ bxN
 bxN
 bxN
 aFk
-bHv
+bHm
 aFk
 aFk
 aHJ
 bqi
-bHv
-bHv
+bHm
+bHm
 aFk
 aFk
 bxN
@@ -131530,13 +133524,13 @@ bxN
 bxN
 bxN
 brD
-bHO
-bHv
+bHP
+bHm
 aFk
 bHj
 aHJ
-bHv
-bHv
+bHm
+bHm
 brD
 brD
 bxN
@@ -131712,8 +133706,8 @@ bxN
 bxN
 bxN
 brD
-bHv
-bHv
+bHm
+bHm
 aFk
 aFk
 aFk
@@ -131893,7 +133887,7 @@ aqf
 bxN
 bxN
 bxN
-bHv
+bHm
 aFk
 aFk
 aFk
@@ -132260,14 +134254,14 @@ bxN
 aFk
 aFk
 atE
-bAz
+bHM
 bAj
 bzM
 byM
 byF
 bHB
 atE
-bHv
+bHm
 atE
 atE
 aTR
@@ -132439,8 +134433,8 @@ aqf
 bxN
 bxN
 bxN
-bHO
-bHv
+bHP
+bHm
 atE
 bAA
 bAk
@@ -132449,7 +134443,7 @@ bzz
 byG
 bHC
 atE
-bHv
+bHm
 bHx
 atE
 aBE
@@ -133167,7 +135161,7 @@ aqf
 bxN
 bxN
 bxN
-bHv
+bHm
 brD
 atE
 bAE
@@ -133349,9 +135343,9 @@ aqf
 bxN
 bxN
 bxN
-bHv
+bHm
 brD
-bHN
+bHO
 bAF
 bHK
 bzQ
@@ -133534,14 +135528,14 @@ bxN
 aFk
 aFk
 aFk
-bHM
+bHN
 bHL
 bzN
 bzA
 byG
 byB
 atE
-bHv
+bHm
 aFk
 aUq
 awE
@@ -134441,7 +136435,7 @@ awk
 aSk
 ajq
 ajq
-bHP
+bHQ
 ajq
 bHF
 bHF
