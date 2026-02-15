@@ -2715,6 +2715,13 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/new_varadero/alt_concrete/warning,
 /area/point_loma/research_facility/engineering)
+"aiW" = (
+/obj/structure/machinery/scoreboard{
+	id = "colony_basketball";
+	pixel_y = 30
+	},
+/turf/open/floor/shiva,
+/area/point_loma/research_facility/hallway/south)
 "aiX" = (
 /obj/structure/machinery/door/airlock/multi_tile/almayer/engidoor/colony,
 /turf/open/floor/plating,
@@ -2744,6 +2751,10 @@
 "ajb" = (
 /turf/open/floor/shiva/multi_tiles/southeast,
 /area/point_loma/airbase/mining_colony/interior/security)
+"ajc" = (
+/obj/effect/mist/steam,
+/turf/open/floor/strata/white_cyan2/west,
+/area/point_loma/research_facility/gym)
 "ajd" = (
 /obj/structure/machinery/conveyor{
 	dir = 4
@@ -2820,6 +2831,20 @@
 "ajq" = (
 /turf/open/auto_turf/sand_white/layer0,
 /area/space)
+"ajr" = (
+/obj/structure/curtain/open/shower,
+/turf/open/floor/plating/plating_catwalk/shiva,
+/area/point_loma/research_facility/gym)
+"ajs" = (
+/obj/item/reagent_container/glass/rag{
+	desc = "A pile of clothing, these need washing...";
+	name = "pile of clothing";
+	color = "#37485b";
+	pixel_x = -6;
+	pixel_y = 12
+	},
+/turf/open/floor/whitebluefull,
+/area/point_loma/research_facility/gym)
 "ajt" = (
 /obj/structure/terminal{
 	dir = 8
@@ -3010,6 +3035,17 @@
 "ajW" = (
 /turf/closed/wall/shiva/prefabricated/blue,
 /area/point_loma/airbase/mining_colony/interior/living_quarters)
+"ajX" = (
+/obj/structure/closet/basketball,
+/obj/item/reagent_container/glass/rag{
+	desc = "A towel for drying yourself.";
+	icon = 'icons/obj/items/hunter/pred_gear.dmi';
+	icon_state = "polishing_rag";
+	name = "towel";
+	pixel_y = 6
+	},
+/turf/open/floor/whitebluefull,
+/area/point_loma/research_facility/gym)
 "ajY" = (
 /obj/structure/surface/table/reinforced/prison,
 /obj/effect/spawner/random/toolbox{
@@ -3033,6 +3069,10 @@
 	dir = 4
 	},
 /area/point_loma/research_facility/super_death_cannon/engineering)
+"akb" = (
+/obj/structure/machinery/vending/snack,
+/turf/open/floor/whitebluefull,
+/area/point_loma/research_facility/gym)
 "akc" = (
 /turf/open/floor/whiteyellow,
 /area/point_loma/airbase/mining_colony/interior/corporate)
@@ -3058,9 +3098,30 @@
 	},
 /turf/open/floor/strata/multi_tiles,
 /area/point_loma/airbase/interior/cargo/upper)
+"akh" = (
+/obj/structure/mirror{
+	pixel_x = 21
+	},
+/turf/open/floor/whitebluefull,
+/area/point_loma/research_facility/gym)
 "aki" = (
 /turf/open/shuttle/lifeboat/catwalk,
 /area/point_loma/research_facility/super_death_cannon/engineering)
+"akj" = (
+/obj/structure/machinery/shower{
+	dir = 4;
+	on = 1
+	},
+/obj/structure/machinery/shower{
+	dir = 8;
+	layer = 3.10
+	},
+/obj/item/tool/soap{
+	pixel_y = -9;
+	pixel_x = -9
+	},
+/turf/open/floor/strata/white_cyan2/west,
+/area/point_loma/research_facility/gym)
 "akk" = (
 /obj/structure/machinery/cm_vending/sorted/medical/blood{
 	pixel_x = -1
@@ -3493,6 +3554,17 @@
 	},
 /turf/open/floor/shiva/yellowfull,
 /area/point_loma/airbase/interior/garage)
+"alw" = (
+/obj/structure/surface/table/woodentable{
+	pixel_y = 17;
+	can_block_movement = 0
+	},
+/obj/item/clothing/mask/cigarette/cigar{
+	pixel_y = 14;
+	pixel_x = 4
+	},
+/turf/open/floor/whitebluefull,
+/area/point_loma/research_facility/gym)
 "alx" = (
 /obj/structure/sign/poster/music,
 /turf/closed/wall/shiva/prefabricated/blue,
@@ -3522,6 +3594,12 @@
 	},
 /turf/open/floor/shiva/yellow,
 /area/point_loma/airbase/interior/cargo/upper)
+"alB" = (
+/obj/structure/mirror{
+	pixel_x = 20
+	},
+/turf/open/floor/whitebluefull,
+/area/point_loma/research_facility/gym)
 "alC" = (
 /obj/structure/surface/table/reinforced,
 /turf/open/floor/dark2,
@@ -3654,6 +3732,17 @@
 	},
 /turf/open/floor/shiva/blue/east,
 /area/point_loma/airbase/mining_colony/interior/living_quarters)
+"alZ" = (
+/obj/structure/machinery/shower{
+	dir = 4
+	},
+/obj/structure/machinery/shower{
+	dir = 8;
+	layer = 3.10;
+	on = 1
+	},
+/turf/open/floor/strata/white_cyan2/west,
+/area/point_loma/research_facility/gym)
 "ama" = (
 /obj/effect/decal/warning_stripes{
 	icon_state = "N";
@@ -3836,6 +3925,13 @@
 /obj/structure/surface/table/reinforced/prison,
 /turf/open/floor/shiva,
 /area/point_loma/research_facility/dorms)
+"amA" = (
+/obj/item/reagent_container/food/drinks/cans/space_up{
+	pixel_y = -7;
+	pixel_x = -5
+	},
+/turf/open/floor/whitebluefull,
+/area/point_loma/research_facility/gym)
 "amB" = (
 /turf/open/new_varadero/sidewalk/northwest,
 /area/point_loma/airbase/exterior/west)
@@ -3963,6 +4059,10 @@
 /obj/structure/surface/table/woodentable/fancy,
 /turf/open/floor/hybrisa/carpet/carpetblack,
 /area/point_loma/airbase/mining_colony/interior/living_quarters)
+"amU" = (
+/obj/structure/curtain/open/shower,
+/turf/open/floor/whitebluefull,
+/area/point_loma/research_facility/gym)
 "amV" = (
 /turf/closed/wall/new_varadero/reinforced,
 /area/varadero/interior/maintenance/security/south)
@@ -4091,6 +4191,16 @@
 "ano" = (
 /turf/open/floor/shiva/wredcorners,
 /area/point_loma/airbase/interior/hospital)
+"anp" = (
+/obj/item/reagent_container/glass/rag{
+	desc = "A pile of clothing, these need washing...";
+	name = "pile of clothing";
+	color = "#973a3a";
+	pixel_x = -8;
+	pixel_y = -14
+	},
+/turf/open/floor/whitebluefull,
+/area/point_loma/research_facility/gym)
 "anq" = (
 /obj/item/tool/mop,
 /turf/open/floor/shiva/blue/east,
@@ -4289,6 +4399,11 @@
 /obj/effect/decal/hybrisa/dirt_2,
 /turf/open/floor/shiva/blue/northeast,
 /area/point_loma/airbase/mining_colony/interior/living_quarters)
+"anW" = (
+/obj/structure/closet/basketball,
+/obj/item/reagent_container/food/snacks/chocolatebar,
+/turf/open/floor/whitebluefull,
+/area/point_loma/research_facility/gym)
 "anX" = (
 /obj/effect/decal/hybrisa/bloodtrail,
 /turf/open/floor/shiva/bluecorners,
@@ -4714,6 +4829,13 @@
 	},
 /turf/open/floor/shiva/red/west,
 /area/point_loma/airbase/mining_colony/interior/security)
+"apl" = (
+/obj/structure/prop/hybrisa/misc/buildinggreebliessmall/smallvent3{
+	pixel_y = -7;
+	pixel_x = -7
+	},
+/turf/closed/wall/new_varadero,
+/area/point_loma/research_facility/gym)
 "apm" = (
 /obj/effect/decal/warning_stripes{
 	icon_state = "cargo_arrow2";
@@ -4754,6 +4876,16 @@
 	dir = 6
 	},
 /area/point_loma/research_facility/super_death_cannon/ammo_elevator)
+"apu" = (
+/obj/structure/desertdam/decals/road_edge{
+	pixel_x = -12
+	},
+/turf/open/floor/wood,
+/area/point_loma/research_facility/gym)
+"apv" = (
+/obj/structure/desertdam/decals/road_edge,
+/turf/open/floor/wood,
+/area/point_loma/research_facility/gym)
 "apw" = (
 /obj/effect/decal/cleanable/blood,
 /obj/structure/stairs/multiz/down{
@@ -4885,6 +5017,15 @@
 "apP" = (
 /turf/open/floor/corsat/squares,
 /area/point_loma/research_facility/super_death_cannon/ammo_elevator)
+"apQ" = (
+/obj/structure/holohoop{
+	id = "colony_basketball";
+	side = "left";
+	pixel_y = -2;
+	dir = 1
+	},
+/turf/open/floor/wood,
+/area/point_loma/research_facility/gym)
 "apR" = (
 /obj/structure/surface/table/reinforced/prison,
 /obj/structure/flora/pottedplant{
@@ -4925,6 +5066,12 @@
 /obj/structure/surface/rack,
 /turf/open/floor/shiva,
 /area/point_loma/research_facility/super_death_cannon/ammo_elevator)
+"apV" = (
+/obj/structure/desertdam/decals/road_edge{
+	pixel_x = 16
+	},
+/turf/open/floor/wood,
+/area/point_loma/research_facility/gym)
 "apW" = (
 /obj/structure/prop/structure_lattice{
 	health = 300;
@@ -5046,6 +5193,10 @@
 	},
 /turf/open/floor/prison/sterile_white,
 /area/point_loma/research_facility/medical)
+"aqp" = (
+/obj/structure/machinery/power/apc/power/north,
+/turf/open/floor/whiteyellowfull,
+/area/point_loma/research_facility/gym)
 "aqq" = (
 /obj/structure/bed/chair/office/dark{
 	dir = 1
@@ -5193,6 +5344,13 @@
 /obj/structure/ship_ammo/minirocket,
 /turf/open/floor/shiva,
 /area/point_loma/research_facility/super_death_cannon/ammo_elevator)
+"aqP" = (
+/obj/item/reagent_container/food/drinks/cans/classcola{
+	pixel_x = -9;
+	pixel_y = 6
+	},
+/turf/open/floor/whiteyellowfull,
+/area/point_loma/research_facility/gym)
 "aqQ" = (
 /obj/structure/prop/hybrisa/factory/conveyor_belt,
 /obj/structure/ship_ammo/rocket,
@@ -5259,6 +5417,13 @@
 	},
 /turf/open/floor/darkred2,
 /area/point_loma/airbase/interior/cargo/upper)
+"aqY" = (
+/obj/item/reagent_container/food/drinks/cans/lemon_lime{
+	pixel_y = -8;
+	pixel_x = -7
+	},
+/turf/open/floor/whiteyellowfull,
+/area/point_loma/research_facility/gym)
 "aqZ" = (
 /obj/structure/sign/nosmoking_1,
 /turf/closed/wall/new_varadero,
@@ -5312,6 +5477,10 @@
 	},
 /turf/open/floor/corsat/white,
 /area/point_loma/research_facility/super_death_cannon/observation/civ)
+"arg" = (
+/obj/structure/window/framed/new_varadero/foundation,
+/turf/open/space/basic,
+/area/point_loma/research_facility/gym)
 "arh" = (
 /turf/open/floor/prison/darkpurple2,
 /area/point_loma/research_facility/research/west)
@@ -5381,9 +5550,48 @@
 /obj/structure/machinery/space_heater,
 /turf/open/floor/shiva/blue,
 /area/point_loma/airbase/mining_colony/interior/living_quarters)
+"art" = (
+/obj/structure/desertdam/decals/road_edge{
+	icon_state = "road_edge_decal3"
+	},
+/obj/structure/desertdam/decals/road_edge{
+	pixel_x = -12
+	},
+/turf/open/floor/wood,
+/area/point_loma/research_facility/gym)
+"aru" = (
+/obj/structure/desertdam/decals/road_edge{
+	icon_state = "road_edge_decal3"
+	},
+/turf/open/floor/wood,
+/area/point_loma/research_facility/gym)
 "arv" = (
 /turf/open/floor/prison/whitegreencorner/north,
 /area/point_loma/research_facility/medical)
+"arw" = (
+/obj/structure/desertdam/decals/road_edge{
+	icon_state = "road_edge_decal8";
+	pixel_x = -16;
+	pixel_y = -16
+	},
+/obj/structure/desertdam/decals/road_edge{
+	icon_state = "road_edge_decal7";
+	pixel_x = 16;
+	pixel_y = -16
+	},
+/obj/structure/desertdam/decals/road_edge{
+	icon_state = "road_edge_decal6";
+	pixel_x = 16;
+	pixel_y = 16
+	},
+/obj/structure/desertdam/decals/road_edge{
+	icon_state = "road_edge_decal5";
+	pixel_x = -16;
+	pixel_y = 16
+	},
+/obj/item/toy/beach_ball/holoball,
+/turf/open/floor/wood,
+/area/point_loma/research_facility/gym)
 "arx" = (
 /obj/effect/decal/hybrisa/road/lines2,
 /obj/effect/decal/warning_stripes{
@@ -5446,6 +5654,15 @@
 "arE" = (
 /turf/open/floor/prison/whitegreencorner/east,
 /area/point_loma/research_facility/medical)
+"arF" = (
+/obj/structure/desertdam/decals/road_edge{
+	icon_state = "road_edge_decal3"
+	},
+/obj/structure/desertdam/decals/road_edge{
+	pixel_x = 16
+	},
+/turf/open/floor/wood,
+/area/point_loma/research_facility/gym)
 "arG" = (
 /obj/effect/decal/hybrisa/road/lines2,
 /obj/effect/decal/warning_stripes{
@@ -5463,6 +5680,13 @@
 	},
 /turf/open/floor/shiva,
 /area/point_loma/research_facility/hallway/north)
+"arI" = (
+/obj/structure/desertdam/decals/road_edge{
+	icon_state = "road_edge_decal8";
+	pixel_x = -4
+	},
+/turf/open/floor/wood,
+/area/point_loma/research_facility/gym)
 "arJ" = (
 /obj/structure/machinery/door/airlock/almayer/secure/colony{
 	dir = 2;
@@ -5479,6 +5703,34 @@
 	},
 /turf/open/floor/prison/whitegreen/northwest,
 /area/point_loma/research_facility/medical)
+"arL" = (
+/obj/structure/desertdam/decals/road_edge{
+	icon_state = "road_edge_decal6";
+	pixel_x = 16;
+	pixel_y = 16
+	},
+/obj/structure/desertdam/decals/road_edge{
+	icon_state = "road_edge_decal5";
+	pixel_x = -16;
+	pixel_y = 16
+	},
+/obj/structure/desertdam/decals/road_edge{
+	icon_state = "road_edge_decal8";
+	pixel_x = -16;
+	pixel_y = -16
+	},
+/obj/structure/desertdam/decals/road_edge{
+	icon_state = "road_edge_decal7";
+	pixel_x = 16;
+	pixel_y = -16
+	},
+/obj/structure/desertdam/decals/road_edge{
+	icon_state = "road_edge_decal3";
+	pixel_y = 5;
+	pixel_x = -4
+	},
+/turf/open/floor/wood,
+/area/point_loma/research_facility/gym)
 "arM" = (
 /obj/structure/largecrate/random/barrel/true_random{
 	pixel_y = 2
@@ -5531,6 +5783,12 @@
 	},
 /turf/open/floor/shiva,
 /area/point_loma/research_facility/super_death_cannon/ammo_elevator)
+"arT" = (
+/obj/structure/desertdam/decals/road_edge{
+	icon_state = "road_edge_decal7"
+	},
+/turf/open/floor/wood,
+/area/point_loma/research_facility/gym)
 "arU" = (
 /obj/effect/decal/hybrisa/road/roadmiddle{
 	pixel_y = 17
@@ -5552,6 +5810,12 @@
 	},
 /turf/open/floor/shiva,
 /area/point_loma/research_facility/super_death_cannon/engineering)
+"arX" = (
+/obj/structure/reagent_dispensers/water_cooler/stacks{
+	pixel_y = 22
+	},
+/turf/open/floor/whiteyellowfull,
+/area/point_loma/research_facility/gym)
 "arY" = (
 /obj/effect/decal/hybrisa/road/lines2,
 /turf/open/hybrisa/street/asphalt,
@@ -5629,6 +5893,13 @@
 	},
 /turf/open/hybrisa/street/asphalt,
 /area/point_loma/airbase/exterior/west)
+"asn" = (
+/obj/structure/machinery/scoreboard{
+	id = "colony_basketball";
+	pixel_y = 30
+	},
+/turf/open/floor/whiteyellowfull,
+/area/point_loma/research_facility/gym)
 "aso" = (
 /obj/effect/decal/hybrisa/road/roadmiddle{
 	dir = 8;
@@ -5667,6 +5938,14 @@
 	},
 /turf/open/floor/plating,
 /area/point_loma/research_facility/engineering)
+"asu" = (
+/obj/structure/machinery/scoreboard_button{
+	id = "colony_basketball";
+	name = "Scoreboard Reset Button";
+	pixel_x = -11
+	},
+/turf/closed/wall/new_varadero,
+/area/point_loma/research_facility/gym)
 "asv" = (
 /obj/structure/sign/safety/fire_haz,
 /turf/closed/wall/new_varadero,
@@ -5705,6 +5984,18 @@
 /obj/structure/prop/hybrisa/misc/buildinggreeblies/greeble10,
 /turf/open/floor/plating/plating_catwalk/prison,
 /area/point_loma/research_facility/super_death_cannon/engineering)
+"asA" = (
+/obj/structure/surface/table,
+/obj/item/reagent_container/glass/rag{
+	desc = "A towel for drying yourself.";
+	icon = 'icons/obj/items/hunter/pred_gear.dmi';
+	icon_state = "polishing_rag";
+	name = "towel";
+	pixel_y = 11;
+	pixel_x = -5
+	},
+/turf/open/floor/whiteyellowfull,
+/area/point_loma/research_facility/gym)
 "asB" = (
 /obj/structure/machinery/light/double{
 	dir = 1;
@@ -5737,6 +6028,18 @@
 	},
 /turf/open/floor/wood,
 /area/point_loma/airbase/interior/hospital)
+"asG" = (
+/obj/structure/surface/table,
+/obj/item/clothing/shoes/red{
+	pixel_y = 8;
+	pixel_x = -4
+	},
+/obj/item/clothing/shoes/laceup{
+	pixel_y = -4;
+	pixel_x = 3
+	},
+/turf/open/floor/whiteyellowfull,
+/area/point_loma/research_facility/gym)
 "asH" = (
 /obj/structure/machinery/door/airlock/multi_tile/almayer/secdoor/reinforced/colony{
 	dir = 1
@@ -5926,6 +6229,21 @@
 /obj/structure/pipes/standard/simple/hidden/green,
 /turf/open/new_varadero/sidewalk/sidewalkfull,
 /area/point_loma/airbase/exterior/east)
+"ath" = (
+/obj/structure/holohoop{
+	id = "colony_basketball";
+	side = "left";
+	pixel_y = 23
+	},
+/turf/open/floor/wood,
+/area/point_loma/research_facility/gym)
+"ati" = (
+/obj/structure/machinery/scoreboard{
+	id = "basketball";
+	pixel_y = 30
+	},
+/turf/open/floor/whiteyellowfull,
+/area/point_loma/research_facility/gym)
 "atj" = (
 /turf/open/floor/plating/plating_catwalk/prison,
 /area/point_loma/research_facility/super_death_cannon/engineering)
@@ -6224,6 +6542,12 @@
 	},
 /turf/open/floor/shiva,
 /area/point_loma/research_facility/super_death_cannon/ammo_elevator)
+"atV" = (
+/obj/structure/machinery/door/airlock/maintenance/colony{
+	dir = 8
+	},
+/turf/open/new_varadero/alt_concrete/floor,
+/area/point_loma/research_facility/gym)
 "atW" = (
 /obj/effect/decal/warning_stripes{
 	icon_state = "N-corner"
@@ -6272,6 +6596,13 @@
 "atZ" = (
 /turf/open/floor/whiteyellow/west,
 /area/point_loma/airbase/mining_colony/interior/corporate)
+"aua" = (
+/obj/item/reagent_container/food/drinks/soymilk{
+	pixel_y = -8;
+	pixel_x = 9
+	},
+/turf/open/floor/whiteyellowfull,
+/area/point_loma/research_facility/gym)
 "aub" = (
 /obj/structure/prop/hybrisa/vehicles/Small_Truck/Medical_Cargo{
 	dir = 1;
@@ -6497,11 +6828,22 @@
 "auC" = (
 /turf/open/floor/plating/catwalk,
 /area/point_loma/research_facility/hallway/east)
+"auD" = (
+/obj/structure/window,
+/turf/open/floor/whiteyellowfull,
+/area/point_loma/research_facility/gym)
 "auE" = (
 /obj/structure/prop/hybrisa/factory/conveyor_belt,
 /obj/structure/plasticflaps,
 /turf/open/floor/shiva,
 /area/point_loma/research_facility/super_death_cannon/ammo_elevator)
+"auF" = (
+/obj/structure/bed/chair{
+	pixel_y = 5
+	},
+/obj/structure/window,
+/turf/open/floor/whiteyellowfull,
+/area/point_loma/research_facility/gym)
 "auG" = (
 /obj/structure/pipes/standard/simple/hidden/green,
 /obj/effect/decal/warning_stripes{
@@ -6710,6 +7052,14 @@
 	},
 /turf/open/floor/prison,
 /area/point_loma/research_facility/super_death_cannon/engineering)
+"avf" = (
+/obj/structure/bed/chair{
+	pixel_x = -3;
+	pixel_y = 4
+	},
+/obj/structure/window,
+/turf/open/floor/whiteyellowfull,
+/area/point_loma/research_facility/gym)
 "avg" = (
 /obj/structure/pipes/unary/freezer{
 	dir = 8;
@@ -6744,6 +7094,14 @@
 	},
 /turf/open/floor/prison,
 /area/point_loma/research_facility/super_death_cannon/engineering)
+"avk" = (
+/obj/structure/bed/chair,
+/obj/structure/bed/chair{
+	pixel_y = 5
+	},
+/obj/structure/window,
+/turf/open/floor/whiteyellowfull,
+/area/point_loma/research_facility/gym)
 "avl" = (
 /obj/effect/decal/warning_stripes{
 	icon_state = "S-corner"
@@ -6833,6 +7191,12 @@
 /obj/structure/prop/almayer/computers/mapping_computer,
 /turf/open/shuttle/lifeboat/catwalk,
 /area/point_loma/research_facility/super_death_cannon/observation)
+"avx" = (
+/obj/structure/bed/chair{
+	pixel_y = -6
+	},
+/turf/open/floor/whiteyellowfull,
+/area/point_loma/research_facility/gym)
 "avy" = (
 /obj/structure/machinery/optable{
 	dir = 8
@@ -7125,6 +7489,12 @@
 	},
 /turf/open/floor/plating/catwalk/rusted,
 /area/point_loma/research_facility/super_death_cannon/observation)
+"aww" = (
+/obj/structure/bed/chair{
+	pixel_y = 2
+	},
+/turf/open/floor/whiteyellowfull,
+/area/point_loma/research_facility/gym)
 "awx" = (
 /obj/structure/pipes/standard/simple/hidden/supply{
 	dir = 6
@@ -7263,6 +7633,13 @@
 	},
 /turf/open/floor/shiva,
 /area/point_loma/research_facility/super_death_cannon/observation/civ)
+"awN" = (
+/obj/structure/bed/chair{
+	pixel_y = 12;
+	pixel_x = -4
+	},
+/turf/open/floor/whiteyellowfull,
+/area/point_loma/research_facility/gym)
 "awO" = (
 /turf/open/floor/corsat/white/west,
 /area/point_loma/research_facility/super_death_cannon/observation/civ)
@@ -7346,6 +7723,13 @@
 	},
 /turf/open/floor/prison,
 /area/point_loma/research_facility/super_death_cannon/engineering)
+"axa" = (
+/obj/structure/bed/chair{
+	pixel_x = 4;
+	pixel_y = -2
+	},
+/turf/open/floor/whiteyellowfull,
+/area/point_loma/research_facility/gym)
 "axb" = (
 /obj/effect/decal/hybrisa/road/lines1,
 /obj/effect/decal/hybrisa/road/road_stop{
@@ -7356,6 +7740,13 @@
 /obj/effect/decal/hybrisa/road/road_edge,
 /turf/open/hybrisa/street/asphalt,
 /area/point_loma/airbase/exterior/west)
+"axc" = (
+/obj/structure/bed/chair{
+	pixel_y = 6;
+	pixel_x = -4
+	},
+/turf/open/floor/whiteyellowfull,
+/area/point_loma/research_facility/gym)
 "axd" = (
 /obj/structure/window/reinforced{
 	dir = 4
@@ -7528,6 +7919,12 @@
 	},
 /turf/open/floor/shiva,
 /area/point_loma/research_facility/super_death_cannon/engineering)
+"axz" = (
+/obj/structure/bed/chair{
+	pixel_y = -6
+	},
+/turf/open/new_varadero/alt_concrete/floor,
+/area/point_loma/research_facility/engineering)
 "axA" = (
 /obj/structure/closet/firecloset/full,
 /turf/open/new_varadero/alt_concrete,
@@ -83359,7 +83756,7 @@ bqc
 bqE
 bjt
 bql
-bjt
+axz
 bpJ
 bml
 bjt
@@ -87193,7 +87590,7 @@ bJf
 bJf
 acD
 acD
-bIW
+atV
 bIW
 bIW
 bIW
@@ -87375,23 +87772,23 @@ bJf
 bJf
 bIW
 big
-big
-bje
-bje
-bje
-bje
-bje
-bje
-bje
-bje
-bje
-bje
-bje
+aua
+apu
+apu
+apu
+apu
+apu
+art
+apu
+apu
+apu
+apu
+apu
 bIW
-aSn
-aSn
-bio
-aSn
+ajc
+alZ
+akj
+ajc
 bIW
 abP
 abP
@@ -87555,25 +87952,25 @@ bJf
 bJf
 bJf
 bJf
+arg
+avx
+auD
+bje
+bje
+bje
+bje
+bje
+aru
+bje
+bje
+bje
+bje
+bje
 bIW
-big
-big
-bje
-bje
-bje
-bje
-bje
-bje
-bje
-bje
-bje
-bje
-bje
+ajr
 bIW
-aSn
-aSn
-bio
-aSn
+bIW
+ajr
 bIW
 abP
 amw
@@ -87737,25 +88134,25 @@ bJf
 bJf
 bJf
 bJf
+arg
+aww
+auF
+apv
+apv
+apv
+arI
+bje
+aru
+bje
+bje
+apv
+apv
+apv
 bIW
-big
-big
-bje
-bje
-bje
-bje
-bje
-bje
-bje
-bje
-bje
-bje
-bje
-bIW
+anp
 aSn
 aSn
-bio
-aSn
+ajs
 bIW
 abP
 bhx
@@ -87919,25 +88316,25 @@ bJf
 bJf
 bJf
 bJf
-bIW
+arg
+awN
 big
-big
+ath
+bje
+bje
+arL
+bje
+arw
 bje
 bje
 bje
 bje
-bje
-bje
-bje
-bje
-bje
-bje
-bje
+apQ
 bIW
+ajX
 aSn
 aSn
 bio
-aSn
 bIW
 abP
 amw
@@ -88101,25 +88498,25 @@ bJf
 bJf
 bJf
 bJf
+arg
+axa
+avf
+apv
+apv
+apv
+arT
+bje
+aru
+bje
+bje
+apv
+apv
+apv
 bIW
-big
-big
-bje
-bje
-bje
-bje
-bje
-bje
-bje
-bje
-bje
-bje
-bje
-bIW
-aSn
-aSn
-aSn
-aSn
+bio
+amA
+alw
+ajX
 bIW
 abP
 bhx
@@ -88283,25 +88680,25 @@ bJf
 bJf
 bJf
 bJf
-bIW
-big
-big
+arg
+axc
+avk
 bje
 bje
 bje
 bje
 bje
+aru
 bje
 bje
 bje
 bje
 bje
-bje
-bIW
+apl
+anW
 aSn
 aSn
-aSn
-aSn
+bio
 bIW
 abP
 amw
@@ -88468,22 +88865,22 @@ bJf
 bIW
 big
 big
-bje
-bje
-bje
-bje
-bje
-bje
-bje
-bje
-bje
-bje
-bje
+apV
+apV
+apV
+apV
+apV
+arF
+apV
+apV
+apV
+apV
+apV
 bIW
 aSn
 aSn
 aSn
-aSn
+akb
 bIW
 abP
 bhx
@@ -88650,22 +89047,22 @@ bJf
 bIW
 bIW
 bIW
-bje
-bje
-bje
-bje
-bje
-bje
-bje
-bje
-bje
-bje
-bje
+ati
+big
+big
+big
+big
+big
+aqY
+aqP
+big
+big
+big
 bIW
 aSn
 aSn
-aSn
-aSn
+alB
+akh
 bIW
 abP
 amw
@@ -88833,9 +89230,9 @@ bJi
 asb
 bIW
 bIW
-big
-big
-big
+asG
+asA
+arX
 big
 big
 big
@@ -88844,8 +89241,8 @@ big
 big
 big
 bIW
-big
-big
+amU
+amU
 bIW
 bIW
 bIW
@@ -89017,6 +89414,7 @@ asb
 asb
 bIW
 bIW
+asn
 big
 big
 big
@@ -89031,7 +89429,6 @@ big
 big
 big
 big
-bIX
 abP
 abP
 abP
@@ -89199,11 +89596,12 @@ asb
 asb
 asb
 asb
+asu
 bIW
+arg
+arg
 bIW
-bIW
-bIW
-bIW
+aqp
 big
 big
 big
@@ -89213,7 +89611,6 @@ big
 big
 big
 big
-bIX
 abP
 abP
 abP
@@ -89383,11 +89780,11 @@ bIP
 bIP
 bIP
 bIP
+aiW
 abP
 abP
 abP
 abP
-abP
 bIW
 bIW
 bIW
@@ -89396,7 +89793,7 @@ bIW
 bIW
 bIW
 bIW
-abP
+aiW
 abP
 abP
 abP
