@@ -8,6 +8,7 @@
 	can_build_special = TRUE //T-Comms structure
 	powernet_name = "ground"
 	minimap_color = MINIMAP_AREA_COLONY
+	ceiling = CEILING_NONE
 
 /area/point_loma/lz_computer
 	name = "Mining Colony Landing Zone - Dropship Computer"
@@ -80,6 +81,7 @@
 	icon_state = "shuttle"
 
 /area/point_loma/airbase/interior
+	ceiling = CEILING_METAL
 
 /area/point_loma/airbase/interior/atc
 	name = "Air Traffic Control"
@@ -104,6 +106,7 @@ area/point_loma/airbase/interior/cargo
 /area/point_loma/airbase/interior/cargo/lower
 	name = "Cargo - Lower"
 	icon_state = "req4"
+	ceiling = CEILING_UNDERGROUND_METAL_ALLOW_CAS
 
 /area/point_loma/airbase/interior/fire_station
 	name = "Fire Station"
@@ -158,6 +161,7 @@ area/point_loma/airbase/interior/cargo
 	name = "Point Loma Airbase - Caves"
 	minimap_color = MINIMAP_AREA_CAVES_DEEP
 	icon_state = "tunnels0"
+	ceiling = CEILING_UNDERGROUND_BLOCK_CAS
 
 /area/point_loma/airbase/cave/south
 	name = "Point Loma Airbase - Caves - South"
@@ -175,11 +179,13 @@ area/point_loma/airbase/interior/cargo
 	unoviable_timer = FALSE
 	icon = 'icons/turf/area_almayer.dmi'
 	icon_state = "science"
+	ceiling = CEILING_UNDERGROUND_ALLOW_CAS
 
 /area/point_loma/research_facility/cave
 	name = "Alpha-Tech Research Facility Cave"
 	minimap_color = MINIMAP_AREA_CAVES_DEEP
 	icon = 'icons/turf/area_varadero.dmi'
+	ceiling = CEILING_UNDERGROUND_BLOCK_CAS
 
 /area/point_loma/research_facility/cave/west
 	name = "Alpha-Tech Research Facility Cave - West"
@@ -222,6 +228,7 @@ area/point_loma/airbase/interior/cargo
 	icon = 'icons/turf/areas.dmi'
 	icon_state = "Tactical"
 	minimap_color = MINIMAP_AREA_RESEARCH_CAVE
+	ceiling = CEILING_DEEP_UNDERGROUND_METAL
 
 /area/point_loma/research_facility/super_death_cannon/ammo_elevator
 	name = "Super Death Cannon - Ammo Elevator"
@@ -244,6 +251,7 @@ area/point_loma/airbase/interior/cargo
 
 /area/point_loma/research_facility/super_death_cannon/observation/catwalk
 	name = "Super Death Cannon - Outside Catwalk"
+	ceiling = CEILING_NONE
 
 /area/point_loma/research_facility/super_death_cannon/engineering
 	name = "Super Death Cannon - Control Room"
@@ -288,6 +296,7 @@ area/point_loma/airbase/interior/cargo
 	icon = 'icons/turf/area_almayer.dmi'
 	icon_state = "engineering"
 	minimap_color = MINIMAP_AREA_ENGI
+	ceiling = CEILING_UNDERGROUND_METAL_BLOCK_CAS
 
 /area/point_loma/research_facility/gym
 	name = "Alpha-Tech - Gymnasium"
@@ -328,6 +337,7 @@ area/point_loma/airbase/interior/cargo
 	minimap_color = MINIMAP_AREA_RESEARCH
 	icon = 'icons/turf/hybrisareas.dmi'
 	icon_state = "wylab"
+	ceiling = CEILING_UNDERGROUND_METAL_BLOCK_CAS
 
 /area/point_loma/research_facility/research/park
 	name = "Alpha-Tech Research Facility - Park"
@@ -359,9 +369,11 @@ area/point_loma/airbase/interior/cargo
 	name = "Mining Colony - South Caves"
 	minimap_color = MINIMAP_AREA_MINING
 	icon_state = "tunnels4"
+	ceiling = CEILING_SANDSTONE_ALLOW_CAS
 
 /area/point_loma/airbase/mining_colony/interior
 	name = "Mining Colony - Interior"
+	ceiling = CEILING_METAL
 
 /area/point_loma/airbase/mining_colony/interior/corporate
 	name = "Mining Colony - Alpha-Tech Hardware - Corporate Office"
@@ -411,6 +423,7 @@ area/point_loma/airbase/interior/cargo
 	minimap_color = MINIMAP_AREA_SEC
 	icon = 'icons/turf/area_strata.dmi'
 	icon_state= "outpost_sec_0"
+	ceiling = CEILING_METAL
 
 /area/point_loma/airbase/mining_colony/exterior/security/checkpoint
 	minimap_color = MINIMAP_AREA_SEC_CAVE
