@@ -142,11 +142,17 @@ area/point_loma/airbase/interior/cargo
 	name = "Runway Crash Site"
 	icon_state = "predship"
 
+/area/point_loma/airbase/exterior/north
+	name = "USASF Point Loma Airbase - North"
+
 /area/point_loma/airbase/exterior/east
 	name = "USASF Point Loma Airbase - East"
 
 /area/point_loma/airbase/exterior/west
 	name = "USASF Point Loma Airbase - West"
+
+/area/point_loma/airbase/exterior/south
+	name = "USASF Point Loma Airbase - South"
 
 /area/point_loma/airbase/cave
 	name = "Point Loma Airbase - Caves"
