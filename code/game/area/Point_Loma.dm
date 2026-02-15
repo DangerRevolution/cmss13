@@ -371,7 +371,7 @@ area/point_loma/airbase/interior/cargo
 	name = "Point Loma Security Police Outpost"
 	minimap_color = MINIMAP_AREA_SEC
 	icon = 'icons/turf/area_strata.dmi'
-	icon_state= "rdecks_sec
+	icon_state= "rdecks_sec"
 
 /area/point_loma/airbase/mining_colony/interior/security/barracks
 	name = "Point Loma Security Police Outpost - Barracks"
