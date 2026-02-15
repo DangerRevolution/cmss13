@@ -157,6 +157,7 @@ area/point_loma/airbase/interior/cargo
 /area/point_loma/airbase/cave
 	name = "Point Loma Airbase - Caves"
 	minimap_color = MINIMAP_AREA_CAVES_DEEP
+	icon_state = "tunnels0"
 
 /area/point_loma/airbase/cave/south
 	name = "Point Loma Airbase - Caves - South"
@@ -342,6 +343,8 @@ area/point_loma/airbase/interior/cargo
 /area/point_loma/research_facility/security_hq
 	name = "Point Loma - Security Police HQ and Detention"
 	minimap_color = MINIMAP_AREA_SEC
+	icon = 'icons/turf/area_strata.dmi'
+	icon_state= "security_station"
 
 // Mining Colony //
 
@@ -350,10 +353,12 @@ area/point_loma/airbase/interior/cargo
 	linked_lz = DROPSHIP_LZ1 // entire mining colony will be cleaned by weedkiller
 	//temperature = TROPICAL_TEMP
 	minimap_color = MINIMAP_AREA_ENGI_CAVE
+	icon_state = "varadero4"
 
 /area/point_loma/airbase/mining_colony/caves
 	name = "Mining Colony - South Caves"
 	minimap_color = MINIMAP_AREA_MINING
+	icon_state = "tunnels4"
 
 /area/point_loma/airbase/mining_colony/interior
 	name = "Mining Colony - Interior"
@@ -365,6 +370,8 @@ area/point_loma/airbase/interior/cargo
 /area/point_loma/airbase/mining_colony/interior/security
 	name = "Point Loma Security Police Outpost"
 	minimap_color = MINIMAP_AREA_SEC
+	icon = 'icons/turf/area_strata.dmi'
+	icon_state= "rdecks_sec
 
 /area/point_loma/airbase/mining_colony/interior/security/barracks
 	name = "Point Loma Security Police Outpost - Barracks"
@@ -402,9 +409,12 @@ area/point_loma/airbase/interior/cargo
 /area/point_loma/airbase/mining_colony/exterior/security
 	name = "Mining Colony - Security Checkpoint"
 	minimap_color = MINIMAP_AREA_SEC
+	icon = 'icons/turf/area_strata.dmi'
+	icon_state= "outpost_sec_0"
 
 /area/point_loma/airbase/mining_colony/exterior/security/checkpoint
 	minimap_color = MINIMAP_AREA_SEC_CAVE
+	icon_state= "outpost_sec_1"
 
 /area/point_loma/airbase/mining_colony/exterior/security/north
 	name = "Mining Colony - Security Checkpoint - North"
