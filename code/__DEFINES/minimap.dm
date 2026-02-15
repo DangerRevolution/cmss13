@@ -103,3 +103,7 @@ GLOBAL_LIST_INIT(all_minimap_flags, bitfield2list(MINIMAP_FLAG_ALL))
 #define MINIMAP_AREA_DERELICT "#920190ee"
 #define MINIMAP_AREA_OOB "#3a3a3a"
 #define MINIMAP_AREA_COMMS "#00b3ffe7"
+
+// Point Loma
+
+#define MINIMAP_AREA_CARGO "#9B8F75"
