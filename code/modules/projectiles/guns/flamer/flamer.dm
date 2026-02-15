@@ -893,6 +893,14 @@ GLOBAL_LIST_EMPTY(flamer_particles)
 	else
 		weather_smothering_strength = 0
 
+/obj/flamer_fire/lasting
+	desc = "Ouch, this one does not look like it will go out on its own."
+
+/obj/flamer_fire/lasting/process(delta_time)
+	. = ..()
+	firelevel += 2 + weather_smothering_strength
+
+
 /proc/fire_spread_recur(turf/target, datum/cause_data/cause_data, remaining_distance, direction, fire_lvl, burn_lvl, f_color, burn_sprite = "dynamic", aerial_flame_level)
 	var/direction_angle = dir2angle(direction)
 	var/obj/flamer_fire/foundflame = locate() in target
