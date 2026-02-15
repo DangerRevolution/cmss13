@@ -918,6 +918,10 @@
 	icon = 'icons/turf/walls/new_varadero/new_varadero_wall.dmi'
 	icon_state = "concrete"
 	walltype = WALL_CONCRETE
+	damage_cap = HEALTH_WALL
+
+/turf/closed/wall/new_varadero/concrete/reinforced
+	desc = "What's inside here? That's concrete, baby! It also has some metal bars inside to reinforce it."
 	damage_cap = HEALTH_WALL_REINFORCED
 
 /turf/closed/wall/new_varadero/concrete/hull
