@@ -13008,6 +13008,12 @@
 /obj/structure/window,
 /turf/open/floor/shiva,
 /area/point_loma/research_facility/hallway/central)
+"aMW" = (
+/obj/effect/acid_hole{
+	dir = 1
+	},
+/turf/closed/wall/new_varadero,
+/area/point_loma/research_facility/gym)
 "aMX" = (
 /turf/closed/shuttle/ert{
 	icon_state = "leftengine_1";
@@ -13642,6 +13648,12 @@
 	},
 /turf/open/floor/almayer/plate,
 /area/point_loma/oob/sky/lower)
+"aOZ" = (
+/obj/effect/acid_hole{
+	dir = 8
+	},
+/turf/closed/wall/new_varadero,
+/area/point_loma/research_facility/gym)
 "aPa" = (
 /obj/structure/terminal{
 	dir = 1
@@ -87779,7 +87791,7 @@ bIW
 bIW
 bIW
 bIW
-bIW
+aOZ
 bIW
 bIW
 bIW
@@ -95612,7 +95624,7 @@ aKr
 aCk
 ayM
 axC
-bIW
+aMW
 bJb
 bJb
 bik
