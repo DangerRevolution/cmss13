@@ -73,6 +73,7 @@
 /area/point_loma/oob/sky/lower // reserved for sky noises closer to water
 	soundscape_playlist = FALSE
 	ambience_exterior = FALSE
+
 // USASF Airbase //
 
 /area/point_loma/airbase
@@ -89,27 +90,34 @@
 	minimap_color = MINIMAP_AREA_COMMAND_CAVE
 
 /area/point_loma/airbase/interior/atc/upper
-	name = "Air Traffic Control - Upper"
+	name = "Airbase Air Traffic Control - Upper"
 	icon_state = "offices3"
 
+/area/point_loma/airbase/interior/atc/top
+	name = "Airbase Air Traffic Control - Roof"
+	ceiling = CEILING_NONE
+
 /area/point/loma/airbase/interior/atc/lower
-	name = "Air Traffic Control - Lower"
+	name = "Airbase Air Traffic Control - Lower"
 
 area/point_loma/airbase/interior/cargo
-	name = "Cargo"
+	name = "Airbase Cargo"
 	icon_state = "req0"
 	minimap_color = MINIMAP_AREA_CARGO
 
 /area/point_loma/airbase/interior/cargo/upper
-	name = "Cargo - Upper"
+	name = "Airbase Cargo - Upper"
 
 /area/point_loma/airbase/interior/cargo/lower
-	name = "Cargo - Lower"
+	name = "Airbase Cargo - Lower"
 	icon_state = "req4"
 	ceiling = CEILING_UNDERGROUND_METAL_ALLOW_CAS
 
 /area/point_loma/airbase/interior/fire_station
-	name = "Fire Station"
+	name = "Airbase Fire Station"
+
+/area/point_loma/airbase/interior/fuel_storage
+	name = "Airbase Fuel Storage"
 
 /area/point_loma/airbase/interior/garage
 	name = "Utility Vehicle Garage"
@@ -133,7 +141,7 @@ area/point_loma/airbase/interior/cargo
 	minimap_color = MINIMAP_AREA_MEDBAY
 
 /area/point_loma/airbase/interior/workshop
-	name = "Aircraft and Munitions Workshop"
+	name = "Airbase Aircraft and Munitions Workshop"
 	minimap_color = MINIMAP_AREA_ENGI_CAVE
 	icon = 'icons/turf/area_kutjevo.dmi'
 	icon_state = "construction3"
@@ -146,7 +154,7 @@ area/point_loma/airbase/interior/cargo
 	icon_state = "predship"
 
 /area/point_loma/airbase/exterior/north
-	name = "USASF Point Loma Airbase - North"
+	name = "USASF Point Loma Airbase - North" // maybe some wind / sea noises?
 
 /area/point_loma/airbase/exterior/east
 	name = "USASF Point Loma Airbase - East"
@@ -171,6 +179,9 @@ area/point_loma/airbase/interior/cargo
 
 /area/point_loma/airbase/cave/west
 	name = "Point Loma Airbase - Caves - West"
+
+/area/point_loma/airbase/cave/north
+	name = "Point Loma Airbase - Caves - North"
 
 // Alpha-Tech Hardware Corporation Underground Research Facility //
 
