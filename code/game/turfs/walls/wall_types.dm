@@ -1492,6 +1492,9 @@
 	walltype = WALL_HUNTERSHIP
 	turf_flags = TURF_HULL
 
+/turf/closed/wall/huntership/hull
+	color = "#c5beb4"
+
 /turf/closed/wall/huntership/destructible
 	name = "degraded hunter wall"
 	color = "#c5beb4"
