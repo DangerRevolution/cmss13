@@ -1418,3 +1418,19 @@
 	icon = 'icons/turf/walls/new_varadero/concrete_windows.dmi'
 	icon_state = "concrete_window"
 	basestate = "concrete_window"
+
+
+/obj/structure/window/framed/new_varadero/foundation/concrete/reinforced
+
+	name = "reinforced window"
+	desc = "A glass window that's harder to see through; it's undoubtedly reinforced with something."
+	health = 100
+	reinf = TRUE
+
+/obj/structure/window/framed/new_varadero/foundation/concrete/reinforced/hull
+	desc = "A glass window. Something tells you this one is somehow indestructible."
+	not_damageable = TRUE
+	not_deconstructable = TRUE
+	unslashable = TRUE
+	unacidable = TRUE
+	health = 1000000
