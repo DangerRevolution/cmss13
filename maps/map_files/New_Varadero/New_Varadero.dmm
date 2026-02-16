@@ -8584,7 +8584,7 @@
 /area/point_loma/research_facility/super_death_cannon/observation/catwalk)
 "azh" = (
 /turf/closed/wall/new_varadero/concrete,
-/area/point_loma/oob)
+/area/point_loma/airbase/cave/north)
 "azi" = (
 /turf/open/floor/shiva/wred/north,
 /area/point_loma/airbase/interior/hospital)
@@ -22241,7 +22241,7 @@
 "bmU" = (
 /obj/structure/sign/safety/distribution_pipes,
 /turf/closed/wall/new_varadero/concrete,
-/area/point_loma/oob)
+/area/point_loma/airbase/interior/fuel_storage)
 "bmV" = (
 /obj/structure/pipes/standard/simple/hidden/supply,
 /obj/structure/barricade/handrail/no_vault{
@@ -23063,7 +23063,7 @@
 /turf/open/new_varadero/alt_concrete/floor,
 /area/point_loma/research_facility/engineering)
 "bpu" = (
-/turf/closed/wall/new_varadero/concrete/hull,
+/turf/closed/wall/new_varadero/concrete/reinforced,
 /area/point_loma/airbase/cave/north)
 "bpv" = (
 /obj/structure/pipes/standard/simple/hidden/supply,
@@ -23619,7 +23619,7 @@
 /obj/effect/acid_hole{
 	dir = 8
 	},
-/turf/closed/wall/new_varadero/concrete/hull,
+/turf/closed/wall/new_varadero/concrete,
 /area/point_loma/airbase/cave/north)
 "brc" = (
 /obj/structure/pipes/portables_connector{
@@ -24189,7 +24189,7 @@
 /area/point_loma/research_facility/laundry)
 "bsR" = (
 /obj/structure/bed/chair{
-	pixel_x = -12;
+	pixel_x = -8;
 	pixel_y = 7;
 	dir = 4
 	},
@@ -27276,7 +27276,7 @@
 "bBY" = (
 /obj/structure/girder/reinforced,
 /turf/open/auto_turf/sand_white/layer0,
-/area/point_loma/oob)
+/area/point_loma/airbase/interior/fuel_storage)
 "bBZ" = (
 /obj/effect/hunter/bridge_border,
 /obj/effect/hunter/bridge_border/brown/corner{
@@ -28421,7 +28421,7 @@
 /obj/item/stack/sheet/metal,
 /obj/structure/girder,
 /turf/open/auto_turf/sand_white/layer0,
-/area/point_loma/oob)
+/area/point_loma/airbase/interior/fuel_storage)
 "bFB" = (
 /obj/item/ammo_casing/bullet,
 /turf/open/floor/plating/plating_catwalk,
@@ -28996,7 +28996,7 @@
 "bHe" = (
 /obj/structure/girder,
 /turf/open/auto_turf/sand_white/layer0,
-/area/point_loma/oob)
+/area/point_loma/airbase/interior/fuel_storage)
 "bHf" = (
 /obj/structure/platform/metal/strata/west,
 /turf/open/floor/plating,
@@ -29190,7 +29190,7 @@
 /obj/item/stack/rods,
 /obj/structure/girder,
 /turf/open/auto_turf/sand_white/layer0,
-/area/point_loma/oob)
+/area/point_loma/airbase/interior/fuel_storage)
 "bHK" = (
 /obj/structure/largecrate/random/barrel/true_random{
 	pixel_x = -6;
@@ -31541,6 +31541,9 @@
 	},
 /turf/open/floor/shiva/yellow/northwest,
 /area/point_loma/airbase/interior/cargo/lower)
+"bOM" = (
+/turf/closed/wall/new_varadero/concrete/reinforced,
+/area/point_loma/oob)
 "bON" = (
 /turf/open/floor/shiva,
 /area/point_loma/research_facility/super_death_cannon/observation/civ)
@@ -32873,10 +32876,6 @@
 /turf/open/floor/darkbrown2/north,
 /area/point_loma/airbase/interior/cargo/upper)
 "bVb" = (
-/turf/closed/wall/new_varadero/reinforced/hull,
-/area/point_loma/airbase/interior/atc)
-"bVc" = (
-/obj/structure/sign/poster/propaganda,
 /turf/closed/wall/new_varadero/reinforced/hull,
 /area/point_loma/airbase/interior/atc)
 "bVe" = (
@@ -132331,12 +132330,12 @@ bTS
 bTS
 asb
 asb
-azh
+bzI
 bzM
 bzM
 bzM
-azh
-azh
+bzI
+bzI
 azh
 aMR
 aMR
@@ -132513,7 +132512,7 @@ bTS
 bTS
 asb
 asb
-azh
+bzI
 bAW
 bAD
 bAj
@@ -132695,7 +132694,7 @@ bTS
 asb
 asb
 asb
-azh
+bpp
 bnA
 bnA
 bsS
@@ -132707,7 +132706,7 @@ aMR
 aMR
 bmT
 bmT
-azh
+bsw
 asb
 asb
 asb
@@ -132877,7 +132876,7 @@ bTS
 asb
 asb
 asb
-azh
+bpp
 bAE
 bAE
 bAk
@@ -132888,8 +132887,8 @@ boB
 bnA
 bnA
 bnA
-azh
-azh
+bsw
+bsw
 asb
 asb
 asb
@@ -133070,7 +133069,7 @@ boE
 bnA
 bnA
 bnA
-azh
+bsw
 asb
 asb
 asb
@@ -133252,7 +133251,7 @@ bri
 boB
 boB
 bnA
-azh
+bsw
 asb
 asb
 asb
@@ -133434,9 +133433,9 @@ brB
 boB
 boB
 bHN
-bpp
-azh
-asb
+bsw
+bsw
+bsw
 asb
 asb
 bUW
@@ -133618,9 +133617,9 @@ boB
 bnM
 blD
 blD
-azh
-azh
-azh
+bsw
+bsw
+bsw
 bUW
 bUW
 bUW
@@ -133802,7 +133801,7 @@ bHM
 bHK
 bie
 aMT
-azh
+bsw
 asb
 asb
 asb
@@ -134151,7 +134150,7 @@ bTS
 asb
 asb
 asb
-azh
+bpp
 boB
 bnA
 bAC
@@ -134333,7 +134332,7 @@ bTS
 asb
 asb
 asb
-azh
+bpp
 bnA
 bnA
 byq
@@ -134515,7 +134514,7 @@ bTS
 asb
 asb
 asb
-azh
+bpp
 bAH
 bAH
 byr
@@ -134697,7 +134696,7 @@ bTS
 asb
 asb
 asb
-azh
+bpp
 bnA
 bnA
 bnA
@@ -134879,7 +134878,7 @@ bTS
 bTS
 asb
 asb
-azh
+bpp
 bAV
 bAV
 bOi
@@ -135061,20 +135060,20 @@ bTS
 bTS
 asb
 asb
-azh
-azh
-azh
+bpp
+bpp
+bpp
 bpp
 bzi
 bsD
 bse
 bpp
 bqi
-bpp
-azh
-azh
-azh
-azh
+bsw
+bsw
+bsw
+bsw
+bsw
 bUU
 bUU
 bEE
@@ -135246,18 +135245,18 @@ asb
 asb
 asb
 asb
-bpp
+bsw
 bzj
 bnA
 bsg
 brN
 bqQ
-bpp
+bsw
 asb
 asb
 asb
 asb
-bVb
+bUU
 bbc
 bEF
 bEw
@@ -135428,18 +135427,18 @@ asb
 bTS
 asb
 asb
-bpp
+bsw
 bzp
 bnA
 bnA
 bnA
 bnA
-bpp
+bsw
 asb
 asb
 asb
 asb
-bVb
+bUU
 bbd
 bEG
 bDN
@@ -135610,19 +135609,19 @@ bTS
 bTS
 asb
 asb
-asb
-bzI
+bOM
+bOM
 bsK
 bnA
 brO
 bra
-bpp
+bsw
 asb
 asb
 asb
 asb
-bVb
-bVb
+bUU
+bUU
 bEH
 bEx
 bEr
@@ -135791,14 +135790,14 @@ bTS
 bTS
 bTS
 bTS
-bTS
 asb
 asb
+bOM
 bsw
 bsj
 brS
 bra
-bpp
+bsw
 asb
 asb
 asb
@@ -135976,9 +135975,9 @@ asb
 asb
 asb
 asb
-aMR
 bpu
-bpu
+azh
+azh
 brb
 bpu
 aMR
@@ -137077,7 +137076,7 @@ asb
 asb
 asb
 asb
-bVc
+bEt
 bbe
 bEI
 bDz
@@ -137259,7 +137258,7 @@ asb
 asb
 asb
 asb
-bVb
+bUU
 bbh
 bEk
 bEy
