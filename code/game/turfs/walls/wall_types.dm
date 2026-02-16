@@ -1497,3 +1497,7 @@
 	color = "#c5beb4"
 	desc = "Ancient beyond measure, these walls make up the hull of a vessel of non human origin. Despite this, they can be felled with plastic explosives like any other opaque blocker."
 	turf_flags = NO_FLAGS
+
+/turf/closed/wall/huntership/destructible/reinforced
+	name = "damaged hunter wall"
+	damage_cap = HEALTH_WALL_REINFORCED
