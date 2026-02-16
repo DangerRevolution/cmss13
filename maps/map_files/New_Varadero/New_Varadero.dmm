@@ -20439,7 +20439,7 @@
 /area/point_loma/research_facility/gym)
 "bih" = (
 /obj/structure/prop/invuln/overhead/flammable_pipe/fly{
-	dir = 10
+	dir = 4
 	},
 /obj/structure/roof/hybrisa/lattice_prop/lattice_6{
 	dir = 1
@@ -20532,7 +20532,7 @@
 /area/point_loma/research_facility/briefing)
 "biw" = (
 /obj/structure/prop/invuln/overhead/flammable_pipe/fly{
-	dir = 10
+	dir = 4
 	},
 /obj/structure/roof/hybrisa/lattice_prop{
 	dir = 4
@@ -20773,7 +20773,7 @@
 /obj/structure/reagent_dispensers/tank/fuel/spacecraft,
 /obj/effect/decal/warning_stripes/asteroid,
 /obj/structure/prop/invuln/overhead/flammable_pipe/fly{
-	dir = 10
+	dir = 4
 	},
 /obj/structure/roof/hybrisa/lattice_prop/lattice_6{
 	dir = 1
@@ -25573,6 +25573,24 @@
 "bxs" = (
 /turf/open/new_varadero/taupe_concrete/warning/corner_edge/southeast,
 /area/point_loma/airbase/mining_colony/interior/engineering/communications)
+"bxt" = (
+/obj/structure/prop/invuln/overhead/flammable_pipe/fly{
+	dir = 6
+	},
+/obj/structure/roof/hybrisa/lattice_prop/lattice_6{
+	dir = 1
+	},
+/turf/open/new_varadero/sidewalk/sidewalkfull,
+/area/point_loma/airbase/interior/fuel_storage)
+"bxu" = (
+/obj/structure/prop/invuln/overhead/flammable_pipe/fly{
+	dir = 8
+	},
+/obj/structure/roof/hybrisa/lattice_prop/lattice_6{
+	dir = 1
+	},
+/turf/open/hybrisa/street/roadlines,
+/area/point_loma/airbase/interior/fuel_storage)
 "bxv" = (
 /obj/effect/decal/hybrisa/dirt/sand_1,
 /turf/open/asphalt/cement_sunbleached,
@@ -133890,7 +133908,7 @@ boE
 bnH
 blO
 blO
-bie
+bxt
 aMV
 aME
 bRh
@@ -134254,7 +134272,7 @@ blP
 blP
 blP
 blP
-bih
+bxu
 aPu
 aMP
 ayM
