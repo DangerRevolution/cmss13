@@ -32196,9 +32196,6 @@
 /obj/structure/fence/slim,
 /turf/open/auto_turf/sand_white/layer1,
 /area/point_loma/airbase/exterior/east)
-"bQG" = (
-/turf/open/new_varadero/sidewalk/sidewalkcenter/north,
-/area/point_loma/oob)
 "bQH" = (
 /obj/structure/largecrate/random/barrel/true_random{
 	pixel_y = 8;
@@ -33459,9 +33456,6 @@
 /obj/structure/girder,
 /turf/open/auto_turf/sand_white/layer0,
 /area/point_loma/airbase/interior/fuel_storage)
-"bWb" = (
-/turf/open/new_varadero/sidewalk/sidewalkcenter/south,
-/area/point_loma/oob)
 "bWc" = (
 /turf/open/new_varadero/taupe_concrete,
 /area/point_loma/oob)
@@ -165180,9 +165174,9 @@ bxx
 aSX
 bWc
 bWc
-bWb
 bVc
-bQG
+bVc
+bVc
 aSX
 aSX
 aSX
@@ -165362,9 +165356,9 @@ adu
 aSX
 bWc
 bWc
-bWb
 bVc
-bQG
+bVc
+bVc
 aSX
 aSX
 aSX
@@ -165544,9 +165538,9 @@ aeW
 aSX
 bWd
 bWc
-bWb
 bVc
-bQG
+bVc
+bVc
 aSX
 aSX
 aSX
@@ -165726,9 +165720,9 @@ aSX
 aSX
 bWd
 bWc
-bWb
 bVc
-bQG
+bVc
+bVc
 aSX
 aSX
 aSX
@@ -165908,9 +165902,9 @@ aSX
 aSX
 bWc
 bWc
-bWb
 bVc
-bQG
+bVc
+bVc
 aSX
 aSX
 aSX
@@ -166090,9 +166084,9 @@ aSX
 aSX
 bWc
 bWc
-bWb
 bVc
-bQG
+bVc
+bVc
 aSX
 aSX
 aSX
