@@ -12999,6 +12999,10 @@
 /area/point_loma/airbase/mining_colony/interior/security/barracks)
 "aMT" = (
 /obj/effect/decal/cleanable/liquid_fuel,
+/obj/structure/largecrate/random/barrel/true_random{
+	pixel_x = -5;
+	pixel_y = 6
+	},
 /turf/open/new_varadero/sidewalk/sidewalkfull,
 /area/point_loma/airbase/interior/fuel_storage)
 "aMU" = (
@@ -20426,6 +20430,10 @@
 /obj/structure/roof/hybrisa/lattice_prop/lattice_6{
 	dir = 1
 	},
+/obj/structure/largecrate/random/barrel/true_random{
+	pixel_y = 4;
+	pixel_x = -4
+	},
 /turf/open/new_varadero/sidewalk/sidewalkfull,
 /area/point_loma/airbase/interior/fuel_storage)
 "bif" = (
@@ -21760,6 +21768,7 @@
 /obj/structure/roof/hybrisa/lattice_prop/lattice_3{
 	dir = 4
 	},
+/obj/structure/largecrate/random/barrel/true_random,
 /turf/open/new_varadero/sidewalk/sidewalkfull,
 /area/point_loma/airbase/interior/fuel_storage)
 "blE" = (
@@ -29182,9 +29191,26 @@
 /obj/structure/girder,
 /turf/open/auto_turf/sand_white/layer0,
 /area/point_loma/oob)
+"bHK" = (
+/obj/structure/largecrate/random/barrel/true_random{
+	pixel_x = -6;
+	pixel_y = 2
+	},
+/turf/open/new_varadero/sidewalk/sidewalkfull,
+/area/point_loma/airbase/interior/fuel_storage)
 "bHL" = (
 /turf/open/floor/strata/blue4,
 /area/point_loma/research_facility/command)
+"bHM" = (
+/obj/structure/largecrate/random/barrel/true_random{
+	pixel_y = 7;
+	pixel_x = -6
+	},
+/turf/open/new_varadero/sidewalk/sidewalkfull,
+/area/point_loma/airbase/interior/fuel_storage)
+"bHN" = (
+/turf/open/new_varadero/taupe_concrete/warning/corner_edge/southeast,
+/area/point_loma/airbase/interior/fuel_storage)
 "bHO" = (
 /turf/open/floor/strata/blue3/north,
 /area/point_loma/research_facility/command)
@@ -29200,6 +29226,14 @@
 	},
 /turf/open/floor/shiva,
 /area/point_loma/research_facility/command)
+"bHR" = (
+/obj/structure/largecrate/empty/case/double,
+/obj/structure/largecrate/empty/case{
+	pixel_y = 19;
+	pixel_x = -3
+	},
+/turf/open/new_varadero/taupe_concrete/warning/corner_edge/southwest,
+/area/point_loma/airbase/interior/fuel_storage)
 "bHS" = (
 /obj/structure/machinery/door/airlock/maintenance/colony{
 	dir = 1
@@ -29384,6 +29418,13 @@
 	},
 /turf/open/floor/strata/blue4/north,
 /area/point_loma/research_facility/command)
+"bIl" = (
+/obj/structure/largecrate/random/barrel/true_random{
+	pixel_y = 8;
+	pixel_x = 6
+	},
+/turf/open/new_varadero/taupe_concrete,
+/area/point_loma/airbase/interior/fuel_storage)
 "bIm" = (
 /obj/structure/machinery/line_nexter{
 	id = "line1";
@@ -29406,6 +29447,20 @@
 /obj/structure/surface/rack,
 /turf/open/floor/shiva,
 /area/point_loma/research_facility/command)
+"bIq" = (
+/obj/structure/largecrate/random/barrel/true_random{
+	pixel_y = 2;
+	pixel_x = -1
+	},
+/turf/open/new_varadero/taupe_concrete,
+/area/point_loma/airbase/interior/fuel_storage)
+"bIr" = (
+/obj/structure/largecrate/random/barrel/true_random{
+	pixel_y = 5;
+	pixel_x = 4
+	},
+/turf/open/new_varadero/taupe_concrete,
+/area/point_loma/airbase/interior/fuel_storage)
 "bIs" = (
 /obj/structure/machinery/door/airlock/maintenance/colony,
 /turf/open/floor/shiva/bluefull,
@@ -29590,6 +29645,14 @@
 "bJi" = (
 /turf/closed/wall/new_varadero,
 /area/point_loma/research_facility/hallway/central)
+"bJj" = (
+/obj/effect/decal/cleanable/liquid_fuel,
+/obj/structure/largecrate/random/barrel/true_random{
+	pixel_x = 4;
+	pixel_y = 4
+	},
+/turf/open/new_varadero/taupe_concrete,
+/area/point_loma/airbase/interior/fuel_storage)
 "bJk" = (
 /turf/closed/wall/new_varadero,
 /area/point_loma/research_facility/command/mess)
@@ -31110,6 +31173,13 @@
 	},
 /turf/open/floor/shiva/yellow,
 /area/point_loma/airbase/interior/cargo/lower)
+"bNK" = (
+/obj/structure/largecrate/random/barrel/red{
+	pixel_x = 5;
+	pixel_y = 2
+	},
+/turf/open/new_varadero/taupe_concrete,
+/area/point_loma/airbase/interior/fuel_storage)
 "bNL" = (
 /obj/structure/prop/static_tank/water{
 	pixel_x = 3;
@@ -31270,6 +31340,13 @@
 	},
 /turf/open/floor/shiva/north,
 /area/point_loma/airbase/interior/cargo/lower)
+"bOi" = (
+/obj/structure/largecrate/random/barrel/red{
+	pixel_x = -3;
+	pixel_y = -1
+	},
+/turf/open/new_varadero/taupe_concrete,
+/area/point_loma/airbase/interior/fuel_storage)
 "bOj" = (
 /obj/structure/prop/static_tank/water,
 /turf/open/floor/plating,
@@ -132440,8 +132517,8 @@ azh
 bAW
 bAD
 bAj
-bsS
-bnA
+bJj
+bIq
 azh
 bEV
 bEV
@@ -132623,8 +132700,8 @@ bnA
 bnA
 bsS
 bsS
-bnA
-bnA
+bIr
+bIl
 bnA
 aMR
 aMR
@@ -133356,8 +133433,8 @@ bsa
 brB
 boB
 boB
-bnH
-blO
+bHN
+bpp
 azh
 asb
 asb
@@ -133721,8 +133798,8 @@ bri
 bnA
 boB
 bnH
-blO
-blO
+bHM
+bHK
 bie
 aMT
 azh
@@ -134805,14 +134882,14 @@ asb
 azh
 bAV
 bAV
-bnA
-bnA
+bOi
+bNK
 bnA
 bnA
 brM
 bnA
 bnA
-bnH
+bHR
 bmU
 bhV
 bjf
