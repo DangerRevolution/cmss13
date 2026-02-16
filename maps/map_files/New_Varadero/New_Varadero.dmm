@@ -24030,6 +24030,9 @@
 /obj/effect/acid_hole,
 /turf/closed/wall/huntership/destructible,
 /area/point_loma/research_facility/crash_site)
+"bsw" = (
+/turf/closed/wall/new_varadero/concrete/reinforced,
+/area/point_loma/airbase/interior/fuel_storage)
 "bsx" = (
 /obj/structure/machinery/washing_machine,
 /obj/structure/machinery/washing_machine{
@@ -135714,7 +135717,7 @@ bTS
 bTS
 asb
 asb
-bzI
+bsw
 bsj
 brS
 bra
