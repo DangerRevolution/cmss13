@@ -24030,12 +24030,6 @@
 /obj/effect/acid_hole,
 /turf/closed/wall/huntership/destructible,
 /area/point_loma/research_facility/crash_site)
-"bsw" = (
-/obj/structure/roof/hybrisa/lattice_prop/lattice_3{
-	dir = 4
-	},
-/turf/open/space/basic,
-/area/point_loma/airbase/interior/fuel_storage)
 "bsx" = (
 /obj/structure/machinery/washing_machine,
 /obj/structure/machinery/washing_machine{
@@ -134446,7 +134440,7 @@ bAH
 bAH
 byr
 byr
-bsw
+blQ
 blQ
 blQ
 blQ
