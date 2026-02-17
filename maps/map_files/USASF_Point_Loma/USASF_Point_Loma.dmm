@@ -3144,7 +3144,7 @@
 /obj/structure/stairs/multiz/up{
 	dir = 4
 	},
-/turf/open/space/basic,
+/turf/open/auto_turf/sand_white/layer1,
 /area/point_loma/research_facility/hallway/central)
 "aku" = (
 /obj/effect/decal/cleanable/dirt,
