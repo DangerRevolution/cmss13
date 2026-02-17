@@ -66,5 +66,8 @@ endmap
 map tyrargo_rift
 endmap
 
+map usasf_point_loma
+endmap
+
 map whiskey_outpost_v2
 endmap
