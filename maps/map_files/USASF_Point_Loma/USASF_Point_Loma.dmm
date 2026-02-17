@@ -1441,6 +1441,12 @@
 "aeR" = (
 /turf/open/floor/shiva/green/east,
 /area/point_loma/airbase/interior/hospital)
+"aeS" = (
+/obj/structure/stairs/perspective{
+	dir = 8
+	},
+/turf/open/auto_turf/sand_white/layer1,
+/area/point_loma/research_facility/hallway/central)
 "aeT" = (
 /obj/structure/platform_decoration/metal/strata/east,
 /turf/open/floor/strata/fake_wood,
@@ -2375,18 +2381,6 @@
 /obj/structure/closet/secure_closet/fridge/groceries,
 /turf/open/floor/shiva,
 /area/point_loma/research_facility/dorms)
-"ahR" = (
-/obj/structure/stairs/multiz/up{
-	dir = 4
-	},
-/obj/structure/stairs/multiz/up{
-	dir = 4
-	},
-/obj/structure/machinery/light/small{
-	dir = 4
-	},
-/turf/open/floor/shiva,
-/area/point_loma/research_facility/hallway/east)
 "ahS" = (
 /obj/effect/decal/cleanable/dirt/sand_2,
 /turf/open/asphalt/cement_sunbleached,
@@ -3150,7 +3144,7 @@
 /obj/structure/stairs/multiz/up{
 	dir = 4
 	},
-/turf/open/floor/shiva,
+/turf/open/space/basic,
 /area/point_loma/research_facility/hallway/central)
 "aku" = (
 /obj/effect/decal/cleanable/dirt,
@@ -20755,6 +20749,12 @@
 "big" = (
 /turf/open/floor/whiteyellowfull,
 /area/point_loma/research_facility/gym)
+"bih" = (
+/obj/structure/stairs/perspective{
+	dir = 8
+	},
+/turf/open/floor/shiva,
+/area/point_loma/research_facility/hallway/east)
 "bii" = (
 /obj/structure/bed/chair/comfy/hybrisa/brown{
 	dir = 1
@@ -24305,16 +24305,40 @@
 /area/point_loma/research_facility/crash_site)
 "brX" = (
 /obj/effect/stairs/up,
+/obj/structure/stairs/perspective{
+	dir = 8
+	},
 /turf/open/auto_turf/sand_white/layer1,
 /area/point_loma/research_facility/hallway/central)
 "brY" = (
 /obj/effect/stairs/up,
+/obj/structure/stairs/perspective{
+	dir = 8
+	},
 /turf/open/floor/shiva,
 /area/point_loma/research_facility/hallway/east)
 "brZ" = (
 /obj/item/prop/alien/hugger,
 /turf/open/floor/almayer/research/containment/yautja/alt,
 /area/point_loma/research_facility/crash_site)
+"bsa" = (
+/obj/structure/stairs/multiz/down{
+	dir = 8
+	},
+/obj/structure/stairs/multiz/down{
+	dir = 4
+	},
+/turf/open/new_varadero/dock_concrete,
+/area/point_loma/airbase/exterior/crash_site)
+"bsb" = (
+/obj/structure/stairs/multiz/down{
+	dir = 8
+	},
+/obj/structure/stairs/multiz/down{
+	dir = 4
+	},
+/turf/open/auto_turf/sand_white/layer1,
+/area/point_loma/airbase/exterior/crash_site)
 "bsc" = (
 /obj/structure/blocker/invisible_wall,
 /turf/open_space,
@@ -96097,19 +96121,19 @@ asb
 asb
 bJw
 bJw
-aBC
-aBC
-aBC
-aBC
-aBC
-aBC
+aeS
+aeS
+aeS
+aeS
+aeS
+aeS
 brX
-aBC
-aBC
-aBC
-aBC
-aBC
-aBC
+aeS
+aeS
+aeS
+aeS
+aeS
+aeS
 bJw
 bJw
 bJw
@@ -105746,13 +105770,13 @@ bJw
 bJw
 bJw
 bJw
-bIO
-bIO
-bIO
+bih
+bih
+bih
 brY
-bIO
-bIO
-bIO
+bih
+bih
+bih
 bJw
 bJw
 asb
@@ -105934,7 +105958,7 @@ aio
 acV
 acV
 acV
-ahR
+aio
 bJw
 bJw
 asb
@@ -141962,19 +141986,19 @@ bQT
 bQT
 bQT
 bRG
-bQT
-bQT
-bQT
-bQT
-bQT
-bQT
-bQT
-bQT
-bQT
-bQT
-bQT
-bQT
-bxN
+bsb
+bsb
+bsb
+bsb
+bsb
+bsb
+bsb
+bsb
+bsb
+bsb
+bsb
+bsb
+bsa
 bRR
 bQp
 bQp
