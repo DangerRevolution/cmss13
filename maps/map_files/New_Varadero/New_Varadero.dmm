@@ -1449,10 +1449,6 @@
 "aeR" = (
 /turf/open/floor/shiva/green/east,
 /area/point_loma/airbase/interior/hospital)
-"aeS" = (
-/obj/effect/landmark/structure_spawner/setup/distress/xeno_wall,
-/turf/open/auto_turf/sand_white/layer0,
-/area/point_loma/research_facility/research/park)
 "aeT" = (
 /obj/structure/platform_decoration/metal/strata/east,
 /turf/open/floor/strata/fake_wood,
@@ -25988,6 +25984,13 @@
 "bxs" = (
 /turf/open/new_varadero/taupe_concrete/warning/corner_edge/southeast,
 /area/point_loma/airbase/mining_colony/interior/engineering/communications)
+"bxt" = (
+/turf/open/auto_turf/sand_white/layer0,
+/area/point_loma/research_facility/research/park)
+"bxu" = (
+/obj/effect/landmark/structure_spawner/setup/distress/xeno_door,
+/turf/open/auto_turf/sand_white/layer0,
+/area/point_loma/oob)
 "bxv" = (
 /obj/effect/decal/hybrisa/dirt/sand_1,
 /turf/open/asphalt/cement_sunbleached,
@@ -32472,6 +32475,10 @@
 /obj/structure/fence/slim,
 /turf/open/auto_turf/sand_white/layer1,
 /area/point_loma/airbase/exterior/east)
+"bQG" = (
+/obj/effect/landmark/structure_spawner/setup/distress/xeno_wall,
+/turf/open/floor/plating,
+/area/point_loma/research_facility/research/park)
 "bQH" = (
 /obj/structure/largecrate/random/barrel/true_random{
 	pixel_y = 8;
@@ -33472,6 +33479,9 @@
 "bVb" = (
 /turf/closed/wall/new_varadero/reinforced/hull,
 /area/point_loma/airbase/interior/atc)
+"bVc" = (
+/turf/closed/wall/rock/brown,
+/area/point_loma/research_facility/research/park)
 "bVd" = (
 /obj/structure/platform/metal/almayer/north,
 /turf/open/floor/darkbrown2/north,
@@ -34312,6 +34322,14 @@
 /obj/structure/girder,
 /turf/open/auto_turf/sand_white/layer0,
 /area/point_loma/airbase/interior/fuel_storage)
+"bXO" = (
+/obj/effect/landmark/structure_spawner/setup/distress/xeno_weed_node,
+/obj/structure/barricade/wooden,
+/turf/open/floor/kutjevo/tan,
+/area/point_loma/research_facility/research/park)
+"bXP" = (
+/turf/closed/wall/rock/brown,
+/area/fiorina/station/park)
 
 (1,1,1) = {"
 ayZ
@@ -95815,7 +95833,7 @@ aJE
 aDJ
 aqr
 aDO
-bID
+bVc
 asb
 asb
 bIB
@@ -95999,13 +96017,13 @@ aEy
 aDR
 bID
 asb
+bIT
+bIB
+bIB
+bIB
+bIB
+bIB
 asb
-bIB
-bIB
-bIB
-bIB
-bIB
-bIB
 asb
 asb
 asb
@@ -96179,15 +96197,15 @@ aDJ
 aqr
 bID
 aDD
-bID
+afy
+bxu
+bIT
+bIB
+bIB
+bIB
+bIB
+bIB
 asb
-asb
-bIB
-bIB
-bIB
-bIB
-bIB
-bIB
 asb
 asb
 asb
@@ -96361,15 +96379,15 @@ agJ
 agJ
 agJ
 agJ
-agJ
 aeY
-aeQ
+bQG
+bxt
 bIB
 bIB
 bIB
 bIB
-bIB
-bIB
+asb
+asb
 asb
 asb
 asb
@@ -96543,15 +96561,15 @@ agJ
 agJ
 agJ
 agJ
-bdm
-aeY
-aeS
+bXO
+bQG
+bxt
 bIB
 abB
 bIB
 bIB
-bIB
-bIB
+asb
+asb
 asb
 asb
 asb
@@ -96725,15 +96743,15 @@ aDD
 bID
 bID
 bID
-bID
 afy
 aeQ
+bxt
 bIB
 bIB
 bIB
 bIB
-bIB
-bIB
+asb
+asb
 asb
 asb
 asb
@@ -96909,13 +96927,13 @@ bID
 bID
 agC
 asb
+bIT
+bIB
+bIB
+bIB
+bIB
 asb
-bIB
-bIB
-bIB
-bIB
-bIB
-bIB
+asb
 asb
 asb
 asb
@@ -97096,8 +97114,8 @@ bIB
 bIB
 bIB
 bIB
-bIB
-bIB
+asb
+asb
 asb
 asb
 asb
@@ -97271,7 +97289,7 @@ aeX
 aeX
 aeX
 aeX
-agC
+bXP
 asb
 asb
 bIB
@@ -97279,7 +97297,7 @@ bIB
 bIB
 bIB
 bIB
-bIB
+asb
 asb
 asb
 asb
@@ -100732,8 +100750,8 @@ aEe
 aDl
 adf
 asb
-aeN
-aeN
+bIB
+bIB
 bIB
 bIB
 bIB
@@ -101279,7 +101297,7 @@ aDv
 adf
 asb
 asb
-aeN
+bIB
 bIB
 bIB
 bIB
