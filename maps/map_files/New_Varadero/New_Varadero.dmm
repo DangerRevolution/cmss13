@@ -1449,6 +1449,13 @@
 "aeR" = (
 /turf/open/floor/shiva/green/east,
 /area/point_loma/airbase/interior/hospital)
+"aeS" = (
+/obj/structure/platform/broken,
+/obj/structure/platform/broken{
+	dir = 8
+	},
+/turf/open_space,
+/area/point_loma/research_facility/super_death_cannon/ammo_elevator/upper)
 "aeT" = (
 /obj/structure/platform_decoration/metal/strata/east,
 /turf/open/floor/strata/fake_wood,
@@ -17600,9 +17607,7 @@
 /turf/open/floor/shiva,
 /area/point_loma/airbase/mining_colony/interior/security)
 "aZJ" = (
-/obj/effect/decal/warning_stripes{
-	icon_state = "S"
-	},
+/obj/structure/platform/broken,
 /turf/open_space,
 /area/point_loma/research_facility/super_death_cannon/ammo_elevator/upper)
 "aZK" = (
@@ -34330,6 +34335,49 @@
 "bXP" = (
 /turf/closed/wall/rock/brown,
 /area/fiorina/station/park)
+"bXQ" = (
+/obj/structure/platform/broken,
+/obj/structure/platform/broken{
+	dir = 4
+	},
+/turf/open_space,
+/area/point_loma/research_facility/super_death_cannon/ammo_elevator/upper)
+"bXR" = (
+/obj/structure/platform/broken{
+	dir = 8
+	},
+/turf/open_space,
+/area/point_loma/research_facility/super_death_cannon/ammo_elevator/upper)
+"bXS" = (
+/obj/structure/platform/broken{
+	dir = 4
+	},
+/turf/open_space,
+/area/point_loma/research_facility/super_death_cannon/ammo_elevator/upper)
+"bXT" = (
+/obj/structure/platform/broken{
+	dir = 8
+	},
+/obj/structure/platform/broken{
+	dir = 1
+	},
+/turf/open_space,
+/area/point_loma/research_facility/super_death_cannon/ammo_elevator/upper)
+"bXU" = (
+/obj/structure/platform/broken{
+	dir = 1
+	},
+/turf/open_space,
+/area/point_loma/research_facility/super_death_cannon/ammo_elevator/upper)
+"bXV" = (
+/obj/structure/platform/broken{
+	dir = 4
+	},
+/obj/structure/platform/broken{
+	dir = 1
+	},
+/turf/open_space,
+/area/point_loma/research_facility/super_death_cannon/ammo_elevator/upper)
 
 (1,1,1) = {"
 ayZ
@@ -145056,12 +145104,12 @@ bUV
 bUV
 bBF
 bUG
-bUJ
-bUJ
-bUJ
-bUJ
-bUJ
-bUJ
+bXT
+bXR
+bXR
+bXR
+bXR
+aeS
 bUG
 bBF
 bxN
@@ -145238,7 +145286,7 @@ bUV
 bUV
 bBF
 bUG
-bUJ
+bXU
 bUJ
 bUJ
 bUN
@@ -145420,12 +145468,12 @@ bCY
 bUV
 bBF
 bUG
+bXU
 bUJ
 bUJ
 bUJ
 bUJ
-bUJ
-bUJ
+aZJ
 bUG
 bBF
 bxN
@@ -145602,12 +145650,12 @@ bCZ
 bUV
 bBF
 bUG
-bUJ
-bUJ
-bUJ
-bUJ
-bUJ
-bUJ
+bXV
+bXS
+bXS
+bXS
+bXS
+bXQ
 bUG
 bBF
 bxN
