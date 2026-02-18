@@ -2,7 +2,7 @@
     "map_name": "USASF Point Loma",
     "map_path": "map_files/USASF_Point_Loma",
     "map_file": "USASF_Point_Loma.dmm",
-    "webmap_url": "USASF_Point_Loma",
+    "webmap_url": "LV624",
 
     "survivor_types": [
         "/datum/equipment_preset/survivor/army/standard"
