@@ -36195,10 +36195,6 @@
 /obj/structure/prop/rock/black_ground,
 /turf/open/auto_turf/sand_white/layer0,
 /area/point_loma/research_facility/cave/west)
-"cdr" = (
-/obj/structure/machinery/big_computers/science_big,
-/turf/open/floor/shiva,
-/area/point_loma/research_facility/hallway/west)
 "cds" = (
 /obj/structure/surface/table/woodentable,
 /obj/item/device/flashlight/lamp/on,
@@ -91976,7 +91972,7 @@ aFk
 bqu
 bqu
 brp
-cdr
+bJx
 bJx
 bJx
 caP
