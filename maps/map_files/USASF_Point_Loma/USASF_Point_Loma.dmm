@@ -5154,7 +5154,13 @@
 "aqn" = (
 /obj/item/toy/plush/runner{
 	dir = 4;
-	layer = 4
+	layer = 4;
+	pixel_y = 9;
+	pixel_x = -5
+	},
+/obj/structure/prop/rock/brown_degree{
+	pixel_y = -3;
+	pixel_x = 4
 	},
 /turf/open/floor/plating,
 /area/point_loma/oob)
@@ -94039,7 +94045,7 @@ aFP
 aFB
 aFm
 arh
-bIC
+bJw
 asb
 asb
 bIA
@@ -94221,7 +94227,7 @@ aFP
 aFB
 aFm
 arh
-bIC
+bJw
 aqn
 asb
 bIA
@@ -94403,7 +94409,7 @@ aFP
 aFB
 aFm
 arh
-bIC
+bJw
 asb
 asb
 bIA
