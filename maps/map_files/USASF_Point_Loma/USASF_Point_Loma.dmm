@@ -34968,13 +34968,6 @@
 	},
 /turf/open/floor/shiva,
 /area/point_loma/research_facility/hallway/central)
-"bZK" = (
-/obj/structure/barricade/handrail{
-	dir = 1;
-	pixel_y = 1
-	},
-/turf/open/floor/shiva,
-/area/point_loma/research_facility/hallway/central)
 "bZL" = (
 /obj/structure/barricade/handrail,
 /obj/item/reagent_container/food/drinks/cans/waterbottle{
@@ -35006,28 +34999,6 @@
 /obj/structure/surface/table/reinforced/prison,
 /obj/structure/prop/server_equipment/laptop/closed,
 /turf/open/floor/shiva,
-/area/point_loma/research_facility/hallway/central)
-"bZR" = (
-/obj/structure/barricade/handrail{
-	dir = 4
-	},
-/turf/open/floor/shiva,
-/area/point_loma/research_facility/hallway/central)
-"bZS" = (
-/obj/structure/platform/metal/almayer,
-/obj/structure/platform/metal/almayer/west,
-/obj/structure/platform_decoration/metal/almayer/southwest,
-/turf/open/shuttle/lifeboat/catwalk{
-	dir = 1
-	},
-/area/point_loma/research_facility/hallway/central)
-"bZT" = (
-/obj/structure/platform/metal/almayer,
-/obj/structure/platform/metal/almayer/east,
-/obj/structure/platform_decoration/metal/almayer/southeast,
-/turf/open/shuttle/lifeboat/catwalk{
-	dir = 2
-	},
 /area/point_loma/research_facility/hallway/central)
 "bZU" = (
 /obj/item/tool/warning_cone{
@@ -35084,17 +35055,9 @@
 	},
 /turf/open/floor/shiva,
 /area/point_loma/research_facility/hallway/central)
-"cac" = (
-/obj/structure/platform/metal/almayer/west,
-/turf/open/shuttle/lifeboat/catwalk{
-	dir = 1
-	},
-/area/point_loma/research_facility/hallway/central)
 "cad" = (
-/obj/structure/platform/metal/almayer/east,
-/turf/open/shuttle/lifeboat/catwalk{
-	dir = 2
-	},
+/obj/structure/inflatable/door,
+/turf/open/floor/shiva,
 /area/point_loma/research_facility/hallway/central)
 "cae" = (
 /obj/structure/bed/chair/comfy{
@@ -35209,22 +35172,6 @@
 	dir = 2
 	},
 /area/point_loma/research_facility/hallway/west)
-"cax" = (
-/obj/structure/platform/metal/almayer/north,
-/obj/structure/platform/metal/almayer/west,
-/obj/structure/platform_decoration/metal/almayer/northeast,
-/turf/open/shuttle/lifeboat/catwalk{
-	dir = 1
-	},
-/area/point_loma/research_facility/hallway/central)
-"cay" = (
-/obj/structure/platform/metal/almayer/north,
-/obj/structure/platform/metal/almayer/east,
-/obj/structure/platform_decoration/metal/almayer/northwest,
-/turf/open/shuttle/lifeboat/catwalk{
-	dir = 2
-	},
-/area/point_loma/research_facility/hallway/central)
 "caz" = (
 /obj/structure/bed/chair/comfy{
 	dir = 4;
@@ -35724,7 +35671,9 @@
 /turf/open/floor/shiva,
 /area/point_loma/research_facility/hallway/central)
 "cbR" = (
-/obj/structure/largecrate/random/case/small,
+/obj/structure/largecrate/random/case/small{
+	pixel_y = 12
+	},
 /turf/open/floor/shiva,
 /area/point_loma/research_facility/hallway/central)
 "cbS" = (
@@ -36747,6 +36696,36 @@
 /obj/structure/machinery/big_computers/computerbrown/computer4,
 /turf/open/shuttle/lifeboat/catwalk,
 /area/point_loma/research_facility/super_death_cannon/observation)
+"ceS" = (
+/obj/structure/inflatable,
+/turf/open/floor/shiva,
+/area/point_loma/research_facility/hallway/central)
+"ceT" = (
+/obj/structure/inflatable,
+/turf/open/floor/shiva,
+/area/point_loma/research_facility/hallway/north)
+"ceU" = (
+/obj/effect/decal/hybrisa/road/road_edge{
+	icon_state = "road_edge_decal2";
+	pixel_x = -19
+	},
+/obj/structure/inflatable/door,
+/turf/open/asphalt/cement_shaded,
+/area/point_loma/research_facility/hallway/north)
+"ceV" = (
+/obj/effect/decal/hybrisa/road/road_edge{
+	icon_state = "road_edge_decal2";
+	pixel_x = 13
+	},
+/obj/structure/inflatable/door,
+/turf/open/asphalt/cement_shaded,
+/area/point_loma/research_facility/hallway/north)
+"ceW" = (
+/obj/structure/largecrate/random/case/small{
+	pixel_y = 12
+	},
+/turf/open/floor/shiva/yellowfull/west,
+/area/point_loma/research_facility/hallway/north)
 
 (1,1,1) = {"
 ayZ
@@ -91615,7 +91594,7 @@ bKZ
 bKZ
 bKZ
 bKZ
-bKZ
+ceT
 bKZ
 bKZ
 brU
@@ -91797,7 +91776,7 @@ bKZ
 bKZ
 bKZ
 bsJ
-bKZ
+ceT
 bKZ
 bKZ
 bro
@@ -91979,7 +91958,7 @@ cbM
 cbM
 cbM
 cbM
-cbM
+ceU
 cbM
 cbK
 brp
@@ -92161,7 +92140,7 @@ cbO
 cbO
 cbO
 cbO
-cbO
+ceV
 cbN
 brU
 bqu
@@ -92343,7 +92322,7 @@ bKZ
 bKZ
 bKZ
 bsJ
-bKZ
+ceT
 bsA
 brp
 bsv
@@ -92525,7 +92504,7 @@ ceu
 ceu
 bKZ
 bKZ
-bKZ
+ceT
 brn
 brU
 bqu
@@ -93243,7 +93222,7 @@ bKU
 aLk
 aBr
 aBr
-aEU
+ceW
 bKZ
 ccf
 cbZ
@@ -96348,7 +96327,7 @@ bJf
 bJf
 bJf
 bJf
-bJf
+ceS
 agx
 agx
 bJE
@@ -96530,7 +96509,7 @@ bJf
 bJf
 bJf
 bJf
-bJf
+ceS
 bJf
 bJf
 bJf
@@ -96708,12 +96687,12 @@ bJf
 bJf
 bJf
 bJf
-bZR
-bZR
-bZR
-bZR
-bZR
-bZR
+bJf
+bJf
+bJf
+bJf
+ceS
+bJf
 bJf
 aFk
 bqf
@@ -96889,14 +96868,14 @@ bJw
 bJf
 bJf
 bJf
-bZG
-cax
-cac
-cac
-cac
-cac
-bZS
-bZK
+bJf
+bJf
+bJf
+bJf
+bJf
+ceS
+bJf
+bJf
 aFk
 bqf
 bqf
@@ -97071,14 +97050,14 @@ aCc
 bJw
 bJf
 bJf
-bZG
-cay
+bJf
+bJf
+bJf
+bJf
+bJf
 cad
-cad
-cad
-cad
-bZT
-bZK
+bJf
+bJf
 aFk
 bqf
 bqf
@@ -97254,12 +97233,12 @@ aCb
 bJw
 bJf
 bJf
-bZk
-bZk
-bZk
-bZk
-bZk
-bZk
+bJf
+bJf
+bJf
+bJf
+ceS
+bJf
 bJf
 aFk
 aFk
@@ -97440,7 +97419,7 @@ bJf
 bJf
 bJf
 bJf
-bJf
+ceS
 bJf
 bqx
 aFk
@@ -97622,7 +97601,7 @@ afc
 bJf
 bJf
 bJf
-bJf
+ceS
 bJf
 bqx
 aFk
@@ -97804,7 +97783,7 @@ bJw
 bJw
 bJf
 bJf
-bJf
+ceS
 bJf
 bqx
 aFk
@@ -97986,7 +97965,7 @@ bLq
 bLq
 bJw
 bJf
-bJf
+ceS
 bJf
 bqx
 bqf
