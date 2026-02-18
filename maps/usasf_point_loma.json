@@ -23,7 +23,7 @@
     "traits": [
         {
             "Ground": true,
-            "Up": 1,
+            "Up": 1
         },
         {
             "Ground": true,
