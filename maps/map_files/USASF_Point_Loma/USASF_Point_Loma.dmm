@@ -1039,6 +1039,12 @@
 	},
 /turf/open/floor/hybrisa/metal/metalwhitefull,
 /area/point_loma/research_facility/security_hq)
+"adt" = (
+/obj/structure/prop/hybrisa/vehicles/firetruck{
+	dir = 4
+	},
+/turf/open/new_varadero/sidewalk/sidewalkfull,
+/area/point_loma/airbase/interior/fire_station)
 "adu" = (
 /obj/structure/flora/grass/desert/heavy,
 /turf/open/auto_turf/sand_white/layer1,
@@ -135735,7 +135741,7 @@ bST
 bRM
 bRM
 bRM
-bRM
+adt
 bRM
 bRM
 bRM
