@@ -2213,6 +2213,9 @@
 	},
 /turf/open/floor/almayer/dark_sterile,
 /area/point_loma/research_facility/medical)
+"ahp" = (
+/turf/open/auto_turf/sand_white/layer1,
+/area/point_loma/oob)
 "ahq" = (
 /obj/structure/bed/sofa/vert/white/top,
 /turf/open/floor/hybrisa/tile/tilered,
@@ -9227,6 +9230,10 @@
 	},
 /turf/open/floor/white,
 /area/point_loma/research_facility/gym)
+"aBa" = (
+/obj/structure/flora/grass/desert/heavygrass_2,
+/turf/open/auto_turf/sand_white/layer1,
+/area/point_loma/oob)
 "aBb" = (
 /obj/structure/surface/table/woodentable/fancy,
 /turf/open/floor/hybrisa/carpet/carpetblack,
@@ -35004,6 +35011,15 @@
 /area/point_loma/research_facility/hallway/central)
 "bZR" = (
 /obj/structure/prop/rock/brown,
+/turf/open/auto_turf/sand_white/layer1,
+/area/point_loma/oob)
+"bZS" = (
+/obj/structure/flora/grass/desert/lightgrass_1,
+/obj/item/lightstick/red/variant/planted,
+/turf/open/auto_turf/sand_white/layer1,
+/area/point_loma/oob)
+"bZT" = (
+/obj/structure/flora/grass/desert/heavy,
 /turf/open/auto_turf/sand_white/layer1,
 /area/point_loma/oob)
 "bZU" = (
@@ -169524,11 +169540,11 @@ aSX
 aSX
 aSX
 aSX
-aSX
-aSX
-aSX
-aSX
-aSX
+bZT
+ahp
+aBa
+bZR
+bZK
 aSX
 aSX
 aSX
@@ -169706,11 +169722,11 @@ aSX
 aSX
 aSX
 aSX
-aSX
-aSX
-aSX
-aSX
-aSX
+ahp
+bZS
+aBa
+ahp
+ahp
 aSX
 aSX
 aSX
