@@ -1039,6 +1039,15 @@
 	},
 /turf/open/floor/corsat/retrosquares,
 /area/point_loma/research_facility/security_hq)
+"adt" = (
+/obj/effect/decal/cleanable/dirt{
+	layer = 4
+	},
+/obj/effect/decal/cleanable/dirt{
+	layer = 4
+	},
+/turf/open/floor/shiva/multi_tiles,
+/area/point_loma/airbase/interior/cargo/upper)
 "adu" = (
 /obj/structure/flora/grass/desert/heavy,
 /turf/open/auto_turf/sand_white/layer1,
@@ -37729,6 +37738,9 @@
 /obj/effect/decal/cleanable/dirt{
 	layer = 4
 	},
+/obj/effect/decal/cleanable/dirt{
+	layer = 4
+	},
 /turf/open/floor/shiva/north,
 /area/point_loma/airbase/interior/cargo/upper)
 "clv" = (
@@ -37901,6 +37913,9 @@
 /obj/effect/decal/cleanable/dirt{
 	layer = 4
 	},
+/obj/effect/decal/cleanable/dirt{
+	layer = 4
+	},
 /turf/open/floor/shiva/multi_tiles,
 /area/point_loma/airbase/interior/cargo/upper)
 "clV" = (
@@ -37985,6 +38000,9 @@
 "cmg" = (
 /obj/structure/barricade/handrail{
 	dir = 4
+	},
+/obj/effect/decal/cleanable/dirt{
+	layer = 4
 	},
 /obj/effect/decal/cleanable/dirt{
 	layer = 4
@@ -135829,7 +135847,7 @@ aKt
 clU
 cll
 cll
-clB
+adt
 cll
 clz
 cls
