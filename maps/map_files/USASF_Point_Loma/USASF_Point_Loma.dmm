@@ -1260,6 +1260,10 @@
 	dir = 8;
 	pixel_x = 9
 	},
+/obj/structure/machinery/light/double{
+	dir = 4;
+	pixel_y = -5
+	},
 /turf/open/floor/kutjevo/fake_wood,
 /area/point_loma/airbase/mining_colony/interior/corporate)
 "aej" = (
@@ -5000,6 +5004,10 @@
 /obj/structure/bed/chair/comfy{
 	dir = 8;
 	pixel_y = 13
+	},
+/obj/structure/machinery/light/double{
+	dir = 4;
+	pixel_y = -5
 	},
 /turf/open/floor/plating/wood,
 /area/point_loma/airbase/mining_colony/interior/corporate)
@@ -12180,6 +12188,10 @@
 	},
 /turf/open/floor/strata/blue2,
 /area/point_loma/research_facility/laundry)
+"aJK" = (
+/obj/structure/machinery/light/small,
+/turf/open/floor/corsat,
+/area/point_loma/airbase/mining_colony/interior/corporate)
 "aJL" = (
 /obj/structure/platform_decoration/stone/soro/north,
 /turf/open/auto_turf/strata_grass/layer0,
@@ -12301,6 +12313,12 @@
 	},
 /turf/open/floor/shiva/yellow/west,
 /area/point_loma/airbase/interior/cargo/lower)
+"aKf" = (
+/obj/structure/machinery/light/double{
+	pixel_y = -5
+	},
+/turf/open/floor/white,
+/area/point_loma/airbase/mining_colony/interior/corporate)
 "aKg" = (
 /turf/open/floor/shiva/red,
 /area/point_loma/airbase/mining_colony/exterior/security/south)
@@ -12336,6 +12354,13 @@
 	},
 /turf/open/floor/shiva/yellow/east,
 /area/point_loma/airbase/interior/cargo/lower)
+"aKj" = (
+/obj/structure/machinery/light/double{
+	dir = 4;
+	pixel_y = -5
+	},
+/turf/open/floor/white,
+/area/point_loma/airbase/mining_colony/interior/corporate)
 "aKk" = (
 /obj/structure/flora/bush/ausbushes/reedbush{
 	pixel_x = -3;
@@ -12644,6 +12669,13 @@
 	},
 /turf/open/floor/prison/ramptop,
 /area/point_loma/airbase/interior/cargo/upper)
+"aLd" = (
+/obj/structure/machinery/light/double{
+	dir = 4;
+	pixel_y = -5
+	},
+/turf/open/floor/kutjevo/fake_wood,
+/area/point_loma/airbase/mining_colony/interior/corporate)
 "aLe" = (
 /turf/open/new_varadero/taupe_concrete,
 /area/point_loma/airbase/exterior/west)
@@ -12979,6 +13011,12 @@
 /obj/structure/machinery/vending/cola,
 /turf/open/floor/shiva/yellow,
 /area/point_loma/airbase/interior/cargo/lower)
+"aLX" = (
+/obj/structure/machinery/light/double/blue{
+	dir = 4
+	},
+/turf/open/floor/corsat,
+/area/point_loma/airbase/mining_colony/interior/corporate)
 "aLY" = (
 /obj/structure/stairs{
 	icon_state = "ramptop"
@@ -13168,6 +13206,12 @@
 	},
 /turf/open/floor/corsat/squares,
 /area/point_loma/airbase/interior/workshop)
+"aMx" = (
+/obj/structure/machinery/light/double/blue{
+	dir = 4
+	},
+/turf/open/floor/kutjevo/fake_wood,
+/area/point_loma/airbase/mining_colony/interior/corporate)
 "aMy" = (
 /obj/structure/bed/chair{
 	dir = 1
@@ -13392,6 +13436,13 @@
 	},
 /turf/open/floor/wood,
 /area/point_loma/research_facility/gym)
+"aNa" = (
+/obj/effect/decal/hybrisa/dirt_2,
+/obj/structure/machinery/light/double/blue{
+	dir = 8
+	},
+/turf/open/floor/strata/white_cyan2/west,
+/area/point_loma/airbase/mining_colony/interior/corporate)
 "aNb" = (
 /obj/structure/machinery/scoreboard{
 	id = "basketball";
@@ -13569,6 +13620,12 @@
 /obj/structure/fence/slim,
 /turf/open/auto_turf/hybrisa_auto_turf/layer1,
 /area/point_loma/airbase/exterior/west)
+"aND" = (
+/obj/structure/machinery/light/double{
+	dir = 4
+	},
+/turf/open/floor/white,
+/area/point_loma/airbase/mining_colony/interior/corporate)
 "aNE" = (
 /obj/effect/decal/warning_stripes{
 	icon_state = "E";
@@ -13840,6 +13897,10 @@
 /obj/structure/blocker/invisible_wall,
 /turf/open/asphalt/cement_sunbleached,
 /area/point_loma/oob)
+"aOx" = (
+/obj/structure/machinery/light/double,
+/turf/open/floor/whiteyellow,
+/area/point_loma/airbase/mining_colony/interior/corporate)
 "aOy" = (
 /obj/effect/decal/warning_stripes{
 	icon_state = "E";
@@ -164529,7 +164590,7 @@ bOZ
 aHe
 asL
 bPa
-akc
+aOx
 bOZ
 ahD
 apa
@@ -164549,10 +164610,10 @@ bvp
 bOZ
 buY
 buQ
-bPb
+aJK
 bOZ
 but
-bPb
+aJK
 bOZ
 asb
 asb
@@ -164725,7 +164786,7 @@ bvp
 bvp
 bOZ
 bvp
-bvp
+aLd
 bvp
 bvp
 bOZ
@@ -165259,28 +165320,28 @@ bPa
 bPa
 akc
 bPa
+aND
+bPa
+bPa
+bPa
+bPa
+aKj
 bPa
 bPa
 bPa
 bPa
 bPa
+aKj
 bPa
 bPa
 bPa
 bPa
 bPa
+aKj
 bPa
 bPa
 bPa
-bPa
-bPa
-bPa
-bPa
-bPa
-bPa
-bPa
-bPa
-bPa
+aKf
 bOZ
 asb
 asb
@@ -165625,7 +165686,7 @@ bOZ
 bOZ
 bOZ
 als
-aGK
+aNa
 alX
 als
 bOZ
@@ -165999,7 +166060,7 @@ bvp
 bvp
 bOZ
 bvK
-bPb
+aLX
 bPb
 bOZ
 asb
@@ -166177,7 +166238,7 @@ bOZ
 bOZ
 aGz
 bvp
-bvp
+aMx
 aFi
 bOZ
 bOZ
