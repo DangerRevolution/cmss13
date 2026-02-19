@@ -292,11 +292,7 @@
 /turf/open/floor/strata/fake_wood,
 /area/point_loma/research_facility/command/mess)
 "aaY" = (
-/obj/structure/machinery/landinglight/ds1/delaytwo{
-	dir = 8
-	},
-/obj/structure/machinery/landinglight/ds1/delaythree,
-/turf/open/floor/plating/icefloor/warnplate/southwest,
+/turf/open/new_varadero,
 /area/shuttle/drop1/point_loma)
 "aaZ" = (
 /obj/structure/window/framed/new_varadero/foundation,
@@ -1171,12 +1167,6 @@
 	},
 /turf/open/floor/shiva,
 /area/point_loma/airbase/mining_colony/interior/engineering)
-"adR" = (
-/obj/structure/machinery/landinglight/ds1/delaythree{
-	dir = 4
-	},
-/turf/open/floor/plating/icefloor/warnplate/east,
-/area/shuttle/drop1/point_loma)
 "adS" = (
 /obj/structure/surface/table/woodentable,
 /turf/open/floor/strata/fake_wood,
@@ -2509,12 +2499,6 @@
 	},
 /turf/open/floor/shiva/multi_tiles,
 /area/point_loma/airbase/interior/cargo/upper)
-"aiu" = (
-/obj/structure/machinery/landinglight/ds1/delayone{
-	dir = 8
-	},
-/turf/open/floor/plating/icefloor/warnplate/west,
-/area/shuttle/drop1/point_loma)
 "aiv" = (
 /obj/structure/closet/secure_closet/medical3{
 	req_access_txt = "100"
@@ -2752,7 +2736,7 @@
 /area/point_loma/airbase/mining_colony/interior/security/barracks)
 "ajm" = (
 /obj/structure/machinery/camera/autoname/lz_camera,
-/turf/open/floor/corsat,
+/turf/open/new_varadero,
 /area/shuttle/drop1/point_loma)
 "ajn" = (
 /obj/structure/machinery/door/airlock/maintenance/colony{
@@ -4354,10 +4338,6 @@
 	},
 /turf/open/floor/strata/white_cyan2/west,
 /area/point_loma/airbase/mining_colony/interior/living_quarters)
-"aog" = (
-/obj/structure/machinery/landinglight/ds1/delaytwo,
-/turf/open/floor/plating/icefloor/warnplate,
-/area/shuttle/drop1/point_loma)
 "aoh" = (
 /obj/effect/landmark/structure_spawner/setup/distress/xeno_weed_node,
 /obj/structure/barricade/wooden,
@@ -4631,15 +4611,6 @@
 "aoZ" = (
 /turf/closed/wall/hangar,
 /area/point_loma/airbase/exterior/west)
-"apa" = (
-/obj/structure/machinery/landinglight/ds1/delaytwo{
-	dir = 1
-	},
-/obj/structure/machinery/landinglight/ds1/delaythree{
-	dir = 8
-	},
-/turf/open/floor/plating/icefloor/warnplate/northwest,
-/area/shuttle/drop1/point_loma)
 "apb" = (
 /obj/structure/bed/hybrisa/hospital/hospitaldivider,
 /obj/effect/decal/warning_stripes{
@@ -5412,12 +5383,6 @@
 	},
 /turf/open/floor/corsat/retrosquareslight,
 /area/point_loma/research_facility/medical)
-"arl" = (
-/obj/structure/machinery/landinglight/ds1/delayone{
-	dir = 4
-	},
-/turf/open/floor/plating/icefloor/warnplate/east,
-/area/shuttle/drop1/point_loma)
 "arm" = (
 /turf/open/shuttle/lifeboat/catwalk{
 	dir = 2
@@ -5648,12 +5613,6 @@
 	},
 /turf/open/floor/shiva/north,
 /area/point_loma/airbase/interior/hospital)
-"arR" = (
-/obj/structure/machinery/landinglight/ds1/delaytwo{
-	dir = 8
-	},
-/turf/open/floor/plating/warnplate/west,
-/area/shuttle/drop1/point_loma)
 "arS" = (
 /obj/effect/decal/warning_stripes{
 	icon_state = "W-corner"
@@ -6368,12 +6327,6 @@
 	},
 /turf/open/floor/corsat/squares,
 /area/point_loma/research_facility/super_death_cannon/ammo_elevator)
-"atS" = (
-/obj/structure/machinery/landinglight/ds1/delaythree{
-	dir = 1
-	},
-/turf/open/floor/plating/icefloor/warnplate/north,
-/area/shuttle/drop1/point_loma)
 "atT" = (
 /obj/structure/prop/hybrisa/factory/conveyor_belt,
 /obj/effect/decal/warning_stripes{
@@ -6702,12 +6655,6 @@
 "auI" = (
 /turf/open/floor/plating/catwalk,
 /area/point_loma/research_facility/super_death_cannon/engineering)
-"auJ" = (
-/obj/structure/machinery/landinglight/ds1/delayone{
-	dir = 8
-	},
-/turf/open/floor/plating/warnplate/west,
-/area/shuttle/drop1/point_loma)
 "auK" = (
 /obj/structure/machinery/door/poddoor/hybrisa/secure_red_door,
 /turf/closed/wall/r_wall/unmeltable,
@@ -7198,13 +7145,6 @@
 "avY" = (
 /turf/open/floor/corsat/greenwhite/northwest,
 /area/point_loma/research_facility/medical)
-"avZ" = (
-/obj/structure/machinery/landinglight/ds1,
-/obj/structure/machinery/landinglight/ds1/delaythree{
-	dir = 8
-	},
-/turf/open/floor/plating/icefloor/warnplate/southwest,
-/area/shuttle/drop1/point_loma)
 "awa" = (
 /turf/open/shuttle/escapepod/floor2,
 /area/point_loma/research_facility/super_death_cannon/observation)
@@ -7281,15 +7221,6 @@
 /obj/structure/closet/secure_closet/engineering_electrical,
 /turf/open/floor/corsat/squares,
 /area/point_loma/research_facility/super_death_cannon/engineering)
-"awn" = (
-/obj/structure/machinery/landinglight/ds1/delaytwo{
-	dir = 1
-	},
-/obj/structure/machinery/landinglight/ds1/delaythree{
-	dir = 8
-	},
-/turf/open/floor/plating/warnplate/northwest,
-/area/shuttle/drop1/point_loma)
 "awp" = (
 /obj/structure/machinery/mill,
 /turf/open/floor/corsat/squares,
@@ -7469,13 +7400,6 @@
 /obj/structure/reagent_dispensers/tank/fuel,
 /turf/open/floor/plating/plating_catwalk/prison,
 /area/point_loma/airbase/interior/garage)
-"awK" = (
-/obj/structure/machinery/landinglight/ds1,
-/obj/structure/machinery/landinglight/ds1/delayone{
-	dir = 4
-	},
-/turf/open/floor/plating/icefloor/warnplate/southeast,
-/area/shuttle/drop1/point_loma)
 "awL" = (
 /obj/effect/decal/warning_stripes{
 	icon_state = "SW-out"
@@ -8611,12 +8535,6 @@
 	},
 /turf/open/floor/corsat/purplewhite/north,
 /area/point_loma/airbase/interior/research)
-"azK" = (
-/obj/structure/machinery/landinglight/ds1{
-	dir = 4
-	},
-/turf/open/floor/plating/icefloor/warnplate/east,
-/area/shuttle/drop1/point_loma)
 "azL" = (
 /obj/structure/catwalk/bigred,
 /obj/structure/machinery/door/poddoor/railing/upp{
@@ -8900,12 +8818,6 @@
 /obj/structure/machinery/power/power_generator/port_gen/pacman,
 /turf/open/floor/darkbrown2/northwest,
 /area/point_loma/airbase/interior/cargo/upper)
-"aAD" = (
-/obj/structure/machinery/landinglight/ds1/delayone{
-	dir = 1
-	},
-/turf/open/floor/plating/icefloor/warnplate/north,
-/area/shuttle/drop1/point_loma)
 "aAE" = (
 /obj/structure/closet/basketball,
 /obj/item/reagent_container/glass/rag{
@@ -9504,13 +9416,6 @@
 	},
 /turf/open/floor/corsat/squares,
 /area/point_loma/research_facility/hallway/east)
-"aCo" = (
-/obj/structure/machinery/landinglight/ds1/delayone,
-/obj/structure/machinery/landinglight/ds1/delaytwo{
-	dir = 4
-	},
-/turf/open/floor/plating/icefloor/warnplate/southeast,
-/area/shuttle/drop1/point_loma)
 "aCp" = (
 /obj/structure/machinery/door/airlock/multi_tile/almayer/engidoor/colony{
 	autoname = 1
@@ -9894,12 +9799,6 @@
 	},
 /turf/open/floor/corsat/officetiles,
 /area/point_loma/airbase/interior/cargo/upper)
-"aDu" = (
-/obj/structure/machinery/landinglight/ds1{
-	dir = 8
-	},
-/turf/open/floor/plating/icefloor/warnplate/west,
-/area/shuttle/drop1/point_loma)
 "aDv" = (
 /obj/structure/prop/static_tank/fuel,
 /obj/structure/pipes/standard/simple/visible{
@@ -10878,12 +10777,6 @@
 "aGN" = (
 /turf/open/floor/corsat/purple/northwest,
 /area/point_loma/research_facility/research/west)
-"aGO" = (
-/obj/structure/machinery/landinglight/ds1{
-	dir = 8
-	},
-/turf/open/floor/plating/warnplate/west,
-/area/shuttle/drop1/point_loma)
 "aGP" = (
 /obj/structure/cable{
 	icon_state = "1-4";
@@ -11117,15 +11010,6 @@
 /obj/effect/decal/warning_stripes,
 /turf/open/floor/corsat/lightplate,
 /area/point_loma/airbase/interior/research)
-"aHx" = (
-/obj/structure/machinery/landinglight/ds1{
-	dir = 8
-	},
-/obj/structure/machinery/landinglight/ds1/delaythree{
-	dir = 1
-	},
-/turf/open/floor/plating/icefloor/warnplate/northwest,
-/area/shuttle/drop1/point_loma)
 "aHy" = (
 /obj/structure/bed/chair/office/dark,
 /turf/open/floor/shiva/north,
@@ -11430,10 +11314,6 @@
 	},
 /turf/open/floor/corsat,
 /area/point_loma/research_facility/research/west)
-"aIv" = (
-/obj/structure/machinery/landinglight/ds1,
-/turf/open/floor/plating/icefloor/warnplate,
-/area/shuttle/drop1/point_loma)
 "aIw" = (
 /obj/structure/pipes/vents/pump,
 /turf/open/floor/corsat/retrosquareslight,
@@ -11635,15 +11515,6 @@
 	},
 /turf/open/floor/prison/ramptop/east,
 /area/point_loma/research_facility/research/west)
-"aIX" = (
-/obj/structure/machinery/landinglight/ds1/delayone{
-	dir = 4
-	},
-/obj/structure/machinery/landinglight/ds1/delaytwo{
-	dir = 1
-	},
-/turf/open/floor/plating/icefloor/warnplate/northeast,
-/area/shuttle/drop1/point_loma)
 "aIY" = (
 /obj/item/tool/pickaxe/borgdrill,
 /obj/effect/decal/cleanable/liquid_fuel,
@@ -11734,7 +11605,7 @@
 /obj/docking_port/stationary/marine_dropship/lz1{
 	name = "LZ1: Hangar Landing Zone"
 	},
-/turf/open/floor/corsat,
+/turf/open/new_varadero,
 /area/shuttle/drop1/point_loma)
 "aJl" = (
 /obj/structure/platform/stone/soro,
@@ -11899,12 +11770,6 @@
 	},
 /turf/open/floor/strata/blue2,
 /area/point_loma/research_facility/laundry)
-"aJK" = (
-/obj/structure/machinery/landinglight/ds1/delaytwo{
-	dir = 4
-	},
-/turf/open/floor/plating/icefloor/warnplate/east,
-/area/shuttle/drop1/point_loma)
 "aJL" = (
 /obj/structure/platform_decoration/stone/soro/north,
 /turf/open/auto_turf/strata_grass/layer0,
@@ -12026,12 +11891,6 @@
 	},
 /turf/open/floor/shiva/yellow/west,
 /area/point_loma/airbase/interior/cargo/lower)
-"aKf" = (
-/obj/structure/machinery/landinglight/ds1{
-	dir = 1
-	},
-/turf/open/floor/plating/icefloor/warnplate/north,
-/area/shuttle/drop1/point_loma)
 "aKg" = (
 /turf/open/floor/shiva/red,
 /area/point_loma/airbase/mining_colony/exterior/security/south)
@@ -12899,12 +12758,6 @@
 	},
 /turf/open/floor/corsat/squares,
 /area/point_loma/airbase/interior/workshop)
-"aMx" = (
-/obj/structure/machinery/landinglight/ds1/delaytwo{
-	dir = 8
-	},
-/turf/open/floor/plating/icefloor/warnplate/west,
-/area/shuttle/drop1/point_loma)
 "aMy" = (
 /obj/structure/bed/chair{
 	dir = 1
@@ -13886,10 +13739,6 @@
 /obj/item/stack/rods,
 /turf/open/floor/plating/platingdmg1,
 /area/point_loma/oob/sky)
-"aPx" = (
-/obj/structure/machinery/landinglight/ds1/delayone,
-/turf/open/floor/plating/icefloor/warnplate,
-/area/shuttle/drop1/point_loma)
 "aPy" = (
 /turf/open/floor/plating/platingdmg1,
 /area/point_loma/oob/sky)
@@ -13911,12 +13760,6 @@
 /obj/structure/fence/slim/dark/door,
 /turf/open/auto_turf/sand_white/layer0,
 /area/point_loma/airbase/cave/south)
-"aPE" = (
-/obj/structure/machinery/landinglight/ds1/delaythree{
-	dir = 8
-	},
-/turf/open/floor/plating/warnplate/west,
-/area/shuttle/drop1/point_loma)
 "aPF" = (
 /obj/structure/closet/crate/explosives,
 /turf/open/floor/shiva/red/north,
@@ -16365,13 +16208,6 @@
 	},
 /turf/open/floor/corsat/purplewhite,
 /area/point_loma/airbase/interior/research)
-"aWI" = (
-/obj/structure/machinery/landinglight/ds1,
-/obj/structure/machinery/landinglight/ds1/delaythree{
-	dir = 8
-	},
-/turf/open/floor/plating/warnplate/southwest,
-/area/shuttle/drop1/point_loma)
 "aWJ" = (
 /obj/structure/surface/table/reinforced/prison,
 /obj/item/reagent_container/food/snacks/stew,
@@ -16389,12 +16225,6 @@
 /obj/structure/largecrate/empty/case/double,
 /turf/open/floor/shiva/red/west,
 /area/point_loma/airbase/mining_colony/interior/security)
-"aWN" = (
-/obj/structure/machinery/landinglight/ds1/delaytwo{
-	dir = 1
-	},
-/turf/open/floor/plating/icefloor/warnplate/north,
-/area/shuttle/drop1/point_loma)
 "aWO" = (
 /obj/structure/surface/rack{
 	color = "#98a3ab"
@@ -16915,10 +16745,6 @@
 	},
 /turf/open/asphalt/cement_sunbleached,
 /area/point_loma/airbase/mining_colony/exterior/security/checkpoint/north)
-"aYA" = (
-/obj/structure/machinery/landinglight/ds1/delaythree,
-/turf/open/floor/plating/icefloor/warnplate,
-/area/shuttle/drop1/point_loma)
 "aYB" = (
 /obj/effect/decal/hybrisa/road/lines2,
 /obj/effect/decal/hybrisa/road/lines4,
@@ -17122,15 +16948,6 @@
 	},
 /turf/closed/wall/shiva/prefabricated/reinforced,
 /area/point_loma/airbase/mining_colony/exterior/security/north)
-"aZf" = (
-/obj/structure/machinery/landinglight/ds1{
-	dir = 4
-	},
-/obj/structure/machinery/landinglight/ds1/delayone{
-	dir = 1
-	},
-/turf/open/floor/plating/icefloor/warnplate/northeast,
-/area/shuttle/drop1/point_loma)
 "aZg" = (
 /obj/structure/prop/hybrisa/vehicles/Box_Vans/Kelland_Mining,
 /obj/effect/decal/hybrisa/road/lines2{
@@ -31691,9 +31508,6 @@
 "bPi" = (
 /turf/closed/wall/rock/brown,
 /area/point_loma/airbase/cave/south)
-"bPj" = (
-/turf/open/floor/corsat,
-/area/shuttle/drop1/point_loma)
 "bPk" = (
 /turf/open/auto_turf/sand_white/layer1,
 /area/point_loma/airbase/mining_colony/exterior/security/checkpoint/north)
@@ -160666,15 +160480,15 @@ bRO
 bOW
 bOW
 bvo
-awn
-aGO
-auJ
-arR
-aPE
-aGO
-auJ
-arR
-aWI
+aaY
+aaY
+aaY
+aaY
+aaY
+aaY
+aaY
+aaY
+aaY
 bOW
 bRO
 bOW
@@ -160845,21 +160659,21 @@ bRO
 bOW
 bRO
 bYu
-apa
-aGO
-auJ
-bPj
-bPj
-bPj
-bPj
-bPj
-bPj
-bPj
-bPj
-bPj
-auJ
-arR
-avZ
+aaY
+aaY
+aaY
+aaY
+aaY
+aaY
+aaY
+aaY
+aaY
+aaY
+aaY
+aaY
+aaY
+aaY
+aaY
 bOW
 bRO
 bOW
@@ -161024,27 +160838,27 @@ bOW
 bOY
 bUF
 bOW
-apa
-aDu
-aiu
-bPj
-bPj
-bPj
-bPj
-bPj
-bPj
-bPj
+aaY
+aaY
+aaY
+aaY
+aaY
+aaY
+aaY
+aaY
+aaY
+aaY
 ajm
-bPj
-bPj
-bPj
-bPj
-bPj
-bPj
-bPj
-aiu
-aMx
-avZ
+aaY
+aaY
+aaY
+aaY
+aaY
+aaY
+aaY
+aaY
+aaY
+aaY
 bOW
 bUc
 bOY
@@ -161206,27 +161020,27 @@ bOW
 bOY
 bUF
 bYq
-aAD
+aaY
 ajm
-bPj
-bPj
-bPj
-bPj
-bPj
-bPj
-bPj
-bPj
-bPj
-bPj
-bPj
-bPj
-bPj
-bPj
-bPj
-bPj
+aaY
+aaY
+aaY
+aaY
+aaY
+aaY
+aaY
+aaY
+aaY
+aaY
+aaY
+aaY
+aaY
+aaY
+aaY
+aaY
 ajm
-bPj
-aPx
+aaY
+aaY
 bOW
 bOY
 bUc
@@ -161387,28 +161201,28 @@ ajW
 bRO
 bUF
 bYt
-aHx
-bPj
-bPj
-bPj
-bPj
-bPj
-bPj
-bPj
-bPj
-bPj
-bPj
-bPj
-bPj
-bPj
-bPj
-bPj
-bPj
-bPj
-bPj
-bPj
-bPj
-bPj
+aaY
+aaY
+aaY
+aaY
+aaY
+aaY
+aaY
+aaY
+aaY
+aaY
+aaY
+aaY
+aaY
+aaY
+aaY
+aaY
+aaY
+aaY
+aaY
+aaY
+aaY
+aaY
 aaY
 bOY
 bUc
@@ -161569,29 +161383,29 @@ ajW
 bOW
 bYt
 bUF
-aWN
-bPj
-bPj
-bPj
-bPj
-bPj
-bPj
-bPj
-bPj
-bPj
-bPj
-bPj
-bPj
-bPj
-bPj
-bPj
-bPj
-bPj
-bPj
-bPj
-bPj
-bPj
-aIv
+aaY
+aaY
+aaY
+aaY
+aaY
+aaY
+aaY
+aaY
+aaY
+aaY
+aaY
+aaY
+aaY
+aaY
+aaY
+aaY
+aaY
+aaY
+aaY
+aaY
+aaY
+aaY
+aaY
 bOY
 bUc
 bOW
@@ -161751,29 +161565,29 @@ ajW
 bOW
 bYt
 bYt
-aAD
-bPj
-bPj
-bPj
-bPj
-bPj
-bPj
-bPj
-bPj
-bPj
-bPj
-bPj
-bPj
-bPj
-bPj
-bPj
-bPj
-bPj
-bPj
-bPj
-bPj
-bPj
-aPx
+aaY
+aaY
+aaY
+aaY
+aaY
+aaY
+aaY
+aaY
+aaY
+aaY
+aaY
+aaY
+aaY
+aaY
+aaY
+aaY
+aaY
+aaY
+aaY
+aaY
+aaY
+aaY
+aaY
 bOY
 bOY
 bOW
@@ -161933,29 +161747,29 @@ ahn
 bOW
 bYt
 bYD
-aKf
-bPj
-bPj
-bPj
-bPj
-bPj
-bPj
-bPj
-bPj
-bPj
+aaY
+aaY
+aaY
+aaY
+aaY
+aaY
+aaY
+aaY
+aaY
+aaY
 aJk
-bPj
-bPj
-bPj
-bPj
-bPj
-bPj
-bPj
-bPj
-bPj
-bPj
-bPj
-aog
+aaY
+aaY
+aaY
+aaY
+aaY
+aaY
+aaY
+aaY
+aaY
+aaY
+aaY
+aaY
 bOY
 bOY
 bOW
@@ -162115,29 +161929,29 @@ ahn
 bOW
 bYt
 bYt
-atS
-bPj
-bPj
-bPj
-bPj
-bPj
-bPj
-bPj
-bPj
-bPj
-bPj
-bPj
-bPj
-bPj
-bPj
-bPj
-bPj
-bPj
-bPj
-bPj
-bPj
-bPj
-aYA
+aaY
+aaY
+aaY
+aaY
+aaY
+aaY
+aaY
+aaY
+aaY
+aaY
+aaY
+aaY
+aaY
+aaY
+aaY
+aaY
+aaY
+aaY
+aaY
+aaY
+aaY
+aaY
+aaY
 bOY
 bUc
 bOW
@@ -162297,29 +162111,29 @@ ahn
 bOW
 bYt
 bUF
-aWN
-bPj
-bPj
-bPj
-bPj
-bPj
-bPj
-bPj
-bPj
-bPj
-bPj
-bPj
-bPj
-bPj
-bPj
-bPj
-bPj
-bPj
-bPj
-bPj
-bPj
-bPj
-aIv
+aaY
+aaY
+aaY
+aaY
+aaY
+aaY
+aaY
+aaY
+aaY
+aaY
+aaY
+aaY
+aaY
+aaY
+aaY
+aaY
+aaY
+aaY
+aaY
+aaY
+aaY
+aaY
+aaY
 bOY
 bOY
 bOW
@@ -162479,29 +162293,29 @@ ajW
 bOW
 bUF
 bUF
-aZf
-bPj
-bPj
-bPj
-bPj
-bPj
-bPj
-bPj
-bPj
-bPj
-bPj
-bPj
-bPj
-bPj
-bPj
-bPj
-bPj
-bPj
-bPj
-bPj
-bPj
-bPj
-aCo
+aaY
+aaY
+aaY
+aaY
+aaY
+aaY
+aaY
+aaY
+aaY
+aaY
+aaY
+aaY
+aaY
+aaY
+aaY
+aaY
+aaY
+aaY
+aaY
+aaY
+aaY
+aaY
+aaY
 bUc
 bOY
 bOW
@@ -162662,27 +162476,27 @@ bOW
 bUF
 bUF
 bOW
-atS
+aaY
 ajm
-bPj
-bPj
-bPj
-bPj
-bPj
-bPj
-bPj
-bPj
-bPj
-bPj
-bPj
-bPj
-bPj
-bPj
-bPj
-bPj
+aaY
+aaY
+aaY
+aaY
+aaY
+aaY
+aaY
+aaY
+aaY
+aaY
+aaY
+aaY
+aaY
+aaY
+aaY
+aaY
 ajm
-bPj
-aYA
+aaY
+aaY
 bOW
 bUF
 bUF
@@ -162844,27 +162658,27 @@ bOW
 bUF
 bOY
 bRO
-aIX
-azK
-adR
-bPj
-bPj
-bPj
-bPj
-bPj
-bPj
-bPj
+aaY
+aaY
+aaY
+aaY
+aaY
+aaY
+aaY
+aaY
+aaY
+aaY
 ajm
-bPj
-bPj
-bPj
-bPj
-bPj
-bPj
-bPj
-adR
-aJK
-awK
+aaY
+aaY
+aaY
+aaY
+aaY
+aaY
+aaY
+aaY
+aaY
+aaY
 bOW
 bOY
 bOY
@@ -163029,21 +162843,21 @@ bOW
 bRO
 bOW
 bOW
-aIX
-azK
-adR
-bPj
-bPj
-bPj
-bPj
-bPj
-bPj
-bPj
-bPj
-bPj
-adR
-aJK
-awK
+aaY
+aaY
+aaY
+aaY
+aaY
+aaY
+aaY
+aaY
+aaY
+aaY
+aaY
+aaY
+aaY
+aaY
+aaY
 bYq
 bOW
 bOW
@@ -163214,15 +163028,15 @@ bOW
 bOW
 bOW
 bOW
-aIX
-azK
-adR
-aJK
-arl
-azK
-adR
-aJK
-awK
+aaY
+aaY
+aaY
+aaY
+aaY
+aaY
+aaY
+aaY
+aaY
 bOW
 bOW
 bOW
