@@ -36871,9 +36871,6 @@
 "cii" = (
 /turf/closed/wall/new_varadero/reinforced/hull,
 /area/point_loma/research_facility/corporate)
-"cij" = (
-/turf/closed/wall/new_varadero/reinforced,
-/area/point_loma/oob)
 "cik" = (
 /turf/closed/shuttle/elevator,
 /area/point_loma/oob)
@@ -36883,7 +36880,7 @@
 "cim" = (
 /obj/effect/landmark/structure_spawner/setup/distress/xeno_weed_node,
 /turf/closed/wall/new_varadero/reinforced/hull,
-/area/point_loma/oob)
+/area/point_loma/airbase/interior/cargo/lower)
 "cin" = (
 /turf/closed/shuttle/elevator{
 	dir = 9
@@ -85303,10 +85300,10 @@ bJd
 bJd
 asb
 asb
-asb
-asb
 bJd
-asb
+bJd
+bJd
+bKU
 bJd
 bJd
 bJd
@@ -85484,11 +85481,11 @@ asb
 asb
 asb
 asb
-bJw
-cij
+bMU
+aKa
 aKa
 cic
-asb
+bKU
 asb
 bJd
 bJd
@@ -85660,17 +85657,17 @@ asb
 asb
 asb
 asb
-bJw
-bJw
-bJw
-bJw
-bJw
-bJw
+bMU
+bMU
+bMU
+bMU
+bMU
+bMU
 cim
 bMC
 bMC
 bMC
-asb
+bKU
 asb
 asb
 caG
@@ -85842,7 +85839,7 @@ asb
 asb
 asb
 asb
-bJw
+bMU
 bMC
 bMC
 bMC
@@ -86024,7 +86021,7 @@ asb
 asb
 asb
 asb
-bJw
+bMU
 bMC
 bMC
 cin
@@ -86205,8 +86202,8 @@ asb
 asb
 asb
 asb
-bJw
-bJw
+bMU
+bMU
 bMC
 cir
 cio
@@ -86382,12 +86379,12 @@ bJd
 bJd
 bJd
 bKU
-bJw
-bJw
-bJw
-bJw
-bJw
-bJw
+bMU
+bMU
+bMU
+bMU
+bMU
+bMU
 bNl
 bMC
 bMV
