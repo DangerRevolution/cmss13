@@ -11478,12 +11478,13 @@
 /turf/open/floor/corsat,
 /area/point_loma/research_facility/research/west)
 "aIq" = (
+/obj/structure/window/framed/new_varadero/foundation/reinforced,
 /obj/structure/machinery/door/poddoor/almayer/open{
+	dir = 4;
 	id = "Colony Brig Lockdown Shutters";
 	name = "\improper Brig Lockdown Shutter"
 	},
-/obj/structure/window/framed/new_varadero/foundation/reinforced,
-/turf/open/floor/corsat/squares,
+/turf/open/floor/corsat,
 /area/point_loma/research_facility/security_hq)
 "aIr" = (
 /obj/structure/surface/table/reinforced/prison,
@@ -22627,14 +22628,6 @@
 	},
 /turf/open/floor/shiva/yellow,
 /area/point_loma/airbase/interior/garage)
-"bnE" = (
-/obj/effect/decal/strata_decals/grime/grime3{
-	dir = 4;
-	pixel_x = -6;
-	pixel_y = 6
-	},
-/turf/open/floor/corsat/retrosquares,
-/area/point_loma/research_facility/security_hq)
 "bnF" = (
 /obj/structure/bed/chair/bolted{
 	dir = 8
@@ -101699,11 +101692,11 @@ ceN
 ceI
 bKZ
 aBd
-ase
+aik
 ahM
 avX
 aik
-ase
+aik
 aik
 aik
 anO
@@ -101881,11 +101874,11 @@ bKZ
 ceJ
 bKZ
 aBd
-ase
+aik
 ahb
 avY
 aik
-ase
+aik
 ark
 aqD
 anP
@@ -103918,8 +103911,8 @@ bIO
 bIO
 bIO
 bIO
-blE
-blE
+bIO
+biL
 bno
 ady
 ady
@@ -104101,7 +104094,7 @@ bIO
 bIO
 blE
 aIq
-ady
+biL
 adr
 adr
 bmL
@@ -104465,7 +104458,7 @@ cal
 aqf
 boe
 adr
-bnE
+ady
 adr
 adl
 adl
