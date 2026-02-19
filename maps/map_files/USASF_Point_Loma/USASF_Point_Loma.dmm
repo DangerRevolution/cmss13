@@ -16955,6 +16955,10 @@
 /area/point_loma/airbase/mining_colony/interior/living_quarters)
 "aXa" = (
 /obj/structure/machinery/gibber,
+/obj/structure/machinery/light/double{
+	dir = 1;
+	pixel_y = 9
+	},
 /turf/open/floor/hybrisa/tile/tilelightbeige,
 /area/point_loma/airbase/mining_colony/interior/living_quarters)
 "aXb" = (
@@ -19595,6 +19599,12 @@
 	},
 /turf/open/floor/corsat/purple/northwest,
 /area/point_loma/research_facility/research/west)
+"bec" = (
+/obj/structure/machinery/light/double{
+	dir = 4
+	},
+/turf/open/floor/hybrisa/tile/tilelightbeige,
+/area/point_loma/airbase/mining_colony/interior/living_quarters)
 "bed" = (
 /obj/effect/landmark/structure_spawner/setup/distress/xeno_wall,
 /turf/open/auto_turf/strata_grass/layer0_mud,
@@ -162474,7 +162484,7 @@ bPO
 bPO
 bZx
 bPO
-bPO
+aTY
 bQR
 bPQ
 bPQ
@@ -162648,7 +162658,7 @@ bPO
 aXz
 bPO
 bPO
-bPO
+aTY
 bPO
 aXt
 bPO
@@ -163016,7 +163026,7 @@ bYJ
 bYJ
 bPQ
 bPO
-bPO
+aTY
 ajW
 aWR
 aWy
@@ -163744,7 +163754,7 @@ bYJ
 bPQ
 bPQ
 bPO
-bPO
+aTY
 cjD
 aXb
 aWy
@@ -164103,7 +164113,7 @@ bPQ
 bPQ
 bPQ
 bPO
-bPO
+aTY
 bPQ
 bPQ
 bPQ
@@ -164290,7 +164300,7 @@ bPQ
 bYJ
 bPQ
 bPO
-bPO
+aTY
 ajW
 bdZ
 aWE
@@ -164839,7 +164849,7 @@ bPQ
 bPQ
 api
 aWy
-aWy
+bec
 aWy
 cjD
 aVQ
@@ -165013,12 +165023,12 @@ bRY
 bQR
 bPO
 bPO
-bPO
+aTY
 bPQ
 bPQ
 bPQ
 bPO
-bPO
+aTY
 bPW
 ajW
 ajW
