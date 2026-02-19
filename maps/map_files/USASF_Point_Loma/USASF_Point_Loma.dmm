@@ -1914,6 +1914,10 @@
 /area/point_loma/airbase/interior/workshop)
 "ags" = (
 /obj/structure/surface/table/woodentable/fancy,
+/obj/structure/machinery/computer/objective{
+	dir = 1;
+	pixel_y = -2
+	},
 /turf/open/floor/kutjevo/fake_wood,
 /area/point_loma/airbase/mining_colony/interior/corporate)
 "agt" = (
@@ -2065,6 +2069,10 @@
 	},
 /turf/open/floor/shiva/multi_tiles/southeast,
 /area/point_loma/airbase/interior/garage)
+"agR" = (
+/obj/structure/machinery/door/airlock/almayer/maint/colony,
+/turf/open/floor/white,
+/area/point_loma/airbase/mining_colony/interior/corporate)
 "agS" = (
 /obj/structure/prop/server_equipment/broken,
 /turf/open/floor/asteroidfloor,
@@ -2199,6 +2207,12 @@
 	},
 /turf/open/floor/corsat/tan,
 /area/point_loma/research_facility/medical)
+"ahp" = (
+/obj/structure/machinery/door/airlock/almayer/generic{
+	dir = 2
+	},
+/turf/open/floor/white,
+/area/point_loma/airbase/mining_colony/interior/corporate)
 "ahq" = (
 /obj/structure/bed/sofa/vert/white/top,
 /turf/open/floor/hybrisa/tile/tilered,
@@ -2257,6 +2271,10 @@
 	},
 /turf/open/floor/hybrisa/tile/tilered,
 /area/point_loma/airbase/mining_colony/interior/security/barracks)
+"ahA" = (
+/obj/structure/machinery/door/airlock/almayer/medical/glass/colony,
+/turf/open/floor/white,
+/area/point_loma/airbase/mining_colony/interior/corporate)
 "ahB" = (
 /turf/open_space,
 /area/point_loma/oob)
@@ -2451,7 +2469,9 @@
 /turf/open/floor/shiva/red/north,
 /area/point_loma/airbase/mining_colony/interior/security/barracks)
 "aii" = (
-/obj/structure/closet/secure_closet/engineering_chief,
+/obj/structure/closet/secure_closet/engineering_chief{
+	pixel_y = 20
+	},
 /obj/effect/landmark/objective_landmark/close,
 /turf/open/floor/plating/wood,
 /area/point_loma/airbase/mining_colony/interior/corporate)
@@ -2523,6 +2543,13 @@
 	},
 /turf/open/floor/shiva/multi_tiles,
 /area/point_loma/airbase/interior/cargo/upper)
+"aiu" = (
+/obj/structure/bed/chair{
+	dir = 1;
+	pixel_y = 7
+	},
+/turf/open/floor/kutjevo/fake_wood,
+/area/point_loma/airbase/mining_colony/interior/corporate)
 "aiv" = (
 /obj/structure/closet/secure_closet/medical3{
 	req_access_txt = "100"
@@ -2738,6 +2765,10 @@
 	},
 /turf/open/floor/corsat,
 /area/point_loma/research_facility/engineering)
+"ajh" = (
+/obj/structure/flora/pottedplant/random,
+/turf/open/floor/kutjevo/fake_wood,
+/area/point_loma/airbase/mining_colony/interior/corporate)
 "aji" = (
 /obj/structure/machinery/conveyor{
 	dir = 10
@@ -2784,6 +2815,10 @@
 "ajp" = (
 /turf/open/floor/corsat/lightplate,
 /area/point_loma/airbase/interior/research)
+"ajq" = (
+/obj/structure/machinery/door/airlock/almayer/secure/reinforced/colony,
+/turf/open/floor/white,
+/area/point_loma/airbase/mining_colony/interior/corporate)
 "ajr" = (
 /obj/structure/machinery/computer/shuttle/dropship,
 /turf/open/floor/asteroidfloor,
@@ -3040,6 +3075,13 @@
 /obj/structure/bed/hybrisa/bunkbed1,
 /turf/closed/wall/huntership/destructible,
 /area/point_loma/research_facility/crash_site)
+"akg" = (
+/obj/structure/mirror{
+	pixel_y = -1;
+	pixel_x = 8
+	},
+/turf/closed/wall/shiva/prefabricated/white,
+/area/point_loma/airbase/mining_colony/interior/corporate)
 "akh" = (
 /obj/effect/decal/warning_stripes{
 	icon_state = "test_warning"
@@ -3105,6 +3147,10 @@
 "akr" = (
 /turf/open/floor/rampbottom,
 /area/point_loma/airbase/mining_colony/exterior/lz)
+"aks" = (
+/obj/structure/closet/wardrobe/suit,
+/turf/open/floor/kutjevo/fake_wood,
+/area/point_loma/airbase/mining_colony/interior/corporate)
 "akt" = (
 /obj/structure/stairs/multiz/up{
 	dir = 4
@@ -3134,6 +3180,10 @@
 	},
 /turf/open/floor/corsat/retrosquareslight,
 /area/point_loma/research_facility/medical)
+"aky" = (
+/obj/structure/curtain/open/shower,
+/turf/open/floor/white,
+/area/point_loma/airbase/mining_colony/interior/corporate)
 "akz" = (
 /turf/open/floor/engine,
 /area/point_loma/airbase/interior/research)
@@ -3453,6 +3503,9 @@
 /obj/structure/closet/wardrobe/pjs,
 /turf/open/floor/shiva/blue/north,
 /area/point_loma/airbase/mining_colony/interior/living_quarters)
+"als" = (
+/turf/open/floor/strata/white_cyan2/west,
+/area/point_loma/airbase/mining_colony/interior/corporate)
 "alt" = (
 /obj/structure/closet/wardrobe,
 /turf/open/floor/shiva/blue/northeast,
@@ -3528,6 +3581,10 @@
 	},
 /turf/open/floor/shiva/blue,
 /area/point_loma/airbase/mining_colony/interior/living_quarters)
+"alG" = (
+/obj/structure/machinery/door/airlock/almayer/secure/colony,
+/turf/open/floor/white,
+/area/point_loma/airbase/mining_colony/interior/corporate)
 "alH" = (
 /obj/effect/decal/warning_stripes{
 	icon_state = "W-corner"
@@ -3623,6 +3680,13 @@
 	},
 /turf/open/floor/hybrisa/carpet/rug_colorable/grey_blue/west,
 /area/point_loma/airbase/mining_colony/interior/living_quarters)
+"alX" = (
+/obj/structure/sink{
+	dir = 8;
+	pixel_x = -10
+	},
+/turf/open/floor/strata/white_cyan2/west,
+/area/point_loma/airbase/mining_colony/interior/corporate)
 "alY" = (
 /obj/structure/machinery/vending/walkman{
 	pixel_x = 6
@@ -3939,6 +4003,9 @@
 /obj/structure/surface/table/woodentable/fancy,
 /turf/open/floor/hybrisa/carpet/carpetblack,
 /area/point_loma/airbase/mining_colony/interior/living_quarters)
+"amR" = (
+/turf/open/floor/plating/plating_catwalk/shiva,
+/area/point_loma/airbase/mining_colony/interior/corporate)
 "amS" = (
 /obj/effect/decal/warning_stripes{
 	icon_state = "N";
@@ -4362,6 +4429,12 @@
 	},
 /turf/open/floor/strata/white_cyan2/west,
 /area/point_loma/airbase/mining_colony/interior/living_quarters)
+"aog" = (
+/obj/structure/toilet{
+	dir = 8
+	},
+/turf/open/floor/strata/white_cyan2/west,
+/area/point_loma/airbase/mining_colony/interior/corporate)
 "aoh" = (
 /obj/effect/landmark/structure_spawner/setup/distress/xeno_weed_node,
 /obj/structure/barricade/wooden,
@@ -4635,6 +4708,14 @@
 "aoZ" = (
 /turf/closed/wall/hangar,
 /area/point_loma/airbase/exterior/west)
+"apa" = (
+/obj/structure/surface/table/woodentable,
+/obj/structure/machinery/prop/almayer/computer/PC{
+	dir = 4;
+	pixel_y = 4
+	},
+/turf/open/floor/plating/wood,
+/area/point_loma/airbase/mining_colony/interior/corporate)
 "apb" = (
 /obj/structure/bed/hybrisa/hospital/hospitaldivider,
 /obj/effect/decal/warning_stripes{
@@ -4908,6 +4989,13 @@
 	},
 /turf/open/floor/corsat/squares,
 /area/point_loma/research_facility/super_death_cannon/ammo_elevator)
+"apO" = (
+/obj/structure/bed/chair/comfy{
+	dir = 8;
+	pixel_y = 13
+	},
+/turf/open/floor/plating/wood,
+/area/point_loma/airbase/mining_colony/interior/corporate)
 "apP" = (
 /turf/open/floor/corsat/squares,
 /area/point_loma/research_facility/super_death_cannon/ammo_elevator)
@@ -5394,6 +5482,13 @@
 "arh" = (
 /turf/open/floor/corsat/squares,
 /area/point_loma/research_facility/research/west)
+"ari" = (
+/obj/structure/filingcabinet/filingcabinet{
+	pixel_y = 15;
+	pixel_x = -7
+	},
+/turf/open/floor/plating/wood,
+/area/point_loma/airbase/mining_colony/interior/corporate)
 "arj" = (
 /obj/effect/decal/hybrisa/road/lines4{
 	pixel_y = -1
@@ -5407,6 +5502,12 @@
 	},
 /turf/open/floor/corsat/retrosquareslight,
 /area/point_loma/research_facility/medical)
+"arl" = (
+/obj/structure/machinery/door/airlock/multi_tile/almayer/generic/autoname{
+	dir = 1
+	},
+/turf/open/floor/whiteyellowfull,
+/area/point_loma/airbase/mining_colony/interior/corporate)
 "arm" = (
 /turf/open/shuttle/lifeboat/catwalk{
 	dir = 2
@@ -5637,6 +5738,10 @@
 	},
 /turf/open/floor/shiva/north,
 /area/point_loma/airbase/interior/hospital)
+"arR" = (
+/obj/structure/machinery/door/airlock/almayer/secure/colony,
+/turf/open/floor/whiteyellowfull,
+/area/point_loma/airbase/mining_colony/interior/corporate)
 "arS" = (
 /obj/effect/decal/warning_stripes{
 	icon_state = "W-corner"
@@ -5745,6 +5850,10 @@
 /obj/structure/machinery/door/firedoor,
 /turf/open/floor/corsat/squares,
 /area/point_loma/research_facility/super_death_cannon/ammo_elevator)
+"asl" = (
+/obj/structure/machinery/photocopier,
+/turf/open/floor/whiteyellow/southeast,
+/area/point_loma/airbase/mining_colony/interior/corporate)
 "asm" = (
 /obj/effect/decal/hybrisa/road/lines3,
 /obj/effect/decal/hybrisa/road/road_edge{
@@ -5898,6 +6007,10 @@
 /obj/structure/machinery/portable_atmospherics/canister/oxygen,
 /turf/open/floor/shiva/green/northeast,
 /area/point_loma/airbase/interior/hospital)
+"asJ" = (
+/obj/structure/machinery/vending/snack/packaged,
+/turf/open/floor/whiteyellow/east,
+/area/point_loma/airbase/mining_colony/interior/corporate)
 "asK" = (
 /obj/effect/decal/warning_stripes{
 	icon_state = "cargo_arrow2";
@@ -5905,6 +6018,12 @@
 	},
 /turf/closed/wall/new_varadero/reinforced/hull,
 /area/point_loma/oob)
+"asL" = (
+/obj/structure/surface/table/woodentable/fancy{
+	pixel_x = -11
+	},
+/turf/open/floor/white,
+/area/point_loma/airbase/mining_colony/interior/corporate)
 "asM" = (
 /obj/structure/closet/firecloset/full,
 /turf/open/floor/shiva/yellow/west,
@@ -6089,6 +6208,13 @@
 "atj" = (
 /turf/open/floor/plating/plating_catwalk/prison,
 /area/point_loma/research_facility/super_death_cannon/engineering)
+"atk" = (
+/obj/structure/bed/chair/comfy/ares{
+	dir = 8;
+	pixel_y = 22
+	},
+/turf/open/floor/whiteyellow/west,
+/area/point_loma/airbase/mining_colony/interior/corporate)
 "atl" = (
 /obj/effect/decal/hybrisa/road/lines4,
 /turf/open/floor/corsat/squares,
@@ -6351,6 +6477,10 @@
 	},
 /turf/open/floor/corsat/squares,
 /area/point_loma/research_facility/super_death_cannon/ammo_elevator)
+"atS" = (
+/obj/structure/machinery/vending/coffee,
+/turf/open/floor/whiteyellow/east,
+/area/point_loma/airbase/mining_colony/interior/corporate)
 "atT" = (
 /obj/structure/prop/hybrisa/factory/conveyor_belt,
 /obj/effect/decal/warning_stripes{
@@ -6376,6 +6506,17 @@
 	},
 /turf/open/floor/corsat/squares,
 /area/point_loma/research_facility/super_death_cannon/ammo_elevator)
+"atV" = (
+/obj/structure/filingcabinet{
+	pixel_y = 17;
+	pixel_x = -9
+	},
+/obj/structure/filingcabinet/chestdrawer{
+	pixel_x = 7;
+	pixel_y = 17
+	},
+/turf/open/floor/whiteyellow/northeast,
+/area/point_loma/airbase/mining_colony/interior/corporate)
 "atW" = (
 /obj/effect/decal/warning_stripes{
 	icon_state = "N-corner"
@@ -8756,6 +8897,10 @@
 "aAp" = (
 /obj/structure/surface/table/reinforced/prison,
 /obj/structure/machinery/door/window/brigdoor/westleft,
+/obj/item/tool/pen/white/clicky{
+	pixel_y = -2;
+	pixel_x = -5
+	},
 /turf/open/floor/whiteyellowfull,
 /area/point_loma/airbase/mining_colony/interior/corporate)
 "aAq" = (
@@ -10810,7 +10955,10 @@
 /turf/open/floor/corsat/purple/north,
 /area/point_loma/research_facility/research/west)
 "aGQ" = (
-/obj/structure/bed/chair,
+/obj/structure/bed/chair{
+	pixel_y = 4;
+	pixel_x = 4
+	},
 /turf/open/floor/whiteyellow/northwest,
 /area/point_loma/airbase/mining_colony/interior/corporate)
 "aGS" = (
@@ -10908,7 +11056,10 @@
 /turf/open/floor/corsat/squares,
 /area/point_loma/research_facility/research/west)
 "aHe" = (
-/obj/structure/bed/chair,
+/obj/structure/bed/chair{
+	pixel_y = 3;
+	pixel_x = 4
+	},
 /turf/open/floor/whiteyellow/north,
 /area/point_loma/airbase/mining_colony/interior/corporate)
 "aHf" = (
@@ -11309,6 +11460,10 @@
 "aIr" = (
 /obj/structure/surface/table/reinforced/prison,
 /obj/structure/machinery/door/window/brigdoor/westright,
+/obj/item/paper_bin{
+	pixel_y = 7;
+	pixel_x = -5
+	},
 /turf/open/floor/whiteyellowfull,
 /area/point_loma/airbase/mining_colony/interior/corporate)
 "aIs" = (
@@ -11360,6 +11515,10 @@
 /turf/open/floor/corsat/purple/west,
 /area/point_loma/research_facility/research/west)
 "aIA" = (
+/obj/structure/reagent_dispensers/water_cooler{
+	pixel_y = 16;
+	pixel_x = -7
+	},
 /turf/open/floor/whiteyellow/northwest,
 /area/point_loma/airbase/mining_colony/interior/corporate)
 "aIB" = (
@@ -25223,7 +25382,6 @@
 /area/point_loma/airbase/mining_colony/interior/engineering)
 "bwy" = (
 /obj/structure/bed,
-/obj/item/bedsheet/yellow,
 /turf/open/floor/kutjevo/fake_wood,
 /area/point_loma/airbase/mining_colony/interior/corporate)
 "bwz" = (
@@ -25399,9 +25557,10 @@
 /turf/open/floor/shiva/yellow/north,
 /area/point_loma/airbase/mining_colony/interior/engineering)
 "bxb" = (
-/obj/structure/bed,
-/obj/item/bedsheet/yellow,
-/turf/open/floor/plating/wood,
+/obj/structure/machinery/shower{
+	pixel_y = 16
+	},
+/turf/open/floor/strata/white_cyan2/west,
 /area/point_loma/airbase/mining_colony/interior/corporate)
 "bxc" = (
 /obj/structure/cargo_container/hybrisa/containersextended/kelland_right,
@@ -163777,7 +163936,7 @@ bOZ
 buP
 bOZ
 bPK
-bPK
+arl
 bOZ
 adK
 adK
@@ -163800,7 +163959,7 @@ buP
 bOZ
 bOZ
 bOZ
-bPa
+agR
 bOZ
 asb
 asb
@@ -163961,7 +164120,7 @@ atZ
 atZ
 ajO
 bOZ
-bwN
+ari
 bwN
 bwN
 bwN
@@ -163969,14 +164128,14 @@ bOZ
 bvp
 bvp
 bvp
-bvp
-bvp
+ajh
+ajh
 bOZ
 bvp
 bvp
 bvp
 bvp
-bPa
+ahp
 bPb
 bPb
 bPb
@@ -164139,12 +164298,12 @@ bPQ
 bPQ
 bOZ
 aHe
-bPa
+asL
 bPa
 akc
 bOZ
 ahD
-ahD
+apa
 bwN
 bwN
 bOZ
@@ -164156,7 +164315,7 @@ bvp
 bOZ
 bvI
 bvB
-bvp
+aiu
 bvp
 bOZ
 buY
@@ -164326,7 +164485,7 @@ ayo
 akB
 bOZ
 aii
-bwN
+apO
 bwN
 bwN
 bOZ
@@ -164505,30 +164664,30 @@ bOZ
 aIr
 aAp
 bOZ
-bPK
+arR
 bOZ
 bOZ
 bOZ
 bOZ
-bPa
+alG
 bOZ
 bOZ
 bOZ
 bOZ
 bOZ
-bPa
+ajq
 bOZ
 bOZ
 bOZ
 bOZ
-bPa
+ahA
 bOZ
 bOZ
 bOZ
-bPa
+agR
 bOZ
 bOZ
-bPa
+agR
 bOZ
 asb
 asb
@@ -164685,7 +164844,7 @@ bYE
 bPQ
 bOZ
 aIA
-atZ
+atk
 atZ
 ajO
 bPa
@@ -165048,25 +165207,25 @@ bPO
 bYE
 bPQ
 bOZ
-aHL
-ayo
-ayo
-akB
+atV
+atS
+asJ
+asl
 bOZ
 bOZ
 bOZ
 bOZ
-bOZ
-bPa
-bOZ
+akg
 bOZ
 bOZ
 bOZ
-bPa
+bOZ
+akg
+ajq
 bOZ
 bOZ
 bvC
-bPa
+agR
 bOZ
 bOZ
 bOZ
@@ -165236,13 +165395,13 @@ buP
 bOZ
 bOZ
 bOZ
-bwN
-bwN
-bwN
-bwN
+als
+als
+alX
+als
 bOZ
-bvp
-bvp
+ajh
+aks
 bvp
 bvp
 bOZ
@@ -165419,10 +165578,10 @@ asb
 asb
 bOZ
 bxb
-bwN
-bwN
-bwN
-bOZ
+amR
+amR
+als
+aky
 bvp
 bvp
 bvp
@@ -165600,10 +165759,10 @@ bOS
 bOR
 asb
 bOZ
-bwN
-bwN
-bwN
-bwN
+als
+als
+aog
+als
 bOZ
 bwy
 bvp
