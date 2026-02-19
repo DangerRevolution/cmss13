@@ -1126,7 +1126,7 @@
 "adJ" = (
 /obj/effect/landmark/structure_spawner/setup/distress/xeno_door,
 /turf/open/auto_turf/sand_white/layer0,
-/area/point_loma/oob)
+/area/point_loma/research_facility/cave/south_east)
 "adK" = (
 /obj/structure/window/framed/shiva/white,
 /obj/structure/tent_curtain,
@@ -1584,6 +1584,10 @@
 	},
 /turf/open/floor/shiva,
 /area/point_loma/research_facility/command)
+"afr" = (
+/obj/effect/landmark/structure_spawner/setup/distress/xeno_door,
+/turf/open/auto_turf/sand_white/layer0,
+/area/point_loma/research_facility/research/park)
 "afs" = (
 /turf/open/auto_turf/sand_white,
 /area/point_loma/airbase/exterior/east)
@@ -1957,6 +1961,10 @@
 /obj/item/clothing/glasses/hud/health,
 /turf/open/floor/plating,
 /area/point_loma/research_facility/command)
+"agz" = (
+/obj/effect/landmark/structure_spawner/setup/distress/xeno_weed_node,
+/turf/open/floor/plating,
+/area/point_loma/airbase/interior/cargo/lower)
 "agA" = (
 /obj/structure/machinery/chem_dispenser/soda,
 /turf/closed/wall/new_varadero,
@@ -26544,7 +26552,7 @@
 "bzh" = (
 /obj/effect/landmark/structure_spawner/setup/distress/xeno_weed_node,
 /turf/open/auto_turf/sand_white/layer0,
-/area/point_loma/oob)
+/area/point_loma/research_facility/research/park)
 "bzi" = (
 /obj/structure/prop/invuln/lattice_prop{
 	icon_state = "lattice12";
@@ -36877,10 +36885,6 @@
 "cil" = (
 /turf/open/shuttle/elevator/grating,
 /area/point_loma/oob)
-"cim" = (
-/obj/effect/landmark/structure_spawner/setup/distress/xeno_weed_node,
-/turf/closed/wall/new_varadero/reinforced/hull,
-/area/point_loma/airbase/interior/cargo/lower)
 "cin" = (
 /turf/closed/shuttle/elevator{
 	dir = 9
@@ -85663,7 +85667,7 @@ bMU
 bMU
 bMU
 bMU
-cim
+bMU
 bMC
 bMC
 bMC
@@ -85845,7 +85849,7 @@ bMC
 bMC
 bMC
 bMC
-bMC
+agz
 bMC
 bKU
 bOk
@@ -89004,7 +89008,7 @@ bIA
 bIA
 bIA
 bIA
-aeX
+bIA
 aeX
 aeX
 aeX
@@ -89187,7 +89191,7 @@ adH
 bIA
 bIA
 bIA
-bIA
+bjW
 aeX
 aeX
 aeX
@@ -90099,7 +90103,7 @@ bIA
 bIA
 bIA
 bIA
-bIA
+aeX
 aeX
 aeX
 bIA
@@ -99224,7 +99228,7 @@ aEy
 aDR
 bID
 asb
-bIT
+bIB
 bIB
 bIB
 bIB
@@ -99405,8 +99409,8 @@ aqr
 bID
 aDD
 afy
-adJ
-bIT
+afr
+bIB
 bIB
 bIB
 bIB
@@ -99588,7 +99592,7 @@ agJ
 agJ
 aeY
 alo
-adv
+bIB
 bIB
 bIB
 bIB
@@ -99770,7 +99774,7 @@ agJ
 agJ
 aoh
 alo
-adv
+bIB
 bIB
 abB
 bIB
@@ -99952,7 +99956,7 @@ bID
 bID
 afy
 aeQ
-adv
+bIB
 bIB
 bIB
 bIB
@@ -102863,7 +102867,7 @@ aFI
 aDJ
 bID
 agN
-bIT
+adv
 asb
 bIB
 bIB
@@ -103227,7 +103231,7 @@ bID
 aEA
 bID
 agU
-bIT
+adv
 adJ
 bIB
 bIB
