@@ -2,7 +2,7 @@
     "map_name": "USASF Point Loma",
     "map_path": "map_files/USASF_Point_Loma",
     "map_file": "USASF_Point_Loma.dmm",
-    "webmap_url": "USASF_Point_Loma",
+    "webmap_url": "LV624",
 
     "survivor_types": [
         "/datum/equipment_preset/survivor/army/standard"
@@ -13,7 +13,7 @@
 	"CO_survivor_types": [
         "/datum/equipment_preset/survivor/army/co"
     ],
-    "map_item_type": "/obj/item/map/usasf_point_loma_map",
+    "map_item_type": "/obj/item/map/lazarus_landing_map",
     "announce_text": "Distress Signal received from USASF Point Loma, T-1 Hour Ago. \n Orbital Scan Underway. \n Await results.",
     "survivor_message": "You are an employee at USASF Point Loma, a research facility and airbase dually owned by the United States Aerospace Force and Alpha-Tech Hardware Corporation. Just over an hour ago, the air defense intercepted an unknown contact, and the wreckage slammed onto the runway unleashing several Xenomorphs and other unknown contacts. You've evaded trouble for the last hour, but you know the Xenomorphs are about to ramp up their efforts.",
     "monkey_types": [
@@ -23,7 +23,7 @@
     "traits": [
         {
             "Ground": true,
-            "Up": 1,
+            "Up": 1
         },
         {
             "Ground": true,
