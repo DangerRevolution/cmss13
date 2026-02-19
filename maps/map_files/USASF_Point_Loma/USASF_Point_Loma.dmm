@@ -26130,7 +26130,7 @@
 	pixel_x = -1
 	},
 /obj/effect/decal/cleanable/dirt,
-/turf/open/floor/corsat/officetiles,
+/turf/open/floor/shiva/multi_tiles/west,
 /area/point_loma/airbase/interior/cargo/lower)
 "byt" = (
 /obj/structure/machinery/door/poddoor/shutters/almayer/open{
@@ -30660,7 +30660,7 @@
 	icon_state = "S";
 	pixel_x = -1
 	},
-/turf/open/floor/corsat/officetiles,
+/turf/open/floor/shiva/multi_tiles/west,
 /area/point_loma/airbase/interior/cargo/lower)
 "bLl" = (
 /obj/structure/pipes/standard/simple/hidden/green,
@@ -30668,7 +30668,7 @@
 	icon_state = "S";
 	pixel_x = -1
 	},
-/turf/open/floor/corsat/officetiles,
+/turf/open/floor/shiva/multi_tiles/west,
 /area/point_loma/airbase/interior/cargo/lower)
 "bLm" = (
 /obj/effect/decal/warning_stripes{
@@ -30680,7 +30680,7 @@
 	icon_state = "S";
 	pixel_x = -1
 	},
-/turf/open/floor/corsat/officetiles,
+/turf/open/floor/shiva/multi_tiles/west,
 /area/point_loma/airbase/interior/cargo/lower)
 "bLn" = (
 /turf/open/floor/shiva/yellowcorners,
@@ -30726,25 +30726,25 @@
 	pixel_y = 1;
 	pixel_x = -1
 	},
-/turf/open/floor/corsat/officetiles,
+/turf/open/floor/shiva/multi_tiles/west,
 /area/point_loma/airbase/interior/cargo/lower)
 "bLu" = (
 /obj/structure/pipes/standard/simple/hidden/green,
-/turf/open/floor/corsat/officetiles,
+/turf/open/floor/shiva/multi_tiles/west,
 /area/point_loma/airbase/interior/cargo/lower)
 "bLv" = (
 /obj/effect/decal/warning_stripes{
 	icon_state = "SE-out";
 	pixel_x = 1
 	},
-/turf/open/floor/corsat/officetiles,
+/turf/open/floor/shiva/multi_tiles/west,
 /area/point_loma/airbase/interior/cargo/lower)
 "bLw" = (
 /obj/effect/decal/warning_stripes{
 	icon_state = "S";
 	pixel_x = -1
 	},
-/turf/open/floor/corsat/officetiles,
+/turf/open/floor/shiva/multi_tiles/west,
 /area/point_loma/airbase/interior/cargo/lower)
 "bLx" = (
 /obj/effect/decal/warning_stripes{
@@ -30815,13 +30815,13 @@
 	pixel_y = 1;
 	pixel_x = -1
 	},
-/turf/open/floor/corsat/officetiles,
+/turf/open/floor/shiva/multi_tiles/west,
 /area/point_loma/airbase/interior/cargo/lower)
 "bLJ" = (
 /turf/open/floor/corsat/red/northeast,
 /area/point_loma/research_facility/security_hq)
 "bLK" = (
-/turf/open/floor/corsat/officetiles,
+/turf/open/floor/shiva/multi_tiles/west,
 /area/point_loma/airbase/interior/cargo/lower)
 "bLL" = (
 /obj/effect/decal/warning_stripes{
@@ -30829,7 +30829,7 @@
 	layer = 3.33;
 	pixel_x = 1
 	},
-/turf/open/floor/corsat/officetiles,
+/turf/open/floor/shiva/multi_tiles/west,
 /area/point_loma/airbase/interior/cargo/lower)
 "bLM" = (
 /obj/effect/decal/warning_stripes{
@@ -30867,7 +30867,7 @@
 	icon_state = "SW-out";
 	pixel_x = -1
 	},
-/turf/open/floor/corsat/officetiles,
+/turf/open/floor/shiva/multi_tiles/west,
 /area/point_loma/airbase/interior/cargo/lower)
 "bLS" = (
 /obj/effect/decal/warning_stripes{
@@ -30918,7 +30918,7 @@
 	pixel_y = 8;
 	pixel_x = 16
 	},
-/turf/open/floor/corsat/officetiles,
+/turf/open/floor/shiva/multi_tiles/west,
 /area/point_loma/airbase/interior/cargo/lower)
 "bLY" = (
 /obj/structure/prop/dam/crane/cargo{
@@ -30926,7 +30926,7 @@
 	pixel_x = -10;
 	pixel_y = 6
 	},
-/turf/open/floor/corsat/officetiles,
+/turf/open/floor/shiva/multi_tiles/west,
 /area/point_loma/airbase/interior/cargo/lower)
 "bLZ" = (
 /obj/effect/decal/warning_stripes{
@@ -30958,7 +30958,7 @@
 	icon_state = "N";
 	pixel_y = 2
 	},
-/turf/open/floor/corsat/officetiles,
+/turf/open/floor/shiva/multi_tiles/west,
 /area/point_loma/airbase/interior/cargo/lower)
 "bMf" = (
 /obj/structure/pipes/standard/simple/hidden/green,
@@ -30968,7 +30968,7 @@
 	pixel_x = -1
 	},
 /obj/effect/decal/cleanable/dirt,
-/turf/open/floor/corsat/officetiles,
+/turf/open/floor/shiva/multi_tiles/west,
 /area/point_loma/airbase/interior/cargo/lower)
 "bMg" = (
 /obj/effect/decal/warning_stripes{
@@ -30976,14 +30976,14 @@
 	pixel_x = 1;
 	pixel_y = 1
 	},
-/turf/open/floor/corsat/officetiles,
+/turf/open/floor/shiva/multi_tiles/west,
 /area/point_loma/airbase/interior/cargo/lower)
 "bMh" = (
 /obj/effect/decal/warning_stripes{
 	icon_state = "N";
 	pixel_y = 1
 	},
-/turf/open/floor/corsat/officetiles,
+/turf/open/floor/shiva/multi_tiles/west,
 /area/point_loma/airbase/interior/cargo/lower)
 "bMi" = (
 /obj/effect/decal/warning_stripes{
@@ -30995,7 +30995,7 @@
 	icon_state = "N";
 	pixel_y = 1
 	},
-/turf/open/floor/corsat/officetiles,
+/turf/open/floor/shiva/multi_tiles/west,
 /area/point_loma/airbase/interior/cargo/lower)
 "bMj" = (
 /turf/open/floor/shiva/north,
@@ -31038,7 +31038,7 @@
 	pixel_y = 1;
 	pixel_x = -1
 	},
-/turf/open/floor/corsat/officetiles,
+/turf/open/floor/shiva/multi_tiles/west,
 /area/point_loma/airbase/interior/cargo/lower)
 "bMs" = (
 /obj/effect/decal/warning_stripes{
@@ -31048,7 +31048,7 @@
 	pixel_y = 1
 	},
 /obj/effect/decal/cleanable/dirt,
-/turf/open/floor/corsat/officetiles,
+/turf/open/floor/shiva/multi_tiles/west,
 /area/point_loma/airbase/interior/cargo/lower)
 "bMt" = (
 /turf/open/floor/shiva/yellowcorners/east,
@@ -31327,7 +31327,7 @@
 /area/point_loma/research_facility/hallway/north)
 "bNl" = (
 /obj/structure/largecrate/random/barrel/red,
-/turf/open/floor/plating,
+/turf/open/floor/corsat,
 /area/point_loma/airbase/interior/cargo/lower)
 "bNm" = (
 /obj/effect/decal/warning_stripes{
@@ -36804,7 +36804,7 @@
 	pixel_x = 1
 	},
 /obj/effect/decal/cleanable/dirt,
-/turf/open/floor/corsat/officetiles,
+/turf/open/floor/shiva/multi_tiles/west,
 /area/point_loma/airbase/interior/cargo/lower)
 "chW" = (
 /obj/effect/decal/warning_stripes{
@@ -36816,7 +36816,7 @@
 	icon_state = "S";
 	pixel_x = -1
 	},
-/turf/open/floor/strata/multi_tiles,
+/turf/open/floor/shiva/multi_tiles/west,
 /area/point_loma/airbase/interior/cargo/lower)
 "chX" = (
 /obj/effect/decal/cleanable/dirt,
@@ -36824,11 +36824,11 @@
 	icon_state = "S";
 	pixel_x = -1
 	},
-/turf/open/floor/corsat/officetiles,
+/turf/open/floor/shiva/multi_tiles/west,
 /area/point_loma/airbase/interior/cargo/lower)
 "chY" = (
 /obj/effect/decal/cleanable/dirt,
-/turf/open/floor/corsat/officetiles,
+/turf/open/floor/shiva/multi_tiles/west,
 /area/point_loma/airbase/interior/cargo/lower)
 "chZ" = (
 /obj/structure/machinery/light{
@@ -36848,11 +36848,11 @@
 	pixel_y = 22;
 	pixel_x = 12
 	},
-/turf/open/floor/corsat/officetiles,
+/turf/open/floor/shiva/multi_tiles/west,
 /area/point_loma/airbase/interior/cargo/lower)
 "cib" = (
 /obj/effect/decal/cleanable/blood/oil,
-/turf/open/floor/corsat/officetiles,
+/turf/open/floor/shiva/multi_tiles/west,
 /area/point_loma/airbase/interior/cargo/lower)
 "cic" = (
 /obj/structure/machinery/door/airlock/maintenance/colony,
@@ -36869,7 +36869,7 @@
 	pixel_y = 1;
 	pixel_x = -1
 	},
-/turf/open/floor/strata/multi_tiles,
+/turf/open/floor/shiva/multi_tiles/west,
 /area/point_loma/airbase/interior/cargo/lower)
 "cie" = (
 /obj/effect/decal/warning_stripes{
@@ -36880,7 +36880,7 @@
 	dir = 1;
 	pixel_x = 16
 	},
-/turf/open/floor/corsat/officetiles,
+/turf/open/floor/shiva/multi_tiles/west,
 /area/point_loma/airbase/interior/cargo/lower)
 "cif" = (
 /obj/effect/decal/cleanable/dirt,
