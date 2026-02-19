@@ -1115,6 +1115,10 @@
 /obj/structure/machinery/vending/dinnerware,
 /turf/open/floor/strata/fake_wood,
 /area/point_loma/research_facility/command/mess)
+"adH" = (
+/obj/effect/sentry_landmark/lz_1/bottom_right,
+/turf/open/asphalt/cement_sunbleached,
+/area/point_loma/airbase/mining_colony/exterior/lz)
 "adI" = (
 /obj/effect/landmark/structure_spawner/setup/distress/xeno_weed_node,
 /turf/open/floor/corsat,
@@ -1167,6 +1171,11 @@
 	},
 /turf/open/floor/shiva,
 /area/point_loma/airbase/mining_colony/interior/engineering)
+"adR" = (
+/obj/effect/decal/cleanable/dirt/sand_2,
+/obj/effect/sentry_landmark/lz_1/bottom_left,
+/turf/open/asphalt/cement_sunbleached,
+/area/point_loma/airbase/mining_colony/exterior/lz)
 "adS" = (
 /obj/structure/surface/table/woodentable,
 /turf/open/floor/strata/fake_wood,
@@ -1338,6 +1347,9 @@
 /obj/structure/surface/table/gamblingtable,
 /turf/open/floor/strata/fake_wood,
 /area/point_loma/research_facility/command/mess)
+"aez" = (
+/turf/open/auto_turf/sand_white/layer1,
+/area/shuttle/drop1/point_loma)
 "aeA" = (
 /obj/effect/decal/warning_stripes{
 	icon_state = "E";
@@ -1409,6 +1421,10 @@
 	},
 /turf/open/floor/strata/fake_wood,
 /area/point_loma/research_facility/command/mess)
+"aeN" = (
+/obj/effect/sentry_landmark/lz_1/top_left,
+/turf/open/auto_turf/sand_white/layer1,
+/area/point_loma/airbase/mining_colony/exterior/lz)
 "aeO" = (
 /obj/structure/platform_decoration/metal/strata/west,
 /turf/open/floor/strata/fake_wood,
@@ -1579,6 +1595,10 @@
 	},
 /turf/open/floor/wood,
 /area/point_loma/airbase/interior/cargo/upper)
+"afs" = (
+/obj/effect/sentry_landmark/lz_1/top_right,
+/turf/open/asphalt/cement_sunbleached,
+/area/point_loma/airbase/mining_colony/exterior/lz)
 "aft" = (
 /obj/structure/machinery/door/airlock/multi_tile/almayer/engidoor/glass{
 	dir = 2
@@ -1947,6 +1967,10 @@
 /obj/item/clothing/glasses/hud/health,
 /turf/open/floor/corsat,
 /area/point_loma/research_facility/command)
+"agz" = (
+/obj/effect/sentry_landmark/lz_1/top_left,
+/turf/open/asphalt/cement_sunbleached,
+/area/point_loma/airbase/mining_colony/exterior/lz)
 "agA" = (
 /obj/structure/machinery/chem_dispenser/soda,
 /turf/closed/wall/new_varadero,
@@ -159925,7 +159949,7 @@ bUF
 bOY
 bOY
 bOY
-bOY
+agz
 bUF
 bOY
 bOY
@@ -159947,7 +159971,7 @@ bUc
 bOY
 bOY
 bOY
-bUc
+adR
 bOY
 bOY
 bOY
@@ -160294,7 +160318,7 @@ bUF
 bPP
 bRO
 bYu
-bOW
+aeN
 bOW
 bOW
 bOW
@@ -161771,7 +161795,7 @@ aaY
 aaY
 aaY
 bOY
-bOY
+adH
 bOW
 bSa
 bOW
@@ -162843,9 +162867,9 @@ bOW
 bRO
 bOW
 bOW
-aaY
-aaY
-aaY
+aez
+aez
+aez
 aaY
 aaY
 aaY
@@ -163202,11 +163226,11 @@ ajW
 bPW
 bOW
 bUF
-bOY
+afs
 bUF
 bOY
 bUF
-bOY
+afs
 bUF
 bOY
 bOY
@@ -163226,7 +163250,7 @@ bOY
 bOY
 bOY
 bOY
-bOY
+adH
 bOY
 asb
 asb
