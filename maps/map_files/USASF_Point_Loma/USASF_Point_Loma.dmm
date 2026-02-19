@@ -1589,6 +1589,10 @@
 /obj/effect/landmark/structure_spawner/setup/distress/xeno_door,
 /turf/open/auto_turf/sand_white/layer0,
 /area/point_loma/research_facility/research/park)
+"afs" = (
+/obj/structure/bed/chair,
+/turf/open/floor/corsat,
+/area/point_loma/research_facility/gym)
 "aft" = (
 /obj/structure/machinery/door/airlock/multi_tile/almayer/engidoor/glass{
 	dir = 2
@@ -1957,6 +1961,12 @@
 /obj/item/clothing/glasses/hud/health,
 /turf/open/floor/corsat,
 /area/point_loma/research_facility/command)
+"agz" = (
+/obj/structure/bed/chair{
+	dir = 4
+	},
+/turf/open/floor/corsat,
+/area/point_loma/research_facility/gym)
 "agA" = (
 /obj/structure/machinery/chem_dispenser/soda,
 /turf/closed/wall/new_varadero,
@@ -3478,6 +3488,10 @@
 /obj/structure/closet/wardrobe/pjs,
 /turf/open/floor/shiva/blue/north,
 /area/point_loma/airbase/mining_colony/interior/living_quarters)
+"als" = (
+/obj/structure/surface/table/woodentable/poor,
+/turf/open/floor/corsat,
+/area/point_loma/research_facility/gym)
 "alt" = (
 /obj/structure/closet/wardrobe,
 /turf/open/floor/shiva/blue/northeast,
@@ -4960,6 +4974,18 @@
 	},
 /turf/open/floor/corsat/squares,
 /area/point_loma/research_facility/super_death_cannon/ammo_elevator)
+"apO" = (
+/obj/structure/surface/table/woodentable/poor,
+/obj/item/reagent_container/food/drinks/cans/beer{
+	pixel_y = 10;
+	pixel_x = 6
+	},
+/obj/item/prop/magazine/dirty{
+	pixel_y = 10;
+	pixel_x = -7
+	},
+/turf/open/floor/corsat,
+/area/point_loma/research_facility/gym)
 "apP" = (
 /turf/open/floor/corsat/squares,
 /area/point_loma/research_facility/super_death_cannon/ammo_elevator)
@@ -5446,6 +5472,18 @@
 "arh" = (
 /turf/open/floor/corsat/squares,
 /area/point_loma/research_facility/research/west)
+"ari" = (
+/obj/structure/surface/table/woodentable/poor,
+/obj/item/reagent_container/food/drinks/cans/beer{
+	pixel_y = 10;
+	pixel_x = -6
+	},
+/obj/item/reagent_container/food/snacks/bigbiteburger{
+	pixel_y = 4;
+	pixel_x = 1
+	},
+/turf/open/floor/corsat,
+/area/point_loma/research_facility/gym)
 "arj" = (
 /obj/effect/decal/hybrisa/road/lines4{
 	pixel_y = -1
@@ -5806,6 +5844,18 @@
 /obj/structure/machinery/door/firedoor,
 /turf/open/floor/corsat/squares,
 /area/point_loma/research_facility/super_death_cannon/ammo_elevator)
+"asl" = (
+/obj/structure/surface/table/woodentable/poor,
+/obj/item/reagent_container/food/drinks/cans/beer{
+	pixel_y = 3;
+	pixel_x = -7
+	},
+/obj/item/prop/magazine/dirty/torn/alt{
+	pixel_y = 16;
+	pixel_x = 4
+	},
+/turf/open/floor/corsat,
+/area/point_loma/research_facility/gym)
 "asm" = (
 /obj/effect/decal/hybrisa/road/lines3,
 /obj/effect/decal/hybrisa/road/road_edge{
@@ -5959,6 +6009,15 @@
 /obj/structure/machinery/portable_atmospherics/canister/oxygen,
 /turf/open/floor/shiva/green/northeast,
 /area/point_loma/airbase/interior/hospital)
+"asJ" = (
+/obj/structure/prop/invuln/overhead_pipe{
+	dir = 4
+	},
+/obj/structure/bed/chair{
+	pixel_y = 5
+	},
+/turf/open/floor/corsat,
+/area/point_loma/research_facility/gym)
 "asK" = (
 /obj/effect/decal/warning_stripes{
 	icon_state = "cargo_arrow2";
@@ -99196,8 +99255,8 @@ bJb
 bJb
 ccU
 bJb
-bJb
-bJb
+agz
+agz
 bJb
 asb
 asb
@@ -99376,10 +99435,10 @@ bYZ
 bYY
 bJb
 bJb
-ccU
-bJb
-bJb
-bJb
+asJ
+als
+ari
+als
 bJb
 bJb
 asb
@@ -99558,11 +99617,11 @@ bJb
 bJb
 bJb
 bJb
-ccU
-bJb
-bJb
-bJb
-bJb
+asJ
+asl
+als
+apO
+afs
 bJb
 aij
 aij
