@@ -100,7 +100,7 @@
 /area/point/loma/airbase/interior/atc/lower
 	name = "Airbase Air Traffic Control - Lower"
 
-area/point_loma/airbase/interior/cargo
+/area/point_loma/airbase/interior/cargo
 	name = "Airbase Cargo"
 	icon_state = "req0"
 	minimap_color = MINIMAP_AREA_CARGO
