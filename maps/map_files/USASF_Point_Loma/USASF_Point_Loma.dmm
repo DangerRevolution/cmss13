@@ -13403,6 +13403,13 @@
 	},
 /turf/open/floor/plating/plating_catwalk/prison,
 /area/point_loma/airbase/interior/garage)
+"aMG" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "S";
+	pixel_y = -3
+	},
+/turf/closed/wall/new_varadero/concrete/hull,
+/area/point_loma/oob)
 "aMH" = (
 /obj/structure/pipes/standard/simple/hidden/supply,
 /turf/open/floor/corsat/retrosquareslight,
@@ -134006,19 +134013,19 @@ asb
 asb
 asb
 asb
-ahg
-ahg
-ahg
-ahg
-ahg
-ahg
-ahg
-ahg
-ahg
-ahg
-ahg
-ahg
-ahg
+bzI
+bzI
+bzI
+bzI
+bzI
+bzI
+bzI
+bzI
+bzI
+bzI
+bzI
+bzI
+bzI
 asb
 chK
 cht
@@ -134188,7 +134195,7 @@ asb
 asb
 asb
 asb
-ahg
+bzI
 aPM
 aBW
 ajB
@@ -134200,7 +134207,7 @@ ahg
 ayg
 abW
 akL
-ahg
+bzI
 asb
 chK
 cht
@@ -134370,7 +134377,7 @@ asb
 asb
 asb
 asb
-ahg
+bzI
 aPM
 aPM
 acY
@@ -134382,7 +134389,7 @@ ahg
 aPM
 aXD
 akL
-ahg
+bzI
 asb
 chL
 clx
@@ -134552,7 +134559,7 @@ asb
 asb
 asb
 asb
-ahg
+bzI
 aPM
 ahh
 akL
@@ -134564,9 +134571,9 @@ ahg
 aPM
 aou
 aqN
-ahg
+bzI
 asb
-clP
+aMG
 cmZ
 clI
 clI
@@ -134734,7 +134741,7 @@ asb
 asb
 asb
 asb
-ahg
+bzI
 afF
 afN
 aqN
@@ -134746,8 +134753,8 @@ ahg
 afF
 afN
 akL
-ahg
-ahg
+bzI
+bzI
 clQ
 cll
 clL
@@ -134916,7 +134923,7 @@ asb
 asb
 asb
 asb
-ahg
+bzI
 aJi
 ahg
 aBV
