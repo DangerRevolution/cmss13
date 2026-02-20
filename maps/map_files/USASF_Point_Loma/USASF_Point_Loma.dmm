@@ -13403,10 +13403,6 @@
 	},
 /turf/open/floor/plating/plating_catwalk/prison,
 /area/point_loma/airbase/interior/garage)
-"aMG" = (
-/obj/structure/platform_decoration/metal/kutjevo,
-/turf/open_space,
-/area/point_loma/oob/sky/lower)
 "aMH" = (
 /obj/structure/pipes/standard/simple/hidden/supply,
 /turf/open/floor/corsat/retrosquareslight,
@@ -18455,7 +18451,7 @@
 /obj/structure/fence/dark/warning,
 /obj/structure/blocker/invisible_wall,
 /turf/open/new_varadero,
-/area/point_loma/airbase/interior/cargo)
+/area/point_loma/oob)
 "bbk" = (
 /obj/structure/filingcabinet/documentation/military_police{
 	pixel_y = 18;
@@ -89771,7 +89767,7 @@ aNw
 aNw
 aNw
 aNw
-aMG
+aNw
 aNw
 aNw
 aNw
@@ -135102,7 +135098,7 @@ asb
 asb
 asb
 asb
-bUW
+bzI
 aVW
 alc
 akL
@@ -135284,7 +135280,7 @@ asb
 asb
 asb
 asb
-bUW
+bzI
 aVW
 aZm
 atJ
@@ -135459,14 +135455,14 @@ bTS
 bTS
 bTS
 bTS
-bUW
-bUW
-bUW
-bUW
-bUW
-bUW
-bUW
-bUW
+bzI
+bzI
+bzI
+bzI
+bzI
+bzI
+bzI
+bzI
 aLj
 clm
 clm
@@ -137097,8 +137093,8 @@ bTS
 bTS
 bTS
 bTS
-bUW
-bUW
+bzI
+bzI
 ahg
 ahg
 ahg
@@ -137279,7 +137275,7 @@ bTS
 bTS
 bTS
 bTS
-bUW
+bzI
 aoH
 aoH
 aUk
@@ -137461,7 +137457,7 @@ bTS
 bTS
 bTS
 asb
-bUW
+bzI
 cll
 cll
 aMn
@@ -137643,7 +137639,7 @@ asb
 asb
 asb
 asb
-bUW
+bzI
 aoH
 aoH
 aMn
@@ -137825,7 +137821,7 @@ asb
 asb
 asb
 asb
-bUW
+bzI
 axi
 clB
 axV
