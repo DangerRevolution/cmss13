@@ -146,6 +146,9 @@
 	icon = 'icons/turf/area_kutjevo.dmi'
 	icon_state = "construction3"
 
+/area/point_loma/airbase/interior/workshop/upper
+	name = "Airbase Aircraft and Munitions Workshop - Upper"
+
 /area/point_loma/airbase/exterior
 	name = "USASF Point Loma Airbase - Exterior"
 
