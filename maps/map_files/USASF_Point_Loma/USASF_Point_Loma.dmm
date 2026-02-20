@@ -1890,7 +1890,7 @@
 /area/point_loma/airbase/interior/hospital)
 "agj" = (
 /obj/structure/machinery/medical_pod/sleeper,
-/obj/structure/machinery/light,
+/obj/structure/machinery/light/double,
 /turf/open/floor/shiva/wred/southwest,
 /area/point_loma/airbase/interior/hospital)
 "agk" = (
@@ -2479,6 +2479,10 @@
 /area/point_loma/research_facility/library)
 "aig" = (
 /obj/structure/bed/chair/wheelchair,
+/obj/structure/machinery/light/double{
+	dir = 1;
+	pixel_y = 9
+	},
 /turf/open/floor/shiva/green/north,
 /area/point_loma/airbase/interior/hospital)
 "aih" = (
@@ -3957,9 +3961,9 @@
 /turf/closed/wall/rock/brown,
 /area/point_loma/research_facility/research/park)
 "amC" = (
-/obj/structure/machinery/light,
 /obj/structure/bookcase,
 /obj/effect/landmark/objective_landmark/close,
+/obj/structure/machinery/light/double,
 /turf/open/floor/wood,
 /area/point_loma/airbase/interior/hospital)
 "amD" = (
@@ -6169,9 +6173,6 @@
 /area/point_loma/research_facility/super_death_cannon/ammo_elevator)
 "asT" = (
 /obj/structure/bed,
-/obj/structure/machinery/light{
-	dir = 1
-	},
 /obj/effect/landmark/objective_landmark/close,
 /turf/open/floor/shiva/green/north,
 /area/point_loma/airbase/interior/hospital)
@@ -6254,6 +6255,9 @@
 /area/point_loma/research_facility/super_death_cannon/ammo_elevator)
 "atc" = (
 /obj/structure/machinery/medical_pod/sleeper,
+/obj/structure/machinery/light/double{
+	dir = 8
+	},
 /turf/open/floor/shiva/wred/west,
 /area/point_loma/airbase/interior/hospital)
 "atd" = (
@@ -6831,6 +6835,9 @@
 "aut" = (
 /obj/structure/machinery/iv_drip,
 /obj/structure/pipes/standard/simple/visible,
+/obj/structure/machinery/light/double{
+	dir = 4
+	},
 /turf/open/floor/shiva/wred/east,
 /area/point_loma/airbase/interior/hospital)
 "auu" = (
@@ -9275,6 +9282,15 @@
 /obj/structure/closet/l3closet,
 /turf/open/floor/corsat/plate,
 /area/point_loma/airbase/interior/research)
+"aAS" = (
+/obj/structure/closet/secure_closet/medical3{
+	req_access_txt = "100"
+	},
+/obj/structure/machinery/light/double{
+	dir = 8
+	},
+/turf/open/floor/shiva/wred/west,
+/area/point_loma/airbase/interior/hospital)
 "aAT" = (
 /obj/effect/acid_hole{
 	dir = 1
@@ -10321,6 +10337,9 @@
 /area/point_loma/research_facility/research/park)
 "aDS" = (
 /obj/structure/machinery/vending/snack,
+/obj/structure/machinery/light/double{
+	dir = 4
+	},
 /turf/open/floor/shiva/wred/east,
 /area/point_loma/airbase/interior/hospital)
 "aDT" = (
@@ -10413,7 +10432,7 @@
 /area/point_loma/research_facility/super_death_cannon/ammo_elevator/upper)
 "aEj" = (
 /obj/structure/bed/chair/wheelchair,
-/obj/structure/machinery/light,
+/obj/structure/machinery/light/double,
 /turf/open/floor/shiva/wred/southeast,
 /area/point_loma/airbase/interior/hospital)
 "aEk" = (
@@ -10706,8 +10725,9 @@
 /area/point_loma/research_facility/research/park)
 "aFa" = (
 /obj/structure/bed/sofa/south/grey/right,
-/obj/structure/machinery/light{
-	dir = 1
+/obj/structure/machinery/light/double{
+	dir = 1;
+	pixel_y = 9
 	},
 /turf/open/floor/hybrisa/carpet/rug_colorable/north{
 	color = "#0b8f8d"
@@ -11605,8 +11625,8 @@
 /turf/open/floor/corsat/purple/north,
 /area/point_loma/research_facility/research/west)
 "aHR" = (
-/obj/structure/machinery/light,
 /obj/structure/machinery/optable,
+/obj/structure/machinery/light/double,
 /turf/open/floor/shiva/snow_mat/east,
 /area/point_loma/airbase/interior/hospital)
 "aHS" = (
@@ -13134,9 +13154,6 @@
 /turf/open/floor/corsat,
 /area/point_loma/research_facility/research/east)
 "aMb" = (
-/obj/structure/machinery/light{
-	dir = 1
-	},
 /obj/structure/machinery/cryo_cell,
 /obj/structure/pipes/standard/cap,
 /turf/open/floor/shiva/wred/northeast,
@@ -14313,9 +14330,6 @@
 /area/point_loma/airbase/mining_colony/interior/engineering)
 "aPt" = (
 /obj/structure/machinery/iv_drip,
-/obj/structure/machinery/light{
-	dir = 1
-	},
 /turf/open/floor/shiva/wred/northwest,
 /area/point_loma/airbase/interior/hospital)
 "aPu" = (
@@ -16983,6 +16997,10 @@
 /obj/effect/landmark/objective_landmark/close,
 /turf/open/floor/hybrisa/tile/tilelightbeige,
 /area/point_loma/airbase/mining_colony/interior/living_quarters)
+"aWX" = (
+/obj/structure/machinery/power/apc/power/west,
+/turf/open/floor/shiva/wred/west,
+/area/point_loma/airbase/interior/hospital)
 "aWY" = (
 /obj/structure/pipes/standard/simple/visible{
 	dir = 4
@@ -28379,7 +28397,7 @@
 /obj/structure/closet/secure_closet/surgical{
 	pixel_x = -30
 	},
-/turf/closed/wall/rock/brown,
+/turf/closed/wall/new_varadero/concrete/hull,
 /area/point_loma/oob)
 "bCG" = (
 /obj/effect/decal/cleanable/blood/xeno,
@@ -160089,7 +160107,7 @@ apL
 aFd
 aFd
 aFd
-aFd
+aWX
 apL
 agj
 bTZ
@@ -160278,7 +160296,7 @@ bUa
 aTW
 aTW
 aFd
-aTW
+aAS
 aiv
 bTZ
 bQf
@@ -161176,7 +161194,7 @@ bTS
 bTS
 asb
 bzI
-asb
+bzI
 bUD
 aYf
 bUD
@@ -161357,8 +161375,8 @@ bTS
 bTS
 bTS
 bTS
-bTS
-asb
+bzI
+bzI
 aJH
 aWY
 abs
@@ -161539,8 +161557,8 @@ bTS
 bTS
 bTS
 bTS
-bTS
-asb
+bzI
+bzI
 ami
 aWY
 aHR
@@ -161904,7 +161922,7 @@ bTS
 bTS
 bTS
 bTS
-asb
+bzI
 bzI
 aYf
 bUD
