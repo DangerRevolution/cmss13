@@ -901,13 +901,13 @@
 /turf/closed/wall/new_varadero/reinforced
 	name = "secured foundation wall"
 	desc = "A concrete wall with metal reinforcements. The plating seems to have more rivets giving a daunting finish."
-	icon_state = "new_varadero_r"
+	icon_state = "new_varadero_reinforced"
 	walltype = WALL_NEW_VARADERO_REINFORCED
 	damage_cap = HEALTH_WALL_REINFORCED
 
 /turf/closed/wall/new_varadero/reinforced/hull
 	desc = "A concrete wall with metal reinforcements. The plating seems to have more rivets giving a daunting finish. This seems impenetrable to most conventional stands."
-	icon_state = "new_varadero_r"
+	icon_state = "new_varadero_hull"
 	turf_flags = TURF_HULL
 
 //---------------CONCRETE WALL
@@ -923,10 +923,11 @@
 /turf/closed/wall/new_varadero/concrete/reinforced
 	desc = "What's inside here? That's concrete, baby! It also has some metal bars inside to reinforce it."
 	damage_cap = HEALTH_WALL_REINFORCED
+	icon_state = "concrete_reinforced"
 
 /turf/closed/wall/new_varadero/concrete/hull
 	name = "concrete wall"
 	desc = "What's inside here? That's concrete, baby with that roman regeneration techniques that are still used even now."
 	icon = 'icons/turf/walls/new_varadero/new_varadero_wall.dmi'
-	icon_state = "concrete"
+	icon_state = "concrete_hull"
 	turf_flags = TURF_HULL
