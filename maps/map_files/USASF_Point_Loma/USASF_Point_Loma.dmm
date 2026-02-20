@@ -27004,6 +27004,7 @@
 /area/point_loma/airbase/exterior/crash_site)
 "bzp" = (
 /obj/effect/decal/hybrisa/dirt,
+/obj/structure/machinery/power/apc/power/west,
 /turf/open/floor/plating/plating_catwalk/prison,
 /area/point_loma/airbase/interior/garage)
 "bzq" = (
