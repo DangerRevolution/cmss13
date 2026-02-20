@@ -9269,10 +9269,6 @@
 /obj/structure/closet/l3closet,
 /turf/open/floor/corsat/plate,
 /area/point_loma/airbase/interior/research)
-"aAS" = (
-/obj/effect/landmark/objective_landmark/close,
-/turf/open/floor/shiva/yellowcorners,
-/area/point_loma/airbase/interior/garage)
 "aAT" = (
 /obj/effect/acid_hole{
 	dir = 1
@@ -13352,6 +13348,7 @@
 	pixel_y = 1
 	},
 /obj/structure/machinery/light/double,
+/obj/effect/landmark/objective_landmark/close,
 /turf/open/floor/darkbrown2/southeast,
 /area/point_loma/airbase/interior/garage)
 "aMF" = (
@@ -14021,11 +14018,11 @@
 "aOB" = (
 /obj/structure/surface/table,
 /obj/effect/spawner/random/tool,
-/obj/effect/landmark/objective_landmark/medium,
 /obj/structure/machinery/light/double{
 	dir = 1;
 	pixel_y = 9
 	},
+/obj/effect/landmark/objective_landmark/close,
 /turf/open/floor/plating/plating_catwalk/prison,
 /area/point_loma/airbase/interior/garage)
 "aOC" = (
@@ -14405,6 +14402,7 @@
 	pixel_y = -1;
 	pixel_x = 1
 	},
+/obj/effect/landmark/objective_landmark/close,
 /turf/open/floor/plating/plating_catwalk/prison,
 /area/point_loma/airbase/interior/garage)
 "aPO" = (
@@ -16972,10 +16970,6 @@
 /obj/effect/landmark/objective_landmark/close,
 /turf/open/floor/hybrisa/tile/tilelightbeige,
 /area/point_loma/airbase/mining_colony/interior/living_quarters)
-"aWX" = (
-/obj/effect/landmark/objective_landmark/close,
-/turf/open/floor/shiva/yellow/southwest,
-/area/point_loma/airbase/interior/garage)
 "aWY" = (
 /obj/structure/pipes/standard/simple/visible{
 	dir = 4
@@ -32103,6 +32097,7 @@
 /area/point_loma/airbase/interior/cargo/lower)
 "bNK" = (
 /obj/structure/closet/secure_closet/engineering_personal,
+/obj/effect/landmark/objective_landmark/close,
 /turf/open/floor/shiva/yellow,
 /area/point_loma/airbase/interior/garage)
 "bNL" = (
@@ -32265,6 +32260,7 @@
 "bOi" = (
 /obj/structure/closet/secure_closet/engineering_personal,
 /obj/structure/closet/secure_closet/engineering_personal,
+/obj/effect/landmark/objective_landmark/close,
 /turf/open/floor/shiva/yellow/southeast,
 /area/point_loma/airbase/interior/garage)
 "bOj" = (
@@ -33953,6 +33949,7 @@
 	pixel_x = -1;
 	pixel_y = 13
 	},
+/obj/effect/landmark/objective_landmark/close,
 /turf/open/floor/shiva/multi_tiles/west,
 /area/point_loma/airbase/interior/garage)
 "bVy" = (
@@ -34008,6 +34005,7 @@
 /area/point_loma/airbase/interior/garage)
 "bVF" = (
 /obj/structure/surface/table,
+/obj/effect/landmark/objective_landmark/medium,
 /turf/open/floor/shiva/yellow/east,
 /area/point_loma/airbase/interior/garage)
 "bVG" = (
@@ -34143,6 +34141,7 @@
 /area/point_loma/airbase/interior/garage)
 "bVU" = (
 /obj/structure/surface/rack,
+/obj/effect/landmark/objective_landmark/science,
 /turf/open/floor/shiva/yellow/northeast,
 /area/point_loma/airbase/interior/garage)
 "bVV" = (
@@ -158282,7 +158281,7 @@ aPu
 bAm
 axL
 bsD
-aAS
+aoG
 akN
 bMJ
 adu
@@ -159375,7 +159374,7 @@ bAo
 bSc
 bsU
 ant
-aWX
+ayM
 arJ
 bQd
 bYO
