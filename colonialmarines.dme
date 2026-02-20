@@ -2700,5 +2700,4 @@
 #include "interface\interface.dm"
 #include "interface\skin.dmf"
 #include "maps\_basemap.dm"
-#include "maps\map_files\New_Varadero\New_Varadero.dmm"
 // END_INCLUDE
