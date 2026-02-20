@@ -434,6 +434,8 @@
 /area/point_loma/airbase/mining_colony/interior/security)
 "abs" = (
 /obj/structure/closet/secure_closet/medical2,
+/obj/effect/landmark/objective_landmark/medium,
+/obj/effect/landmark/objective_landmark/science,
 /turf/open/floor/shiva/snow_mat/east,
 /area/point_loma/airbase/interior/hospital)
 "abt" = (
@@ -3957,6 +3959,7 @@
 "amC" = (
 /obj/structure/machinery/light,
 /obj/structure/bookcase,
+/obj/effect/landmark/objective_landmark/close,
 /turf/open/floor/wood,
 /area/point_loma/airbase/interior/hospital)
 "amD" = (
@@ -4197,6 +4200,7 @@
 /area/point_loma/airbase/mining_colony/interior/engineering)
 "anl" = (
 /obj/structure/bed,
+/obj/effect/landmark/objective_landmark/close,
 /turf/open/floor/shiva/green,
 /area/point_loma/airbase/interior/hospital)
 "anm" = (
@@ -6168,6 +6172,7 @@
 /obj/structure/machinery/light{
 	dir = 1
 	},
+/obj/effect/landmark/objective_landmark/close,
 /turf/open/floor/shiva/green/north,
 /area/point_loma/airbase/interior/hospital)
 "asU" = (
@@ -7611,6 +7616,7 @@
 	pixel_x = -6;
 	pixel_y = 4
 	},
+/obj/effect/landmark/objective_landmark/close,
 /turf/open/floor/hybrisa/carpet/rug_colorable/southeast{
 	color = "#0b8f8d"
 	},
@@ -11241,6 +11247,7 @@
 /obj/structure/machinery/light/small{
 	dir = 8
 	},
+/obj/effect/landmark/objective_landmark/close,
 /turf/open/floor/shiva/green/northwest,
 /area/point_loma/airbase/interior/hospital)
 "aGT" = (
@@ -11291,6 +11298,7 @@
 "aGZ" = (
 /obj/structure/surface/table/holotable/wood,
 /obj/item/reagent_container/food/drinks/coffeecup,
+/obj/effect/landmark/objective_landmark/close,
 /turf/open/floor/hybrisa/carpet/rug_colorable/southwest{
 	color = "#0b8f8d"
 	},
@@ -12260,6 +12268,7 @@
 /area/point_loma/airbase/interior/workshop)
 "aJH" = (
 /obj/structure/closet/secure_closet/personal/patient,
+/obj/effect/landmark/objective_landmark/medium,
 /turf/open/floor/shiva/snow_mat/east,
 /area/point_loma/airbase/interior/hospital)
 "aJI" = (
@@ -12603,6 +12612,7 @@
 /obj/structure/machinery/light/small{
 	dir = 8
 	},
+/obj/effect/landmark/objective_landmark/close,
 /turf/open/floor/shiva/green/southwest,
 /area/point_loma/airbase/interior/hospital)
 "aKI" = (
@@ -13708,6 +13718,7 @@
 /area/point_loma/airbase/interior/research)
 "aNB" = (
 /obj/structure/bookcase,
+/obj/effect/landmark/objective_landmark/close,
 /turf/open/floor/wood,
 /area/point_loma/airbase/interior/hospital)
 "aNC" = (
@@ -15472,6 +15483,7 @@
 /area/point_loma/airbase/mining_colony/interior/storage)
 "aSK" = (
 /obj/structure/surface/table/holotable/wood,
+/obj/effect/landmark/objective_landmark/science,
 /turf/open/floor/hybrisa/carpet/rug_colorable/southwest{
 	color = "#0b8f8d"
 	},
@@ -16161,6 +16173,7 @@
 /area/point_loma/airbase/mining_colony/interior/living_quarters)
 "aUH" = (
 /obj/structure/surface/table/holotable/wood,
+/obj/effect/landmark/objective_landmark/close,
 /turf/open/floor/hybrisa/carpet/rug_colorable/southeast{
 	color = "#0b8f8d"
 	},
