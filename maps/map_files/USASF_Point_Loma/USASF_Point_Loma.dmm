@@ -33064,6 +33064,7 @@
 /turf/open/auto_turf/sand_white/layer0,
 /area/point_loma/airbase/exterior/crash_site)
 "bRA" = (
+/obj/structure/machinery/colony_floodlight,
 /turf/open/auto_turf/sand_white/layer1,
 /area/point_loma/airbase/mining_colony/exterior/security/checkpoint)
 "bRB" = (
@@ -39366,6 +39367,23 @@
 	},
 /turf/open/floor/wood,
 /area/point_loma/airbase/interior/cargo/upper)
+"cnc" = (
+/obj/structure/machinery/colony_floodlight,
+/turf/open/auto_turf/sand_white/layer0,
+/area/point_loma/airbase/mining_colony/exterior/west)
+"cnd" = (
+/obj/structure/machinery/colony_floodlight,
+/turf/open/auto_turf/sand_white/layer1,
+/area/point_loma/airbase/mining_colony/exterior/north)
+"cne" = (
+/obj/structure/machinery/colony_floodlight,
+/turf/open/auto_turf/sand_white/layer1,
+/area/point_loma/airbase/exterior/west)
+"cnf" = (
+/obj/structure/prop/rock/black_ground,
+/obj/structure/machinery/colony_floodlight,
+/turf/open/auto_turf/sand_white/layer1,
+/area/point_loma/airbase/exterior/east)
 
 (1,1,1) = {"
 ayZ
@@ -137722,12 +137740,12 @@ aqc
 akL
 bUd
 cjh
-bPH
+cne
 ajF
 ajF
 ajF
 ajF
-bPH
+cne
 bPH
 asb
 ckZ
@@ -138820,8 +138838,8 @@ ajF
 ajF
 bYa
 bPH
+cjh
 bPH
-ckS
 asb
 asb
 bRd
@@ -140086,7 +140104,7 @@ asb
 asb
 bPH
 bPH
-bPH
+cne
 bPH
 bPH
 aLe
@@ -140461,7 +140479,7 @@ bYa
 clp
 aLe
 bPH
-bPH
+cne
 bPH
 bPH
 bPH
@@ -140474,7 +140492,7 @@ ajF
 ajF
 ajF
 bPH
-bPH
+cne
 ckg
 aLe
 aLe
@@ -141037,7 +141055,7 @@ ajF
 ajF
 bPH
 bPH
-bPH
+cne
 bPH
 bPH
 bPH
@@ -144317,7 +144335,7 @@ bXP
 cjm
 ajF
 bPH
-bPH
+cne
 bPH
 bPH
 bPH
@@ -152326,7 +152344,7 @@ bQd
 bQd
 bQf
 bQf
-bQd
+aNy
 bQd
 bQd
 bQd
@@ -153224,7 +153242,7 @@ bxu
 bxu
 bxu
 bxu
-bQd
+aNy
 bQd
 bQf
 bQf
@@ -156841,7 +156859,7 @@ bRS
 bRS
 bQf
 bQf
-bQd
+aNy
 bXW
 bxu
 bYN
@@ -156873,7 +156891,7 @@ adu
 bQd
 bZd
 bQd
-bZe
+cnf
 bQf
 bYM
 bQf
@@ -158861,7 +158879,7 @@ alv
 bSc
 bSc
 bRV
-bQd
+aNy
 adu
 bxu
 bYO
@@ -160010,7 +160028,7 @@ bPf
 bPg
 bPg
 bPg
-bPd
+cnc
 asb
 asb
 asb
@@ -164143,7 +164161,7 @@ bQR
 bPQ
 bPQ
 bYJ
-bPO
+cnd
 bPO
 ajW
 aXa
@@ -167632,7 +167650,7 @@ aXm
 bPO
 bPQ
 bYE
-bPO
+cnd
 asb
 bOR
 aKj
@@ -167979,7 +167997,7 @@ bPQ
 bYJ
 bPQ
 bPQ
-bPO
+cnd
 bPX
 aXm
 aXm
