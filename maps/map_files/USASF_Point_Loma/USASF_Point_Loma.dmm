@@ -10231,7 +10231,7 @@
 "aDA" = (
 /obj/item/shard,
 /obj/structure/window_frame/colony/reinforced,
-/turf/open/floor/corsat,
+/turf/closed/wall/new_varadero/reinforced,
 /area/point_loma/airbase/interior/garage)
 "aDB" = (
 /obj/structure/surface/table,
@@ -31755,6 +31755,9 @@
 /obj/structure/machinery/door/airlock/maintenance/colony,
 /turf/open/floor/plating,
 /area/point_loma/airbase/interior/cargo/lower)
+"bMJ" = (
+/turf/closed/wall/new_varadero,
+/area/point_loma/airbase/interior/garage)
 "bMK" = (
 /obj/effect/decal/warning_stripes{
 	icon_state = "S";
@@ -33120,7 +33123,7 @@
 /turf/open/floor/plating/plating_catwalk,
 /area/point_loma/airbase/interior/research)
 "bRV" = (
-/turf/closed/wall/r_wall,
+/turf/closed/wall/new_varadero/reinforced,
 /area/point_loma/airbase/interior/garage)
 "bRW" = (
 /obj/structure/prop/rock/brown,
@@ -34177,15 +34180,15 @@
 	pixel_x = -1;
 	pixel_y = 17
 	},
-/turf/closed/wall/r_wall,
+/turf/closed/wall/new_varadero,
 /area/point_loma/airbase/interior/garage)
 "bWc" = (
 /obj/structure/platform/metal/almayer,
-/turf/closed/wall/r_wall,
+/turf/closed/wall/new_varadero,
 /area/point_loma/airbase/interior/garage)
 "bWd" = (
 /obj/structure/prop/hybrisa/fakeplatforms/platform3,
-/turf/closed/wall/r_wall,
+/turf/closed/wall/new_varadero,
 /area/point_loma/airbase/interior/garage)
 "bWe" = (
 /obj/structure/prop/invuln/overhead/flammable_pipe/fly{
@@ -156995,7 +156998,7 @@ bxu
 bxu
 bQd
 bQd
-bRV
+bMJ
 aOB
 bVH
 ckx
@@ -157177,7 +157180,7 @@ bxu
 bxu
 bQd
 bQd
-bRV
+bMJ
 bSc
 bVI
 bVA
@@ -157359,7 +157362,7 @@ bxu
 bxu
 bQd
 bZL
-bRV
+bMJ
 aJq
 bVH
 aHp
@@ -157541,7 +157544,7 @@ bxu
 bxu
 bQd
 bQd
-bRV
+bMJ
 aMF
 bVJ
 bVB
@@ -157723,7 +157726,7 @@ bYN
 bxu
 bQd
 bQd
-bRV
+bMJ
 bSc
 bVK
 bSc
@@ -157905,7 +157908,7 @@ bYN
 bxu
 bQd
 adu
-bRV
+bMJ
 aOp
 bVK
 bSc
@@ -158087,7 +158090,7 @@ bxu
 bxu
 bQd
 bQd
-bRV
+bMJ
 bVS
 bVL
 bVC
@@ -158099,7 +158102,7 @@ bzj
 cke
 bSb
 aRH
-bRV
+bMJ
 bZA
 bxu
 bYO
@@ -158269,7 +158272,7 @@ bYN
 bxu
 bZN
 bQd
-bRV
+bMJ
 abc
 bVH
 aHp
@@ -158281,7 +158284,7 @@ axL
 bsD
 aAS
 akN
-bRV
+bMJ
 adu
 bYO
 bxu
@@ -158451,7 +158454,7 @@ bxu
 bxu
 bQd
 bQd
-bRV
+bMJ
 aws
 bVM
 awg
@@ -159179,7 +159182,7 @@ bYN
 bxu
 bQd
 bQd
-bRV
+bMJ
 aWS
 bVN
 bVD
@@ -159555,7 +159558,7 @@ bzq
 bxD
 aoG
 aME
-bRV
+bMJ
 bTn
 bxu
 bYO
@@ -159907,7 +159910,7 @@ bxu
 bxu
 bQd
 adu
-bRV
+bMJ
 aoi
 aoi
 bAV
@@ -160089,7 +160092,7 @@ bYN
 bxu
 bZM
 bQd
-bRV
+bMJ
 bVV
 bVR
 bVu
@@ -160271,7 +160274,7 @@ bxu
 bxu
 bQd
 bQd
-bRV
+bMJ
 bVW
 bSb
 bmn
@@ -160453,7 +160456,7 @@ bxu
 bxu
 bQd
 bQd
-bRV
+bMJ
 alq
 bSb
 bSb
@@ -160465,7 +160468,7 @@ bSb
 bSb
 bsj
 aPg
-bRV
+bMJ
 bQd
 bXU
 bXU
@@ -160647,7 +160650,7 @@ aKK
 byq
 bsk
 blD
-bRV
+bMJ
 bPO
 bXU
 bXU
@@ -160828,8 +160831,8 @@ aQi
 aOT
 byr
 bsl
-bRV
-bRV
+bMJ
+bMJ
 aTY
 bZm
 bRb
@@ -161010,7 +161013,7 @@ bAE
 bsn
 byr
 bYT
-bRV
+bMJ
 bRW
 bQR
 bRb
