@@ -3818,7 +3818,7 @@
 /area/point_loma/airbase/mining_colony/interior/living_quarters)
 "amh" = (
 /obj/structure/barricade/handrail/type_b,
-/obj/structure/machinery/light{
+/obj/structure/machinery/light/double{
 	dir = 8
 	},
 /turf/open/floor/corsat/officetiles,
@@ -18092,9 +18092,6 @@
 	pixel_x = 16;
 	pixel_y = 16
 	},
-/obj/structure/machinery/light{
-	dir = 1
-	},
 /turf/open/new_varadero/taupe_concrete,
 /area/point_loma/airbase/exterior/west)
 "baj" = (
@@ -18171,10 +18168,7 @@
 /area/point_loma/airbase/interior/atc)
 "bat" = (
 /obj/effect/decal/cleanable/blood/xeno,
-/obj/structure/machinery/light{
-	unacidable = 1;
-	unslashable = 1
-	},
+/obj/structure/machinery/light/double,
 /turf/open/floor/corsat/officesquares,
 /area/point_loma/airbase/interior/atc)
 "bau" = (
@@ -18183,10 +18177,7 @@
 	layer = 5.3
 	},
 /obj/effect/decal/cleanable/blood/xeno,
-/obj/structure/machinery/light{
-	unacidable = 1;
-	unslashable = 1
-	},
+/obj/structure/machinery/light/double,
 /turf/open/floor/corsat/officesquares,
 /area/point_loma/airbase/interior/atc)
 "bav" = (
@@ -18257,9 +18248,8 @@
 /area/point_loma/airbase/interior/atc)
 "baF" = (
 /obj/structure/prop/hybrisa/supermart/rack/longrack1,
-/obj/structure/machinery/light{
-	dir = 8;
-	pixel_y = 17
+/obj/structure/machinery/light/double{
+	dir = 8
 	},
 /turf/open/floor/plating/warnplate/west,
 /area/point_loma/airbase/interior/atc)
@@ -18482,12 +18472,12 @@
 /area/point_loma/airbase/interior/atc)
 "bbm" = (
 /obj/structure/prop/hybrisa/misc/buildinggreebliessmall/computer,
-/obj/structure/machinery/light{
-	dir = 8
-	},
 /obj/structure/machinery/firealarm{
 	dir = 8;
 	pixel_x = -24
+	},
+/obj/structure/machinery/light/double{
+	dir = 8
 	},
 /turf/open/floor/corsat/box,
 /area/point_loma/airbase/interior/atc/upper)
@@ -18497,7 +18487,6 @@
 /area/point_loma/airbase/interior/atc/upper)
 "bbo" = (
 /obj/structure/prop/server_equipment/yutani_server/broken,
-/obj/structure/machinery/light,
 /turf/open/floor/corsat/box,
 /area/point_loma/airbase/interior/atc/upper)
 "bbp" = (
@@ -18544,12 +18533,12 @@
 	icon_state = "N";
 	pixel_y = 1
 	},
-/obj/structure/machinery/light{
-	dir = 8
-	},
 /obj/structure/machinery/firealarm{
 	dir = 8;
 	pixel_x = -24
+	},
+/obj/structure/machinery/light/double{
+	dir = 8
 	},
 /turf/open/floor/almayer/plate,
 /area/point_loma/airbase/interior/atc/upper)
@@ -18576,7 +18565,7 @@
 	dir = 1
 	},
 /obj/item/tool/soap/syndie,
-/obj/structure/machinery/light{
+/obj/structure/machinery/light/double{
 	dir = 4
 	},
 /turf/open/floor/plating/plating_catwalk,
@@ -18786,8 +18775,9 @@
 	density = 0;
 	pixel_y = 9
 	},
-/obj/structure/machinery/light{
-	dir = 1
+/obj/structure/machinery/light/double{
+	dir = 1;
+	pixel_y = 9
 	},
 /turf/open/floor/corsat,
 /area/point_loma/airbase/interior/atc/upper)
@@ -18795,8 +18785,9 @@
 /obj/structure/extinguisher_cabinet{
 	pixel_y = 26
 	},
-/obj/structure/machinery/light{
-	dir = 1
+/obj/structure/machinery/light/double{
+	dir = 1;
+	pixel_y = 9
 	},
 /turf/open/floor/corsat,
 /area/point_loma/airbase/interior/atc/upper)
@@ -18814,8 +18805,9 @@
 /area/point_loma/airbase/interior/atc/upper)
 "bcb" = (
 /obj/structure/machinery/big_computers/messaging_server,
-/obj/structure/machinery/light{
-	dir = 1
+/obj/structure/machinery/light/double{
+	dir = 1;
+	pixel_y = 9
 	},
 /turf/open/floor/corsat/blue/northeast,
 /area/point_loma/airbase/interior/atc/upper)
@@ -28479,7 +28471,7 @@
 /turf/open/new_varadero/dock_concrete,
 /area/point_loma/airbase/exterior/crash_site)
 "bCT" = (
-/obj/structure/machinery/light{
+/obj/structure/machinery/light/double{
 	dir = 8
 	},
 /turf/open/floor/corsat/officetiles,
@@ -28523,10 +28515,7 @@
 /turf/open/floor/plating/warnplate/southeast,
 /area/point_loma/airbase/interior/atc)
 "bDd" = (
-/obj/structure/machinery/light{
-	unacidable = 1;
-	unslashable = 1
-	},
+/obj/structure/machinery/light/double,
 /turf/open/floor/corsat/officesquares,
 /area/point_loma/airbase/interior/atc)
 "bDe" = (
@@ -28545,7 +28534,7 @@
 /turf/open/floor/corsat/officetiles,
 /area/point_loma/airbase/interior/atc)
 "bDi" = (
-/obj/structure/machinery/light{
+/obj/structure/machinery/light/double{
 	dir = 4
 	},
 /turf/open/floor/corsat/officetiles,
@@ -28664,13 +28653,15 @@
 /area/point_loma/airbase/interior/atc)
 "bDF" = (
 /obj/effect/landmark/corpsespawner/ua_riot,
+/obj/structure/machinery/light/double{
+	dir = 4
+	},
 /turf/open/floor/plating/warnplate/east,
 /area/point_loma/airbase/interior/atc)
 "bDG" = (
 /obj/structure/girder,
-/obj/structure/machinery/light{
-	dir = 8;
-	pixel_y = 17
+/obj/structure/machinery/light/double{
+	dir = 8
 	},
 /turf/open/floor/corsat/officesquares,
 /area/point_loma/airbase/interior/atc)
@@ -28715,9 +28706,7 @@
 /turf/open/floor/podhatchfloor,
 /area/point_loma/airbase/interior/atc)
 "bDP" = (
-/obj/structure/machinery/light{
-	dir = 4
-	},
+/obj/structure/machinery/power/apc/power/east,
 /turf/open/floor/plating/warnplate/east,
 /area/point_loma/airbase/interior/atc)
 "bDQ" = (
@@ -28738,7 +28727,7 @@
 /area/point_loma/airbase/interior/atc)
 "bDT" = (
 /obj/structure/barricade/handrail/type_b,
-/obj/structure/machinery/light{
+/obj/structure/machinery/light/double{
 	dir = 4
 	},
 /turf/open/floor/corsat/officetiles,
@@ -28788,6 +28777,7 @@
 /area/point_loma/airbase/interior/atc)
 "bEb" = (
 /obj/structure/machinery/colony_floodlight,
+/obj/structure/machinery/colony_floodlight,
 /turf/open/auto_turf/sand_white/layer1,
 /area/point_loma/airbase/exterior/crash_site)
 "bEc" = (
@@ -28823,12 +28813,14 @@
 "bEh" = (
 /obj/structure/surface/rack,
 /obj/effect/landmark/objective_landmark/medium,
+/obj/structure/machinery/light/double{
+	dir = 4
+	},
 /turf/open/floor/plating/warnplate/east,
 /area/point_loma/airbase/interior/atc)
 "bEi" = (
-/obj/structure/machinery/light{
-	dir = 8;
-	pixel_y = 17
+/obj/structure/machinery/light/double{
+	dir = 8
 	},
 /turf/open/floor/corsat/officesquares,
 /area/point_loma/airbase/interior/atc)
@@ -28888,13 +28880,6 @@
 /obj/structure/sign/poster/propaganda,
 /turf/closed/wall/new_varadero/reinforced,
 /area/point_loma/airbase/interior/atc)
-"bEu" = (
-/obj/structure/machinery/light{
-	dir = 4;
-	pixel_y = -14
-	},
-/turf/open/new_varadero/taupe_concrete,
-/area/point_loma/airbase/exterior/west)
 "bEv" = (
 /obj/structure/largecrate,
 /turf/open/floor/plating/warnplate/west,
@@ -28907,9 +28892,6 @@
 "bEx" = (
 /obj/structure/surface/rack,
 /obj/effect/landmark/item_pool_spawner/survivor_ammo/buckshot,
-/obj/structure/machinery/light{
-	dir = 4
-	},
 /turf/open/floor/plating/warnplate/east,
 /area/point_loma/airbase/interior/atc)
 "bEy" = (
@@ -28920,9 +28902,6 @@
 /turf/open/floor/corsat/officesquares,
 /area/point_loma/airbase/interior/atc)
 "bEz" = (
-/obj/structure/machinery/light{
-	dir = 8
-	},
 /obj/structure/surface/table/reinforced/prison{
 	color = "#98a3ab"
 	},
@@ -28933,6 +28912,9 @@
 /obj/structure/machinery/door_control/brbutton/alt{
 	name = "ATC Lobby Lockdown";
 	id = "ATC Lobby Lockdown"
+	},
+/obj/structure/machinery/light/double{
+	dir = 8
 	},
 /turf/open/floor/corsat/brown/southwest,
 /area/point_loma/airbase/interior/atc)
@@ -28991,6 +28973,9 @@
 "bEH" = (
 /obj/structure/surface/rack,
 /obj/effect/landmark/good_item,
+/obj/structure/machinery/light/double{
+	dir = 4
+	},
 /turf/open/floor/plating/warnplate/northeast,
 /area/point_loma/airbase/interior/atc)
 "bEI" = (
@@ -29017,15 +29002,17 @@
 /turf/open/new_varadero,
 /area/point_loma/research_facility/super_death_cannon/cannon)
 "bEM" = (
-/obj/structure/machinery/light{
-	dir = 1
+/obj/structure/machinery/light/double{
+	dir = 1;
+	pixel_y = 9
 	},
 /turf/open/floor/corsat/officesquares,
 /area/point_loma/airbase/interior/atc)
 "bEN" = (
 /obj/effect/decal/cleanable/blood/xeno,
-/obj/structure/machinery/light{
-	dir = 1
+/obj/structure/machinery/light/double{
+	dir = 1;
+	pixel_y = 9
 	},
 /turf/open/floor/corsat/officesquares,
 /area/point_loma/airbase/interior/atc)
@@ -29033,8 +29020,9 @@
 /turf/open/floor/corsat/browncorner/east,
 /area/point_loma/airbase/interior/atc)
 "bEP" = (
-/obj/structure/machinery/light{
-	dir = 1
+/obj/structure/machinery/light/double{
+	dir = 1;
+	pixel_y = 9
 	},
 /turf/open/floor/corsat/brown/northeast,
 /area/point_loma/airbase/interior/atc)
@@ -29043,8 +29031,9 @@
 /turf/closed/wall/new_varadero/concrete,
 /area/point_loma/airbase/interior/cargo)
 "bER" = (
-/obj/structure/machinery/light{
-	dir = 1
+/obj/structure/machinery/light/double{
+	dir = 1;
+	pixel_y = 9
 	},
 /turf/open/floor/corsat/brown/north,
 /area/point_loma/airbase/interior/atc)
@@ -29106,10 +29095,6 @@
 /turf/open/floor/corsat/bluecorner,
 /area/point_loma/airbase/interior/atc/upper)
 "bFf" = (
-/obj/structure/machinery/light{
-	unacidable = 1;
-	unslashable = 1
-	},
 /turf/open/floor/corsat/blue/southeast,
 /area/point_loma/airbase/interior/atc/upper)
 "bFg" = (
@@ -29119,23 +29104,12 @@
 /obj/effect/landmark/survivor_spawner,
 /turf/open/floor/corsat/box,
 /area/point_loma/airbase/interior/atc/upper)
-"bFi" = (
-/obj/structure/machinery/light{
-	dir = 4;
-	pixel_y = -16
-	},
-/turf/open/floor/corsat/blue/east,
-/area/point_loma/airbase/interior/atc/upper)
 "bFj" = (
 /turf/open/floor/corsat/blue/west,
 /area/point_loma/airbase/interior/atc/upper)
 "bFk" = (
 /obj/structure/bed/chair/comfy/blue{
 	dir = 1
-	},
-/obj/structure/machinery/light{
-	dir = 4;
-	pixel_y = -16
 	},
 /turf/open/floor/corsat/blue/east,
 /area/point_loma/airbase/interior/atc/upper)
@@ -29148,15 +29122,12 @@
 	},
 /obj/structure/surface/table/reinforced/black,
 /obj/structure/window/reinforced,
-/obj/structure/machinery/light{
-	dir = 8;
-	pixel_y = -14
-	},
 /turf/open/floor/corsat/box,
 /area/point_loma/airbase/interior/atc/upper)
 "bFm" = (
 /obj/structure/surface/table/reinforced/black,
 /obj/effect/landmark/objective_landmark/medium,
+/obj/item/device/flashlight/lamp/on,
 /turf/open/floor/corsat/blue/east,
 /area/point_loma/airbase/interior/atc/upper)
 "bFn" = (
@@ -29168,11 +29139,10 @@
 	},
 /obj/structure/surface/table/reinforced/black,
 /obj/structure/window/reinforced,
-/obj/structure/machinery/light{
-	dir = 8;
-	pixel_y = -14
-	},
 /obj/effect/landmark/objective_landmark/medium,
+/obj/structure/machinery/light/double{
+	dir = 8
+	},
 /turf/open/floor/corsat/box,
 /area/point_loma/airbase/interior/atc/upper)
 "bFo" = (
@@ -29194,7 +29164,7 @@
 	icon_state = "lattice12";
 	pixel_y = 16
 	},
-/obj/structure/machinery/power/apc/no_power/west,
+/obj/structure/machinery/power/apc/power/west,
 /turf/open/floor/corsat,
 /area/point_loma/airbase/interior/atc/upper)
 "bFr" = (
@@ -29217,15 +29187,12 @@
 /area/point_loma/airbase/interior/atc/upper)
 "bFu" = (
 /obj/structure/bed/chair/comfy/blue,
-/obj/structure/machinery/light{
-	dir = 4;
-	pixel_y = -16
-	},
 /turf/open/floor/corsat/blue/east,
 /area/point_loma/airbase/interior/atc/upper)
 "bFv" = (
-/obj/structure/machinery/light{
-	dir = 1
+/obj/structure/machinery/light/double{
+	dir = 1;
+	pixel_y = 9
 	},
 /turf/open/floor/corsat/box,
 /area/point_loma/airbase/interior/atc/upper)
@@ -29246,8 +29213,9 @@
 /turf/open/floor/corsat/blue/north,
 /area/point_loma/airbase/interior/atc/upper)
 "bFy" = (
-/obj/structure/machinery/light{
-	dir = 1
+/obj/structure/machinery/light/double{
+	dir = 1;
+	pixel_y = 9
 	},
 /turf/open/floor/corsat/blue/north,
 /area/point_loma/airbase/interior/atc/upper)
@@ -34975,6 +34943,10 @@
 /obj/effect/decal/hybrisa/dirt/sand_1,
 /turf/open/asphalt/cement_sunbleached,
 /area/point_loma/airbase/mining_colony/exterior/north)
+"bYL" = (
+/obj/structure/machinery/colony_floodlight,
+/turf/open/new_varadero/taupe_concrete,
+/area/point_loma/airbase/exterior/west)
 "bYM" = (
 /obj/effect/decal/cleanable/dirt/sand_2,
 /turf/open/new_varadero/taupe_concrete,
@@ -38053,6 +38025,10 @@
 	},
 /turf/open_space,
 /area/point_loma/airbase/cave/south_west)
+"ciE" = (
+/obj/structure/machinery/light/double,
+/turf/open_space,
+/area/point_loma/airbase/interior/atc/upper)
 "ciF" = (
 /obj/structure/platform/stone/kutjevo/west,
 /obj/structure/platform/stone/kutjevo/east{
@@ -39487,6 +39463,32 @@
 	},
 /turf/open_space,
 /area/point_loma/airbase/interior/workshop/upper)
+"cnt" = (
+/obj/structure/machinery/light/double{
+	dir = 4
+	},
+/turf/open/floor/corsat/blue/east,
+/area/point_loma/airbase/interior/atc/upper)
+"cnu" = (
+/obj/structure/machinery/computer/cameras/almayer/vehicle{
+	dir = 4;
+	pixel_x = -17
+	},
+/obj/structure/surface/table/reinforced/black,
+/obj/structure/transmitter/rotary/no_dnd{
+	name = "Bravo Overwatch Telephone";
+	phone_category = "Command";
+	phone_id = "Bravo Overwatch"
+	},
+/obj/structure/machinery/light/double{
+	dir = 8
+	},
+/turf/open/floor/corsat/box,
+/area/point_loma/airbase/interior/atc/upper)
+"cnv" = (
+/obj/structure/machinery/power/apc/no_power/west,
+/turf/open_space,
+/area/point_loma/oob/sky)
 
 (1,1,1) = {"
 ayZ
@@ -140376,7 +140378,7 @@ asb
 asb
 asb
 asb
-asb
+bYL
 asb
 asb
 asb
@@ -141283,10 +141285,10 @@ bWf
 aPe
 avA
 aLe
-bEu
+aLe
 cmm
 aLe
-bDq
+aLe
 aLe
 aLe
 bDq
@@ -142383,7 +142385,7 @@ bUU
 bUU
 bDv
 bUU
-bPH
+cne
 aLe
 aZV
 bYf
@@ -143483,7 +143485,7 @@ ajF
 bYa
 aLe
 aLe
-bPH
+cne
 bSN
 bSN
 bxN
@@ -143658,7 +143660,7 @@ baH
 bDy
 bDe
 bUU
-bCI
+aLe
 aLe
 bad
 ajF
@@ -144569,7 +144571,7 @@ bCU
 bDf
 bCT
 bUU
-bCI
+aLe
 bYh
 ajF
 bYa
@@ -186240,7 +186242,7 @@ bTS
 bTS
 bTS
 bTS
-bTS
+cnv
 bTS
 bTS
 bTS
@@ -188611,7 +188613,7 @@ bVh
 bVh
 bVh
 bVh
-bVh
+ciE
 bVf
 bTS
 bTS
@@ -189696,12 +189698,12 @@ bTS
 bJw
 bFc
 bFe
-bFi
+bFg
+cnt
 bFg
 bFg
 bFg
-bFi
-bFg
+cnt
 bFb
 bEY
 bVf
@@ -190064,7 +190066,7 @@ bbH
 bFn
 bbH
 bFl
-bbH
+cnu
 bbE
 bFc
 bEY
