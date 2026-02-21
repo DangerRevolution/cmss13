@@ -5,13 +5,29 @@
     "webmap_url": "LV624",
 
     "survivor_types": [
-        "/datum/equipment_preset/survivor/army/standard"
+        "/datum/equipment_preset/survivor/alpha_tech/corporate",
+		"/datum/equipment_preset/survivor/alpha_tech/miner",
+		"/datum/equipment_preset/survivor/alpha_tech/corporate/chief_engineer",
+		"/datum/equipment_preset/survivor/alpha_tech/scientist",
+		"/datum/equipment_preset/survivor/alpha_tech/scientist/research_director",
+		"/datum/equipment_preset/survivor/alpha_tech/off_duty",
+		"/datum/equipment_preset/survivor/usasf/crew",
+		"/datum/equipment_preset/survivor/usasf/crew/off_duty",
+		"/datum/equipment_preset/survivor/usasf/crew/hangar_tech",
+		"/datum/equipment_preset/survivor/usasf/crew/mess_tech",
+		"/datum/equipment_preset/survivor/usasf/crew/cargo_tech",
+		"/datum/equipment_preset/survivor/usasf/crew/medical/nurse",
+		"/datum/equipment_preset/survivor/usasf/crew/medical/doctor",
+		"/datum/equipment_preset/survivor/usasf/security",
+		"/datum/equipment_preset/survivor/usasf/officer"
+		"/datum/equipment_preset/survivor/usasf/officer/off_duty"
+		"/datum/equipment_preset/survivor/usasf/officer/pilot"
     ],
 	"synth_survivor_types": [
-        "/datum/equipment_preset/synth/survivor/army"
+        "/datum/equipment_preset/synth/usasf"
     ],
 	"CO_survivor_types": [
-        "/datum/equipment_preset/survivor/army/co"
+        "/datum/equipment_preset/survivor/usasf/officer/co"
     ],
     "map_item_type": "/obj/item/map/lazarus_landing_map",
     "announce_text": "Distress Signal received from USASF Point Loma, T-1 Hour Ago. \n Orbital Scan Underway. \n Await results.",
