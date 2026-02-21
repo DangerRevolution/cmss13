@@ -296,6 +296,8 @@ GLOBAL_LIST_INIT(job_command_roles, JOB_COMMAND_ROLES_LIST)
 #define JOB_HC_DEPUTY_DIRECTOR "HC Deputy Director"
 #define JOB_HC_DIRECTOR "HC Director"
 
+// -- ALPHA-TECH HARDWARE CORPORATION --//
+
 #define JOB_ALPHATECH_CL "Alpha-Tech Corporate Liaison"
 #define JOB_ALPHATECH_SCIENTIST "Alpha-Tech Corporate Scientist"
 #define JOB_ALPHATECH_RESEARCH_DIRECTOR "Alpha-Tech Research Director"
