@@ -34800,7 +34800,7 @@
 "cbb" = (
 /obj/structure/machinery/door/airlock/maintenance/colony{
 	panel_open = 1;
-	welded = true;
+	welded = 1;
 	locked = 1
 	},
 /obj/structure/pipes/standard/simple/hidden/green{
