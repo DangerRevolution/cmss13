@@ -30,6 +30,11 @@
 
 /datum/equipment_preset/survivor/usasf/crew/off_duty
 
+/datum/equipment_preset/survivor/usasf/crew/chaplain
+	name = "USASF Chaplain"
+	job_title = JOB_USASF_CHAPLAIN
+	assignment = JOB_USASF_CHAPLAIN
+	survivor_variant = CIVILIAN_SURVIVOR
 
 /datum/equipment_preset/survivor/usasf/crew/hangar_tech
 	name = "USASF Hangar Technician"
