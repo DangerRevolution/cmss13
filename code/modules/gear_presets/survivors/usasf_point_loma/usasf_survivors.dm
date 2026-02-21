@@ -35,6 +35,7 @@
 	job_title = JOB_USASF_CHAPLAIN
 	assignment = JOB_USASF_CHAPLAIN
 	survivor_variant = CIVILIAN_SURVIVOR
+	paygrades = list(PAY_SHORT_NO1 = JOB_PLAYTIME_TIER_0, PAY_SHORT_NO2 = JOB_PLAYTIME_TIER_1)
 
 /datum/equipment_preset/survivor/usasf/crew/hangar_tech
 	name = "USASF Hangar Technician"
