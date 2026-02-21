@@ -21,7 +21,7 @@
 	job_title = JOB_ALPHATECH_CL
 	assignment = JOB_ALPHATECH_CL
 	languages = list(LANGUAGE_ENGLISH, LANGUAGE_CHINESE, LANGUAGE_JAPANESE, LANGUAGE_RUSSIAN)
-	skills = /datum/skills/military/survivor/usasf/pilot
+	skills = 	skills = /datum/skills/civilian/survivor/manager // ToDO: Check what manager skills actually are
 	paygrades = list(PAY_SHORT_ATHC1 = JOB_PLAYTIME_TIER_0, PAY_SHORT_ATHC2 = JOB_PLAYTIME_TIER_1, PAY_SHORT_ATHC3 = JOB_PLAYTIME_TIER_2)
 
 /datum/equipment_preset/survivor/alpha_tech/corporate/chief_engineer
@@ -30,6 +30,7 @@
 	assignment = JOB_ALPHATECH_CHIEF_ENGINEER
 	languages = list(LANGUAGE_ENGLISH, LANGUAGE_CHINESE)
 	paygrades = list(PAY_SHORT_NO3 = JOB_PLAYTIME_TIER_0)
+	skills = /datum/skills/civilian/survivor/engineer // ToDO: Consider making this a CO-like Civ Engineer
 	survivor_variant = ENGINEERING_SURVIVOR
 
 /datum/equipment_preset/survivor/alpha_tech/scientist
@@ -37,13 +38,13 @@
 	job_title = JOB_ALPHATECH_SCIENTIST
 	assignment = JOB_ALPHATECH_SCIENTIST
 	languages = list(LANGUAGE_CHINESE)
-	skills = /datum/skills/military/survivor/usasf/pilot
+	skills = /datum/skills/civilian/survivor/scientist
 	paygrades = list(PAY_SHORT_CCMOA = JOB_PLAYTIME_TIER_0, PAY_SHORT_CCMOC = JOB_PLAYTIME_TIER_1)
 	survivor_variant = SCIENTIST_SURVIVOR
 
 /datum/equipment_preset/survivor/alpha_tech/scientist/research_director
 	name = "Alpha-Tech Research Director"
-	job_title = JOB_ALPHATECH_RESEARCH_DIRECTOR
+	job_title = JOB_ALPHATECH_RESEARCH_DIRECTOR // ToDO: Consider making this a CO-like Civ role
 	assignment = JOB_ALPHATECH_RESEARCH_DIRECTOR
 	languages = list(LANGUAGE_CHINESE, LANGUAGE_ENGLISH)
 	survivor_variant = SCIENTIST_SURVIVOR
@@ -53,9 +54,9 @@
 	job_title = JOB_ALPHATECH_EMPLOYEE
 	assignment = JOB_ALPHATECH_EMPLOYEE
 	languages = list(LANGUAGE_CHINESE)
-	skills = /datum/skills/military/survivor/usasf/pilot
+	skills = /datum/skills/civilian/survivor/miner // ToDO: Make this an Engineer-type
 	paygrades = list(PAY_SHORT_CIV = JOB_PLAYTIME_TIER_0)
-	survivor_variant = ENGINEERING_SURVIVOR
+	survivor_variant = CIVILIAN_SURVIVOR
 
 /datum/equipment_preset/survivor/alpha_tech/off_duty
 	name = "Alpha-Tech Hardware Corporation Employee"
