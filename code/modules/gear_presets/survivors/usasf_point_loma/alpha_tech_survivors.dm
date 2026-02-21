@@ -14,4 +14,4 @@
 
 	minimap_icon = "surv"
 	minimap_background = "background_civilian"
-	var/survivor_variant = CORPORATE_SURVIVOR
+	var/survivor_variant = ANY_SURVIVOR
