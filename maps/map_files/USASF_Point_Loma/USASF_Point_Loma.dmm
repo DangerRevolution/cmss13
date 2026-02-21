@@ -2206,6 +2206,10 @@
 "ahf" = (
 /turf/open/floor/corsat/greenwhite/west,
 /area/point_loma/research_facility/medical)
+"ahg" = (
+/obj/structure/machinery/colony_floodlight_switch/electrified_fence_switch,
+/turf/open/new_varadero/taupe_concrete,
+/area/point_loma/oob)
 "ahh" = (
 /obj/item/tool/shovel/snow,
 /obj/item/storage/toolbox/emergency,
@@ -172382,7 +172386,7 @@ aSX
 aiP
 aSX
 agL
-acS
+ahg
 acP
 acP
 acP
