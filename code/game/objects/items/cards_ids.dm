@@ -543,3 +543,7 @@
 /obj/item/card/id/lanyard/alphatech
 	name = "Alpha-Tech Hardware Corporation ID Card"
 	desc = "An ID Card used by AlphaTech employees"
+
+/obj/item/card/id/lanyard/alphatech/Initialize()
+	. = ..()
+	AddElement(/datum/element/corp_label/alphatech)
