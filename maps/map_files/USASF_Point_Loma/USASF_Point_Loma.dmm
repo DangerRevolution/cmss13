@@ -5529,7 +5529,6 @@
 /obj/item/reagent_container/food/drinks/drinkingglass{
 	icon_state = "shotglass";
 	pixel_y = 15;
-	pixel_z = null;
 	pixel_x = 15
 	},
 /obj/item/reagent_container/food/drinks/drinkingglass{
@@ -6026,12 +6025,6 @@
 	pixel_x = 23
 	},
 /turf/open/floor/corsat/squares,
-/area/point_loma/research_facility/super_death_cannon/ammo_elevator)
-"asy" = (
-/obj/structure/sign/safety/fire_haz{
-	pixel_w = 15
-	},
-/turf/closed/wall/new_varadero,
 /area/point_loma/research_facility/super_death_cannon/ammo_elevator)
 "asz" = (
 /obj/effect/decal/hybrisa/road/lines3,
@@ -6748,11 +6741,9 @@
 /area/varadero/interior/caves/east)
 "aul" = (
 /obj/structure/filingcabinet/filingcabinet{
-	pixel_x = 7;
-	pixel_z = 10
+	pixel_x = 7
 	},
 /obj/structure/filingcabinet/filingcabinet{
-	pixel_z = 10;
 	pixel_x = -8
 	},
 /turf/open/floor/corsat/greenwhite/northwest,
@@ -7383,8 +7374,7 @@
 	},
 /obj/item/reagent_container/food/drinks/coffeecup{
 	pixel_x = -5;
-	pixel_y = 3;
-	pixel_z = 3
+	pixel_y = 3
 	},
 /turf/open/floor/corsat/squares,
 /area/point_loma/research_facility/super_death_cannon/observation)
@@ -8356,8 +8346,7 @@
 /area/point_loma/airbase/mining_colony/interior/corporate)
 "ayp" = (
 /obj/item/storage/fancy/cigar{
-	ground_offset_x = 200;
-	pixel_z = 13
+	ground_offset_x = 20
 	},
 /obj/structure/prop/hybrisa/furniture/tables/tablewood/woodtablecomputer{
 	icon_state = "blackmetaltable";
@@ -8414,11 +8403,7 @@
 /area/point_loma/airbase/mining_colony/interior/engineering)
 "ayv" = (
 /obj/item/storage/briefcase/black{
-	icon_state = "briefcase_e";
-	icon_w = null;
-	pixel_w = 15;
-	pixel_x = null;
-	pixel_z = -15
+	icon_state = "briefcase_e"
 	},
 /obj/structure/prop/server_equipment/laptop/on,
 /turf/open/floor/corsat/squares,
@@ -8438,11 +8423,9 @@
 /area/point_loma/research_facility/medical)
 "ayy" = (
 /obj/structure/filingcabinet/filingcabinet{
-	pixel_x = 7;
-	pixel_z = 10
+	pixel_x = 7
 	},
 /obj/structure/filingcabinet/filingcabinet{
-	pixel_z = 10;
 	pixel_x = -8
 	},
 /obj/structure/machinery/cm_vending/sorted/medical/wall_med{
@@ -8452,7 +8435,6 @@
 /area/point_loma/research_facility/super_death_cannon/observation)
 "ayz" = (
 /obj/structure/filingcabinet/research{
-	pixel_z = 10;
 	pixel_x = -9
 	},
 /turf/open/floor/corsat/purple/north,
@@ -8569,8 +8551,7 @@
 	},
 /obj/item/trash/cigbutt{
 	pixel_x = -15;
-	pixel_y = -5;
-	pixel_z = 2
+	pixel_y = -5
 	},
 /turf/open/gm/river/ocean/deep_ocean,
 /area/point_loma/research_facility/super_death_cannon/observation/catwalk)
@@ -8586,8 +8567,7 @@
 	},
 /obj/item/trash/cigbutt{
 	pixel_x = -15;
-	pixel_y = -5;
-	pixel_z = 2
+	pixel_y = -5
 	},
 /turf/open/gm/river/ocean/deep_ocean,
 /area/point_loma/research_facility/super_death_cannon/observation/catwalk)
@@ -8728,8 +8708,7 @@
 	dir = 4
 	},
 /obj/structure/roof/hybrisa/lattice_prop/lattice_5{
-	icon_state = "lattice4";
-	pixel_w = -3
+	icon_state = "lattice4"
 	},
 /obj/structure/blocker/invisible_wall,
 /turf/open_space,
@@ -8752,9 +8731,7 @@
 /area/point_loma/research_facility/super_death_cannon/observation/catwalk)
 "azx" = (
 /obj/structure/roof/hybrisa/lattice_prop/lattice_2,
-/obj/structure/roof/hybrisa/lattice_prop/lattice_5{
-	pixel_w = 3
-	},
+/obj/structure/roof/hybrisa/lattice_prop/lattice_5,
 /obj/structure/barricade/handrail/hybrisa/handrail{
 	dir = 8
 	},
@@ -14757,9 +14734,7 @@
 /turf/open/asphalt/cement_sunbleached,
 /area/point_loma/airbase/mining_colony/exterior/north)
 "aRm" = (
-/obj/structure/closet/cabinet/hybrisa/metal{
-	step_x = -4
-	},
+/obj/structure/closet/cabinet/hybrisa/metal,
 /turf/open/floor/shiva/yellow/west,
 /area/point_loma/airbase/mining_colony/interior/storage)
 "aRn" = (
@@ -14952,9 +14927,7 @@
 /turf/open/asphalt/cement_sunbleached,
 /area/point_loma/airbase/mining_colony/exterior/north)
 "aRO" = (
-/obj/structure/closet/cabinet/hybrisa/metal{
-	step_x = -4
-	},
+/obj/structure/closet/cabinet/hybrisa/metal,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/shiva/yellow/west,
 /area/point_loma/airbase/mining_colony/interior/storage)
@@ -15576,9 +15549,7 @@
 	icon_state = "E";
 	pixel_x = 3
 	},
-/obj/structure/machinery/vending/coffee{
-	step_y = 15
-	},
+/obj/structure/machinery/vending/coffee,
 /turf/open/floor/shiva/yellow/north,
 /area/point_loma/airbase/mining_colony/interior/storage)
 "aTC" = (
@@ -15896,9 +15867,7 @@
 /area/point_loma/airbase/mining_colony/exterior/north)
 "aUy" = (
 /obj/structure/bed/hybrisa/bunkbed1,
-/obj/item/toy/plush/bee{
-	step_y = 9
-	},
+/obj/item/toy/plush/bee,
 /turf/open/floor/hybrisa/carpet/carpetblack,
 /area/point_loma/airbase/mining_colony/interior/living_quarters)
 "aUz" = (
@@ -33271,8 +33240,7 @@
 /area/point_loma/airbase/interior/garage)
 "bVy" = (
 /obj/structure/largecrate/random/barrel/brown{
-	layer = 4;
-	step_y = -9
+	layer = 4
 	},
 /turf/open/floor/shiva/multi_tiles/west,
 /area/point_loma/airbase/interior/garage)
@@ -108476,7 +108444,7 @@ avb
 auE
 aud
 app
-asy
+asv
 ask
 arO
 arb
