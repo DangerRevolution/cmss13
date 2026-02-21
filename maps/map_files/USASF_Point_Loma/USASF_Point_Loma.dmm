@@ -27564,16 +27564,10 @@
 /turf/open/auto_turf/sand_white/layer1,
 /area/point_loma/airbase/exterior/west)
 "bBQ" = (
-/obj/structure/machinery/door/poddoor/railing{
-	dir = 4
-	},
-/turf/open/floor/corsat/squares,
+/turf/open/new_varadero/alt_concrete/filtration/west,
 /area/point_loma/research_facility/super_death_cannon/ammo_elevator/upper)
 "bBR" = (
-/obj/structure/machinery/door/poddoor/railing/open{
-	dir = 8
-	},
-/turf/open/floor/corsat/squares,
+/turf/open/new_varadero/alt_concrete/filtration/east,
 /area/point_loma/research_facility/super_death_cannon/ammo_elevator/upper)
 "bBS" = (
 /turf/open/floor/corsat/box,
@@ -33075,9 +33069,6 @@
 /area/point_loma/research_facility/super_death_cannon/ammo_elevator/upper)
 "bUJ" = (
 /turf/open_space,
-/area/point_loma/research_facility/super_death_cannon/ammo_elevator/upper)
-"bUK" = (
-/turf/open/new_varadero/alt_concrete/warning/east,
 /area/point_loma/research_facility/super_death_cannon/ammo_elevator/upper)
 "bUL" = (
 /turf/open_space,
@@ -150492,10 +150483,10 @@ bxN
 bUH
 bUH
 bUH
-bUK
-bUK
-bUK
-bUK
+bUH
+bUH
+bUH
+bUH
 bUH
 bUz
 bzk
@@ -152130,10 +152121,10 @@ bUV
 bUT
 bUH
 bUH
-bUK
-bUK
-bUK
-bUK
+bUH
+bUH
+bUH
+bUH
 clW
 bUH
 bUA
