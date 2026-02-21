@@ -355,9 +355,7 @@
 /obj/effect/decal/warning_stripes{
 	icon_state = "W"
 	},
-/turf/open/hybrisa/street/asphalt{
-	color = "#808080"
-	},
+/turf/open/hybrisa/street/asphalt/runway,
 /area/point_loma/airbase/exterior/crash_site)
 "abi" = (
 /obj/structure/window/framed/new_varadero/foundation,
@@ -1610,7 +1608,6 @@
 	pixel_y = 25
 	},
 /obj/structure/filingcabinet{
-	density = 0;
 	icon_state = "chestdrawer";
 	pixel_x = -8;
 	pixel_y = 25
@@ -2373,7 +2370,6 @@
 /area/varadero/interior/caves/east)
 "ahK" = (
 /obj/structure/machinery/vending/cola{
-	density = 0;
 	pixel_y = 16
 	},
 /turf/open/floor/shiva/red/north,
@@ -2513,7 +2509,6 @@
 /area/point_loma/airbase/interior/hospital)
 "aih" = (
 /obj/structure/machinery/vending/cigarette/wy{
-	density = 0;
 	pixel_x = -2;
 	pixel_y = 16
 	},
@@ -7302,7 +7297,6 @@
 /area/point_loma/research_facility/super_death_cannon/observation)
 "avE" = (
 /obj/structure/machinery/chem_simulator{
-	density = 0;
 	pixel_y = 16
 	},
 /turf/open/floor/corsat/squares,
@@ -7983,7 +7977,6 @@
 /obj/item/stack/cable_coil/cyan,
 /obj/structure/showcase{
 	breakable = 1;
-	density = 0;
 	desc = null;
 	icon_state = "igniter0";
 	name = "floor panel"
@@ -10618,7 +10611,6 @@
 	pixel_x = -7
 	},
 /obj/structure/reagent_dispensers/water_cooler{
-	density = 0;
 	pixel_y = 18;
 	pixel_x = 7
 	},
@@ -11515,12 +11507,10 @@
 /area/point_loma/research_facility/research/west)
 "aHQ" = (
 /obj/structure/filingcabinet{
-	density = 0;
 	pixel_x = -8;
 	pixel_y = 20
 	},
 /obj/structure/filingcabinet{
-	density = 0;
 	pixel_x = 8;
 	pixel_y = 20
 	},
@@ -13709,9 +13699,7 @@
 	},
 /obj/item/stack/sheet/metal,
 /obj/item/shard,
-/turf/open/hybrisa/street/asphalt{
-	color = "#808080"
-	},
+/turf/open/hybrisa/street/asphalt/runway,
 /area/point_loma/airbase/exterior/crash_site)
 "aNX" = (
 /obj/item/stack/sheet/metal,
@@ -13739,9 +13727,7 @@
 /obj/item/stack/sheet/metal,
 /obj/item/stack/rods,
 /obj/item/shard/shrapnel,
-/turf/open/hybrisa/street/asphalt{
-	color = "#808080"
-	},
+/turf/open/hybrisa/street/asphalt/runway,
 /area/point_loma/airbase/exterior/crash_site)
 "aOb" = (
 /obj/effect/decal/new_varadero/warning/straight{
@@ -13768,9 +13754,7 @@
 /obj/item/stack/sheet/metal,
 /obj/item/stack/rods,
 /obj/item/shard,
-/turf/open/hybrisa/street/asphalt{
-	color = "#808080"
-	},
+/turf/open/hybrisa/street/asphalt/runway,
 /area/point_loma/airbase/exterior/crash_site)
 "aOf" = (
 /obj/structure/pipes/standard/simple/visible{
@@ -13817,9 +13801,7 @@
 /area/point_loma/research_facility/research/west)
 "aOo" = (
 /obj/item/stack/sheet/metal,
-/turf/open/hybrisa/street/asphalt{
-	color = "#808080"
-	},
+/turf/open/hybrisa/street/asphalt/runway,
 /area/point_loma/airbase/exterior/crash_site)
 "aOp" = (
 /obj/structure/largecrate/supply/generator,
@@ -13832,9 +13814,7 @@
 /area/point_loma/airbase/interior/garage)
 "aOq" = (
 /obj/item/shard,
-/turf/open/hybrisa/street/asphalt{
-	color = "#808080"
-	},
+/turf/open/hybrisa/street/asphalt/runway,
 /area/point_loma/airbase/exterior/crash_site)
 "aOr" = (
 /obj/structure/reagent_dispensers/tank/sacid,
@@ -13852,15 +13832,11 @@
 	},
 /obj/item/stack/rods,
 /obj/item/shard/shrapnel,
-/turf/open/hybrisa/street/asphalt{
-	color = "#808080"
-	},
+/turf/open/hybrisa/street/asphalt/runway,
 /area/point_loma/airbase/exterior/crash_site)
 "aOu" = (
 /obj/item/stack/rods,
-/turf/open/hybrisa/street/asphalt{
-	color = "#808080"
-	},
+/turf/open/hybrisa/street/asphalt/runway,
 /area/point_loma/airbase/exterior/crash_site)
 "aOv" = (
 /obj/effect/decal/warning_stripes{
@@ -13869,9 +13845,7 @@
 	pixel_y = -1
 	},
 /obj/item/shard,
-/turf/open/hybrisa/street/asphalt{
-	color = "#808080"
-	},
+/turf/open/hybrisa/street/asphalt/runway,
 /area/point_loma/airbase/exterior/crash_site)
 "aOw" = (
 /obj/structure/blocker/invisible_wall,
@@ -13885,9 +13859,7 @@
 	},
 /obj/item/stack/rods,
 /obj/item/stack/rods,
-/turf/open/hybrisa/street/asphalt{
-	color = "#808080"
-	},
+/turf/open/hybrisa/street/asphalt/runway,
 /area/point_loma/airbase/exterior/crash_site)
 "aOz" = (
 /turf/closed/wall/rock/brown,
@@ -13970,9 +13942,7 @@
 /turf/open/auto_turf/sand_white/layer1,
 /area/point_loma/airbase/exterior/north)
 "aON" = (
-/turf/open/hybrisa/street/asphalt{
-	color = "#808080"
-	},
+/turf/open/hybrisa/street/asphalt/runway,
 /area/point_loma/airbase/exterior/north)
 "aOO" = (
 /obj/structure/flora/grass/tallgrass/jungle/corner{
@@ -13993,9 +13963,7 @@
 	dir = 8;
 	pixel_x = 16
 	},
-/turf/open/hybrisa/street/asphalt{
-	color = "#808080"
-	},
+/turf/open/hybrisa/street/asphalt/runway,
 /area/point_loma/airbase/exterior/north)
 "aOR" = (
 /obj/structure/flora/grass/tallgrass/jungle/corner{
@@ -16474,9 +16442,7 @@
 	pixel_x = 1;
 	pixel_y = -1
 	},
-/turf/open/hybrisa/street/asphalt{
-	color = "#808080"
-	},
+/turf/open/hybrisa/street/asphalt/runway,
 /area/point_loma/airbase/exterior/crash_site)
 "aVU" = (
 /obj/structure/largecrate/supply/supplies/tables_racks,
@@ -16816,9 +16782,7 @@
 	dir = 8;
 	pixel_x = 16
 	},
-/turf/open/hybrisa/street/asphalt{
-	color = "#808080"
-	},
+/turf/open/hybrisa/street/asphalt/runway,
 /area/point_loma/airbase/exterior/crash_site)
 "aXh" = (
 /obj/structure/flora/grass/desert/heavy,
@@ -17044,9 +17008,7 @@
 	pixel_y = -1
 	},
 /obj/item/stack/rods,
-/turf/open/hybrisa/street/asphalt{
-	color = "#808080"
-	},
+/turf/open/hybrisa/street/asphalt/runway,
 /area/point_loma/airbase/exterior/crash_site)
 "aXV" = (
 /obj/structure/machinery/door/airlock/almayer/generic,
@@ -17292,13 +17254,11 @@
 /area/point_loma/airbase/interior/cargo)
 "aYL" = (
 /obj/structure/filingcabinet/filingcabinet{
-	density = 0;
 	layer = 2.9;
 	pixel_x = -8;
 	pixel_y = 16
 	},
 /obj/structure/filingcabinet/filingcabinet{
-	density = 0;
 	layer = 2.9;
 	pixel_x = 7;
 	pixel_y = 16
@@ -18105,7 +18065,6 @@
 /area/point_loma/airbase/interior/atc)
 "bbd" = (
 /obj/structure/machinery/washing_machine{
-	density = 0;
 	pixel_y = 15
 	},
 /turf/open/floor/plating/warnplate/northeast,
@@ -18153,11 +18112,9 @@
 "bbk" = (
 /obj/structure/filingcabinet/documentation/military_police{
 	pixel_y = 18;
-	density = 0;
 	pixel_x = 8
 	},
 /obj/structure/filingcabinet{
-	density = 0;
 	pixel_x = -8;
 	pixel_y = 18
 	},
@@ -18473,7 +18430,6 @@
 "bbX" = (
 /obj/structure/surface/table/reinforced/almayer_B,
 /obj/structure/machinery/microwave{
-	density = 0;
 	pixel_y = 9
 	},
 /obj/structure/machinery/light/double{
@@ -18546,7 +18502,6 @@
 /area/point_loma/airbase/interior/atc/upper)
 "bce" = (
 /obj/structure/machinery/vending/coffee{
-	density = 0;
 	pixel_y = 16
 	},
 /turf/open/floor/corsat/blue/north,
@@ -18557,7 +18512,6 @@
 /area/point_loma/airbase/interior/atc/upper)
 "bcg" = (
 /obj/structure/machinery/vending/cola{
-	density = 0;
 	pixel_y = 16
 	},
 /turf/open/floor/corsat/blue/north,
@@ -19193,15 +19147,12 @@
 "bdD" = (
 /obj/structure/surface/rack,
 /obj/item/card/id/guest{
-	bound_x = 9;
 	pixel_y = -6
 	},
 /obj/item/card/id/guest{
-	bound_x = 9;
 	pixel_y = 7
 	},
 /obj/item/card/id/guest{
-	bound_x = 9;
 	pixel_y = 4;
 	pixel_x = 6
 	},
@@ -19513,7 +19464,6 @@
 /area/point_loma/research_facility/research/west)
 "beD" = (
 /obj/item/card/id/guest{
-	bound_x = 9;
 	pixel_y = 4;
 	pixel_x = 6
 	},
@@ -21815,11 +21765,9 @@
 "bkR" = (
 /obj/structure/filingcabinet/documentation/highcom/press{
 	pixel_x = 8;
-	pixel_y = 24;
-	density = 0
+	pixel_y = 24
 	},
 /obj/structure/filingcabinet{
-	density = 0;
 	pixel_y = 24;
 	pixel_x = -7
 	},
@@ -21930,7 +21878,6 @@
 /area/point_loma/research_facility/security_hq)
 "blf" = (
 /obj/structure/machinery/vending/cola{
-	density = 0;
 	pixel_y = 16;
 	pixel_x = -4
 	},
@@ -23879,8 +23826,7 @@
 	icon_state = "smallmonitor";
 	name = "Monitor";
 	pixel_y = 23;
-	pixel_x = 7;
-	density = 0
+	pixel_x = 7
 	},
 /turf/open/space/basic,
 /area/point_loma/research_facility/crash_site)
@@ -23899,8 +23845,7 @@
 	icon_state = "smallmonitor";
 	name = "Monitor";
 	pixel_y = 23;
-	pixel_x = -6;
-	density = 0
+	pixel_x = -6
 	},
 /turf/open/space/basic,
 /area/point_loma/research_facility/crash_site)
@@ -24777,7 +24722,6 @@
 "btt" = (
 /obj/structure/largecrate/supply/medicine/medivend,
 /obj/structure/largecrate/random/mini/med{
-	density = 1;
 	pixel_y = 11
 	},
 /turf/open/asphalt/cement_sunbleached,
@@ -25836,13 +25780,11 @@
 /area/point_loma/airbase/mining_colony/interior/corporate)
 "bwO" = (
 /obj/structure/filingcabinet/filingcabinet{
-	density = 0;
 	layer = 2.9;
 	pixel_x = 7;
 	pixel_y = 16
 	},
 /obj/structure/filingcabinet/filingcabinet{
-	density = 0;
 	layer = 2.9;
 	pixel_x = -8;
 	pixel_y = 16
@@ -26802,8 +26744,7 @@
 	icon_state = "smallmonitor";
 	name = "Monitor";
 	pixel_y = 23;
-	pixel_x = 7;
-	density = 0
+	pixel_x = 7
 	},
 /obj/effect/hunter/bridge_border/brown{
 	dir = 8
@@ -26817,8 +26758,7 @@
 	icon_state = "smallmonitor";
 	name = "Monitor";
 	pixel_y = 23;
-	pixel_x = -6;
-	density = 0
+	pixel_x = -6
 	},
 /obj/effect/hunter/bridge_border/brown{
 	dir = 8
@@ -27013,7 +26953,6 @@
 /obj/effect/decal/hybrisa/dirt{
 	color = "#C9AE74"
 	},
-/obj/structure/prop/hybrisa/vehicles/firetruck,
 /turf/open/floor/shiva/multi_tiles/southeast,
 /area/point_loma/airbase/interior/garage)
 "bAm" = (
@@ -27382,8 +27321,7 @@
 "bBi" = (
 /obj/structure/prop/brazier/frame/full/torch{
 	pixel_x = 8;
-	pixel_y = -7;
-	density = 0
+	pixel_y = -7
 	},
 /turf/open/floor/predship/hull/non_weedable_hull/northwest,
 /area/point_loma/airbase/exterior/crash_site)
@@ -27407,8 +27345,7 @@
 "bBm" = (
 /obj/structure/prop/brazier/frame/full/torch{
 	pixel_x = -8;
-	pixel_y = -7;
-	density = 0
+	pixel_y = -7
 	},
 /turf/open/floor/predship/hull/non_weedable_hull/northeast,
 /area/point_loma/airbase/exterior/crash_site)
@@ -30025,12 +29962,10 @@
 /area/point_loma/research_facility/command)
 "bIw" = (
 /obj/structure/filingcabinet{
-	density = 0;
 	pixel_x = 8;
 	pixel_y = 18
 	},
 /obj/structure/filingcabinet{
-	density = 0;
 	pixel_x = -8;
 	pixel_y = 18
 	},
@@ -32347,9 +32282,7 @@
 /turf/open/asphalt/cement_sunbleached,
 /area/point_loma/airbase/mining_colony/exterior/north)
 "bQY" = (
-/turf/open/hybrisa/street/asphalt{
-	color = "#808080"
-	},
+/turf/open/hybrisa/street/asphalt/runway,
 /area/point_loma/airbase/exterior/crash_site)
 "bQZ" = (
 /obj/structure/flora/grass/desert/heavy,
@@ -33196,9 +33129,7 @@
 /turf/open_space,
 /area/point_loma/airbase/interior/cargo)
 "bUR" = (
-/turf/open/hybrisa/street/asphalt{
-	color = "#808080"
-	},
+/turf/open/hybrisa/street/asphalt/runway,
 /area/point_loma/airbase/exterior/east)
 "bUS" = (
 /obj/effect/decal/cleanable/blood/xeno,
@@ -37683,9 +37614,7 @@
 /area/point_loma/airbase/exterior/crash_site)
 "cjT" = (
 /obj/effect/decal/cleanable/dirt/sand_2,
-/turf/open/hybrisa/street/asphalt{
-	color = "#808080"
-	},
+/turf/open/hybrisa/street/asphalt/runway,
 /area/point_loma/airbase/exterior/crash_site)
 "cjU" = (
 /obj/structure/platform/stone/kutjevo/east{
@@ -37807,20 +37736,12 @@
 "cks" = (
 /turf/open/floor/corsat/squares,
 /area/point_loma/airbase/mining_colony/interior/engineering)
-"ckt" = (
-/obj/structure/prop/hybrisa/vehicles/firetruck{
-	dir = 4
-	},
-/turf/open/new_varadero/sidewalk/sidewalkfull,
-/area/point_loma/airbase/interior/fire_station)
 "cku" = (
 /obj/effect/decal/warning_stripes{
 	icon_state = "W"
 	},
 /obj/effect/decal/cleanable/dirt/sand_2,
-/turf/open/hybrisa/street/asphalt{
-	color = "#808080"
-	},
+/turf/open/hybrisa/street/asphalt/runway,
 /area/point_loma/airbase/exterior/crash_site)
 "ckv" = (
 /obj/effect/decal/cleanable/dirt/sand_1,
@@ -37946,9 +37867,7 @@
 	pixel_y = -1
 	},
 /obj/effect/decal/cleanable/dirt/sand_2,
-/turf/open/hybrisa/street/asphalt{
-	color = "#808080"
-	},
+/turf/open/hybrisa/street/asphalt/runway,
 /area/point_loma/airbase/exterior/crash_site)
 "ckU" = (
 /obj/structure/flora/grass/desert,
@@ -38138,9 +38057,7 @@
 /area/point_loma/airbase/interior/cargo)
 "clw" = (
 /obj/effect/decal/cleanable/dirt/sand_1,
-/turf/open/hybrisa/street/asphalt{
-	color = "#808080"
-	},
+/turf/open/hybrisa/street/asphalt/runway,
 /area/point_loma/airbase/exterior/crash_site)
 "clx" = (
 /obj/structure/machinery/door/poddoor/almayer/planet_side_blastdoor{
@@ -38398,9 +38315,7 @@
 /area/point_loma/airbase/exterior/crash_site)
 "cmi" = (
 /obj/effect/decal/cleanable/dirt/sand_1,
-/turf/open/hybrisa/street/asphalt{
-	color = "#808080"
-	},
+/turf/open/hybrisa/street/asphalt/runway,
 /area/point_loma/airbase/exterior/east)
 "cmj" = (
 /obj/structure/pipes/standard/simple/hidden/green,
@@ -140256,7 +140171,7 @@ bST
 bRM
 bRM
 bRM
-ckt
+bRM
 bRM
 bRM
 bRM
