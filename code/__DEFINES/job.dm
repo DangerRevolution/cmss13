@@ -297,7 +297,10 @@ GLOBAL_LIST_INIT(job_command_roles, JOB_COMMAND_ROLES_LIST)
 #define JOB_HC_DIRECTOR "HC Director"
 
 #define JOB_ALPHATECH_CL = "Alpha-Tech Corporate Liaison"
-#define JOB_ALPHATECH_EXECUTIVE = "Alpha-Tech Corporate Executive"
+#define JOB_ALPHATECH_SCIENTIST = "Alpha-Tech Corporate Scientist"
+#define JOB_ALPHATECH_RESEARCH_DIRECTOR = "Alpha-Tech Research Director"
+#define JOB_ALPHATECH_CHIEF_ENGINEER = "Alpha-Tech Chief Engineer"
+#define JOB_ALPHATECH_EMPLOYEE = "Alpha-Tech Employee"
 
 //---- Contractors ----//
 #define JOB_CONTRACTOR "VAIPO Mercenary"
