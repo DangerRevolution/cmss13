@@ -6764,8 +6764,7 @@
 	},
 /obj/effect/decal/hybrisa/road/lines1,
 /obj/structure/desertdam/decals/road_stop{
-	icon_state = "stop_decal2";
-	plane = 0
+	icon_state = "stop_decal2"
 	},
 /turf/open/floor/corsat/squares,
 /area/point_loma/research_facility/super_death_cannon/engineering)
@@ -6799,6 +6798,9 @@
 	icon_state = "N-corner"
 	},
 /obj/effect/decal/hybrisa/road/lines4,
+/obj/structure/desertdam/decals/road_stop{
+	icon_state = "stop_decal2"
+	},
 /turf/open/floor/corsat/squares,
 /area/point_loma/research_facility/super_death_cannon/engineering)
 "auo" = (
@@ -14536,7 +14538,6 @@
 /turf/open/asphalt/cement_sunbleached,
 /area/point_loma/airbase/mining_colony/exterior/north)
 "aQU" = (
-/obj/structure/platform/metal/almayer/north,
 /obj/structure/platform/metal/almayer/north,
 /obj/structure/pipes/standard/simple/visible,
 /turf/open/floor/corsat/purplewhite/north,
@@ -25010,15 +25011,13 @@
 	pixel_y = 1
 	},
 /obj/structure/desertdam/decals/road_stop{
-	icon_state = "stop_decal2";
-	plane = 0
+	icon_state = "stop_decal2"
 	},
 /turf/open/floor/prison/ramptop,
 /area/point_loma/airbase/mining_colony/interior/engineering)
 "bvf" = (
 /obj/structure/desertdam/decals/road_stop{
-	icon_state = "stop_decal2";
-	plane = 0
+	icon_state = "stop_decal2"
 	},
 /turf/open/floor/prison/ramptop,
 /area/point_loma/airbase/mining_colony/interior/engineering)
@@ -25029,8 +25028,7 @@
 	pixel_x = 1
 	},
 /obj/structure/desertdam/decals/road_stop{
-	icon_state = "stop_decal2";
-	plane = 0
+	icon_state = "stop_decal2"
 	},
 /turf/open/floor/prison/ramptop,
 /area/point_loma/airbase/mining_colony/interior/engineering)
