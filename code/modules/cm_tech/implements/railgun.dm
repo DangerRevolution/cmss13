@@ -1,4 +1,6 @@
 GLOBAL_DATUM(railgun_eye_location, /datum/coords)
+GLOBAL_LIST_EMPTY(railgun_computer_locations)
+
 
 /datum/railgun_computer_location
 	var/datum/coords/coords
@@ -13,6 +15,11 @@ GLOBAL_DATUM(railgun_eye_location, /datum/coords)
 	. = ..()
 	var/obj/structure/machinery/computer/railgun/RG = new(loc)
 	RG.dir = dir
+
+	if(!GLOB.railgun_computer_locations)
+		GLOB.railgun_computer_locations = list()
+	GLOB.railgun_computer_locations += RG
+
 	return INITIALIZE_HINT_QDEL
 
 /obj/effect/landmark/railgun_camera_pos
