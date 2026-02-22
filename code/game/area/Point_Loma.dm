@@ -269,7 +269,7 @@
 /area/point_loma/research_facility/super_death_cannon/observation/catwalk
 	name = "Super Death Cannon - Outside Catwalk"
 	ceiling = CEILING_NONE
-	require_power = FALSE
+	requires_power = FALSE
 
 /area/point_loma/research_facility/super_death_cannon/engineering
 	name = "Super Death Cannon - Control Room"
