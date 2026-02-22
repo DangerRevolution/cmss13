@@ -18562,12 +18562,6 @@
 	},
 /turf/open/slippery/hull,
 /area/point_loma/airbase/interior/atc/top)
-"bcR" = (
-/obj/structure/barricade/handrail/type_b{
-	dir = 3
-	},
-/turf/open/floor/plating/plating_catwalk,
-/area/point_loma/airbase/interior/atc/top)
 "bcS" = (
 /obj/structure/barricade/handrail/type_b{
 	layer = 4
@@ -234005,7 +233999,7 @@ bcy
 bcy
 bcS
 bcH
-bcR
+bcw
 bcL
 bcB
 bcB
