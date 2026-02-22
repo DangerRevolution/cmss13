@@ -1723,9 +1723,7 @@
 /turf/open/floor/asteroidfloor,
 /area/point_loma/airbase/interior/workshop)
 "afH" = (
-/obj/structure/pipes/standard/simple/hidden/scrubbers{
-	dir = 3
-	},
+/obj/structure/pipes/standard/simple/hidden/scrubbers,
 /turf/open/floor/corsat/squares,
 /area/point_loma/airbase/interior/research)
 "afI" = (
@@ -6687,21 +6685,6 @@
 	},
 /turf/open/floor/corsat/squares,
 /area/point_loma/research_facility/hallway/east)
-"auc" = (
-/obj/structure/stairs/multiz/up{
-	dir = 1
-	},
-/obj/structure/stairs/multiz/up{
-	dir = 1
-	},
-/obj/structure/stairs/multiz/up{
-	dir = 1
-	},
-/obj/structure/barricade/handrail/hybrisa/handrail{
-	dir = 8
-	},
-/turf/open/auto_turf/sand_white/layer1,
-/area/point_loma/airbase/exterior/west)
 "aud" = (
 /obj/effect/decal/warning_stripes{
 	icon_state = "N-corner"
@@ -12687,11 +12670,6 @@
 /obj/effect/landmark/item_pool_spawner/survivor_ammo/buckshot,
 /turf/open/new_varadero,
 /area/point_loma/airbase/interior/cargo)
-"aLw" = (
-/obj/structure/barricade/handrail/type_b,
-/obj/structure/barricade/handrail/type_b,
-/turf/open/floor/shiva/yellow,
-/area/point_loma/airbase/interior/cargo)
 "aLx" = (
 /obj/structure/machinery/light{
 	dir = 4
@@ -17828,12 +17806,6 @@
 	pixel_x = 12;
 	pixel_y = 6
 	},
-/obj/structure/barricade/wooden{
-	dir = 1;
-	layer = 3.2;
-	pixel_x = 12;
-	pixel_y = 6
-	},
 /turf/open/floor/corsat/officesquares,
 /area/point_loma/airbase/interior/atc)
 "baV" = (
@@ -21915,7 +21887,7 @@
 "blO" = (
 /obj/structure/catwalk/bigred,
 /obj/structure/machinery/door/airlock/almayer/security/glass/colony,
-/turf/open_space,
+/turf/open/new_varadero,
 /area/point_loma/airbase/interior/workshop/upper)
 "blP" = (
 /obj/structure/ladder/multiz,
@@ -23126,10 +23098,6 @@
 	},
 /turf/open/floor/corsat,
 /area/point_loma/research_facility/engineering)
-"bpp" = (
-/obj/structure/window/framed/shiva/red,
-/turf/open_space,
-/area/point_loma/airbase/interior/workshop/upper)
 "bpq" = (
 /obj/structure/platform/metal/almayer_smooth/east,
 /obj/structure/pipes/standard/manifold/hidden/green{
@@ -23170,7 +23138,7 @@
 /obj/structure/machinery/door/airlock/almayer/security/glass/colony{
 	dir = 2
 	},
-/turf/open_space,
+/turf/open/new_varadero,
 /area/point_loma/airbase/interior/workshop/upper)
 "bpv" = (
 /obj/structure/pipes/standard/simple/hidden/green,
@@ -24492,19 +24460,6 @@
 /obj/effect/decal/hybrisa/road/lines4,
 /turf/open/asphalt/cement_sunbleached,
 /area/point_loma/airbase/mining_colony/exterior/security/checkpoint/north)
-"btq" = (
-/obj/structure/machinery/colony_floodlight,
-/obj/structure/barricade/handrail/hybrisa/road/plastic/red{
-	dir = 1
-	},
-/obj/structure/barricade/handrail/hybrisa/road/plastic/red{
-	dir = 8
-	},
-/obj/structure/barricade/handrail/hybrisa/road/plastic/red{
-	dir = 8
-	},
-/turf/open/asphalt/cement_shaded/northwest,
-/area/point_loma/airbase/mining_colony/exterior/security/checkpoint/north)
 "btr" = (
 /obj/structure/machinery/colony_floodlight,
 /obj/structure/barricade/handrail/hybrisa/road/plastic/red{
@@ -25364,7 +25319,7 @@
 /area/point_loma/airbase/mining_colony/interior/security/barracks)
 "bwh" = (
 /obj/structure/window/framed/shiva/red,
-/turf/closed/wall/shiva/prefabricated/reinforced,
+/turf/open/new_varadero,
 /area/point_loma/airbase/interior/workshop/upper)
 "bwi" = (
 /obj/structure/surface/table/reinforced/prison,
@@ -28096,7 +28051,6 @@
 /turf/open/floor/dark2,
 /area/point_loma/airbase/interior/atc)
 "bEb" = (
-/obj/structure/machinery/colony_floodlight,
 /obj/structure/machinery/colony_floodlight,
 /turf/open/auto_turf/sand_white/layer1,
 /area/point_loma/airbase/exterior/crash_site)
@@ -138050,7 +138004,7 @@ cll
 clz
 cls
 ctF
-aLw
+aLN
 ckX
 aJC
 axe
@@ -147929,7 +147883,7 @@ bPH
 bPH
 bJw
 awk
-auc
+atg
 atg
 atg
 bPH
@@ -156702,7 +156656,7 @@ aUb
 bxz
 bxz
 aUb
-btq
+bvL
 aUt
 aUt
 bta
@@ -202174,7 +202128,7 @@ aLF
 aLF
 ctM
 ctJ
-bpp
+bwh
 ctJ
 ctJ
 ctJ
@@ -202356,7 +202310,7 @@ aLF
 aLF
 ctM
 ctJ
-bpp
+bwh
 ctJ
 ctJ
 ctJ
@@ -202538,7 +202492,7 @@ aLF
 aLF
 ctM
 ctJ
-bpp
+bwh
 ctJ
 ctJ
 ctJ
@@ -202720,7 +202674,7 @@ aLF
 bpU
 ctJ
 ctJ
-bpp
+bwh
 ctJ
 ctJ
 ctJ
