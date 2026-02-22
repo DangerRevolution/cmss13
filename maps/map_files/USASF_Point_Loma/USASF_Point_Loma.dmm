@@ -18125,7 +18125,6 @@
 /area/point_loma/airbase/interior/atc/upper)
 "bbM" = (
 /obj/structure/surface/table/reinforced/black,
-/obj/structure/surface/table/reinforced/black,
 /obj/structure/prop/server_equipment/laptop/closed,
 /turf/open/floor/corsat/box,
 /area/point_loma/airbase/interior/atc/upper)
@@ -18164,7 +18163,6 @@
 /turf/open/floor/corsat,
 /area/point_loma/airbase/interior/atc/upper)
 "bbR" = (
-/obj/structure/surface/table/reinforced/black,
 /obj/structure/surface/table/reinforced/black,
 /obj/structure/machinery/prop/almayer/CICmap{
 	pixel_x = -5
@@ -20432,7 +20430,7 @@
 /obj/structure/stairs/multiz/down{
 	dir = 4
 	},
-/turf/open_space,
+/turf/open/floor/corsat,
 /area/point_loma/airbase/interior/workshop/upper)
 "bhZ" = (
 /obj/structure/surface/table/woodentable,
@@ -20572,18 +20570,6 @@
 /obj/structure/platform_decoration/metal/kutjevo_smooth/east,
 /turf/open/floor/hybrisa/wood/greywood,
 /area/point_loma/research_facility/briefing)
-"biw" = (
-/obj/structure/stairs/multiz/up{
-	dir = 4
-	},
-/obj/structure/stairs/multiz/up{
-	dir = 4
-	},
-/obj/structure/stairs/multiz/down{
-	dir = 4
-	},
-/turf/open/space/basic,
-/area/point_loma/airbase/interior/workshop/upper)
 "bix" = (
 /obj/structure/platform/metal/kutjevo/east,
 /obj/structure/pipes/standard/simple/hidden/green,
@@ -20653,15 +20639,6 @@
 /obj/structure/barricade/handrail/kutjevo,
 /turf/open/floor/hybrisa/wood/greywood,
 /area/point_loma/research_facility/briefing)
-"biJ" = (
-/obj/structure/stairs/multiz/up{
-	dir = 4
-	},
-/obj/structure/stairs/multiz/down{
-	dir = 4
-	},
-/turf/open/space/basic,
-/area/point_loma/airbase/interior/workshop/upper)
 "biK" = (
 /obj/structure/machinery/door/airlock/maintenance/colony{
 	dir = 2
@@ -20815,15 +20792,6 @@
 "bje" = (
 /turf/open/floor/wood,
 /area/point_loma/research_facility/gym)
-"bjf" = (
-/obj/structure/stairs/multiz/down{
-	dir = 4
-	},
-/obj/structure/stairs/multiz/down{
-	dir = 4
-	},
-/turf/open/space/basic,
-/area/point_loma/airbase/interior/workshop/upper)
 "bjg" = (
 /obj/structure/surface/table/woodentable/fancy,
 /obj/structure/machinery/computer/cameras/wooden_tv{
@@ -32821,7 +32789,7 @@
 /area/point_loma/airbase/interior/atc/upper)
 "bVg" = (
 /obj/structure/window/framed/new_varadero/foundation/reinforced,
-/turf/open/floor/dark2,
+/turf/open/floor/corsat,
 /area/point_loma/airbase/interior/atc/upper)
 "bVh" = (
 /turf/open_space,
@@ -32850,7 +32818,7 @@
 /area/point_loma/oob)
 "bVo" = (
 /obj/structure/window/framed/new_varadero/foundation/reinforced/hull,
-/turf/open/floor/dark2,
+/turf/open/floor/corsat,
 /area/point_loma/oob)
 "bVp" = (
 /obj/structure/platform/metal/almayer/north,
@@ -198452,7 +198420,7 @@ ctL
 ctJ
 ctJ
 bhk
-biw
+bhY
 bhY
 ctK
 ctJ
@@ -198634,7 +198602,7 @@ aLF
 bnM
 ctJ
 bhk
-biJ
+bhY
 bhY
 ctK
 ctJ
@@ -198816,7 +198784,7 @@ aLF
 aLF
 ctM
 bhk
-bjf
+bhY
 bhY
 ctK
 ctJ
