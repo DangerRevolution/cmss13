@@ -3224,6 +3224,13 @@
 "akr" = (
 /turf/open/floor/rampbottom,
 /area/point_loma/airbase/mining_colony/exterior/lz)
+"aks" = (
+/obj/structure/platform/metal/strata/north,
+/obj/structure/platform/metal/strata/east,
+/obj/structure/prop/hybrisa/misc/floorprops/grate,
+/obj/structure/machinery/light/double,
+/turf/open/floor/corsat,
+/area/point_loma/airbase/mining_colony/interior/storage)
 "akt" = (
 /obj/structure/stairs/multiz/up{
 	dir = 4
@@ -3253,6 +3260,12 @@
 	},
 /turf/open/floor/corsat/retrosquareslight,
 /area/point_loma/research_facility/medical)
+"aky" = (
+/obj/structure/machinery/light/double{
+	dir = 8
+	},
+/turf/open/floor/shiva/yellow/west,
+/area/point_loma/airbase/mining_colony/interior/storage)
 "akz" = (
 /turf/open/floor/engine,
 /area/point_loma/airbase/interior/research)
@@ -4593,6 +4606,7 @@
 /turf/open/floor/corsat,
 /area/point_loma/airbase/mining_colony/interior/engineering)
 "aox" = (
+/obj/structure/machinery/power/apc/power/east,
 /turf/open/floor/shiva/yellow/southeast,
 /area/point_loma/airbase/mining_colony/interior/storage)
 "aoy" = (
@@ -14101,6 +14115,7 @@
 /obj/item/storage/toolbox/mechanical{
 	pixel_y = -7
 	},
+/obj/structure/machinery/light/double,
 /turf/open/floor/corsat,
 /area/point_loma/airbase/mining_colony/interior/storage)
 "aQc" = (
@@ -15353,6 +15368,10 @@
 /obj/effect/decal/cleanable/dirt{
 	layer = 5
 	},
+/obj/structure/machinery/light/double{
+	dir = 1;
+	pixel_y = 9
+	},
 /turf/open/floor/shiva/yellow/north,
 /area/point_loma/airbase/mining_colony/interior/storage)
 "aTB" = (
@@ -15398,6 +15417,10 @@
 /area/point_loma/airbase/mining_colony/interior/storage)
 "aTF" = (
 /obj/structure/machinery/fuelcell_recycler,
+/obj/structure/machinery/light/double{
+	dir = 1;
+	pixel_y = 9
+	},
 /turf/open/floor/shiva/yellow/north,
 /area/point_loma/airbase/mining_colony/interior/storage)
 "aTG" = (
@@ -17751,9 +17774,8 @@
 /turf/open/floor/corsat/officesquares,
 /area/point_loma/airbase/interior/atc)
 "baX" = (
-/obj/structure/machinery/fuelcell_recycler,
 /obj/structure/terminal,
-/obj/item/fuel_cell,
+/obj/structure/machinery/fuelcell_recycler/full,
 /turf/open/floor/shiva/yellow/north,
 /area/point_loma/airbase/mining_colony/interior/engineering)
 "baY" = (
@@ -31847,6 +31869,9 @@
 /turf/open/floor/shiva/north,
 /area/point_loma/airbase/mining_colony/interior/storage)
 "bQo" = (
+/obj/structure/machinery/light/double{
+	dir = 4
+	},
 /turf/open/floor/shiva/yellow/east,
 /area/point_loma/airbase/mining_colony/interior/storage)
 "bQp" = (
@@ -167042,7 +167067,7 @@ axY
 api
 aPH
 aTz
-bQm
+aky
 aSN
 aSz
 aSc
@@ -167597,7 +167622,7 @@ aRq
 aRd
 aQG
 aQn
-aPW
+aks
 bPX
 bPO
 bPQ
