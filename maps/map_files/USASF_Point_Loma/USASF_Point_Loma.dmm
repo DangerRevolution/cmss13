@@ -25675,14 +25675,14 @@
 /obj/structure/prop/hunter/fake_platform/hunter/east,
 /obj/structure/prop/hunter/fake_platform/hunter/west,
 /obj/structure/prop/hunter/misc/feed,
-/turf/open/space/basic,
+/turf/open/shuttle/dropship/predship/tile/hunter_tile_1,
 /area/point_loma/airbase/exterior/crash_site)
 "bxP" = (
 /obj/effect/hunter/catwalk/hunter_grate,
 /obj/structure/prop/hunter/fake_platform/hunter/east,
 /obj/structure/prop/hunter/fake_platform/hunter/west,
 /obj/structure/prop/hunter/misc/feed,
-/turf/open/space/basic,
+/turf/open/shuttle/dropship/predship/tile/hunter_tile_1,
 /area/point_loma/airbase/exterior/crash_site)
 "bxQ" = (
 /obj/effect/hunter/glowing_shape/small_red_flipped{
@@ -25722,7 +25722,7 @@
 /obj/structure/prop/hunter/fake_platform/hunter/east,
 /obj/structure/prop/hunter/fake_platform/hunter/west,
 /obj/structure/prop/hunter/misc/feed,
-/turf/open/space/basic,
+/turf/open/shuttle/dropship/predship/tile/hunter_tile_1,
 /area/point_loma/airbase/exterior/crash_site)
 "bxX" = (
 /obj/effect/hunter/bridge_border/brown{
