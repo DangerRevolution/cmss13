@@ -3162,11 +3162,6 @@
 /obj/structure/bed/roller,
 /turf/open/floor/corsat/greenwhite,
 /area/point_loma/research_facility/medical)
-"akf" = (
-/obj/structure/bed/hybrisa/bunkbed1,
-/obj/structure/pipes/standard/simple/hidden/green,
-/turf/closed/wall/huntership/destructible,
-/area/point_loma/research_facility/crash_site)
 "akg" = (
 /obj/structure/machinery/light/double,
 /turf/open/new_varadero/taupe_concrete/warning/corner/southeast,
@@ -10884,7 +10879,7 @@
 /obj/structure/machinery/door/airlock/multi_tile/almayer/generic{
 	name = "\improper Backup SMES"
 	},
-/turf/open/floor/almayer/blackfull/west,
+/turf/open/floor/corsat/retrosquareslight,
 /area/point_loma/research_facility/research/east)
 "aFP" = (
 /turf/open/shuttle/lifeboat/plating_striped/north,
@@ -10911,7 +10906,7 @@
 	},
 /obj/structure/window/framed/new_varadero/foundation/reinforced,
 /obj/structure/machinery/door/poddoor/shutters/almayer/containment,
-/turf/open/floor/almayer/blackfull/west,
+/turf/open/floor/corsat,
 /area/point_loma/research_facility/research/east)
 "aFV" = (
 /turf/open/floor/shiva/redcorners,
@@ -10972,7 +10967,7 @@
 /obj/structure/window/framed/new_varadero/foundation/reinforced,
 /obj/structure/machinery/door/poddoor/shutters/almayer/containment,
 /obj/structure/pipes/standard/simple/hidden/green,
-/turf/open/floor/almayer/blackfull/west,
+/turf/open/floor/corsat,
 /area/point_loma/research_facility/research/east)
 "aGh" = (
 /obj/effect/decal/warning_stripes{
@@ -11047,7 +11042,7 @@
 	},
 /obj/structure/window/framed/new_varadero/foundation/reinforced,
 /obj/structure/machinery/door/poddoor/shutters/almayer/containment,
-/turf/open/floor/almayer/blackfull/west,
+/turf/open/floor/corsat,
 /area/point_loma/research_facility/research/east)
 "aGu" = (
 /obj/structure/platform/metal/strata/north,
@@ -11065,10 +11060,8 @@
 	layer = 3
 	},
 /obj/structure/window/framed/new_varadero/foundation/reinforced,
-/obj/structure/window/framed/new_varadero/foundation/reinforced,
-/obj/structure/window/framed/new_varadero/foundation/reinforced,
 /obj/structure/machinery/door/poddoor/shutters/almayer/containment,
-/turf/open/floor/almayer/blackfull/west,
+/turf/open/floor/corsat,
 /area/point_loma/research_facility/research/east)
 "aGw" = (
 /obj/structure/platform_decoration/metal/strata/east,
@@ -16955,12 +16948,6 @@
 /obj/structure/machinery/door/airlock/almayer/generic,
 /turf/open/floor/shiva/north,
 /area/point_loma/airbase/mining_colony/exterior/security/south)
-"aXY" = (
-/obj/structure/machinery/door/airlock/multi_tile/almayer/generic{
-	name = "\improper Backup SMES"
-	},
-/turf/open/floor/corsat,
-/area/point_loma/research_facility/research/east)
 "aXZ" = (
 /obj/structure/window/framed/shiva/red,
 /obj/structure/window/framed/shiva/red,
@@ -19445,7 +19432,7 @@
 	name = "\improper Backup SMES"
 	},
 /obj/structure/pipes/standard/simple/hidden/green,
-/turf/closed/wall/new_varadero,
+/turf/open/floor/corsat/retrosquareslight,
 /area/point_loma/research_facility/research/east)
 "beM" = (
 /obj/structure/machinery/door_display,
@@ -19601,14 +19588,14 @@
 /turf/open/gm/dirt/brown/variant_1,
 /area/point_loma/research_facility/research/park)
 "bfh" = (
+/obj/structure/pipes/standard/simple/hidden/green{
+	dir = 4
+	},
 /obj/structure/machinery/door/airlock/multi_tile/almayer/generic{
 	dir = 2;
 	name = "\improper Bar"
 	},
-/obj/structure/pipes/standard/simple/hidden/green{
-	dir = 4
-	},
-/turf/closed/wall/new_varadero,
+/turf/open/floor/corsat/retrosquareslight,
 /area/point_loma/research_facility/research/east)
 "bfj" = (
 /obj/structure/closet/wardrobe/science_white,
@@ -19717,7 +19704,7 @@
 /obj/structure/pipes/standard/simple/hidden/green{
 	dir = 4
 	},
-/turf/open/floor/almayer/blackfull/west,
+/turf/open/floor/corsat/retrosquareslight,
 /area/point_loma/research_facility/research/east)
 "bfv" = (
 /obj/structure/cable/white{
@@ -20297,7 +20284,7 @@
 /obj/structure/pipes/standard/simple/hidden/green{
 	dir = 4
 	},
-/turf/closed/wall/new_varadero,
+/turf/open/floor/white,
 /area/point_loma/research_facility/pool)
 "bgT" = (
 /turf/open/floor/whiteblue/west,
@@ -20414,7 +20401,7 @@
 	},
 /obj/structure/prop/hybrisa/fakeplatforms,
 /obj/structure/pipes/standard/simple/hidden/green,
-/turf/closed/wall/new_varadero,
+/turf/open/floor/hybrisa/wood/darkerwood,
 /area/point_loma/research_facility/pool)
 "bht" = (
 /turf/open/floor/carpet/edge/southwest,
@@ -20495,7 +20482,7 @@
 /area/point_loma/research_facility/pool/sauna)
 "bhF" = (
 /obj/structure/window/framed/new_varadero/foundation,
-/turf/closed/wall/new_varadero,
+/turf/open/floor/corsat,
 /area/point_loma/research_facility/pool/sauna)
 "bhG" = (
 /obj/structure/catwalk/bigred,
@@ -20566,7 +20553,7 @@
 /obj/structure/machinery/door/airlock/almayer/generic/autoname{
 	dir = 8
 	},
-/turf/closed/wall/new_varadero,
+/turf/open/floor/hybrisa/wood/darkerwood,
 /area/point_loma/research_facility/pool/sauna)
 "bhR" = (
 /turf/open/floor/hybrisa/wood/darkerwood,
@@ -29911,9 +29898,6 @@
 /area/point_loma/research_facility/research/park)
 "bIE" = (
 /obj/effect/landmark/structure_spawner/setup/distress/xeno_door_reinforced,
-/turf/open/floor/corsat,
-/area/point_loma/research_facility/research/east)
-"bIF" = (
 /turf/open/floor/corsat,
 /area/point_loma/research_facility/research/east)
 "bIG" = (
@@ -97998,7 +97982,7 @@ cpR
 cdE
 agx
 cre
-akf
+cqP
 cqP
 cqP
 aFk
@@ -106433,7 +106417,7 @@ asb
 adf
 adf
 aMa
-adf
+bZV
 bfh
 adf
 adf
@@ -106806,7 +106790,7 @@ bei
 cnd
 acj
 bdq
-aXY
+aFO
 aSP
 aQl
 aMk
@@ -106982,17 +106966,17 @@ bfL
 cnT
 cnO
 aMk
-adf
+bZV
 bIK
 bZV
 cnq
 bdI
 bdq
-bIF
+bZV
 aSP
 aQr
 cab
-aDo
+bZV
 aEk
 aEe
 aDl
@@ -107342,7 +107326,7 @@ bIO
 bIO
 adf
 bIG
-aDo
+bZV
 bfu
 bIG
 adf
