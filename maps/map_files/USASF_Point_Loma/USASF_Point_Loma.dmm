@@ -7834,7 +7834,7 @@
 	pixel_x = 17;
 	icon_state = "comm_monitor"
 	},
-/turf/open/shuttle/lifeboat/catwalk,
+/turf/open/shuttle/escapepod/east,
 /area/point_loma/research_facility/super_death_cannon/observation)
 "axh" = (
 /obj/structure/bed/chair/office/dark{
@@ -39791,17 +39791,13 @@
 /obj/structure/pipes/standard/simple/hidden/green{
 	dir = 4
 	},
-/turf/open/shuttle/escapepod/floor2{
-	dir = 4
-	},
+/turf/open/shuttle/escapepod/floor2/east,
 /area/point_loma/research_facility/super_death_cannon/observation)
 "css" = (
 /obj/structure/pipes/standard/simple/hidden/green{
 	dir = 4
 	},
-/turf/open/shuttle/escapepod/floor2{
-	dir = 1
-	},
+/turf/open/shuttle/escapepod/floor2/north,
 /area/point_loma/research_facility/super_death_cannon/observation)
 "cst" = (
 /obj/structure/pipes/standard/manifold/hidden/green,
