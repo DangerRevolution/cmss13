@@ -355,7 +355,7 @@
 "abg" = (
 /obj/structure/window/framed/corsat/indestructible/research,
 /obj/structure/blocker/invisible_wall,
-/turf/open/space/basic,
+/turf/open/floor/corsat,
 /area/point_loma/oob)
 "abh" = (
 /obj/effect/decal/warning_stripes{
@@ -536,11 +536,6 @@
 	},
 /turf/open/floor/corsat/retrosquareslight,
 /area/point_loma/airbase/interior/research)
-"abH" = (
-/obj/structure/window/framed/corsat/indestructible/research,
-/obj/structure/blocker/invisible_wall,
-/turf/open/floor/corsat/squares,
-/area/point_loma/oob)
 "abI" = (
 /obj/structure/machinery/vending/security,
 /turf/open/floor/shiva/red/north,
@@ -895,7 +890,7 @@
 /obj/structure/prop/turbine_extras,
 /obj/structure/window/framed/corsat/indestructible/research,
 /obj/structure/blocker/invisible_wall,
-/turf/open/floor/corsat/squares,
+/turf/open/floor/corsat,
 /area/point_loma/oob)
 "acX" = (
 /obj/effect/decal/cleanable/blood{
@@ -2088,11 +2083,6 @@
 /area/point_loma/research_facility/medical)
 "agL" = (
 /turf/open/new_varadero/taupe_concrete/warning,
-/area/point_loma/oob)
-"agM" = (
-/obj/structure/window/framed/corsat/indestructible/research,
-/obj/structure/blocker/invisible_wall,
-/turf/closed/wall/r_wall/unmeltable,
 /area/point_loma/oob)
 "agN" = (
 /obj/structure/bed/bedroll,
@@ -110754,13 +110744,13 @@ bJw
 bJw
 bJw
 bJw
-agM
 abg
-abH
-abH
-abH
+abg
+abg
+abg
+abg
 acW
-abH
+abg
 abg
 bJw
 bJw
