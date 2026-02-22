@@ -28,7 +28,7 @@
 /area/point_loma/airbase/interior/research)
 "aaf" = (
 /obj/structure/machinery/door/airlock/command/colony,
-/turf/open/floor/corsat/squares,
+/turf/open/floor/corsat,
 /area/point_loma/research_facility/command/mess)
 "aag" = (
 /obj/structure/ob_ammo/ob_fuel,
@@ -289,7 +289,7 @@
 /area/point_loma/research_facility/command/mess)
 "aaX" = (
 /obj/structure/window/framed/new_varadero/foundation,
-/turf/open/floor/strata/fake_wood,
+/turf/open/floor/corsat,
 /area/point_loma/research_facility/command/mess)
 "aaY" = (
 /obj/structure/machinery/landinglight/ds1/delaytwo{
@@ -301,7 +301,7 @@
 "aaZ" = (
 /obj/structure/window/framed/new_varadero/foundation,
 /obj/structure/window/framed/new_varadero/foundation,
-/turf/open/floor/corsat/squares,
+/turf/open/floor/corsat,
 /area/point_loma/research_facility/command/mess)
 "aba" = (
 /obj/effect/decal/warning_stripes{
@@ -357,10 +357,6 @@
 	},
 /turf/open/hybrisa/street/asphalt/runway,
 /area/point_loma/airbase/exterior/crash_site)
-"abi" = (
-/obj/structure/window/framed/new_varadero/foundation,
-/turf/open/floor/corsat/squares,
-/area/point_loma/research_facility/command/mess)
 "abj" = (
 /obj/structure/curtain/colorable,
 /turf/open/floor/corsat/squares,
@@ -691,12 +687,6 @@
 "acl" = (
 /turf/open/floor/shiva/wredcorners/east,
 /area/point_loma/airbase/interior/hospital)
-"acm" = (
-/obj/structure/stairs/multiz/up{
-	dir = 4
-	},
-/turf/open/space/basic,
-/area/point_loma/airbase/interior/workshop)
 "acn" = (
 /obj/effect/decal/warning_stripes{
 	icon_state = "cargo_arrow2"
@@ -1569,7 +1559,7 @@
 /obj/structure/machinery/door/poddoor/hybrisa/shutters{
 	id = "engineering_lockdown"
 	},
-/turf/open/space/basic,
+/turf/open/floor/corsat,
 /area/point_loma/research_facility/command)
 "afn" = (
 /obj/structure/prop/almayer/computers/mapping_computer,
@@ -2138,14 +2128,14 @@
 /obj/structure/stairs{
 	icon_state = "ramptop"
 	},
-/turf/open/space/basic,
+/turf/open/floor/strata/fake_wood,
 /area/point_loma/research_facility/chapel)
 "agX" = (
 /obj/structure/platform/metal/strata/west,
 /obj/structure/stairs{
 	icon_state = "ramptop"
 	},
-/turf/open/space/basic,
+/turf/open/floor/strata/fake_wood,
 /area/point_loma/research_facility/chapel)
 "agY" = (
 /obj/structure/cargo_container/hybrisa/containersextended/medicalleft,
@@ -4931,7 +4921,7 @@
 /obj/structure/stairs/multiz/down{
 	dir = 1
 	},
-/turf/open/space/basic,
+/turf/open/floor/shiva/yellowfull,
 /area/point_loma/airbase/interior/cargo)
 "apx" = (
 /obj/effect/decal/warning_stripes{
@@ -5268,7 +5258,7 @@
 /obj/structure/stairs/multiz/up{
 	dir = 1
 	},
-/turf/open/space/basic,
+/turf/open/floor/shiva/yellowfull,
 /area/point_loma/airbase/interior/cargo/lower)
 "aqt" = (
 /obj/structure/sign/poster/clf{
@@ -6030,6 +6020,13 @@
 	},
 /turf/open/floor/corsat/squares,
 /area/point_loma/research_facility/super_death_cannon/ammo_elevator)
+"asy" = (
+/obj/structure/machinery/door/airlock/maintenance/colony{
+	dir = 1
+	},
+/obj/structure/pipes/standard/simple/hidden/green,
+/turf/open/floor/strata/fake_wood,
+/area/point_loma/research_facility/command/mess)
 "asz" = (
 /obj/effect/decal/hybrisa/road/lines3,
 /obj/structure/prop/hybrisa/misc/buildinggreeblies/greeble10,
@@ -10223,7 +10220,7 @@
 /obj/structure/stairs/multiz/down{
 	dir = 1
 	},
-/turf/open/space/basic,
+/turf/open/floor/shiva/yellowfull,
 /area/point_loma/airbase/interior/cargo)
 "aDH" = (
 /obj/structure/machinery/autodispenser{
@@ -10300,7 +10297,7 @@
 /area/point_loma/airbase/interior/hospital)
 "aDY" = (
 /obj/structure/window/framed/new_varadero/foundation,
-/turf/open/space/basic,
+/turf/open/floor/corsat,
 /area/point_loma/research_facility/gym)
 "aDZ" = (
 /obj/structure/desertdam/decals/road_edge{
@@ -11220,7 +11217,7 @@
 	dir = 8;
 	icon_state = "p_stair_full"
 	},
-/turf/open/space/basic,
+/turf/open/floor/corsat,
 /area/point_loma/airbase/interior/garage)
 "aHc" = (
 /obj/effect/decal/cleanable/dirt{
@@ -11981,7 +11978,7 @@
 /obj/structure/machinery/door/airlock/almayer/secure/colony{
 	name = "Colony Requesitions Storage Pod"
 	},
-/turf/open/space/basic,
+/turf/open/new_varadero,
 /area/point_loma/airbase/interior/cargo)
 "aJj" = (
 /obj/structure/pipes/binary/pump/on,
@@ -16122,17 +16119,6 @@
 	},
 /turf/open/asphalt/cement_shaded/northwest,
 /area/point_loma/airbase/mining_colony/exterior/security/checkpoint)
-"aVh" = (
-/obj/structure/machinery/conveyor{
-	dir = 4;
-	icon_state = "conveyor-1"
-	},
-/obj/effect/decal/warning_stripes{
-	icon_state = "S";
-	pixel_y = -2
-	},
-/turf/open/space/basic,
-/area/point_loma/airbase/interior/cargo)
 "aVi" = (
 /obj/structure/catwalk/bigred,
 /obj/structure/catwalk/bigred,
@@ -16371,7 +16357,7 @@
 /obj/structure/machinery/light{
 	dir = 8
 	},
-/turf/open/floor/darkpurple2/southwest,
+/turf/open/floor/corsat/purplewhite/southwest,
 /area/point_loma/airbase/interior/research)
 "aVP" = (
 /obj/structure/surface/table,
@@ -16451,7 +16437,7 @@
 /area/point_loma/airbase/interior/cargo)
 "aWa" = (
 /obj/structure/machinery/door/airlock/multi_tile/almayer/generic,
-/turf/open/space/basic,
+/turf/open/floor/corsat,
 /area/point_loma/airbase/mining_colony/interior/engineering/communications)
 "aWb" = (
 /obj/effect/decal/hybrisa/dirt,
@@ -16860,7 +16846,7 @@
 /area/point_loma/airbase/interior/atc)
 "aXC" = (
 /obj/structure/machinery/door/airlock/almayer/maint/colony/autoname,
-/turf/open/space/basic,
+/turf/open/floor/corsat,
 /area/point_loma/airbase/mining_colony/interior/living_quarters)
 "aXD" = (
 /obj/item/tool/pickaxe/plasmacutter,
@@ -16997,7 +16983,7 @@
 /obj/structure/machinery/door/airlock/multi_tile/almayer/generic{
 	name = "\improper Backup SMES"
 	},
-/turf/open/space/basic,
+/turf/open/floor/corsat,
 /area/point_loma/research_facility/research/east)
 "aXZ" = (
 /obj/structure/window/framed/shiva/red,
@@ -17084,7 +17070,7 @@
 /obj/structure/machinery/door/airlock/multi_tile/almayer/secdoor/glass/colony{
 	dir = 2
 	},
-/turf/open/space/basic,
+/turf/open/floor/shiva/north,
 /area/point_loma/airbase/mining_colony/exterior/security/north)
 "aYn" = (
 /obj/structure/prop/dam/van,
@@ -19543,7 +19529,7 @@
 	},
 /obj/structure/platform/metal/stair_cut/platform_right,
 /obj/structure/platform/metal/almayer,
-/turf/open/space/basic,
+/turf/open/floor/almayer/blackfull/west,
 /area/point_loma/research_facility/research/east)
 "beV" = (
 /obj/structure/reagent_dispensers/water_cooler/stacks{
@@ -21706,7 +21692,7 @@
 /obj/structure/machinery/door/airlock/almayer/generic/autoname{
 	dir = 8
 	},
-/turf/open/space/basic,
+/turf/open/floor/hybrisa/tile/tilewhite,
 /area/point_loma/research_facility/briefing)
 "bkN" = (
 /obj/structure/bed/sofa{
@@ -23801,7 +23787,7 @@
 	pixel_y = 23;
 	pixel_x = 7
 	},
-/turf/open/space/basic,
+/turf/open/shuttle/dropship/predship/tile/red,
 /area/point_loma/research_facility/crash_site)
 "bqP" = (
 /obj/effect/hunter/catwalk/hunter_grate,
@@ -23820,7 +23806,7 @@
 	pixel_y = 23;
 	pixel_x = -6
 	},
-/turf/open/space/basic,
+/turf/open/shuttle/dropship/predship/tile/red,
 /area/point_loma/research_facility/crash_site)
 "bqQ" = (
 /obj/structure/catwalk/bigred,
@@ -24545,7 +24531,7 @@
 	icon_state = "p_stair_full"
 	},
 /obj/structure/platform/metal/stair_cut/platform_left,
-/turf/open/space/basic,
+/turf/open/floor/corsat,
 /area/point_loma/airbase/interior/garage)
 "bsU" = (
 /obj/structure/platform/metal/almayer/north,
@@ -26951,7 +26937,7 @@
 	icon_state = "p_stair_full"
 	},
 /obj/structure/platform/metal/almayer,
-/turf/open/space/basic,
+/turf/open/floor/corsat,
 /area/point_loma/airbase/interior/garage)
 "bAp" = (
 /turf/open/floor/predship/hull,
@@ -27070,13 +27056,6 @@
 	color = "#C9AE74"
 	},
 /turf/open/floor/plating/plating_catwalk/prison,
-/area/point_loma/airbase/interior/garage)
-"bAH" = (
-/obj/structure/machinery/door/airlock/almayer/secure/colony{
-	dir = 2;
-	name = "Colony Garage"
-	},
-/turf/open/space/basic,
 /area/point_loma/airbase/interior/garage)
 "bAI" = (
 /obj/structure/prop/hunter/fake_platform/hunter,
@@ -29494,7 +29473,7 @@
 /obj/structure/machinery/door/poddoor/hybrisa/shutters{
 	id = "engineering_lockdown"
 	},
-/turf/open/space/basic,
+/turf/open/floor/corsat,
 /area/point_loma/research_facility/command)
 "bHF" = (
 /obj/structure/window/reinforced{
@@ -29931,7 +29910,7 @@
 	dir = 8;
 	id = "bunker_shutters"
 	},
-/turf/open/space/basic,
+/turf/open/floor/shiva/bluefull,
 /area/point_loma/research_facility/command)
 "bIw" = (
 /obj/structure/filingcabinet{
@@ -29987,7 +29966,7 @@
 /turf/open/floor/corsat,
 /area/point_loma/research_facility/research/east)
 "bIF" = (
-/turf/open/space/basic,
+/turf/open/floor/corsat,
 /area/point_loma/research_facility/research/east)
 "bIG" = (
 /obj/structure/sign/safety/fire_haz,
@@ -32588,9 +32567,6 @@
 "bSH" = (
 /turf/open/floor/shiva/red/east,
 /area/point_loma/airbase/mining_colony/exterior/security/north)
-"bSI" = (
-/turf/open/auto_turf/sand_white/layer1,
-/area/point_loma/airbase/mining_colony/exterior/security/north)
 "bSJ" = (
 /obj/structure/pipes/vents/pump/siphon/on{
 	dir = 1;
@@ -32730,7 +32706,7 @@
 /turf/open/new_varadero,
 /area/point_loma/airbase/mining_colony/interior/engineering/communications)
 "bTt" = (
-/turf/open/space/basic,
+/turf/open/floor/corsat,
 /area/point_loma/airbase/mining_colony/interior/engineering/communications)
 "bTu" = (
 /turf/closed/wall/shiva/prefabricated/orange,
@@ -39283,7 +39259,7 @@
 /obj/structure/pipes/standard/simple/hidden/green{
 	dir = 4
 	},
-/turf/open/floor/corsat/squares,
+/turf/open/floor/corsat,
 /area/point_loma/research_facility/command/mess)
 "mLM" = (
 /obj/structure/barricade/handrail/hybrisa,
@@ -39460,7 +39436,7 @@
 /obj/structure/window/framed/new_varadero/foundation,
 /obj/structure/window/framed/new_varadero/foundation,
 /obj/structure/pipes/standard/simple/hidden/green,
-/turf/open/floor/corsat/squares,
+/turf/open/floor/corsat,
 /area/point_loma/research_facility/command/mess)
 "ppu" = (
 /obj/structure/bed/chair/comfy{
@@ -40127,7 +40103,7 @@
 "wmF" = (
 /obj/structure/window/framed/new_varadero/foundation,
 /obj/structure/pipes/standard/simple/hidden/green,
-/turf/open/space/basic,
+/turf/open/floor/corsat,
 /area/point_loma/research_facility/gym)
 "wpv" = (
 /obj/structure/pipes/standard/manifold/hidden/green{
@@ -97587,7 +97563,7 @@ asb
 bIW
 bIW
 aMT
-big
+bJb
 big
 big
 big
@@ -104122,11 +104098,11 @@ bJk
 bJk
 bJk
 bJk
-abi
+aaX
 mGa
 bJk
-abi
-abi
+aaX
+aaX
 aaf
 bJk
 bJf
@@ -104662,7 +104638,7 @@ aaH
 acf
 suD
 fYo
-aep
+asy
 fYo
 fYo
 cxs
@@ -105214,11 +105190,11 @@ acr
 acr
 acr
 acr
-abi
-abi
+aaX
+aaX
 bJk
-abi
-abi
+aaX
+aaX
 aaf
 bJk
 bIO
@@ -138292,7 +138268,7 @@ cll
 cll
 aVW
 ahL
-aVh
+aKD
 ale
 aVW
 ahL
@@ -152934,8 +152910,8 @@ aci
 aci
 aci
 aAB
-acm
-acm
+acp
+acp
 bPq
 bOU
 bOU
@@ -153116,8 +153092,8 @@ aci
 aci
 aci
 aAB
-acm
-acm
+acp
+acp
 bPq
 bOU
 bOU
@@ -153298,8 +153274,8 @@ acx
 acx
 aci
 aAB
-acm
-acm
+acp
+acp
 bPq
 bOU
 bOU
@@ -160164,7 +160140,7 @@ bVN
 bVD
 ant
 bIr
-bAH
+ayi
 bSc
 bzp
 bsT
@@ -163984,7 +163960,7 @@ bTf
 bSH
 bSD
 bSw
-bSI
+bTj
 aYm
 bSo
 aXH
