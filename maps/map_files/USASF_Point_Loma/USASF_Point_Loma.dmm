@@ -567,11 +567,6 @@
 /obj/effect/landmark/objective_landmark/close,
 /turf/open/floor/darkbrown2,
 /area/point_loma/airbase/interior/cargo)
-"abN" = (
-/obj/structure/window/framed/shiva/red,
-/obj/structure/window/framed/shiva/red,
-/turf/open/new_varadero,
-/area/point_loma/airbase/mining_colony/interior/security/barracks)
 "abO" = (
 /obj/effect/decal/hybrisa/dirt,
 /turf/open/floor/shiva/redfull,
@@ -160910,7 +160905,7 @@ buE
 buE
 bux
 buo
-abN
+bPo
 aTK
 bPg
 bPg
