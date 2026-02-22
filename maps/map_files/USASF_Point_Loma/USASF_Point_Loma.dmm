@@ -7263,16 +7263,13 @@
 /obj/structure/prop/server_equipment/laptop/on{
 	icon_state = "broadcaster_send"
 	},
-/turf/open/shuttle/lifeboat/catwalk{
-	dir = 1;
-	icon_state = "floor1"
-	},
+/turf/open/shuttle/escapepod/floor1/north,
 /area/point_loma/research_facility/super_death_cannon/observation)
 "avt" = (
 /obj/structure/prop/server_equipment/laptop/on{
 	icon_state = "blackbox"
 	},
-/turf/open/shuttle/lifeboat/catwalk,
+/turf/open/shuttle/escapepod/floor3/east,
 /area/point_loma/research_facility/super_death_cannon/observation)
 "avu" = (
 /obj/structure/surface/table/woodentable,
@@ -7292,11 +7289,11 @@
 	pixel_y = 9;
 	pixel_x = 7
 	},
-/turf/open/shuttle/lifeboat/catwalk,
+/turf/open/shuttle/escapepod/floor3/east,
 /area/point_loma/research_facility/super_death_cannon/observation)
 "avw" = (
 /obj/structure/surface/table/reinforced/prison,
-/turf/open/shuttle/lifeboat/catwalk,
+/turf/open/shuttle/escapepod/floor3/east,
 /area/point_loma/research_facility/super_death_cannon/observation)
 "avx" = (
 /obj/structure/prop/hybrisa/factory/conveyor_belt,
@@ -7316,7 +7313,7 @@
 /area/point_loma/research_facility/medical)
 "avz" = (
 /obj/structure/machinery/big_computers/computerwhite/computer3,
-/turf/open/shuttle/lifeboat/catwalk,
+/turf/open/shuttle/escapepod/floor3/east,
 /area/point_loma/research_facility/super_death_cannon/observation)
 "avA" = (
 /obj/structure/machinery/door/poddoor/shutters/almayer/open,
@@ -7336,7 +7333,7 @@
 /area/point_loma/airbase/interior/cargo)
 "avD" = (
 /obj/structure/machinery/telecomms/server,
-/turf/open/shuttle/lifeboat/catwalk,
+/turf/open/shuttle/escapepod/floor3/east,
 /area/point_loma/research_facility/super_death_cannon/observation)
 "avE" = (
 /obj/structure/machinery/chem_simulator{
@@ -7364,9 +7361,7 @@
 /area/point_loma/research_facility/medical)
 "avI" = (
 /obj/structure/pipes/standard/simple/hidden/green,
-/turf/open/shuttle/lifeboat/catwalk{
-	dir = 2
-	},
+/turf/open/shuttle/escapepod/floor3,
 /area/point_loma/research_facility/hallway/east)
 "avJ" = (
 /obj/effect/decal/warning_stripes{
@@ -7450,10 +7445,7 @@
 /turf/open/new_varadero,
 /area/point_loma/airbase/interior/cargo)
 "avW" = (
-/turf/open/shuttle/lifeboat/catwalk{
-	dir = 1;
-	icon_state = "floor1"
-	},
+/turf/open/shuttle/escapepod/floor1/north,
 /area/point_loma/research_facility/super_death_cannon/observation)
 "avX" = (
 /turf/open/floor/corsat/greenwhite/northeast,
@@ -7475,9 +7467,7 @@
 /obj/structure/prop/server_equipment/laptop/on{
 	icon_state = "bus"
 	},
-/turf/open/shuttle/lifeboat/catwalk{
-	dir = 1
-	},
+/turf/open/shuttle/escapepod/floor1,
 /area/point_loma/research_facility/super_death_cannon/observation)
 "awc" = (
 /obj/structure/barricade/handrail/medical{
@@ -7490,9 +7480,7 @@
 /turf/open/floor/corsat/greenwhite/east,
 /area/point_loma/research_facility/medical)
 "awd" = (
-/turf/open/shuttle/escapepod/floor2{
-	dir = 8
-	},
+/turf/open/shuttle/escapepod/floor2/west,
 /area/point_loma/research_facility/super_death_cannon/observation)
 "awe" = (
 /turf/open/floor/corsat/purple/east,
@@ -7682,14 +7670,10 @@
 /turf/open/floor/corsat/squares,
 /area/point_loma/research_facility/super_death_cannon/observation)
 "awC" = (
-/turf/open/shuttle/escapepod/floor2{
-	dir = 4
-	},
+/turf/open/shuttle/escapepod/floor2/east,
 /area/point_loma/research_facility/super_death_cannon/observation)
 "awD" = (
-/turf/open/shuttle/escapepod/floor2{
-	dir = 1
-	},
+/turf/open/shuttle/escapepod/floor2/north,
 /area/point_loma/research_facility/super_death_cannon/observation)
 "awE" = (
 /obj/structure/machinery/portable_atmospherics/canister/empty,
@@ -7901,10 +7885,7 @@
 	pixel_x = 17;
 	icon_state = "overwatchb"
 	},
-/turf/open/shuttle/lifeboat/catwalk{
-	dir = 1;
-	icon_state = "floor1"
-	},
+/turf/open/shuttle/escapepod/floor1/north,
 /area/point_loma/research_facility/super_death_cannon/observation)
 "axg" = (
 /obj/structure/machinery/computer/WYresearch{
@@ -7930,12 +7911,10 @@
 /turf/open/shuttle/lifeboat/catwalk,
 /area/point_loma/research_facility/super_death_cannon/observation)
 "axk" = (
-/turf/open/shuttle/lifeboat/catwalk,
+/turf/open/shuttle/escapepod/floor3/east,
 /area/point_loma/research_facility/super_death_cannon/observation)
 "axl" = (
-/turf/open/shuttle/escapepod/floor2{
-	dir = 8
-	},
+/turf/open/shuttle/escapepod/floor2/west,
 /area/point_loma/research_facility/hallway/east)
 "axm" = (
 /obj/structure/machinery/cm_vending/sorted/medical,
@@ -8121,9 +8100,7 @@
 	pixel_x = -18
 	},
 /obj/structure/pipes/standard/simple/hidden/green,
-/turf/open/shuttle/lifeboat/catwalk{
-	dir = 2
-	},
+/turf/open/shuttle/escapepod/floor1,
 /area/point_loma/research_facility/super_death_cannon/observation)
 "axJ" = (
 /obj/effect/decal/warning_stripes{
@@ -8334,7 +8311,7 @@
 	icon_state = "hub_off";
 	pixel_x = 6
 	},
-/turf/open/shuttle/lifeboat/catwalk,
+/turf/open/shuttle/escapepod/floor3/east,
 /area/point_loma/research_facility/super_death_cannon/observation)
 "ayf" = (
 /obj/structure/pipes/standard/simple/visible,
@@ -8351,7 +8328,7 @@
 /obj/structure/prop/server_equipment/laptop/on{
 	icon_state = "bus"
 	},
-/turf/open/shuttle/lifeboat/catwalk,
+/turf/open/shuttle/escapepod/floor3/east,
 /area/point_loma/research_facility/super_death_cannon/observation)
 "ayi" = (
 /obj/structure/machinery/door/airlock/almayer/secure/colony{
@@ -8364,7 +8341,7 @@
 /obj/structure/prop/server_equipment/laptop/on{
 	icon_state = "broadcast receiver"
 	},
-/turf/open/shuttle/lifeboat/catwalk,
+/turf/open/shuttle/escapepod/floor3/east,
 /area/point_loma/research_facility/super_death_cannon/observation)
 "ayk" = (
 /obj/structure/morgue{
@@ -8492,9 +8469,7 @@
 /turf/open/floor/corsat/purple/north,
 /area/point_loma/research_facility/super_death_cannon/observation)
 "ayA" = (
-/turf/open/shuttle/lifeboat/catwalk{
-	dir = 1
-	},
+/turf/open/shuttle/escapepod/floor3/north,
 /area/point_loma/research_facility/super_death_cannon/observation)
 "ayB" = (
 /obj/structure/pipes/vents/scrubber{
@@ -8647,9 +8622,7 @@
 /obj/structure/bed/chair/office/dark{
 	dir = 1
 	},
-/turf/open/shuttle/lifeboat/catwalk{
-	dir = 1
-	},
+/turf/open/shuttle/escapepod/floor3/north,
 /area/point_loma/research_facility/super_death_cannon/observation)
 "aze" = (
 /obj/structure/surface/table/reinforced/prison,
@@ -37139,7 +37112,7 @@
 /area/point_loma/research_facility/super_death_cannon/observation)
 "ciy" = (
 /obj/structure/machinery/big_computers/computerbrown/computer4,
-/turf/open/shuttle/lifeboat/catwalk,
+/turf/open/shuttle/escapepod/floor3/east,
 /area/point_loma/research_facility/super_death_cannon/observation)
 "ciz" = (
 /obj/effect/acid_hole{
@@ -40125,10 +40098,7 @@
 /obj/structure/pipes/standard/simple/hidden/green{
 	dir = 4
 	},
-/turf/open/shuttle/lifeboat/catwalk{
-	dir = 1;
-	icon_state = "floor1"
-	},
+/turf/open/shuttle/escapepod/floor1/north,
 /area/point_loma/research_facility/super_death_cannon/observation)
 "csr" = (
 /obj/structure/pipes/standard/simple/hidden/green{
@@ -40148,9 +40118,7 @@
 /area/point_loma/research_facility/super_death_cannon/observation)
 "cst" = (
 /obj/structure/pipes/standard/manifold/hidden/green,
-/turf/open/shuttle/lifeboat/catwalk{
-	dir = 2
-	},
+/turf/open/shuttle/escapepod/floor1,
 /area/point_loma/research_facility/super_death_cannon/observation)
 "csu" = (
 /obj/structure/pipes/standard/simple/hidden/green{
@@ -40178,15 +40146,11 @@
 /area/point_loma/research_facility/super_death_cannon/observation/civ)
 "csy" = (
 /obj/structure/pipes/standard/simple/hidden/green,
-/turf/open/shuttle/lifeboat/catwalk{
-	dir = 2
-	},
+/turf/open/shuttle/escapepod/floor1,
 /area/point_loma/research_facility/super_death_cannon/observation)
 "csz" = (
 /obj/structure/pipes/standard/simple/hidden/green,
-/turf/open/shuttle/escapepod/floor2{
-	dir = 8
-	},
+/turf/open/shuttle/escapepod/floor2/west,
 /area/point_loma/research_facility/super_death_cannon/observation)
 "csA" = (
 /obj/structure/pipes/standard/simple/hidden/green{
