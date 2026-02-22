@@ -1597,14 +1597,6 @@
 /obj/structure/reagent_dispensers/tank/fuel,
 /turf/open/floor/shiva/floor3,
 /area/point_loma/airbase/interior/workshop)
-"afm" = (
-/obj/structure/window/framed/new_varadero/foundation/reinforced,
-/obj/structure/window/framed/new_varadero/foundation/reinforced,
-/obj/structure/machinery/door/poddoor/hybrisa/shutters{
-	id = "engineering_lockdown"
-	},
-/turf/open/floor/corsat,
-/area/point_loma/research_facility/command)
 "afn" = (
 /obj/structure/prop/almayer/computers/mapping_computer,
 /turf/open/floor/corsat/squares,
@@ -5643,11 +5635,6 @@
 	},
 /turf/open/hybrisa/street/asphalt,
 /area/point_loma/airbase/exterior/west)
-"aro" = (
-/obj/structure/window/framed/new_varadero/foundation/reinforced/hull,
-/obj/structure/blocker/invisible_wall,
-/turf/closed/wall/new_varadero,
-/area/point_loma/oob)
 "arp" = (
 /obj/structure/window/framed/new_varadero/foundation/reinforced/hull,
 /obj/structure/blocker/invisible_wall,
@@ -7578,11 +7565,6 @@
 	},
 /turf/open/floor/plating/plating_catwalk/prison,
 /area/point_loma/airbase/interior/garage)
-"awt" = (
-/obj/structure/window/framed/new_varadero/foundation/reinforced/hull,
-/obj/structure/blocker/invisible_wall,
-/turf/open/space/basic,
-/area/point_loma/oob)
 "awu" = (
 /obj/structure/bed/chair/comfy/teal{
 	dir = 8
@@ -107161,7 +107143,7 @@ bHU
 acA
 cqa
 cew
-afm
+bHE
 bHC
 ceo
 ceg
@@ -107296,7 +107278,7 @@ aNw
 aNw
 aNw
 aNw
-arp
+aMC
 ayG
 awO
 awO
@@ -107477,8 +107459,8 @@ aNw
 aNw
 aNw
 aNw
-aro
-arp
+aMC
+aMC
 ayI
 ayp
 arr
@@ -107659,7 +107641,7 @@ aNw
 aNw
 aNw
 aNw
-aro
+aMC
 ayG
 ayK
 ayr
@@ -107841,7 +107823,7 @@ aNw
 aNw
 aNw
 aNw
-aro
+aMC
 ayI
 awP
 awP
@@ -108023,7 +108005,7 @@ aNw
 aNw
 aNw
 aNw
-aro
+aMC
 azb
 ayL
 ayt
@@ -108205,8 +108187,8 @@ aNw
 aNw
 aNw
 aNw
-aro
-aro
+aMC
+aMC
 ayI
 ayv
 arr
@@ -108388,7 +108370,7 @@ aNw
 aNw
 aNw
 aNw
-arp
+aMC
 ayN
 awS
 awS
@@ -109300,7 +109282,7 @@ aNw
 aNw
 aNw
 aNw
-arp
+aMC
 axU
 axv
 awU
@@ -109482,7 +109464,7 @@ aNw
 aNw
 aNw
 aNw
-arp
+aMC
 axW
 axw
 awW
@@ -109664,7 +109646,7 @@ aNw
 aNw
 aNw
 aNw
-arp
+aMC
 ayb
 axx
 awX
@@ -109846,7 +109828,7 @@ aNw
 aNw
 aNw
 aNw
-awt
+aMC
 ayc
 axy
 awY
@@ -110028,8 +110010,8 @@ aNw
 aNw
 aNw
 aNw
-awt
-awt
+aMC
+aMC
 bMk
 awZ
 bMk
@@ -110211,8 +110193,8 @@ aNw
 aNw
 aNw
 aNw
-awt
-awt
+aMC
+aMC
 bMk
 bMk
 atj
@@ -110394,8 +110376,8 @@ aNw
 aNw
 aNw
 aNw
-awt
-awt
+aMC
+aMC
 awp
 atj
 avl
@@ -110577,8 +110559,8 @@ aNw
 aNw
 aNw
 aNw
-awt
-awt
+aMC
+aMC
 bJw
 avm
 bMk
