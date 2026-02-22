@@ -3162,6 +3162,21 @@
 /obj/structure/bed/roller,
 /turf/open/floor/corsat/greenwhite,
 /area/point_loma/research_facility/medical)
+"akf" = (
+/obj/structure/surface/table/reinforced/prison,
+/obj/item/paper_bin{
+	pixel_x = -3;
+	pixel_y = 6
+	},
+/obj/item/tool/pen/blue,
+/obj/structure/window/reinforced{
+	dir = 8
+	},
+/obj/structure/window/reinforced{
+	dir = 4
+	},
+/turf/open/floor/shiva/yellowfull,
+/area/point_loma/research_facility/hallway/north)
 "akg" = (
 /obj/structure/machinery/light/double,
 /turf/open/new_varadero/taupe_concrete/warning/corner/southeast,
@@ -11044,16 +11059,6 @@
 /obj/structure/machinery/door/poddoor/shutters/almayer/containment,
 /turf/open/floor/corsat,
 /area/point_loma/research_facility/research/east)
-"aGu" = (
-/obj/structure/platform/metal/strata/north,
-/obj/structure/platform/metal/strata/north,
-/obj/structure/barricade/sandbags{
-	dir = 1;
-	icon_state = "sandbag_0";
-	pixel_y = 14
-	},
-/turf/open/new_varadero/alt_concrete/grate_s,
-/area/point_loma/research_facility/research/west)
 "aGv" = (
 /obj/structure/pipes/standard/simple/visible{
 	dir = 9;
@@ -22882,9 +22887,6 @@
 /turf/open/new_varadero/alt_concrete/warning,
 /area/point_loma/research_facility/engineering)
 "boo" = (
-/obj/structure/stairs/perspective{
-	icon_state = "p_stair_ew_full_cap"
-	},
 /obj/structure/stairs/perspective{
 	icon_state = "p_stair_ew_full_cap"
 	},
@@ -37502,9 +37504,6 @@
 /turf/open_space,
 /area/space)
 "cjV" = (
-/obj/structure/platform/stone/kutjevo/east{
-	dir = 2
-	},
 /obj/structure/platform/stone/kutjevo/east{
 	dir = 2
 	},
@@ -97055,7 +97054,7 @@ bNW
 bMj
 bLc
 bKU
-aLk
+akf
 aBr
 aBr
 chI
@@ -97508,7 +97507,7 @@ aHd
 aGX
 aGP
 cnn
-aGu
+aGp
 aGj
 aFW
 aFP
