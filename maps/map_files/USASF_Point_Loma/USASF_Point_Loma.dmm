@@ -4794,7 +4794,7 @@
 /turf/open/hybrisa/street/asphalt,
 /area/point_loma/airbase/exterior/west)
 "aoY" = (
-/obj/structure/machinery/power/smes,
+/obj/structure/machinery/power/smes/buildable,
 /turf/open/floor/corsat/squares,
 /area/point_loma/research_facility/super_death_cannon/engineering)
 "aoZ" = (
@@ -24815,7 +24815,7 @@
 /turf/open/floor/hybrisa/tile/tilewhite,
 /area/point_loma/airbase/mining_colony/interior/security/barracks)
 "bvb" = (
-/obj/structure/machinery/power/smes,
+/obj/structure/machinery/power/smes/buildable,
 /turf/open/floor/shiva/yellow/north,
 /area/point_loma/airbase/mining_colony/interior/engineering)
 "bvc" = (
