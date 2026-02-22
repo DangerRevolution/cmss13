@@ -6117,9 +6117,6 @@
 /obj/structure/machinery/portable_atmospherics/canister/oxygen,
 /turf/open/floor/shiva/green/northeast,
 /area/point_loma/airbase/interior/hospital)
-"asJ" = (
-/turf/closed/wall/shiva/prefabricated/orange,
-/area/point_loma/oob)
 "asK" = (
 /obj/effect/decal/warning_stripes{
 	icon_state = "cargo_arrow2";
@@ -169293,10 +169290,10 @@ bTS
 asb
 asb
 asb
-asJ
-asJ
-asJ
-asJ
+bTu
+bTu
+bTu
+bTu
 bRp
 bSL
 aTw
