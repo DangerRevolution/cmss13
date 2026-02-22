@@ -19,8 +19,8 @@
 		"/datum/equipment_preset/survivor/usasf/crew/medical/nurse",
 		"/datum/equipment_preset/survivor/usasf/crew/medical/doctor",
 		"/datum/equipment_preset/survivor/usasf/security",
-		"/datum/equipment_preset/survivor/usasf/officer"
-		"/datum/equipment_preset/survivor/usasf/officer/off_duty"
+		"/datum/equipment_preset/survivor/usasf/officer",
+		"/datum/equipment_preset/survivor/usasf/officer/off_duty",
 		"/datum/equipment_preset/survivor/usasf/officer/pilot"
     ],
 	"synth_survivor_types": [
