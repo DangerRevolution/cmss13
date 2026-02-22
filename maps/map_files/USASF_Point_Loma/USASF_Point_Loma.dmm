@@ -6117,6 +6117,9 @@
 /obj/structure/machinery/portable_atmospherics/canister/oxygen,
 /turf/open/floor/shiva/green/northeast,
 /area/point_loma/airbase/interior/hospital)
+"asJ" = (
+/turf/closed/wall/shiva/prefabricated/orange,
+/area/point_loma/oob)
 "asK" = (
 /obj/effect/decal/warning_stripes{
 	icon_state = "cargo_arrow2";
@@ -13558,16 +13561,14 @@
 /turf/open_space,
 /area/space)
 "aNS" = (
-/obj/structure/fence/slim/dark,
-/turf/open/auto_turf/sand_white/layer1,
+/turf/open/new_varadero,
 /area/point_loma/airbase/mining_colony/interior/engineering/communications)
 "aNT" = (
 /turf/open/floor/shiva/blue,
 /area/point_loma/airbase/mining_colony/interior/living_quarters)
 "aNU" = (
-/obj/structure/fence/slim/dark,
-/obj/structure/fence/slim/dark,
-/turf/open/auto_turf/sand_white/layer1,
+/obj/structure/machinery/power/apc/power/east,
+/turf/open/new_varadero,
 /area/point_loma/airbase/mining_colony/interior/engineering/communications)
 "aNV" = (
 /obj/item/shard/shrapnel,
@@ -169292,10 +169293,10 @@ bTS
 asb
 asb
 asb
-asb
-asb
-asb
-asb
+asJ
+asJ
+asJ
+asJ
 bRp
 bSL
 aTw
