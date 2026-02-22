@@ -699,6 +699,10 @@
 "acl" = (
 /turf/open/floor/shiva/wredcorners/east,
 /area/point_loma/airbase/interior/hospital)
+"acm" = (
+/obj/structure/machinery/light/double,
+/turf/open/floor/plating/plating_catwalk/prison,
+/area/point_loma/airbase/mining_colony/interior/engineering)
 "acn" = (
 /obj/effect/decal/warning_stripes{
 	icon_state = "cargo_arrow2"
@@ -1122,6 +1126,12 @@
 /obj/structure/machinery/vending/dinnerware,
 /turf/open/floor/strata/fake_wood,
 /area/point_loma/research_facility/command/mess)
+"adH" = (
+/obj/structure/machinery/light/double{
+	dir = 8
+	},
+/turf/open/floor/shiva,
+/area/point_loma/airbase/mining_colony/interior/engineering)
 "adI" = (
 /obj/effect/landmark/structure_spawner/setup/distress/xeno_weed_node,
 /turf/open/floor/corsat,
@@ -1175,6 +1185,16 @@
 	icon_state = "E";
 	pixel_x = 2
 	},
+/turf/open/floor/shiva,
+/area/point_loma/airbase/mining_colony/interior/engineering)
+"adR" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "N";
+	layer = 3.33;
+	pixel_y = 2;
+	pixel_x = -1
+	},
+/obj/structure/machinery/light/double,
 /turf/open/floor/shiva,
 /area/point_loma/airbase/mining_colony/interior/engineering)
 "adS" = (
@@ -1349,6 +1369,19 @@
 /obj/structure/surface/table/gamblingtable,
 /turf/open/floor/strata/fake_wood,
 /area/point_loma/research_facility/command/mess)
+"aez" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "S";
+	pixel_x = -1;
+	pixel_y = 1
+	},
+/obj/effect/decal/cleanable/dirt/sand_2,
+/obj/structure/machinery/light/double{
+	dir = 1;
+	pixel_y = 9
+	},
+/turf/open/floor/shiva,
+/area/point_loma/airbase/mining_colony/interior/engineering)
 "aeA" = (
 /obj/effect/decal/warning_stripes{
 	icon_state = "E";
@@ -1423,6 +1456,18 @@
 	},
 /turf/open/floor/strata/fake_wood,
 /area/point_loma/research_facility/command/mess)
+"aeN" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "S";
+	pixel_x = -1;
+	pixel_y = 1
+	},
+/obj/structure/machinery/light/double{
+	dir = 1;
+	pixel_y = 9
+	},
+/turf/open/floor/shiva,
+/area/point_loma/airbase/mining_colony/interior/engineering)
 "aeO" = (
 /obj/structure/platform_decoration/metal/strata/west,
 /turf/open/floor/strata/fake_wood,
@@ -1598,6 +1643,13 @@
 	},
 /turf/open/floor/wood,
 /area/point_loma/airbase/interior/cargo/upper)
+"afs" = (
+/obj/structure/terminal{
+	dir = 1
+	},
+/obj/structure/machinery/light/double,
+/turf/open/floor/shiva/yellow,
+/area/point_loma/airbase/mining_colony/interior/engineering)
 "aft" = (
 /obj/structure/machinery/door/airlock/multi_tile/almayer/engidoor/glass{
 	dir = 2
@@ -1975,6 +2027,12 @@
 /obj/item/clothing/glasses/hud/health,
 /turf/open/floor/corsat,
 /area/point_loma/research_facility/command)
+"agz" = (
+/obj/structure/machinery/light/double{
+	dir = 4
+	},
+/turf/open/floor/shiva/yellow/east,
+/area/point_loma/airbase/mining_colony/interior/engineering)
 "agA" = (
 /obj/structure/machinery/chem_dispenser/soda,
 /turf/closed/wall/new_varadero,
@@ -2070,6 +2128,10 @@
 	},
 /turf/open/floor/shiva/multi_tiles/southeast,
 /area/point_loma/airbase/interior/garage)
+"agR" = (
+/obj/structure/machinery/light/double,
+/turf/open/floor/shiva/yellow,
+/area/point_loma/airbase/mining_colony/interior/engineering)
 "agS" = (
 /obj/structure/prop/server_equipment/broken,
 /turf/open/floor/asteroidfloor,
@@ -2166,6 +2228,12 @@
 "ahf" = (
 /turf/open/floor/corsat/greenwhite/west,
 /area/point_loma/research_facility/medical)
+"ahg" = (
+/obj/structure/machinery/light/double{
+	dir = 8
+	},
+/turf/open/floor/shiva/yellow/west,
+/area/point_loma/airbase/mining_colony/interior/engineering)
 "ahh" = (
 /obj/item/tool/shovel/snow,
 /obj/item/storage/toolbox/emergency,
@@ -2207,6 +2275,11 @@
 	},
 /turf/open/floor/corsat/tan,
 /area/point_loma/research_facility/medical)
+"ahp" = (
+/obj/effect/decal/cleanable/dirt/sand_3,
+/obj/structure/machinery/light/double,
+/turf/open/floor/shiva,
+/area/point_loma/airbase/mining_colony/interior/engineering)
 "ahq" = (
 /obj/structure/bed/sofa/vert/white/top,
 /turf/open/floor/hybrisa/tile/tilered,
@@ -2268,6 +2341,13 @@
 	},
 /turf/open/floor/hybrisa/tile/tilered,
 /area/point_loma/airbase/mining_colony/interior/security/barracks)
+"ahA" = (
+/obj/structure/machinery/light/double{
+	dir = 1;
+	pixel_y = 9
+	},
+/turf/open/floor/shiva,
+/area/point_loma/airbase/mining_colony/interior/engineering)
 "ahB" = (
 /turf/open_space,
 /area/point_loma/oob)
@@ -2540,6 +2620,10 @@
 	},
 /turf/open/floor/shiva/multi_tiles,
 /area/point_loma/airbase/interior/cargo)
+"aiu" = (
+/obj/structure/machinery/power/apc/power/north,
+/turf/open/floor/shiva/yellow/north,
+/area/point_loma/airbase/mining_colony/interior/engineering)
 "aiv" = (
 /obj/structure/closet/secure_closet/medical3{
 	req_access_txt = "100"
@@ -2755,6 +2839,13 @@
 	},
 /turf/open/floor/corsat,
 /area/point_loma/research_facility/engineering)
+"ajh" = (
+/obj/structure/machinery/light/double{
+	dir = 1;
+	pixel_y = 9
+	},
+/turf/open/floor/shiva/yellow/north,
+/area/point_loma/airbase/mining_colony/interior/engineering)
 "aji" = (
 /obj/structure/machinery/conveyor{
 	dir = 10
@@ -2801,6 +2892,12 @@
 "ajp" = (
 /turf/open/floor/corsat/lightplate,
 /area/point_loma/airbase/interior/research)
+"ajq" = (
+/obj/structure/machinery/light/double{
+	dir = 4
+	},
+/turf/open/auto_turf/sand_white/layer1,
+/area/point_loma/airbase/mining_colony/interior/engineering/communications)
 "ajr" = (
 /obj/structure/machinery/computer/shuttle/dropship,
 /turf/open/floor/asteroidfloor,
@@ -3058,6 +3155,10 @@
 /obj/structure/pipes/standard/simple/hidden/green,
 /turf/closed/wall/huntership/destructible,
 /area/point_loma/research_facility/crash_site)
+"akg" = (
+/obj/structure/machinery/light/double,
+/turf/open/new_varadero/taupe_concrete/warning/corner/southeast,
+/area/point_loma/airbase/mining_colony/interior/engineering/communications)
 "akh" = (
 /obj/effect/decal/warning_stripes{
 	icon_state = "test_warning"
@@ -17250,6 +17351,9 @@
 /area/point_loma/airbase/exterior/west)
 "aZQ" = (
 /obj/structure/closet/secure_closet/engineering_personal,
+/obj/structure/machinery/light/double{
+	dir = 4
+	},
 /turf/open/floor/shiva/yellow/east,
 /area/point_loma/airbase/mining_colony/interior/engineering)
 "aZR" = (
@@ -17262,6 +17366,9 @@
 /obj/item/stack/sheet/metal/small_stack{
 	pixel_x = -6;
 	pixel_y = 1
+	},
+/obj/structure/machinery/light/double{
+	dir = 8
 	},
 /turf/open/floor/shiva/yellow/west,
 /area/point_loma/airbase/mining_colony/interior/engineering)
@@ -24985,6 +25092,9 @@
 	pixel_y = 10;
 	pixel_x = 8
 	},
+/obj/structure/machinery/light/double{
+	dir = 8
+	},
 /turf/open/floor/shiva/yellow/west,
 /area/point_loma/airbase/mining_colony/interior/engineering)
 "bvH" = (
@@ -25235,6 +25345,9 @@
 "bwr" = (
 /obj/structure/bed/chair/bolted{
 	dir = 8
+	},
+/obj/structure/machinery/light/double{
+	dir = 4
 	},
 /turf/open/floor/shiva/yellow/east,
 /area/point_loma/airbase/mining_colony/interior/engineering)
@@ -25487,6 +25600,7 @@
 /area/point_loma/airbase/mining_colony/interior/engineering/communications)
 "bxi" = (
 /obj/effect/decal/cleanable/dirt/sand_1,
+/obj/structure/machinery/light/double,
 /turf/open/new_varadero/taupe_concrete/warning/corner/southwest,
 /area/point_loma/airbase/mining_colony/interior/engineering/communications)
 "bxj" = (
@@ -32114,6 +32228,7 @@
 /turf/open/floor/shiva/north,
 /area/point_loma/airbase/mining_colony/exterior/security/north)
 "bSv" = (
+/obj/structure/machinery/power/apc/power/east,
 /turf/open/floor/shiva/redfull,
 /area/point_loma/airbase/mining_colony/exterior/security/north)
 "bSx" = (
@@ -167256,7 +167371,7 @@ bAd
 bAQ
 aNP
 aNP
-aNP
+ajq
 bAU
 bAy
 bAi
@@ -167452,7 +167567,7 @@ bRp
 bRp
 bRp
 bRY
-bZH
+aez
 bRv
 aoW
 aoM
@@ -167624,7 +167739,7 @@ bTs
 bwZ
 bSk
 bSk
-bSk
+ahg
 bwG
 bRp
 bvS
@@ -168185,7 +168300,7 @@ bRv
 bRv
 aoR
 aoB
-ama
+adR
 bPW
 ajW
 ajW
@@ -168368,7 +168483,7 @@ bRv
 bRv
 ana
 ama
-bSi
+adH
 bSi
 bRp
 bPO
@@ -168544,7 +168659,7 @@ bvh
 bSi
 bSe
 bRp
-asR
+aeN
 bRv
 bRv
 bRv
@@ -168711,7 +168826,7 @@ bAd
 bxr
 bxp
 bxp
-bxj
+akg
 bTu
 bxc
 bSi
@@ -168722,7 +168837,7 @@ bRp
 bvX
 bSl
 bSl
-bSl
+agz
 baP
 bSe
 bRp
@@ -168733,7 +168848,7 @@ bRv
 aoI
 ajA
 ajA
-ajA
+acm
 bRp
 bPO
 bPO
@@ -168896,9 +169011,9 @@ aNU
 aNS
 bRY
 bRp
+ahA
 bSi
-bSi
-bvV
+ahp
 bRp
 bRY
 bvY
@@ -169259,7 +169374,7 @@ asb
 asb
 asb
 bRp
-bSL
+aiu
 aUe
 aUe
 aUe
@@ -169270,7 +169385,7 @@ aOj
 aEx
 bRp
 bvb
-aPa
+afs
 bRp
 asR
 bRv
@@ -169461,7 +169576,7 @@ ajA
 ajA
 ajA
 ajA
-ajA
+acm
 aoC
 bPO
 bPO
@@ -169623,11 +169738,11 @@ asb
 asb
 asb
 bRp
-bSL
+ajh
 aTw
 aTw
 aTw
-bSe
+agR
 bRp
 asb
 bSz
