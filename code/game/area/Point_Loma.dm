@@ -151,6 +151,7 @@
 
 /area/point_loma/airbase/exterior
 	name = "USASF Point Loma Airbase - Exterior"
+	always_unpowered = TRUE // always off
 
 /area/point_loma/airbase/exterior/crash_site
 	name = "Runway Crash Site"
@@ -173,6 +174,7 @@
 	minimap_color = MINIMAP_AREA_CAVES_DEEP
 	icon_state = "tunnels0"
 	ceiling = CEILING_UNDERGROUND_BLOCK_CAS
+	always_unpowered = TRUE // always off
 
 /area/point_loma/airbase/cave/south
 	name = "Point Loma Airbase - Caves - South"
@@ -200,6 +202,7 @@
 	minimap_color = MINIMAP_AREA_CAVES_DEEP
 	icon = 'icons/turf/area_varadero.dmi'
 	ceiling = CEILING_UNDERGROUND_BLOCK_CAS
+	always_unpowered = TRUE // always off
 
 /area/point_loma/research_facility/cave/west
 	name = "Alpha-Tech Research Facility Cave - West"
@@ -266,6 +269,7 @@
 /area/point_loma/research_facility/super_death_cannon/observation/catwalk
 	name = "Super Death Cannon - Outside Catwalk"
 	ceiling = CEILING_NONE
+	require_power = FALSE
 
 /area/point_loma/research_facility/super_death_cannon/engineering
 	name = "Super Death Cannon - Control Room"
@@ -304,6 +308,7 @@
 	name = "Alpha-Tech - Crash Site"
 	icon = 'icons/turf/area_varadero.dmi'
 	icon_state = "predship"
+	always_unpowered = TRUE // always off
 
 /area/point_loma/research_facility/engineering
 	name = "Alpha-Tech - Engineering"
@@ -384,6 +389,7 @@
 	minimap_color = MINIMAP_AREA_MINING
 	icon_state = "tunnels4"
 	ceiling = CEILING_SANDSTONE_ALLOW_CAS
+	always_unpowered = TRUE // always off
 
 /area/point_loma/airbase/mining_colony/interior
 	name = "Mining Colony - Interior"
@@ -421,6 +427,7 @@
 
 /area/point_loma/airbase/mining_colony/exterior
 	name = "Mining Colony - Central"
+	always_unpowered = TRUE // always off
 
 /area/point_loma/airbase/mining_colony/exterior/north
 	name = "Mining Colony - North"
