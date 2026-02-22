@@ -1269,9 +1269,7 @@
 /turf/open/shuttle/escapepod/floor0/north,
 /area/point_loma/research_facility/super_death_cannon/engineering)
 "aeh" = (
-/turf/open/shuttle/lifeboat/catwalk{
-	dir = 8
-	},
+/turf/open/shuttle/escapepod/floor3/west,
 /area/point_loma/research_facility/super_death_cannon/engineering)
 "aei" = (
 /obj/structure/bed/chair{
@@ -1748,9 +1746,7 @@
 /obj/effect/decal/strata_decals/catwalk/prison{
 	icon = 'icons/turf/floors/hybrisafloors.dmi'
 	},
-/turf/open/shuttle/lifeboat/catwalk{
-	dir = 1
-	},
+/turf/open/shuttle/escapepod/floor3/north,
 /area/point_loma/research_facility/super_death_cannon/engineering)
 "afM" = (
 /obj/effect/decal/cleanable/blood/oil,
@@ -1922,9 +1918,7 @@
 /turf/closed/wall/rock/brown,
 /area/point_loma/research_facility/security_hq)
 "agl" = (
-/turf/open/shuttle/lifeboat/catwalk{
-	dir = 1
-	},
+/turf/open/shuttle/escapepod/floor3/north,
 /area/point_loma/research_facility/super_death_cannon/engineering)
 "agm" = (
 /turf/open/floor/shiva/bluecorners,
@@ -3111,9 +3105,7 @@
 /turf/open/floor/corsat/plate,
 /area/point_loma/airbase/interior/research)
 "aka" = (
-/turf/open/shuttle/escapepod/floor0/north{
-	dir = 4
-	},
+/turf/open/shuttle/escapepod/floor0/east,
 /area/point_loma/research_facility/super_death_cannon/engineering)
 "akb" = (
 /obj/structure/bed/hybrisa/bunkbed1{
@@ -3166,7 +3158,7 @@
 /turf/open/floor/shiva/floor3,
 /area/point_loma/airbase/interior/workshop)
 "aki" = (
-/turf/open/shuttle/lifeboat/catwalk,
+/turf/open/shuttle/escapepod/east,
 /area/point_loma/research_facility/super_death_cannon/engineering)
 "akj" = (
 /obj/effect/decal/warning_stripes{
@@ -3249,9 +3241,7 @@
 /area/point_loma/airbase/mining_colony/interior/engineering)
 "akw" = (
 /obj/structure/closet/secure_closet/cargotech,
-/turf/open/floor/shiva/yellow{
-	dir = 6
-	},
+/turf/open/floor/shiva/yellow/southeast,
 /area/point_loma/research_facility/super_death_cannon/ammo_elevator)
 "akx" = (
 /obj/structure/pipes/standard/tank/oxygen{
@@ -3352,9 +3342,7 @@
 /area/point_loma/airbase/interior/garage)
 "akO" = (
 /obj/structure/reagent_dispensers/tank/fuel/gas,
-/turf/open/floor/shiva/yellow{
-	dir = 10
-	},
+/turf/open/floor/shiva/yellow/southwest,
 /area/point_loma/research_facility/super_death_cannon/ammo_elevator)
 "akP" = (
 /obj/structure/machinery/door/airlock/almayer/generic,
@@ -8603,9 +8591,7 @@
 /area/point_loma/airbase/interior/hospital)
 "azj" = (
 /obj/structure/closet/secure_closet/engineering_personal,
-/turf/open/floor/shiva/yellow{
-	dir = 6
-	},
+/turf/open/floor/shiva/yellow/southeast,
 /area/point_loma/airbase/mining_colony/interior/engineering)
 "azk" = (
 /obj/structure/catwalk/bigred,
@@ -23178,9 +23164,7 @@
 /turf/open/new_varadero/alt_concrete/warning/corner,
 /area/point_loma/research_facility/engineering)
 "bpL" = (
-/turf/open/new_varadero/alt_concrete/warning/corner_edge{
-	dir = 2
-	},
+/turf/open/space/basic,
 /area/point_loma/research_facility/engineering)
 "bpM" = (
 /obj/structure/machinery/firealarm{
@@ -29356,20 +29340,13 @@
 /obj/effect/decal/strata_decals/catwalk/prison{
 	icon = 'icons/turf/floors/hybrisafloors.dmi'
 	},
-/turf/open/shuttle/lifeboat/catwalk{
-	dir = 8
-	},
+/turf/open/shuttle/escapepod/floor3/west,
 /area/point_loma/research_facility/command)
 "bHY" = (
-/turf/open/shuttle/lifeboat/catwalk{
-	dir = 8
-	},
+/turf/open/shuttle/escapepod/floor3/west,
 /area/point_loma/research_facility/command)
 "bHZ" = (
-/turf/open/shuttle/lifeboat/catwalk{
-	icon_state = "floor0";
-	dir = 8
-	},
+/turf/open/shuttle/escapepod/floor0/west,
 /area/point_loma/research_facility/command)
 "bIa" = (
 /obj/effect/decal/warning_stripes{
@@ -29406,9 +29383,7 @@
 	pixel_y = 32;
 	layer = 2.9
 	},
-/turf/open/shuttle/lifeboat/catwalk{
-	dir = 8
-	},
+/turf/open/shuttle/escapepod/floor3/west,
 /area/point_loma/research_facility/command)
 "bId" = (
 /obj/structure/machinery/big_computers/computerblack/computer4,
@@ -29421,9 +29396,7 @@
 	pixel_x = 1;
 	pixel_y = 32
 	},
-/turf/open/shuttle/lifeboat/catwalk{
-	dir = 8
-	},
+/turf/open/shuttle/escapepod/floor3/west,
 /area/point_loma/research_facility/command)
 "bIe" = (
 /obj/structure/machinery/big_computers/computerblack/computer5{
@@ -29439,9 +29412,7 @@
 	pixel_y = -5;
 	needs_power = 0
 	},
-/turf/open/shuttle/lifeboat/catwalk{
-	dir = 8
-	},
+/turf/open/shuttle/escapepod/floor3/west,
 /area/point_loma/research_facility/command)
 "bIf" = (
 /obj/structure/machinery/big_computers/computerblack/computer3,
@@ -29453,9 +29424,7 @@
 	light_range = 5;
 	pixel_y = 32
 	},
-/turf/open/shuttle/lifeboat/catwalk{
-	dir = 8
-	},
+/turf/open/shuttle/escapepod/floor3/west,
 /area/point_loma/research_facility/command)
 "bIg" = (
 /obj/item/prop/almayer/flight_recorder/colony{
@@ -29468,18 +29437,14 @@
 /obj/structure/prop/hybrisa/misc/redmeter{
 	pixel_y = 32
 	},
-/turf/open/shuttle/lifeboat/catwalk{
-	dir = 8
-	},
+/turf/open/shuttle/escapepod/floor3/west,
 /area/point_loma/research_facility/command)
 "bIh" = (
 /obj/structure/closet/firecloset/full{
 	pixel_y = 20;
 	pixel_x = -9
 	},
-/turf/open/shuttle/lifeboat/catwalk{
-	dir = 2
-	},
+/turf/open/shuttle/escapepod/floor3,
 /area/point_loma/research_facility/command)
 "bIi" = (
 /obj/effect/decal/warning_stripes{
@@ -35184,17 +35149,13 @@
 /obj/structure/platform/metal/almayer,
 /obj/structure/platform/metal/almayer/west,
 /obj/structure/platform_decoration/metal/almayer/southwest,
-/turf/open/shuttle/lifeboat/catwalk{
-	dir = 1
-	},
+/turf/open/shuttle/escapepod/floor3/north,
 /area/point_loma/research_facility/hallway/west)
 "cdn" = (
 /obj/structure/platform/metal/almayer,
 /obj/structure/platform/metal/almayer/east,
 /obj/structure/platform_decoration/metal/almayer/southeast,
-/turf/open/shuttle/lifeboat/catwalk{
-	dir = 2
-	},
+/turf/open/shuttle/escapepod,
 /area/point_loma/research_facility/hallway/west)
 "cdo" = (
 /obj/structure/barricade/handrail{
@@ -35238,15 +35199,11 @@
 /area/point_loma/research_facility/hallway/east)
 "cdv" = (
 /obj/structure/platform/metal/almayer/west,
-/turf/open/shuttle/lifeboat/catwalk{
-	dir = 1
-	},
+/turf/open/shuttle/escapepod/floor3/north,
 /area/point_loma/research_facility/hallway/west)
 "cdw" = (
 /obj/structure/platform/metal/almayer/east,
-/turf/open/shuttle/lifeboat/catwalk{
-	dir = 2
-	},
+/turf/open/shuttle/escapepod,
 /area/point_loma/research_facility/hallway/west)
 "cdx" = (
 /obj/structure/barricade/handrail{
@@ -35393,17 +35350,13 @@
 /obj/structure/platform/metal/almayer/north,
 /obj/structure/platform/metal/almayer/west,
 /obj/structure/platform_decoration/metal/almayer/northeast,
-/turf/open/shuttle/lifeboat/catwalk{
-	dir = 1
-	},
+/turf/open/shuttle/escapepod/floor3/north,
 /area/point_loma/research_facility/hallway/west)
 "cea" = (
 /obj/structure/platform/metal/almayer/north,
 /obj/structure/platform/metal/almayer/east,
 /obj/structure/platform_decoration/metal/almayer/northwest,
-/turf/open/shuttle/lifeboat/catwalk{
-	dir = 2
-	},
+/turf/open/shuttle/escapepod,
 /area/point_loma/research_facility/hallway/west)
 "ceb" = (
 /obj/structure/barricade/deployable{
