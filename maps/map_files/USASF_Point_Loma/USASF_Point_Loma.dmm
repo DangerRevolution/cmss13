@@ -2635,9 +2635,7 @@
 /obj/structure/bed/chair/wood/normal{
 	dir = 1
 	},
-/turf/open/floor/hybrisa/carpet/rug_colorable/west{
-	color = "#0b8f8d"
-	},
+/turf/open/floor/hybrisa/carpet/rug_colorable/teal/west,
 /area/point_loma/airbase/interior/hospital)
 "aiB" = (
 /obj/structure/machinery/conveyor{
@@ -5599,9 +5597,7 @@
 /turf/open/floor/whiteyellowfull,
 /area/point_loma/airbase/mining_colony/interior/corporate)
 "arm" = (
-/turf/open/shuttle/lifeboat/catwalk{
-	dir = 2
-	},
+/turf/open/shuttle/escapepod/floor3,
 /area/point_loma/research_facility/super_death_cannon/observation)
 "arn" = (
 /obj/effect/decal/hybrisa/road/lines4,
@@ -7583,9 +7579,7 @@
 	pixel_y = 4
 	},
 /obj/effect/landmark/objective_landmark/close,
-/turf/open/floor/hybrisa/carpet/rug_colorable/southeast{
-	color = "#0b8f8d"
-	},
+/turf/open/floor/hybrisa/carpet/rug_colorable/teal/southeast,
 /area/point_loma/airbase/interior/hospital)
 "awz" = (
 /obj/structure/reagent_dispensers/water_cooler{
@@ -8433,9 +8427,7 @@
 /area/point_loma/research_facility/super_death_cannon/observation/civ)
 "ayH" = (
 /obj/structure/bed/sofa/south/grey/left,
-/turf/open/floor/hybrisa/carpet/rug_colorable{
-	color = "#0b8f8d"
-	},
+/turf/open/floor/hybrisa/carpet/rug_colorable/teal,
 /area/point_loma/airbase/interior/hospital)
 "ayI" = (
 /turf/open/floor/corsat/white/north,
@@ -8821,9 +8813,7 @@
 /obj/structure/bed/chair/wood/normal{
 	dir = 1
 	},
-/turf/open/floor/hybrisa/carpet/rug_colorable/east{
-	color = "#0b8f8d"
-	},
+/turf/open/floor/hybrisa/carpet/rug_colorable/teal/east,
 /area/point_loma/airbase/interior/hospital)
 "azP" = (
 /turf/open/new_varadero/alt_concrete/warning/south,
@@ -10611,9 +10601,7 @@
 	dir = 1;
 	pixel_y = 9
 	},
-/turf/open/floor/hybrisa/carpet/rug_colorable/north{
-	color = "#0b8f8d"
-	},
+/turf/open/floor/hybrisa/carpet/rug_colorable/teal/north,
 /area/point_loma/airbase/interior/hospital)
 "aFb" = (
 /obj/structure/surface/table,
@@ -11144,9 +11132,7 @@
 /obj/structure/surface/table/holotable/wood,
 /obj/item/reagent_container/food/drinks/coffeecup,
 /obj/effect/landmark/objective_landmark/close,
-/turf/open/floor/hybrisa/carpet/rug_colorable/southwest{
-	color = "#0b8f8d"
-	},
+/turf/open/floor/hybrisa/carpet/rug_colorable/teal/southwest,
 /area/point_loma/airbase/interior/hospital)
 "aHa" = (
 /obj/effect/decal/medical_decals{
@@ -15093,9 +15079,7 @@
 "aSK" = (
 /obj/structure/surface/table/holotable/wood,
 /obj/effect/landmark/objective_landmark/science,
-/turf/open/floor/hybrisa/carpet/rug_colorable/southwest{
-	color = "#0b8f8d"
-	},
+/turf/open/floor/hybrisa/carpet/rug_colorable/teal/southwest,
 /area/point_loma/airbase/interior/hospital)
 "aSL" = (
 /obj/effect/decal/medical_decals{
@@ -15780,9 +15764,7 @@
 "aUH" = (
 /obj/structure/surface/table/holotable/wood,
 /obj/effect/landmark/objective_landmark/close,
-/turf/open/floor/hybrisa/carpet/rug_colorable/southeast{
-	color = "#0b8f8d"
-	},
+/turf/open/floor/hybrisa/carpet/rug_colorable/teal/southeast,
 /area/point_loma/airbase/interior/hospital)
 "aUI" = (
 /obj/item/tool/wet_sign{
