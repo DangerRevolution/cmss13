@@ -27772,14 +27772,6 @@
 	},
 /turf/open/floor/plating/warnplate/southwest,
 /area/point_loma/airbase/interior/atc)
-"bDs" = (
-/turf/open/floor/plating/warnplatecorner/north,
-/area/point_loma/airbase/interior/atc)
-"bDt" = (
-/turf/open/floor/plating/warnplatecorner/north{
-	dir = 2
-	},
-/area/point_loma/airbase/interior/atc)
 "bDu" = (
 /obj/structure/largecrate,
 /turf/open/floor/plating/warnplate/southeast,
@@ -28142,18 +28134,9 @@
 /obj/structure/largecrate,
 /turf/open/floor/plating/warnplate/northwest,
 /area/point_loma/airbase/interior/atc)
-"bEF" = (
-/obj/effect/decal/cleanable/blood/xeno,
-/obj/structure/largecrate,
-/turf/open/floor/plating/warnplatecorner/north{
-	dir = 4
-	},
-/area/point_loma/airbase/interior/atc)
 "bEG" = (
 /obj/item/tool/wet_sign,
-/turf/open/floor/plating/warnplatecorner/north{
-	dir = 8
-	},
+/turf/open/floor/podhatchfloor,
 /area/point_loma/airbase/interior/atc)
 "bEH" = (
 /obj/structure/surface/rack,
@@ -34535,17 +34518,13 @@
 /obj/structure/platform/metal/almayer,
 /obj/structure/platform/metal/almayer/west,
 /obj/structure/platform_decoration/metal/almayer/southwest,
-/turf/open/shuttle/lifeboat/catwalk{
-	dir = 1
-	},
+/turf/open/shuttle/escapepod/floor3/north,
 /area/point_loma/research_facility/hallway/east)
 "cbr" = (
 /obj/structure/platform/metal/almayer,
 /obj/structure/platform/metal/almayer/east,
 /obj/structure/platform_decoration/metal/almayer/southeast,
-/turf/open/shuttle/lifeboat/catwalk{
-	dir = 2
-	},
+/turf/open/shuttle/escapepod/floor3,
 /area/point_loma/research_facility/hallway/east)
 "cbs" = (
 /obj/structure/barricade/handrail{
@@ -34588,15 +34567,11 @@
 /area/point_loma/research_facility/gym)
 "cbx" = (
 /obj/structure/platform/metal/almayer/west,
-/turf/open/shuttle/lifeboat/catwalk{
-	dir = 1
-	},
+/turf/open/shuttle/escapepod/floor3/north,
 /area/point_loma/research_facility/hallway/east)
 "cby" = (
 /obj/structure/platform/metal/almayer/east,
-/turf/open/shuttle/lifeboat/catwalk{
-	dir = 2
-	},
+/turf/open/shuttle/escapepod/floor3,
 /area/point_loma/research_facility/hallway/east)
 "cbz" = (
 /obj/effect/decal/cleanable/dirt,
@@ -34678,17 +34653,13 @@
 /obj/structure/platform/metal/almayer/north,
 /obj/structure/platform/metal/almayer/west,
 /obj/structure/platform_decoration/metal/almayer/northeast,
-/turf/open/shuttle/lifeboat/catwalk{
-	dir = 1
-	},
+/turf/open/shuttle/escapepod/floor3/north,
 /area/point_loma/research_facility/hallway/east)
 "cbO" = (
 /obj/structure/platform/metal/almayer/north,
 /obj/structure/platform/metal/almayer/east,
 /obj/structure/platform_decoration/metal/almayer/northwest,
-/turf/open/shuttle/lifeboat/catwalk{
-	dir = 2
-	},
+/turf/open/shuttle/escapepod/floor3,
 /area/point_loma/research_facility/hallway/east)
 "cbP" = (
 /obj/structure/reagent_dispensers/tank/water,
@@ -142582,14 +142553,14 @@ asb
 asb
 bUU
 bbc
-bEF
+bEw
 bEw
 bDN
 bEg
 bDO
 bDN
 bDD
-bDs
+bDN
 bDb
 bUU
 bCI
@@ -142771,7 +142742,7 @@ bDO
 bDO
 bDO
 bDE
-bDt
+bDN
 bDc
 bUU
 aLe
