@@ -14162,7 +14162,6 @@
 /area/point_loma/airbase/mining_colony/interior/living_quarters)
 "aQa" = (
 /obj/structure/machinery/conveyor,
-/obj/structure/machinery/conveyor,
 /turf/open/floor/prison/ramptop/north,
 /area/point_loma/airbase/mining_colony/interior/storage)
 "aQb" = (
@@ -14403,7 +14402,6 @@
 /turf/open/floor/corsat/purplewhitecorner/east,
 /area/point_loma/research_facility/research/east)
 "aQI" = (
-/obj/structure/machinery/conveyor,
 /obj/structure/machinery/conveyor{
 	dir = 8;
 	id = "cargo_container";
