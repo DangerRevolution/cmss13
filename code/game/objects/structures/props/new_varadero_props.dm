@@ -447,3 +447,11 @@
 	icon = 'icons/mob/xenos/effects.dmi'
 	icon_state = "Egg Exploded"
 
+/obj/structure/prop/new_varadero_props/radar_dish
+	icon = 'icons/obj/structures/props/radar_prop.dmi'
+	icon_state = "radar_dish"
+
+/obj/structure/prop/new_varadero_props/radar_dish_lights
+	icon = 'icons/obj/structures/props/radar_prop.dmi'
+	icon_state = "radar_dish_lightglow"
+
