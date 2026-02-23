@@ -5,12 +5,12 @@
     "webmap_url": "LV624",
 
     "survivor_types": [
-        "/datum/equipment_preset/survivor/alpha_tech/corporate",
-		"/datum/equipment_preset/survivor/alpha_tech/miner",
-		"/datum/equipment_preset/survivor/alpha_tech/corporate/chief_engineer",
-		"/datum/equipment_preset/survivor/alpha_tech/scientist",
-		"/datum/equipment_preset/survivor/alpha_tech/scientist/research_director",
-		"/datum/equipment_preset/survivor/alpha_tech/off_duty",
+        "/datum/equipment_preset/survivor/alphatech/corporate",
+		"/datum/equipment_preset/survivor/alphatech/miner",
+		"/datum/equipment_preset/survivor/alphatech/corporate/chief_engineer",
+		"/datum/equipment_preset/survivor/alphatech/scientist",
+		"/datum/equipment_preset/survivor/alphatech/scientist/research_director",
+		"/datum/equipment_preset/survivor/alphatech/off_duty",
 		"/datum/equipment_preset/survivor/usasf/crew",
 		"/datum/equipment_preset/survivor/usasf/crew/off_duty",
 		"/datum/equipment_preset/survivor/usasf/crew/hangar_tech",
