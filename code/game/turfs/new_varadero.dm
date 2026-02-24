@@ -321,6 +321,7 @@
 
 /turf/open/new_varadero/alt_concrete/warning/corner_edge
 	icon_state = "dark_asteroidfloor_corner_alt"
+	dir = 2
 
 /turf/open/new_varadero/alt_concrete/warning/corner_edge/northeast
 	dir = 1
