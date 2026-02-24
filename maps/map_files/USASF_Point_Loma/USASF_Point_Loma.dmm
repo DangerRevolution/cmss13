@@ -1293,6 +1293,7 @@
 	icon_state = "1-4";
 	layer = 5
 	},
+/obj/structure/blocker/invisible_wall,
 /turf/open/new_varadero/alt_concrete/floor,
 /area/point_loma/oob)
 "aek" = (
@@ -1309,6 +1310,7 @@
 	layer = 5;
 	level = 2
 	},
+/obj/structure/blocker/invisible_wall,
 /turf/open/new_varadero/alt_concrete/floor,
 /area/point_loma/oob)
 "aem" = (
@@ -1364,6 +1366,7 @@
 /turf/open/new_varadero,
 /area/point_loma/airbase/interior/cargo)
 "aew" = (
+/obj/structure/blocker/invisible_wall,
 /turf/open/new_varadero/alt_concrete/floor,
 /area/point_loma/oob)
 "aex" = (
@@ -1425,6 +1428,7 @@
 /obj/structure/pipes/standard/simple/visible{
 	dir = 4
 	},
+/obj/structure/blocker/invisible_wall,
 /turf/open/new_varadero/alt_concrete/floor,
 /area/point_loma/oob)
 "aeH" = (
@@ -1441,6 +1445,7 @@
 /obj/structure/pipes/standard/manifold/visible{
 	dir = 4
 	},
+/obj/structure/blocker/invisible_wall,
 /turf/open/new_varadero/alt_concrete/floor,
 /area/point_loma/oob)
 "aeK" = (
@@ -1456,6 +1461,7 @@
 /obj/structure/cable{
 	icon_state = "1-6"
 	},
+/obj/structure/blocker/invisible_wall,
 /turf/open/new_varadero/alt_concrete/floor,
 /area/point_loma/oob)
 "aeM" = (
@@ -22780,7 +22786,6 @@
 /turf/open/new_varadero/alt_concrete/floor,
 /area/point_loma/research_facility/engineering)
 "bmW" = (
-/obj/structure/blocker/invisible_wall/water,
 /turf/open/new_varadero/grate/full_ALT,
 /area/point_loma/research_facility/engineering)
 "bmX" = (
@@ -23762,7 +23767,7 @@
 /turf/open/new_varadero/alt_concrete/warning/corner,
 /area/point_loma/research_facility/engineering)
 "bpL" = (
-/turf/open/space/basic,
+/turf/open/new_varadero/alt_concrete/warning/corner_edge,
 /area/point_loma/research_facility/engineering)
 "bpM" = (
 /obj/structure/machinery/firealarm{
