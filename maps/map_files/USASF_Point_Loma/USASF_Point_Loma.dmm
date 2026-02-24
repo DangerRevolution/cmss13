@@ -85,6 +85,7 @@
 /area/point_loma/airbase/mining_colony/interior/security)
 "aap" = (
 /obj/structure/bed/hybrisa/dingy,
+/obj/effect/landmark/objective_landmark/medium,
 /turf/open/floor/corsat/green/west,
 /area/point_loma/research_facility/dorms)
 "aaq" = (
@@ -794,6 +795,7 @@
 /area/point_loma/research_facility/engineering)
 "acE" = (
 /obj/structure/bed/hybrisa/bunkbed2,
+/obj/effect/landmark/objective_landmark/close,
 /turf/open/floor/corsat/squares,
 /area/point_loma/research_facility/dorms)
 "acF" = (
@@ -1336,6 +1338,7 @@
 /area/point_loma/research_facility/security_hq)
 "aer" = (
 /obj/structure/surface/table/woodentable,
+/obj/effect/landmark/objective_landmark/medium,
 /turf/open/floor/strata/fake_wood,
 /area/point_loma/research_facility/chapel)
 "aes" = (
@@ -1891,6 +1894,7 @@
 	req_access_txt = "100"
 	},
 /obj/item/clothing/head/helmet/hybrisa/medtech,
+/obj/effect/landmark/objective_landmark/medium,
 /turf/open/floor/corsat,
 /area/point_loma/research_facility/command)
 "agf" = (
@@ -1978,6 +1982,7 @@
 /obj/structure/closet/secure_closet/medical3{
 	req_access_txt = "100"
 	},
+/obj/effect/landmark/objective_landmark/medium,
 /turf/open/floor/corsat,
 /area/point_loma/research_facility/command)
 "agu" = (
@@ -2023,6 +2028,7 @@
 /obj/item/clothing/glasses/hud/health,
 /obj/item/clothing/glasses/hud/health,
 /obj/item/clothing/glasses/hud/health,
+/obj/effect/landmark/objective_landmark/close,
 /turf/open/floor/corsat,
 /area/point_loma/research_facility/command)
 "agz" = (
@@ -2399,6 +2405,10 @@
 /obj/structure/closet/firecloset/full,
 /turf/open/floor/corsat/squares,
 /area/point_loma/research_facility/super_death_cannon/engineering)
+"ahJ" = (
+/obj/structure/girder,
+/turf/open/floor/plating/burnt_platingdmg3,
+/area/point_loma/research_facility/dorms)
 "ahK" = (
 /obj/structure/machinery/vending/cola{
 	pixel_y = 16
@@ -4010,6 +4020,11 @@
 /obj/structure/bed/chair,
 /turf/open/floor/shiva/north,
 /area/point_loma/airbase/mining_colony/interior/living_quarters)
+"amz" = (
+/obj/structure/bed/hybrisa/dingy,
+/obj/effect/landmark/objective_landmark/close,
+/turf/open/floor/corsat/green/west,
+/area/point_loma/research_facility/dorms)
 "amA" = (
 /obj/structure/shuttle/part/dropship3/transparent/nose_top_right,
 /turf/open/floor/asteroidwarning/north,
@@ -4145,6 +4160,9 @@
 	},
 /turf/open/floor/shiva/floor3,
 /area/point_loma/airbase/interior/workshop)
+"amV" = (
+/turf/closed/wall/huntership/destructible/reinforced,
+/area/point_loma/research_facility/crash_site)
 "amW" = (
 /obj/structure/machinery/sleep_console,
 /obj/effect/decal/warning_stripes{
@@ -5205,6 +5223,13 @@
 /obj/effect/decal/cleanable/liquid_fuel,
 /turf/open/new_varadero/taupe_concrete/grate_s,
 /area/point_loma/airbase/interior/fuel_storage)
+"aqb" = (
+/obj/structure/closet/secure_closet/medical3{
+	req_access_txt = "100"
+	},
+/obj/effect/landmark/objective_landmark/science,
+/turf/open/floor/corsat,
+/area/point_loma/research_facility/command)
 "aqc" = (
 /obj/structure/machinery/door_control{
 	name = "Storage Unit Control";
@@ -9291,6 +9316,9 @@
 	},
 /turf/open/floor/white,
 /area/point_loma/research_facility/gym)
+"aBa" = (
+/turf/closed/wall/huntership/destructible/reinforced,
+/area/point_loma/airbase/exterior/crash_site)
 "aBb" = (
 /obj/structure/surface/table/woodentable/fancy,
 /turf/open/floor/hybrisa/carpet/carpetblack,
@@ -23760,6 +23788,7 @@
 "bpP" = (
 /obj/item/prop/alien/hugger,
 /obj/effect/landmark/corpsespawner/colonist/burst,
+/obj/effect/landmark/objective_landmark/science,
 /turf/open/floor/corsat/squares,
 /area/point_loma/research_facility/dorms)
 "bpQ" = (
@@ -23867,6 +23896,7 @@
 /area/point_loma/research_facility/dorms)
 "bqe" = (
 /obj/structure/bed/hybrisa/dingy,
+/obj/effect/landmark/objective_landmark/close,
 /turf/open/floor/plating/burnt_platingdmg3,
 /area/point_loma/research_facility/dorms)
 "bqf" = (
@@ -24166,7 +24196,7 @@
 /obj/effect/acid_hole{
 	dir = 4
 	},
-/turf/closed/wall/huntership/destructible,
+/turf/closed/wall/huntership/destructible/reinforced,
 /area/point_loma/research_facility/crash_site)
 "bqY" = (
 /obj/structure/surface/table/reinforced/prison{
@@ -24346,9 +24376,6 @@
 	color = "#9bb1be"
 	},
 /turf/open/shuttle/dropship/predship/tile,
-/area/point_loma/research_facility/crash_site)
-"bry" = (
-/turf/closed/wall/huntership,
 /area/point_loma/research_facility/crash_site)
 "brz" = (
 /obj/structure/pipes/standard/cap/hidden{
@@ -24614,7 +24641,7 @@
 /area/point_loma/research_facility/crash_site)
 "bsq" = (
 /obj/item/stack/rods,
-/turf/closed/wall/huntership/destructible,
+/turf/closed/wall/huntership/destructible/reinforced,
 /area/point_loma/research_facility/crash_site)
 "bsr" = (
 /obj/effect/decal/hybrisa/dirt,
@@ -24622,19 +24649,19 @@
 /area/point_loma/airbase/interior/garage)
 "bss" = (
 /obj/item/skull/hivelord,
-/turf/closed/wall/huntership/destructible,
+/turf/closed/wall/huntership/destructible/reinforced,
 /area/point_loma/research_facility/crash_site)
 "bst" = (
 /obj/item/skull/queen,
-/turf/closed/wall/huntership/destructible,
+/turf/closed/wall/huntership/destructible/reinforced,
 /area/point_loma/research_facility/crash_site)
 "bsu" = (
 /obj/item/skull/carrier,
-/turf/closed/wall/huntership/destructible,
+/turf/closed/wall/huntership/destructible/reinforced,
 /area/point_loma/research_facility/crash_site)
 "bsv" = (
 /obj/effect/acid_hole,
-/turf/closed/wall/huntership/destructible,
+/turf/closed/wall/huntership/destructible/reinforced,
 /area/point_loma/research_facility/crash_site)
 "bsw" = (
 /obj/effect/decal/warning_stripes{
@@ -26737,7 +26764,7 @@
 	dir = 8;
 	name = "\improper Storage Chamber"
 	},
-/turf/closed/wall/huntership/destructible,
+/turf/open/shuttle/dropship/predship/hunter_grille,
 /area/point_loma/airbase/exterior/crash_site)
 "byU" = (
 /obj/effect/hunter/catwalk/hunter_grate,
@@ -27824,7 +27851,7 @@
 	pixel_x = 17;
 	pixel_y = 2
 	},
-/turf/closed/wall/huntership/destructible,
+/turf/closed/wall/huntership/destructible/reinforced,
 /area/point_loma/airbase/exterior/crash_site)
 "bBI" = (
 /obj/structure/girder,
@@ -28224,7 +28251,7 @@
 	pixel_y = 4;
 	anchored = 1
 	},
-/turf/closed/wall/huntership/destructible,
+/turf/closed/wall/huntership/destructible/reinforced,
 /area/point_loma/airbase/exterior/crash_site)
 "bCE" = (
 /obj/item/weapon/shield/riot/yautja/ancient{
@@ -28233,7 +28260,7 @@
 	pixel_x = 1;
 	pixel_y = 2
 	},
-/turf/closed/wall/huntership/destructible,
+/turf/closed/wall/huntership/destructible/reinforced,
 /area/point_loma/airbase/exterior/crash_site)
 "bCF" = (
 /obj/structure/closet/secure_closet/surgical{
@@ -36112,10 +36139,12 @@
 /area/point_loma/research_facility/dorms)
 "cdF" = (
 /obj/structure/bed/hybrisa/dingy,
+/obj/effect/landmark/objective_landmark/medium,
 /turf/open/floor/corsat/squares,
 /area/point_loma/research_facility/dorms)
 "cdG" = (
 /obj/structure/bed/hybrisa/dingy,
+/obj/effect/landmark/objective_landmark/close,
 /turf/open/floor/corsat/green/east,
 /area/point_loma/research_facility/dorms)
 "cdH" = (
@@ -38197,10 +38226,6 @@
 /obj/effect/decal/cleanable/dirt/sand_2,
 /turf/open/hybrisa/street/asphalt/runway,
 /area/point_loma/airbase/exterior/crash_site)
-"ckv" = (
-/obj/effect/decal/cleanable/dirt/sand_1,
-/turf/open/floor/predship/hull/non_weedable_hull,
-/area/point_loma/airbase/exterior/crash_site)
 "ckw" = (
 /turf/open/floor/shiva/yellowcorners/east,
 /area/point_loma/airbase/interior/garage)
@@ -40014,6 +40039,7 @@
 "cqn" = (
 /obj/structure/bed/hybrisa/bunkbed2,
 /obj/structure/pipes/standard/simple/hidden/green,
+/obj/effect/landmark/objective_landmark/close,
 /turf/open/floor/corsat/squares,
 /area/point_loma/research_facility/dorms)
 "cqo" = (
@@ -95253,12 +95279,12 @@ aJB
 brp
 bsp
 aJB
-bqu
+amV
 bqX
-bqu
+amV
 brp
-bqu
-bqu
+amV
+amV
 aFk
 acD
 brK
@@ -95440,7 +95466,7 @@ brW
 brW
 brW
 brW
-bqu
+amV
 bqf
 bqf
 brL
@@ -95796,7 +95822,7 @@ bKy
 bKy
 bKy
 bKy
-bqu
+amV
 brp
 bsm
 aFk
@@ -96168,7 +96194,7 @@ brW
 brZ
 brW
 brW
-bqu
+amV
 aFk
 aFk
 bqu
@@ -96348,9 +96374,9 @@ aFk
 aFk
 brW
 brW
-bqu
-bqu
-bqu
+amV
+amV
+amV
 aFk
 aFk
 bqu
@@ -96523,7 +96549,7 @@ cgn
 cge
 cfS
 brU
-bqu
+amV
 bsu
 bKe
 aFk
@@ -96887,7 +96913,7 @@ bKZ
 cgc
 brn
 brU
-bqu
+amV
 brW
 aFk
 bJv
@@ -98182,8 +98208,8 @@ acE
 cqi
 cpX
 cpU
-aap
-aap
+amz
+amz
 aap
 acT
 agx
@@ -98546,8 +98572,8 @@ cqn
 cqk
 agx
 cpR
-cdF
-cdF
+bIN
+bIN
 cdF
 cdB
 agx
@@ -99266,15 +99292,15 @@ bqf
 bqu
 aFk
 aFk
-bqu
-bqu
-bqu
-bqu
-bqu
+amV
+amV
+amV
+amV
+amV
 bqX
-bqu
-bqu
-bqu
+amV
+amV
+amV
 cdE
 cdE
 aiN
@@ -99448,7 +99474,7 @@ bqf
 bqf
 aFk
 aFk
-bqu
+amV
 brx
 brq
 bqC
@@ -99456,7 +99482,7 @@ adc
 bqC
 bqL
 bqC
-bqu
+amV
 bpi
 agx
 agx
@@ -99618,19 +99644,19 @@ cri
 bHP
 bpi
 brp
-bqu
-bqu
-bqu
-bqu
+amV
+amV
+amV
+amV
 aFk
-bqu
+amV
 bJA
 bqf
 bqf
 bqf
 aFk
 aFk
-bqu
+amV
 bqC
 bqM
 bqC
@@ -99800,12 +99826,12 @@ cel
 bHq
 bpi
 brU
-bqu
+amV
 bsi
 bsi
 bsi
 bsf
-bqu
+amV
 bJA
 bqf
 bqf
@@ -99982,7 +100008,7 @@ cdE
 bIo
 bpi
 brp
-bqu
+amV
 brW
 brW
 brW
@@ -99994,8 +100020,8 @@ bqf
 bqf
 aFk
 bqf
-bqu
-bry
+amV
+amV
 brr
 brj
 brc
@@ -100005,7 +100031,7 @@ bqv
 bqv
 abj
 aiN
-bpi
+ahJ
 agx
 bJf
 bJf
@@ -100176,19 +100202,19 @@ aFk
 bqf
 bJE
 bqf
-bqu
+amV
 brz
 brs
 brk
 brd
-bqu
-bqu
+amV
+amV
 bqw
 bqw
 aFk
 aFk
-aFk
-aFk
+bso
+bso
 aFk
 bJf
 cpz
@@ -100358,19 +100384,19 @@ aFk
 bqf
 bJE
 bqf
-bqu
+amV
 brz
 brs
 brl
 bre
-bqu
+amV
 bqO
 bqv
 bqv
 bqf
-aFk
-aFk
-aFk
+bqu
+bqu
+bso
 aFk
 bJf
 cpi
@@ -100540,18 +100566,18 @@ bJA
 bqf
 bqf
 bqf
-bqu
-bqu
+amV
+amV
 bqf
 bqf
-bqu
-bqu
+amV
+amV
 bqP
 bqw
 bqw
 bqg
 aFk
-aFk
+bqu
 aFk
 aFk
 bJf
@@ -105630,7 +105656,7 @@ akx
 afc
 bKq
 acr
-agt
+aqb
 agt
 afh
 cqI
@@ -143471,14 +143497,14 @@ bSN
 bSN
 bTk
 bTk
-atE
-atE
+aBa
+aBa
 bRG
 bRG
 bTk
-atE
-atE
-atE
+aBa
+aBa
+aBa
 bTk
 bSN
 bSN
@@ -143652,8 +143678,8 @@ bSN
 bxN
 bxN
 bxN
-atE
-atE
+aBa
+aBa
 bRG
 bRG
 bRG
@@ -143661,7 +143687,7 @@ bRG
 bRG
 bRG
 bRG
-atE
+aBa
 bxN
 bxN
 bSN
@@ -144746,14 +144772,14 @@ bxN
 bxN
 bRG
 bRG
-atE
+aBa
 bRG
 bRG
-atE
-atE
-atE
-atE
-atE
+aBa
+aBa
+aBa
+aBa
+aBa
 bSZ
 bSY
 bSO
@@ -144928,17 +144954,17 @@ bxN
 bxN
 bRG
 bRG
-atE
+aBa
 bzP
 bTU
 bzt
 byM
 byF
 bTw
-atE
+aBa
 bTg
 atE
-atE
+aBa
 aTR
 ckb
 ckb
@@ -145110,17 +145136,17 @@ bxN
 bxN
 bUs
 bTg
-atE
+aBa
 bzQ
 bTV
 bTH
 bTC
 byG
 bTx
-atE
+aBa
 bTg
 bSY
-atE
+aBa
 aBE
 ckb
 ckb
@@ -145296,13 +145322,13 @@ bAn
 bzR
 bTW
 bTI
-atE
-atE
-atE
-atE
+aBa
+aBa
+aBa
+aBa
 bRG
 bSZ
-atE
+aBa
 aTR
 ckb
 ckb
@@ -145478,13 +145504,13 @@ bUl
 bUf
 bTX
 bTJ
-atE
+aBa
 bTB
 byC
 bRG
 bRG
 bRG
-atE
+aBa
 aZT
 ckb
 afz
@@ -145656,7 +145682,7 @@ bxN
 bxN
 bSZ
 bRG
-atE
+aBa
 bzN
 bzA
 bTK
@@ -145838,14 +145864,14 @@ bxN
 bxN
 bTg
 bSZ
-atE
+aBa
 bzO
 bzA
 bTL
-atE
-atE
-atE
-atE
+aBa
+aBa
+aBa
+aBa
 bRG
 bxN
 bSO
@@ -146027,7 +146053,7 @@ bTK
 byM
 byF
 bTz
-atE
+aBa
 bxN
 bTa
 aUq
@@ -146209,7 +146235,7 @@ bTH
 bTD
 byG
 byB
-atE
+aBa
 bTg
 bRG
 aUq
@@ -146388,10 +146414,10 @@ bRG
 bRG
 bRG
 bTM
-atE
-atE
-atE
-atE
+aBa
+aBa
+aBa
+aBa
 bRG
 bRG
 aUq
@@ -148198,11 +148224,11 @@ bVc
 bVc
 bRz
 aNI
-atE
-atE
-atE
-atE
-atE
+aBa
+aBa
+aBa
+aBa
+aBa
 bAI
 bAp
 bzS
@@ -148380,7 +148406,7 @@ bVc
 bVc
 bRz
 aNI
-atE
+aBa
 bTW
 bBo
 bzx
@@ -148562,7 +148588,7 @@ bBM
 aOg
 aOg
 aOc
-atE
+aBa
 bBw
 bBp
 bBh
@@ -148926,7 +148952,7 @@ bRz
 bRz
 bRz
 aNI
-atE
+aBa
 bBy
 bBq
 bBj
@@ -149654,7 +149680,7 @@ cjT
 bQY
 bRz
 aNI
-atE
+aBa
 bBC
 bBq
 bBm
@@ -149836,7 +149862,7 @@ bQY
 bQY
 bRz
 aNI
-atE
+aBa
 bBD
 bBt
 bzF
@@ -150018,7 +150044,7 @@ bQT
 bRz
 bRz
 aNI
-atE
+aBa
 bBE
 bBu
 bzx
@@ -150200,11 +150226,11 @@ bRz
 bRz
 bRz
 aNI
-atE
-atE
-atE
-atE
-atE
+aBa
+aBa
+aBa
+aBa
+aBa
 bAO
 bTW
 bAb
@@ -153501,7 +153527,7 @@ bRz
 bRz
 bRz
 bRz
-bQY
+bQT
 bQY
 bQY
 cjS
@@ -153683,8 +153709,8 @@ aNI
 bRz
 bRz
 bRz
-bRz
-bRz
+bQT
+bQT
 bxN
 bxN
 bVc
@@ -153861,12 +153887,12 @@ aNI
 aNI
 aNI
 aNI
-bQY
-aNI
 aNI
 bRz
 bRz
 bRz
+bQT
+bQT
 bxN
 bVc
 bVc
@@ -154040,15 +154066,15 @@ aNI
 aNI
 aNI
 aNI
-atE
-bxB
-bxB
+aBa
 aNI
 aNI
 aNI
-bQY
+aNI
 bRz
-bQg
+bRz
+bQT
+bQd
 bQd
 bxu
 bxu
@@ -154222,15 +154248,15 @@ aNI
 aNI
 aNI
 aNI
-atE
-ckv
-bxB
+aBa
 aNI
 aNI
 aNI
 aNI
 bRz
-bQg
+bRz
+bQT
+bQd
 bQd
 bxu
 bxu
@@ -154399,20 +154425,20 @@ bRz
 bRz
 bRz
 aNI
-atE
-atE
+aBa
+aBa
 byT
 byT
-atE
-atE
-bxB
-bxB
-bxB
+aBa
+aBa
+aNI
 aNI
 aNI
 aNI
 bRz
-bQg
+bRz
+bQT
+bQd
 bQd
 bxu
 bxu
@@ -154581,20 +154607,20 @@ bRz
 bRz
 bRz
 aNI
-atE
+aBa
 bza
 byR
 byR
 byP
 byI
-bxB
-bxB
 aNI
 aNI
 aNI
 aNI
 bRz
-bQg
+bRz
+bQT
+bQd
 bQd
 bxu
 bxu
@@ -154763,20 +154789,20 @@ bRz
 bRz
 aNI
 aZC
-atE
+aBa
 byR
 byU
 byU
 byQ
 byJ
-bxB
-bxB
 aNI
 aNI
 aNI
 aNI
 bRz
-bQg
+bRz
+bQT
+bQd
 bQd
 bYN
 bxu
@@ -154945,20 +154971,20 @@ bRz
 aNI
 bzl
 ckJ
-atE
+aBa
 bzb
 byR
 byR
 byR
-atE
-bxB
-bxB
-bxB
+aBa
+aNI
 aNI
 aNI
 aNI
 bRz
-bQg
+bRz
+bQT
+bQd
 bQd
 bxu
 bxu
@@ -155108,10 +155134,10 @@ bQT
 bRz
 bRz
 aNI
-atE
-atE
-atE
-atE
+aBa
+aBa
+aBa
+aBa
 bRz
 bRz
 aNI
@@ -155127,19 +155153,19 @@ bRz
 bzl
 bzm
 bze
-atE
-atE
-atE
-atE
-atE
-atE
-bxB
-bxB
-bxB
+aBa
+aBa
+aBa
+aBa
+aBa
+aBa
+aNI
 aNI
 aNI
 aNI
 bRz
+bRz
+bQT
 bQd
 bQd
 bYN
@@ -155290,8 +155316,8 @@ bQT
 ckU
 aNI
 aNI
-atE
-atE
+aBa
+aBa
 bBS
 bBS
 aNI
@@ -155309,19 +155335,19 @@ aNI
 bzo
 bzn
 bze
-atE
+aBa
 bzc
 byX
 aNI
 aNI
 aNI
-bxB
 aNI
 aNI
 aNI
 aNI
 bRz
 bRz
+bQT
 bQd
 bxu
 bxu
@@ -155472,7 +155498,7 @@ bRz
 aNI
 aNI
 bRz
-atE
+aBa
 bCs
 bCj
 bBZ
@@ -155495,8 +155521,7 @@ bzd
 aZC
 ckF
 aZC
-atE
-aNI
+aBa
 aNI
 aNI
 aNI
@@ -155504,6 +155529,7 @@ aNI
 aNI
 bRz
 bRz
+bQT
 bQd
 bQG
 bQG
@@ -155654,7 +155680,7 @@ aNI
 aNI
 bRz
 bRz
-atE
+aBa
 bCt
 bCk
 bCa
@@ -155673,12 +155699,12 @@ aNI
 bzs
 aZC
 bzf
-atE
+aBa
 byY
 byY
 byV
-atE
-atE
+aBa
+aBa
 aNI
 aNI
 aNI
@@ -155856,9 +155882,9 @@ atE
 aNI
 aNI
 aNI
-atE
-atE
-atE
+aBa
+aBa
+aBa
 aNI
 aNI
 aNI
@@ -156382,7 +156408,7 @@ aNI
 bRz
 bRz
 bRz
-atE
+aBa
 bCx
 bCo
 bCe
@@ -156564,7 +156590,7 @@ aNI
 aNI
 ckU
 aNI
-atE
+aBa
 bCy
 bCp
 bCf
@@ -156746,8 +156772,8 @@ aNI
 aNI
 bQT
 bRz
-atE
-atE
+aBa
+aBa
 bCg
 clZ
 bBS
@@ -156928,11 +156954,11 @@ bRz
 aNI
 aNI
 aNI
-atE
-atE
-atE
-atE
-atE
+aBa
+aBa
+aBa
+aBa
+aBa
 bRz
 bRz
 bRz
