@@ -78,7 +78,6 @@
 
 /area/point_loma/airbase
 	name = "USASF Point Loma Airbase"
-	temperature = DESERT_TEMP // hot enough for heat indicator
 	icon_state = "shuttle"
 
 /area/point_loma/airbase/interior
