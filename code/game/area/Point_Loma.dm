@@ -120,7 +120,7 @@
 
 /area/point_loma/airbase/interior/garage
 	name = "Utility Vehicle Garage"
-	icon = 'icons/turf/hybrisareas.dmi'
+	icon = 'icons/turf/area_hybrisa.dmi'
 	icon_state = "garage"
 
 /area/point_loma/airbase/interior/hangar
@@ -129,7 +129,7 @@
 
 /area/point_loma/airbase/interior/research
 	name = "Fuel Mixing Facility"
-	icon = 'icons/turf/hybrisareas.dmi'
+	icon = 'icons/turf/area_hybrisa.dmi'
 	icon_state = "wylab"
 	minimap_color = MINIMAP_AREA_RESEARCH
 
@@ -356,7 +356,7 @@
 /area/point_loma/research_facility/research
 	name = "Alpha-Tech Research Facility"
 	minimap_color = MINIMAP_AREA_RESEARCH
-	icon = 'icons/turf/hybrisareas.dmi'
+	icon = 'icons/turf/area_hybrisa.dmi'
 	icon_state = "wylab"
 	ceiling = CEILING_UNDERGROUND_METAL_BLOCK_CAS
 
