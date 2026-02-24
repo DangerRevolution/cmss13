@@ -1,4 +1,0 @@
-author: "hry-gh"
-delete-after: True
-changes:
-  - server: "server operators can configure achievement backends"
