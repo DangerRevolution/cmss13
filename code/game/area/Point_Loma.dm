@@ -78,7 +78,6 @@
 
 /area/point_loma/airbase
 	name = "USASF Point Loma Airbase"
-	temperature = DESERT_TEMP // hot enough for heat indicator
 	icon_state = "shuttle"
 
 /area/point_loma/airbase/interior
@@ -121,7 +120,7 @@
 
 /area/point_loma/airbase/interior/garage
 	name = "Utility Vehicle Garage"
-	icon = 'icons/turf/hybrisareas.dmi'
+	icon = 'icons/turf/area_hybrisa.dmi'
 	icon_state = "garage"
 
 /area/point_loma/airbase/interior/hangar
@@ -130,7 +129,7 @@
 
 /area/point_loma/airbase/interior/research
 	name = "Fuel Mixing Facility"
-	icon = 'icons/turf/hybrisareas.dmi'
+	icon = 'icons/turf/area_hybrisa.dmi'
 	icon_state = "wylab"
 	minimap_color = MINIMAP_AREA_RESEARCH
 
@@ -321,6 +320,7 @@
 	name = "Alpha-Tech - Gymnasium"
 	icon = 'icons/turf/area_almayer.dmi'
 	icon_state = "gruntrnr"
+	ceiling = CEILING_UNDERGROUND_METAL_BLOCK_CAS
 
 /area/point_loma/research_facility/gym/basketball
 	icon_state = "basketball"
@@ -331,6 +331,7 @@
 	icon_state = "laundry"
 
 /area/point_loma/research_facility/library
+	ceiling = CEILING_UNDERGROUND_METAL_BLOCK_CAS
 
 /area/point_loma/research_facility/medical
 	name = "Alpha-Tech - Medbay"
@@ -342,6 +343,7 @@
 	name = "Alpha-Tech - Pool and Sauna"
 	icon = 'icons/turf/area_whiskey.dmi'
 	icon_state = "livingspace"
+	ceiling = CEILING_UNDERGROUND_METAL_BLOCK_CAS
 
 /area/point_loma/research_facility/pool/water
 	temperature = ICE_COLONY_TEMPERATURE // -50 degrees celcius, so the cold icon comes up
@@ -354,7 +356,7 @@
 /area/point_loma/research_facility/research
 	name = "Alpha-Tech Research Facility"
 	minimap_color = MINIMAP_AREA_RESEARCH
-	icon = 'icons/turf/hybrisareas.dmi'
+	icon = 'icons/turf/area_hybrisa.dmi'
 	icon_state = "wylab"
 	ceiling = CEILING_UNDERGROUND_METAL_BLOCK_CAS
 
@@ -374,6 +376,7 @@
 	minimap_color = MINIMAP_AREA_SEC
 	icon = 'icons/turf/area_strata.dmi'
 	icon_state= "security_station"
+	ceiling = CEILING_UNDERGROUND_METAL_BLOCK_CAS
 
 // Mining Colony //
 
@@ -416,6 +419,10 @@
 	name = "Mining Colony - Communication Relay"
 	minimap_color = MINIMAP_AREA_COMMS
 	icon_state = "comms4"
+
+/area/point_loma/airbase/mining_colony/interior/engineering/communications/two
+	name = "Alpha-Tech Research Facility - Communications Relay"
+	ceiling = CEILING_UNDERGROUND_METAL_ALLOW_CAS
 
 /area/point_loma/airbase/mining_colony/interior/living_quarters
 	name = "Mining Colony - Living Quarters"
