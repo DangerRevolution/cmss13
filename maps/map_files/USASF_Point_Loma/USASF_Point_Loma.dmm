@@ -2124,7 +2124,6 @@
 /turf/open/floor/darkred2/southeast,
 /area/point_loma/airbase/interior/cargo)
 "agQ" = (
-/obj/effect/landmark/hunter_primary,
 /obj/effect/decal/warning_stripes{
 	icon_state = "N";
 	layer = 3.33;
@@ -9345,6 +9344,13 @@
 	},
 /turf/open/floor/corsat/retrosquareslight,
 /area/point_loma/research_facility/medical)
+"aBe" = (
+/obj/structure/pipes/standard/simple/hidden/green{
+	dir = 4
+	},
+/obj/effect/landmark/yautja_teleport,
+/turf/open/floor/corsat/squares,
+/area/point_loma/research_facility/security_hq)
 "aBf" = (
 /obj/structure/machinery/door/poddoor/shutters/almayer{
 	id = "MedicalDistriShu";
@@ -9781,6 +9787,10 @@
 	},
 /turf/open/floor/corsat/squares,
 /area/point_loma/research_facility/hallway/east)
+"aCo" = (
+/obj/effect/landmark/yautja_teleport,
+/turf/open/floor/corsat,
+/area/point_loma/research_facility/command)
 "aCp" = (
 /obj/structure/machinery/door/airlock/multi_tile/almayer/engidoor/colony{
 	autoname = 1
@@ -10170,6 +10180,10 @@
 	},
 /turf/open/floor/corsat/officetiles,
 /area/point_loma/airbase/interior/cargo)
+"aDu" = (
+/obj/effect/landmark/yautja_teleport,
+/turf/open/floor/corsat/squares,
+/area/point_loma/research_facility/super_death_cannon/observation/civ)
 "aDv" = (
 /obj/structure/prop/static_tank/fuel,
 /obj/structure/pipes/standard/simple/visible{
@@ -12049,14 +12063,6 @@
 	},
 /turf/open/hybrisa/street/roadlines,
 /area/point_loma/airbase/interior/hospital)
-"aJg" = (
-/obj/structure/machinery/door_control{
-	name = "Storage Unit Control";
-	pixel_x = -24
-	},
-/obj/effect/landmark/hunter_primary,
-/turf/open/new_varadero,
-/area/point_loma/airbase/interior/cargo)
 "aJh" = (
 /obj/structure/bed/chair/comfy/beige{
 	dir = 8
@@ -12410,6 +12416,10 @@
 	pixel_y = 1
 	},
 /turf/open/floor/shiva/yellow/east,
+/area/point_loma/airbase/interior/cargo/lower)
+"aKj" = (
+/obj/effect/landmark/yautja_teleport,
+/turf/open/floor/corsat,
 /area/point_loma/airbase/interior/cargo/lower)
 "aKk" = (
 /obj/structure/flora/bush/ausbushes/reedbush{
@@ -22577,6 +22587,10 @@
 /obj/structure/window/framed/new_varadero/foundation/reinforced,
 /turf/open/floor/corsat,
 /area/point_loma/research_facility/security_hq)
+"bmr" = (
+/obj/effect/landmark/yautja_teleport,
+/turf/open/auto_turf/sand_white/layer1,
+/area/point_loma/airbase/mining_colony/caves)
 "bms" = (
 /obj/structure/closet/secure_closet/brig/prisoner,
 /turf/open/floor/corsat/red/northeast,
@@ -24382,6 +24396,10 @@
 	},
 /turf/open/shuttle/dropship/predship/tile,
 /area/point_loma/research_facility/crash_site)
+"bry" = (
+/obj/effect/landmark/yautja_teleport,
+/turf/open/floor/corsat/lightplate,
+/area/point_loma/airbase/interior/research)
 "brz" = (
 /obj/structure/pipes/standard/cap/hidden{
 	color = "#6b675e"
@@ -27042,6 +27060,10 @@
 "bzI" = (
 /turf/closed/wall/new_varadero/concrete/hull,
 /area/point_loma/oob)
+"bzJ" = (
+/obj/effect/landmark/yautja_teleport,
+/turf/open/new_varadero/sidewalk/sidewalkfull,
+/area/point_loma/airbase/interior/fire_station)
 "bzK" = (
 /obj/structure/window/framed/shiva/orange,
 /obj/structure/sign/safety/radio_rad,
@@ -30406,6 +30428,10 @@
 "bIW" = (
 /turf/closed/wall/new_varadero,
 /area/point_loma/research_facility/gym)
+"bIX" = (
+/obj/effect/landmark/yautja_teleport,
+/turf/open/floor/shiva/north,
+/area/point_loma/airbase/interior/hospital)
 "bIY" = (
 /turf/open/floor/corsat,
 /area/point_loma/research_facility/security_hq)
@@ -30418,6 +30444,10 @@
 "bJb" = (
 /turf/open/floor/corsat,
 /area/point_loma/research_facility/gym)
+"bJc" = (
+/obj/effect/landmark/yautja_teleport,
+/turf/open/new_varadero/dock_concrete,
+/area/point_loma/research_facility/super_death_cannon/cannon)
 "bJd" = (
 /turf/open/auto_turf/sand_white/layer0,
 /area/point_loma/research_facility/cave/west)
@@ -32738,12 +32768,24 @@
 	},
 /turf/open/auto_turf/sand_white/layer1,
 /area/point_loma/airbase/exterior/west)
+"bQN" = (
+/obj/effect/landmark/yautja_teleport,
+/turf/open/new_varadero/taupe_concrete,
+/area/point_loma/airbase/interior/fuel_storage)
 "bQO" = (
 /obj/structure/largecrate/random/barrel/true_random{
 	pixel_x = 4
 	},
 /turf/open/auto_turf/hybrisa_auto_turf/layer1,
 /area/point_loma/airbase/exterior/west)
+"bQP" = (
+/obj/effect/landmark/yautja_teleport,
+/turf/open/floor/corsat/box,
+/area/point_loma/airbase/interior/atc/upper)
+"bQQ" = (
+/obj/effect/landmark/yautja_teleport,
+/turf/open/floor/plating/plating_catwalk,
+/area/point_loma/airbase/interior/atc/top)
 "bQR" = (
 /obj/structure/flora/grass/desert/heavy,
 /turf/open/auto_turf/sand_white/layer1,
@@ -39437,6 +39479,7 @@
 /obj/structure/pipes/standard/simple/hidden/green{
 	dir = 4
 	},
+/obj/effect/landmark/yautja_teleport,
 /turf/open/floor/hybrisa/wood/darkerwood,
 /area/point_loma/research_facility/pool/sauna)
 "cop" = (
@@ -95794,7 +95837,7 @@ aNw
 aNw
 aMC
 cgT
-cgT
+aKj
 bKU
 aMt
 aMt
@@ -106025,7 +106068,7 @@ akm
 afc
 afh
 cqI
-afh
+aCo
 bJw
 bJw
 bAH
@@ -108537,7 +108580,7 @@ aMC
 ayI
 awP
 awP
-awP
+aDu
 axr
 csx
 arf
@@ -110247,7 +110290,7 @@ blL
 blu
 bGt
 bjo
-bGl
+aBe
 adz
 adz
 biY
@@ -139481,7 +139524,7 @@ cll
 clz
 aJO
 afF
-aJg
+aqc
 akL
 ctD
 afF
@@ -141158,7 +141201,7 @@ bRM
 bRM
 bRL
 byp
-bRM
+bzJ
 bRM
 bRL
 asb
@@ -143650,7 +143693,7 @@ asb
 ajk
 bXn
 bWq
-bWq
+bQN
 bWq
 bWq
 ajk
@@ -145351,7 +145394,7 @@ aDV
 aed
 aed
 aOh
-ajp
+bry
 aUq
 aLe
 cjH
@@ -153497,7 +153540,7 @@ bUV
 bUV
 bUV
 bUV
-bUV
+bJc
 bUV
 bCN
 bUH
@@ -162521,7 +162564,7 @@ asb
 asb
 asb
 bOR
-bOR
+bmr
 bOR
 bOS
 bOS
@@ -164062,7 +164105,7 @@ bAu
 apJ
 arQ
 bUi
-bUi
+bIX
 bUi
 bUi
 bUi
@@ -192074,7 +192117,7 @@ bVo
 bcl
 bFc
 bVi
-bVi
+bQP
 bVi
 bVi
 bVi
@@ -237577,7 +237620,7 @@ bcH
 bcH
 bcH
 bcH
-bcH
+bQQ
 bcH
 bcH
 bcH
