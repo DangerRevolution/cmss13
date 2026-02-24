@@ -12063,6 +12063,12 @@
 	},
 /turf/open/hybrisa/street/roadlines,
 /area/point_loma/airbase/interior/hospital)
+"aJg" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/pipes/standard/simple/hidden/green,
+/obj/effect/landmark/ert_spawns/groundside_xeno,
+/turf/open/floor/corsat/squares,
+/area/point_loma/research_facility/security_hq)
 "aJh" = (
 /obj/structure/bed/chair/comfy/beige{
 	dir = 8
@@ -20573,6 +20579,7 @@
 /obj/structure/pipes/standard/simple/hidden/green{
 	dir = 5
 	},
+/obj/effect/landmark/ert_spawns/groundside_xeno,
 /turf/open/floor/whitepurplecorner/east,
 /area/point_loma/research_facility/pool)
 "bgQ" = (
@@ -32852,6 +32859,10 @@
 	},
 /turf/open/asphalt/cement_shaded/west_east,
 /area/point_loma/airbase/mining_colony/exterior/security/checkpoint)
+"bRh" = (
+/obj/effect/landmark/ert_spawns/groundside_xeno,
+/turf/open/new_varadero/alt_concrete/floor,
+/area/point_loma/research_facility/engineering)
 "bRi" = (
 /obj/item/lightstick/red/variant/planted,
 /obj/structure/flora/grass/desert/lightgrass_1,
@@ -32867,6 +32878,11 @@
 /obj/structure/window/framed/shiva/red,
 /turf/open/floor/corsat,
 /area/point_loma/airbase/mining_colony/exterior/security/central)
+"bRm" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/landmark/ert_spawns/groundside_xeno,
+/turf/open/new_varadero/dock_concrete,
+/area/point_loma/research_facility/cave/west)
 "bRn" = (
 /obj/structure/machinery/door/airlock/multi_tile/almayer/secdoor/reinforced/colony,
 /turf/open/floor/shiva/north,
@@ -32890,6 +32906,10 @@
 "bRt" = (
 /turf/open/floor/shiva/red/southeast,
 /area/point_loma/airbase/mining_colony/exterior/security/central)
+"bRu" = (
+/obj/effect/landmark/ert_spawns/groundside_xeno,
+/turf/open/new_varadero/alt_concrete/warning/west,
+/area/point_loma/research_facility/super_death_cannon/ammo_elevator)
 "bRv" = (
 /turf/open/asphalt/cement_sunbleached,
 /area/point_loma/airbase/mining_colony/interior/engineering)
@@ -32909,6 +32929,13 @@
 /obj/structure/machinery/colony_floodlight,
 /turf/open/auto_turf/sand_white/layer1,
 /area/point_loma/airbase/mining_colony/exterior/security/checkpoint)
+"bRB" = (
+/obj/effect/decal/hybrisa/road/roadmiddle{
+	pixel_y = 17
+	},
+/obj/effect/landmark/ert_spawns/groundside_xeno,
+/turf/open/floor/corsat/squares,
+/area/point_loma/research_facility/super_death_cannon/engineering)
 "bRC" = (
 /obj/structure/machinery/photocopier,
 /turf/open/floor/shiva/multi_tiles,
@@ -32960,6 +32987,10 @@
 "bRP" = (
 /turf/closed/wall/shiva/prefabricated/reinforced,
 /area/point_loma/airbase/mining_colony/exterior/security/central)
+"bRQ" = (
+/obj/effect/landmark/structure_spawner/setup/distress/xeno_weed_node,
+/turf/open/auto_turf/sand_white/layer0,
+/area/point_loma/airbase/cave/south)
 "bRR" = (
 /turf/open/new_varadero/dock_concrete,
 /area/point_loma/airbase/exterior/west)
@@ -33032,6 +33063,10 @@
 "bSg" = (
 /turf/open_space,
 /area/point_loma/airbase/interior/garage)
+"bSh" = (
+/obj/effect/landmark/ert_spawns/groundside_xeno,
+/turf/open/auto_turf/sand_white/layer0,
+/area/point_loma/airbase/cave/south)
 "bSi" = (
 /turf/open/floor/shiva,
 /area/point_loma/airbase/mining_colony/interior/engineering)
@@ -33072,6 +33107,10 @@
 /obj/effect/stairs/down,
 /turf/open_space,
 /area/point_loma/airbase/interior/garage)
+"bSs" = (
+/obj/effect/landmark/ert_spawns/groundside_xeno,
+/turf/open/auto_turf/sand_white/layer0,
+/area/point_loma/airbase/cave/south_west)
 "bSt" = (
 /obj/structure/toilet{
 	dir = 4;
@@ -33088,6 +33127,10 @@
 /obj/structure/machinery/power/apc/power/east,
 /turf/open/floor/shiva/redfull,
 /area/point_loma/airbase/mining_colony/exterior/security/north)
+"bSw" = (
+/obj/effect/landmark/ert_spawns/groundside_xeno,
+/turf/open/auto_turf/sand_white/layer0,
+/area/point_loma/airbase/cave/west)
 "bSx" = (
 /obj/structure/window/framed/shiva/red,
 /turf/open/new_varadero,
@@ -33114,6 +33157,10 @@
 "bSD" = (
 /turf/open/floor/shiva/red/southeast,
 /area/point_loma/airbase/mining_colony/exterior/security/north)
+"bSE" = (
+/obj/effect/landmark/structure_spawner/setup/distress/xeno_weed_node,
+/turf/open/auto_turf/sand_white/layer0,
+/area/point_loma/airbase/cave/west)
 "bSF" = (
 /turf/open/floor/shiva/redcorners/west,
 /area/point_loma/airbase/mining_colony/exterior/security/north)
@@ -90412,7 +90459,7 @@ aGx
 bKD
 bnQ
 cfp
-bnQ
+bRm
 bmJ
 bmJ
 bmJ
@@ -94981,7 +95028,7 @@ acD
 bqI
 bjt
 bjt
-bjt
+bRh
 bjR
 bjR
 bjt
@@ -106043,7 +106090,7 @@ atC
 asU
 aDd
 asi
-aqV
+bRu
 aqV
 ann
 aln
@@ -109920,7 +109967,7 @@ bGN
 bGM
 bGQ
 bGN
-bGM
+aJg
 bGH
 biY
 blu
@@ -110047,7 +110094,7 @@ auf
 atj
 asD
 bMk
-arU
+bRB
 ard
 anT
 aCq
@@ -137378,7 +137425,7 @@ bRd
 bRd
 bRd
 bRd
-bRd
+bSw
 bRd
 bRd
 bRd
@@ -137560,7 +137607,7 @@ bRd
 bRd
 bRd
 bRd
-bRd
+bSE
 bRd
 bRd
 bRd
@@ -137781,7 +137828,7 @@ bPl
 bPl
 bPl
 ciB
-bPl
+bSs
 bPl
 bPl
 bPl
@@ -138099,8 +138146,8 @@ asb
 asb
 bRd
 bRd
-bRd
-bRd
+bSw
+bSE
 bRd
 aLV
 ckf
@@ -139197,7 +139244,7 @@ asb
 asb
 asb
 bRd
-bRd
+bSE
 bRd
 bRd
 bRd
@@ -139234,7 +139281,7 @@ bPl
 bPl
 bPl
 bPl
-bPl
+bSs
 ciJ
 ciT
 ciN
@@ -139379,7 +139426,7 @@ bRd
 bRd
 bRd
 bRd
-bRd
+bSw
 bRd
 bRd
 bRd
@@ -140521,7 +140568,7 @@ aeX
 ciJ
 ciD
 bPl
-bPl
+bSs
 bPl
 asb
 asb
@@ -141244,7 +141291,7 @@ asb
 bPl
 bPl
 bPl
-bPl
+bSs
 bPl
 bPl
 bPl
@@ -148720,8 +148767,8 @@ asb
 bOU
 bOU
 bOU
-bOU
-bOU
+bSh
+bRQ
 bOU
 anY
 aFh
@@ -150722,8 +150769,8 @@ bOU
 bOU
 bOU
 bOU
-bOU
-bOU
+bSh
+bRQ
 bOU
 bOU
 bOU
