@@ -9344,13 +9344,6 @@
 	},
 /turf/open/floor/corsat/retrosquareslight,
 /area/point_loma/research_facility/medical)
-"aBe" = (
-/obj/structure/pipes/standard/simple/hidden/green{
-	dir = 4
-	},
-/obj/effect/landmark/yautja_teleport,
-/turf/open/floor/corsat/squares,
-/area/point_loma/research_facility/security_hq)
 "aBf" = (
 /obj/structure/machinery/door/poddoor/shutters/almayer{
 	id = "MedicalDistriShu";
@@ -22594,10 +22587,6 @@
 /obj/structure/window/framed/new_varadero/foundation/reinforced,
 /turf/open/floor/corsat,
 /area/point_loma/research_facility/security_hq)
-"bmr" = (
-/obj/effect/landmark/yautja_teleport,
-/turf/open/auto_turf/sand_white/layer1,
-/area/point_loma/airbase/mining_colony/caves)
 "bms" = (
 /obj/structure/closet/secure_closet/brig/prisoner,
 /turf/open/floor/corsat/red/northeast,
@@ -110337,7 +110326,7 @@ blL
 blu
 bGt
 bjo
-aBe
+bGl
 adz
 adz
 biY
@@ -162611,7 +162600,7 @@ asb
 asb
 asb
 bOR
-bmr
+bOR
 bOR
 bOS
 bOS
