@@ -1570,7 +1570,10 @@
 /area/point_loma/airbase/interior/research)
 "afe" = (
 /obj/structure/surface/table/woodentable/fancy,
-/obj/item/device/flashlight/lamp/green,
+/obj/item/device/flashlight/lamp/green{
+	on = 1
+	},
+/obj/effect/landmark/objective_landmark/science,
 /turf/open/floor/kutjevo/fake_wood,
 /area/point_loma/airbase/mining_colony/interior/corporate)
 "aff" = (
@@ -1980,6 +1983,9 @@
 /area/point_loma/airbase/interior/workshop)
 "ags" = (
 /obj/structure/surface/table/woodentable/fancy,
+/obj/structure/machinery/computer/objective{
+	dir = 1
+	},
 /turf/open/floor/kutjevo/fake_wood,
 /area/point_loma/airbase/mining_colony/interior/corporate)
 "agt" = (
@@ -2017,6 +2023,7 @@
 	pixel_y = 18;
 	pixel_x = 12
 	},
+/obj/effect/landmark/objective_landmark/close,
 /turf/open/floor/kutjevo/fake_wood,
 /area/point_loma/airbase/mining_colony/interior/corporate)
 "agx" = (
@@ -3890,6 +3897,10 @@
 /area/point_loma/airbase/interior/atc)
 "ami" = (
 /obj/structure/surface/table,
+/obj/item/storage/box/bodybags{
+	pixel_x = -4;
+	pixel_y = 12
+	},
 /turf/open/floor/shiva/snow_mat/east,
 /area/point_loma/airbase/interior/hospital)
 "amj" = (
@@ -4632,7 +4643,8 @@
 /area/point_loma/airbase/mining_colony/interior/engineering)
 "aop" = (
 /obj/structure/machinery/shower{
-	pixel_y = 16
+	pixel_y = 16;
+	on = 1
 	},
 /obj/effect/decal/hybrisa/dirt,
 /turf/open/floor/strata/white_cyan2/west,
@@ -11761,6 +11773,13 @@
 "aIr" = (
 /obj/structure/surface/table/reinforced/prison,
 /obj/structure/machinery/door/window/brigdoor/westright,
+/obj/structure/transmitter/colony_net/rotary{
+	phone_category = "USASF Point Loma";
+	phone_id = "Mining Colony - Corporate Liaison Reception"
+	},
+/obj/item/clock{
+	pixel_y = 17
+	},
 /turf/open/floor/whiteyellowfull,
 /area/point_loma/airbase/mining_colony/interior/corporate)
 "aIs" = (
@@ -20459,7 +20478,9 @@
 /turf/open/floor/corsat/purple/northwest,
 /area/point_loma/research_facility/research/west)
 "bgv" = (
-/obj/structure/safe,
+/obj/structure/safe{
+	spawnkey = 0
+	},
 /obj/effect/landmark/objective_landmark/science,
 /obj/item/clothing/head/beret/marine/chiefofficer{
 	pixel_y = 12;
@@ -25175,6 +25196,10 @@
 /area/point_loma/airbase/mining_colony/exterior/security/south)
 "btY" = (
 /obj/structure/surface/table,
+/obj/item/storage/box/bodybags{
+	pixel_x = -4;
+	pixel_y = 12
+	},
 /turf/open/floor/almayer/sterile_green_side/north,
 /area/point_loma/airbase/mining_colony/exterior/security/south)
 "btZ" = (
@@ -26184,9 +26209,10 @@
 /turf/open/floor/shiva/yellow/north,
 /area/point_loma/airbase/mining_colony/interior/engineering)
 "bxb" = (
-/obj/structure/bed,
-/obj/item/bedsheet/yellow,
-/turf/open/floor/plating/wood,
+/obj/structure/machinery/shower{
+	pixel_y = 16
+	},
+/turf/open/floor/strata/white_cyan2/west,
 /area/point_loma/airbase/mining_colony/interior/corporate)
 "bxc" = (
 /obj/structure/cargo_container/hybrisa/containersextended/kelland_right,
@@ -30189,7 +30215,8 @@
 	pixel_x = null
 	},
 /obj/structure/safe{
-	pixel_y = 19
+	pixel_y = 19;
+	spawnkey = 0
 	},
 /turf/open/floor/corsat/blue/north,
 /area/point_loma/research_facility/command)
@@ -38344,6 +38371,16 @@
 /obj/effect/decal/cleanable/dirt/sand_1,
 /turf/open/auto_turf/sand_white/layer1,
 /area/point_loma/airbase/exterior/east)
+"cks" = (
+/obj/structure/machinery/door/airlock/almayer/maint/colony/autoname,
+/turf/open/floor/white,
+/area/point_loma/airbase/mining_colony/interior/corporate)
+"ckt" = (
+/obj/structure/machinery/door/airlock/almayer/generic/autoname{
+	dir = 1
+	},
+/turf/open/floor/white,
+/area/point_loma/airbase/mining_colony/interior/corporate)
 "cku" = (
 /obj/effect/decal/warning_stripes{
 	icon_state = "W"
@@ -38351,6 +38388,10 @@
 /obj/effect/decal/cleanable/dirt/sand_2,
 /turf/open/hybrisa/street/asphalt/runway,
 /area/point_loma/airbase/exterior/crash_site)
+"ckv" = (
+/obj/structure/machinery/door/airlock/almayer/generic/autoname,
+/turf/open/floor/white,
+/area/point_loma/airbase/mining_colony/interior/corporate)
 "ckw" = (
 /turf/open/floor/shiva/yellowcorners/east,
 /area/point_loma/airbase/interior/garage)
@@ -38461,6 +38502,13 @@
 	},
 /turf/open/floor/shiva/floor3,
 /area/point_loma/airbase/interior/cargo)
+"ckS" = (
+/obj/structure/bed/chair{
+	dir = 1;
+	pixel_y = -1
+	},
+/turf/open/floor/kutjevo/fake_wood,
+/area/point_loma/airbase/mining_colony/interior/corporate)
 "ckT" = (
 /obj/effect/decal/warning_stripes{
 	icon_state = "E";
@@ -39880,6 +39928,19 @@
 /obj/structure/pipes/standard/simple/hidden/green,
 /turf/open/floor/corsat/squares,
 /area/point_loma/research_facility/hallway/central)
+"cpt" = (
+/obj/structure/surface/table/woodentable/fancy,
+/obj/item/paper_bin{
+	pixel_x = -5
+	},
+/obj/structure/transmitter/colony_net/rotary{
+	pixel_y = 8;
+	pixel_x = 6;
+	phone_id = "Mining Colony - Corporate Liaison Office";
+	phone_category = "USASF Point Loma"
+	},
+/turf/open/floor/kutjevo/fake_wood,
+/area/point_loma/airbase/mining_colony/interior/corporate)
 "cpu" = (
 /obj/structure/pipes/standard/manifold/hidden/green,
 /turf/open/floor/corsat/squares,
@@ -40115,6 +40176,24 @@
 /obj/structure/pipes/standard/simple/hidden/green,
 /turf/open/floor/corsat/squares,
 /area/point_loma/research_facility/hallway/west)
+"cqg" = (
+/obj/structure/reagent_dispensers/water_cooler/walk_past{
+	pixel_y = -1;
+	pixel_x = 8
+	},
+/turf/open/floor/kutjevo/fake_wood,
+/area/point_loma/airbase/mining_colony/interior/corporate)
+"cqh" = (
+/obj/structure/filingcabinet{
+	pixel_x = -4
+	},
+/obj/structure/filingcabinet{
+	pixel_x = 12
+	},
+/obj/effect/landmark/objective_landmark/close,
+/obj/effect/landmark/objective_landmark/close,
+/turf/open/floor/kutjevo/fake_wood,
+/area/point_loma/airbase/mining_colony/interior/corporate)
 "cqi" = (
 /obj/structure/pipes/standard/manifold/hidden/green{
 	dir = 8
@@ -40417,6 +40496,11 @@
 /obj/structure/pipes/standard/manifold/hidden/green,
 /turf/open/floor/corsat/green/north,
 /area/point_loma/research_facility/crash_site)
+"crh" = (
+/obj/structure/closet/secure_closet/personal,
+/obj/effect/landmark/objective_landmark/close,
+/turf/open/floor/kutjevo/fake_wood,
+/area/point_loma/airbase/mining_colony/interior/corporate)
 "cri" = (
 /obj/structure/pipes/standard/simple/hidden/green,
 /turf/open/floor/corsat/squares,
@@ -40885,6 +40969,37 @@
 	},
 /turf/open/floor/corsat/squares,
 /area/point_loma/research_facility/super_death_cannon/observation)
+"csB" = (
+/obj/structure/prop/ice_colony/dense/planter_box{
+	dir = 9
+	},
+/obj/structure/flora/bush/ausbushes/var3/sunnybush{
+	icon_state = "fernybush_2";
+	pixel_y = 10
+	},
+/turf/open/floor/kutjevo/fake_wood,
+/area/point_loma/airbase/mining_colony/interior/corporate)
+"csC" = (
+/obj/structure/mirror{
+	pixel_y = 18;
+	pixel_x = -26
+	},
+/turf/open/floor/hybrisa/carpet/rug_colorable/teal/east,
+/area/point_loma/airbase/mining_colony/interior/corporate)
+"csD" = (
+/turf/open/floor/hybrisa/carpet/rug_colorable/teal/west,
+/area/point_loma/airbase/mining_colony/interior/corporate)
+"csE" = (
+/turf/open/floor/hybrisa/carpet/rug_colorable/teal,
+/area/point_loma/airbase/mining_colony/interior/corporate)
+"csF" = (
+/obj/item/reagent_container/food/drinks/cans/grape_juice{
+	pixel_y = 9;
+	pixel_x = 9;
+	open = 1
+	},
+/turf/open/floor/hybrisa/carpet/rug_colorable/teal/north,
+/area/point_loma/airbase/mining_colony/interior/corporate)
 "csG" = (
 /obj/structure/machinery/colony_floodlight,
 /turf/open/auto_turf/sand_white/layer0,
@@ -40959,6 +41074,18 @@
 	},
 /turf/open/floor/plating/warnplate/west,
 /area/shuttle/drop1/point_loma)
+"csU" = (
+/obj/item/trash/ceramic_plate{
+	pixel_y = 9
+	},
+/obj/item/reagent_container/food/snacks/orangecakeslice{
+	pixel_y = 12
+	},
+/obj/item/tool/kitchen/utensil/fork{
+	pixel_x = 11
+	},
+/turf/open/floor/kutjevo/fake_wood,
+/area/point_loma/airbase/mining_colony/interior/corporate)
 "csV" = (
 /obj/structure/machinery/landinglight/ds1/delayone{
 	dir = 8
@@ -40972,6 +41099,14 @@
 	},
 /turf/open/floor/plating/warnplate/southwest,
 /area/shuttle/drop1/point_loma)
+"csX" = (
+/obj/structure/safe{
+	spawnkey = 0
+	},
+/obj/effect/landmark/objective_landmark/science,
+/obj/effect/landmark/objective_landmark/close,
+/turf/open/floor/kutjevo/fake_wood,
+/area/point_loma/airbase/mining_colony/interior/corporate)
 "csY" = (
 /obj/structure/machinery/landinglight/ds1{
 	dir = 8
@@ -40984,6 +41119,18 @@
 	},
 /turf/open/floor/plating/icefloor/warnplate/east,
 /area/shuttle/drop1/point_loma)
+"cta" = (
+/obj/structure/surface/table/woodentable/fancy,
+/obj/item/device/flashlight/lamp/green{
+	on = 1;
+	pixel_y = 8;
+	pixel_x = -6
+	},
+/obj/item/trash/candle{
+	pixel_y = 1
+	},
+/turf/open/floor/kutjevo/fake_wood,
+/area/point_loma/airbase/mining_colony/interior/corporate)
 "ctb" = (
 /obj/structure/machinery/landinglight/ds1/delaythree{
 	dir = 8
@@ -40996,6 +41143,22 @@
 	},
 /turf/open/floor/plating/icefloor/warnplate/east,
 /area/shuttle/drop1/point_loma)
+"ctd" = (
+/obj/structure/curtain/open/shower,
+/turf/open/floor/strata/white_cyan1,
+/area/point_loma/airbase/mining_colony/interior/corporate)
+"cte" = (
+/obj/structure/closet/wardrobe/grey,
+/obj/item/reagent_container/glass/rag{
+	desc = "A towel for drying yourself.";
+	icon = 'icons/obj/items/hunter/pred_gear.dmi';
+	icon_state = "polishing_rag";
+	name = "towel"
+	},
+/obj/item/tool/soap/deluxe,
+/obj/item/tool/soap/deluxe,
+/turf/open/floor/strata/white_cyan2/west,
+/area/point_loma/airbase/mining_colony/interior/corporate)
 "ctf" = (
 /obj/structure/machinery/landinglight/ds1/delaytwo{
 	dir = 1
@@ -41014,6 +41177,16 @@
 	},
 /turf/open/floor/plating/icefloor/warnplate/northeast,
 /area/shuttle/drop1/point_loma)
+"cth" = (
+/obj/item/reagent_container/glass/rag{
+	desc = "A pile of clothing, these need washing...";
+	name = "pile of clothing";
+	color = "#973a3a";
+	pixel_x = 10;
+	pixel_y = -5
+	},
+/turf/open/floor/strata/white_cyan2/west,
+/area/point_loma/airbase/mining_colony/interior/corporate)
 "cti" = (
 /obj/structure/machinery/landinglight/ds1/delaytwo{
 	dir = 1
@@ -41144,9 +41317,19 @@
 	},
 /turf/open/floor/corsat/plate,
 /area/point_loma/airbase/interior/research)
+"ctC" = (
+/turf/open/floor/strata/white_cyan2/west,
+/area/point_loma/airbase/mining_colony/interior/corporate)
 "ctD" = (
 /turf/closed/wall/new_varadero/concrete,
 /area/point_loma/airbase/interior/cargo)
+"ctE" = (
+/obj/structure/sink{
+	dir = 8;
+	pixel_x = -11
+	},
+/turf/open/floor/strata/white_cyan2/west,
+/area/point_loma/airbase/mining_colony/interior/corporate)
 "ctF" = (
 /turf/open/floor/shiva/north,
 /area/point_loma/airbase/interior/cargo)
@@ -41248,6 +41431,46 @@
 	},
 /turf/open/floor/corsat/box,
 /area/point_loma/airbase/interior/atc/upper)
+"ctU" = (
+/turf/open/floor/plating/plating_catwalk/shiva,
+/area/point_loma/airbase/mining_colony/interior/corporate)
+"ctV" = (
+/obj/structure/toilet{
+	dir = 8
+	},
+/turf/open/floor/strata/white_cyan2/west,
+/area/point_loma/airbase/mining_colony/interior/corporate)
+"ctW" = (
+/obj/structure/surface/table/woodentable,
+/obj/effect/landmark/objective_landmark/close,
+/turf/open/floor/plating/wood,
+/area/point_loma/airbase/mining_colony/interior/corporate)
+"ctX" = (
+/obj/structure/machinery/door/airlock/multi_tile/almayer/generic/autoname{
+	dir = 1
+	},
+/turf/open/floor/whiteyellowfull,
+/area/point_loma/airbase/mining_colony/interior/corporate)
+"ctY" = (
+/obj/structure/machinery/door/airlock/almayer/generic/autoname,
+/turf/open/floor/whiteyellowfull,
+/area/point_loma/airbase/mining_colony/interior/corporate)
+"ctZ" = (
+/obj/structure/prop/ice_colony/dense/planter_box{
+	dir = 9
+	},
+/obj/structure/flora/bush/ausbushes/var3/sunnybush{
+	icon_state = "fernybush_2";
+	pixel_y = 10
+	},
+/turf/open/floor/whiteyellow/east,
+/area/point_loma/airbase/mining_colony/interior/corporate)
+"cua" = (
+/obj/structure/surface/table/woodentable/fancy{
+	pixel_y = -7
+	},
+/turf/open/floor/white,
+/area/point_loma/airbase/mining_colony/interior/corporate)
 "cLw" = (
 /turf/open/floor/almayer_hull/outerhull_dir/west,
 /area/point_loma/oob/sky)
@@ -167172,7 +167395,7 @@ bOZ
 buP
 bOZ
 arl
-arl
+ctX
 bOZ
 adK
 adK
@@ -167195,7 +167418,7 @@ buP
 bOZ
 bOZ
 bOZ
-bPa
+cks
 bOZ
 asb
 asb
@@ -167364,14 +167587,14 @@ bOZ
 bvp
 bvp
 bvp
-bvp
-bvp
+csB
+cpt
 bOZ
 bvp
 bvp
 bvp
 bvp
-bPa
+ckt
 bPb
 bPb
 bPb
@@ -167534,11 +167757,11 @@ bPQ
 bPQ
 bOZ
 aHe
-bPa
+cua
 bPa
 akc
 bOZ
-ahD
+ctW
 ahD
 bwN
 bwN
@@ -167547,11 +167770,11 @@ agw
 afe
 adZ
 bvp
-bvp
+cqg
 bOZ
 bvI
 bvB
-bvp
+ckS
 bvp
 bOZ
 buY
@@ -167900,30 +168123,30 @@ bOZ
 aIr
 aAp
 bOZ
-arl
+ctY
 bOZ
 bOZ
 bOZ
 bOZ
-bPa
+ckv
 bOZ
 bOZ
 bOZ
 bOZ
 bOZ
-bPa
+ckv
 bOZ
 bOZ
 bOZ
 bOZ
-bPa
+ckv
 bOZ
 bOZ
 bOZ
-bPa
+cks
 bOZ
 bOZ
-bPa
+cks
 bOZ
 asb
 asb
@@ -168444,24 +168667,24 @@ bYE
 bPQ
 bOZ
 aHL
-ayo
-ayo
+ctZ
+ctZ
 akB
 bOZ
 bOZ
 bOZ
 bOZ
 bOZ
-bPa
 bOZ
 bOZ
 bOZ
 bOZ
-bPa
+bOZ
+ckv
 bOZ
 bOZ
 bvC
-bPa
+cks
 bOZ
 bOZ
 bOZ
@@ -168631,14 +168854,14 @@ buP
 bOZ
 bOZ
 bOZ
-bwN
-bwN
-bwN
-bwN
+ctC
+ctC
+ctE
+cte
 bOZ
-bvp
-bvp
-bvp
+csX
+csE
+csC
 bvp
 bOZ
 bvJ
@@ -168814,13 +169037,13 @@ asb
 asb
 bOZ
 bxb
-bwN
-bwN
-bwN
-bOZ
+ctU
+ctU
+cth
+ctd
 bvp
-bvp
-bvp
+csF
+csD
 bvp
 bOZ
 bPb
@@ -168995,15 +169218,15 @@ bOS
 bOR
 asb
 bOZ
-bwN
-bwN
-bwN
-bwN
+ctC
+ctC
+ctV
+ctC
 bOZ
 bwy
+csU
 bvp
-bvp
-bvp
+cqh
 bOZ
 bvK
 bPb
@@ -169182,10 +169405,10 @@ bOZ
 bOZ
 bOZ
 bOZ
+cta
 bvp
 bvp
-bvp
-bvp
+crh
 bOZ
 bOZ
 bOZ
