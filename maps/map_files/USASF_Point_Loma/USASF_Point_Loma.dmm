@@ -41849,9 +41849,6 @@
 "hRr" = (
 /turf/open/floor/almayer_hull/outerhull_dir,
 /area/point_loma/oob/sky)
-"iiW" = (
-/turf/open/space/basic,
-/area/point_loma/airbase/interior/cargo)
 "iXd" = (
 /obj/structure/prop/invuln/ice_prefab/roof_greeble{
 	icon_state = "vent4";
@@ -137981,7 +137978,7 @@ cll
 cll
 clz
 cls
-iiW
+ctF
 bUw
 ckV
 bUq
