@@ -152,6 +152,10 @@
 	name = "USASF Point Loma Airbase - Exterior"
 	always_unpowered = TRUE // always off
 
+/area/point_loma/airbase/exterior/opening
+	name = "USASF Point Loma Airbase - Sink Hole"
+	minimap_color = MINIMAP_AREA_HYBRISARESEARCH
+
 /area/point_loma/airbase/exterior/crash_site
 	name = "Runway Crash Site"
 	icon_state = "predship"
@@ -188,6 +192,11 @@
 	name = "Point Loma Airbase - Caves - North"
 	ceiling = CEILING_UNDERGROUND_ALLOW_CAS
 
+/area/point_loma/airbase/cave/opening
+	name = "Point Loma Airbase - Cave Sinkhole"
+	minimap_color = MINIMAP_AREA_HYBRISARESEARCH
+
+
 // Alpha-Tech Hardware Corporation Underground Research Facility //
 
 /area/point_loma/research_facility
@@ -215,6 +224,7 @@
 /area/point_loma/research_facility/cave/south_east
 	name = "Alpha-Tech Research Facility Cave - South East"
 	icon_state = "deepcaves3"
+
 
 /area/point_loma/research_facility/hallway
 	name = "Alpha-Tech Hardware - Research Facility Hallway"
