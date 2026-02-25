@@ -1576,6 +1576,9 @@
 "aff" = (
 /turf/open/floor/shiva/blue/west,
 /area/point_loma/airbase/mining_colony/interior/living_quarters)
+"afg" = (
+/turf/open/auto_turf/strata_grass/layer1,
+/area/point_loma/research_facility/research/park/opening)
 "afh" = (
 /turf/open/floor/corsat,
 /area/point_loma/research_facility/command)
@@ -12649,6 +12652,9 @@
 /obj/effect/landmark/objective_landmark/medium,
 /turf/open/floor/shiva/multi_tiles,
 /area/point_loma/airbase/interior/cargo)
+"aKU" = (
+/turf/open/auto_turf/strata_grass/layer0,
+/area/point_loma/research_facility/research/park/opening)
 "aKV" = (
 /obj/structure/catwalk/bigred,
 /obj/structure/barricade/handrail/hybrisa/handrail{
@@ -14180,7 +14186,7 @@
 "aPf" = (
 /obj/effect/stairs/up,
 /turf/open/auto_turf/strata_grass/layer0_mud,
-/area/point_loma/research_facility/research/park)
+/area/point_loma/research_facility/research/park/opening)
 "aPg" = (
 /obj/structure/machinery/door_control{
 	id = "garage_ice_2";
@@ -15108,6 +15114,9 @@
 /obj/effect/decal/cleanable/liquid_fuel,
 /turf/open/floor/shiva/north,
 /area/point_loma/airbase/mining_colony/interior/storage)
+"aRU" = (
+/turf/open/floor/kutjevo/tan,
+/area/point_loma/research_facility/research/park/opening)
 "aRV" = (
 /obj/effect/decal/warning_stripes{
 	icon_state = "W";
@@ -26259,7 +26268,7 @@
 "bxt" = (
 /obj/effect/stairs/up,
 /turf/open/floor/corsat/squares,
-/area/point_loma/research_facility/hallway/west)
+/area/point_loma/research_facility/cave/west/opening)
 "bxu" = (
 /turf/open/hybrisa/street/asphalt,
 /area/point_loma/airbase/exterior/east)
@@ -30581,7 +30590,7 @@
 	flickering = 1
 	},
 /turf/open/floor/corsat/squares,
-/area/point_loma/research_facility/cave/west)
+/area/point_loma/research_facility/cave/west/opening)
 "bJG" = (
 /obj/effect/decal/warning_stripes{
 	icon_state = "S";
@@ -30600,14 +30609,14 @@
 	flickering = 1
 	},
 /turf/open/new_varadero/dock_concrete,
-/area/point_loma/research_facility/cave/west)
+/area/point_loma/research_facility/cave/west/opening)
 "bJI" = (
 /obj/effect/decal/warning_stripes{
 	icon_state = "S";
 	pixel_y = -4
 	},
 /turf/closed/wall/new_varadero,
-/area/point_loma/research_facility/cave/west)
+/area/point_loma/research_facility/cave/west/opening)
 "bJJ" = (
 /obj/effect/decal/warning_stripes{
 	icon_state = "S";
@@ -30623,7 +30632,7 @@
 	needs_power = 0
 	},
 /turf/open/new_varadero/dock_concrete,
-/area/point_loma/research_facility/cave/west)
+/area/point_loma/research_facility/cave/west/opening)
 "bJK" = (
 /obj/structure/pipes/standard/simple/hidden/green{
 	dir = 6
@@ -30664,7 +30673,7 @@
 	needs_power = 0
 	},
 /turf/open/new_varadero/dock_concrete,
-/area/point_loma/research_facility/cave/west)
+/area/point_loma/research_facility/cave/west/opening)
 "bJQ" = (
 /obj/effect/decal/warning_stripes{
 	icon_state = "E";
@@ -33255,6 +33264,9 @@
 /obj/item/stack/sheet/metal,
 /turf/open/floor/plating/burnt_platingdmg3,
 /area/point_loma/airbase/exterior/crash_site)
+"bTh" = (
+/turf/open/auto_turf/strata_grass/layer0_mud,
+/area/point_loma/research_facility/research/park/opening)
 "bTi" = (
 /obj/structure/machinery/door/airlock/multi_tile/almayer/secdoor/reinforced/colony,
 /turf/open/floor/shiva/north,
@@ -33610,6 +33622,10 @@
 "bUw" = (
 /turf/open/floor/shiva/yellow,
 /area/point_loma/airbase/interior/cargo)
+"bUx" = (
+/obj/effect/landmark/structure_spawner/setup/distress/xeno_weed_node,
+/turf/open/auto_turf/strata_grass/layer1,
+/area/point_loma/research_facility/research/park/opening)
 "bUy" = (
 /turf/open/floor/shiva/yellow/west,
 /area/point_loma/airbase/interior/cargo)
@@ -33645,9 +33661,16 @@
 "bUH" = (
 /turf/open/new_varadero/alt_concrete/floor,
 /area/point_loma/research_facility/super_death_cannon/ammo_elevator/upper)
+"bUI" = (
+/obj/item/lightstick/variant/planted,
+/turf/open/auto_turf/strata_grass/layer1,
+/area/point_loma/research_facility/research/park/opening)
 "bUJ" = (
 /turf/open_space,
 /area/point_loma/research_facility/super_death_cannon/ammo_elevator/upper)
+"bUK" = (
+/turf/open/auto_turf/varadero_brown_grass/layer0,
+/area/point_loma/research_facility/research/park/opening)
 "bUL" = (
 /turf/open_space,
 /area/point_loma/airbase/interior/cargo/upper)
@@ -34562,6 +34585,9 @@
 "bXQ" = (
 /turf/open/hybrisa/street/sidewalkcenter/north,
 /area/point_loma/airbase/exterior/crash_site)
+"bXR" = (
+/turf/open/auto_turf/sand_white/layer0,
+/area/point_loma/research_facility/cave/south/opening)
 "bXS" = (
 /turf/open/hybrisa/street/sidewalkcenter/west,
 /area/point_loma/airbase/exterior/west)
@@ -34580,6 +34606,10 @@
 "bXX" = (
 /turf/open/hybrisa/street/sidewalkcenter/north,
 /area/point_loma/airbase/exterior/east)
+"bXY" = (
+/obj/effect/stairs/up,
+/turf/open/auto_turf/sand_white/layer0,
+/area/point_loma/research_facility/cave/south/opening)
 "bXZ" = (
 /turf/open/hybrisa/street/asphalt,
 /area/point_loma/airbase/interior/hospital)
@@ -34771,6 +34801,10 @@
 /obj/effect/decal/hybrisa/dirt/sand_1,
 /turf/open/asphalt/cement_sunbleached,
 /area/point_loma/airbase/mining_colony/exterior/north)
+"bYL" = (
+/obj/effect/landmark/structure_spawner/setup/distress/xeno_weed_node,
+/turf/open/auto_turf/sand_white/layer0,
+/area/point_loma/research_facility/cave/south/opening)
 "bYM" = (
 /obj/effect/decal/cleanable/dirt/sand_2,
 /turf/open/new_varadero/taupe_concrete,
@@ -34805,6 +34839,10 @@
 /obj/effect/decal/hybrisa/dirt/sand_1,
 /turf/open/asphalt/cement_sunbleached,
 /area/point_loma/airbase/mining_colony/exterior/north)
+"bYT" = (
+/obj/structure/prop/rock/black_ground,
+/turf/open/auto_turf/sand_white/layer0,
+/area/point_loma/research_facility/cave/south/opening)
 "bYU" = (
 /obj/effect/decal/warning_stripes{
 	icon_state = "N";
@@ -37860,6 +37898,13 @@
 /obj/structure/platform/stone/kutjevo/west,
 /turf/open_space,
 /area/point_loma/airbase/cave/opening)
+"ciD" = (
+/obj/structure/prop/rock/brown,
+/turf/open/auto_turf/sand_white/layer0,
+/area/point_loma/research_facility/cave/south/opening)
+"ciE" = (
+/turf/open/floor/corsat/squares,
+/area/point_loma/research_facility/cave/west/opening)
 "ciF" = (
 /obj/structure/platform/stone/kutjevo/west,
 /obj/structure/platform/stone/kutjevo/east{
@@ -37888,6 +37933,10 @@
 /obj/structure/platform_decoration/stone/kutjevo/north,
 /turf/open_space,
 /area/point_loma/airbase/cave/opening)
+"ciJ" = (
+/obj/structure/pipes/standard/simple/hidden/green,
+/turf/open/floor/corsat/squares,
+/area/point_loma/research_facility/cave/west/opening)
 "ciK" = (
 /obj/structure/platform/stone/kutjevo/north,
 /obj/structure/platform/stone/kutjevo/east,
@@ -37906,6 +37955,13 @@
 /obj/structure/platform/stone/kutjevo/west,
 /turf/open_space,
 /area/point_loma/airbase/cave/opening)
+"ciN" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "S";
+	pixel_y = -4
+	},
+/turf/open/new_varadero/dock_concrete,
+/area/point_loma/research_facility/cave/west/opening)
 "ciO" = (
 /obj/structure/platform/stone/kutjevo/east{
 	dir = 2
@@ -37923,6 +37979,16 @@
 /obj/structure/window/framed/shiva/red,
 /turf/open/new_varadero,
 /area/point_loma/airbase/interior/workshop)
+"ciR" = (
+/turf/open/new_varadero/dock_concrete,
+/area/point_loma/research_facility/cave/west/opening)
+"ciS" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "E";
+	layer = 3.33
+	},
+/turf/open/new_varadero/dock_concrete,
+/area/point_loma/research_facility/cave/west/opening)
 "ciT" = (
 /obj/structure/platform_decoration/stone/kutjevo/west,
 /turf/open_space,
@@ -92425,9 +92491,9 @@ bKn
 asb
 aeX
 aeX
-bJG
-btD
-btD
+ciN
+ciE
+ciE
 aeX
 aeX
 cdR
@@ -92465,11 +92531,11 @@ bIA
 bIA
 bIA
 bIA
-bIA
-bIA
-bIA
-bIA
-bIA
+bXR
+bXR
+bXR
+bXR
+bXR
 aeX
 aeX
 aeX
@@ -92606,11 +92672,11 @@ bmJ
 bKo
 bKc
 bJU
-bmJ
+ciR
 bJH
-btD
-btD
-btD
+ciE
+ciE
+ciE
 btD
 bJd
 bJd
@@ -92646,12 +92712,12 @@ aIH
 aIH
 aIH
 aIH
-bIA
-bIA
-bIA
-bIA
-bIA
-bIA
+bXR
+bXR
+bXR
+bXR
+bXR
+bXR
 aeX
 aeX
 aeX
@@ -92791,8 +92857,8 @@ bJV
 bJP
 bJI
 bJF
-btD
-btD
+ciE
+ciE
 btD
 btD
 btD
@@ -92828,13 +92894,13 @@ bIA
 bIA
 bIA
 aIH
-bIA
-bIA
-bIA
-bIA
-bIA
-bIA
-bIA
+bXR
+bXR
+bXR
+bXR
+bXR
+bXR
+bXR
 aeX
 aeX
 aeX
@@ -92970,11 +93036,11 @@ cff
 bJQ
 bJQ
 bJQ
-bJQ
+ciS
 bJJ
-btD
+ciE
 bxt
-btD
+ciE
 btD
 btD
 btD
@@ -93010,13 +93076,13 @@ bIA
 bIA
 bIA
 aIH
-bIA
-bIA
-bIA
-bZR
-bIA
-bIA
-bIA
+bXR
+bXR
+bXR
+bYT
+bXR
+bXR
+bXR
 aeX
 aeX
 aeX
@@ -93152,11 +93218,11 @@ ccI
 ccI
 ccI
 ccI
-ccI
-ccI
-ccI
-ccI
-ccI
+ciE
+ciE
+ciE
+ciE
+ciE
 btD
 btD
 btD
@@ -93192,14 +93258,14 @@ bIA
 bIA
 bIA
 aIH
-bIA
-bIA
-bIA
-bIA
-bIA
-bIA
-bIA
-bIA
+bXR
+bXR
+bXR
+bXR
+bXR
+bXR
+bXR
+bXR
 aeX
 aeX
 aeX
@@ -93335,10 +93401,10 @@ ccI
 ccI
 ccI
 asb
-ccI
-ccI
-ccI
-ccI
+ciE
+ciE
+ciE
+ciE
 ccI
 ccI
 ccI
@@ -93375,13 +93441,13 @@ bIA
 bIA
 aIH
 aeX
-bIA
-bIA
-bju
-bZQ
-bIA
-bIA
-bIA
+bXR
+bXR
+bXY
+bYL
+bXR
+bXR
+bXR
 aeX
 aeX
 aeX
@@ -93518,9 +93584,9 @@ asb
 asb
 asb
 bJK
-bJy
-bJy
-bJy
+ciJ
+ciJ
+ciJ
 bJy
 bJy
 bJy
@@ -93557,13 +93623,13 @@ bIA
 bIA
 aIH
 aeX
-bIA
-bIA
-bIA
-bIA
-bIA
-bIA
-bIA
+bXR
+bXR
+bXR
+bXR
+bXR
+bXR
+bXR
 aeX
 aeX
 aeX
@@ -93701,7 +93767,7 @@ asb
 asb
 bJL
 ccI
-ccI
+ciE
 ccI
 ccI
 ccI
@@ -93739,13 +93805,13 @@ bIA
 bIA
 aIH
 aeX
-bIA
-bIA
-bIA
-bIA
-bIA
-bIA
-bIA
+bXR
+bXR
+bXR
+bXR
+bXR
+bXR
+bXR
 aeX
 aeX
 aeX
@@ -93921,14 +93987,14 @@ bIA
 bIA
 aIH
 aeX
-bIA
-bIA
-bZT
-bIA
-bIA
-bIA
-bIA
-bIA
+bXR
+bXR
+ciD
+bXR
+bXR
+bXR
+bXR
+bXR
 aeX
 aeX
 aeX
@@ -94104,14 +94170,14 @@ aIZ
 aIH
 aeX
 aeX
-bIA
-bIA
-bIA
-bIA
-bIA
-bIA
-bIA
-bIA
+bXR
+bXR
+bXR
+bXR
+bXR
+bXR
+bXR
+bXR
 aeX
 aeX
 bIA
@@ -94286,14 +94352,14 @@ biM
 biE
 bIA
 aeX
-bIA
-bIA
-bIA
-bIA
-bIA
-bIA
-bIA
-bIA
+bXR
+bXR
+bXR
+bXR
+bXR
+bXR
+bXR
+bXR
 aeX
 aeX
 aeX
@@ -94469,14 +94535,14 @@ biE
 bIA
 aeX
 aeX
-bIA
-bIA
-bIA
-bIA
-bIA
-bIA
-bIA
-bIA
+bXR
+bXR
+bXR
+bXR
+bXR
+bXR
+bXR
+bXR
 aeX
 aeX
 bIA
@@ -94652,13 +94718,13 @@ bIA
 bIA
 aeX
 aeX
-bIA
-bIA
-bIA
-bZQ
-bIA
-bIA
-bIA
+bXR
+bXR
+bXR
+bYL
+bXR
+bXR
+bXR
 aeX
 aeX
 bIA
@@ -94834,13 +94900,13 @@ bIA
 bIA
 bIA
 aeX
-bIA
-bIA
-bIA
-bIA
-bIA
-bIA
-bIA
+bXR
+bXR
+bXR
+bXR
+bXR
+bXR
+bXR
 aeX
 aeX
 aeX
@@ -95017,13 +95083,13 @@ bIA
 bIA
 aeX
 caM
-bIA
-bIA
-bZR
-bIA
-bIA
-bIA
-bIA
+bXR
+bXR
+bYT
+bXR
+bXR
+bXR
+bXR
 aeX
 aeX
 aeX
@@ -95200,12 +95266,12 @@ bIA
 bIA
 aeX
 aeX
-bIA
-bIA
-bIA
-bIA
-bIA
-bIA
+bXR
+bXR
+bXR
+bXR
+bXR
+bXR
 aeX
 aeX
 aeX
@@ -95383,11 +95449,11 @@ bIA
 bZQ
 aeX
 aeX
-bIA
-bIA
-bju
-bIA
-bIA
+bXR
+bXR
+bXY
+bXR
+bXR
 bIA
 bIA
 bIA
@@ -95567,9 +95633,9 @@ bIA
 aeX
 aeX
 aeX
-bIA
-bIA
-bIA
+bXR
+bXR
+bXR
 bIA
 bIA
 bIA
@@ -103227,11 +103293,11 @@ bef
 aDJ
 bID
 bID
-bID
-aLX
-bID
-aDJ
-aqr
+afg
+bUI
+afg
+bTh
+aKU
 bID
 aDD
 afy
@@ -103409,11 +103475,11 @@ agJ
 agJ
 agJ
 aeX
-agJ
-agJ
-agJ
-agJ
-agJ
+aRU
+aRU
+aRU
+aRU
+aRU
 agJ
 agJ
 aeY
@@ -103591,11 +103657,11 @@ agJ
 bdm
 agJ
 aeX
-agJ
-agJ
-agJ
-agJ
-agJ
+aRU
+aRU
+aRU
+aRU
+aRU
 agJ
 agJ
 aoh
@@ -103773,11 +103839,11 @@ bID
 aLX
 bID
 aeX
-aLX
-bID
-bID
-aDD
-bID
+bUI
+afg
+afg
+bUx
+afg
 bID
 bID
 afy
@@ -103955,9 +104021,9 @@ bID
 bID
 bID
 aeX
-bID
-bID
-bID
+afg
+afg
+afg
 aeX
 aeX
 bID
@@ -104137,8 +104203,8 @@ bID
 bID
 bID
 aeX
-bID
-bID
+afg
+afg
 aeX
 aeX
 aeX
@@ -104319,8 +104385,8 @@ aDD
 bID
 bID
 aeX
-bID
-bID
+afg
+afg
 aeX
 aeX
 aeX
@@ -104501,12 +104567,12 @@ beg
 bID
 bID
 aeX
-bID
-aDJ
-aDJ
-aDJ
-aDJ
-bID
+afg
+bTh
+bTh
+bTh
+bTh
+afg
 aeX
 asb
 asb
@@ -104682,13 +104748,13 @@ bID
 bID
 bID
 bdo
-aDD
-bID
-aDJ
+bUx
+afg
+bTh
 aPf
-aDJ
-aDJ
-bID
+bTh
+bTh
+afg
 aeX
 asb
 asb
@@ -104864,13 +104930,13 @@ aLX
 bID
 bdo
 bdo
-bID
-bID
-bID
-aDJ
-aqr
-aDJ
-bID
+afg
+afg
+afg
+bTh
+aKU
+bTh
+afg
 aeX
 asb
 asb
@@ -105046,13 +105112,13 @@ bID
 bID
 bID
 bdo
-bdo
-bID
-bID
-bID
-aDJ
-aDD
-bID
+bUK
+afg
+afg
+afg
+bTh
+bUx
+afg
 aeX
 asb
 asb
@@ -105232,9 +105298,9 @@ aeX
 aeX
 aeX
 aeX
-bID
-aDJ
-bID
+afg
+bTh
+afg
 aeX
 asb
 asb

@@ -217,9 +217,16 @@
 	name = "Alpha-Tech Research Facility Cave - West"
 	icon_state = "deepcaves1"
 
+/area/point_loma/research_facility/cave/west/opening
+	name = "Alpha-Tech Research Facility - West  Cave - Sinkhole"
+
 /area/point_loma/research_facility/cave/south
 	name = "Alpha-Tech Research Facility Cave - South"
 	icon_state = "deepcaves2"
+
+/area/point_loma/research_facility/cave/south/opening
+	name = "Alpha-Tech Research Facility - South Cave - Sink Hole"
+	minimap_color = MINIMAP_AREA_HYBRISARESEARCH
 
 /area/point_loma/research_facility/cave/south_east
 	name = "Alpha-Tech Research Facility Cave - South East"
@@ -304,8 +311,10 @@
 	icon_state = "CIC"
 
 /area/point_loma/research_facility/command/mess
+	name = "Alpha-Tech - Executive Mess"
 
 /area/point_loma/research_facility/chapel
+	name = "Alpha-Tech - Chapel"
 //	icon = 'icons/turf/area_almayer.dmi'
 //	icon_state = "CIC"
 
@@ -375,6 +384,10 @@
 	name = "Alpha-Tech Research Facility - Park"
 	minimap_color = MINIMAP_AREA_JUNGLE
 	icon_state = "botany"
+
+/area/point_loma/research_facility/research/park/opening
+	name = "Alpha-Tech Research Facility - Park - Sinkhole"
+	minimap_color = MINIMAP_AREA_HYBRISARESEARCH
 
 /area/point_loma/research_facility/research/west
 	name = "Alpha-Tech Research Facility - West"
