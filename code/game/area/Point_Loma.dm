@@ -186,6 +186,7 @@
 
 /area/point_loma/airbase/cave/north
 	name = "Point Loma Airbase - Caves - North"
+	ceiling = CEILING_UNDERGROUND_ALLOW_CAS
 
 // Alpha-Tech Hardware Corporation Underground Research Facility //
 
