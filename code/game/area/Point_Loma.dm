@@ -219,6 +219,7 @@
 
 /area/point_loma/research_facility/cave/west/opening
 	name = "Alpha-Tech Research Facility - West  Cave - Sinkhole"
+	minimap_color = MINIMAP_AREA_HYBRISARESEARCH
 
 /area/point_loma/research_facility/cave/south
 	name = "Alpha-Tech Research Facility Cave - South"
