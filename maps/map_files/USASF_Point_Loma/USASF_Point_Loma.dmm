@@ -26035,7 +26035,9 @@
 /area/point_loma/airbase/mining_colony/interior/engineering)
 "bwy" = (
 /obj/structure/bed,
-/obj/item/bedsheet/yellow,
+/obj/item/bedsheet/yellow{
+	pixel_x = -2
+	},
 /turf/open/floor/kutjevo/fake_wood,
 /area/point_loma/airbase/mining_colony/interior/corporate)
 "bwz" = (
@@ -40973,9 +40975,8 @@
 /obj/structure/prop/ice_colony/dense/planter_box{
 	dir = 9
 	},
-/obj/structure/flora/bush/ausbushes/var3/sunnybush{
-	icon_state = "fernybush_2";
-	pixel_y = 10
+/obj/structure/flora/bush/ausbushes/var3/fernybush{
+	pixel_y = 11
 	},
 /turf/open/floor/kutjevo/fake_wood,
 /area/point_loma/airbase/mining_colony/interior/corporate)
@@ -41460,8 +41461,8 @@
 	dir = 9
 	},
 /obj/structure/flora/bush/ausbushes/var3/sunnybush{
-	icon_state = "fernybush_2";
-	pixel_y = 10
+	icon_state = "fernybush_1";
+	pixel_y = 12
 	},
 /turf/open/floor/whiteyellow/east,
 /area/point_loma/airbase/mining_colony/interior/corporate)
@@ -41470,6 +41471,29 @@
 	pixel_y = -7
 	},
 /turf/open/floor/white,
+/area/point_loma/airbase/mining_colony/interior/corporate)
+"cub" = (
+/obj/item/trash/cheesie{
+	pixel_y = -7
+	},
+/turf/open/floor/kutjevo/fake_wood,
+/area/point_loma/airbase/mining_colony/interior/corporate)
+"cuc" = (
+/obj/structure/bed/chair{
+	can_buckle = 0;
+	dir = 4;
+	pixel_y = 5
+	},
+/turf/open/floor/plating/wood,
+/area/point_loma/airbase/mining_colony/interior/corporate)
+"cud" = (
+/obj/structure/prop/ice_colony/dense/planter_box{
+	dir = 9
+	},
+/obj/structure/flora/bush/desert/cactus{
+	pixel_y = -4
+	},
+/turf/open/floor/whiteyellow/east,
 /area/point_loma/airbase/mining_colony/interior/corporate)
 "cLw" = (
 /turf/open/floor/almayer_hull/outerhull_dir/west,
@@ -167580,7 +167604,7 @@ atZ
 ajO
 bOZ
 bwN
-bwN
+cuc
 bwN
 bwN
 bOZ
@@ -167763,7 +167787,7 @@ akc
 bOZ
 ctW
 ahD
-bwN
+ahD
 bwN
 bOZ
 agw
@@ -168667,7 +168691,7 @@ bYE
 bPQ
 bOZ
 aHL
-ctZ
+cud
 ctZ
 akB
 bOZ
@@ -169406,7 +169430,7 @@ bOZ
 bOZ
 bOZ
 cta
-bvp
+cub
 bvp
 crh
 bOZ
@@ -170671,7 +170695,7 @@ bYx
 bQR
 bOS
 bOS
-asb
+bOS
 asb
 bOR
 bOR
@@ -170851,8 +170875,8 @@ bPQ
 bYE
 bQR
 bQR
-asb
-asb
+bOS
+bOS
 asb
 asb
 asb
