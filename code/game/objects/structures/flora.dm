@@ -244,7 +244,12 @@ PLANT_CUT_MACHETE = 3 = Needs at least a machete to be cut down
 	icon = 'icons/obj/structures/props/natural/vegetation/ausflora.dmi'
 	density = FALSE
 	fire_flag = FLORA_BURN_NO_SPREAD
+
+/obj/structure/flora/grass/colorable
+	icon = 'icons/obj/structures/props/natural/vegetation/colorable_grass.dmi'
 /*
+
+
 
 ICE GRASS
 

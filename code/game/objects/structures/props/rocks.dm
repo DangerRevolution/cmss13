@@ -58,3 +58,13 @@
 
 /obj/structure/prop/colorable_rock/colorable/alt
 	icon_state = "ground_colorable_alt"
+
+/obj/structure/prop/rock/coastal//Nearly takes up the entire tile, but its intentional, use the coastal-related content to fully realize these rocks.
+	name = "column rocks"
+	desc = "A formation of rocks that shaped itself to a near-hexagonal form."
+	icon_state = "rock_prop_1"
+
+/obj/structure/prop/rock/coastal/big
+	name = "column rocks"
+	desc = "A formation of rocks that shaped itself to a near-hexagonal form."
+	icon_state = "rock_prop_2"

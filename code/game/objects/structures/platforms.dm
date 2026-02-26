@@ -37,6 +37,7 @@
 			I.pixel_x = -16
 			layer = MOB_LAYER
 	overlays += I
+	update_icon()
 
 /obj/structure/platform/initialize_pass_flags(datum/pass_flags_container/PF)
 	..()
@@ -146,6 +147,11 @@
 	playsound(loc, breaking_sound, 25, 1)
 	broken()
 	return XENO_NO_DELAY_ACTION
+
+/obj/structure/platform/broken
+	stat = BROKEN
+	density = FALSE
+	icon_state = "platform_broken"
 
 /obj/structure/platform_decoration
 	name = "platform"
@@ -293,6 +299,12 @@
 /obj/structure/platform/stone/stair_cut/runed_sandstone_right
 	icon_state = "stone_stair_alt"
 	color = "#b29082"
+
+/obj/structure/platform/stone/stair_cut/new_varadero_left
+	icon_state = "nv_rock_stair"
+
+/obj/structure/platform/stone/stair_cut/new_varadero_right
+	icon_state = "nv_rock_stair_alt"
 
 //------------------------------------//
 //       Metal based Platforms        //
