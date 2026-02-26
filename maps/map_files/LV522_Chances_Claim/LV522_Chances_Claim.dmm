@@ -1277,6 +1277,14 @@
 	},
 /turf/open/auto_turf/shale/layer2,
 /area/lv522/outdoors/colony_streets/north_west_street)
+"aeu" = (
+/obj/structure/barricade/handrail{
+	dir = 4
+	},
+/obj/structure/surface/table/almayer,
+/obj/structure/machinery/computer/objective,
+/turf/open/floor/plating,
+/area/lv522/indoors/c_block/cargo)
 "aeD" = (
 /obj/structure/largecrate/random,
 /obj/effect/decal/cleanable/dirt,
@@ -25240,7 +25248,7 @@
 "nkt" = (
 /obj/structure/surface/table/almayer,
 /obj/effect/decal/cleanable/dirt,
-/obj/structure/machinery/prop/almayer/computer/PC{
+/obj/structure/machinery/computer/objective{
 	dir = 8
 	},
 /turf/open/floor/prison/blue_plate/north,
@@ -30981,10 +30989,8 @@
 /area/lv522/atmos/east_reactor/south)
 "qpq" = (
 /obj/structure/surface/table/almayer,
-/obj/structure/machinery/prop/almayer/computer/PC{
-	dir = 1;
-	layer = 3.1;
-	pixel_y = 6
+/obj/structure/machinery/computer/objective{
+	dir = 1
 	},
 /turf/open/floor/prison,
 /area/lv522/indoors/a_block/security/glass)
@@ -66584,7 +66590,7 @@ upr
 uLE
 jnB
 ild
-uLE
+aeu
 lpH
 uKS
 ild
