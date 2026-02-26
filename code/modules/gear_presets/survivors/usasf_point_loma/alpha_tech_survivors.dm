@@ -24,12 +24,14 @@
 	skills = /datum/skills/civilian/survivor/manager // ToDO: Check what manager skills actually are
 	paygrades = list(PAY_SHORT_ATHC1 = JOB_PLAYTIME_TIER_0, PAY_SHORT_ATHC2 = JOB_PLAYTIME_TIER_1, PAY_SHORT_ATHC3 = JOB_PLAYTIME_TIER_2)
 
+
+
 /datum/equipment_preset/survivor/alphatech/corporate/chief_engineer
 	name = "Alpha-Tech Mining Colony Chief Engineer"
 	job_title = JOB_ALPHATECH_CHIEF_ENGINEER
 	assignment = JOB_ALPHATECH_CHIEF_ENGINEER
 	languages = list(LANGUAGE_ENGLISH, LANGUAGE_CHINESE)
-	paygrades = list(PAY_SHORT_NO3 = JOB_PLAYTIME_TIER_0)
+	paygrades = list(PAY_SHORT_ATHC_ENG_CE = JOB_PLAYTIME_TIER_0)
 	skills = /datum/skills/civilian/survivor/engineer // ToDO: Consider making this a CO-like Civ Engineer
 	survivor_variant = ENGINEERING_SURVIVOR
 
@@ -46,6 +48,7 @@
 	name = "Alpha-Tech Research Director"
 	job_title = JOB_ALPHATECH_RESEARCH_DIRECTOR // ToDO: Consider making this a CO-like Civ role
 	assignment = JOB_ALPHATECH_RESEARCH_DIRECTOR
+	paygrades = list(PAY_SHORT_ATHC_SCI_RD = JOB_PLAYTIME_TIER_0)
 	languages = list(LANGUAGE_CHINESE, LANGUAGE_ENGLISH)
 	survivor_variant = SCIENTIST_SURVIVOR
 

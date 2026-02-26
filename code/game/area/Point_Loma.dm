@@ -152,6 +152,10 @@
 	name = "USASF Point Loma Airbase - Exterior"
 	always_unpowered = TRUE // always off
 
+/area/point_loma/airbase/exterior/opening
+	name = "USASF Point Loma Airbase - Sink Hole"
+	minimap_color = MINIMAP_AREA_HYBRISARESEARCH
+
 /area/point_loma/airbase/exterior/crash_site
 	name = "Runway Crash Site"
 	icon_state = "predship"
@@ -186,6 +190,12 @@
 
 /area/point_loma/airbase/cave/north
 	name = "Point Loma Airbase - Caves - North"
+	ceiling = CEILING_UNDERGROUND_ALLOW_CAS
+
+/area/point_loma/airbase/cave/opening
+	name = "Point Loma Airbase - Cave Sinkhole"
+	minimap_color = MINIMAP_AREA_HYBRISARESEARCH
+
 
 // Alpha-Tech Hardware Corporation Underground Research Facility //
 
@@ -207,13 +217,22 @@
 	name = "Alpha-Tech Research Facility Cave - West"
 	icon_state = "deepcaves1"
 
+/area/point_loma/research_facility/cave/west/opening
+	name = "Alpha-Tech Research Facility - West  Cave - Sinkhole"
+	minimap_color = MINIMAP_AREA_HYBRISARESEARCH
+
 /area/point_loma/research_facility/cave/south
 	name = "Alpha-Tech Research Facility Cave - South"
 	icon_state = "deepcaves2"
 
+/area/point_loma/research_facility/cave/south/opening
+	name = "Alpha-Tech Research Facility - South Cave - Sink Hole"
+	minimap_color = MINIMAP_AREA_HYBRISARESEARCH
+
 /area/point_loma/research_facility/cave/south_east
 	name = "Alpha-Tech Research Facility Cave - South East"
 	icon_state = "deepcaves3"
+
 
 /area/point_loma/research_facility/hallway
 	name = "Alpha-Tech Hardware - Research Facility Hallway"
@@ -293,8 +312,10 @@
 	icon_state = "CIC"
 
 /area/point_loma/research_facility/command/mess
+	name = "Alpha-Tech - Executive Mess"
 
 /area/point_loma/research_facility/chapel
+	name = "Alpha-Tech - Chapel"
 //	icon = 'icons/turf/area_almayer.dmi'
 //	icon_state = "CIC"
 
@@ -364,6 +385,10 @@
 	name = "Alpha-Tech Research Facility - Park"
 	minimap_color = MINIMAP_AREA_JUNGLE
 	icon_state = "botany"
+
+/area/point_loma/research_facility/research/park/opening
+	name = "Alpha-Tech Research Facility - Park - Sinkhole"
+	minimap_color = MINIMAP_AREA_HYBRISARESEARCH
 
 /area/point_loma/research_facility/research/west
 	name = "Alpha-Tech Research Facility - West"
