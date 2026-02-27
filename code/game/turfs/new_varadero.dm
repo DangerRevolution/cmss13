@@ -872,24 +872,6 @@
 	dir = EAST
 //================================================================== NEW VARADERO WALL TYPES
 
-//---------------BASALT ROCK COLUMNS
-
-/turf/closed/wall/rock_column
-	name = "rock wall"
-	desc = "A set of near-hexagonal rocks."
-	icon = 'icons/turf/walls/new_varadero/nv_rock_wall.dmi'
-	icon_state = "nv_rock"
-	walltype = WALL_CAVE
-	turf_flags = TURF_HULL
-
-/turf/closed/wall/rock_column/solid
-	name = "rock wall"
-	desc = "A set of near-hexagonal rocks."
-	icon = 'icons/turf/walls/new_varadero/nv_rock_wall_alt.dmi'
-	icon_state = "nv_rock"
-	walltype = WALL_CAVE
-	turf_flags = TURF_HULL
-
 //---------------FOUNDATION WALLS
 
 /turf/closed/wall/new_varadero
