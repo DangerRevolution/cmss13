@@ -154,3 +154,16 @@
 
 /obj/effect/decal/floor_symbol/alpha_tech/ne_1
 	icon_state = "NE_1"
+
+/obj/effect/decal/floor_symbol/alpha_tech/small
+	icon = 'icons/effects/alphatech_logo64x64.dmi'
+	icon_state = "alphatech_dam_0"
+
+/obj/effect/decal/floor_symbol/alpha_tech/small/dam_1
+	icon_state = "alphatech_dam_1"
+
+/obj/effect/decal/floor_symbol/alpha_tech/small/dam_2
+	icon_state = "alphatech_dam_2"
+
+/obj/effect/decal/floor_symbol/alpha_tech/small/dam_3
+	icon_state = "alphatech_dam_3"
