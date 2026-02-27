@@ -5241,9 +5241,6 @@
 /obj/effect/decal/cleanable/liquid_fuel,
 /turf/open/new_varadero/taupe_concrete/grate_s,
 /area/point_loma/airbase/interior/fuel_storage)
-"aqb" = (
-/turf/closed/wall/rock/brown,
-/area/point_loma/airbase/exterior/east)
 "aqc" = (
 /obj/structure/machinery/door_control{
 	name = "Storage Unit Control";
@@ -156221,7 +156218,7 @@ bQd
 bQd
 asb
 asb
-aqb
+asb
 asb
 bQd
 bPq
