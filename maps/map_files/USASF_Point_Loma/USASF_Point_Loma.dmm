@@ -14701,9 +14701,7 @@
 /turf/open/floor/darkred2/southwest,
 /area/point_loma/airbase/interior/cargo)
 "aQL" = (
-/turf/open/new_varadero/alt_concrete/warning{
-	dir = 2
-	},
+/turf/open/new_varadero/alt_concrete/warning/south,
 /area/point_loma/airbase/interior/workshop/upper)
 "aQM" = (
 /obj/structure/machinery/power/power_generator/port_gen/pacman,
@@ -15131,9 +15129,7 @@
 	pixel_x = 10;
 	pixel_y = -6
 	},
-/turf/open/new_varadero/alt_concrete/warning/corner{
-	dir = 6
-	},
+/turf/open/new_varadero/alt_concrete/warning/corner/southeast,
 /area/point_loma/airbase/interior/workshop/upper)
 "aRZ" = (
 /obj/structure/platform_decoration/stone/kutjevo,
@@ -17398,7 +17394,6 @@
 /turf/open/floor/plating/platingdmg3,
 /area/point_loma/research_facility/research/east)
 "aYN" = (
-/obj/effect/decal/floor_symbol/alpha_tech,
 /turf/open/new_varadero/alt_concrete/floor,
 /area/point_loma/airbase/interior/workshop)
 "aYO" = (
@@ -22651,9 +22646,11 @@
 	pixel_y = -6;
 	pixel_x = -10
 	},
-/turf/open/new_varadero/alt_concrete/warning/corner{
-	dir = 10
+/obj/effect/decal/floor_symbol/alpha_tech/small{
+	pixel_y = 19;
+	pixel_x = 16
 	},
+/turf/open/new_varadero/alt_concrete/warning/corner/southwest,
 /area/point_loma/airbase/interior/workshop/upper)
 "bmV" = (
 /obj/structure/pipes/standard/simple/hidden/green,
@@ -22906,10 +22903,6 @@
 	},
 /turf/open/floor/shiva/yellow,
 /area/point_loma/airbase/interior/garage)
-"bnE" = (
-/turf/open/floor/plating/catwalk,
-/turf/open/floor/plating/catwalk,
-/area/point_loma/airbase/interior/workshop)
 "bnF" = (
 /obj/structure/bed/chair/bolted{
 	dir = 8
@@ -159500,7 +159493,7 @@ bQd
 bPq
 aTV
 apV
-bnE
+apV
 bkX
 aXj
 aXj
