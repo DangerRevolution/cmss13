@@ -5241,6 +5241,10 @@
 /obj/effect/decal/cleanable/liquid_fuel,
 /turf/open/new_varadero/taupe_concrete/grate_s,
 /area/point_loma/airbase/interior/fuel_storage)
+"aqb" = (
+/obj/structure/machinery/power/apc/no_power/west,
+/turf/open/floor/corsat/green/west,
+/area/point_loma/research_facility/dorms)
 "aqc" = (
 /obj/structure/machinery/door_control{
 	name = "Storage Unit Control";
@@ -11792,7 +11796,8 @@
 /area/point_loma/research_facility/research/west)
 "aIv" = (
 /obj/structure/machinery/power/apc/no_power/north,
-/turf/open/new_varadero/sidewalk/sidewalkfull,
+/obj/effect/decal/warning_stripes/asteroid,
+/turf/open/floor/new_varadero/alt_concrete/floor,
 /area/point_loma/airbase/interior/fire_station)
 "aIw" = (
 /obj/structure/pipes/vents/pump,
@@ -12061,6 +12066,10 @@
 	},
 /turf/open/hybrisa/street/roadlines,
 /area/point_loma/airbase/interior/hospital)
+"aJg" = (
+/obj/structure/machinery/power/apc/fully_broken/no_cell/west,
+/turf/open/floor/plating/burnt_platingdmg3,
+/area/point_loma/research_facility/crash_site)
 "aJh" = (
 /obj/structure/bed/chair/comfy/beige{
 	dir = 8
@@ -12087,8 +12096,9 @@
 /turf/open/floor/corsat,
 /area/shuttle/drop1/point_loma)
 "aJl" = (
+/obj/effect/decal/warning_stripes/asteroid,
 /obj/structure/machinery/power/apc/no_power/south,
-/turf/open/new_varadero/dock_concrete,
+/turf/open/floor/new_varadero/alt_concrete/floor,
 /area/point_loma/research_facility/super_death_cannon/cannon)
 "aJm" = (
 /obj/structure/machinery/big_computers/messaging_server/black{
@@ -13775,14 +13785,16 @@
 /turf/open_space,
 /area/point_loma/airbase/cave/opening)
 "aNS" = (
-/turf/open/new_varadero/alt_concrete/floor,
+/obj/effect/decal/warning_stripes/asteroid,
+/turf/open/floor/new_varadero/alt_concrete/floor,
 /area/point_loma/airbase/mining_colony/interior/engineering/communications)
 "aNT" = (
 /turf/open/floor/shiva/blue,
 /area/point_loma/airbase/mining_colony/interior/living_quarters)
 "aNU" = (
 /obj/structure/machinery/power/apc/power/east,
-/turf/open/new_varadero/alt_concrete/floor,
+/obj/effect/decal/warning_stripes/asteroid,
+/turf/open/floor/new_varadero/alt_concrete/floor,
 /area/point_loma/airbase/mining_colony/interior/engineering/communications)
 "aNV" = (
 /obj/item/shard/shrapnel,
@@ -23907,8 +23919,9 @@
 /turf/open/new_varadero/alt_concrete/floor,
 /area/point_loma/research_facility/engineering)
 "bqH" = (
-/obj/structure/machinery/power/apc/no_power/north,
-/turf/open/new_varadero/alt_concrete/floor,
+/obj/effect/decal/warning_stripes/asteroid,
+/obj/structure/machinery/power/apc/power/north,
+/turf/open/floor/new_varadero/alt_concrete/floor,
 /area/point_loma/research_facility/engineering)
 "bqI" = (
 /obj/structure/machinery/firealarm{
@@ -34097,7 +34110,6 @@
 /area/point_loma/airbase/interior/fuel_storage)
 "bWI" = (
 /obj/structure/flora/pottedplant/random,
-/obj/structure/machinery/power/apc/no_power/west,
 /turf/open/new_varadero/taupe_concrete/warning/corner_edge/southwest,
 /area/point_loma/airbase/interior/fuel_storage)
 "bWJ" = (
@@ -34114,7 +34126,9 @@
 	pixel_x = -5;
 	pixel_y = 14
 	},
-/turf/open/new_varadero/taupe_concrete,
+/obj/structure/machinery/power/apc/no_power/east,
+/obj/effect/decal/warning_stripes/asteroid,
+/turf/open/floor/new_varadero/alt_concrete/floor,
 /area/point_loma/airbase/interior/fuel_storage)
 "bWL" = (
 /obj/structure/largecrate/random/barrel/true_random{
@@ -98493,7 +98507,7 @@ aFk
 aFk
 aFk
 cek
-cek
+aqb
 cek
 acT
 cdT
@@ -100479,7 +100493,7 @@ cdE
 cdE
 cdE
 bpi
-aFk
+aJg
 aFk
 bqf
 bqf
