@@ -5026,5 +5026,5 @@
 	name = "foundation ground"
 	icon_state = "dark_asteroidfloor_alt"
 	icon = 'icons/turf/floors/new_varadero/concrete_bits.dmi'
-	plating_type = /turf/open/new_varadero/alt_concerete
+	plating_type = /turf/open/new_varadero/alt_concrete
 
