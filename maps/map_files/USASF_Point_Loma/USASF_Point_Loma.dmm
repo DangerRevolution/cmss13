@@ -153,6 +153,17 @@
 	},
 /turf/open/floor/corsat/purple/west,
 /area/point_loma/airbase/interior/research)
+"aaB" = (
+/obj/structure/pipes/standard/simple/hidden/purple{
+	dir = 4
+	},
+/obj/structure/machinery/colony_floodlight_switch/electrified_fence_switch{
+	pixel_y = 25;
+	is_on = 1;
+	ispowered = 1
+	},
+/turf/open/floor/corsat/red/north,
+/area/point_loma/research_facility/security_hq)
 "aaC" = (
 /obj/structure/fence/slim/dark/door,
 /obj/effect/decal/medical_decals{
@@ -9283,7 +9294,8 @@
 "aBa" = (
 /obj/structure/fence/slim{
 	cut = 1;
-	name = "destroyed fence"
+	name = "destroyed fence";
+	density = 0
 	},
 /turf/open/auto_turf/sand_white/layer1,
 /area/point_loma/airbase/exterior/west)
@@ -13704,7 +13716,8 @@
 "aNG" = (
 /obj/structure/fence/slim{
 	cut = 1;
-	name = "destroyed fence"
+	name = "destroyed fence";
+	density = 0
 	},
 /turf/open/auto_turf/hybrisa_auto_turf/layer1,
 /area/point_loma/airbase/exterior/west)
@@ -26724,7 +26737,8 @@
 "bzk" = (
 /obj/structure/fence/slim{
 	cut = 1;
-	name = "destroyed fence"
+	name = "destroyed fence";
+	density = 0
 	},
 /turf/open/auto_turf/sand_white/layer1,
 /area/point_loma/airbase/exterior/crash_site)
@@ -26874,7 +26888,8 @@
 "bzH" = (
 /obj/structure/fence/slim{
 	cut = 1;
-	name = "destroyed fence"
+	name = "destroyed fence";
+	density = 0
 	},
 /turf/open/new_varadero/dock_concrete,
 /area/point_loma/airbase/exterior/crash_site)
@@ -109939,7 +109954,7 @@ aqf
 bGG
 aqf
 aqf
-bGt
+aaB
 biV
 aqf
 bjI
@@ -165605,7 +165620,7 @@ asb
 bRT
 bRT
 bRT
-bPO
+bRT
 bPO
 bPO
 aTT
