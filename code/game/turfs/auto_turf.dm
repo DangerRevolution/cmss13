@@ -453,7 +453,7 @@
 	name = "deep water transition"
 	icon = 'icons/turf/floors/new_varadero/seadeep_auto_turf_stuff.dmi'
 	icon_state = "seadeep_0"
-	icon_prefix = "seadeep_0"
+	icon_prefix = "seadeep"
 	layer_name = list("sea water", "deep water")
 	is_weedable = NOT_WEEDABLE
 
