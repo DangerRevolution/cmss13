@@ -69,6 +69,7 @@ type Data = {
   ob_safety: Boolean;
   supply_cooldown: number;
   operator: string;
+  eye_mode: BooleanLike; // NEW
 };
 
 export const OverwatchConsole = (props) => {
@@ -196,7 +197,8 @@ const SquadPanel = (props) => {
 const MainDashboard = (props) => {
   const { act, data } = useBackend<Data>();
 
-  let { current_squad, primary_objective, secondary_objective } = data;
+  let { current_squad, primary_objective, secondary_objective, eye_mode } =
+    data;
 
   return (
     <Section
@@ -204,6 +206,18 @@ const MainDashboard = (props) => {
       title={current_squad + ' Overwatch | Dashboard'}
       buttons={
         <>
+          <Button
+            icon={eye_mode ? 'eye-slash' : 'eye'}
+            color={eye_mode ? 'good' : 'yellow'}
+            tooltip={
+              eye_mode
+                ? 'Exit Eye Mode'
+                : 'Enter Eye Mode – Ctrl+click to move, Shift+Middle‑click to point'
+            }
+            onClick={() => act('toggle_eye_mode')}
+          >
+            {eye_mode ? 'Exit Eye' : 'Eye Mode'}
+          </Button>
           <Button icon="user" onClick={() => act('change_operator')}>
             Operator - {data.operator}
           </Button>

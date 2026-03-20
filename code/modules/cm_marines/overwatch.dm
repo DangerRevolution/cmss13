@@ -4,6 +4,9 @@
 #define HIDE_GROUND 1
 #define HIDE_NONE 0
 
+// NEW: Eye mode active flag
+#define EYE_MODE_ACTIVE 1
+
 GLOBAL_LIST_EMPTY_TYPED(active_overwatch_consoles, /obj/structure/machinery/computer/overwatch)
 
 /obj/structure/machinery/computer/overwatch
@@ -70,6 +73,12 @@ GLOBAL_LIST_EMPTY_TYPED(active_overwatch_consoles, /obj/structure/machinery/comp
 	/// making a shipside announcement
 	COOLDOWN_DECLARE(cooldown_shipside_message)
 
+	// NEW: Eye mode variables
+	var/eye_mode = FALSE
+	var/mob/hologram/overwatch_eye/eye
+	var/next_point = 0
+	var/point_delay = 1 SECONDS
+
 /obj/structure/machinery/computer/overwatch/groundside_operations
 	name = "Groundside Operations Console"
 	desc = "This can be used for various important functions."
@@ -93,6 +102,7 @@ GLOBAL_LIST_EMPTY_TYPED(active_overwatch_consoles, /obj/structure/machinery/comp
 	GLOB.active_overwatch_consoles -= src
 	current_orbital_cannon = null
 	concurrent_users = null
+	QDEL_NULL(eye)   // NEW: clean up eye
 	if(!camera_holder)
 		return ..()
 	disconnect_holder()
@@ -106,6 +116,7 @@ GLOBAL_LIST_EMPTY_TYPED(active_overwatch_consoles, /obj/structure/machinery/comp
 	GLOB.active_overwatch_consoles -= src
 	current_orbital_cannon = null
 	concurrent_users = null
+	QDEL_NULL(eye)   // NEW: clean up eye
 	if(!camera_holder)
 		return ..()
 	disconnect_holder()
@@ -480,6 +491,7 @@ GLOBAL_LIST_EMPTY_TYPED(active_overwatch_consoles, /obj/structure/machinery/comp
 	var/list/data = list()
 
 	data["theme"] = ui_theme
+	data["eye_mode"] = eye_mode   // NEW: add eye mode status
 
 	if(!current_squad)
 		data["squad_list"] = list()
@@ -526,6 +538,7 @@ GLOBAL_LIST_EMPTY_TYPED(active_overwatch_consoles, /obj/structure/machinery/comp
 	var/list/data = list()
 
 	data["theme"] = ui_theme
+	data["eye_mode"] = eye_mode   // NEW: add eye mode status
 
 	if(!current_squad)
 		data["squad_list"] = list()
@@ -637,6 +650,7 @@ GLOBAL_LIST_EMPTY_TYPED(active_overwatch_consoles, /obj/structure/machinery/comp
 					var/obj/item/card/id/ID = human_operator.get_idcard()
 					current_squad.send_squad_message("Attention. [ID ? "[ID.rank] ":""][operator ? "[operator.name]":"sysadmin"] is no longer your Overwatch officer. Overwatch functions deactivated.", displayed_icon = src)
 					visible_message("[icon2html(src, viewers(src))] [SPAN_BOLDNOTICE("Overwatch systems deactivated. Goodbye, [ID ? "[ID.rank] ":""][operator ? "[operator.name]":"sysadmin"].")]")
+			QDEL_NULL(eye)   // NEW: clean up eye on logout
 			operator = null
 			current_squad = null
 			if(cam)
@@ -848,6 +862,34 @@ GLOBAL_LIST_EMPTY_TYPED(active_overwatch_consoles, /obj/structure/machinery/comp
 					var/obj/item/card/id/ID = human.get_idcard()
 					visible_message("[icon2html(src, viewers(src))] [SPAN_BOLDNOTICE("Basic overwatch systems initialized. Welcome, [ID ? "[ID.rank] ":""][operator.name]. Please select a squad.")]")
 					current_squad?.send_squad_message("Attention. Your Overwatch officer is now [ID ? "[ID.rank] ":""][operator.name].", displayed_icon = src)
+				return TRUE
+
+		// NEW: Toggle eye mode
+		if("toggle_eye_mode")
+			if(eye_mode)
+				// Exit eye mode
+				QDEL_NULL(eye)
+				eye_mode = FALSE
+				to_chat(user, "[icon2html(src, user)] [SPAN_NOTICE("Eye mode deactivated.")]")
+				return TRUE
+			else
+				// Enter eye mode
+				if(!current_squad)
+					to_chat(user, "[icon2html(src, user)] [SPAN_WARNING("No squad selected!")]")
+					return
+				if(eye)
+					QDEL_NULL(eye)
+				var/turf/start_turf = get_turf(src)
+				// Start at the console's location; if not on ground, use the first ground level's center
+				if(!is_ground_level(start_turf.z))
+					var/list/ground_zs = SSmapping.levels_by_trait(ZTRAIT_GROUND)
+					if(length(ground_zs))
+						start_turf = locate(round(world.maxx/2), round(world.maxy/2), ground_zs[1])
+					else
+						start_turf = locate(1, 1, 1) // fallback
+				eye = new /mob/hologram/overwatch_eye(start_turf, user, src)
+				eye_mode = TRUE
+				to_chat(user, "[icon2html(src, user)] [SPAN_NOTICE("Eye mode activated. Ctrl+click to move, Shift+Middle‑click to point.")]")
 				return TRUE
 
 		// groundside ops functions
@@ -1675,6 +1717,101 @@ GLOBAL_LIST_EMPTY_TYPED(active_overwatch_consoles, /obj/structure/machinery/comp
 /obj/structure/supply_drop/upp4
 	icon_state = "deltadrop"
 	squad = SQUAD_UPP_4
+
+// NEW: Overwatch eye mob
+/mob/hologram/overwatch_eye
+	name = "Overwatch Eye"
+	action_icon_state = "eye"
+	motion_sensed = TRUE
+	density = FALSE
+	invisibility = INVISIBILITY_OBSERVER
+	see_in_dark = 8
+	lighting_alpha = LIGHTING_PLANE_ALPHA_MOSTLY_INVISIBLE
+
+	var/mob/is_watching
+	var/next_point = 0
+	var/point_delay = 1 SECONDS
+	var/obj/structure/machinery/computer/overwatch/console
+
+// Define the click handler before Initialize so PROC_REF can find it
+/mob/hologram/overwatch_eye/proc/handle_eye_click(mob/user, atom/A, mods)
+	SIGNAL_HANDLER
+	var/turf/T = get_turf(A)
+	if(!istype(T))
+		return
+
+	// Ctrl+Click to move the eye
+	if(mods[CTRL_CLICK])
+		if(!(check_turf_allowed(src, T) & COMPONENT_TURF_ALLOW_MOVEMENT))
+			to_chat(user, SPAN_WARNING("You cannot move there."))
+			return COMPONENT_INTERRUPT_CLICK
+		forceMove(T)
+		return COMPONENT_INTERRUPT_CLICK
+
+	// Shift+Middle‑click to point (visible to all nearby)
+	if(mods[SHIFT_CLICK] && mods[MIDDLE_CLICK])
+		if(next_point > world.time)
+			return COMPONENT_INTERRUPT_CLICK
+		next_point = world.time + point_delay
+
+		var/message = SPAN_NOTICE("[user] points at [A].")
+		to_chat(user, message)
+		for(var/mob/M in viewers(7, src))
+			if(M == user)
+				continue
+			to_chat(M, message)
+
+		var/obj/effect/overlay/temp/point/big/greyscale/point = new(T, src, A)
+		point.color = "#00ff00" // overwatch green
+		return COMPONENT_INTERRUPT_CLICK
+
+/mob/hologram/overwatch_eye/Initialize(mapload, mob/living/user, obj/structure/machinery/computer/overwatch/source_console)
+	. = ..()
+	if(!user || !source_console)
+		return INITIALIZE_HINT_QDEL
+	console = source_console
+	linked_mob = user
+	faction = source_console.faction
+
+	RegisterSignal(user, COMSIG_MOB_POST_CLICK, PROC_REF(handle_eye_click))   // now references the proc defined above
+	RegisterSignal(user, COMSIG_MOB_LOGOUT, PROC_REF(exit_eye))
+	RegisterSignal(src, COMSIG_MOVABLE_TURF_ENTER, PROC_REF(check_turf_allowed))
+	RegisterSignal(console, COMSIG_PARENT_QDELETING, PROC_REF(exit_eye))
+
+	user.sight |= SEE_TURFS
+	if(user.client)
+		user.client.change_view(GLOB.world_view_size + 2)
+
+/mob/hologram/overwatch_eye/Destroy()
+	if(linked_mob)
+		UnregisterSignal(linked_mob, list(COMSIG_MOB_POST_CLICK, COMSIG_MOB_LOGOUT))
+		linked_mob.sight &= ~SEE_TURFS
+		if(linked_mob.client)
+			linked_mob.client.change_view(GLOB.world_view_size)
+		linked_mob.reset_view()
+	if(console)
+		console.eye_mode = FALSE
+		console.eye = null
+		UnregisterSignal(console, COMSIG_PARENT_QDELETING)
+	return ..()
+
+/mob/hologram/overwatch_eye/proc/exit_eye()
+	SIGNAL_HANDLER
+	qdel(src)
+
+/mob/hologram/overwatch_eye/proc/check_turf_allowed(mob/self, turf/to_enter)
+	SIGNAL_HANDLER
+	if(!is_ground_level(to_enter.z))
+		return COMPONENT_TURF_DENY_MOVEMENT
+	if(istype(to_enter, /turf/open/space) || is_type_in_list(to_enter, console?.invalid_turfs))
+		return COMPONENT_TURF_DENY_MOVEMENT
+	return COMPONENT_TURF_ALLOW_MOVEMENT
+
+/mob/hologram/overwatch_eye/handle_view(mob/M, atom/target)
+	if(M.client)
+		M.client.perspective = EYE_PERSPECTIVE
+		M.client.set_eye(src)
+	return COMPONENT_OVERRIDE_VIEW
 
 #undef HIDE_ALMAYER
 #undef HIDE_GROUND
