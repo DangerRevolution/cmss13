@@ -463,9 +463,16 @@
 		new_order.orderedby = MAIN_AI_SYSTEM
 		new_order.approvedby = MAIN_AI_SYSTEM
 		GLOB.supply_controller.shoppinglist += new_order
+		var/list/datum/map_config/configs
+		var/datum/map_config/ground_map = configs[GROUND_MAP]
+		if(ground_map.disable_ship_map) // This should be a seperate gamemode so we leave the crash here.
+			CRASH("ares_autodoc_check attempted to search for shipside autodocs on a map with no shipside")
 		for(var/obj/structure/machinery/medical_pod/autodoc/target in GLOB.machines)
-			if(is_mainship_level(target.z))
-				target.skilllock = SKILL_SURGERY_DEFAULT // lowers skill-lock to 0
+			if(!ground_map.disable_ship_map)
+				if(is_mainship_level(target.z))
+					target.skilllock = SKILL_SURGERY_DEFAULT // lowers skill-lock to 0
+			else
+				target.skilllock = SKILL_SURGERY_DEFAULT // if shipmap is disabled, we still lower the skill on every autodoc to 0
 		ai_silent_announcement("WARNING: Cryopod release cycle DELAYED for MEDICAL PERSONNEL. Releasing Emergency Override Disks for AUTODOC Systems.", ".G")
 		return log_admin("No Shipside Doctor found = Autodoc Upgrade Supplies ordered and AutoDoc skill locks released.")
 
