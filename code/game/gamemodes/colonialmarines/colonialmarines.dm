@@ -456,6 +456,9 @@
 			surgeon_found = TRUE
 			break
 	if(!surgeon_found)
+
+		// Buy Autodoc Disks on ASRS
+
 		var/datum/supply_order/new_order = new()
 		new_order.ordernum = GLOB.supply_controller.ordernum++
 		var/actual_type = GLOB.supply_packs_types["ARES Emergency Autodoc Supplies"]
@@ -463,6 +466,9 @@
 		new_order.orderedby = MAIN_AI_SYSTEM
 		new_order.approvedby = MAIN_AI_SYSTEM
 		GLOB.supply_controller.shoppinglist += new_order
+
+		// Handle Autodoc skill removals
+
 		var/list/datum/map_config/configs
 		var/datum/map_config/ground_map = configs[GROUND_MAP]
 		if(ground_map.disable_ship_map) // This should be a seperate gamemode so we leave the crash here.
