@@ -469,7 +469,7 @@
 
 		// Handle Autodoc skill removals
 
-		var/list/datum/map_config/configs
+		var/list/datum/map_config/configs // A check like this should probably be a proc in and of itself?
 		var/datum/map_config/ground_map = configs[GROUND_MAP]
 		if(ground_map.disable_ship_map) // This should be a seperate gamemode so we leave the crash here.
 			CRASH("ares_autodoc_check attempted to search for shipside autodocs on a map with no shipside")
